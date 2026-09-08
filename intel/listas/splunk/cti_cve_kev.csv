@@ -19,4 +19,3 @@ CVE-2022-0995,Linux,Kernel,Linux Kernel Out-of-Bounds Write Vulnerability,2026-0
 CVE-2026-8452,Citrix,NetScaler ADC and NetScaler Gateway,Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability,2026-08-26,Unknown
 CVE-2019-1068,Microsoft,SQL Server,Microsoft SQL Server Remote Code Execution Vulnerability,2026-08-26,Unknown
 CVE-2026-60004,Gitea,Gitea,Gitea Code Injection Vulnerability,2026-08-25,Unknown
-CVE-2026-21962,Oracle,HTTP Server and Oracle Weblogic Server Proxy Plug-in,Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability,2026-08-24,Unknown
