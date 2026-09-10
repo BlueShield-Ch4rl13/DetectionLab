@@ -1,4 +1,8 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-19490,Citrix,NetScaler,Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability,2026-09-09,Unknown
+CVE-2025-25249,Fortinet,Multiple Products,Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability,2026-09-09,Unknown
+CVE-2026-87491,Google,Chromium V8,Google Chromium V8 Out of Bounds Write Vulnerability,2026-09-09,Unknown
+CVE-2026-20079,Cisco,Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management,Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability,2026-09-09,Unknown
 CVE-2026-75650,Adobe,Commerce and Magento,Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability,2026-09-08,Unknown
 CVE-2026-81963,Microsoft,Windows,Microsoft Windows Link Following Vulnerability,2026-09-08,Unknown
 CVE-2026-86218,N-able,N-central,N-able N-central Static Code Injection Vulnerability,2026-09-08,Unknown
@@ -16,9 +20,3 @@ CVE-2026-81578,PaperCut,NG/MF,PaperCut NG/MF Missing Authentication for Critical
 CVE-2023-49105,ownCloud,ownCloud,ownCloud Improper Authentication Vulnerability,2026-08-27,Unknown
 CVE-2026-53362,Linux,Kernel,Linux Kernel Unspecified Vulnerability,2026-08-27,Unknown
 CVE-2026-66384,JFrog,Artifactory,JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability,2026-08-27,Unknown
-CVE-2021-23758,Ajax.NET Professional,Ajax.NET Professional,Ajax.NET Professional Deserialization of Untrusted Data Vulnerability,2026-08-26,Unknown
-CVE-2015-3246,Red Hat,Libuser,Red Hat Libuser Race Condition Vulnerability,2026-08-26,Unknown
-CVE-2015-5287,Red Hat,Automatic Bug Reporting Tool,Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability,2026-08-26,Unknown
-CVE-2022-0995,Linux,Kernel,Linux Kernel Out-of-Bounds Write Vulnerability,2026-08-26,Unknown
-CVE-2026-8452,Citrix,NetScaler ADC and NetScaler Gateway,Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability,2026-08-26,Unknown
-CVE-2019-1068,Microsoft,SQL Server,Microsoft SQL Server Remote Code Execution Vulnerability,2026-08-26,Unknown

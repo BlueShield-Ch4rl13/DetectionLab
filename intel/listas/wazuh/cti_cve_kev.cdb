@@ -1,3 +1,7 @@
+CVE-2026-19490:Citrix NetScaler
+CVE-2025-25249:Fortinet Multiple Products
+CVE-2026-87491:Google Chromium V8
+CVE-2026-20079:Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management
 CVE-2026-75650:Adobe Commerce and Magento
 CVE-2026-81963:Microsoft Windows
 CVE-2026-86218:N-able N-central
@@ -15,9 +19,3 @@ CVE-2026-81578:PaperCut NG/MF
 CVE-2023-49105:ownCloud ownCloud
 CVE-2026-53362:Linux Kernel
 CVE-2026-66384:JFrog Artifactory
-CVE-2021-23758:Ajax.NET Professional Ajax.NET Professional
-CVE-2015-3246:Red Hat Libuser
-CVE-2015-5287:Red Hat Automatic Bug Reporting Tool
-CVE-2022-0995:Linux Kernel
-CVE-2026-8452:Citrix NetScaler ADC and NetScaler Gateway
-CVE-2019-1068:Microsoft SQL Server

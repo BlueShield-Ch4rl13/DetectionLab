@@ -1,63 +1,112 @@
-a07bc08eded18cc7317216cbbd7032d2:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-11d6a0c1000576915584c49c7039206bbb4c24d1:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-b79dfdc1eed860e0b76c629d6adfce251db379b0b45a6d728d4ef483f7551420:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-e315687a1dfe61ef4a5a5642214db6d3b2b05d81391285eebc2af664641a26a7:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-d4a15b847786c75a383ce0cb0e5e139d:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-d342d8223a362791ce2cc1ab45725eb0a37fd559:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-fced27f6d57702565353ecc11722533b:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-1a3374ffac5b0a62467612f264c49792d206304d4514409c982325c91231375d:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-4352cabaa451e5a894535fbcc4d46628701303322a13745cb5479d7d0534ae8e:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-d2fbf9eb75c495bfea48790d3b228fab0c15a282419c3d3f5e49294c4e1a3e82:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-d61217ca0bca83204302fa7b41935ce36f73764559c156d5c980f2fedddffb6e:StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack|baja
-207e0d47c4e5493ef7313eb1faeb1c6195923c89f263e548609a6838dd91ec0c:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-259d8eddb6caf509d7bffa2b4c0dd7d89668800c870f529729ac2efdc1853fb6:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-6700e30a3224248085d30f2eb727cea28dec288355fca6753449a26d1c1d1eee:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-86a5fb2f14d175d1c13a7b49b55b968b2a5e96afc944d85a31b3db906af00beb:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-87db7138a80117ddf2989827c1dde09ee73c7a252d511c74ed66af2fe34e2987:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-8e988b915b75dd749e3f4e1ca7ee21746885b4fe34e8a246e6f10f5d892a675f:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-8edd653910f3217c96a603e8ce9e5e409d3b8674476f22e0a3afe870bf3870b1:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-9402c0198ae5c8bed14cdeaabe7e8b25625debbc62a900cfcdb82d34a35ab528:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-9c6b269e5087a40b4552f72e9ff13d9b39e433af5075ad68f57e9b5240a590d8:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-a43bf7f81507c8f9d0942fed331e7590a43044a6d219ec1005974bf1a81974a1:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-b4e3ca8f44477b9ade1272f92516202f83a80219c8bd6176527a6d624214e893:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-e46aee4ca43ba66666f6572c62365cf57642f2cf1f6eca00fcf8eb33a291d66d:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-f031c00f592aa5e98893b4532f743362fed7fb0a485e8a3c0ad4de677f1d7415:PEEP: A Browser RAT Posing as a Chrome Extension|baja
-f1bd5817678f498966f033f61b617dee5c8e81191901fea7c4a89146bfe91091:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-10780939962b54addc9d31f57d80edfc:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-1523a2fcc901965ab4568d9fe829e4af:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-500e0bc0d7579fb338912770964076fe:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-685bfc6b2c29fbc16cfad908894add55:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-7a53089053b1381742856a5cf2b95f8b:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-8db2f20b719dcb7029d6296505622093:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-900e832c10d851bbdef3fb191a15db0e:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-a2015665a3e18bf0ef86e3931245c7e6:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-bb88940e915b11f6330b7446f6037f5b:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-ce5932b88f879f26006df81f2fa7667e:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-d0894d4626aae0f96d6b84ca3bb71a36:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-e50f2ae7fb03675a1ef58b1cf9cda6d1:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-f648bdd3c2cd902e239149de86d43e8f:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-441b709b1a57353a7b127d9a35b5002eee7e6efb:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-f72bd8bde005b8646d64f6a516407b6f9d2c680a:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-8d0aad27440fb29f9ab5f1af0f7977ed332d945d4bbeb7af0a96e07ac24eaaff:Kimsuky Uses the AI Agent 'opencode' to Create Decoys as Its GitHub PAT-Based LNK Attacks Evolve|baja
-5db1b6d52faf60b4f32d6fd0c7c938e4d05d29a14c32ded4a9668357c08b6a91:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-09739441ed4599bac2f8159028f772f71e4b25c8badfff95574e56d7384f3dbe:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-fea1bc36632c71e5a839803469ef60ac47595d36b2c50934ac109ade6df06e61:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-83f7d565b0465546027052b597af46eae3a199e7a91fcc2ab936341147349130:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-7007a78d50a993cb174c685eba96eb442c9507e38fd9d8e5dffc712f613ec110:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-6cf1b5e92a9c0756f597a5ddefb38eba32961c52efac7ab2a0aa52c639a8fc53:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-ed72f4cd8d467b5c5d95ae6aeca4aaeea14d79565d379c1ca5871a714727be16:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-feeea9d0bf6ae7396d28271baa51ae50df5169ce5d32a516865856f91abc50b3:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-d53c760c23b4405eb04ad0f20ead375440344b3bdf1fb7854ed12e40d155eabe:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-2f02b09d61d432134e994ad671258f523bbf289ae6091fd4eae192c60bd51b6f:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-8f30b57928934ae67478d0e690c91d046e35a638da098d02922a4a88a0fdb66c:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-a1d8af3a6acb731f07f72040eccb3450c1c83d40e29f736c2a63d35388660be4:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-12810854c8b2c391b23e2e18b013e873d0369b0637aa3cf993136c07188ba3b8:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-009a1e2d7a582a24e50cf2ffc2a005482c8e38f22bf5ed416053855f8d054e1e:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-4bb923eb040aa13ca8fd409c31ee4729c60ddff32e350efe1c5a4a9168a065f5:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-94630b96f628c96a6bff7904b40ffc9ad67c86f8a4ff6080c3b524831c93f402:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-72e70936f0dbe459142a1d867617c35f8d0cce5d18c6a49e1090a2a5adc8e558:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-a8bfab4de81a1acb04aacdf757346946b0f5e30f0c9f402004016d0e425119c7:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-c8c68e629bba773a10ac80012d10bf19:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-ecd427ea8330a4ff73618483e00b9b41:DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors|baja
-bfadbeee63a4f0bf19ec9deb8fa58f58:Angry Birds: Toy Ghouls’ new toys|baja
-7916c33688385525078bee504c90f359:Angry Birds: Toy Ghouls’ new toys|baja
+779b3e1a470e589d492b99154ba11622fbaebb19b3de694f660c725411b7096d:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+ff1b49aaec994f4c11f2c9331e739abb4bc3d6abf66ec50ce99709fba35d782b:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+7d6f6dcb17a423bdd7715f8a4e34f2939501a761bc9bf7aa005f805ef1f82288:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+e950d03c58d49e28e31df8afeefca1f3b3d2cd6b697c40adfee1a4f6fe18f004:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+353b5bd2780c1b0c07c1283d83cf16cf1e9ec226c17b2d09d56848893f9d98ee:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+a4a6a04d85eca8d584d939d2437c85a4f291207d8042f2ec002838e336b72ef5:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+295fc584f75e94108c9be945977db33ed80421f5d374eab188587c911dffd915:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+bc7d24f5cf8937b334966201bdcce8ca9bab6ec5889d40a399d4094dcad73360:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+b34802a646fc4a8f07ffa09a5fda8bf7327446b22e3d7bb5163dafa1e2a8bb2b:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+8453c42904b7b2fea5671b7bff06b2d937632ae29545fd11bc13095627a2805f:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+f3c64014221a58f3fde88e562662dbd5a1b3dd2b59c86e9e2bc5cb8f671664e7:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+87b6b24c06f99900a8aa579caedee1e402015884c925a98dcfb0fb38dfa2de22:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+ac6bbc4b1f1c62e308781329183a46e18f454c27e66bffa09f343b53ac622b69:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+ac6806c89e294f390838cb07c015dabec1c8ada06ce5161a0ad50b8a72828141:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+3594ad58fb6217fafe9839e53999a90608c2e9f335fa20aece3d53f8c0802726:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+3ec3151d8d1278ed966941ac89ea495ef6a80c70613dd9138cc85fc28c9df432:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+6e6378d8d404166da89d982e80bc52e19a3f677201258dec1775f100a027a92d:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+1a062f4982564d6d19a76884ce8bcbb6:Once in a BlueMoon: Multiple State-Aligned Threat Actors Rapidly Adopt Novel Exploit Chain Using Chrome and Windows Zero-Days|baja
+5bfb25b8255b61e5ffdf6804451534bcfa9f1dfd225e6c8cdcefb5f50d846898:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+1505eda3da68e2ff9919b55a31018bd30a991236f041aee835f3bc4e430ce505:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+f2a326cff405299e4ebdfaac955c52fc7e496544eaa0921ecad4816cb3ae3a27:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+4e24bbd0fabac6c3efcec943046afbfd332b2c0108a13becfda23a0e26f9ff5f:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+81bb80d9c5a97dc41b65f6248c131963c91346eb4fb672836b3d53ae67564d9f:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+ea1b6ff3a0c1a749b9f09d66789973321d63d8896b48f7345193bdad512950a2:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+673a51a179a78fbdf2b8770f868f883a:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+848b1440f5f52bfddf2e1b3e9e248f12:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+a45e8679d2695d10a45a3f78268fab64:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+96f6794fa4b7414e38be4ef497cd8611d50a59ec:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+d224dde23da2faff57235192333fc7998762c645:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+d3e0f9448c94b1017f26e4da63b710a886a2b426:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+1ef50e9d715245e29220936a66c0bece:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+66575cc1df33e40a47fe00abdc067fe5:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+cd8b231a2101c7de3f0b118f99279cbd:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+326a4305420a5c57950a7ee8c1e41b31132dd027:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+b51a50ffc57565c8488cb8101252db0e60619750:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+cfd101963a4e791fc59bda97bfc87f33ce7ce379:The Permanent Threat: Analyzing Blockchain-Based C2 Operations and Communications|baja
+52b400c5be1557a8df146f62fde76d906e7e0a92ed76788717ef61c758f315aa:Abyssos: Technical Analysis of a New Modular RAT|baja
+ca94d95413210a2a325155740eb8a5c58627ad5c4e704478621e7fc8165fe173:Abyssos: Technical Analysis of a New Modular RAT|baja
+30d5f17d5e3f85be18220a7cab0b9fff:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a4f72ce8b5736fe3ca2083cfe21bd51697f12e900e307c357cb8523b8f86e3ec:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+22180919f562fb9f6e50d7f20b2eb3f94eb009c212b74b45cf77659fe8274d5b:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+4453b9e985f452365995c399f5292c92764570f03e6a066d7845320dd4ad09a1:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+aa9d5dd632bb90addca480eaa5ff4382:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+5746f3e78351439caebfa3721e8feea36b67263f:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+4b0358c7e4afa54bc489a6199cca132b5f4a330892eb15bf06c0c4da9e020df2:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+9be8f2be7ad882e8423c269a0540b7c73d6470311ddfcfcd318ff9d1983e2935:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+e34d73a1da492c9a79a9729f2f7d9d4b5a2448f44934bd5552bd0bbbe1586767:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+7bc61d1bbc90d66d9988fd3baacd7834b1d2dfefe6d4ac999a194bccb9ba7dfc:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+02ebc2356f9f700bbdac444cdefa0da2:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+0d8ceb7dea7d471afa2f8e753b13d2d6:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+1f378c0efc13669dada1fe340c6837bd:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+2669731cb5ff664dfb5fbfc37637876d:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+2ab3df4762fbde5d86e99a1ad147850e:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+2e76d5316663a3dc472398b1c01cb9a8:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+2eb77109cce1e8afca6245c2963e52a6:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+302725413076d1aeaee2d7f2b3692646:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+30792a0c0dfad55fb2b19d3e30e9a7d4:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+37cec428257cd41153cf43d7f1a12652:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+3b9d40f3d620ec87960b4350d42ccc03:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+3e2110d233d4543830e14c78d53900f4:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+422a221851ea6ad15f53cd3aea51c8af:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+49bdbe7e6cbb88842afcce3a9fe60e9b:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+4d87fef16790cbe1df72007d99149665:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+5577fffb5b5acd3771ef9dc696498f1e:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+5af95590a33b9bc64d95808f1fc71b78:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+5c5672bb14e1d2f07a8318ffec19b213:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+6add815cd61d6514f81a23ab8c23405a:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+73ff669fc282653bd6c42cf87ade9337:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+7f12fa589f56f6203c692715b3958d30:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+8406075af0a1e9ec09bafdc0de01f138:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+8c859a03814443c6f0da341ee594c352:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a1c07ac866fb6b388e38c6bb1d4bbe94:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a343d8bcf02a0554fa271452a512f3ce:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a435292106026e257789036a70ee1a14:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a5701848f82c65a55765dc534111899f:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+af3fa7f22f6e97901f20326cc12bdb49:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+b406ea5b8628cb7801f47c0189b96182:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+b50dad56d891ef230656b37ce62cdada:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+b516ec6c6b37618ad65080a063270ea4:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+ba0238423b5c29667cd760ccd7b000aa:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+ba8e682a72c6a3e634c070f0fb057bf5:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+bbf1b0ab9fc27439de4386ed7b8fc151:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+c410055bfa198937825dfd7e41000e7a:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+c63d021de798034cbf933e1c99bcb83f:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+c7723bf166ef08ff3112257a1244f584:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+ca0b57807f79f26e7f59cab2a2542da0:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+e0e4aec6d494fe68cdaa52d6878a8366:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+e22367800e9d39bc865bd50cddd0537d:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+ead95793528572e7b89679860e2f2116:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+ed2f8dd9b96d706d833b7aa545b8e621:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+f4e7ca8c1de252840c1f0e957cd4b717:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+f73e07efb8707e3561e9cbff74557acb:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+215343916d101c6bbe287871816e063c78103dd1:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+263efd45e5cedce553c25cf2c49dbcf28c352cd8:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+2b381a3f3e303da8832c8b60120aa6f7486264bf:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+6bd211981540cd167615e916847e383c5ddb4fbd:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+7117859ffe0380d6e5e6f9691d6d5f5fc1da20d1:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+75ea9f4a55575f39e38c1beb9ec44c0fc7b1c937:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+79fcc73e1bcb0b339336c81c8d733bf00bac4001:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+984a98b7daeee159ea018a055b86a596c5dccc46:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a1b44d94af77705b075e67b40eb1937cedc55fa8:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+b9f25b21eccbcca77adb11a0e613d4eca4e38442:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+beb0ab87b52a417912e0ec84cfa203fd05cae660:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+feaad17999c1a7c768c6d841e790b2f2c006b00f:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+ff6eac85bb9b11d7c1422938235896c8b3a6da3c:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+018c31af135a0bc5e068df26d866440b28164aa4a659ea7df47bcbaab4a898cd:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+0432ae814945633b605c77d137bef96c7f84934c682aada69baa326dce781286:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+456ed6926b706c203ac65b5174ac2ce78a5dad2ef0f083ae1f0aedd75d811ca2:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+4d37b4ccd6e4c0c9de82e66e40dfb6412b92ea33bcf10442a290b0732eeadae0:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+5b1f75205cb79a8c8a3d8083f34b552852dfd567dd65763183b7536a29f55f5b:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+a40a61e54be9cc1671ea6832fef8139ce811a7d759058bb8b4ca86863f4cc1bd:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
+b50422ec3a98d098bb3f7d728012da7e1795221c8b0624562568dff87ab5de2a:Integrating AI into Attack Operations  From AI-Generated Decoy Documents to a Local LLM|baja
