@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-09-13 04:30 UTC  
-**Listas generadas:** 2026-09-13T10:52:43Z  
+**Feed generado:** 2026-09-14 04:32 UTC  
+**Listas generadas:** 2026-09-14T11:22:48Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 161 | Caza programada, no alerta directa |
-| Dominio | 117 | Caza programada, no alerta directa |
-| URL | 161 | Caza programada, no alerta directa |
-| Hash | 69 | **Alerta directa**: un hash coincide o no |
+| IP | 149 | Caza programada, no alerta directa |
+| Dominio | 365 | Caza programada, no alerta directa |
+| URL | 209 | Caza programada, no alerta directa |
+| Hash | 64 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 24 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (390 de 924)
+## Que se descarto del feed (421 de 1266)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 326 |
-| nivel bajo | 64 |
+| tipo no usado | 374 |
+| nivel bajo | 47 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| malware_download | 100 |
-| ClearFake | 75 |
-| VShell | 73 |
-| Unknown malware | 29 |
-| php.shin_webshell | 28 |
+| IClickFix | 206 |
+| malware_download | 99 |
+| AMOS | 75 |
+| ClearFake | 69 |
+| MacSync | 29 |
+| Jackskid | 28 |
 | Jewelbug: APT Group Runs Espionage and Crypto Fraud Operations Side by Side | 28 |
-| Remus | 23 |
-| New Armored Likho tools target Telegram and eavesdropping | 17 |
-| Aisuru | 16 |
-| PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure | 15 |
-| Cobalt Strike | 12 |
-| Mozi | 11 |
+| Remus | 26 |
+| php.shin_webshell | 26 |
+| Cobalt Strike | 25 |
+| VShell | 24 |
+| Unknown malware | 19 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 161 |
-| `wazuh/cti_dominio` | 117 |
-| `wazuh/cti_url` | 161 |
-| `wazuh/cti_hash` | 69 |
+| `wazuh/cti_ip` | 149 |
+| `wazuh/cti_dominio` | 365 |
+| `wazuh/cti_url` | 209 |
+| `wazuh/cti_hash` | 64 |
 | `wazuh/cti_cve_kev` | 24 |
-| `splunk/cti_ip.csv` | 161 |
-| `splunk/cti_dominio.csv` | 117 |
-| `splunk/cti_url.csv` | 161 |
-| `splunk/cti_hash.csv` | 69 |
+| `splunk/cti_ip.csv` | 149 |
+| `splunk/cti_dominio.csv` | 365 |
+| `splunk/cti_url.csv` | 209 |
+| `splunk/cti_hash.csv` | 64 |
 | `splunk/cti_cve_kev.csv` | 24 |
-| `sentinel/CTI_Ip.csv` | 161 |
-| `sentinel/CTI_Dominio.csv` | 117 |
-| `sentinel/CTI_Url.csv` | 161 |
-| `sentinel/CTI_Hash.csv` | 69 |
-| `elastic/cti_ip.ndjson` | 161 |
-| `elastic/cti_dominio.ndjson` | 117 |
-| `elastic/cti_url.ndjson` | 161 |
-| `elastic/cti_hash.ndjson` | 69 |
+| `sentinel/CTI_Ip.csv` | 149 |
+| `sentinel/CTI_Dominio.csv` | 365 |
+| `sentinel/CTI_Url.csv` | 209 |
+| `sentinel/CTI_Hash.csv` | 64 |
+| `elastic/cti_ip.ndjson` | 149 |
+| `elastic/cti_dominio.ndjson` | 365 |
+| `elastic/cti_url.ndjson` | 209 |
+| `elastic/cti_hash.ndjson` | 64 |
 
 ## Como se instala cada una
 
