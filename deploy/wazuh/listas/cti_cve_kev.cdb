@@ -1,3 +1,4 @@
+CVE-2026-76461:Cisco Secure Email Gateway
 CVE-2026-84869:ConnectWise ScreenConnect
 CVE-2026-42016:JFrog Artifactory
 CVE-2026-42018:JFrog Artifactory
@@ -20,5 +21,3 @@ CVE-2026-82329:JFrog Artifactory
 CVE-2026-9586:Sangoma Switchvox
 CVE-2026-83548:SonicWall SMA1000 Appliances
 CVE-2026-83549:SonicWall SMA1000 Appliances
-CVE-2026-82078:PaperCut NG/MF
-CVE-2026-81578:PaperCut NG/MF

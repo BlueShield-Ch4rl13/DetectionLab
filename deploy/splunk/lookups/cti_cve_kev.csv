@@ -1,4 +1,5 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-76461,Cisco,Secure Email Gateway,Cisco Secure Email Gateway SQL Injection Vulnerability,2026-09-14,Unknown
 CVE-2026-84869,ConnectWise,ScreenConnect,ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability,2026-09-11,Unknown
 CVE-2026-42016,JFrog,Artifactory,JFrog Artifactory Incorrect Authorization Vulnerability,2026-09-11,Unknown
 CVE-2026-42018,JFrog,Artifactory,JFrog Artifactory Improper Authentication Vulnerability,2026-09-11,Unknown
@@ -21,5 +22,3 @@ CVE-2026-82329,JFrog,Artifactory,JFrog Artifactory Improper Authentication Vulne
 CVE-2026-9586,Sangoma,Switchvox,Sangoma Switchvox SQL Injection Vulnerability,2026-09-02,Unknown
 CVE-2026-83548,SonicWall,SMA1000 Appliances,SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability,2026-09-02,Unknown
 CVE-2026-83549,SonicWall,SMA1000 Appliances,SonicWall SMA1000 Appliances OS Command Injection Vulnerability,2026-09-02,Unknown
-CVE-2026-82078,PaperCut,NG/MF,PaperCut NG/MF Unsafe Reflection Vulnerability,2026-08-31,Unknown
-CVE-2026-81578,PaperCut,NG/MF,PaperCut NG/MF Missing Authentication for Critical Function Vulnerability,2026-08-31,Unknown
