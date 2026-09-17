@@ -1,55 +1,91 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-9d7cd4948a1fcbaeadc425752fce9a933bd6fc41eeede030dffd7b99b3bc51d5,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,37,,,OTX,2026-09-11T17:55:39,4
-9d87e6615c810907443ebd5e915f3b35099c3b5c6b6c684637138a7f8ec9cebc,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,37,,,OTX,2026-09-11T17:55:39,4
-13382c16e2401b07451577b46e634b8031ec254d98b876e59692b5fa22abc1d4,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,36,,,OTX,2026-09-11T17:55:39,4
-6fbae3505ae0d638b820165c572d548ce92dda71e82dc47e8efe13f30617f35f,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,36,,,OTX,2026-09-11T17:55:39,4
-cc76bc218627279ecb4d0ce74ad2651e9db9e3e843e35d6569576e056e3a9218,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,35,,,OTX,2026-09-11T17:55:39,4
-3a1e96289832518bff2feeb868bc61a4,filehash-md5,Red Heron exploits Gitea n-day flaw in multinational campaign  exposing new Linux rootkit,baja,25,,,OTX,2026-09-15T13:05:51,0
-88264a49750b3280e63894fb7445a9c2,filehash-md5,Red Heron exploits Gitea n-day flaw in multinational campaign  exposing new Linux rootkit,baja,25,,,OTX,2026-09-15T13:05:51,0
-28b132ad55bd310bb5cf3ddb4ace580529ad735204a48cf388830d9039843d8e,filehash-sha256,Red Heron exploits Gitea n-day flaw in multinational campaign  exposing new Linux rootkit,baja,25,,,OTX,2026-09-15T13:05:51,0
-b441f793c87e54cb7e3f7205e25442aa19920d325cb6af41d2afdc8a0b5cf54f,filehash-sha256,Red Heron exploits Gitea n-day flaw in multinational campaign  exposing new Linux rootkit,baja,25,,,OTX,2026-09-15T13:05:51,0
-141c35607dc0e8e400deb380126b3052bd0495b4d37c8dd979c6aa0204b142fc,filehash-sha256,Malicious Twitch Browser Extension Exposes 30 000 Users' OAuth Tokens to Russian Bot Service,baja,25,,,OTX,2026-09-11T18:06:37,1
-e17e1e671b597da19b89c5b2d0fa821e90e627860e756ae4947ed27c035330a8,filehash-sha256,Malicious Twitch Browser Extension Exposes 30 000 Users' OAuth Tokens to Russian Bot Service,baja,25,,,OTX,2026-09-11T18:06:37,1
-3bb6cd6fda610f65fd05741e20306f59,filehash-md5,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-92bd261aab30589e89ac0e77beeadddd,filehash-md5,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-9d754cdf176c21649645444b56cb0e0e,filehash-md5,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-2fa81859fc4ff50f43ff16f5cee544f6e84cf5af,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-7105b13258702a2d55c8a7a0f100bbe25891e54f,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-ddd07abb4c1077a6b6e54d61a8f6026360ac6379,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-77c6547ba3f5769222b0c91d035abd540f42bf01,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39,1
-c1d1ee16b92e6a138ffa048855f75d7d,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-17674b250d8b422a50a86c9ff207186d,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-62801f6223e860a7cca271522e303b2d,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-68f0365d2fa8c828d012d8859e52a773,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-4bd7c352ae277b0e38d07beedd4dd507,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-d4bc09fb10ea2a5dc0bcbeeda5e5afdd,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-2ca8adbab98ebe305eacf272cf48f5a0,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-3ac41b097236a7723821848ae31ef141,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-439255736797bc88bd19f282449e0436,filehash-md5,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-17b6f4984930165939680a09d91989ad82bc57e2,filehash-sha1,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-724f6ca2ea66dbf117c7eea42c99760716ec75b9,filehash-sha1,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-b9258c816724cb074258df485dfbc5b08141cdcb,filehash-sha1,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-dd1f41f6f8e995fb482070d6689f4238505aac78,filehash-sha1,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-31349d61da780d59a8a27e2762405632726d88135a08ac5dda05849c62dfd551,filehash-sha256,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-404eb4ada6e161210611f1c8275f126ec24aad37c380ead130cf15667023d249,filehash-sha256,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-4eb6126f7e23d9155df280b944a98da10a79f1067f39990cf019f25feef75712,filehash-sha256,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-5fc1251e474eae9253362a08095e989edc2b63de21d76052a2c849efc6792c3f,filehash-sha256,New Armored Likho tools target Telegram and eavesdropping,baja,25,,,OTX,2026-08-14T10:35:19,3
-531dca50d5fd9c6f6ba3e5d7aaf42a2c,filehash-md5,"Multi-Functional Linux Botnet ""Evooo1Bot""",baja,25,,,OTX,2026-08-13T20:41:11,3
-4c7b271348d729f72f776d9b6284d1b32f01b17e,filehash-sha1,"Multi-Functional Linux Botnet ""Evooo1Bot""",baja,25,,,OTX,2026-08-13T20:41:11,3
-4c0886349e9d348569fffe1b7a31e474d514508bf0cd6f1e5dd99c2a73525e4d,filehash-sha256,"Multi-Functional Linux Botnet ""Evooo1Bot""",baja,25,,,OTX,2026-08-13T20:41:11,3
-f13cb360768363d3424e2192c7805b8c8015eb8706dbbbcdead6aed8cf390109,filehash-sha256,"Multi-Functional Linux Botnet ""Evooo1Bot""",baja,25,,,OTX,2026-08-13T20:41:11,3
-dce02a45e7bec01df012b626182a2a7f,filehash-md5,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-5ccce62c594f5d18911b14d9ce8b17654f0cbca3,filehash-sha1,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-0f4073d3c866bc3daf55b25f71250b96ec120db94a4f9cc8fe85b7c9f9d346b3,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-1774e15e8eb96eb89bc03cb4768fc0620e10c09c5f795297f36dcc2aa5d9dd94,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-2323b55ea743c813e48689318e8ed54ae838cf9e8a2adbfc2488ea8a36dd0126,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-2eddfebb3f7419af27493a6a3bb601372cf6c494da8df62640cce7f830b4a73b,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-378484112b4e837d3850b5b0802fc509202c232bb124d6944a59fe66525ba668,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-50fc220347f9e281037e831c3755dc70a8ba7f663025aea35b301226918b016b,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-5e17360d32e9b272bb7e1b97c8e4dca34622ec9ce08fd240fe2758cc3f67dc4a,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-74d347785dc47f8cda3876826cdd3fb3935ac55dc8e9e0c0f96d5ef4e00089a2,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-959bbb09cd86ce3930406bf1cf32776ca477dfefe3fd63e90bf0017fccd90587,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-b56fab5a6834c51d85787e7c1177720dfba5a5823763f3fcf432196cd2a1bdf3,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-cf7184c0dfe882dc6e3016f16e4ede32b75d7648f83d6f4f87eb6a703be7b8d6,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-d46ee94d6a27ff9f02cff6fb57780acac2833ce48c95e63042a6274e24a040bb,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
-ea0934472121848b80455581d289ce4480b1e5cc05678c1b90ecfc465b5ec350,filehash-sha256,PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure,baja,25,,,OTX,2026-08-13T16:05:50,3
+870ed09a1dcd95f6d962ae82e348770c0843c76c3a6d4d989e3ab8288726e947,filehash-sha256,GhostCode: Dissecting a Novel Device Code Phishing Kit,baja,25,,,OTX,2026-09-16T12:51:14,0
+cd84fca18f5f8b388c1c0f60ce60123b1b650925f43d9a0b6629cb21ccaee729,filehash-sha256,GhostCode: Dissecting a Novel Device Code Phishing Kit,baja,25,,,OTX,2026-09-16T12:51:14,0
+200e61bfe54c92fb720c77c3a1661bc0,filehash-md5,GhostCode: Dissecting a Novel Device Code Phishing Kit,baja,25,,,OTX,2026-09-16T12:51:14,0
+b5ea87c2ddac3aa141bc6794b8993d1e43bd064eaae591719612becea0d106d7,filehash-sha256,GhostCode: Dissecting a Novel Device Code Phishing Kit,baja,25,,,OTX,2026-09-16T12:51:14,0
+71781ad8adefb499aee9bcbe1a166e69ccc37a47066682f617d65c76d8cde88c,filehash-sha256,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+7ea6ff8b12c59aaae1ab6f4f5a57045dad5a8127954f3ffd3d1c154d40d7ca3a,filehash-sha256,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+a598fcdcd49247312861ff90c16cb4a5d49fede6072e30e7416dd276668fa2a9,filehash-sha256,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+6bfcdb4920383375b7e519918df7eb4db751b974b5571a15ce66b82478012620,filehash-sha256,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+4504006d1911057be42435d4625f03d83c4d0b7b6898d14beb9cdeba6cf667b9,filehash-sha256,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+121cc0f6c933f928273a8d259262e3bd,filehash-md5,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+3106cffb9da7380fcc0237e8fde0efa0,filehash-md5,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+65334575232f8d94fde18e89af393212,filehash-md5,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+e634d35d6ae98935c51de5a23a92e965,filehash-md5,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+2849fe272d6edfdf75c1169102ea7a33d224eb7b,filehash-sha1,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+2c78ad15bec38dd235f1a0f91a8ec71ecdf2701b,filehash-sha1,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+65b02a832483a5fa367d96c36c56372722e752cc,filehash-sha1,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+739afb0e43501a8aa6e4322fafb6841a880f0271,filehash-sha1,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+608e70d1338612686917ee5cd300ff7ed8e318dfd787a50257f92142e99bd688,filehash-sha256,Atomic macOS (AMOS) Stealer Activity,baja,25,,,OTX,2026-09-16T12:36:21,0
+1dcafb7f8448683281106b06dd22409a,filehash-md5,NightEagle targets Russian companies,baja,25,,,OTX,2026-09-16T12:31:14,0
+1f3034b706c78b35d8e34044e68c693a,filehash-md5,NightEagle targets Russian companies,baja,25,,,OTX,2026-09-16T12:31:14,0
+3ecd1cd627d0340c92901a478a7caad8,filehash-md5,NightEagle targets Russian companies,baja,25,,,OTX,2026-09-16T12:31:14,0
+4aa9fb1bf9223dfcdac920759bc7a3c7,filehash-md5,NightEagle targets Russian companies,baja,25,,,OTX,2026-09-16T12:31:14,0
+138614a0dd4017855bc379233685364a6f955ad9,filehash-sha1,NightEagle targets Russian companies,baja,25,,,OTX,2026-09-16T12:31:14,0
+99cb8000ab5e4625a2a23834dde681c25eee9095bb4fa751458bcc0cec6e194f,filehash-sha256,NightEagle targets Russian companies,baja,25,,,OTX,2026-09-16T12:31:14,0
+00ea1da4192a2030f9ae023de3b3143ed647bbab,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+2a3ff8f8ea94d4052fe2a7314c4098aa,filehash-md5,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+4bc008f4b8da0dd90d282f50030ac78e,filehash-md5,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+11306e7cc9aa68fddb63c766d2606d46181af38c,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+1c5454be00f4c3c5aed4a8a54bf81c83e84953a3,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+1df5de857b627b171586b4b0ac800e285faa0c44,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+2ae7494b60277582bd380bc4195964128341f314,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+532511730d540422157dc4284f400b5cc83edeb5,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+6bfef63fd12701f125e49b7d17388e6502b6c090,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+6f7e7a6d99270b2ff330dd0c9707b3b772301104,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+728601a30d22a2ad8514f366cc9cc9d829e9f10a,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+754bf10bc98df84cf6d7ffbf19138805642b1979,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+b9c5941aab2889700377dc9d52130d2dcf407146,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+c332e3b49bb9d68e6fc7e9df933c5ba144cce3f8,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35,0
+b4cff5f5c6088d54df434d628d2e8e57,filehash-md5,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+f36997eda793e037f215295c0ec2aa9f,filehash-md5,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+73ef71b97586e6490ef3b37e37b9abf0e3e19c2d,filehash-sha1,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+bed2b7acb36e01bf82e8a82e3e163e5cce9b395a,filehash-sha1,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+07a2e365508fe05e8bc822fbeac14999ed535e0384be59343498c031dfa00d68,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+1acc9b2f3bde5b3a3613feb59b03aae76197ad1e7d64d2a6fd4ce13cc3631e90,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+1f01aa693602179651441b067b980f0ecf014328572e1b24893e00a97bacccd8,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+257012d4a268d8552d98bba9ecc2b879df9b064a2fe5d3ff3677cef59af945c2,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+2cbb7b04107eeab0fabb4f523f564acc69f1e8185f49542a88bec4f283ebdb71,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+329f06012bca465dcaf1edbfdc20f1209b8ea00f269a8b890f165fb8c82c32d6,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+44e3580d84ba7534e815ae9c12c4165fbc9313adc7475808908fec26e9b17f19,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+50b743ffa29cf8fe6cc5f40acdd3a503a1a4e8f3dadaf7826b03112afeea9508,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+5d06c1b06b48e9f61fec86179f194e0f611d6cf7495e0370a58844f0dddb437d,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+5db0cb4167fa241c2377d24916c345c670ed096c09d9a9e09197d176674f4eb1,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+661029691b45783502d554e63124da38cfe33cf3611381851da1562c66e3cfa6,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+6663b63f70ceaee21a7cbff4bdfbe2916fa54759e839d76ba6d2372bcdb676d6,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+75631b023b8fbbd7d69f7ce2353ef5559dea13b01a14aa5354d87549abf098f0,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+96e0517d247e80b65bbafd9c4eee536676e4134e1f3b4aebe0cad53f9306a0ea,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+a0ca9f37352673fa3013f7cabd07dedd95b3237e1587ca43988a223c76d8e783,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+b5a2b06772a0362fb2c2defd63a1d892f3f80d93418b4dee99d655cc3da8581d,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+bf0681e43f51e98fe7ec24bf73a43facc66b0feb325a3a835f8f01b2861b926e,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+c4d4f8ccc9d2c4d289d8672396fdf0818b81551376057d43e76de66e29d73604,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+c6a1c0a8181b8388dd425fc18aad397cc6acd2e16a238e7713dd1656c88fe64e,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+ca024caa58c1da0259157399c9f76d797b0148708628051ffdd465d5ff0feead,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+caec31e6439085bbe187a5daf19ccb5e17aab29fa113461bf0433f99c9342c7d,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+ce4ce009fcebacf0b7e253409f1b192081b77f4d56bb3af0fa71d125aa060c51,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+d450e2fadbf20c8283b7cb0e1b54820c4a0a1d3dbb45ca895ac583d27189c53e,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+dffa94a0f9c4dc38d475a32741f7f134cc934c7b98bec581c135da1b5aa1983f,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+f8b8546daf5268e20e2ef7fe69c4442669c183c5c2b152bb11b23ad62ebcbd81,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+f8d57ed725f95f7784564a1bb1f5d9f7c3f6fc025ccc520188bccee0efd86a36,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+f6fe3856ba8c5e393a03575d2c1ca2e71e1cdbbb2d179c87e5da00d8ba7a24ef,filehash-sha256,The banana stand: brokering and managing infections across Asia using MQTT,baja,25,,,OTX,2026-09-16T09:45:39,0
+715558e0ad32401c477d01412cc72fd07dc4ef6e122b6a730ba4b0a88a971677,filehash-sha256,PIVOTPIPE: A New .NET-based Unofficial Beacon Payload,baja,25,,,OTX,2026-09-16T07:16:36,0
+ad9a03f3ea93c1a0a350f73b4ada485ce444f2352ea11eea05c87f075be80cf7,filehash-sha256,PIVOTPIPE: A New .NET-based Unofficial Beacon Payload,baja,25,,,OTX,2026-09-16T07:16:36,0
+feeb5cae714d0d35f68ad1d1b29dccec0bdcc58ac076869559db53f6cb8137e8,filehash-sha256,PIVOTPIPE: A New .NET-based Unofficial Beacon Payload,baja,25,,,OTX,2026-09-16T07:16:36,0
+9c20927c77efe4119dc46fabf1a6cffebf0acc63,filehash-sha1,PIVOTPIPE: A New .NET-based Unofficial Beacon Payload,baja,25,,,OTX,2026-09-16T07:16:36,0
+f59f32c9af4fa8a5dbd4668df8893593bc0c4324816cbf9b956acedcbfb8cdb6,filehash-sha256,C2Looper: A New Backdoor Likely Tied To Ransomware With GitHub C2,baja,25,,,OTX,2026-08-17T15:03:55,0
+f96ff2f3abbff7f382ace509b90e54853b4b61c402ecde27d82f1c17b414867b,filehash-sha256,C2Looper: A New Backdoor Likely Tied To Ransomware With GitHub C2,baja,25,,,OTX,2026-08-17T15:03:55,0
+20675a659c338f7267fd09bacb431f4491f061d3acf42d07aca2dec3d25fa549,filehash-sha256,C2Looper: A New Backdoor Likely Tied To Ransomware With GitHub C2,baja,25,,,OTX,2026-08-17T15:03:55,0
+c4b4647795567ab15528edd1ab1bf37fb50e21b442e59a653051061973e87c02,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+5a91a13e681788ab02354f2fc2f82355,filehash-md5,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+a204bc8249df2b64dfab8181172c25ee,filehash-md5,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+b9622eb982f7c8b9885c932ca54339a0,filehash-md5,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+6e66d673306fc57d6479422e1e8cc17c5dbf94e8,filehash-sha1,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+9216fcae1736e8ff7cbed130677a52e3daf93dc1,filehash-sha1,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+c06b90b06caf4e2e8d9eeef84c34ca84a2f40fa7,filehash-sha1,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+0803521a7e9081f46f8f9f61d72371ecc1f49657f10202fffa9a33f581d8bb39,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+26f735cbbb1257be94e6d01656a35bf66a8ae9c34868548d69ec5cb588f9f916,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+4a1a1b1455c3ea91a3d9203ebff025553227302cede6077e821d303655e2c9f2,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+575305cdaeb1d2187ca6d5ebe32f4c3e3fb53f5ccbe1c0cc257a7f71d84e6f35,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+aeff39943e254c34187e4a60be3d09d49687439e709eeb4be2b1984310d8ba5c,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+cd147efe37003399e174951927e5fe727a4481756b116f0204a14a64cc62b059,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
+daeac66441b88ba22806f6617058a2dbf1ea0ddcc6c94f291542ea853ac6f9d3,filehash-sha256,Operation QUICSILVER: China-Nexus Actor Targets Myanmar Diplomats via VHD-Delivered Go Backdoor,baja,25,,,OTX,2026-08-17T15:03:54,0
