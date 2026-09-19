@@ -1,4 +1,7 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2025-39964,Linux,Kernel,Linux Kernel Race Condition Vulnerability,2026-09-18,Unknown
+CVE-2026-53266,Linux,Kernel,Linux Kernel Out-of-Bounds Write Vulnerability,2026-09-18,Unknown
+CVE-2025-39682,Linux,Kernel,Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability,2026-09-18,Unknown
 CVE-2026-58704,Google,Pixel,Google Pixel Improper Authorization Vulnerability,2026-09-16,Unknown
 CVE-2026-76460,Cisco,Identity Services Engine,Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability,2026-09-16,Unknown
 CVE-2026-87886,Acronis,Backup,Acronis Backup Incorrect Default Permissions Vulnerability,2026-09-16,Unknown
@@ -17,4 +20,3 @@ CVE-2026-75650,Adobe,Commerce and Magento,Adobe Commerce and Magento Improper Ne
 CVE-2026-81963,Microsoft,Windows,Microsoft Windows Link Following Vulnerability,2026-09-08,Unknown
 CVE-2026-86218,N-able,N-central,N-able N-central Static Code Injection Vulnerability,2026-09-08,Unknown
 CVE-2026-85880,Microsoft,Windows,Microsoft Windows Heap-Based Buffer Overflow Vulnerability,2026-09-08,Unknown
-CVE-2026-85046,Google,Chromium V8,Google Chromium V8 Type Confusion Vulnerability,2026-09-04,Unknown
