@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-09-19 04:16 UTC  
-**Listas generadas:** 2026-09-19T10:03:24Z  
+**Feed generado:** 2026-09-20 04:34 UTC  
+**Listas generadas:** 2026-09-20T10:22:21Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 151 | Caza programada, no alerta directa |
-| Dominio | 318 | Caza programada, no alerta directa |
-| URL | 192 | Caza programada, no alerta directa |
-| Hash | 0 | **Alerta directa**: un hash coincide o no |
+| IP | 126 | Caza programada, no alerta directa |
+| Dominio | 131 | Caza programada, no alerta directa |
+| URL | 202 | Caza programada, no alerta directa |
+| Hash | 189 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 21 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,51 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (81 de 787)
+## Que se descarto del feed (77 de 781)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 81 |
+| tipo no usado | 66 |
+| nivel bajo | 11 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Unknown malware | 133 |
+| SilkParasite: Tracking a China-Nexus APT Across Central Asia | 102 |
 | malware_download | 100 |
-| Remcos | 75 |
-| ClearFake | 70 |
-| VShell | 60 |
+| 77 Firefox Extensions Linked to Crypto Wallet and Credential Theft | 87 |
+| VShell | 55 |
+| ClearFake | 53 |
+| IClickFix | 38 |
+| Unknown malware | 34 |
 | php.shin_webshell | 26 |
-| Remus | 25 |
-| AMOS | 21 |
-| Cobalt Strike | 15 |
-| Quasar RAT | 15 |
-| PureRAT | 14 |
-| XWorm | 13 |
+| Cobalt Strike | 25 |
+| Aisuru | 13 |
+| xmrig | 12 |
+| AMOS | 10 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 151 |
-| `wazuh/cti_dominio` | 318 |
-| `wazuh/cti_url` | 192 |
-| `wazuh/cti_hash` | 0 |
+| `wazuh/cti_ip` | 126 |
+| `wazuh/cti_dominio` | 131 |
+| `wazuh/cti_url` | 202 |
+| `wazuh/cti_hash` | 189 |
 | `wazuh/cti_cve_kev` | 21 |
-| `splunk/cti_ip.csv` | 151 |
-| `splunk/cti_dominio.csv` | 318 |
-| `splunk/cti_url.csv` | 192 |
-| `splunk/cti_hash.csv` | 0 |
+| `splunk/cti_ip.csv` | 126 |
+| `splunk/cti_dominio.csv` | 131 |
+| `splunk/cti_url.csv` | 202 |
+| `splunk/cti_hash.csv` | 189 |
 | `splunk/cti_cve_kev.csv` | 21 |
-| `sentinel/CTI_Ip.csv` | 151 |
-| `sentinel/CTI_Dominio.csv` | 318 |
-| `sentinel/CTI_Url.csv` | 192 |
-| `sentinel/CTI_Hash.csv` | 0 |
-| `elastic/cti_ip.ndjson` | 151 |
-| `elastic/cti_dominio.ndjson` | 318 |
-| `elastic/cti_url.ndjson` | 192 |
-| `elastic/cti_hash.ndjson` | 0 |
+| `sentinel/CTI_Ip.csv` | 126 |
+| `sentinel/CTI_Dominio.csv` | 131 |
+| `sentinel/CTI_Url.csv` | 202 |
+| `sentinel/CTI_Hash.csv` | 189 |
+| `elastic/cti_ip.ndjson` | 126 |
+| `elastic/cti_dominio.ndjson` | 131 |
+| `elastic/cti_url.ndjson` | 202 |
+| `elastic/cti_hash.ndjson` | 189 |
 
 ## Como se instala cada una
 
