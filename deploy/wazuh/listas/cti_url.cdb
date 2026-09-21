@@ -1,202 +1,172 @@
 http://118.145.196.225:800/:Ngioweb|media
+http://178.16.53.91:8443/?h=178.16.53.91&p=8443&t=ws&a=l32&stage=true:Mirai|media
 http://193.160.32.138:8085/?h=193.160.32.138&p=8085&t=ws&a=l64&stage=true:Mirai|media
-http://222.112.70.149:8084/?h=222.112.70.149&p=8084&t=tcp&a=w32&stage=true:VShell|media
-https://tmtworldwideltd.com/travel-and-tours-old/:Unknown malware|media
-http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=ws&a=w64&stage=true:VShell|media
-http://107.161.168.217/?h=107.161.168.217&p=80&t=ws&a=w32&stage=true:VShell|media
-http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=ws&a=w32&stage=true:VShell|media
-http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=tcp&a=w64&stage=true:VShell|media
-http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=tcp&a=w32&stage=true:VShell|media
-http://47.254.173.184:8443/?h=47.254.173.184&p=8443&t=ws&a=w32&stage=true:VShell|media
+http://165.154.226.87:8084/?h=165.154.226.87&p=8084&t=ws&a=w64&stage=true:VShell|media
+https://signup.v-panel.asia/:Vidar|media
+http://107.161.168.217/?h=107.161.168.217&p=80&t=tcp&a=w64&stage=true:VShell|media
+http://34.92.225.25:8084/?h=34.92.225.25&p=8084&t=tcp&a=l32&stage=true:SNOWLIGHT|media
+https://167.235.0.162/api/forensics:Unknown malware|media
 http://47.254.173.184:8443/?h=47.254.173.184&p=8443&t=tcp&a=w32&stage=true:VShell|media
-http://165.245.138.247:81/private/rigel-win.zip:xmrig|media
-http://165.245.138.247:81/private/xmrig-win.zip:xmrig|media
-http://103.249.201.108:81/private/xmrig-win.zip:xmrig|media
-http://103.249.201.108:81/private/rigel-win.zip:xmrig|media
-https://fr.hg77.org:Vidar|media
-https://signin.v-panel.asia/:Vidar|media
+http://47.254.173.184:8443/?h=47.254.173.184&p=8443&t=ws&a=w32&stage=true:VShell|media
+http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=tcp&a=w32&stage=true:VShell|media
+http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=tcp&a=w64&stage=true:VShell|media
+http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=ws&a=w32&stage=true:VShell|media
+http://107.161.168.217/?h=107.161.168.217&p=80&t=ws&a=w32&stage=true:VShell|media
+http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=ws&a=w64&stage=true:VShell|media
+https://skaedbraearaquiet.life/ext-b.4f9db6afd06a.js:IClickFix|media
+https://skaedbraearaquiet.life/t.js?site=2f702398a34ef46cb995c4f4e89c6407:IClickFix|media
+https://testingcf.jsdelivr.net/gh/Boycshop/147B-D73-E1EC/34F520-6B096E:ClearFake|media
+https://xd.1betasia.org:Vidar|media
+https://xd.hg77.org:Vidar|media
+https://oi.hg77.org:Vidar|media
+http://193.178.158.107/Bjsw3DlG1/index.php:Amadey|media
+https://testingcf.jsdelivr.net/gh/Boycshop/50-4b-b0c4-7c-47-6f-53-88-b6-D7-6F/8Cc7-C-C64-3f4810C5-3288-d:ClearFake|media
+https://testingcf.jsdelivr.net/gh/Boycshop/50-4b-b0c4-7c-47-6f-53-88-b6-D7-6F/8Cc7-C-C64-3f4810C5-32881-d:ClearFake|media
+https://loombronze.com/contact:AMOS|media
+https://testingcf.jsdelivr.net/gh/Boycshop/98D8-7A-2E-6A6F/sjhfjhgr465739fhg:ClearFake|media
+https://testingcf.jsdelivr.net/gh/Boycshop/98D8-7A-2E-6A6F/C-48-51-97-89:ClearFake|media
+https://testingcf.jsdelivr.net/gh/Pasquarenmjn/5C5B-9D-6C-7906/84F67A-7C-9F91:ClearFake|media
 https://178.105.213.40:Vidar|media
-http://178.198.246.24/info.zip:Coinminer|media
-http://178.61.160.6:5001/video.scr:Coinminer|media
-http://180.148.33.24/AV.scr:Coinminer|media
-http://180.148.33.24/info.zip:Coinminer|media
-http://186.235.86.129/Photo.scr:xmrig|media
-https://oi.1betasia.org:Vidar|media
-http://177.70.102.232:8070/TmpFTP/01/Inutiliza%C3%A7%C3%A3o/2019-12-19/info.zip:Coinminer|media
-http://tiruet.com:5632:Remus|media
-https://testingcf.jsdelivr.net/gh/Boycshop/DC-0A-E1-4E-E0-05/04EC49-812B67:ClearFake|media
-https://testingcf.jsdelivr.net/gh/989A-A-3fF2465495760-2B3a/4657-8765943-85742-94856/22274659-87:ClearFake|media
-https://ma.1hoki.org:Vidar|media
-https://testingcf.jsdelivr.net/gh/989A-A-3fF2465495760-2B3a/4657-8765943-85742-94856/dgfyrte-98:ClearFake|media
-https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/129fd90846a1e173/9221.txt:Unknown malware|media
-https://lyric-8.com/api/metrics/run?event=pasted:AMOS|media
-https://lyric-8.com/api/metrics/run?event=stager:AMOS|media
-http://165.232.73.74/api/metrics/run:AMOS|media
-https://blueprint-71.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/cc2/update:AMOS|media
-https://blueprint-71.com/curl/amtkquxbo3/obh3bn3umykzjlth.json:AMOS|media
-http://80.74.30.4:3000/sparky/comfyui-utils.git:xmrig|media
-http://217.76.63.67:81/private/xmrig-win.zip:xmrig|media
-http://217.76.63.67:81/private/rigel-win.zip:xmrig|media
-https://ma.19hoki.org:Vidar|media
-https://192.142.37.129:Vidar|media
-http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=ws&a=l64&stage=true:Mirai|media
-http://107.161.168.217/?h=107.161.168.217&p=80&t=ws&a=l64&stage=true:Mirai|media
-https://forgewillow.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/kis/update:AMOS|media
-http://178.16.53.91:8443/?h=178.16.53.91&p=8443&t=ws&a=l64&stage=true:Mirai|media
+https://signin.v-panel.asia/:Vidar|media
+https://fr.hg77.org:Vidar|media
+http://156.238.224.156:5522/?h=156.238.224.156&p=5522&t=ws&a=w64&stage=true:VShell|media
+https://meetmeetmeetmeet.s3.us-east-2.amazonaws.com/ScreenConnect.ClientSetup.msi:Unknown malware|media
+http://185.177.239.241:5001/renas.exe:SalatStealer|media
+http://185.242.3.178/?h=185.242.3.178&p=80&t=tcp&a=w32&stage=true:VShell|media
+http://222.112.70.149:8084/?h=222.112.70.149&p=8084&t=tcp&a=w64&stage=true:VShell|media
+http://139.95.24.51:8081/?h=139.95.24.51&p=8081&t=ws&a=l32&stage=true:Mirai|media
+https://i.131422.com/:Unknown malware|media
+http://45.13.186.37/noncrypt/21-32/jhgkuyyg.exe:Stealc|media
+http://45.13.186.37/noncrypt/21-32/bjbh.exe:Stealc|media
+https://192.236.217.110/83/goodthings.hta:Remcos|media
+http://192.25.102.246:8088/?h=192.25.102.246&p=8088&t=tcp&a=l64&stage=true:SNOWLIGHT|media
+http://150.129.80.247:8083/?h=150.129.80.247&p=8083&t=ws&a=w64&stage=true:VShell|media
+http://v.teruishuo.net:8443/?h=v.teruishuo.net&p=8443&t=tcp&a=w64&stage=true:VShell|media
+http://150.129.80.247:8083/?h=150.129.80.247&p=8083&t=ws&a=w32&stage=true:VShell|media
+http://92.119.164.93:8080/updates/corvusminer-v3.0.9-crypt_dropper_6bd169be2c3e410c.exe:xmrig|media
+http://165.154.226.87:8084/?h=165.154.226.87&p=8084&t=tcp&a=w32&stage=true:VShell|media
+https://the.earth.li/~sgtatham/putty/0.85/w64/putty.exe:Unknown malware|media
+http://156.248.73.84:8081/?h=156.248.73.84&p=8081&t=ws&a=l32&stage=true:Mirai|media
+http://47.254.173.184:8443/?h=47.254.173.184&p=8443&t=ws&a=l32&stage=true:Mirai|media
 http://107.161.168.217/?h=107.161.168.217&p=80&t=ws&a=w64&stage=true:VShell|media
-https://demonsbasement.com/:Unknown malware|media
-https://provely.io/:Unknown malware|media
-https://sreeanugraha.com/:Unknown malware|media
-http://34.92.225.25:8084/?h=34.92.225.25&p=8084&t=ws&a=l32&stage=true:Mirai|media
-http://178.61.160.6:5001/info.zip:Coinminer|media
-http://103.242.12.143:1234/?h=103.242.12.143&p=1234&t=ws&a=w64&stage=true:VShell|media
-https://navyapridedevelopers.com/:Unknown malware|media
-http://156.238.224.156:5522/?h=156.238.224.156&p=5522&t=ws&a=w32&stage=true:VShell|media
-http://177.70.102.232:8070/TmpFTP/01/Cancelamento/2022-09-06/info.zip:Coinminer|media
-http://177.70.102.232:8070/TmpFTP/01/Consulta/2019-08-02/info.zip:Coinminer|media
-http://34.92.225.25:8084/?h=34.92.225.25&p=8084&t=tcp&a=w64&stage=true:VShell|media
-http://34.92.225.25:8084/?h=34.92.225.25&p=8084&t=ws&a=w32&stage=true:VShell|media
-http://420mafia.eu/ar-15/ar15.arc:Mirai|media
-http://420mafia.eu/ar-15/ar15.m68k:Mirai|media
-http://92.127.156.174:8880/master.exe:MimiKatz|media
-http://193.160.32.138:8085/?h=193.160.32.138&p=8085&t=tcp&a=l32&stage=true:SNOWLIGHT|media
-http://103.242.12.143:1234/?h=103.242.12.143&p=1234&t=tcp&a=w64&stage=true:VShell|media
-http://193.160.32.138:8085/?h=193.160.32.138&p=8085&t=ws&a=l32&stage=true:Mirai|media
-http://420mafia.eu/ar-15/ar15.x86_64:Mirai|media
-http://47.254.173.184:8443/?h=47.254.173.184&p=8443&t=tcp&a=w64&stage=true:VShell|media
-https://aaflnt.com/statement/customer/customer_statements.zip:Unknown malware|media
-https://shivsagartrading.com/:Unknown malware|media
-https://www.redsdj.ca/:Unknown malware|media
-http://kipthen.shop:9932/subscriptions:Remus|media
+http://178.16.53.91:8443/?h=178.16.53.91&p=8443&t=ws&a=l64&stage=true:Mirai|media
+https://forgewillow.com/2kqYRM0DCrnyJgoS4gVLl_FHJRRdTUhGCbjyuYwpZ6c/kis/update:AMOS|media
+http://107.161.168.217/?h=107.161.168.217&p=80&t=ws&a=l64&stage=true:Mirai|media
+http://89.34.227.96:8088/?h=89.34.227.96&p=8088&t=ws&a=l64&stage=true:Mirai|media
+https://squidscript.com/:Unknown malware|media
+http://31.77.144.86:49104/xmrig.exe:Unknown malware|media
+http://171.113.233.133:60943/Mozi.m:Mozi|media
 http://178.16.55.93/Bin/ScreenConnect.ClientSetup.exe:Unknown malware|media
-http://homecor.click:6527/articles:Remus|media
-http://fuarnpp.shop:5627/transactions:Remus|media
-https://filezilla.cc/takefile/sezen/default.zip:Unknown malware|media
-https://hongyuncloud-diskmanager.hongyuncloud.workers.dev/%E7%BA%A2%E4%BA%91cloud/private/KLRing.dll:Unknown malware|media
-https://jfss-apakp.pages.dev/download/%E6%9C%BA%E6%88%BF%E6%9D%80%E6%89%8B1.26.7.5.zip:Unknown Loader|media
-https://malwaredirectory.pages.dev/malware/ransomwares/Birele.zip:Unknown malware|media
-https://accountsensepro.net/js/all.min.js:Unknown malware|media
-https://solarwinds-in.com:Unknown malware|media
-https://oauthapp.net:Unknown malware|media
-https://reportsnapbit.com/get_verify:Unknown malware|media
-https://oauthapp.net/first_allow_host:Unknown malware|media
-https://reportsnapbit.com/first_allow_host:Unknown malware|media
-https://oauthapp.net/get_verify:Unknown malware|media
-https://reportsnapbit.com/js/all.min.js:Unknown malware|media
-https://oauthapp.net/js/all.min.js:Unknown malware|media
-https://accountsensepro.net/get_verify:Unknown malware|media
-https://accountsensepro.net/first_allow_host:Unknown malware|media
-http://139.135.43.129:35781/Mozi.a:Mozi|media
-http://223.123.43.252:57243/Mozi.m:Mozi|media
-http://103.65.30.159:46727/Mozi.m:Mozi|media
-http://195.24.237.240/.x/black3:Unknown malware|media
+https://pcmastertools.pages.dev/downloads/SysTech-PC-Master-Tools-v1.0.0-x64.exe:Unknown malware|media
+https://qingkong-3ax.pages.dev/download/qingkong.zip:Unknown malware|media
+http://72.255.19.51:42035/Mozi.a:Mozi|media
+http://178.160.10.203:35090/Mozi.m:Mozi|media
+http://teculse.click:9210/sessions:Remus|media
+http://fuarnpp.shop:5627/notifications:Remus|media
+http://103.66.148.82:46774/Mozi.m:Mozi|media
+https://178.104.90.103:Vidar|media
 http://72.255.26.34:51571/Mozi.a:Mozi|media
-http://39.34.191.107:42078/Mozi.m:Mozi|media
-http://103.249.199.1:35620/Mozi.m:Mozi|media
-http://100.165.12.219:42975/Mozi.m:Mozi|media
-http://145.79.143.4:80/nl3P:Cobalt Strike|media
-http://clouven.click:8527/notifications:Remus|media
-http://smaring.shop:9895/attachments:Remus|media
-http://203.99.56.137:36975/Mozi.m:Mozi|media
-http://223.123.125.178:38438/Mozi.m:Mozi|media
-http://202.47.44.156:53119/Mozi.m:Mozi|media
-http://176.65.139.159/bins/i686:malware_download|media
-http://176.65.139.159/bins/x86:malware_download|media
-http://176.65.139.159/bins/mpsl:malware_download|media
-http://45.135.193.63/arm7:malware_download|media
-http://45.135.193.63/x86_64:malware_download|media
-http://45.135.193.63/x86:malware_download|media
-http://45.135.193.63/arm5:malware_download|media
-http://45.135.193.63/arm:malware_download|media
-http://45.135.193.63/mips:malware_download|media
-http://45.135.193.63/m68k:malware_download|media
-http://176.65.139.159/bins/mips:malware_download|media
-http://176.65.139.159/bins/spc:malware_download|media
-http://176.65.139.159/bins/arm7:malware_download|media
-http://176.65.139.158/bins/arm7:malware_download|media
-http://176.65.139.158/bins/arm6:malware_download|media
-http://176.65.139.158/bins/mips:malware_download|media
-http://176.65.139.158/bins/spc:malware_download|media
-http://176.65.139.158/bins/arm5:malware_download|media
-http://176.65.139.158/bins/i686:malware_download|media
-http://176.65.139.158/bins/x86:malware_download|media
-http://176.65.139.158/bins/x86_64:malware_download|media
-http://176.65.139.158/bins/m68k:malware_download|media
-http://176.65.139.158/bins/ppc:malware_download|media
-http://176.65.139.158/bins/arm:malware_download|media
-http://176.65.139.158/bins/mpsl:malware_download|media
-http://176.65.139.206/hiddenbin/Space.sh4:malware_download|media
-http://176.65.139.206/hiddenbin/Space.i686:malware_download|media
-http://176.65.139.159/bins/arm:malware_download|media
-http://176.65.139.159/bins/ppc:malware_download|media
-http://176.65.139.159/bins/m68k:malware_download|media
-http://112.239.99.48:53745/bin.sh:malware_download|media
-http://42.228.105.163:39609/bin.sh:malware_download|media
-http://113.205.23.106:40539/bin.sh:malware_download|media
-http://120.28.199.24:42226/i:malware_download|media
-http://42.86.62.73:33915/i:malware_download|media
-http://120.28.199.24:42226/bin.sh:malware_download|media
-http://113.239.217.79:41208/i:malware_download|media
-http://182.121.151.11:55414/bin.sh:malware_download|media
-http://210.208.110.20:57154/bin.sh:malware_download|media
-http://36.69.76.33:40755/i:malware_download|media
-http://114.228.236.217:39063/i:malware_download|media
-http://61.53.92.131:34378/i:malware_download|media
-http://36.69.76.33:40755/bin.sh:malware_download|media
-http://61.53.92.131:34378/bin.sh:malware_download|media
-http://106.40.241.29:60841/i:malware_download|media
-http://114.228.236.217:39063/bin.sh:malware_download|media
-http://180.115.161.206:47210/i:malware_download|media
-http://125.41.222.235:42257/bin.sh:malware_download|media
-http://113.221.75.123:47564/bin.sh:malware_download|media
-http://42.234.101.169:50352/i:malware_download|media
-http://42.224.186.200:52819/i:malware_download|media
-http://222.127.154.105:37937/i:malware_download|media
-http://42.224.186.200:52819/bin.sh:malware_download|media
-http://42.234.101.169:50352/bin.sh:malware_download|media
-http://222.127.154.105:37937/bin.sh:malware_download|media
-http://125.41.183.78:34893/i:malware_download|media
-http://42.228.223.88:50085/bin.sh:malware_download|media
-http://125.41.183.78:34893/bin.sh:malware_download|media
-http://105.186.73.10:32825/i:malware_download|media
-http://91.92.242.236/files-129312398/files/file_59dbbbed05710d63.exe:malware_download|media
-http://91.92.242.236/files-129312398/files/file_b62641dda3bccec6.msi:malware_download|media
-http://112.239.99.48:53745/i:malware_download|media
-http://185.187.18.22:43409/i:malware_download|media
-http://105.186.73.10:32825/bin.sh:malware_download|media
-http://115.49.31.221:49710/i:malware_download|media
-http://185.187.18.22:43409/bin.sh:malware_download|media
-http://123.5.255.205:60858/i:malware_download|media
-http://61.53.74.99:39925/i:malware_download|media
-http://222.142.203.126:37092/bin.sh:malware_download|media
-http://125.41.222.235:42257/i:malware_download|media
-http://61.53.74.99:39925/bin.sh:malware_download|media
-http://103.172.186.170:41252/i:malware_download|media
-http://222.127.77.227:37700/i:malware_download|media
-http://115.53.246.49:42289/bin.sh:malware_download|media
-http://222.142.246.30:45576/bin.sh:malware_download|media
-http://45.74.3.24/bot.arm6:malware_download|media
-http://45.74.3.24/bot.arm5:malware_download|media
-http://176.65.139.206/hiddenbin/Space.spc:malware_download|media
-http://89.106.83.171/bins/i686:malware_download|media
-http://89.106.83.171/bins/mips:malware_download|media
-http://89.106.83.171/bins/arm7:malware_download|media
-http://89.106.83.171/bins/x86:malware_download|media
-http://89.106.83.171/bins/mpsl:malware_download|media
-http://89.106.83.171/bins/arm6:malware_download|media
-http://89.106.83.171/bins/ppc:malware_download|media
-http://89.106.83.171/bins/x86_64:malware_download|media
-http://45.74.3.24/bot.mpsl:malware_download|media
-http://45.74.3.24/bot.mips:malware_download|media
-http://45.74.3.24/bot.x86_64:malware_download|media
-http://176.65.139.206/hiddenbin/Space.arm6:malware_download|media
-http://176.65.139.206/hiddenbin/Space.arc:malware_download|media
-http://176.65.139.206/hiddenbin/Space.x86:malware_download|media
-http://176.65.139.206/hiddenbin/Space.m68k:malware_download|media
-http://176.65.139.206/hiddenbin/Space.arm:malware_download|media
-http://176.65.139.206/hiddenbin/Space.mpsl:malware_download|media
-http://176.65.139.206/hiddenbin/Space.arm5:malware_download|media
-http://176.65.139.206/hiddenbin/Space.x86_64:malware_download|media
-http://176.65.139.206/hiddenbin/Space.mips:malware_download|media
-http://176.65.139.206/hiddenbin/Space.arm7:malware_download|media
-http://83.219.1.198:53206/i:malware_download|media
+http://195.24.237.240/.x/black3:Unknown malware|media
+http://103.65.30.159:46727/Mozi.m:Mozi|media
+http://223.123.43.252:57243/Mozi.m:Mozi|media
+http://139.135.43.129:35781/Mozi.a:Mozi|media
+http://36.88.164.82:58641/bin.sh:malware_download|media
+http://200.115.102.16:54505/i:malware_download|media
+http://101.29.42.96:32976/bin.sh:malware_download|media
+http://45.186.52.25:51848/i:malware_download|media
+http://222.141.122.254:34413/i:malware_download|media
+http://61.52.2.173:38510/bin.sh:malware_download|media
+http://123.11.13.174:40278/bin.sh:malware_download|media
+http://58.245.6.124:35667/i:malware_download|media
+http://116.10.133.107:48435/bin.sh:malware_download|media
+http://182.120.96.145:47417/i:malware_download|media
+http://182.127.28.116:57712/bin.sh:malware_download|media
+http://42.234.161.34:58947/bin.sh:malware_download|media
+http://59.180.156.72:47308/i:malware_download|media
+http://120.28.214.81:39733/bin.sh:malware_download|media
+http://222.127.71.33:34522/i:malware_download|media
+http://182.119.165.88:57699/bin.sh:malware_download|media
+http://182.126.121.157:52960/bin.sh:malware_download|media
+http://42.85.205.103:55293/i:malware_download|media
+http://115.48.246.12:34621/i:malware_download|media
+http://120.84.212.26:47174/i:malware_download|media
+http://42.235.74.186:52251/i:malware_download|media
+http://27.44.146.245:57988/i:malware_download|media
+http://115.49.1.239:53065/i:malware_download|media
+http://222.141.122.254:34413/bin.sh:malware_download|media
+http://182.120.96.145:47417/bin.sh:malware_download|media
+http://42.57.184.123:51793/i:malware_download|media
+http://39.74.51.175:52136/i:malware_download|media
+http://200.115.102.2:50521/i:malware_download|media
+http://59.180.158.50:55956/i:malware_download|media
+http://175.165.199.185:51509/i:malware_download|media
+http://115.59.56.161:55624/i:malware_download|media
+http://200.115.102.2:50521/bin.sh:malware_download|media
+http://125.46.212.61:45094/bin.sh:malware_download|media
+http://115.56.57.69:53822/i:malware_download|media
+http://42.225.205.54:37382/i:malware_download|media
+http://111.88.7.48:49020/bin.sh:malware_download|media
+http://39.165.226.62:37712/i:malware_download|media
+http://115.50.202.112:39399/bin.sh:malware_download|media
+http://42.234.71.99:52268/bin.sh:malware_download|media
+http://122.6.78.177:36783/i:malware_download|media
+http://185.9.139.117:50066/i:malware_download|media
+http://119.117.170.146:38561/i:malware_download|media
+http://122.6.78.177:36783/bin.sh:malware_download|media
+http://39.165.226.62:37712/bin.sh:malware_download|media
+http://123.5.125.108:55666/bin.sh:malware_download|media
+http://115.48.26.243:59225/bin.sh:malware_download|media
+http://42.225.205.54:37382/bin.sh:malware_download|media
+http://113.237.53.238:53908/i:malware_download|media
+http://60.19.241.32:44019/bin.sh:malware_download|media
+http://115.56.57.69:53822/bin.sh:malware_download|media
+http://125.41.218.236:55874/i:malware_download|media
+http://170.238.123.134:54929/i:malware_download|media
+http://42.224.96.195:54809/i:malware_download|media
+http://59.180.134.0:38357/i:malware_download|media
+http://31.180.174.148:54401/i:malware_download|media
+http://180.191.16.24:58956/i:malware_download|media
+http://39.74.51.175:52136/bin.sh:malware_download|media
+http://39.71.202.105:54578/i:malware_download|media
+http://45.224.83.130:36790/i:malware_download|media
+http://59.89.75.144:49934/i:malware_download|media
+http://36.69.72.176:47958/bin.sh:malware_download|media
+http://115.50.219.106:51247/i:malware_download|media
+http://222.137.0.101:51078/bin.sh:malware_download|media
+http://72.255.35.143:55827/i:malware_download|media
+http://175.147.247.76:43930/i:malware_download|media
+http://90.228.231.169:38579/i:malware_download|media
+http://78.38.120.12:42324/i:malware_download|media
+http://175.165.83.23:39982/i:malware_download|media
+http://175.147.91.231:53977/i:malware_download|media
+http://115.50.219.106:51247/bin.sh:malware_download|media
+http://27.44.145.91:42447/i:malware_download|media
+http://175.43.179.169:40335/i:malware_download|media
+http://61.52.2.173:38510/i:malware_download|media
+http://123.190.231.92:41367/i:malware_download|media
+http://27.44.145.153:53273/bin.sh:malware_download|media
+http://91.190.84.93:17073/i:malware_download|media
+http://78.188.196.206:60122/i:malware_download|media
+http://27.207.222.65:49073/i:malware_download|media
+http://196.189.197.131:51630/bin.sh:malware_download|media
+http://5.26.195.93:54001/i:malware_download|media
+http://45.177.33.169:57035/i:malware_download|media
+http://42.237.53.133:53645/i:malware_download|media
+http://45.183.184.74:54667/i:malware_download|media
+http://222.127.154.221:58071/i:malware_download|media
+http://120.28.81.136:50549/i:malware_download|media
+http://182.127.85.10:51313/bin.sh:malware_download|media
+http://27.44.147.16:47183/i:malware_download|media
+http://193.93.228.160:54745/i:malware_download|media
+http://42.227.134.205:43058/i:malware_download|media
+http://58.47.109.95:42894/i:malware_download|media
+http://42.57.6.73:44269/i:malware_download|media
+http://175.30.72.37:44458/i:malware_download|media
+http://42.178.11.131:37911/i:malware_download|media
+http://182.117.163.171:58889/i:malware_download|media
+http://42.234.71.99:52268/i:malware_download|media
+http://42.4.209.168:58465/i:malware_download|media
+http://42.238.205.161:47722/i:malware_download|media
+http://59.96.138.33:48538/i:malware_download|media
+http://42.233.163.234:53805/i:malware_download|media
+http://42.232.101.165:41839/i:malware_download|media
