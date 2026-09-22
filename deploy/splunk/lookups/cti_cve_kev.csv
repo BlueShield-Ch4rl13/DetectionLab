@@ -1,4 +1,5 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-7273,Zyxel,GS1900 Series Switches,Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability,2026-09-21,Unknown
 CVE-2025-39964,Linux,Kernel,Linux Kernel Race Condition Vulnerability,2026-09-18,Unknown
 CVE-2026-53266,Linux,Kernel,Linux Kernel Out-of-Bounds Write Vulnerability,2026-09-18,Unknown
 CVE-2025-39682,Linux,Kernel,Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability,2026-09-18,Unknown
