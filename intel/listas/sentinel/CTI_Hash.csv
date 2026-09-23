@@ -1,4 +1,19 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto
+91e020c13cb97a6365135b53b0d0fe5f,filehash-md5,Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign,baja,25,,,OTX,2026-09-22T07:30:18
+d3d6e819028346a0b973bd5dd371c468,filehash-md5,Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign,baja,25,,,OTX,2026-09-22T07:30:18
+dc7257d09fab42eca2c354c32fec1938,filehash-md5,Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign,baja,25,,,OTX,2026-09-22T07:30:18
+2d43d592630ad1e012da63ef7279f95dd4a8e94964e12ca2f996051875574fa6,filehash-sha256,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+16addb6524e5cf76f4114b0979f715ff,filehash-md5,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+91c3431e51158aa800a452222a2404d7b82631ea,filehash-sha1,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+37ee3afa9df9c7d65b780cf54e908a98b92c4a5b,filehash-sha1,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+03f13619a413dd1bd7ff8dd47687b3e9,filehash-md5,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+979048a749d8f28d877c7068b1b336ecd1e349869dfb1d7c68118f90e4099bc4,filehash-sha256,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+a2535f051c329131c107d14651ace793,filehash-md5,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+eb2a38a90d20475b00bdc285b89eb50eefd0b88e,filehash-sha1,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+1628bb03db87f67661349e169d73ee14ed490bdbf22abfbda08ccc9ebe237974,filehash-sha256,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+625a381981fc2d4c25c981d98b1d66bb2cf5da2dde2f590add0673a857d5b074,filehash-sha256,Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation,baja,25,,,OTX,2026-09-21T16:45:51
+b8810eae6ead0ec3a606300c5e3fe9c7af23f836719596e9519f73b4e1e7ad01,filehash-sha256,North Korea's Hangro Revisited,baja,25,,,OTX,2026-09-21T16:40:48
+5a2f81451d6c921a7ab845b1856f67d71c76196cc34ace5ef7c7e8e471c3214b,filehash-sha256,North Korea's Hangro Revisited,baja,25,,,OTX,2026-09-21T16:40:48
 94b50ace73cc03790678c73b867be129,filehash-md5,From Registry-Stored PowerShell to In-Memory Cryptocurrency Mining: A Multi-Stage Infection Chain,baja,25,,,OTX,2026-09-21T15:16:14
 be860a15b7e5d44b0b3d67f598238fad,filehash-md5,From Registry-Stored PowerShell to In-Memory Cryptocurrency Mining: A Multi-Stage Infection Chain,baja,25,,,OTX,2026-09-21T15:16:14
 c024189e1e7fa0ae6d24353367e8b98d,filehash-md5,From Registry-Stored PowerShell to In-Memory Cryptocurrency Mining: A Multi-Stage Infection Chain,baja,25,,,OTX,2026-09-21T15:16:14
@@ -44,76 +59,3 @@ c830b895fb934291507e490280164cc4234929f0,filehash-sha1,Lazarus luring employees 
 e18b9743ec203ab49d3b57fed6df5a99061f80e0,filehash-sha1,Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company,baja,25,,,OTX,2026-09-18T21:29:44
 e61672b23dbd03fe3b97ee469fa0895ed1f9185d,filehash-sha1,Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company,baja,25,,,OTX,2026-09-18T21:29:44
 ebd3ef268c71a0ed11ae103aa745f1d8a63ddf13,filehash-sha1,Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company,baja,25,,,OTX,2026-09-18T21:29:44
-0e4541c3153ec5ed01497f19cf4f63d0,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-0e79996d9483d1e44fea32b0a48c2c19,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-129462164a7d52e9ea8560b60f0412c5,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-12d4e8f5295f2ef7e0f9bfc0f4830939,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-2bb75c20e778eb5c416965bd4d4259b1,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-43f435c3c437bc879a2d7d4634f43494,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-489f43be558b2679284ceabed7adc4f3,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-4d27b4eb1c5dbb3d8160f29b8119523e,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-748c9f8cb1065000616204935f96207f,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-7f267006cac10f341c356b62fe493527,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-8fcc3e4ccbf1725d9989fb464abf3561,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-aee9642b45b099cb7f3053b9b680b425,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-b348642146ea34771e5785c5857950f5,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-b3a6fee3307f1c26841fd5c603e2b013,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-c3a2abe8756910f42582b04a44ea3514,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-c5a460e4e68a088f6e51b2c6474642ec,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-dd1fd2b459b97b7d59375cb8383cd19a,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-ec0bf4a2186a88874e9f26f07cfeb532,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-ee2861d5965e8730708cd1da8a93fa4c,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-7b9c37d82be5102e47a267e9f3c7c16b23bb1114,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-ac9f013ad20aab607264d7cfe69ad153a4224d4b,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-b7cea387205e16c9f43d750035e77735415dad34,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-ce1ae52bd60bf4a15a8d9aa597989b0d9df8ff3b,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-f9a692dadf9cc72352b979b1ecb80eb09ddf941a,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-0ed9306deabddaa587ad75d0775f7e63b27857a13adcc870dc9f8c92a9ddc6da,filehash-sha256,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-0fce4b732ce10c72093587e82ca9747a885430e366934ddc27e437443ff0cc0e,filehash-sha256,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-72029a4d4790784dd3029d13e73f57494dcb8f8187ca234b131e2b825bd84336,filehash-sha256,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-b9e4052b310f9451eca9784a4a33bf5282d1bd07e3359eba9648be625e2e40dd,filehash-sha256,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-ceea2f175eaa02919e8b5161c2ecf585de3e8b6d586bca8046eee2e3f4efa386,filehash-sha256,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-4bbe23daa43583037420ff17b6c6d0844523037c,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-4333f52668996c0fa44c14fefba7fecc,filehash-md5,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-1587b6b1949c83e5916cabe9b5882a2ce4d26902,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-1a8fb0337a767126de8ba924be8b480fd57c30c9,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-3e2908e1eebaa2aa52a154e8fb95059d91fe3a02,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-6f6c9115f9464134cc881d0ef941de40dc09fb87,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-76b90ba581a7792500b2ceea68d83bdb09d07093,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-cf07cc0c04f1a5558e1976e0b0b2e80b89b43fcb,filehash-sha1,Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants,baja,25,,,OTX,2026-08-21T07:35:08
-41a995491ef98e4b8a794cde3ad3cdaa269df16e7b7bfa1bdc898a2239db6465,filehash-sha256,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-022287b05e4c5ba5503f2b798219f5e9,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-0287ba0ecc176ae63ea1d1e053654f32,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-09e12d8143dc4ccefe2b9ff4858383fa,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-0fa04679a1121eec0442fbad1a8fe69f,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-1100e1d599b5e4f87082670673c8abfb,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-15c839292684ac6374633d231dbd76a7,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-17134fe1344744cf99a93483f6859212,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-17dc3ad572ba5b275e545e7498ee129b,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-182c9cca16e16a8621e6691e003e7717,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-22573d874ac9ffa785e57d94e243b48d,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-25743698d03b1724415781b777687a6e,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-275cc2c1b0d53f43d49374494bd14724,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-2d7bbf3a52a3f2410f6f87836e0d853d,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-3746d143bb695446249541ca3cfd2e70,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-391f30807d3cf333cdc286d1ff5b0f58,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-3d1dafe83b4b37c849c3994ccced5bc1,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-3eb0b0811c0ab9e87e2ee7f7bac7c46a,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-3f0c18f8289a6cbc800696ac5b6c3246,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-4395e8e7351de03faac54492ee2bc874,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-43964960ec5d070b933429fed10fd8cd,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-45457100c94d8bb0c74734d5dd8faa30,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-4a10caea74246763ddeb92313dc71b3e,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-4c97d3b20b51f1b66632d726682e617e,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-60f77706dbb3c7160a05fc0372c799ad,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-640fb756e8de75161e17743e350e0898,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-68441c32dc0c49b9a32fe0fc38fb0ec9,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-77dc27fb2ed18f3977241e9475097746,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-7b00beb5a7ef4a142ebcdcc052b312a3,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-7e27fa3a4813d6ecc3246c66596c79c9,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-819dbc6a3c1c2ecdc461d9c4bb9e1e42,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-827c80b37fa741732c6cd3f3fdfbfe7a,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-84533ef6651f38fe162ad2753f1ad788,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-85a62cf36b1c0445ac8c4a57b18adb8a,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-86a164a403a94c8ccd4f0ba383fa943c,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47
-906e49f334041ebccc071985ecdcf2ba,filehash-md5,SilkParasite: Tracking a China-Nexus APT Across Central Asia,baja,25,,,OTX,2026-08-20T07:04:47

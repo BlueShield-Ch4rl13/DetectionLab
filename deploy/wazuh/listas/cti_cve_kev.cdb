@@ -1,3 +1,7 @@
+CVE-2026-93952:Arista VeloCloud Orchestrator
+CVE-2026-94127:F5 BIG-IP APM
+CVE-2026-93616:Check Point Multiple Products
+CVE-2026-85102:Check Point Multiple Products
 CVE-2026-7273:Zyxel GS1900 Series Switches
 CVE-2025-39964:Linux Kernel
 CVE-2026-53266:Linux Kernel
@@ -16,7 +20,3 @@ CVE-2026-19490:Citrix NetScaler
 CVE-2025-25249:Fortinet Multiple Products
 CVE-2026-87491:Google Chromium V8
 CVE-2026-20079:Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management
-CVE-2026-75650:Adobe Commerce and Magento
-CVE-2026-81963:Microsoft Windows
-CVE-2026-86218:N-able N-central
-CVE-2026-85880:Microsoft Windows
