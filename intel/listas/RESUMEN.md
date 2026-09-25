@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-09-24 04:20 UTC  
-**Listas generadas:** 2026-09-24T10:51:55Z  
+**Feed generado:** 2026-09-25 04:34 UTC  
+**Listas generadas:** 2026-09-25T10:54:28Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 125 | Caza programada, no alerta directa |
-| Dominio | 2300 | Caza programada, no alerta directa |
-| URL | 341 | Caza programada, no alerta directa |
-| Hash | 58 | **Alerta directa**: un hash coincide o no |
+| IP | 95 | Caza programada, no alerta directa |
+| Dominio | 1062 | Caza programada, no alerta directa |
+| URL | 235 | Caza programada, no alerta directa |
+| Hash | 63 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 18 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (465 de 3321)
+## Que se descarto del feed (265 de 1753)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 386 |
-| nivel bajo | 79 |
+| tipo no usado | 215 |
+| nivel bajo | 50 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| IClickFix | 1796 |
-| Unknown Loader | 271 |
-| ClearFake | 170 |
-| Unknown malware | 114 |
+| Unknown Loader | 848 |
 | malware_download | 100 |
-| Remus | 39 |
-| Unknown Stealer | 32 |
-| Vidar | 31 |
-| php.shin_webshell | 24 |
-| Remcos | 23 |
-| RemControl: AI Built the Overlays. Victims Lose their PINs | 20 |
-| Cobalt Strike | 19 |
+| ClearFake | 99 |
+| Unknown malware | 72 |
+| IClickFix | 69 |
+| A new version of the MacSync macOS stealer targets crypto enthusiasts and developers | 29 |
+| Tracking PavinLoader across ClickFix and fake download campaigns | 29 |
+| php.shin_webshell | 26 |
+| Remcos | 21 |
+| Cobalt Strike | 18 |
+| Remus | 16 |
+| Mozi | 16 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 125 |
-| `wazuh/cti_dominio` | 2300 |
-| `wazuh/cti_url` | 341 |
-| `wazuh/cti_hash` | 58 |
+| `wazuh/cti_ip` | 95 |
+| `wazuh/cti_dominio` | 1062 |
+| `wazuh/cti_url` | 235 |
+| `wazuh/cti_hash` | 63 |
 | `wazuh/cti_cve_kev` | 18 |
-| `splunk/cti_ip.csv` | 125 |
-| `splunk/cti_dominio.csv` | 2300 |
-| `splunk/cti_url.csv` | 341 |
-| `splunk/cti_hash.csv` | 58 |
+| `splunk/cti_ip.csv` | 95 |
+| `splunk/cti_dominio.csv` | 1062 |
+| `splunk/cti_url.csv` | 235 |
+| `splunk/cti_hash.csv` | 63 |
 | `splunk/cti_cve_kev.csv` | 18 |
-| `sentinel/CTI_Ip.csv` | 125 |
-| `sentinel/CTI_Dominio.csv` | 2300 |
-| `sentinel/CTI_Url.csv` | 341 |
-| `sentinel/CTI_Hash.csv` | 58 |
-| `elastic/cti_ip.ndjson` | 125 |
-| `elastic/cti_dominio.ndjson` | 2300 |
-| `elastic/cti_url.ndjson` | 341 |
-| `elastic/cti_hash.ndjson` | 58 |
+| `sentinel/CTI_Ip.csv` | 95 |
+| `sentinel/CTI_Dominio.csv` | 1062 |
+| `sentinel/CTI_Url.csv` | 235 |
+| `sentinel/CTI_Hash.csv` | 63 |
+| `elastic/cti_ip.ndjson` | 95 |
+| `elastic/cti_dominio.ndjson` | 1062 |
+| `elastic/cti_url.ndjson` | 235 |
+| `elastic/cti_hash.ndjson` | 63 |
 
 ## Como se instala cada una
 
