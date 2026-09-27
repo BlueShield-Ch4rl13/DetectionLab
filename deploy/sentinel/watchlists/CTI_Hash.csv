@@ -6,27 +6,25 @@ a12ba3a3dcd70e02f89253c9ec78b11f,filehash-md5,Uncovering a SectopRAT Variant Emb
 48d3ecbb9e0b6babe6e53e2082a076bad07ef61ccd98dcc8b9e4f390b937788b,filehash-sha256,Uncovering a SectopRAT Variant Embedded in Legitimate Software,baja,25,,,OTX,2026-09-25T14:42:15
 95f6abd3c43ef4b33cd61d054527233dd2ce705804d44a04be96cfb73bb52e3a,filehash-sha256,Uncovering a SectopRAT Variant Embedded in Legitimate Software,baja,25,,,OTX,2026-09-25T14:42:15
 efa07701570983909ef923ea79bb032f19fd9dac0b819fa0e4f6b1161a4cc221,filehash-sha256,Uncovering a SectopRAT Variant Embedded in Legitimate Software,baja,25,,,OTX,2026-09-25T14:42:15
-e10361a11f8a7f232ac3cb2125c1875a0a69a3e4,filehash-sha1,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-38de5b216c33833af710e88f7f64fc98,filehash-md5,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507,filehash-sha256,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-9896a6fcb9bb5ac1ec5297b4a65be3f647589adf7c37b45f3f7466decd6a4a7f,filehash-sha256,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-cfa1997682e4ed41bc691ba848d845abbe0b75ec97e640c2b015b4d1624a108a,filehash-sha256,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-66c72019eafa41bbf3e708cc3824c7c4447bdab6,filehash-sha1,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-2915b3f8b703eb744fc54c81f4a9c67f,filehash-md5,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-415898f14843d4a6537cf8f43d328eaf,filehash-md5,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-41444d7018601b599beac0c60ed1bf83,filehash-md5,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-38d053135ddceaef0abb8296f3b0bf6114b25e10e6fa1bb8050aeecec4ba8f55,filehash-sha256,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-f462bfd8a1f66c19d9e2fb21e395fbe7db1d6be7,filehash-sha1,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-540080fea97d88ed902c5e4f9a026b4fcd32ab263706c520e00728f1a29578b8,filehash-sha256,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-d65c7b544a97b0c3f2773b5fcc57d30e,filehash-md5,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-1615e07ac069ca08f9cdddd99a3e4a533f574e02,filehash-sha1,Trust and the enticing consultancy offer,baja,25,,,OTX,2026-09-24T22:09:49
-0d202e16408770e8b6cceb14e1e3e72946b154bf881d27fe33d0060315b30dd1,filehash-sha256,The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint,baja,25,,,OTX,2026-09-24T17:43:50
-30f9387b6aa2dd249d93cec58786251a224faaec57673a4b8104a33a01dfe62b,filehash-sha256,RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft,baja,25,,,OTX,2026-09-24T17:43:49
-351f0d27d2f0105186446693eed5794419ad79d7e6e647fc2fe74dbffb25f9ad,filehash-sha256,RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft,baja,25,,,OTX,2026-09-24T17:43:49
-5060c8184993d5ac04701ffa2c1d30451e40a7b2dbfc084eceaabb5084704991,filehash-sha256,RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft,baja,25,,,OTX,2026-09-24T17:43:49
-a7e8c9e157d3ce37913a32aaa861b5248da4cc5288fa99a6b291524af5e3b9c6,filehash-sha256,RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft,baja,25,,,OTX,2026-09-24T17:43:49
-b7a5c52cedd9cd5425a7f85b8d3b4b869b805c70c7991375a2c4ab612ff7906d,filehash-sha256,RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft,baja,25,,,OTX,2026-09-24T17:43:49
-fec29bbd8e50b6635ef683f03f6e018c9627aa6362a2f167115424e50b8c1b10,filehash-sha256,RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft,baja,25,,,OTX,2026-09-24T17:43:49
+7e2e036fec2fe7ab4bbd43978d9296563894c92a112f5ac2f39957f12108e245,filehash-sha256,Implants in the Supply Chain,baja,25,,,OTX,2026-08-27T22:16:26
+ae6c356f1f09260b859f84d994ef8423540a6c0bdf98510d86b85834283e4926,filehash-sha256,Implants in the Supply Chain,baja,25,,,OTX,2026-08-27T22:16:26
+b77811db4d218c65670a6c9a5b33c30ff81c6d779e15d658643138771178a818,filehash-sha256,Implants in the Supply Chain,baja,25,,,OTX,2026-08-27T22:16:26
+4309d107af6a23f4a7f841b9148258e1a280b972,filehash-sha1,Implants in the Supply Chain,baja,25,,,OTX,2026-08-27T22:16:26
+681b57b6bf79ff0fdcfd19633586a6dcd3491651,filehash-sha1,Implants in the Supply Chain,baja,25,,,OTX,2026-08-27T22:16:26
+bfaeb987faa6de2b5a5eb63b1233d055215b09b0349a9394f2175fd7cdf385e4,filehash-sha256,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+b9993a8ad0518849416798cf29668256ccb96598fc4423501ccab5312812653a,filehash-sha256,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+24b9ee242f21a73b55f7bb3297eafb33c60840907386b542ed79fc6b72365168,filehash-sha256,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+22bf76fe317ea6769bd38619bd440e42d119bd6b,filehash-sha1,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+c8cb3f6d5b90c46686d2bf531dc1a5786e27edc5,filehash-sha1,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+d602f4eeb914cf32782799376a8c5953,filehash-md5,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+93d8cffab1171a115228808e526d9bd7fe935e4e,filehash-sha1,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+d8a6b102c1715bd80393ce510931b1f6,filehash-md5,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+ea895416fe585a5c2a5dce207190ff1c,filehash-md5,Inside the AsyncAPI Supply Chain Compromise,baja,25,,,OTX,2026-08-27T22:16:25
+07d4a6ac925f9f7e63c7332df1995de03f514931e9d97cb3dd7a72fecf569e11,filehash-sha256,AI-Powered PhaaS Supply Chain,baja,25,,,OTX,2026-08-27T08:04:56
+2c790296b404b3e7592da37b15311507b0e55989e1628eef1bb970acb13ec37f,filehash-sha256,AI-Powered PhaaS Supply Chain,baja,25,,,OTX,2026-08-27T08:04:56
+32fa60c9099f53f194a6a63c9341dd115434584e0890120ba1eca83ae33832bf,filehash-sha256,AI-Powered PhaaS Supply Chain,baja,25,,,OTX,2026-08-27T08:04:56
+5ea22f9777a34f461840c2a3988c717c0f9e6ec4bd95420c8643251e28ccc36b,filehash-sha256,AI-Powered PhaaS Supply Chain,baja,25,,,OTX,2026-08-27T08:04:56
+d9e2881d3aa1ea40928dac65405fbe7e36989cad51ab46daf493afff757a2493,filehash-sha256,AI-Powered PhaaS Supply Chain,baja,25,,,OTX,2026-08-27T08:04:56
 10df3451915ea35bcb17efe121415f24182680e2d07fc09df07ee695072104c1,filehash-sha256,Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities,baja,25,,,OTX,2026-08-26T17:18:26
 7447d0d0c34779d4c519823b39bf6ddc16d2b34a226b82ee69da6f5b4a77ad82,filehash-sha256,Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities,baja,25,,,OTX,2026-08-26T17:18:26
 27cc65cb6261ef0d584287cf09bdafcc,filehash-md5,Dark Caracal Reloaded: New Malware  Same Hunting Grounds,baja,25,,,OTX,2026-08-26T17:18:25
