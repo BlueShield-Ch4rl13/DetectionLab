@@ -1,4 +1,5 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-86950,Apple,Multiple Products,Apple Multiple Products Out-of-Bounds Write Vulnerability,2026-09-29,Unknown
 CVE-2026-88772,Citrix,NetScaler,Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability,2026-09-27,Unknown
 CVE-2026-88771,Citrix,NetScaler,Citrix NetScaler Improper Input Validation Vulnerability,2026-09-27,Unknown
 CVE-2026-67279,MikroTik,RouterOS,Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability,2026-09-25,Unknown
