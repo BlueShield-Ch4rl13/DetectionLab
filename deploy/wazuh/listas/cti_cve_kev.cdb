@@ -1,3 +1,4 @@
+CVE-2026-76504:Cisco Catalyst SD-WAN Manager
 CVE-2026-86950:Apple Multiple Products
 CVE-2026-88772:Citrix NetScaler
 CVE-2026-88771:Citrix NetScaler
@@ -14,6 +15,3 @@ CVE-2026-7273:Zyxel GS1900 Series Switches
 CVE-2025-39964:Linux Kernel
 CVE-2026-53266:Linux Kernel
 CVE-2025-39682:Linux Kernel
-CVE-2026-58704:Google Pixel
-CVE-2026-76460:Cisco Identity Services Engine
-CVE-2026-87886:Acronis Backup
