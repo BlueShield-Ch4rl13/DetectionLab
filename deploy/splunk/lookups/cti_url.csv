@@ -1,271 +1,299 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-http://178.16.54.109/solopada,url,Phorpiex,media,62,100,,ThreatFox,2026-09-30 11:08:10 UTC,1
-https://107.175.88.100/img/remcos_a.dat,url,Remcos,media,59,95,,ThreatFox,2026-09-30 11:08:14 UTC,1
-http://102.212.61.41:8022/sshd,url,SSHDoor,media,58,100,,ThreatFox,2026-10-01 04:41:59 UTC,0
-https://drgenov.com/wp-content/uploads/debug4.ps1,url,Koi Loader,media,58,90,,ThreatFox,2026-10-01 04:38:43 UTC,0
-https://91.228.153.116:6886,url,AdaptixC2,media,57,100,,ThreatFox,2026-09-30 05:49:39 UTC,1
-http://60.6.62.96:59328/i,url,Mirai,media,56,75,,ThreatFox,2026-10-01 04:30:51 UTC,0
-https://up.332toto.net,url,Vidar,media,56,100,,ThreatFox,2026-10-01 03:56:09 UTC,0
-http://8.218.2.176:8084/?h=8.218.2.176&p=8084&t=ws&a=w32&stage=true,url,VShell,media,56,95,,ThreatFox,2026-09-30 12:21:53 UTC,0
-https://172.236.206.79,url,Vidar,media,56,100,,ThreatFox,2026-09-30 11:08:15 UTC,1
-http://148.66.17.125:60003/?h=148.66.17.125&p=60003&t=ws&a=w64&stage=true,url,VShell,media,56,95,,ThreatFox,2026-09-30 11:08:15 UTC,1
-http://101.99.91.180/?h=101.99.91.180&p=80&t=ws&a=w64&stage=true,url,VShell,media,56,95,,ThreatFox,2026-09-30 05:49:43 UTC,1
-http://101.33.45.136:8084/?h=101.33.45.136&p=8084&t=ws&a=l64&stage=true,url,Mirai,media,55,95,,ThreatFox,2026-10-01 04:39:26 UTC,0
-https://31.15.17.99,url,Vidar,media,55,100,,ThreatFox,2026-10-01 04:02:01 UTC,0
-https://172.238.125.76,url,Vidar,media,55,100,,ThreatFox,2026-10-01 04:01:30 UTC,0
-https://browseid.codes,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 02:27:49 UTC,0
-https://up.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 01:40:49 UTC,0
-https://up.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 01:40:48 UTC,0
-https://up.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 01:39:24 UTC,0
-https://sandiegomobiletire.com/loader/agent/a75137e5a3f45aacaa1ed5259e81ad8dcbcc0c1b767d8fc46dc42d2ef548b449,url,MacSync,media,55,100,,ThreatFox,2026-09-30 23:46:30 UTC,0
-https://lo.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-09-30 23:00:59 UTC,0
-https://lo.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-09-30 19:45:48 UTC,0
-https://lo.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-09-30 19:44:32 UTC,0
-https://lo.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-09-30 19:40:48 UTC,0
-http://84.200.33.163/302/302m,url,ContagiousDrop,media,55,100,,ThreatFox,2026-09-30 19:00:53 UTC,0
-http://84.200.33.163/302/302l,url,ContagiousDrop,media,55,100,,ThreatFox,2026-09-30 19:00:52 UTC,0
-http://84.200.33.163/302/302w,url,ContagiousDrop,media,55,100,,ThreatFox,2026-09-30 19:00:52 UTC,0
-http://84.200.33.163/302/tokenlinux.sh,url,ContagiousDrop,media,55,100,,ThreatFox,2026-09-30 19:00:51 UTC,0
-http://84.200.33.163/302/parser.js,url,ContagiousDrop,media,55,100,,ThreatFox,2026-09-30 19:00:51 UTC,0
-http://104.234.94.197:1244/main,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:32 UTC,0
-http://104.234.94.197:1244/client/36/346,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:32 UTC,0
-http://104.234.94.197:1244/ncli/36/346,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:31 UTC,0
-http://104.234.94.197:1244/payload/36/346,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:31 UTC,0
-http://104.234.94.197:1244/payl/36/346,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:30 UTC,0
-http://104.234.94.197:1244/brow/36/346,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:30 UTC,0
-http://104.234.94.197:1244/ldb/36/346,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:29 UTC,0
-http://104.234.94.197:2225/pd/l,url,BeaverTail,media,55,100,,ThreatFox,2026-09-30 19:00:29 UTC,0
-https://x2.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-09-30 17:06:38 UTC,0
-https://fe29jf323.kesug.com/YE97Bw999zB87t1U8i.php,url,Unknown malware,media,55,100,,ThreatFox,2026-09-30 14:55:29 UTC,0
-https://iso.v-panel.asia/,url,Vidar,media,55,100,,ThreatFox,2026-09-30 14:49:42 UTC,0
-https://accs.msdos.ru/login,url,Vidar,media,55,100,,ThreatFox,2026-09-30 14:49:41 UTC,0
-https://x2.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-09-30 14:49:40 UTC,0
-https://65.109.127.15,url,Vidar,media,55,100,,ThreatFox,2026-09-30 13:53:29 UTC,0
-https://thisisafalsepositive.st/cdn/v2/9f4e7a2c1b8d.png,url,Unknown Stealer,media,55,100,,ThreatFox,2026-09-30 13:18:43 UTC,0
-https://cdn.jsdelivr.net/gh/52-7aa5/a861d732-5ddf-46c2-a574-c0649f8df6b8/859a49159d7b,url,ClearFake,media,55,100,,ThreatFox,2026-09-30 11:13:24 UTC,1
-https://browscheck.codes,url,Unknown malware,media,55,100,,ThreatFox,2026-09-30 11:08:10 UTC,1
-https://x2.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-09-30 10:55:45 UTC,1
-https://x2.334v.org/,url,Vidar,media,55,100,,ThreatFox,2026-09-30 10:30:45 UTC,1
-https://x2.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-09-30 10:25:45 UTC,1
-https://sunstonekeystone.info/redirect/oauth-layout.js,url,SmartApeSG,media,55,100,,ThreatFox,2026-09-30 10:22:48 UTC,1
-https://217.60.103.200,url,Vidar,media,55,100,,ThreatFox,2026-09-30 09:38:04 UTC,1
-http://bescaphoto.ga/,url,SmokeLoader,media,55,100,,ThreatFox,2026-09-30 09:28:46 UTC,1
-https://bw.5-rt.org,url,Vidar,media,55,100,,ThreatFox,2026-09-30 08:15:52 UTC,1
-https://cdn.jsdelivr.net/gh/dsteru3421/4f77-bdc8-7e8087412ccf/457b-b003-d5999c246f25,url,ClearFake,media,55,100,,ThreatFox,2026-09-30 07:32:33 UTC,1
-https://bh.5-rt.org,url,Vidar,media,55,100,,ThreatFox,2026-09-30 06:01:31 UTC,1
-https://bw.32naga.net,url,Vidar,media,55,100,,ThreatFox,2026-09-30 05:49:50 UTC,1
-https://pz.5-rt.org,url,Vidar,media,55,100,,ThreatFox,2026-09-30 05:49:44 UTC,1
-http://144.31.151.8/,url,Stealc,media,55,100,,ThreatFox,2026-09-30 05:49:38 UTC,1
-https://bomboclat.sbs/ws,url,Unknown RAT,media,55,100,,ThreatFox,2026-09-30 05:49:20 UTC,1
-https://bomboclat.sbs/get/config,url,Unknown RAT,media,55,100,,ThreatFox,2026-09-30 05:49:20 UTC,1
-https://xt.5-rt.org,url,Vidar,media,55,100,,ThreatFox,2026-09-30 05:49:01 UTC,1
-http://101.33.45.136:8084/?h=101.33.45.136&p=8084&t=ws&a=l32&stage=true,url,Mirai,media,54,95,,ThreatFox,2026-10-01 03:39:11 UTC,0
-http://101.33.45.136:8084/?h=101.33.45.136&p=8084&t=tcp&a=l64&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-10-01 03:39:10 UTC,0
-http://101.33.45.136:8084/?h=101.33.45.136&p=8084&t=tcp&a=l32&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-10-01 03:39:08 UTC,0
-http://156.251.16.136:8084/?h=156.251.16.136&p=8084&t=ws&a=w64&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 02:39:06 UTC,0
-http://156.251.16.136:8084/?h=156.251.16.136&p=8084&t=ws&a=w32&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 02:39:04 UTC,0
-http://156.251.16.131:8084/?h=156.251.16.131&p=8084&t=ws&a=w32&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 02:39:03 UTC,0
-http://78.153.140.16/kinsing_aarch64,url,Kinsing,media,54,90,,ThreatFox,2026-09-30 20:38:44 UTC,0
-http://45.86.229.111:8080/?h=45.86.229.111&p=8080&t=ws&a=w32&stage=true,url,VShell,media,54,95,,ThreatFox,2026-09-30 19:38:50 UTC,0
-http://23.140.244.57/mips,url,Mirai,media,54,90,,ThreatFox,2026-09-30 19:38:49 UTC,0
-http://172.245.25.170:8040/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest,url,Unknown malware,media,54,95,,ThreatFox,2026-09-30 17:06:56 UTC,0
-http://45.13.186.37/noncrypt/21-32/kliulij.exe,url,Stealc,media,54,95,,ThreatFox,2026-09-30 17:06:56 UTC,0
-http://88.216.191.9:8880/?h=88.216.191.9&p=8880&t=tcp&a=l32&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-09-30 17:06:40 UTC,0
-http://45.13.186.37/noncrypt/21-32/KLLNMF.exe,url,Remus,media,54,95,,ThreatFox,2026-09-30 14:49:38 UTC,0
-https://claudedevz.net/,url,Unknown malware,media,54,90,,ThreatFox,2026-09-30 12:31:14 UTC,0
-http://51.144.45.141/exe_0707/Client.exe,url,DCRat,media,54,95,,ThreatFox,2026-09-30 09:57:03 UTC,1
-http://178.16.53.91:8443/?h=178.16.53.91&p=8443&t=tcp&a=l32&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-09-30 09:57:03 UTC,1
-http://43.111.235.219:16667/?h=43.111.235.219&p=16667&t=tcp&a=l64&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-09-30 08:06:58 UTC,1
-http://156.251.16.126:8084/?h=156.251.16.126&p=8084&t=ws&a=w32&stage=true,url,VShell,media,54,95,,ThreatFox,2026-09-30 08:06:58 UTC,1
-http://139.95.24.51:8081/?h=139.95.24.51&p=8081&t=ws&a=l64&stage=true,url,Mirai,media,54,95,,ThreatFox,2026-09-30 06:47:51 UTC,1
-http://148.66.17.122:60003/?h=148.66.17.122&p=60003&t=ws&a=w64&stage=true,url,VShell,media,54,95,,ThreatFox,2026-09-30 05:49:29 UTC,1
-https://gfnstuff.pages.dev/GalacticToolsV3.exe,url,Agent Tesla,media,54,90,,ThreatFox,2026-09-30 05:49:17 UTC,1
-http://64.112.84.195:443/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest,url,Unknown malware,media,54,90,,ThreatFox,2026-09-30 05:49:09 UTC,1
-https://checkfivem.com/runtime/VC_redist.x64.exe,url,Unknown Loader,media,53,85,,ThreatFox,2026-09-30 20:38:48 UTC,0
-http://146.19.213.28:443/?h=146.19.213.28&p=443&t=ws&a=w64&stage=true,url,Unknown Loader,media,53,85,,ThreatFox,2026-09-30 19:38:47 UTC,0
-http://146.19.213.28:443/?h=146.19.213.28&p=443&t=ws&a=w32&stage=true,url,Unknown Loader,media,53,85,,ThreatFox,2026-09-30 09:28:44 UTC,1
-http://202.61.138.81:443/?h=202.61.138.81&p=443&t=tcp&a=w64&stage=true,url,Unknown Loader,media,53,85,,ThreatFox,2026-09-30 05:49:27 UTC,1
-http://202.61.138.81:443/?h=202.61.138.81&p=443&t=tcp&a=w32&stage=true,url,Unknown Loader,media,53,85,,ThreatFox,2026-09-30 05:49:16 UTC,1
-https://nze.work.gd/nzee/secured_stub.ps1,url,Unknown malware,media,52,80,,ThreatFox,2026-09-30 19:00:23 UTC,0
-http://mail.qilantelecorn.com:8080/cb311f38-8969-4c36-84a5-3a44fcfae09c,url,Unknown Loader,media,52,80,,ThreatFox,2026-09-30 17:06:56 UTC,0
-https://aeantivirus.com/download/file/AEAntivirus-Setup.exe,url,Unknown malware,media,52,80,,ThreatFox,2026-09-30 12:21:52 UTC,0
-http://creesbs.sbs:9932/profiles,url,Remus,media,52,75,,ThreatFox,2026-09-30 11:54:23 UTC,1
-https://recebyrn.co/tqfPRVeO/install-windows-update-to-play-voicemail.vbs,url,Unknown Loader,media,52,80,,ThreatFox,2026-09-30 05:50:27 UTC,1
-https://carolcolecatholicartist.com/wp-includes/js/jquery/articles.zip,url,Unknown malware,media,52,80,,ThreatFox,2026-09-30 05:48:35 UTC,1
-http://straely.biz:8531/articles,url,Remus,media,51,75,,ThreatFox,2026-10-01 03:12:13 UTC,0
-http://nexssbs.sbs:9932/sessions,url,Remus,media,51,75,,ThreatFox,2026-10-01 03:12:13 UTC,0
-http://213.66.64.21:51943/i,url,Mirai,media,51,75,,ThreatFox,2026-10-01 03:10:51 UTC,0
-http://72.255.18.115:57557/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 00:20:24 UTC,0
-http://139.135.45.168:46720/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 00:20:24 UTC,0
-http://103.31.101.3:44519/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 00:20:24 UTC,0
-http://100.165.11.127:35520/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 00:20:23 UTC,0
-http://petcarv.click:8239/webhooks,url,Remus,media,51,75,,ThreatFox,2026-10-01 00:08:23 UTC,0
-http://creesbs.sbs:9932/files,url,Remus,media,51,75,,ThreatFox,2026-10-01 00:08:23 UTC,0
-http://smatart.my:8531/collections,url,Remus,media,51,75,,ThreatFox,2026-10-01 00:08:23 UTC,0
-http://smatart.my:8531/settings,url,Remus,media,51,75,,ThreatFox,2026-09-30 23:42:13 UTC,0
-http://creesbs.sbs:9932/invoices,url,Remus,media,51,75,,ThreatFox,2026-09-30 23:42:13 UTC,0
-http://eliroup.best:5621/products,url,Remus,media,51,75,,ThreatFox,2026-09-30 23:42:13 UTC,0
-http://119.165.235.139:57919/i,url,Mirai,media,51,75,,ThreatFox,2026-09-30 23:20:21 UTC,0
-http://42.224.94.161:48225/bin.sh,url,Mozi,media,51,75,,ThreatFox,2026-09-30 23:20:17 UTC,0
-http://112.85.183.82:38907/i,url,Mirai,media,51,75,,ThreatFox,2026-09-30 23:20:13 UTC,0
-http://37.34.209.216:50810/i,url,Mirai,media,51,75,,ThreatFox,2026-09-30 23:20:09 UTC,0
-https://172.233.32.123,url,Vidar,media,51,75,,ThreatFox,2026-09-30 22:30:26 UTC,0
-http://105.224.47.70:38811/i,url,Mirai,media,51,75,,ThreatFox,2026-09-30 22:25:22 UTC,0
-http://42.224.94.161:48225/i,url,Mozi,media,51,75,,ThreatFox,2026-09-30 22:25:18 UTC,0
-http://petcarv.click:8239/files,url,Remus,media,51,75,,ThreatFox,2026-09-30 22:22:43 UTC,0
-http://creesbs.sbs:9932/settings,url,Remus,media,51,75,,ThreatFox,2026-09-30 22:22:43 UTC,0
-http://equigfy.biz:9932/orders,url,Remus,media,51,75,,ThreatFox,2026-09-30 20:21:22 UTC,0
-http://glotech.art:9932/users,url,Remus,media,51,75,,ThreatFox,2026-09-30 20:21:22 UTC,0
-http://equigfy.biz:9932/categories,url,Remus,media,51,75,,ThreatFox,2026-09-30 19:03:39 UTC,0
-http://glotech.art:9932/categories,url,Remus,media,51,75,,ThreatFox,2026-09-30 19:03:39 UTC,0
-http://202.47.52.16:38980/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-09-30 19:00:26 UTC,0
-http://123.12.255.236:36735/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-09-30 19:00:25 UTC,0
-http://223.123.71.0:43526/Mozi.a,url,Mozi,media,51,75,,ThreatFox,2026-09-30 19:00:24 UTC,0
-http://petcarv.click:8239/tokens,url,Remus,media,51,75,,ThreatFox,2026-09-30 18:16:23 UTC,0
-http://creesbs.sbs:9932/comments,url,Remus,media,51,75,,ThreatFox,2026-09-30 18:16:23 UTC,0
-http://petcarv.click:8239/projects,url,Remus,media,51,75,,ThreatFox,2026-09-30 18:16:23 UTC,0
-http://creesbs.sbs:9932/workspaces,url,Remus,media,51,75,,ThreatFox,2026-09-30 18:16:23 UTC,0
-http://smatart.my:8531/permissions,url,Remus,media,51,75,,ThreatFox,2026-09-30 18:16:23 UTC,0
-http://primflow.click:9217/tasks,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:45:23 UTC,0
-http://equigfy.biz:9932/contacts,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:45:23 UTC,0
-http://foarket.click:2538/tokens,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:24 UTC,0
-http://sxdment.click:5003/workspaces,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:24 UTC,0
-http://gerzone.click:4262/events,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:24 UTC,0
-http://creesbs.sbs:9932/events,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:23 UTC,0
-http://smatart.my:8531/reviews,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:23 UTC,0
-http://glotech.art:9932/projects,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:23 UTC,0
-http://smatart.my:8531/videos,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:18:23 UTC,0
-http://sdatery.shop:5003/sessions,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:02:23 UTC,0
-http://coxmics.shop:4262/exports,url,Remus,media,51,75,,ThreatFox,2026-09-30 17:02:23 UTC,0
-http://equigfy.biz:9932/documents,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:45 UTC,0
-http://glotech.art:9932/subscriptions,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:45 UTC,0
-http://smatart.my:8531/addresses,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:45 UTC,0
-http://petcarv.click:8239/sessions,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:44 UTC,0
-http://smatart.my:8531/categories,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:44 UTC,0
-http://glotech.art:9932/tasks,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:43 UTC,0
-http://smatart.my:8531/sessions,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:43 UTC,0
-http://equigfy.biz:9932/profiles,url,Remus,media,51,75,,ThreatFox,2026-09-30 16:15:43 UTC,0
-http://petcarv.click:8239/attachments,url,Remus,media,51,75,,ThreatFox,2026-09-30 14:14:23 UTC,0
-http://equigfy.biz:9932/sessions,url,Remus,media,51,75,,ThreatFox,2026-09-30 14:14:23 UTC,0
-http://glotech.art:9922/events,url,Remus,media,51,75,,ThreatFox,2026-09-30 14:14:23 UTC,0
-http://153.117.40.70:59598/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-09-30 12:21:47 UTC,0
-http://60.23.237.113:36070/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-09-30 12:21:47 UTC,0
-http://110.38.14.116:58142/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-09-30 12:21:46 UTC,0
-http://36.255.33.164:39498/Mozi.7,url,Mozi,media,51,75,,ThreatFox,2026-09-30 12:21:46 UTC,0
-http://trenpeak.click:9837/settings,url,Remus,media,51,75,,ThreatFox,2026-09-30 11:54:23 UTC,1
-http://eliroup.best:5621/payments,url,Remus,media,51,75,,ThreatFox,2026-09-30 11:54:23 UTC,1
-http://petcarv.click:8239/payments,url,Remus,media,51,75,,ThreatFox,2026-09-30 10:57:43 UTC,1
-http://creesbs.sbs:9932/tasks,url,Remus,media,51,75,,ThreatFox,2026-09-30 10:57:43 UTC,1
-http://eliroup.best:5621/workspaces,url,Remus,media,51,75,,ThreatFox,2026-09-30 10:57:43 UTC,1
-http://petcarv.click:8239/posts,url,Remus,media,51,75,,ThreatFox,2026-09-30 10:36:08 UTC,1
-http://creesbs.sbs:9932/tags,url,Remus,media,51,75,,ThreatFox,2026-09-30 10:36:08 UTC,1
-http://smatart.my:8531/payments,url,Remus,media,51,75,,ThreatFox,2026-09-30 10:36:08 UTC,1
-http://equigfy.biz:9932/comments,url,Remus,media,51,75,,ThreatFox,2026-09-30 07:51:53 UTC,1
-http://glotech.art:9932/customers,url,Remus,media,51,75,,ThreatFox,2026-09-30 07:51:53 UTC,1
-http://180.249.37.145:56583/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-09-30 06:28:17 UTC,1
-http://85.137.54.178:8080/d.sh,url,Unknown malware,media,51,75,,ThreatFox,2026-09-30 05:50:27 UTC,1
-http://153.117.34.231:35083/Mozi.a,url,Mozi,media,51,75,,ThreatFox,2026-09-30 05:49:22 UTC,1
-https://samadownloads.org/dl/SAMA-Kdx2909_092926k3vd.zip,url,Unknown malware,media,51,75,,ThreatFox,2026-09-30 05:48:50 UTC,1
-https://taxyy.top/download/%E7%A8%8E%E9%87%91%E3%83%BB%E3%83%9A%E3%83%8A%E3%83%AB%E3%83%86%E3%82%A3%E9%80%9A%E7%9F%A5.zip,url,Unknown malware,media,51,75,,ThreatFox,2026-09-30 05:48:35 UTC,1
-http://masterconstrucciones.com.co:443/,url,DCRat,media,48,50,,ThreatFox,2026-09-30 20:33:25 UTC,0
-http://scannerfiles.dynuddns.net:6060/,url,DCRat,media,48,50,,ThreatFox,2026-09-30 20:33:25 UTC,0
-http://120.84.215.195:36474/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 05:12:12 UTC,0
-http://210.208.110.147:50667/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 05:03:12 UTC,0
-http://114.226.111.119:46491/i,url,malware_download,media,40,,,URLhaus,2026-10-01 05:02:15 UTC,0
-http://222.93.26.143:40336/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 05:02:15 UTC,0
-http://27.18.91.152:40493/i,url,malware_download,media,40,,,URLhaus,2026-10-01 05:02:15 UTC,0
-http://42.227.242.39:44734/i,url,malware_download,media,40,,,URLhaus,2026-10-01 05:02:14 UTC,0
-http://125.43.82.123:52702/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 05:02:14 UTC,0
-http://123.11.203.243:35205/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 05:02:13 UTC,0
-http://182.34.59.182:33687/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:57:19 UTC,0
-http://222.127.154.221:42646/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:47:29 UTC,0
-http://42.227.242.39:44734/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:47:20 UTC,0
-http://206.130.211.211:54891/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:47:14 UTC,0
-http://47.212.193.38:54138/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:47:14 UTC,0
-http://92.34.131.196:52254/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:25:22 UTC,0
-http://60.22.174.67:50480/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:17:28 UTC,0
-http://61.53.95.150:40540/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:17:16 UTC,0
-http://60.22.174.67:50480/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:17:16 UTC,0
-http://222.127.68.176:54016/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:17:15 UTC,0
-http://206.130.211.211:54891/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:15:19 UTC,0
-http://222.127.68.176:54016/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:02:12 UTC,0
-http://61.53.107.20:37834/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 04:02:12 UTC,0
-http://182.126.90.79:36092/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:02:12 UTC,0
-http://119.109.233.246:51234/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:02:11 UTC,0
-http://94.244.36.34:43596/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:02:10 UTC,0
-http://103.140.87.105:49525/i,url,malware_download,media,40,,,URLhaus,2026-10-01 04:01:14 UTC,0
-http://92.34.131.196:52254/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 03:52:23 UTC,0
-http://60.23.233.111:43835/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:47:14 UTC,0
-http://180.190.85.135:52156/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:47:13 UTC,0
-http://115.55.216.130:42148/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:46:15 UTC,0
-http://115.51.120.187:45478/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:46:13 UTC,0
-http://49.64.226.190:3588/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:32:15 UTC,0
-http://101.108.6.61:35666/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:32:12 UTC,0
-http://213.66.68.29:56935/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:32:11 UTC,0
-http://182.126.113.232:40409/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:32:11 UTC,0
-http://94.244.36.34:43596/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 03:32:11 UTC,0
-http://61.54.193.34:49707/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:17:16 UTC,0
-http://120.84.215.195:36474/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:17:16 UTC,0
-http://180.190.85.135:52156/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 03:17:15 UTC,0
-http://176.65.139.135/mpsl,url,malware_download,media,40,,,URLhaus,2026-10-01 03:06:16 UTC,0
-http://176.65.139.135/x86_64,url,malware_download,media,40,,,URLhaus,2026-10-01 03:06:16 UTC,0
-http://115.48.162.176:35189/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:05:25 UTC,0
-http://123.5.169.11:54219/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:05:24 UTC,0
-http://182.126.96.217:59916/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:02:11 UTC,0
-http://27.152.53.206:34777/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:01:24 UTC,0
-http://38.58.201.172:52112/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:01:20 UTC,0
-http://27.203.230.103:46598/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:01:20 UTC,0
-http://115.61.7.215:35181/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 03:01:19 UTC,0
-http://177.36.24.219:34199/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:01:19 UTC,0
-http://221.202.71.58:60286/i,url,malware_download,media,40,,,URLhaus,2026-10-01 03:01:19 UTC,0
-http://125.41.3.210:38324/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:48:12 UTC,0
-http://221.202.71.58:60286/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 02:47:15 UTC,0
-http://115.51.120.187:45478/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 02:47:14 UTC,0
-http://115.56.152.78:39619/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 02:47:13 UTC,0
-http://60.23.233.111:43835/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 02:47:13 UTC,0
-http://182.126.96.217:59916/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 02:31:14 UTC,0
-http://119.154.97.145:51593/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:28:24 UTC,0
-http://2.187.249.41:53704/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:16:14 UTC,0
-http://39.38.200.174:43762/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:02:24 UTC,0
-http://114.226.31.30:59598/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:02:14 UTC,0
-http://182.117.104.52:36496/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:02:14 UTC,0
-http://115.56.152.78:39619/i,url,malware_download,media,40,,,URLhaus,2026-10-01 02:01:14 UTC,0
-http://61.52.35.70:60065/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:48:23 UTC,0
-http://42.54.103.36:43136/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:47:14 UTC,0
-http://115.58.86.149:58598/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:47:11 UTC,0
-http://114.226.31.30:59598/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:32:28 UTC,0
-http://120.28.193.113:44476/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:32:27 UTC,0
-http://115.55.246.129:36450/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:32:14 UTC,0
-http://61.52.35.70:60065/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:32:14 UTC,0
-http://120.28.192.123:35603/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:32:14 UTC,0
-http://27.202.215.44:59040/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:20:31 UTC,0
-http://193.31.201.20:44501/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:20:31 UTC,0
-http://175.147.91.14:38463/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:17:17 UTC,0
-http://182.126.5.163:59405/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:17:14 UTC,0
-http://27.207.187.125:46979/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:17:14 UTC,0
-http://175.146.157.50:44958/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:17:14 UTC,0
-http://115.58.86.149:58598/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:17:14 UTC,0
-http://222.127.243.18:45691/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:17:13 UTC,0
-http://114.227.52.147:57947/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:16:11 UTC,0
-http://115.52.233.61:40787/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:16:11 UTC,0
-http://164.163.25.149:51152/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:09:22 UTC,0
-http://182.117.104.52:36496/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:06:28 UTC,0
-http://114.227.52.147:57947/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:02:30 UTC,0
-http://182.113.7.66:51822/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 01:02:19 UTC,0
-http://59.96.138.132:43032/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:02:19 UTC,0
-http://61.52.81.231:49666/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:02:18 UTC,0
-http://42.231.174.3:60965/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:02:18 UTC,0
-http://27.215.121.147:37635/i,url,malware_download,media,40,,,URLhaus,2026-10-01 01:02:18 UTC,0
-http://193.31.201.20:44501/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 00:48:17 UTC,0
-http://105.226.5.38:43743/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:47:13 UTC,0
-http://42.231.110.141:42094/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:47:12 UTC,0
-http://196.189.98.77:52659/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:47:12 UTC,0
-http://180.191.20.148:37470/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:36:36 UTC,0
-http://106.58.110.228:36339/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:32:28 UTC,0
-http://42.231.174.3:60965/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 00:32:13 UTC,0
-http://42.228.37.173:50698/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:31:22 UTC,0
-http://42.231.95.117:46176/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 00:31:19 UTC,0
-http://42.231.95.117:46176/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:31:18 UTC,0
-http://109.236.44.237:52156/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:31:17 UTC,0
-http://182.121.73.26:50774/i,url,malware_download,media,40,,,URLhaus,2026-10-01 00:31:17 UTC,0
-http://182.121.73.26:50774/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 00:17:15 UTC,0
+http://64.94.85.67:443/update_c08937.pl,url,Unknown malware,media,65,100,,"ThreatFox, OTX",2026-10-01 05:27:08 UTC,1
+http://116.58.62.74/info.zip,url,Coinminer,media,59,100,,ThreatFox,2026-10-02 03:39:43 UTC,0
+http://45.192.105.32:18084/?h=45.192.105.32&p=18084&t=ws&a=w32&stage=true,url,VShell,media,56,95,,ThreatFox,2026-10-01 12:38:52 UTC,0
+https://up.332toto.net,url,Vidar,media,56,100,,ThreatFox,2026-10-01 05:17:23 UTC,1
+http://60.6.62.96:59328/i,url,Mirai,media,56,75,,ThreatFox,2026-10-01 05:17:20 UTC,1
+https://zu.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-02 04:56:44 UTC,0
+https://zu.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-02 04:55:48 UTC,0
+https://zu.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-02 04:55:48 UTC,0
+http://103.59.134.98/Photo.scr,url,Coinminer,media,55,100,,ThreatFox,2026-10-02 02:44:40 UTC,0
+https://62.238.51.203,url,Vidar,media,55,100,,ThreatFox,2026-10-02 02:00:56 UTC,0
+https://st.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 21:51:35 UTC,0
+https://st.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 21:50:48 UTC,0
+https://st.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-10-01 21:49:17 UTC,0
+https://st.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 21:45:48 UTC,0
+https://stratos-delta.com/curl/925zai5h/ygpst74xbzykss9mw.dat,url,AMOS,media,55,100,,ThreatFox,2026-10-01 21:27:50 UTC,0
+https://stratos-delta.com/f/ujkfbdvkl5i2ezacchx7ia/6b4aghms,url,AMOS,media,55,100,,ThreatFox,2026-10-01 21:27:50 UTC,0
+https://cdn.jsdelivr.net/gh/dsteru3421/5dd15fa7-b9fa-4c3b-bd20-9de1e183d2/bd20-9de1e183d20,url,ClearFake,media,55,100,,ThreatFox,2026-10-01 20:01:56 UTC,0
+https://simo.msdos.ru/login,url,Vidar,media,55,100,,ThreatFox,2026-10-01 19:43:32 UTC,0
+https://simo.v-panel.asia/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 19:42:31 UTC,0
+https://167.233.114.81,url,Vidar,media,55,100,,ThreatFox,2026-10-01 19:42:15 UTC,0
+https://37.27.204.215,url,Vidar,media,55,100,,ThreatFox,2026-10-01 19:42:12 UTC,0
+https://sorrelapse.best/verify/profile-asset.js,url,SmartApeSG,media,55,100,,ThreatFox,2026-10-01 19:12:14 UTC,0
+https://62.238.53.233,url,Vidar,media,55,100,,ThreatFox,2026-10-01 19:00:15 UTC,0
+https://uw.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-10-01 18:41:51 UTC,0
+https://uw.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 18:05:48 UTC,0
+https://uw.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 17:52:32 UTC,0
+https://uw.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 17:50:48 UTC,0
+https://37.27.197.184,url,Vidar,media,55,100,,ThreatFox,2026-10-01 16:46:48 UTC,0
+https://pg.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-10-01 15:58:38 UTC,0
+http://190.196.38.77/video.scr,url,Coinminer,media,55,100,,ThreatFox,2026-10-01 15:39:04 UTC,0
+https://pg.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 13:55:04 UTC,0
+https://pg.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 13:50:48 UTC,0
+https://pg.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 13:50:48 UTC,0
+https://cdn.jsdelivr.net/gh/dsteru3421/2649728a-b35b-4211-a65a-85baaf653cbe/118132a8-a273-47da-931c-3c78081f6a38,url,ClearFake,media,55,100,,ThreatFox,2026-10-01 13:41:37 UTC,0
+https://cdn.jsdelivr.net/gh/dsteru3421/2649728a-b35b-4211-a65a-85baaf653cbe/3d8a2407-85f5-4cbf-8194-5479b339fe34,url,ClearFake,media,55,100,,ThreatFox,2026-10-01 13:13:33 UTC,0
+https://zi.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 11:03:49 UTC,1
+https://zi.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-10-01 11:03:46 UTC,1
+https://cos.v-panel.asia/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 11:03:44 UTC,1
+https://cos.msdos.ru/login,url,Vidar,media,55,100,,ThreatFox,2026-10-01 11:03:43 UTC,1
+http://103.8.164.18/AV.scr,url,Coinminer,media,55,100,,ThreatFox,2026-10-01 09:43:15 UTC,1
+https://zi.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 09:35:48 UTC,1
+https://zi.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 09:35:48 UTC,1
+https://sso.v-panel.asia/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 08:57:36 UTC,1
+https://actual.msdos.ru/login,url,Vidar,media,55,100,,ThreatFox,2026-10-01 08:57:36 UTC,1
+http://103.36.80.114/Video.scr,url,Coinminer,media,55,100,,ThreatFox,2026-10-01 08:45:58 UTC,1
+https://af.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-10-01 08:14:22 UTC,1
+https://af.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 08:14:22 UTC,1
+http://103.209.67.34/AV.scr,url,Coinminer,media,55,100,,ThreatFox,2026-10-01 07:43:18 UTC,1
+http://103.206.139.61/info.zip,url,Coinminer,media,55,100,,ThreatFox,2026-10-01 07:42:57 UTC,1
+http://103.206.139.61/Video.scr,url,Coinminer,media,55,100,,ThreatFox,2026-10-01 06:42:48 UTC,1
+http://102.23.89.5:8083/sshd,url,SSHDoor,media,55,100,,ThreatFox,2026-10-01 06:42:24 UTC,1
+https://af.369jk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 06:40:48 UTC,1
+https://af.332toto.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-01 06:40:48 UTC,1
+https://dj7mv481nzu7.cloudfront.net/dp/B07984JN3L,url,Cobalt Strike,media,55,100,,ThreatFox,2026-10-01 06:00:40 UTC,1
+http://102.216.105.81//sshd,url,SSHDoor,media,55,100,,ThreatFox,2026-10-01 05:42:12 UTC,1
+http://177.4.12.11:8080/s?t=a,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:09 UTC,1
+http://177.4.12.11:8080/s?t=b,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:09 UTC,1
+http://177.4.12.11:8080/s?t=c,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:09 UTC,1
+http://62.133.62.80:80/xd7h/x,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:09 UTC,1
+http://62.133.62.80:80/xd7h/nsmon.pl,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:09 UTC,1
+http://23.27.143.20:9000/main.py,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://31.56.197.72:9090/lula,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://31.56.197.72/lula,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://31.56.197.72/kk,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://68.178.160.183:8899/test111,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://68.178.160.183:8888/test,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://89.44.80.7:65456/exec-ok,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://89.44.80.7:65456/,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://130.94.42.226:18805/?t,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://134.175.71.50:4123/1,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+http://153.75.82.220/download/x.sh,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:27:08 UTC,1
+https://lo.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 05:17:55 UTC,1
+https://lo.332toto.net,url,Vidar,media,55,100,,ThreatFox,2026-10-01 05:17:44 UTC,1
+https://sandiegomobiletire.com/loader/agent/a75137e5a3f45aacaa1ed5259e81ad8dcbcc0c1b767d8fc46dc42d2ef548b449,url,MacSync,media,55,100,,ThreatFox,2026-10-01 05:17:34 UTC,1
+https://up.369jk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-01 05:17:28 UTC,1
+https://browseid.codes,url,Unknown malware,media,55,100,,ThreatFox,2026-10-01 05:17:25 UTC,1
+https://172.238.125.76,url,Vidar,media,55,100,,ThreatFox,2026-10-01 05:17:22 UTC,1
+https://31.15.17.99,url,Vidar,media,55,100,,ThreatFox,2026-10-01 05:17:21 UTC,1
+https://physio-benecke.de/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 02:01:05 UTC,0
+https://kyosotechltd.co.uk/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 02:01:05 UTC,0
+https://cgageauthor.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 01:31:00 UTC,0
+https://idyeahcentral.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 01:31:00 UTC,0
+https://yameneekhalta.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 01:01:07 UTC,0
+https://zumio.pl/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 01:01:07 UTC,0
+https://yegoyogarwanda.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 01:01:07 UTC,0
+http://111.235.143.155:8080/info.zip,url,Coinminer,media,54,95,,ThreatFox,2026-10-02 00:44:00 UTC,0
+https://vivianreyes.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:31:03 UTC,0
+https://www.udruzenjetekstilnihskola.org.rs/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:31:03 UTC,0
+https://tampabaylawnservice.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:01:13 UTC,0
+https://www.szoketiszahe.hu/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:01:13 UTC,0
+https://tomowell2020.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:01:13 UTC,0
+https://studio-salazar.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:01:13 UTC,0
+https://sundasaziz.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-02 00:01:13 UTC,0
+https://www.shackbd.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 23:31:06 UTC,0
+https://silverstonerealty.in/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 23:31:05 UTC,0
+https://sofography.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 23:31:05 UTC,0
+https://www.servapool.ca/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 23:31:05 UTC,0
+https://shepherdsbushmobiletyrefitting.co.uk/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 23:31:05 UTC,0
+https://miyagi.group/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 23:01:09 UTC,0
+https://www.letstwende.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 21:31:02 UTC,0
+https://googlegeminidev.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 20:01:19 UTC,0
+https://openai-bonus.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 20:01:18 UTC,0
+http://176.65.139.219/bins.sh,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 16:38:44 UTC,0
+https://arabtelemediaseries.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-01 16:31:13 UTC,0
+http://192.255.236.156:8084/?h=192.255.236.156&p=8084&t=tcp&a=l32&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-10-01 15:39:06 UTC,0
+http://192.25.102.246:8088/?h=192.25.102.246&p=8088&t=ws&a=w64&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 15:39:05 UTC,0
+http://45.192.105.32:18084/?h=45.192.105.32&p=18084&t=ws&a=w64&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 14:38:43 UTC,0
+http://45.192.105.32:18084/?h=45.192.105.32&p=18084&t=tcp&a=w32&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 14:38:41 UTC,0
+http://fastade.biz:8890,url,Remus,media,54,75,,ThreatFox,2026-10-01 12:22:14 UTC,0
+http://103.8.164.18/info.zip,url,Coinminer,media,54,95,,ThreatFox,2026-10-01 10:42:40 UTC,1
+http://103.59.134.98/info.zip,url,Coinminer,media,54,95,,ThreatFox,2026-10-01 09:42:54 UTC,1
+http://103.36.80.114/info.zip,url,Coinminer,media,54,95,,ThreatFox,2026-10-01 09:42:12 UTC,1
+http://103.30.76.214:8779/?h=103.30.76.214&p=8779&t=ws&a=l32&stage=true,url,Mirai,media,54,95,,ThreatFox,2026-10-01 08:45:35 UTC,1
+http://103.30.76.214:8779/?h=103.30.76.214&p=8779&t=tcp&a=l32&stage=true,url,SNOWLIGHT,media,54,95,,ThreatFox,2026-10-01 08:45:33 UTC,1
+http://156.251.16.136:8084/?h=156.251.16.136&p=8084&t=ws&a=l32&stage=true,url,Mirai,media,54,95,,ThreatFox,2026-10-01 07:38:38 UTC,1
+http://37.44.215.118/bins/sora.arm7,url,Mirai,media,54,95,,ThreatFox,2026-10-01 05:38:39 UTC,1
+http://154.211.92.190:8084/?h=154.211.92.190&p=8084&t=ws&a=w32&stage=true,url,VShell,media,54,95,,ThreatFox,2026-10-01 05:38:38 UTC,1
+http://nexssbs.sbs:9932/contacts,url,Remus,media,53,75,,ThreatFox,2026-10-02 03:24:23 UTC,0
+https://www.yundatabox.com/KL.zip,url,Unknown malware,media,52,75,,ThreatFox,2026-10-02 03:41:08 UTC,0
+http://glolsbs.top:5621/collections,url,Remus,media,52,75,,ThreatFox,2026-10-02 03:24:23 UTC,0
+http://nexssbs.sbs:9932/comments,url,Remus,media,52,75,,ThreatFox,2026-10-01 22:19:51 UTC,0
+http://glolsbs.top:5621/subscriptions,url,Remus,media,52,75,,ThreatFox,2026-10-01 22:19:51 UTC,0
+https://ikechux.publicvm.com/prince30/secured_stub.ps1,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 21:45:26 UTC,0
+https://ikechux.publicvm.com/prince1/secured_stub.ps1,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 21:45:24 UTC,0
+https://ikechux.publicvm.com/ogaprinncee29/secured_stub.ps1,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 20:40:35 UTC,0
+https://ikechux.publicvm.com/mrprinnce28/secured_stub.ps1,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 20:40:33 UTC,0
+https://rvsoft.ee/failid/setupid/set_evka.exe,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 20:38:51 UTC,0
+https://wolf2team.com/IOK438gyzesv6Dmc/WolfTeamDirilis-Setup.exe?v=1.6,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 19:39:32 UTC,0
+https://sempresecure.app/NFCLocator-.apk,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 19:39:29 UTC,0
+https://ikechux.publicvm.com/chiefprince/secured_stub.ps1,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 17:39:01 UTC,0
+http://94.154.43.100/eclipse.sh,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 16:38:45 UTC,0
+https://meusecurecard.com/NFCLocator-.apk,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 14:39:48 UTC,0
+https://chatai.today/ChatAI.apk,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 13:39:26 UTC,0
+https://editdirectpdf.com/download/DirectPDFEditor-Setup.exe,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 12:39:04 UTC,0
+http://wayoftrade.com:4219,url,Remus,media,52,75,,ThreatFox,2026-10-01 12:37:23 UTC,0
+http://223.123.71.219:36913/Mozi.m,url,Mozi,media,52,75,,ThreatFox,2026-10-01 12:20:28 UTC,0
+http://72.255.26.46:33452/Mozi.m,url,Mozi,media,52,75,,ThreatFox,2026-10-01 12:20:27 UTC,0
+https://l2law.org/patch/arquivos/L2Law.exe,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 10:39:06 UTC,1
+https://ghsro.online/cliente/ghLauncher.exe,url,Unknown malware,media,52,80,,ThreatFox,2026-10-01 06:38:48 UTC,1
+http://flozwave.click:6572/webhooks,url,Remus,media,51,75,,ThreatFox,2026-10-02 03:24:23 UTC,0
+http://straely.biz:8531/payments,url,Remus,media,51,75,,ThreatFox,2026-10-02 02:37:23 UTC,0
+http://glolsbs.top:5621/webhooks,url,Remus,media,51,75,,ThreatFox,2026-10-02 02:37:23 UTC,0
+http://phetsre.shop:3452/tasks,url,Remus,media,51,75,,ThreatFox,2026-10-02 02:21:23 UTC,0
+https://surun.info/nh1ykmf/qagxfjr/cc/Cryptemd.ps1,url,Unknown malware,media,51,75,,ThreatFox,2026-10-02 01:39:39 UTC,0
+http://glolsbs.top:5621/users,url,Remus,media,51,75,,ThreatFox,2026-10-02 00:51:18 UTC,0
+http://nexssbs.sbs:9932/addresses,url,Remus,media,51,75,,ThreatFox,2026-10-02 00:51:18 UTC,0
+http://petcarv.click:8239/tasks,url,Remus,media,51,75,,ThreatFox,2026-10-01 23:02:13 UTC,0
+http://nexssbs.sbs:9932/users,url,Remus,media,51,75,,ThreatFox,2026-10-01 23:02:13 UTC,0
+http://cdire.shop:9048/workspaces,url,Remus,media,51,75,,ThreatFox,2026-10-01 22:46:23 UTC,0
+https://188.34.166.234,url,Vidar,media,51,75,,ThreatFox,2026-10-01 22:35:27 UTC,0
+http://glotech.art:9932/articles,url,Remus,media,51,75,,ThreatFox,2026-10-01 21:32:23 UTC,0
+http://smatart.my:8531/orders,url,Remus,media,51,75,,ThreatFox,2026-10-01 21:32:23 UTC,0
+http://petcarv.click:8239/invoices,url,Remus,media,51,75,,ThreatFox,2026-10-01 20:23:03 UTC,0
+http://glolsbs.top:5621/orders,url,Remus,media,51,75,,ThreatFox,2026-10-01 20:23:03 UTC,0
+http://petcarv.click:8239/notifications,url,Remus,media,51,75,,ThreatFox,2026-10-01 19:31:23 UTC,0
+http://straely.biz:8531/videos,url,Remus,media,51,75,,ThreatFox,2026-10-01 19:31:23 UTC,0
+http://nexssbs.sbs:9932/orders,url,Remus,media,51,75,,ThreatFox,2026-10-01 19:31:23 UTC,0
+https://www.correa.ind.br/wp-includes/Text/bnguyj1/qbg1plo/ytlfv1i/cc/securedd_stub.ps1,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 18:39:13 UTC,0
+https://hjha.ao/news1/secured_stub.ps1,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 18:39:08 UTC,0
+https://hjha.ao/new/secured_stub.ps1,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 18:39:06 UTC,0
+http://160.250.114.146:44346/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 18:20:29 UTC,0
+http://59.96.140.80:52685/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 18:20:28 UTC,0
+http://172.168.171.184:54011/Mozi.a,url,Mozi,media,51,75,,ThreatFox,2026-10-01 18:20:28 UTC,0
+http://223.123.43.255:55583/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 18:20:27 UTC,0
+https://87130921-60-20220830152356.webstarterz.com/vic/crypted.ps1,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 17:38:59 UTC,0
+https://87130921-60-20220830152356.webstarterz.com/secured_stub.ps1,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 17:38:56 UTC,0
+http://bravplo.click:7713/projects,url,Remus,media,51,75,,ThreatFox,2026-10-01 17:28:38 UTC,0
+http://assetvs.biz:4529/payments,url,Remus,media,51,75,,ThreatFox,2026-10-01 17:12:45 UTC,0
+http://synerfy.biz:6627/customers,url,Remus,media,51,75,,ThreatFox,2026-10-01 17:12:45 UTC,0
+http://equigfy.biz:9932/projects,url,Remus,media,51,75,,ThreatFox,2026-10-01 17:12:45 UTC,0
+http://178.16.52.209/Blender.zip,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 15:58:36 UTC,0
+http://178.16.52.209/agent.pyw,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 15:58:36 UTC,0
+http://178.16.52.209/blender/BlenderOffline.exe,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 15:58:35 UTC,0
+http://hkealop.shop:9932/tasks,url,Remus,media,51,75,,ThreatFox,2026-10-01 13:56:08 UTC,0
+https://makethechange.com/uploads/media/,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 13:39:28 UTC,0
+https://venamyko.com/patch/2589.zip,url,Unknown malware,media,51,75,,ThreatFox,2026-10-01 13:38:53 UTC,0
+http://glolsbs.top:5621/tags,url,Remus,media,51,75,,ThreatFox,2026-10-01 12:53:23 UTC,0
+http://nexssbs.sbs:9932/tokens,url,Remus,media,51,75,,ThreatFox,2026-10-01 12:53:23 UTC,0
+http://www-cf.com/vjvgxncz5gxgn4,url,IClickFix,media,51,75,,ThreatFox,2026-10-01 11:04:09 UTC,1
+http://straely.biz:8531/permissions,url,Remus,media,51,75,,ThreatFox,2026-10-01 07:15:23 UTC,1
+http://nexssbs.sbs:9932/profiles,url,Remus,media,51,75,,ThreatFox,2026-10-01 07:15:23 UTC,1
+https://t.me/j88hor,url,Vidar,media,51,75,,ThreatFox,2026-10-01 06:55:20 UTC,1
+http://190.196.253.76:10930/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 06:20:28 UTC,1
+http://223.123.43.213:56599/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-01 06:20:27 UTC,1
+http://teculse.click:9210/posts,url,Remus,media,51,75,,ThreatFox,2026-10-01 05:45:23 UTC,1
+http://arqtsop.shop:9932/messages,url,Remus,media,51,75,,ThreatFox,2026-10-01 05:45:23 UTC,1
+http://42.224.94.161:48225/i,url,Mozi,media,51,75,,ThreatFox,2026-10-01 05:17:48 UTC,1
+http://105.224.47.70:38811/i,url,Mirai,media,51,75,,ThreatFox,2026-10-01 05:17:47 UTC,1
+http://37.34.209.216:50810/i,url,Mirai,media,51,75,,ThreatFox,2026-10-01 05:17:42 UTC,1
+http://112.85.183.82:38907/i,url,Mirai,media,51,75,,ThreatFox,2026-10-01 05:17:41 UTC,1
+http://42.224.94.161:48225/bin.sh,url,Mozi,media,51,75,,ThreatFox,2026-10-01 05:17:40 UTC,1
+http://119.165.235.139:57919/i,url,Mirai,media,51,75,,ThreatFox,2026-10-01 05:17:39 UTC,1
+http://213.66.64.21:51943/i,url,Mirai,media,51,75,,ThreatFox,2026-10-01 05:17:13 UTC,1
+http://87.120.196.171/,url,Unknown malware,media,48,50,,ThreatFox,2026-10-01 15:58:34 UTC,0
+http://95.85.251.18/,url,Unknown malware,media,48,50,,ThreatFox,2026-10-01 15:58:33 UTC,0
+http://193.148.56.97/,url,Unknown malware,media,48,50,,ThreatFox,2026-10-01 15:58:33 UTC,0
+https://31.77.9.121/,url,Unknown malware,media,48,50,,ThreatFox,2026-10-01 15:58:32 UTC,0
+http://178.32.224.218/,url,Unknown malware,media,48,50,,ThreatFox,2026-10-01 15:58:32 UTC,0
+http://182.122.110.235:45263/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:47:27 UTC,0
+http://125.46.196.22:49028/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:32:13 UTC,0
+http://182.113.37.203:57732/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:32:12 UTC,0
+http://190.92.96.7:39887/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:31:16 UTC,0
+http://219.156.119.126:37129/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:31:14 UTC,0
+http://123.189.141.223:40664/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:31:14 UTC,0
+http://115.58.86.96:52093/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:31:14 UTC,0
+http://123.189.141.223:40664/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:31:14 UTC,0
+http://222.141.105.132:54124/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:17:14 UTC,0
+http://182.119.126.236:39384/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:17:14 UTC,0
+http://182.119.126.236:39384/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:17:14 UTC,0
+http://182.119.58.161:53866/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:17:13 UTC,0
+http://218.61.103.229:44959/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:02:24 UTC,0
+http://125.45.137.39:43385/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:02:11 UTC,0
+http://115.52.237.97:37931/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:02:11 UTC,0
+http://120.28.200.35:33570/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:02:11 UTC,0
+http://115.56.156.34:42802/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 04:02:10 UTC,0
+http://176.77.46.141:53458/i,url,malware_download,media,40,,,URLhaus,2026-10-02 04:01:26 UTC,0
+http://196.191.233.24:59831/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:47:24 UTC,0
+http://105.225.107.62:47773/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:47:12 UTC,0
+http://42.86.54.109:43824/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:47:12 UTC,0
+http://1.61.216.113:46379/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:47:12 UTC,0
+http://182.112.31.29:60594/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:47:12 UTC,0
+http://36.69.82.105:52929/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:32:24 UTC,0
+http://176.77.46.141:53458/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 03:32:20 UTC,0
+http://105.225.107.62:47773/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 03:32:14 UTC,0
+http://119.99.164.18:42673/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:32:14 UTC,0
+http://219.157.253.88:45074/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 03:32:14 UTC,0
+http://125.24.163.158:43947/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:32:14 UTC,0
+http://115.53.34.254:60869/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 03:17:13 UTC,0
+http://42.235.44.190:41710/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:17:13 UTC,0
+http://59.97.254.55:45850/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:17:12 UTC,0
+http://182.120.93.84:44860/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 03:03:11 UTC,0
+http://182.117.77.104:41756/i,url,malware_download,media,40,,,URLhaus,2026-10-02 03:02:13 UTC,0
+http://27.210.169.183:53019/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 03:02:13 UTC,0
+http://31.4.254.241:49417/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:32:36 UTC,0
+http://45.232.72.245:57845/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:31:16 UTC,0
+http://39.90.151.154:40485/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 02:31:16 UTC,0
+http://119.185.241.237:45071/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:31:16 UTC,0
+http://105.186.214.211:36127/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:31:16 UTC,0
+http://196.189.35.226:57013/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:31:15 UTC,0
+http://123.12.97.73:54508/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:28:10 UTC,0
+http://109.235.7.1:49706/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:27:30 UTC,0
+http://115.55.23.171:47870/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:17:17 UTC,0
+http://113.231.116.128:55031/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:03:17 UTC,0
+http://59.180.169.243:35570/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 02:02:24 UTC,0
+http://125.42.202.219:48195/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:02:11 UTC,0
+http://2.182.177.208:60409/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:01:11 UTC,0
+http://196.189.197.131:34862/i,url,malware_download,media,40,,,URLhaus,2026-10-02 02:01:10 UTC,0
+http://38.48.60.100:55192/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 02:01:10 UTC,0
+http://175.165.84.219:34761/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:47:26 UTC,0
+http://110.136.40.247:33480/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:47:12 UTC,0
+http://210.208.110.172:50601/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:36:12 UTC,0
+http://118.120.174.73:47984/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:31:15 UTC,0
+http://109.235.7.1:49706/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:25:21 UTC,0
+http://117.26.225.197:36974/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:15 UTC,0
+http://116.138.109.113:57675/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:13 UTC,0
+http://93.157.253.209:46323/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:12 UTC,0
+http://185.9.139.117:46572/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:12 UTC,0
+http://93.157.253.209:46323/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:12 UTC,0
+http://196.189.198.173:56505/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:12 UTC,0
+http://42.225.202.233:42911/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:17:12 UTC,0
+http://113.221.46.208:58353/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:16:12 UTC,0
+http://182.126.198.239:50319/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:02:12 UTC,0
+http://221.14.183.183:57600/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 01:02:12 UTC,0
+http://38.46.31.127:41849/i,url,malware_download,media,40,,,URLhaus,2026-10-02 01:02:12 UTC,0
+http://125.40.49.75:45103/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:47:11 UTC,0
+http://175.150.205.198:60248/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:47:10 UTC,0
+http://42.226.70.133:39212/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 00:47:10 UTC,0
+http://38.46.31.127:41849/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 00:32:13 UTC,0
+http://138.204.196.254:46428/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 00:32:13 UTC,0
+http://222.127.53.189:40982/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:17:42 UTC,0
+http://59.180.145.77:49007/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 00:17:40 UTC,0
+http://175.150.205.198:60248/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-02 00:17:17 UTC,0
+http://61.52.185.101:48782/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:17:16 UTC,0
+http://218.16.164.123:41915/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:01:16 UTC,0
+http://125.41.225.209:50263/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:01:15 UTC,0
+http://113.254.36.153:50445/i,url,malware_download,media,40,,,URLhaus,2026-10-02 00:01:15 UTC,0
+http://115.61.117.136:50368/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:46:11 UTC,0
+http://115.49.209.223:59964/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:33:14 UTC,0
+http://61.53.157.233:42044/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:33:13 UTC,0
+http://112.242.231.62:59223/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:32:28 UTC,0
+http://196.191.231.12:52906/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:32:13 UTC,0
+http://219.157.134.110:56057/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:32:11 UTC,0
+http://112.122.69.198:40759/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:32:11 UTC,0
+http://115.55.217.255:56903/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:32:11 UTC,0
+http://60.23.220.27:43041/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:17:20 UTC,0
+http://115.51.97.51:50588/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:17:15 UTC,0
+http://182.119.51.115:56538/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:17:15 UTC,0
+http://42.224.144.176:49868/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:17:15 UTC,0
+http://120.28.194.204:39344/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:17:14 UTC,0
+http://103.249.199.5:53780/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:16:15 UTC,0
+http://112.237.51.216:33695/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:13:28 UTC,0
+http://222.246.40.20:48748/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:02:13 UTC,0
+http://60.23.233.153:49553/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:02:12 UTC,0
+http://61.53.157.233:42044/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:02:12 UTC,0
+http://117.209.124.23:55672/i,url,malware_download,media,40,,,URLhaus,2026-10-01 23:02:12 UTC,0
+http://117.209.124.23:55672/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:02:12 UTC,0
+http://112.122.69.198:40759/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-01 23:02:12 UTC,0
+http://110.186.231.117:35755/i,url,malware_download,media,40,,,URLhaus,2026-10-01 22:47:15 UTC,0
