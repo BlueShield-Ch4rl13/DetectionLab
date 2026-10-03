@@ -54,6 +54,7 @@ registran y se descartan sin salir a la red.
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -208,10 +209,12 @@ def main(argv) -> int:
     try:
         import ssl
         ctx = ssl.create_default_context()
-        # El Shuffle del laboratorio usa certificado propio. En produccion esto
-        # se quita y se instala la CA en el manager.
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
+        # Verificacion TLS activada por defecto. El laboratorio con certificado
+        # propio puede desactivarla con DL_INSECURE_TLS=1; en produccion se deja
+        # activada y se instala la CA en el manager.
+        if os.environ.get("DL_INSECURE_TLS") == "1":
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
         with urllib.request.urlopen(req, timeout=15, context=ctx) as r:
             r.read()
     except Exception as e:

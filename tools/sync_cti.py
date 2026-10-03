@@ -291,7 +291,7 @@ def escribir_resumen(por_grupo, kev, datos, descartes, sello, args, escrituras):
         "",
         f"<!-- {MARCA} -->",
         "",
-        f"**Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  ",
+        "**Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  ",
         f"**Feed generado:** {datos.get('generated_utc', '?')} UTC  ",
         f"**Listas generadas:** {sello}  ",
         f"**Filtro aplicado:** nivel minimo `{args.min_nivel}`, "
@@ -383,7 +383,7 @@ def main() -> int:
             print(f"No se pudo descargar el feed: {e}\n"
                   f"Usa --local con una copia de data/iocs_latest.json.", file=sys.stderr)
             return 1
-        print(f"Feed descargado de News CTI")
+        print("Feed descargado de News CTI")
 
     print(f"  generado {datos.get('generated_utc')} UTC, "
           f"{datos.get('ioc_count')} IOCs, {datos.get('kev_count')} CVEs KEV")

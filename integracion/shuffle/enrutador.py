@@ -5,7 +5,7 @@
 #  playbook pertenece, si va al LLM, si se puede cerrar sola y
 #  que contencion esta autorizada sin persona.
 #
-#  GENERADO por tools/generar_enrutador.py el 2026-09-02
+#  GENERADO por tools/generar_enrutador.py
 #  15 playbooks, 55 acciones de contencion.
 #  Si el repositorio tiene mas playbooks que estos, este nodo
 #  esta desfasado: regeneralo y vuelve a pegarlo.
@@ -21,17 +21,6 @@
 #  Salida:   decision estructurada para el resto del flujo
 # ============================================================
 import json
-
-# En Windows la consola usa cp1252 y no puede imprimir ni los bloques de los
-# graficos ni los simbolos de estado. Sin esto, la herramienta muere con
-# UnicodeEncodeError a mitad del informe: hace el trabajo y luego revienta al
-# contarlo, que es la peor forma de fallar.
-for _flujo in (sys.stdout, sys.stderr):
-    if hasattr(_flujo, "reconfigure"):
-        try:
-            _flujo.reconfigure(encoding="utf-8", errors="replace")
-        except (ValueError, OSError):
-            pass
 
 
 raw = """$exec"""

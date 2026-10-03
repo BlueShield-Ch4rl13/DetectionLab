@@ -30,7 +30,7 @@ import argparse
 import csv
 import re
 import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 import yaml
@@ -419,7 +419,7 @@ def main() -> int:
         print(f"  tecnicas sin entrada en POR_TECNICA: {len(tecnicas_huerfanas)}")
         for t, n in tecnicas_huerfanas.most_common(15):
             print(f"    · {t} ({n} regla/s)")
-    print(f"\n  controles con mas reglas de respaldo:")
+    print("\n  controles con mas reglas de respaldo:")
     for c, n in por_control.most_common(10):
         print(f"    {c:26} {n:3}  {TITULOS.get(c, '?')}")
     if not args.check:

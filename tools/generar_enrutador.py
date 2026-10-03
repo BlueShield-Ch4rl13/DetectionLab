@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import json
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -40,7 +39,7 @@ PLANTILLA = '''# ============================================================
 #  playbook pertenece, si va al LLM, si se puede cerrar sola y
 #  que contencion esta autorizada sin persona.
 #
-#  GENERADO por tools/generar_enrutador.py el {sello}
+#  GENERADO por tools/generar_enrutador.py
 #  {n_playbooks} playbooks, {n_acciones} acciones de contencion.
 #  Si el repositorio tiene mas playbooks que estos, este nodo
 #  esta desfasado: regeneralo y vuelve a pegarlo.
@@ -56,17 +55,6 @@ PLANTILLA = '''# ============================================================
 #  Salida:   decision estructurada para el resto del flujo
 # ============================================================
 import json
-
-# En Windows la consola usa cp1252 y no puede imprimir ni los bloques de los
-# graficos ni los simbolos de estado. Sin esto, la herramienta muere con
-# UnicodeEncodeError a mitad del informe: hace el trabajo y luego revienta al
-# contarlo, que es la peor forma de fallar.
-for _flujo in (sys.stdout, sys.stderr):
-    if hasattr(_flujo, "reconfigure"):
-        try:
-            _flujo.reconfigure(encoding="utf-8", errors="replace")
-        except (ValueError, OSError):
-            pass
 
 
 raw = """$exec"""
@@ -163,7 +151,6 @@ def main() -> int:
     n_acc = sum(len(v["contencion"]) for v in tabla.values())
     NODO.parent.mkdir(parents=True, exist_ok=True)
     NODO.write_text(PLANTILLA.format(
-        sello=datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         n_playbooks=len(tabla) - 1,
         n_acciones=n_acc,
         tabla=json.dumps(tabla, ensure_ascii=False, separators=(",", ":")),
