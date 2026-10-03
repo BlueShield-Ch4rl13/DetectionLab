@@ -3,19 +3,19 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-02 05:13 UTC  
-**Listas generadas:** 2026-10-02T11:40:20Z  
+**Feed generado:** 2026-10-03 04:56 UTC  
+**Listas generadas:** 2026-10-03T10:53:54Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 145 | Caza programada, no alerta directa |
-| Dominio | 775 | Caza programada, no alerta directa |
-| URL | 298 | Caza programada, no alerta directa |
-| Hash | 107 | **Alerta directa**: un hash coincide o no |
-| CVE en KEV | 18 | Priorizacion de parcheo y caza de explotacion |
+| IP | 148 | Caza programada, no alerta directa |
+| Dominio | 444 | Caza programada, no alerta directa |
+| URL | 265 | Caza programada, no alerta directa |
+| Hash | 123 | **Alerta directa**: un hash coincide o no |
+| CVE en KEV | 17 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
 
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (437 de 1795)
+## Que se descarto del feed (1678 de 2710)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 358 |
-| nivel bajo | 79 |
+| tipo no usado | 1607 |
+| nivel bajo | 71 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| IClickFix | 608 |
-| Unknown malware | 107 |
+| IClickFix | 324 |
 | malware_download | 100 |
-| ClearFake | 66 |
-| Vidar | 60 |
-| 2CLoader: A New Malware Loader Delivering Vidar and Remus | 47 |
-| Remus | 34 |
-| php.shin_webshell | 25 |
-| VShell | 21 |
-| Unknown Loader | 17 |
-| XWorm | 16 |
-| PaperCut MF Zero-Day Intrusion: Java Loader  Web Shell  and AdaptixC2 via CVE-2026-82078 and CVE-2026-81578 | 16 |
+| Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon | 89 |
+| ClearFake | 86 |
+| Unknown malware | 58 |
+| Remus | 36 |
+| Vidar | 33 |
+| Unknown Loader | 27 |
+| php.shin_webshell | 21 |
+| Warlock Ransomware Attackers Hit Water and Telecom Operators | 16 |
+| AdaptixC2 | 15 |
+| Potassium | 15 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 145 |
-| `wazuh/cti_dominio` | 775 |
-| `wazuh/cti_url` | 298 |
-| `wazuh/cti_hash` | 107 |
-| `wazuh/cti_cve_kev` | 18 |
-| `splunk/cti_ip.csv` | 145 |
-| `splunk/cti_dominio.csv` | 775 |
-| `splunk/cti_url.csv` | 298 |
-| `splunk/cti_hash.csv` | 107 |
-| `splunk/cti_cve_kev.csv` | 18 |
-| `sentinel/CTI_Ip.csv` | 145 |
-| `sentinel/CTI_Dominio.csv` | 775 |
-| `sentinel/CTI_Url.csv` | 298 |
-| `sentinel/CTI_Hash.csv` | 107 |
-| `elastic/cti_ip.ndjson` | 145 |
-| `elastic/cti_dominio.ndjson` | 775 |
-| `elastic/cti_url.ndjson` | 298 |
-| `elastic/cti_hash.ndjson` | 107 |
+| `wazuh/cti_ip` | 148 |
+| `wazuh/cti_dominio` | 444 |
+| `wazuh/cti_url` | 265 |
+| `wazuh/cti_hash` | 123 |
+| `wazuh/cti_cve_kev` | 17 |
+| `splunk/cti_ip.csv` | 148 |
+| `splunk/cti_dominio.csv` | 444 |
+| `splunk/cti_url.csv` | 265 |
+| `splunk/cti_hash.csv` | 123 |
+| `splunk/cti_cve_kev.csv` | 17 |
+| `sentinel/CTI_Ip.csv` | 148 |
+| `sentinel/CTI_Dominio.csv` | 444 |
+| `sentinel/CTI_Url.csv` | 265 |
+| `sentinel/CTI_Hash.csv` | 123 |
+| `elastic/cti_ip.ndjson` | 148 |
+| `elastic/cti_dominio.ndjson` | 444 |
+| `elastic/cti_url.ndjson` | 265 |
+| `elastic/cti_hash.ndjson` | 123 |
 
 ## Como se instala cada una
 

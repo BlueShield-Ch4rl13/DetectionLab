@@ -1,3 +1,5 @@
+CVE-2026-102490:Zammad GmbH Zammad
+CVE-2026-102489:Zammad GmbH Zammad
 CVE-2026-104286:Fortinet FortiMail
 CVE-2026-76504:Cisco Catalyst SD-WAN Manager
 CVE-2026-86950:Apple Multiple Products
@@ -13,6 +15,3 @@ CVE-2026-94127:F5 BIG-IP APM
 CVE-2026-93616:Check Point Multiple Products
 CVE-2026-85102:Check Point Multiple Products
 CVE-2026-7273:Zyxel GS1900 Series Switches
-CVE-2025-39964:Linux Kernel
-CVE-2026-53266:Linux Kernel
-CVE-2025-39682:Linux Kernel
