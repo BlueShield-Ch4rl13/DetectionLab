@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-03 04:56 UTC  
-**Listas generadas:** 2026-10-03T10:53:54Z  
+**Feed generado:** 2026-10-04 05:29 UTC  
+**Listas generadas:** 2026-10-04T11:36:09Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 148 | Caza programada, no alerta directa |
-| Dominio | 444 | Caza programada, no alerta directa |
-| URL | 265 | Caza programada, no alerta directa |
-| Hash | 123 | **Alerta directa**: un hash coincide o no |
+| IP | 110 | Caza programada, no alerta directa |
+| Dominio | 1065 | Caza programada, no alerta directa |
+| URL | 174 | Caza programada, no alerta directa |
+| Hash | 106 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 17 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (1678 de 2710)
+## Que se descarto del feed (1200 de 2690)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 1607 |
-| nivel bajo | 71 |
+| tipo no usado | 1114 |
+| nivel bajo | 86 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| IClickFix | 324 |
+| Unknown Loader | 925 |
 | malware_download | 100 |
-| Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon | 89 |
-| ClearFake | 86 |
-| Unknown malware | 58 |
-| Remus | 36 |
-| Vidar | 33 |
-| Unknown Loader | 27 |
-| php.shin_webshell | 21 |
-| Warlock Ransomware Attackers Hit Water and Telecom Operators | 16 |
-| AdaptixC2 | 15 |
-| Potassium | 15 |
+| IClickFix | 70 |
+| Node.js: Old Technique Makes a Comeback | 53 |
+| Unknown malware | 46 |
+| ClearFake | 29 |
+| Contagious Interview steps outside the developer workflow | 28 |
+| Potassium | 26 |
+| Chinese-Speaking Operator Uses AI Agents to Target Government and Education Systems Across Asia | 25 |
+| php.shin_webshell | 24 |
+| Remus | 21 |
+| AsyncRAT | 13 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 148 |
-| `wazuh/cti_dominio` | 444 |
-| `wazuh/cti_url` | 265 |
-| `wazuh/cti_hash` | 123 |
+| `wazuh/cti_ip` | 110 |
+| `wazuh/cti_dominio` | 1065 |
+| `wazuh/cti_url` | 174 |
+| `wazuh/cti_hash` | 106 |
 | `wazuh/cti_cve_kev` | 17 |
-| `splunk/cti_ip.csv` | 148 |
-| `splunk/cti_dominio.csv` | 444 |
-| `splunk/cti_url.csv` | 265 |
-| `splunk/cti_hash.csv` | 123 |
+| `splunk/cti_ip.csv` | 110 |
+| `splunk/cti_dominio.csv` | 1065 |
+| `splunk/cti_url.csv` | 174 |
+| `splunk/cti_hash.csv` | 106 |
 | `splunk/cti_cve_kev.csv` | 17 |
-| `sentinel/CTI_Ip.csv` | 148 |
-| `sentinel/CTI_Dominio.csv` | 444 |
-| `sentinel/CTI_Url.csv` | 265 |
-| `sentinel/CTI_Hash.csv` | 123 |
-| `elastic/cti_ip.ndjson` | 148 |
-| `elastic/cti_dominio.ndjson` | 444 |
-| `elastic/cti_url.ndjson` | 265 |
-| `elastic/cti_hash.ndjson` | 123 |
+| `sentinel/CTI_Ip.csv` | 110 |
+| `sentinel/CTI_Dominio.csv` | 1065 |
+| `sentinel/CTI_Url.csv` | 174 |
+| `sentinel/CTI_Hash.csv` | 106 |
+| `elastic/cti_ip.ndjson` | 110 |
+| `elastic/cti_dominio.ndjson` | 1065 |
+| `elastic/cti_url.ndjson` | 174 |
+| `elastic/cti_hash.ndjson` | 106 |
 
 ## Como se instala cada una
 
