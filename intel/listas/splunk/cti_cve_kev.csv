@@ -1,4 +1,5 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-88779,Citrix,NetScaler,Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability,2026-10-04,Unknown
 CVE-2026-102490,Zammad GmbH,Zammad,Zammad GmbH Zammad Improper Privilege Management Vulnerability,2026-10-02,Unknown
 CVE-2026-102489,Zammad GmbH,Zammad,Zammad GmbH Zammad Session Fixation Vulnerability,2026-10-02,Unknown
 CVE-2026-104286,Fortinet,FortiMail,Fortinet FortiMail Path Traversal Vulnerability,2026-10-01,Unknown
