@@ -16,4 +16,3 @@ CVE-2026-93952,Arista,VeloCloud Orchestrator,Arista VeloCloud Orchestrator Impro
 CVE-2026-94127,F5,BIG-IP APM,F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability,2026-09-22,Unknown
 CVE-2026-93616,Check Point,Multiple Products,Check Point Multiple Products Path Traversal Vulnerability,2026-09-22,Unknown
 CVE-2026-85102,Check Point,Multiple Products,Check Point Multiple Products Improper Certificate Validation Vulnerability,2026-09-22,Unknown
-CVE-2026-7273,Zyxel,GS1900 Series Switches,Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability,2026-09-21,Unknown

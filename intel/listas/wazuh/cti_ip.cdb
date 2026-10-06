@@ -1,111 +1,99 @@
-178.132.198.200:Mirai|alta
+176.65.134.119:Mirai|alta
+107.172.132.240:Mirai|alta
+176.65.139.235:Mirai|alta
 94.154.43.30:Mirai|alta
-153.80.242.105:Cobalt Strike|media
-158.94.208.152:AsyncRAT|media
-38.76.190.209:Cobalt Strike|media
+93.113.180.149:Unknown malware|media
+45.192.213.11:VShell|media
+79.238.78.248:Mirai|media
+37.120.206.166:Remcos|media
+176.65.148.144:Mirai|media
+134.122.22.105:Aisuru|media
+138.68.135.200:Aisuru|media
+185.236.203.100:Remcos|media
+138.68.101.133:Aisuru|media
 142.93.6.168:Aisuru|media
-101.34.208.175:Cobalt Strike|media
-139.196.170.151:VShell|media
-188.165.224.129:VShell|media
-89.185.84.98:Potassium|media
+132.243.187.112:Potassium|media
+138.124.67.16:Potassium|media
 62.133.62.30:Potassium|media
-5.181.2.75:Potassium|media
-147.45.116.130:Potassium|media
+89.185.84.98:Potassium|media
+139.59.101.166:Aisuru|media
+165.22.244.100:Aisuru|media
+159.89.95.185:Aisuru|media
+46.101.164.65:Aisuru|media
+147.139.168.67:Jackskid|media
+198.11.174.58:Jackskid|media
+45.91.52.45:Unknown RAT|media
+164.92.243.20:Aisuru|media
+140.233.190.115:Aisuru|media
+128.90.108.163:Remcos|media
+134.122.91.85:Aisuru|media
+31.77.109.117:Remcos|media
+186.194.50.58:Remus|media
+45.86.60.114:AdaptixC2|media
+134.175.40.200:Unknown malware|media
+154.12.92.28:VShell|media
+139.162.95.98:VShell|media
+104.234.26.149:VShell|media
+64.227.35.8:Havoc|media
+114.132.190.121:Unknown malware|media
+43.134.112.45:Cobalt Strike|media
+128.90.102.236:Remcos|media
+128.90.106.164:Remcos|media
+143.244.155.53:Aisuru|media
+207.246.98.204:HijackLoader|media
+206.123.129.234:Remcos|media
+137.184.108.14:Remus|media
+45.146.91.241:Drifter|media
+93.152.221.232:Drifter|media
+171.22.130.121:Drifter|media
+45.146.91.234:Drifter|media
+113.45.227.85:VShell|media
+120.26.49.92:VShell|media
+102.117.175.209:Unknown malware|media
+155.103.71.126:Remcos|media
+74.115.172.254:Remcos|media
+216.9.225.162:Remcos|media
+38.55.252.139:Unknown malware|media
+167.172.71.210:Aisuru|media
+64.227.100.23:Remus|media
+172.238.117.154:Vidar|media
+102.220.163.203:CECbot|media
+132.243.187.133:Potassium|media
+138.124.67.244:Potassium|media
 145.249.109.10:Potassium|media
 138.124.67.60:Potassium|media
-138.124.67.244:Potassium|media
-132.243.187.133:Potassium|media
-8.148.8.46:VShell|media
-102.220.163.203:CECbot|media
-172.238.117.154:Vidar|media
-8.145.54.119:VShell|media
-47.95.255.0:VShell|media
-124.221.195.107:VShell|media
-193.160.32.191:Havoc|media
-213.108.21.234:NetSupportManager RAT|media
-185.47.174.97:Remcos|media
-64.227.100.23:Remus|media
-100.61.249.34:Havoc|media
-172.104.41.216:Jackskid|media
-104.105.26.84:Jackskid|media
-172.233.111.242:Jackskid|media
-172.232.132.117:Jackskid|media
-172.235.182.181:Jackskid|media
-172.233.20.99:Jackskid|media
-45.79.123.245:Jackskid|media
-8.210.84.56:AdaptixC2|media
-185.157.163.24:Remcos|media
-43.156.121.164:Jackskid|media
-43.172.6.45:Jackskid|media
-43.157.240.245:Jackskid|media
-137.175.102.11:Havoc|media
-107.173.180.64:DCRat|media
-57.128.171.127:Unknown malware|media
-106.55.253.229:Cobalt Strike|media
-102.55.131.186:AsyncRAT|media
-46.224.172.14:Vidar|media
-217.60.103.200:Vidar|media
-188.245.231.9:Vidar|media
-217.60.102.236:Vidar|media
-37.27.157.157:Vidar|media
-37.27.146.241:Vidar|media
-91.92.243.218:Vidar|media
-195.63.139.180:Unknown malware|media
-45.192.213.15:VShell|media
-159.223.108.19:Aisuru|media
-140.233.190.115:Aisuru|media
-64.227.117.205:Aisuru|media
-132.243.187.112:Potassium|media
-89.23.113.104:Potassium|media
-138.124.67.16:Potassium|media
-2.59.163.77:Potassium|media
-2.59.163.183:Potassium|media
-45.155.68.31:Potassium|media
-2.59.163.4:Potassium|media
-87.251.69.166:Potassium|media
-87.251.69.139:Potassium|media
-5.181.2.8:Potassium|media
-89.185.82.70:Potassium|media
-89.185.82.69:Potassium|media
-92.118.112.61:Potassium|media
-217.60.103.131:Remcos|media
-109.107.189.252:Drifter|media
-45.83.182.68:Unknown malware|media
-45.142.30.135:Unknown malware|media
-44.243.239.80:Havoc|media
+147.45.116.130:Potassium|media
+5.181.2.75:Potassium|media
 89.163.157.131:Mirai|media
-176.65.148.144:Mirai|media
-77.110.102.43:Unknown malware|media
-77.221.153.100:Unknown malware|media
-178.16.52.191:Evilginx|media
-103.245.237.10:Mirai|media
-46.246.6.4:AsyncRAT|media
-45.86.60.114:AdaptixC2|media
-45.32.135.118:AsyncRAT|media
-217.60.195.85:AdaptixC2|media
-207.56.217.24:PureRAT|media
-186.169.33.116:DCRat|media
-185.174.102.29:PureRAT|media
-156.252.163.135:DanaBot|media
-152.70.24.49:Hook|media
+109.206.247.245:Cobalt Strike|media
+217.60.76.249:Unknown RAT|media
+84.200.91.170:PureRAT|media
+78.17.25.46:PureRAT|media
+77.110.109.204:PureRAT|media
+45.88.91.54:PureRAT|media
+207.189.18.225:PureRAT|media
+207.174.0.227:PureRAT|media
+20.160.224.178:Unknown malware|media
+185.254.96.191:PureRAT|media
+185.212.129.149:Evilginx|media
+175.43.223.206:Unknown malware|media
+172.94.99.38:PureRAT|media
+148.163.90.44:PureRAT|media
 146.19.125.141:PureRAT|media
-104.249.10.107:PureRAT|media
-102.117.169.140:Unknown malware|media
-95.182.88.39:pupy|media
-93.233.96.34:AsyncRAT|media
-46.246.84.17:AsyncRAT|media
-217.60.103.15:AsyncRAT|media
-217.217.197.191:DanaBot|media
-217.217.197.190:DanaBot|media
-2.28.107.84:Evilginx|media
-198.1.241.78:DanaBot|media
-198.1.241.175:DanaBot|media
-156.252.85.207:DanaBot|media
-156.252.85.206:DanaBot|media
-156.252.185.204:DanaBot|media
-156.252.185.139:DanaBot|media
-207.246.75.56:Unknown malware|media
-144.172.68.200:Cobalt Strike|media
-115.159.101.177:Cobalt Strike|media
-43.157.108.39:Unknown malware|media
-220.90.65.149:Nanocore RAT|media
+143.246.223.165:PureRAT|media
+13.233.118.170:Havoc|media
+102.220.160.198:AsyncRAT|media
+102.152.29.94:Unknown malware|media
+45.32.135.118:AsyncRAT|media
+40.223.85.146:PureRAT|media
+196.77.100.164:AsyncRAT|media
+171.111.194.207:Unknown malware|media
+137.184.139.185:Havoc|media
+116.198.18.139:AdaptixC2|media
+100.57.14.236:Havoc|media
+178.130.47.168:Remcos|media
+192.169.69.25:STRRAT|media
+107.174.20.206:XWorm|media
+186.241.115.168:Cobalt Strike|media
+168.245.203.150:Meterpreter|media
+103.140.154.117:Unknown malware|media
