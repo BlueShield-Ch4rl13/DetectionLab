@@ -1,203 +1,101 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto
-https://ohhhhhmoney.com/fF2,url,HijackLoader,media,55,100,,ThreatFox,2026-10-06 05:28:16 UTC
-https://fu.333pwk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-06 05:28:13 UTC
-https://fu.396zk.net,url,Vidar,media,55,100,,ThreatFox,2026-10-06 05:28:12 UTC
-https://heavenproject.lgbt/api/connect,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:46 UTC
-https://heavenproject.lgbt/api/heartbeat,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:44 UTC
-https://heavenproject.lgbt/api/keylog,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:44 UTC
-https://heavenproject.lgbt/api/browser_data,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:43 UTC
-https://heavenproject.lgbt/api/terminal,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:43 UTC
-https://heavenproject.lgbt/api/processes,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:42 UTC
-https://heavenproject.lgbt/api/screen,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:40 UTC
-https://heavenproject.lgbt/api/file_list,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:39 UTC
-https://heavenproject.lgbt/api/file_upload,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:38 UTC
-https://heavenproject.lgbt/api/upload_zip,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:38 UTC
-https://heavenproject.lgbt/api/v1/update_check,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:37 UTC
-https://heavenproject.lgbt/api/v1/config_sync,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:36 UTC
-https://heavenproject.lgbt/send-steam,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:36 UTC
-https://heavenproject.lgbt/api/hvnc_stream,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:35 UTC
-https://heavenproject.lgbt/api/hvnc_clipboard,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-06 05:27:34 UTC
-https://xg.396zk.net,url,Vidar,media,55,100,,ThreatFox,2026-10-06 05:27:25 UTC
-https://xg.333pwk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-06 05:27:21 UTC
-https://78.47.230.34,url,Vidar,media,55,100,,ThreatFox,2026-10-06 03:09:59 UTC
-https://xg.396zk.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-05 22:20:48 UTC
-https://xg.333pwk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-05 22:20:48 UTC
-https://zibidik.sbs/ws,url,Unknown RAT,media,55,100,,ThreatFox,2026-10-05 18:01:21 UTC
-https://chamomilecanto.co/version/health-worker.js,url,SmartApeSG,media,55,100,,ThreatFox,2026-10-05 16:41:20 UTC
-https://fu.396zk.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-05 15:55:48 UTC
-https://fu.333pwk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-05 15:55:48 UTC
-https://rawcdn.githack.com/dsteru3421/5c5d8d-0333-4cbe-b328-d84e0dd9d/refs/heads/main/71f93c0a-94ad-4763-bab8-ba459e8b3395,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 15:40:15 UTC
-https://94ddb3c2-52d7-43cb-a5f6-666966a1c7cf.foxdale.cc/cinstall.ps1,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 15:40:15 UTC
-https://0345ff3a-89ea-4b42-48a38a3b396d.foxdale.cc/install.ps1,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 15:40:15 UTC
-https://brambly.world/cinstall.ps1,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 15:40:14 UTC
-https://rawcdn.githack.com/dsteru3421/02-FD9159F9-9A/refs/heads/main/f28ddb96-d4bc-410,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 15:40:14 UTC
-https://rawcdn.githack.com/dsteru3421/559f-2414-494a-8560-23ce5908/refs/heads/main/eea997-d7e6-43f3-a5bd,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 15:40:14 UTC
-https://cdn.jsdelivr.net/gh/04fb-ff/c19e1173-a40b-4198-b705-b85466f6cde0/119-73c4846d6ec9,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 13:45:47 UTC
-https://cdn.jsdelivr.net/gh/20fd0ae3e004/0d377d00-78a8-4d8d-90b1-243adcb9e9fd/84e8-38f0a7270d68,url,ClearFake,media,55,100,,ThreatFox,2026-10-05 13:29:04 UTC
-https://104.252.111.175,url,Vidar,media,55,100,,ThreatFox,2026-10-05 12:09:37 UTC
-https://ax.396zk.net,url,Vidar,media,55,100,,ThreatFox,2026-10-05 09:54:58 UTC
-https://ax.396zk.net/,url,Vidar,media,55,100,,ThreatFox,2026-10-05 09:50:48 UTC
-https://ax.333pwk.org/,url,Vidar,media,55,100,,ThreatFox,2026-10-05 09:50:48 UTC
-https://kkeyyou.cc/gate/chunk,url,Unknown Stealer,media,55,100,,ThreatFox,2026-10-05 08:26:55 UTC
-https://kkeyyou.cc/gate/complete,url,Unknown Stealer,media,55,100,,ThreatFox,2026-10-05 08:26:55 UTC
-https://172.238.117.154,url,Vidar,media,55,100,,ThreatFox,2026-10-05 06:15:36 UTC
-https://kh.333pwk.org,url,Vidar,media,55,100,,ThreatFox,2026-10-05 06:15:33 UTC
-http://nexusxc.click/,url,Remus,media,55,100,,ThreatFox,2026-10-05 06:15:32 UTC
-https://139.177.179.106,url,Vidar,media,55,100,,ThreatFox,2026-10-05 06:15:31 UTC
-https://db.396zk.net,url,Vidar,media,55,100,,ThreatFox,2026-10-05 06:15:30 UTC
-https://www.mubillc.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 05:30:52 UTC
-https://viorsoonlucid.life/t.js?site=f5b9d245ef44e6921c62968bcb513df7,url,IClickFix,media,54,90,,ThreatFox,2026-10-06 05:27:13 UTC
-https://ashen-arc-badger-maie.life/t.js?site=f336ffdbb037127fe5e5a586fd71238c,url,IClickFix,media,54,90,,ThreatFox,2026-10-06 05:27:11 UTC
-https://glacial-sketch-otter-triis.live/t.js?site=1ceb406e0955a1195f6c4cb20c80e56e,url,IClickFix,media,54,90,,ThreatFox,2026-10-06 05:27:11 UTC
-https://mesa-seen-dcjcj.live/t.js?site=90efba9324efc90989abbdf2e9e43c85,url,IClickFix,media,54,90,,ThreatFox,2026-10-06 05:27:10 UTC
-https://sable-orbit-wren-fiayn.live/t.js?site=a5289897c1d80a182ea44da6c39f358e,url,IClickFix,media,54,90,,ThreatFox,2026-10-06 05:27:10 UTC
-https://vailora231.life/t.js?site=11f829d840226cb9806390f2aae4f9d0,url,IClickFix,media,54,90,,ThreatFox,2026-10-06 05:27:09 UTC
-https://fern-song.pages.dev/win/index.php?vq=7ZNbQwNzBJ2yll0ZkiqiA2QyREYyaVMwT1BCOTFPb1JEeHRNL2dLNVNDc2UvMDVlNmFpWkJPeHFyazl1VGpHUzA4MXRRamttLzVKOTI4R2ptaHcxeGtsUHhPTXlneFFCTWJjZGNUNkZteDRDRm43K2ovVXBZMjlVU3lISDdLdlREZlBrMG9UL1RYUkFiYWhBQmxTS09vMVJuMUcyM2w2U1JGT29VUm5ITmJRSmZFOFdCbUIrSVIxbVdTdWxPVGdjWXQxNXIrZ1kyUlZvcmQ1ZQ==,url,StrelaStealer,media,54,90,,ThreatFox,2026-10-06 05:26:59 UTC
-https://polar-willow-comet.pages.dev/win/index.php?vq=dIjPdmJg8VKQ7DAHcDcz/ktPUXRhNU0vV3phVGNlb0IrbGE1TGdYYlZkMXJrUXJlaWdDYUE1aHF0Si9McmYzdmlNdUVVc2RUZXBDQ3AvSzU0b1FXQ2ZTTklxYjRuU25pQlo2NDZXOHFsdFdRejZNWGpPMG5STUVLZ0V4b0VRUHRIU1NxeFRKOXVrWDFBV3AwdHdBZ2F0emJuUUlVVVc1Y2F2d2lTMjZUVWdpOWoyZDJwSzNBZ2poVUdvYnk1Q0xtQ0tWOG1CZmNRblMyNUpGLw==,url,StrelaStealer,media,54,90,,ThreatFox,2026-10-06 05:26:58 UTC
-https://lemon-hill7.pages.dev/win/index.php?vq=mIkU125tvDTrm29Wcxr3HjBWbDVXaUMxKzNKdEcvR1U2MEtqbXY1VkVLdkgxSWE1U1dnbVRzRmFkeU9ZYWVMWWU2R3ZDMGZ1Y1NjcGZ4bXF6ekJrSkJsNjEzNEwza3lBVnlJcXNOVis3TUtRQlRaaUlBV1hIMGIvUmRkdTMrVzhYeERkUGk1RCtmUmw5OC9GcUhMM0tGL3lqazhpZDFMUStsLzJVRlltYW1jWEZiOUpVK0tkL21IR2FpTml3eVZPMzlVTm1mbDFVV3F3akRSTg==,url,StrelaStealer,media,54,90,,ThreatFox,2026-10-06 05:26:57 UTC
-https://logintechs.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 04:00:55 UTC
-https://maryberryfiberart.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 04:00:55 UTC
-https://luthra.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 03:30:53 UTC
-https://littletripster.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 03:30:53 UTC
-https://makerman.in/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 03:30:53 UTC
-https://magazine96th.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 03:30:53 UTC
-https://lizzardinsure.co.za/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 03:30:53 UTC
-https://layyahnews.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 03:30:53 UTC
-https://www.karolsequeira.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 02:30:53 UTC
-https://kiasuplumber.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 02:30:53 UTC
-https://jailimeandchemical.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 02:30:53 UTC
-https://innoventservices.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 02:30:53 UTC
-https://inyathileplek.co.za/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 01:30:54 UTC
-https://isometricinteriors.ae/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 01:30:54 UTC
-https://hiramdesigns.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 01:30:54 UTC
-https://kalerdarpan24.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 00:30:52 UTC
-https://hiveandhalo.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 00:30:52 UTC
-https://fundacionitek.cl/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-06 00:30:52 UTC
-https://eldahouara.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-05 23:30:55 UTC
-https://evergreenyib.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-05 23:30:54 UTC
-https://businesstime.com.au/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-05 21:30:55 UTC
-https://www.lee-art.ch/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-05 19:31:00 UTC
-https://banjarnegeri.id/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-05 19:31:00 UTC
-https://aandatires.com/,url,Unknown malware,media,54,90,,ThreatFox,2026-10-05 18:00:56 UTC
-http://sdatery.shop:5003/workspaces,url,Remus,media,51,75,,ThreatFox,2026-10-06 04:53:48 UTC
-http://coxmics.shop:4262/invoices,url,Remus,media,51,75,,ThreatFox,2026-10-06 04:53:48 UTC
-http://103.66.149.154:47461/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-06 00:18:50 UTC
-http://42.224.146.34:55637/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-06 00:18:49 UTC
-https://gl.333pwk.org,url,Vidar,media,51,75,,ThreatFox,2026-10-06 00:14:05 UTC
-https://50.116.26.224,url,Vidar,media,51,75,,ThreatFox,2026-10-05 22:15:39 UTC
-http://202.47.51.242:33649/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 18:19:07 UTC
-http://202.70.139.186:32913/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 18:19:06 UTC
-http://175.107.228.239:58192/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 18:19:06 UTC
-http://100.165.14.123:55983/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 18:19:05 UTC
-http://cdn.jsdelivr.net/gh/04FB-fF/c19e1173-a40b-4198-b705-b85466f6cde0/119-73c4846d6ec9,url,ClearFake,media,51,75,,ThreatFox,2026-10-05 13:27:19 UTC
-https://a611-ce4cac3252f6.foxdale.cc,url,IClickFix,media,51,75,,ThreatFox,2026-10-05 13:27:17 UTC
-https://cdn.quickdelivr.com/mpackage.js,url,IClickFix,media,51,75,,ThreatFox,2026-10-05 12:54:40 UTC
-http://teculse.click:9210/tags,url,Remus,media,51,75,,ThreatFox,2026-10-05 12:21:23 UTC
-http://arqtsop.shop:9932/users,url,Remus,media,51,75,,ThreatFox,2026-10-05 12:21:23 UTC
-http://202.47.56.17:47866/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 12:18:23 UTC
-http://43.230.94.183:56898/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 12:18:22 UTC
-http://120.28.215.116:57223/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 12:18:22 UTC
-http://160.30.142.217:35935/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 12:18:21 UTC
-http://42.235.54.206:52623/Mozi.m,url,Mozi,media,51,75,,ThreatFox,2026-10-05 06:18:10 UTC
-http://176.65.139.139/mips,url,Mirai,media,51,75,,ThreatFox,2026-10-05 06:18:09 UTC
-https://updateocean.com/get_script,url,ClearFake,media,51,75,,ThreatFox,2026-10-05 06:15:37 UTC
-https://raw.githubusercontent.com/fvalenzuela1/IPBonesUI/refs/heads/main/unlash/Bones-UI-IP-v3.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:49:00 UTC
-https://raw.githubusercontent.com/Rusty-caruso584/Hyperliquid-Arbitrage-Bot/refs/heads/main/examples/Arbitrage-Hyperliquid-Bot-3.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:59 UTC
-https://raw.githubusercontent.com/Greenrestlessness223/alpha-skills/refs/heads/main/skills/alpha-library/skills_alpha_3.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:59 UTC
-https://raw.githubusercontent.com/Motta1998/arr-client/refs/heads/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/arr_client_v3.8.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:58 UTC
-https://raw.githubusercontent.com/shirshakrb/shopify-klaviyo-email-sms-flow-automation/refs/heads/main/irrelevantly/automation_klaviyo_shopify_flow_email_sms_2.3-alpha.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:56 UTC
-https://raw.githubusercontent.com/AbdNour627/awesome-openclaw-configs/refs/heads/main/configs/awesome_openclaw_configs_v2.7-beta.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:56 UTC
-https://raw.githubusercontent.com/abhiarun2007-dotcom/instagram-automation-toolkit/main/Tetragoniaceae/v2.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:55 UTC
-https://raw.githubusercontent.com/senjusenpai18/javascript-interview/HEAD/undesirousness/javascript-interview.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:54 UTC
-https://raw.githubusercontent.com/Aaiden1212/intern_task/main/pinacolin/task-intern-lemniscus.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:53 UTC
-https://raw.githubusercontent.com/Zeno-ai/ngl-core-audit/refs/heads/main/docs/core_audit_ngl_2.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:53 UTC
-https://raw.githubusercontent.com/Joeboy2006/cozio/refs/heads/main/public/js/Software_v3.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:52 UTC
-https://raw.githubusercontent.com/bonucci132122322/treehole-score-style-restore/refs/heads/main/clavichordist/score_restore_style_treehole_1.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:50 UTC
-https://raw.githubusercontent.com/maduwanthasathsara0-hub/claude-proj-blueprint/refs/heads/main/docs/assets/blueprint_claude_proj_3.0-beta.2.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:50 UTC
-https://raw.githubusercontent.com/oswald121/numa-timer/HEAD/assets/timer-numa-v3.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:50 UTC
-https://raw.githubusercontent.com/subashraja5809-hue/open-claude-code/refs/heads/main/src/components/LspRecommendation/open_claude_code_2.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:49 UTC
-https://raw.githubusercontent.com/Prefab-mobilization145/bank-agent-llm/refs/heads/main/tests/fixtures/agent_bank_llm_v3.0.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:49 UTC
-https://raw.githubusercontent.com/thanhtaiphys/thue-tncn-vietnam/HEAD/references/tncn_thue_vietnam_3.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:48 UTC
-https://raw.githubusercontent.com/biggercap/agentops-hub/HEAD/frontend/src/app/app/agents/agentops_hub_v1.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:47 UTC
-https://raw.githubusercontent.com/reneeingram2010-max/statusline/refs/heads/main/assets/Software-2.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:45 UTC
-https://raw.githubusercontent.com/surd-pollywog583/mycop/refs/heads/main/docs/blog/Software-2.6-alpha.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:45 UTC
-https://raw.githubusercontent.com/vedeshsutar23-cmd/VIC/refs/heads/main/achromous/Software_v2.7-beta.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:45 UTC
-https://raw.githubusercontent.com/luciaguzman2601/kirmanjiku-18/main/macrocephalia/kirmanjiku-18.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:42 UTC
-https://raw.githubusercontent.com/jaisingh001/instagram-ai-faq-order-tracking-chatbot/HEAD/uninterlaced/tracking_order_instagram_ai_chatbot_faq_v1.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:39 UTC
-https://raw.githubusercontent.com/dewiaratna/pypi_search/refs/heads/main/docs/search_pypi_1.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:39 UTC
-https://raw.githubusercontent.com/syedsaif9019/sql-server-6sw/main/ultrafidian/sql-server-6sw.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:38 UTC
-https://raw.githubusercontent.com/JohnInWI/imageaddawatermark/refs/heads/master/.idea/inspectionProfiles/Software_settaine.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:38 UTC
-https://raw.githubusercontent.com/zaharsyahrafi/cxusage/refs/heads/main/src/Software_v3.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:37 UTC
-https://raw.githubusercontent.com/Phillipphilatelical734/eve-agent-v2-unleashed/refs/heads/main/etiogenic/eve-v-agent-unleashed-v1.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:35 UTC
-https://raw.githubusercontent.com/Emmanvel/crypto_currencies_interest_rates/refs/heads/main/asaron/currencies_interest_crypto_rates_v1.0.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:33 UTC
-https://raw.githubusercontent.com/gabysugy/agent-guardrails/HEAD/scripts/agent_guardrails_2.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:32 UTC
-https://raw.githubusercontent.com/kareem102/otel-demo-app/refs/heads/master/src/main/java/com/shahidyousuf/otel_demo/filter/demo_otel_app_Italomania.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:32 UTC
-https://raw.githubusercontent.com/financelech419/simple-to-do/refs/heads/main/feathery/to-simple-do-1.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:32 UTC
-https://raw.githubusercontent.com/futurexmeta/agent-ps/refs/heads/main/scripts/agent-ps-2.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:31 UTC
-https://raw.githubusercontent.com/cmyk-dek/AcroSlideXLIBrary_Website/AcroSlideXLIBrary_Website_Main-dev/OldVersions/GITIGNORE/1/AcroSlideXLIBrary_Website_2.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:30 UTC
-https://raw.githubusercontent.com/mahoko6505/Eden-Switch-Emulator/refs/heads/main/Screenshots/3.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:30 UTC
-https://raw.githubusercontent.com/Jaron69/Gesture-Recognition-with-computer-vision/refs/heads/main/porriwiggle/computer_vision_Recognition_with_Gesture_1.9-beta.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:29 UTC
-https://raw.githubusercontent.com/achessmoba72-sudo/heyclaw/main/heyclaw/alfridary.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:29 UTC
-https://raw.githubusercontent.com/ronniwheellike973/Mini-Agent/refs/heads/main/mini_agent/skills/algorithmic-art/templates/Agent-Mini-2.0.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:28 UTC
-https://raw.githubusercontent.com/jackx7/Forecasting-The-Future-of-Forecasting/refs/heads/main/pictorical/of-Forecasting-The-Future-v2.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:28 UTC
-https://raw.githubusercontent.com/ethiopian-liliidmonocotgenus691/awesome-touhou/refs/heads/main/website/static/awesome-touhou-3.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:25 UTC
-https://raw.githubusercontent.com/khuevi6580/narwhal/main/crates/narwhal-diagram/tests/Software_2.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:25 UTC
-https://raw.githubusercontent.com/Br3nnan951/s3-sql-search/refs/heads/main/docs/images/sql_search_s_chromatoplasm.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:23 UTC
-https://raw.githubusercontent.com/antistrophic-flycatchingwarbler920/IntelliScraper/refs/heads/main/overcured/Scraper_Intelli_v3.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:23 UTC
-https://raw.githubusercontent.com/ApolloMakesContent/Codex-Workspace/refs/heads/main/site/Workspace_Codex_v3.0.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:22 UTC
-https://raw.githubusercontent.com/rhkiswani/llamator-mcp-server/HEAD/src/mcp_server_llamator_2.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:21 UTC
-https://raw.githubusercontent.com/axlcraft/SMS/main/services/analisis/Software_v2.7-beta.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:21 UTC
-https://raw.githubusercontent.com/connedigital/Brahmastra_OSINT/refs/heads/main/src/types/OSINT-Brahmastra-v1.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:20 UTC
-https://raw.githubusercontent.com/Abhi2109kumar/FaceID/refs/heads/main/src/recognition/Face-ID-1.7-beta.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:20 UTC
-https://raw.githubusercontent.com/Kristine7246/openclaw-agent-feeds/refs/heads/main/feeds/legal-precision/agent_feeds_openclaw_3.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:19 UTC
-https://raw.githubusercontent.com/fanshuiyu/invisix/refs/heads/main/docs/images/image-licenses/Software-2.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:17 UTC
-https://raw.githubusercontent.com/kenneonn/javascript-tetris/HEAD/sublettable/javascript-tetris.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:16 UTC
-https://raw.githubusercontent.com/dixonk3527/LoST/refs/heads/main/beef/ST_Lo_v1.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:16 UTC
-https://raw.githubusercontent.com/Ahmedehab706/youtube-hashtag-video-shorts-scraper/refs/heads/main/oven/video-youtube-hashtag-shorts-scraper-v1.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:15 UTC
-https://raw.githubusercontent.com/Holly-anneundomesticated782/Driver-Genius-Pro-Updater-Setup/main/woodchuck/Driver_Genius_Updater_Pro_Setup_v3.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:15 UTC
-https://raw.githubusercontent.com/wadada1234/IOT-Lab/refs/heads/main/program2/Lab-IO-1.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:14 UTC
-https://raw.githubusercontent.com/haitham-101/Core/refs/heads/main/contrib/uqda-brute-simple/Software_v1.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:13 UTC
-https://raw.githubusercontent.com/sahasaya/powersub-demo-8580/main/contest/demo_powersub_preassurance.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:13 UTC
-https://raw.githubusercontent.com/NvmToxic/ai-books-mcp-server/refs/heads/main/src/services/mcp_ai_books_server_v1.2-beta.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:11 UTC
-https://raw.githubusercontent.com/matheusscsp/lite-cv-ai/HEAD/conductible/lite-cv-ai.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:09 UTC
-https://raw.githubusercontent.com/logokabulov/gemini-business/HEAD/templates/components/business_gemini_v3.9-beta.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:08 UTC
-https://raw.githubusercontent.com/pedrocouto839/nano-banana-pro-prompts-recommend-skill/HEAD/scripts/nano_prompts_pro_banana_recommend_skill_2.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:07 UTC
-https://raw.githubusercontent.com/SissNonn/clawtbot/refs/heads/main/docs/assets/Software-3.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:07 UTC
-https://raw.githubusercontent.com/GC2211-ghuru/Thirteen/main/Examples/Minesweeper/Software_1.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:06 UTC
-https://raw.githubusercontent.com/brachydactylous-wahabism574/letitbrew/main/Sources/LetItBrewApp/Assets.xcassets/Software_1.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:06 UTC
-https://raw.githubusercontent.com/idkfwmmmmmmd/tunnelto/refs/heads/main/src/pages/edge/not-australia/Software-v3.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:06 UTC
-https://raw.githubusercontent.com/monarchal-espressoshop454/awesome-ai-storyboarding/refs/heads/main/spongiocyte/ai-storyboarding-awesome-undecree.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:05 UTC
-https://raw.githubusercontent.com/vetsonombana/open-source-habit-tracker-app/HEAD/hooks/open_source_tracker_habit_app_2.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:05 UTC
-https://raw.githubusercontent.com/junii27/VoxFlow/main/VoxFlow/HUD/v3.4-beta.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:04 UTC
-https://raw.githubusercontent.com/sarih-cloud/DSA-Lab/refs/heads/main/Lab-2/Lab_DS_leawill.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:03 UTC
-https://raw.githubusercontent.com/lannyfervent952/fastapi-agent-blueprint/refs/heads/main/src/_core/domain/value_objects/blueprint_agent_fastapi_v3.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:03 UTC
-https://raw.githubusercontent.com/suraj8523/Leafletjs_Tuturoals/refs/heads/main/conveniency/Leafletjs-Tuturoals-v2.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:02 UTC
-https://raw.githubusercontent.com/wakefieldrewarding683/WGALL-ZJ005/refs/heads/main/rendible/Z-WGAL-2.8-beta.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:02 UTC
-https://raw.githubusercontent.com/junior478rd/Conversational-AI/refs/heads/main/thusness/Conversational-AI-v1.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:00 UTC
-https://raw.githubusercontent.com/erikdwi03/bitrix-cdn/HEAD/kymogram/bitrix-cdn.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:00 UTC
-https://raw.githubusercontent.com/Nelasovmatvei/BOMBANANA-Cheats/refs/heads/main/infectedness/v1.4-alpha.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:00 UTC
-https://raw.githubusercontent.com/3bbas99/clickup-quickbooks-invoice-automation/refs/heads/main/cratered/automation-invoice-clickup-quickbooks-1.2.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:48:00 UTC
-https://raw.githubusercontent.com/Anamalikay/IPL-AUCTION-CLASH/refs/heads/main/montage/AUCTIO-IP-CLASH-v2.4-alpha.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:59 UTC
-https://raw.githubusercontent.com/krispsy1/cs2-realtime-demo-radar/refs/heads/main/nappe/demo_cs_radar_realtime_3.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:56 UTC
-https://raw.githubusercontent.com/Error-404-bob/kirpi/refs/heads/main/oscillating/Software_flintiness.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:56 UTC
-https://raw.githubusercontent.com/improving-photopigment56/sql-learning/refs/heads/main/jumba/sql-learning-1.9.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:55 UTC
-https://raw.githubusercontent.com/hoang2010-jnp/ask-human-mcp/refs/heads/main/tests/human_ask_mcp_v2.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:54 UTC
-https://raw.githubusercontent.com/reachingshading6370/RunwayGen3-Turbo---Runway-Gen-3-Turbo-2026/refs/heads/main/pyrrhic/v3.0.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:54 UTC
-https://raw.githubusercontent.com/WEEZY956/Webfurl/refs/heads/main/crates/webfurl-server/src/Software-1.8.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:53 UTC
-https://raw.githubusercontent.com/ydavidcm9-wq/vigil/refs/heads/main/lib/scanners/Software_3.8.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:53 UTC
-https://raw.githubusercontent.com/Binto001/dodomy1/refs/heads/main/koilanaglyphic/dodomy_v2.8-beta.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:52 UTC
-https://raw.githubusercontent.com/mani1951/auroraspeak/dev/anthood/auroraspeak-v3.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:52 UTC
-https://raw.githubusercontent.com/LukePham163/docker-compose-servarr-with-gluetun/refs/heads/main/advert/gluetun_docker_with_servarr_compose_v1.5-alpha.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:51 UTC
-https://raw.githubusercontent.com/Powersubstance/localizing-visual-splices/master/scripts/models/localizing-visual-splices_v3.8.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:51 UTC
-https://raw.githubusercontent.com/dezqy/core-keeper-mod-menu/main/hydrocele/keeper_mod_core_menu_v3.8.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:50 UTC
-https://raw.githubusercontent.com/masseuseherpetology481/keygate/refs/heads/main/docs/Software-v3.2-beta.2.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:50 UTC
-https://raw.githubusercontent.com/guthreycoccygeal641/sync-claude-code-token-in-open-code/refs/heads/main/wauns/code_open_sync_token_in_claude_v3.9-alpha.1.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:49 UTC
-https://raw.githubusercontent.com/larimreis/flower-diffusion-model/HEAD/generated_images/flower-model-diffusion-v2.3-alpha.4.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:48 UTC
-https://raw.githubusercontent.com/Metedout-biographer66/dots.ocr-fix-demo/refs/heads/main/Dots.OCR-Notebook/fix_dots_ocr_demo_3.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:48 UTC
-https://raw.githubusercontent.com/jucyboy/pyo3-hint-transpiler/refs/heads/main/src/transpiler_hint_pyo_3.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:47 UTC
-https://raw.githubusercontent.com/Somia2207/spot-seek-bot/refs/heads/main/undissociated/bot_seek_spot_1.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:47 UTC
-https://raw.githubusercontent.com/Unsupportable-countlessness124/pokemanion/main/assets/pokemon/eevee/2.5.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:46 UTC
-https://raw.githubusercontent.com/akkiakshay-26/megagecko-pool-fetcher/refs/heads/main/resuscitate/fetcher_pool_megagecko_3.6.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:44 UTC
-https://raw.githubusercontent.com/gustavo-gif/Mindjet-MindManager-Repack/refs/heads/main/sanguineophlegmatic/Repack_Manager_Mindjet_Mind_v2.2-alpha.2.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:42 UTC
-https://raw.githubusercontent.com/ZaidElayyan/playlistexporter/refs/heads/main/src/types/Software_v3.7.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:41 UTC
-https://raw.githubusercontent.com/OoufA123456/HarmonyOS-Inno/refs/heads/main/cocos_project/settings/v2/Inno_O_Harmony_1.3.zip,url,malware_download,media,40,,,URLhaus,2026-10-06 05:47:41 UTC
+http://95.9.35.137:40441/i,url,malware_download,media,44,,,URLhaus,2026-10-07 04:55:51 UTC
+http://123.12.245.227:36522/bin.sh,url,malware_download,media,44,,,URLhaus,2026-10-07 04:41:16 UTC
+http://185.89.156.101:35112/bin.sh,url,malware_download,media,43,,,URLhaus,2026-10-07 04:55:36 UTC
+https://stellaspicy.org/2026scrill/client.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:53 UTC
+https://donutclients.st/Shulker_Box_Tooltip-26.2.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:31 UTC
+http://182.121.16.69:49873/Mozi.m,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:28 UTC
+https://donutclients.st/Mouse_Tweaks-26.2.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:13 UTC
+https://donutclients.st/appleskin-26.2.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:12 UTC
+https://donutclients.st/ZincAddons-26.2.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:11 UTC
+https://donutclients.st/Sodium-26.2.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:11 UTC
+https://donutdupe.com/DonutDupe-1.21.11.jar,url,malware_download,media,42,,,URLhaus,2026-10-07 04:41:10 UTC
+http://119.187.197.115:57303/i,url,malware_download,media,41,,,URLhaus,2026-10-07 05:02:35 UTC
+http://123.9.200.156:42154/i,url,malware_download,media,41,,,URLhaus,2026-10-07 05:02:35 UTC
+https://donutclients.st/TotemCounter-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:55:41 UTC
+http://115.62.186.251:52572/i,url,malware_download,media,41,,,URLhaus,2026-10-07 04:55:39 UTC
+http://154.242.13.34:43259/i,url,malware_download,media,41,,,URLhaus,2026-10-07 04:55:39 UTC
+http://115.55.229.99:46995/i,url,malware_download,media,41,,,URLhaus,2026-10-07 04:55:38 UTC
+https://xiazailianjie.com/WPS_Setup_X64.zip,url,malware_download,media,41,,,URLhaus,2026-10-07 04:49:18 UTC
+https://donutclients.st/alycone-client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:31 UTC
+https://donutclients.st/radium-client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:31 UTC
+https://donutclients.st/krypton-client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:31 UTC
+https://stellaspicy.org/2026scrill/RuneLite.exe,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:31 UTC
+http://23.254.195.48:8099/beacon_x,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:31 UTC
+https://donutclients.st/gamble-rig-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:30 UTC
+https://donutclients.st/Radon-Client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:22 UTC
+https://donutclients.st/glazed-client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:21 UTC
+https://donutclients.st/Nova-Client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:16 UTC
+https://donutclients.st/meteor-client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:16 UTC
+https://donutclients.st/donutExtras-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:13 UTC
+https://donutclients.st/freelook-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:13 UTC
+https://donutclients.st/Baritone-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:12 UTC
+https://donutclients.st/FerriteCore-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:12 UTC
+https://donutclients.st/Iris-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:12 UTC
+https://donutclients.st/bamboo-client-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:11 UTC
+https://donutclients.st/Litematica-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:11 UTC
+https://donutclients.st/NuclearAddons-26.2.jar,url,malware_download,media,41,,,URLhaus,2026-10-07 04:41:11 UTC
+https://www.dropbox.com/scl/fi/jnf0ecydm1z63frnge1mn/Docsend.exe?rlkey=01seodht5j6nnix645ejn3a5r&st=vcdaxsj2&dl=1,url,malware_download,media,40,,,URLhaus,2026-10-07 04:49:45 UTC
+https://www.dropbox.com/scl/fi/dcbo57pem0pjqzx65giot/MateFalls-Setup-1.0.0.exe?rlkey=yc7kc4vm6iy1urr0wh1xwta91&dl=1,url,malware_download,media,40,,,URLhaus,2026-10-07 04:49:44 UTC
+https://www.dropbox.com/scl/fi/jwhb6vojim0cfxrxip9fk/Docsend.exe?rlkey=zgpwwjbtsrnatafb9g24pjnxu&st=gwds3ryx&dl=1,url,malware_download,media,40,,,URLhaus,2026-10-07 04:49:14 UTC
+https://donutdupe.com/DonutDupe-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:31 UTC
+https://donutclients.st/Lithium-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:10 UTC
+https://donutclients.st/donut-duper-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:10 UTC
+https://ikovrsps.com/gamefiles/image.exe,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:08 UTC
+https://docs.cs-supplements.de/api/cm-token,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:08 UTC
+https://github.com/zav001/534rkyoj34oiy/releases/download/T/DonutClient-1.21.11.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:07 UTC
+https://donutclients.st/TierTagger-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:07 UTC
+https://donutclients.st/Xaeros_Minimap-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:07 UTC
+https://donutclients.st/Zoomify-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:07 UTC
+https://donutclients.st/ExploitPreventer-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:06 UTC
+https://ikovrsps.com/Mina.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:06 UTC
+https://donutclients.st/WorldEdit-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:06 UTC
+http://144.31.150.183/5r3fqt67ew531has4231.arm,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:06 UTC
+https://github.com/zav001/D3et2t23y3/releases/download/v1/GoobaaClient.1.21.11.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:06 UTC
+https://donutclients.st/bnana-client-26.2.jar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:41:06 UTC
+https://github.com/alex3430/pecky777/blob/main/peckycloner.py,url,malware_download,media,40,,,URLhaus,2026-10-07 04:40:55 UTC
+https://docsend.com/view/b757zwtqgif66uar,url,malware_download,media,40,,,URLhaus,2026-10-07 04:40:50 UTC
+https://github.com/alex3430/pecky777/peckycloner.py,url,malware_download,media,40,,,URLhaus,2026-10-07 04:40:33 UTC
+http://b.clu-e.eu/b2f628/cronb.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:40:29 UTC
+https://cdn.discordapp.com/attachments/1521843051192909974/1557082337735475301/bundle.zip?ex=6ac6816e&is=6ac52fee&hm=50797e9782aac04b40538d9ee9d26c6295597c9db1eb374572ffddf733d329bd&,url,malware_download,media,40,,,URLhaus,2026-10-07 04:39:41 UTC
+http://123.9.200.156:42154/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:32:56 UTC
+http://117.146.92.46:54853/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:32:51 UTC
+http://120.28.194.92:51526/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:32:50 UTC
+http://221.15.187.244:35517/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:32:49 UTC
+http://182.118.189.126:40792/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:17:40 UTC
+http://123.14.88.160:36914/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:17:38 UTC
+http://221.15.187.244:35517/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:17:38 UTC
+http://210.97.100.192:33082/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:17:38 UTC
+http://117.146.92.46:54853/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:03:33 UTC
+http://42.224.98.161:41233/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:03:33 UTC
+http://125.161.250.191:33986/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:02:32 UTC
+http://120.28.194.92:51526/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:02:31 UTC
+http://61.137.200.25:38220/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 04:02:31 UTC
+http://60.18.37.74:39377/i,url,malware_download,media,40,,,URLhaus,2026-10-07 04:02:31 UTC
+http://60.18.37.74:39377/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 03:47:32 UTC
+http://120.28.192.219:39732/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:47:32 UTC
+http://42.239.238.224:40215/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 03:47:32 UTC
+http://27.44.145.183:32947/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:32:40 UTC
+http://175.173.2.43:32996/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:32:33 UTC
+http://222.141.105.180:56903/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 03:32:30 UTC
+http://222.127.71.33:40089/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 03:32:30 UTC
+http://194.26.220.214:34097/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:26:27 UTC
+http://60.23.238.68:48081/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:17:33 UTC
+http://105.224.12.172:32809/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:17:29 UTC
+http://42.227.46.64:39218/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:17:29 UTC
+http://27.210.7.195:44939/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 03:17:28 UTC
+http://39.77.172.19:45028/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:09:27 UTC
+http://123.11.98.224:37931/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 03:02:29 UTC
+http://42.238.246.42:35356/i,url,malware_download,media,40,,,URLhaus,2026-10-07 03:02:28 UTC
+http://176.213.86.238:31654/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:56:33 UTC
+http://60.23.235.155:58165/i,url,malware_download,media,40,,,URLhaus,2026-10-07 02:55:32 UTC
+http://123.130.203.216:45701/i,url,malware_download,media,40,,,URLhaus,2026-10-07 02:47:33 UTC
+http://117.253.155.54:60752/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:47:32 UTC
+http://60.23.239.66:35293/i,url,malware_download,media,40,,,URLhaus,2026-10-07 02:47:32 UTC
+http://60.23.238.68:48081/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:47:31 UTC
+http://91.190.84.93:58846/i,url,malware_download,media,40,,,URLhaus,2026-10-07 02:47:31 UTC
+http://103.68.95.197:55385/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:40:31 UTC
+http://42.234.233.75:40282/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:33:29 UTC
+http://27.44.145.183:32947/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:32:37 UTC
+http://39.79.138.192:39415/i,url,malware_download,media,40,,,URLhaus,2026-10-07 02:17:45 UTC
+http://115.55.223.110:54371/bin.sh,url,malware_download,media,40,,,URLhaus,2026-10-07 02:17:45 UTC

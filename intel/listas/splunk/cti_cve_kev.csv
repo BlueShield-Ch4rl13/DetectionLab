@@ -12,7 +12,3 @@ CVE-2026-65660,Microsoft,SharePoint,Microsoft SharePoint Code Injection Vulnerab
 CVE-2026-87902,WordPress,Core,WordPress Core Remote File Inclusion Vulnerability,2026-09-25,Unknown
 CVE-2026-5430,WSO2,Multiple Products,WSO2 Multiple Products Path Traversal Vulnerability ,2026-09-24,Unknown
 CVE-2026-71362,Adobe,Commerce and Magento ,Adobe Commerce and Magento Incorrect Authorization Vulnerability ,2026-09-24,Unknown
-CVE-2026-93952,Arista,VeloCloud Orchestrator,Arista VeloCloud Orchestrator Improper Input Validation Vulnerability,2026-09-22,Unknown
-CVE-2026-94127,F5,BIG-IP APM,F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability,2026-09-22,Unknown
-CVE-2026-93616,Check Point,Multiple Products,Check Point Multiple Products Path Traversal Vulnerability,2026-09-22,Unknown
-CVE-2026-85102,Check Point,Multiple Products,Check Point Multiple Products Improper Certificate Validation Vulnerability,2026-09-22,Unknown
