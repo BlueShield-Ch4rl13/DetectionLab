@@ -5,7 +5,7 @@
 # fuera de pyyaml.
 
 sigma-cli==3.1.0                     # CLI de conversion Sigma
-pysigma==1.5.1                       # motor de validacion Sigma
+pysigma==2.0.0                       # motor de validacion Sigma
 
 pysigma-backend-splunk==2.1.0        # backend Splunk (SPL)
 pysigma-backend-kusto==1.0.1         # backend Kusto: Microsoft Sentinel y Defender XDR
