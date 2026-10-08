@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-07 05:32 UTC  
-**Listas generadas:** 2026-10-07T12:24:49Z  
+**Feed generado:** 2026-10-08 05:41 UTC  
+**Listas generadas:** 2026-10-08T12:34:17Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 0 | Caza programada, no alerta directa |
-| Dominio | 0 | Caza programada, no alerta directa |
-| URL | 100 | Caza programada, no alerta directa |
-| Hash | 100 | **Alerta directa**: un hash coincide o no |
+| IP | 139 | Caza programada, no alerta directa |
+| Dominio | 354 | Caza programada, no alerta directa |
+| URL | 227 | Caza programada, no alerta directa |
+| Hash | 39 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 13 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,46 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (92 de 292)
+## Que se descarto del feed (376 de 1156)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 62 |
-| nivel bajo | 30 |
+| tipo no usado | 216 |
+| nivel bajo | 160 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
+| Unknown Stealer | 158 |
 | malware_download | 100 |
-| ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure | 49 |
-| Anatomy of BraZetsu: How Cybercriminals Supply the Underground Ecosystem | 32 |
-| Lunex Uses BYOVD to Disable Security Monitoring and Deploy Persistent Stealer | 9 |
-| A STUNning Disguise: Cling Malware Masquerades as Google | 6 |
-| StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack | 4 |
+| ClearFake | 75 |
+| IClickFix | 55 |
+| ContagiousDrop | 35 |
+| Vidar | 29 |
+| Unknown Loader | 29 |
+| php.shin_webshell | 24 |
+| Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure | 24 |
+| PureRAT | 22 |
+| Unknown malware | 21 |
+| Remus | 17 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 0 |
-| `wazuh/cti_dominio` | 0 |
-| `wazuh/cti_url` | 100 |
-| `wazuh/cti_hash` | 100 |
+| `wazuh/cti_ip` | 139 |
+| `wazuh/cti_dominio` | 354 |
+| `wazuh/cti_url` | 227 |
+| `wazuh/cti_hash` | 39 |
 | `wazuh/cti_cve_kev` | 13 |
-| `splunk/cti_ip.csv` | 0 |
-| `splunk/cti_dominio.csv` | 0 |
-| `splunk/cti_url.csv` | 100 |
-| `splunk/cti_hash.csv` | 100 |
+| `splunk/cti_ip.csv` | 139 |
+| `splunk/cti_dominio.csv` | 354 |
+| `splunk/cti_url.csv` | 227 |
+| `splunk/cti_hash.csv` | 39 |
 | `splunk/cti_cve_kev.csv` | 13 |
-| `sentinel/CTI_Ip.csv` | 0 |
-| `sentinel/CTI_Dominio.csv` | 0 |
-| `sentinel/CTI_Url.csv` | 100 |
-| `sentinel/CTI_Hash.csv` | 100 |
-| `elastic/cti_ip.ndjson` | 0 |
-| `elastic/cti_dominio.ndjson` | 0 |
-| `elastic/cti_url.ndjson` | 100 |
-| `elastic/cti_hash.ndjson` | 100 |
+| `sentinel/CTI_Ip.csv` | 139 |
+| `sentinel/CTI_Dominio.csv` | 354 |
+| `sentinel/CTI_Url.csv` | 227 |
+| `sentinel/CTI_Hash.csv` | 39 |
+| `elastic/cti_ip.ndjson` | 139 |
+| `elastic/cti_dominio.ndjson` | 354 |
+| `elastic/cti_url.ndjson` | 227 |
+| `elastic/cti_hash.ndjson` | 39 |
 
 ## Como se instala cada una
 
