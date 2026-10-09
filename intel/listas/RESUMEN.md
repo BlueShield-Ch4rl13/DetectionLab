@@ -3,19 +3,19 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-08 05:41 UTC  
-**Listas generadas:** 2026-10-08T12:34:17Z  
+**Feed generado:** 2026-10-09 05:44 UTC  
+**Listas generadas:** 2026-10-09T12:22:07Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 139 | Caza programada, no alerta directa |
-| Dominio | 354 | Caza programada, no alerta directa |
-| URL | 227 | Caza programada, no alerta directa |
-| Hash | 39 | **Alerta directa**: un hash coincide o no |
-| CVE en KEV | 13 | Priorizacion de parcheo y caza de explotacion |
+| IP | 127 | Caza programada, no alerta directa |
+| Dominio | 533 | Caza programada, no alerta directa |
+| URL | 258 | Caza programada, no alerta directa |
+| Hash | 90 | **Alerta directa**: un hash coincide o no |
+| CVE en KEV | 16 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
 
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (376 de 1156)
+## Que se descarto del feed (457 de 1494)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 216 |
-| nivel bajo | 160 |
+| tipo no usado | 353 |
+| nivel bajo | 104 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Unknown Stealer | 158 |
+| Unknown Loader | 319 |
 | malware_download | 100 |
-| ClearFake | 75 |
-| IClickFix | 55 |
-| ContagiousDrop | 35 |
+| ClearFake | 89 |
+| Unknown Stealer | 81 |
+| php.shin_webshell | 80 |
+| Unknown malware | 38 |
+| IClickFix | 31 |
+| ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager | 30 |
 | Vidar | 29 |
-| Unknown Loader | 29 |
-| php.shin_webshell | 24 |
-| Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure | 24 |
-| PureRAT | 22 |
-| Unknown malware | 21 |
-| Remus | 17 |
+| 16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials | 21 |
+| Inside a Packed Android RAT Loader | 20 |
+| Remcos | 13 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 139 |
-| `wazuh/cti_dominio` | 354 |
-| `wazuh/cti_url` | 227 |
-| `wazuh/cti_hash` | 39 |
-| `wazuh/cti_cve_kev` | 13 |
-| `splunk/cti_ip.csv` | 139 |
-| `splunk/cti_dominio.csv` | 354 |
-| `splunk/cti_url.csv` | 227 |
-| `splunk/cti_hash.csv` | 39 |
-| `splunk/cti_cve_kev.csv` | 13 |
-| `sentinel/CTI_Ip.csv` | 139 |
-| `sentinel/CTI_Dominio.csv` | 354 |
-| `sentinel/CTI_Url.csv` | 227 |
-| `sentinel/CTI_Hash.csv` | 39 |
-| `elastic/cti_ip.ndjson` | 139 |
-| `elastic/cti_dominio.ndjson` | 354 |
-| `elastic/cti_url.ndjson` | 227 |
-| `elastic/cti_hash.ndjson` | 39 |
+| `wazuh/cti_ip` | 127 |
+| `wazuh/cti_dominio` | 533 |
+| `wazuh/cti_url` | 258 |
+| `wazuh/cti_hash` | 90 |
+| `wazuh/cti_cve_kev` | 16 |
+| `splunk/cti_ip.csv` | 127 |
+| `splunk/cti_dominio.csv` | 533 |
+| `splunk/cti_url.csv` | 258 |
+| `splunk/cti_hash.csv` | 90 |
+| `splunk/cti_cve_kev.csv` | 16 |
+| `sentinel/CTI_Ip.csv` | 127 |
+| `sentinel/CTI_Dominio.csv` | 533 |
+| `sentinel/CTI_Url.csv` | 258 |
+| `sentinel/CTI_Hash.csv` | 90 |
+| `elastic/cti_ip.ndjson` | 127 |
+| `elastic/cti_dominio.ndjson` | 533 |
+| `elastic/cti_url.ndjson` | 258 |
+| `elastic/cti_hash.ndjson` | 90 |
 
 ## Como se instala cada una
 

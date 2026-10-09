@@ -1,3 +1,8 @@
+CVE-2015-5477:ISC BIND
+CVE-2016-3081:Apache Struts
+CVE-2023-22894:Strapi Strapi
+CVE-2021-3199:ONLYOFFICE Docs
+CVE-2015-3306:ProFTPD ProFTPD
 CVE-2026-88779:Citrix NetScaler
 CVE-2026-102490:Zammad GmbH Zammad
 CVE-2026-102489:Zammad GmbH Zammad
@@ -9,5 +14,3 @@ CVE-2026-88771:Citrix NetScaler
 CVE-2026-67279:MikroTik RouterOS
 CVE-2026-65660:Microsoft SharePoint
 CVE-2026-87902:WordPress Core
-CVE-2026-5430:WSO2 Multiple Products
-CVE-2026-71362:Adobe Commerce and Magento
