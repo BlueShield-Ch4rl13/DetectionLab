@@ -1,91 +1,79 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-6fab94577364beec314afae3b082dd680933f08a8349b9f35b92667e8231b501,filehash-sha256,Canto incognito: tracking the PoeLLM malware,baja,25,,,OTX,2026-10-08T11:06:51,0
-acaf0ec9d31646c2fb59f84f35e6a174,filehash-md5,Canto incognito: tracking the PoeLLM malware,baja,25,,,OTX,2026-10-08T11:06:51,0
-be2ffcc4591e527c48d98a53b66521b93671975e,filehash-sha1,Canto incognito: tracking the PoeLLM malware,baja,25,,,OTX,2026-10-08T11:06:51,0
-350a99830b80b5600d3a2757fa996155579ef9d0c53de95f0299f64d280b9bb1,filehash-sha256,Canto incognito: tracking the PoeLLM malware,baja,25,,,OTX,2026-10-08T11:06:51,0
-f706aba0d150db2d8f385cbbbb6a6d4fe590a5d184f29e5b1b05fcc4c2cd0932,filehash-sha256,Canto incognito: tracking the PoeLLM malware,baja,25,,,OTX,2026-10-08T11:06:51,0
-f8f5e0440c57c7deffd75ca33e2511867039796aa803e7ef847396a379188a7d,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-34098fe0bc4c69c4c4eb3f74688fb375326804536d25e5574e8c4c28c113b5c3,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-389066bd5543aeea363d23a4dce7f7a21c7f2c73c61f506a93a69f594cf48ecf,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-5f60d16fa67ff8ef07817c33b7e6b7fa91c6c21060020df46b1f5c56e076e259,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-a0294f7152f9c4c908e9def58279e9fa29952715947c950c8489949f26a15cc8,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-c17bf76d02163863c251c3bb3a12725eeb525fab5522521923925e0469ca269f,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-2aa7f13bf474e2ce5049fd4db2bf4da04b4ce51ac0d36dceb24865255241c937,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-bacb5794a300f7a88c7f6d458382eb11d2f39c0f496b509ca512afe8588fc33f,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-2e3e1bcd44cc3cbec4f5ca9991d14a326d3cc6bf76fe6e0d434c9b5f7e1ae6ab,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-a42632c68d2dcea06300e790c9440fe0943ce0dee2075f29170fd2774eacf433,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-7dd3747d777f9576a11004532b463351e7718b6af193d8ee7221ac41479d199a,filehash-sha256,The state of AI-analysis evasion in malware,baja,25,,,OTX,2026-10-08T11:02:28,0
-7d9d7e80ed52350616be0215a7ded10aaeb9aaa64e34ff8af7f9177c8c855799,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-da447fe02e4577da97144a4d92b395078954fde1ff196746413837e1e4a20bcd,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-be246ca5cb1372394e0443df45454f88ca39eb4a8dcfc4a99cb8865100fb4897,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-c550f0860012e0dfab14ed65a9425961e22025e0ab23fd9d69d294a8aa34db2f,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-eb134bbf73046800c8177383754cf754b8776ec30cf5cc8a13655d259e49a4bf,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-2f9270269e631bc4fd634d741afcfc3df8f54e43e40b16f38660fe8ce6c26f51,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-225f5d6c5d70a7e7f3abf62ea0dda1cf8bf8e70565f7db748b0d8fa602da939b,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-6b53369fb868efb92b60af40fbd5906fa3d3d8785a7878b4af6e4efd333a4de8,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-8906dd85b0991fac14e5973b3f3f61d93ef1101504cb5867a004c762ee184ef7,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-9fea0ee3c81047f5e50eeb3a2ab2a7cd70357f3e49944b7079ab3e90c9ea0e8b,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-0aed5f24ce625ee6b9422083302766f74b0b9a57e1b18213328b950cc7057e35,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-635b31b4a19b5673fcbe0fedeb3f7ed2c27fddb739685f19ca5f3d1f1d7f0083,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-d9432e41e0401715bce4ce11f4a7104d94fab1ec89be553ba57a2097e418c1a1,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-458e7255438f15aaede02fd7f8fcfdf762aa6e08608b9546fe8aa8aa399c76b7,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-bb8f60b3f77d96adc93bf0515b34df7c5f1f560a9f6d0c353b7d849609e3557d,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-71ec70479ab78efb1e1f9507f8ff7348d5711c837cc50a0120f3a188c340f3f4,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-e96c75cd0c9b35000b4a3ec12d5dd23ca157e94aee7271a0fe8d8d7c9f2e9096,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-faf174414ddc7099360c4ae4d16497b9846cfae71ffad5bbab820bba657f94d3,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-b02ae1d5a0d2a5b28f8baa2afcdc7d7090fab051536303cba3ba1f17860da980,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-4512389444a767f12211beeb5f2ad165aca4a558e88e8f111affb30b77ed6a5a,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-e5c9a29d5ba0f53a49d8b333bfab17bf9878f94e8c3f325f5afacad44bb26fb5,filehash-sha256,16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials,baja,25,,,OTX,2026-10-08T07:29:45,0
-f048400c23add8c75abe189393d33c873c02c74eeaf43d47b950c8d643763b35,filehash-sha256,Phishing Campaign Abuses Microsoft Power BI to Deploy Rogue RMMs,baja,25,,,OTX,2026-10-07T16:55:08,0
-f90c8b1dcd374d4f552744ee1765583d,filehash-md5,Redis Cryptomining Botnet Compromised 3 562 Servers  Exposed by the Operator's Own Files,baja,25,,,OTX,2026-09-08T16:59:10,0
-420c7850e09b7c2b9e39e2a93e204e3c56bcf08a685ff1daa986e3c348da5d2a,filehash-sha256,Redis Cryptomining Botnet Compromised 3 562 Servers  Exposed by the Operator's Own Files,baja,25,,,OTX,2026-09-08T16:59:10,0
-bdca0eb738faaccb5b992d0f393b9d9f,filehash-md5,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-c6ee3d72053772bdce063c5b98afe32e739e918e,filehash-sha1,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-54d4ee85175a249dcb576716edf491d09fa05dfdfc492ff710a0cb711f9a35ab,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-24f344e174546e780332d573d5a27c43,filehash-md5,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-dfd9c7dee4f4a16d636917de35a510b7,filehash-md5,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-03fc9c35d6453ccf7dd5d16ea2d6d272da1e1cae,filehash-sha1,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-3a8138debf528361bf7093e3aa85a5f84105ebf6,filehash-sha1,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-05e26b639f55e53f73c2fd2980c519db347086951d832d58a94a26990d81befe,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-12fb8fe6cd895044e38217dd5945b0ec810f667660fd87dbb21687ea42084589,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-16c3ee7276d52c11d3cc6270af883abe5d7015ea4f8f66fb3b6493144a863377,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-1e6ff4a1dba4d6e4c29f4f7bc06b774104a38c181a05ebed127bb7b914128a21,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-30f4e1bc0cd96d4210765b18533eb0c5343f155a36b1a567132538242487d09c,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-45f71eb7ee96f80a1e865b2249452b603b729f4fc4c6f02ed00cadcdacf8f384,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-5652e2256df133a429f329ba60fe78c67ce63e089a5a3d58e4ff3d058ef7a708,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-7ec965cd61ad4de270b45e7719fdd72b3a37b27c0ba5764a73ec2c1cfc966559,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-9cd3a954e807a3d596401b43e8820ca6ee76119d4dfc60afe0eaaf054e2c2ab5,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-b32bfa02834d43f04b78854e6cc417da2d45a2ca6d2908f33c06dc97c7cc0389,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-dfd708b9debd3c32897b96726a5a9437bcb36f1ad59639f1214a969f8f09e237,filehash-sha256,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-8e2a4186103443e05f57d6607969ebba953a16f4,filehash-sha1,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-962add498857e2497bb9b720528cc6a687a5db07,filehash-sha1,Inside a Packed Android RAT Loader,baja,25,,,OTX,2026-09-08T16:59:10,0
-abd28aecb2d57660bcd9455333b84d289aa883eaf5cf15def1bf0feb35833aa2,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-93830d73ddf9665ae4d5665f1cebabd093646ed54356662e1b2a925bc2df681b,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-7504898b17a9ce05eb9209128bcd0fb67d675a70c8c64f6f624d08b47b2fe3af,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-87e8d39db624f37d3e77aedf487a2dfd197f71a4730ea74f4e7a4341deaec2ff,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-567c158ee0858f8e941d4ab7a6c18dbc,filehash-md5,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-47d922b0fd5d704025d14ef98ded46e74830a423,filehash-sha1,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-bd36f4c15fe0acb6748da5ed12e45dcc37d412385812c078d1e4f04730e9f69b,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-56241fae7b30fae69410925b91107df5,filehash-md5,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-a42531b020a3f5f1adac3a962e9e92b0,filehash-md5,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-dc5859aa3e12e2bd3e04f1b9d4142abb,filehash-md5,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-95e291766bde87901fe6e253f71c84bd9c8af4a8,filehash-sha1,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-a8018c33a9c7cc594f6fa44c33ee83df804e6b6d,filehash-sha1,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-d451fd0b6b9cdf481a5867ddcfcccfbe8a0739a8,filehash-sha1,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-0c9bb4ced6c55776b0b2b903b4f65f2653d5868214601a4dcceea27789701dd5,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-0d660045808528c0525313b148f649eb77a341a2a2f8c5641721551362aa73d0,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-10f411e530c7bd86583ce80977d795837d85bab6b3ecb01fe3f3d069cdaeca8e,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-15fea063a3ceba5e929536357d1e9e1b9f0326fcbec50d570c4583712b109d6f,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-1819827e17f31e72d456158b6b9c90af25a65945f6f05d04a060da9f24179b25,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-20040a8d6389a1a638c39b5457f235b2c23efa8bbd9f98204db831d5e3dc9b66,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-264c87880f7afaeb02e0fa522db52294d5a4198ae97fcf67d9aace3474c1b62f,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-279d04c0cfd700c8bcb9acbed528131d3ffef8e25d12713e8649772739aecb92,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-38e74ff8d5f02617ff8858d9094b455d4e999223c7f78726584690e7201d94b7,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-643ef35536ff9273fb84b8504467b1a5645cd3ffd5476d64b99244b02131b205,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-86fbce191248bcc124b1259a178d84216d713f4acd516f578c5f3fdccb01fa4a,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-88735b838a83428193d1909424d082339cc1a993a4f91a9df09f51c81c69f70a,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-91c4e9537558ef4481e5ea29c785fd1bc3f162bb60e2fa313239957e4381cacf,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-9aa88b8e5b298e78ebd55ad53d322efe4b26e6cb1fadf6e94ae258d62a3362e4,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-9f7b6aa8bd4c726a9a8d4c2788814db417a21cf4a7f9de3e1fc2bca6203a4e14,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-be028ac6299ce6c2870941c700fa1fb2581bfd4ee6c0c75e89c5da9cea73fe97,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
-c2256961d9b7704e2bb85ae9512b4c1ee75fea95532434230c93cd5e38ef8aa7,filehash-sha256,ClearFake WebDAV infection chain delivers Amatera stealer  ZigCryptoStealer  and NetSupport Manager,baja,25,,,OTX,2026-09-08T12:22:29,0
+5222dd57b8859e791a16abcf7f616bbc59f8cf248798c7c8c2ba800f0b52cd8c,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
+8bc90df9b387849338d9c61a8d379cfbb0d70ea576c0e37e1fb07ba164921807,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
+e99bab7b8bbbde7c821dae4ccfedfd1e608d65c466de9b08037c5ce5f56af3b1,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
+f0d36ac2d75c81a4c3cbdbf2f717db858f2876e6a1cc74f2d36b729a1dd51a5e,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
+1505f845a1df0f66d6f88b0e0f7b047e,filehash-md5,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+6e680b577d06fcb52c648cc57ccb13de,filehash-md5,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+a24a5f48af15950ef7258f5e68b0fadb,filehash-md5,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+419df85c51903af1a3baebdd6b4a4a9484ea844c,filehash-sha1,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+420a727053c8bc4ba2372469e43f5137ee4a8591,filehash-sha1,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+8e1bef07919f09f11525d5424582c7f2a16dd4f8,filehash-sha1,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+04beeb716a79661ea770138558dbdebccb493bf6b4b1ec37f19b9c028dea98d5,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+0d727a4ef1178e767afdd0080ba1ebda0f24ac52b639f0501021affd8f88d26a,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+159b472e0e0bdc05933da64032761cbd042b6cc5dc4e1cd11d5ef7af5180b972,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+241df5a4ee38658329025152807fcd69b7e40361428000bb56d14cadeb48b437,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+3d0794fca8ae2ca80eee463b11557d696c48c8ddf17f5e2917cc33fbf0596842,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+51bc797e783b6a765e174736ff12a711a243099f4e19739388e5bce1548a448d,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+5b6ec081f385d91273a79c6645cd0f932539dc267863e5d243657a8ccb5ca351,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+63959ef6309cd01b5d3c7262a3a41394dca2db2dc74bd030a517b7e23a2c3fef,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+6e47d6da0e2ab2226ee033e75c7b9b41e4e908d6f71b47d0ce7477a492fb418e,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+77c8266935bc040c992ab70abd402bd203b9c12e7548c80b84fd21308c250f0e,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+77cc246272f2af21b64bbc6c6173d57affee97eb0ccf747d89492d06d4c52865,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+a396ccfb5547f04cef4be18ed076bb2c62c571268306d201b6177188f05723f1,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+abcc49cd8a9b08a18ad9e516ec13350e01a05f04f1c5e025080e1c0e3b4bec36,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+b855f6883391e25f1a91692bef76771065b4b0436a014de5b25aa9d0de6238e4,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+cc1f2ae885d317e6c520ea6d219370630c1c7a8fe600b89d0d78fdee28174ff4,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+dd1c3b2bfe32b41902ffe875e568f52f44f0900209b9cb447c9ae4444a5dce4e,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+e62b24142e7244573cf37cef55b175fbba6a43ac4592d30f8b061dda8866c9b3,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+ea9debbe4b3d11bf6c986af63a94e13ceb2a1cbc167a642697fcabc9e8a50439,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+fea9538084b70e9681fd8104b9319792c4d8c2701ae145ec31dc26e7526f2ae0,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+ff85bb43e546fac541443006878828c47958c1d55dfa32c529651bfcc12832f1,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
+4d0c11446fb8544b2336e4fc37cf232f,filehash-md5,Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer,baja,25,,,OTX,2026-10-09T01:57:43,0
+6cbdf36c511d664d5b0e119a23c2437d377d11a6,filehash-sha1,Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer,baja,25,,,OTX,2026-10-09T01:57:43,0
+05f69ae6b2b89c1c4dcf836bff032232f11bf0109f2b498e2345045d06139034,filehash-sha256,Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer,baja,25,,,OTX,2026-10-09T01:57:43,0
+050926727cdd74f0b3a8a098e60b76d10fb06b14,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+1e2c4aac30edff86cd9a30bd08b199bcd3d0ccce,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+c85d28f7d272ce2bbbfb9dae71d21bf25b8d00fc,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+f886b615cb9e23ead2718ff2a61155acfb04ce9e,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+0f44f21b4175d8e7a5945bc0c6fda97d,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+da8b86308e499493552f22bf2ea30d83,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+fbecac8e1ab9587babcc5ed60aaa3340,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+ffdc196b20426799f1f4665e4147ab4a,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+02aab65e4916d5dfab0fd1dd4ea6f6e7e3e8afdbbb48940e4de3fda98b4a9d8d,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+458a1927d2c36a9cc8990ffc34a7969d0165d364f30204645d5c522d65fc1d88,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+642cabb0e96000baa28a8268816f2b06d8a917169b975a35f286783664b19121,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+a8e7df2077236a9544e52e881755cd8424fe6a400209ea89de9141d3405aa1be,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
+188bd4fc222c9615540884920caf37ea88bcbea7488e1fb98709e357dd096666,filehash-sha256,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+451b586ec9d3c997b319986a1177829653e8ae641c953c05ede6a38616f2da97,filehash-sha256,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+9d78ece09457907b730d139e4e0c64dd,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+8473f85bda00dfa3ecd2385dd38f69600d1d64a6,filehash-sha1,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+116f7189ed7b41f1b339a749d56e63be,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+2621753691be9521288664bb551dfba6,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+2b81aceab0142472d94eb42e500b27b1,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+34a52e6a4d803e94fe497bab682abfd3,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+3826dc7a9ba8bd5b1c143560c1530d89,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+4b8509cde757b5428e5f99c8dffe73ca,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+58fa0d651898446d5f5d2ed8a27a3330,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+73adaea97f003735335505858c1c6def,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+9d88b4494c7bc27b10358b68a899ad54,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+ad0b1b6d2c8b9d09d6473a4a299470ab,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+be60c52ca8a01fef7dc15c2f0ebb77d8,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+d81081691c3631f3adc1a6db0ee22ab19682ef30,filehash-sha1,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
+6f98add5d1a7729192b6ad8491d85c505c64836f7881742d6b93bd8e3d2fe461,filehash-sha256,Active exploitation of Cisco Secure Firewall Management Center vulnerabilities,baja,25,,,OTX,2026-09-09T20:31:36,0
+b037f45e02a289325a1a5eb0d4db6a9fce9954fd0fdfd07162cb4eb2acbef77d,filehash-sha256,Active exploitation of Cisco Secure Firewall Management Center vulnerabilities,baja,25,,,OTX,2026-09-09T20:31:36,0
+db491181ece3f319de6567ab6f6daa90c6879911cd890155e6b7d8cc7a1a8c8e,filehash-sha256,Active exploitation of Cisco Secure Firewall Management Center vulnerabilities,baja,25,,,OTX,2026-09-09T20:31:36,0
+c3f7109963b9599eb93fd9a97a4ffa38e672642b35b33608d69e6bbf9f19da4e,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+14779d0d7ad6be3d7bf9ed78e4ab6016f22dfa7bc8b5d9c43b56011f7fe2ea19,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+528cd4e69ecfa5191adbcf6ef28667bf,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+974decb9ff4c8f9ccb0937c96d513347,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+a6437ac3d6798090a218520985d36a3f,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+ce870a91e8d27e8f663f0687abc60b04,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+fc92dfafa7aa741c5f2b9cbcf75d1d19,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+159989f088c3d4bc54e1acb93b12924a14db8c0b,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+4e24bfae6ea02175d367e8ba3fbbc38990e95bc0,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+577fa0267c491d8aa4531e91b0ba402db24932f4,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+77e981d0b1b81151a6a7d0966aca1b4a1d0f3022,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+6dca0ea8a52a323b2ae173ef75d7ebb1cc6f909c855e76676a6478b9e40fb861,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+c852d56ef0db5f91ee7a5f206b12c3b48dbcca6a5b85baeb0276b9816143489b,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
