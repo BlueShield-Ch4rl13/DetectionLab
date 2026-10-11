@@ -1,79 +1,179 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-5222dd57b8859e791a16abcf7f616bbc59f8cf248798c7c8c2ba800f0b52cd8c,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
-8bc90df9b387849338d9c61a8d379cfbb0d70ea576c0e37e1fb07ba164921807,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
-e99bab7b8bbbde7c821dae4ccfedfd1e608d65c466de9b08037c5ce5f56af3b1,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
-f0d36ac2d75c81a4c3cbdbf2f717db858f2876e6a1cc74f2d36b729a1dd51a5e,filehash-sha256,NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL,baja,25,,,OTX,2026-10-09T08:22:59,0
-1505f845a1df0f66d6f88b0e0f7b047e,filehash-md5,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-6e680b577d06fcb52c648cc57ccb13de,filehash-md5,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-a24a5f48af15950ef7258f5e68b0fadb,filehash-md5,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-419df85c51903af1a3baebdd6b4a4a9484ea844c,filehash-sha1,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-420a727053c8bc4ba2372469e43f5137ee4a8591,filehash-sha1,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-8e1bef07919f09f11525d5424582c7f2a16dd4f8,filehash-sha1,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-006510ce1da2b7410376f0788c19e55616eb4bcc30072d25b7d0871dc32aa11c,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-04beeb716a79661ea770138558dbdebccb493bf6b4b1ec37f19b9c028dea98d5,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-0d727a4ef1178e767afdd0080ba1ebda0f24ac52b639f0501021affd8f88d26a,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-159b472e0e0bdc05933da64032761cbd042b6cc5dc4e1cd11d5ef7af5180b972,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-241df5a4ee38658329025152807fcd69b7e40361428000bb56d14cadeb48b437,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-3d0794fca8ae2ca80eee463b11557d696c48c8ddf17f5e2917cc33fbf0596842,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-51bc797e783b6a765e174736ff12a711a243099f4e19739388e5bce1548a448d,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-5b6ec081f385d91273a79c6645cd0f932539dc267863e5d243657a8ccb5ca351,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-63959ef6309cd01b5d3c7262a3a41394dca2db2dc74bd030a517b7e23a2c3fef,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-6e47d6da0e2ab2226ee033e75c7b9b41e4e908d6f71b47d0ce7477a492fb418e,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-77c8266935bc040c992ab70abd402bd203b9c12e7548c80b84fd21308c250f0e,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-77cc246272f2af21b64bbc6c6173d57affee97eb0ccf747d89492d06d4c52865,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-a396ccfb5547f04cef4be18ed076bb2c62c571268306d201b6177188f05723f1,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-abcc49cd8a9b08a18ad9e516ec13350e01a05f04f1c5e025080e1c0e3b4bec36,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-b855f6883391e25f1a91692bef76771065b4b0436a014de5b25aa9d0de6238e4,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-cc1f2ae885d317e6c520ea6d219370630c1c7a8fe600b89d0d78fdee28174ff4,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-dd1c3b2bfe32b41902ffe875e568f52f44f0900209b9cb447c9ae4444a5dce4e,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-e62b24142e7244573cf37cef55b175fbba6a43ac4592d30f8b061dda8866c9b3,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-ea9debbe4b3d11bf6c986af63a94e13ceb2a1cbc167a642697fcabc9e8a50439,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-fea9538084b70e9681fd8104b9319792c4d8c2701ae145ec31dc26e7526f2ae0,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-ff85bb43e546fac541443006878828c47958c1d55dfa32c529651bfcc12832f1,filehash-sha256,Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data,baja,25,,,OTX,2026-10-09T07:40:31,0
-4d0c11446fb8544b2336e4fc37cf232f,filehash-md5,Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer,baja,25,,,OTX,2026-10-09T01:57:43,0
-6cbdf36c511d664d5b0e119a23c2437d377d11a6,filehash-sha1,Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer,baja,25,,,OTX,2026-10-09T01:57:43,0
-05f69ae6b2b89c1c4dcf836bff032232f11bf0109f2b498e2345045d06139034,filehash-sha256,Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer,baja,25,,,OTX,2026-10-09T01:57:43,0
-050926727cdd74f0b3a8a098e60b76d10fb06b14,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-1e2c4aac30edff86cd9a30bd08b199bcd3d0ccce,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-c85d28f7d272ce2bbbfb9dae71d21bf25b8d00fc,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-f886b615cb9e23ead2718ff2a61155acfb04ce9e,filehash-sha1,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-0f44f21b4175d8e7a5945bc0c6fda97d,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-da8b86308e499493552f22bf2ea30d83,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-fbecac8e1ab9587babcc5ed60aaa3340,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-ffdc196b20426799f1f4665e4147ab4a,filehash-md5,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-02aab65e4916d5dfab0fd1dd4ea6f6e7e3e8afdbbb48940e4de3fda98b4a9d8d,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-458a1927d2c36a9cc8990ffc34a7969d0165d364f30204645d5c522d65fc1d88,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-642cabb0e96000baa28a8268816f2b06d8a917169b975a35f286783664b19121,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-a8e7df2077236a9544e52e881755cd8424fe6a400209ea89de9141d3405aa1be,filehash-sha256,MATCHBOIL: New tricks  same old evil intentions,baja,25,,,OTX,2026-10-09T01:57:43,0
-188bd4fc222c9615540884920caf37ea88bcbea7488e1fb98709e357dd096666,filehash-sha256,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-451b586ec9d3c997b319986a1177829653e8ae641c953c05ede6a38616f2da97,filehash-sha256,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-9d78ece09457907b730d139e4e0c64dd,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-8473f85bda00dfa3ecd2385dd38f69600d1d64a6,filehash-sha1,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-116f7189ed7b41f1b339a749d56e63be,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-2621753691be9521288664bb551dfba6,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-2b81aceab0142472d94eb42e500b27b1,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-34a52e6a4d803e94fe497bab682abfd3,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-3826dc7a9ba8bd5b1c143560c1530d89,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-4b8509cde757b5428e5f99c8dffe73ca,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-58fa0d651898446d5f5d2ed8a27a3330,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-73adaea97f003735335505858c1c6def,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-9d88b4494c7bc27b10358b68a899ad54,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-ad0b1b6d2c8b9d09d6473a4a299470ab,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-be60c52ca8a01fef7dc15c2f0ebb77d8,filehash-md5,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-d81081691c3631f3adc1a6db0ee22ab19682ef30,filehash-sha1,Suspected TraderTraitor Group Uses Trojanized Terraform Provider to Deliver Cross-Platform Malware,baja,25,,,OTX,2026-10-08T20:12:53,0
-6f98add5d1a7729192b6ad8491d85c505c64836f7881742d6b93bd8e3d2fe461,filehash-sha256,Active exploitation of Cisco Secure Firewall Management Center vulnerabilities,baja,25,,,OTX,2026-09-09T20:31:36,0
-b037f45e02a289325a1a5eb0d4db6a9fce9954fd0fdfd07162cb4eb2acbef77d,filehash-sha256,Active exploitation of Cisco Secure Firewall Management Center vulnerabilities,baja,25,,,OTX,2026-09-09T20:31:36,0
-db491181ece3f319de6567ab6f6daa90c6879911cd890155e6b7d8cc7a1a8c8e,filehash-sha256,Active exploitation of Cisco Secure Firewall Management Center vulnerabilities,baja,25,,,OTX,2026-09-09T20:31:36,0
-c3f7109963b9599eb93fd9a97a4ffa38e672642b35b33608d69e6bbf9f19da4e,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-14779d0d7ad6be3d7bf9ed78e4ab6016f22dfa7bc8b5d9c43b56011f7fe2ea19,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-528cd4e69ecfa5191adbcf6ef28667bf,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-974decb9ff4c8f9ccb0937c96d513347,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-a6437ac3d6798090a218520985d36a3f,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-ce870a91e8d27e8f663f0687abc60b04,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-fc92dfafa7aa741c5f2b9cbcf75d1d19,filehash-md5,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-159989f088c3d4bc54e1acb93b12924a14db8c0b,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-4e24bfae6ea02175d367e8ba3fbbc38990e95bc0,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-577fa0267c491d8aa4531e91b0ba402db24932f4,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-77e981d0b1b81151a6a7d0966aca1b4a1d0f3022,filehash-sha1,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-6dca0ea8a52a323b2ae173ef75d7ebb1cc6f909c855e76676a6478b9e40fb861,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
-c852d56ef0db5f91ee7a5f206b12c3b48dbcca6a5b85baeb0276b9816143489b,filehash-sha256,Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF,baja,25,,,OTX,2026-09-09T15:36:36,0
+40637c70fd5cd899ca41d1252c267ccf,filehash-md5,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+71d3832587a1d009ca3c0947005b187f23e52008,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+b6df18f66cf4364be2946d6b981e69763aafde68,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+dbbcb279a1f1a258832174ce63c295c5080de249,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+0c1666b274ddb44dd5c7a11f03c8c041f6bccf0c7dae924626ef9d15b1cc41d5,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+129349a221e6efcc9a047efdfd81197f796fcf38877344f17f85651b21e33427,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+4400096e8b39cb2641abec17c6dddad845ed6415e79d60adc2af1dcbd2837c59,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+50daadd49b8df4f0190d0badfde89f8e6a6e61af664ef1444984028a005f40d8,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+6678216ace0ff224d6a5ae6bf1ca29e66fba9fceaa715e27440e85d5bfb06069,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+8255d5a423ce79c69e42685cbf8e708b4239650c01b2898a7efe856582bb3aaf,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+9d01724193d9570a6c75bbcbb171d29df290207007d004cf75d133dd9aa475f4,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+aa2fd252a6f5a09b8d8422fbd1037febefe2aa99317e3c3973889384a80e29b7,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+cbce7dc8649b37c5db411dfee3a74e8cace2b48fdc8350bfa5b4846c5d9ed2ae,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+dd081c130d7c3a3c18e06a26300dcfd65ee70e6b23b729edb54cb0f0a5829df9,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+c8e585c8a161b9b7a0e59bd65a3ec5492375d53c,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12,0
+4302586202234cdf1ca058fd3c62be0050c8155ed113f3f62337d756e6915044,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+47d321c1a232e5cdd1e39a06dadbd79114dc1a2f0f8eac289e6b653a5d126f95,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+51503ce1373c7fa72a1da5c5c4b30f88c8224686669ba4b64196591414fdc64c,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+5a76669ec410d0b3e21112a4a6fd3207976b299ee27c5fc3d42f2673170ab95e,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+62ef39ec29966d71c8254f68bd5e320cf24a042d76c12dbafdcc0766861827c5,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+6bb4372d0d02ec87b76409f69d445a93910964f8db457bafafb97a011da59e73,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+6e6bd2f7566ffa52d52fa9d5f048bbb9246d3d50110c6b0c248919ad796c6fd4,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+711c0aa8cde078aa349fb329e3e44e4272ea66a5e651ad8a64893c76a725c859,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+71dea06c2271a46fc2fd6092e2ba0c2f5a2cf5ca8f955ee3375e3ca66a5dc52b,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+7de637539159dc17ceedb0aae783930ee68639b6d8036ef8147027c5ebca3fc8,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+7e04e86c07213fed7bebccd9953818b102b1b25b78e5f3707e81bad5054cf4e8,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+92a1428e125f33de012c7f52fb0827be3d7e90e38a0e38083181f8c3312adc9c,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+995b1156562150c15970aa2d6b27f0b442d758594d820ec09d53d5e861fac457,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+99fcabf7c996d6ec077ccd745a158a3a395403d6a3df9d8da179f3cd5faf81b1,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+bd724bbb27f9a71fd44f1c334b003541761071655fa585b64eed3bd78fc28e01,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+be5a110ee72ebcf1b7d9e155308a8abc606bd446f8aec1a9f33cd06ca0f3c056,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+bf92a287a3d79afb73a3f2d38877ec37c22a9f4a7d6ac2e0385472298f384fc8,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+c521b3a189b0089a2558aa4e42bd9fb5558e1b17917e2e183a4bd9cbcb2ed77e,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+d04f68079ca90c65223a907f23fae5d068904a2145348b953b1d06e2eaf0bf2c,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+debe871710268e7bb770b72c6772f2e0b8bd40a22b2eabf4b6556eaba2d71057,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+ea8af591fe2d605c82bb7831d2ebdfb17cb2659880e1a8a7b0a2dd851dc5e7a3,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+f1aa14ebfd2da477edba94b34f09f775485688b5958d82fcb072a837e27e246b,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+fc820eeb054c781693eca78fed1c418f12b27da2c7c7e73281eb07b25cc7d910,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47,0
+f4a72600a3735c2a4d843875ea61bbb6f935a1af51a81f2fbc992ce11ba94afc,filehash-sha256,Threat Snapshot: Djinn Stealer,baja,25,,,OTX,2026-09-10T12:49:59,0
+c0118e8a7f9e93dcc1ee59ece90772ad,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+7bd0948afa144f318f11ad104b6332d9c693257e,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+83df0b5583e5f5a282bc0987e220166f0367288b069146ae7d44f4a2d4b21d22,filehash-sha256,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+302a4c0530f499774b02875daa018bd3,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+8f6c6c0b6c1e9899a86f1192cd480dd1,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+d2f7b0eb7a93d7506db7652512905aa7,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+7b4014d871b975bb919d4ccfaa12f6ff74d27783,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+b351aebbac4969d3040fbf912d8a112e9140dd1b,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+d5dbde316d722df61da2584567760f12b34a1872,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+19273b241041939a79796b814a39034e50ea2ddd93232ab6925580b1699d9f29,filehash-sha256,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4104fae6bac93d50aeb3a3e24d41aee10b96b7049ead0c0717f02b71d57657ca,filehash-sha256,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+8459c2d6ca0967673eb4e6037ba41e5395d47278543cf90604951d0656ec8e4c,filehash-sha256,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f01678f275f88d33c445f16c3680bbbc51e0b2205bf6d0b66f9b137bb7153d73,filehash-sha256,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0576842e9dd3ff2b4f3ba81dd8d18fcc,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+063bb1a7a3bac61ec28ee2438a3e1204,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0cbd7b7d92ffe4cf9163f9184eb618c4,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0d83db1ba927210e27b9253bef4b9ac5,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0da08a56f46c0c7db328fbceed7ad6ea,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+1380f7a7718057ab1c1df51d72561a83,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+143c2d72d13bc8f439af2e5a5a1cd058,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+144d53f07802e1754a7b56804a5fc66d,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+151968e3be0c1e12d9d7cd5a6322f5a9,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+168ee86159ebec0007860529b211c152,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+17c7b622511c3da8fca6c157bd1630f4,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+189e21a63142d6d84086303be967c60e,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+1dbcd59317eb52a983ee3fa9a373a11a,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+1e6bee6018a4664b00079c1970a669a1,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+27c04ce6f39092bd26489314b9edf929,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+27fa1a70c77c0572c9297617f9032edd,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2a58fa11d5c80c887389311cfb332cb3,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2b417ba31be95f20f27116b57871ec21,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2bd94d395c3e7049e6f16308fd45f7e6,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2c3bec66d7f56d2f3e989f8278a15ffb,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+3079b58322b832ca1d22e757384c6e66,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+312993da697c8540a8748f429bbef663,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+31c2456e63db1f02b70c6763bf75b521,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+33f7fe40aca077a3f2bdf7c29789ead2,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+352eda12f27c9917cb6ace59c05b7128,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+361e84d580061a2639df7ae3959b3fe4,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+373c076592278a8b919486c86540fbbb,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+3c2bca6b78caaea6d29701c56eb58680,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+411c59a7163ee1985316752236864b81,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+41bbe7cbcb278681223748ae33343fb9,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4465b056a0dc9cc4afacaefc9118f73c,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+490452f4e558be51e10aea42c26938ed,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4bd299a9fb4ca3bcf2e5f8acd7ba0db6,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4cff8afc7d05eb96c483b79ee9d84c6d,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4e6c2fb6271bcf500344cca16c6153bf,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4fa813285d7a85f95213a83ec8d9fd58,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+53a7805f16e301c17ba23ccf3370a3cb,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+5f0ba69ae86e96a09ca122ff913d549c,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+629f2485e7150bcb067a10bf31061ecd,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+68fb6e61f5ad535190696ae900fd16f4,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+6daf692ce9a8389fbdc832045ce810bc,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+6de8e0f4aa94290277caf613d0397017,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+7479923453cdb1bbcd9bdc2b2462bb1b,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+74bbcca3a7089d4b3b5f977c9a5ff3bf,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+754cd8a2edcde330532005e1930bacd2,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+7b25915240ea8c004239bb4f8073d8c5,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+7ee1163608485e7ce42080ff99c4b003,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+846df99b60a60acdef755f63c1907d7d,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+84b688f65baf80ef750bd95ba7ecdac4,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+8a39723a42c0b72d859ed8b61480b95b,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+8f4c805bd6f55cdc0a2cb345d15fd33d,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+901cd46dfb7ea4a0e079d9d8efe1f2a0,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+922bd0835135a76524d932bfabe9a872,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+993fbc498854cb7731a980b21cb8bee4,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+9bbf19158b1ec5df2b40e0978d3356b5,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+9c18531bdbe8e7f8aaa734a379e80fe0,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+9c3571d30ede99215e743054419d13f0,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+9f45431db853590b437ef69d559f3740,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+9fbfa04605aae7f1f1ea1b250e94ab1f,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+9fd044876930c8658d3c66739f203596,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+a1d00a9d4ae203c981ef52709fa73e83,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+a1ebc9f7c8de1191a7bba5ba154e7a33,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+a4aea918ebb67c9a9305bf580bf39c00,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+a577deb99c0a26c449c5ce0d742fb961,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+aa1f017ec68bd2304ad4cd351793c887,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ac104db278c3fb0a3ed3f7d2cf94e7c9,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ad888242c4542ef84d3754e2109e2698,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+b1ddea5929c365c76a843f363eec5666,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+b3da41a85e313b8a63fa7756c9649e0b,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+b3f46a643b92410ce31a304a3652d9a2,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+b47ceb5321fa43598e1a3401bed36c9f,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+b523317a9ffc2f1e667a8f96ee1f11d3,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+bd716527e74b405a0c84cf2df59d3246,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+c0508ea61ebf83246388c575f033a7d2,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+c2b2fc1cb93967e2d9033fb653cab82a,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+c6832aa04d5c56d3953aa0671cc07902,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+c889ac73947dd69e6be9ffc1bc3726ba,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+c9c1ae4b004d4dabeb1073e6a057d156,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+cc0d08f2de421a8280769974541c27c9,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+cd254ac31784074a43db3ecd594fb16a,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+d44bacd177e3673ad12b75c7b51a4317,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+d7b4b83b6c0be81417379899e929f03f,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+d7e591bf5352461615be94b8ff369691,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+e755eb08fd623571a4c47c716164d604,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ebd58dcfaf5b686da33a257c3a705772,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ec5372629102e957534cdbab4a581ae5,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+edbf642b3b064196e15928f97d6cf42b,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ee0a8433280571244f6e08b2af7e6ed9,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ee4a03f0a37e13daa0bf432a89bb9f14,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+ef54224ba7b32677e0d658abd4afb002,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f0f1a9dc365adc0a8c42f28e26411bad,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f1aed365f69ef1b7dd575e32562944f2,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f20f78adce0c064639d9a83da6186a96,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f39b682562de128bd0cfaef1866332b6,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f74495331e58196bdbf81d3eaa5bea0f,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+f8681c5d73c229fe45e650849d90d2f5,filehash-md5,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+00b6a67f7c9b3a8d486afede622fe15e3ef6ef1d,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+036e5ccec8fe3da01069e70553f410cf3b79bc52,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0454bd69fb56ab2c104b886b469dfbf3aa29c0da,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+051c52332ec2086d57f79f470a56098914103516,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+065104a05d497af754fe43c6595208302d89dfe4,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0768f1cb6908849a61531e5e24f5b1cd23347b88,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0a8901e07d3595c11978ad7858958d8e48c90259,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+0dc7da7288fa5b1ad9c5c58bc033983f9ef767e7,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+101fa1b3908e071c289b150db4532eb42295331a,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+131c56b733a5fb999688d3d18337e97e8e8ebf7c,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+20082dc7b64de4df8d2aae8600f84212430f20da,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+29b7ec39fc9a634194e76a692ec3d769f2573eab,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2d5b5084e1d5449deb6a7fd4e1d5b8c8da2ed5ce,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2dc6b594be1af9bda74da4ac6772801b65c38ce4,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2ed3c3341926e49d1cc99710900816651717c11d,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+2f7554dcea0723ec43c98d78d63d7546aa5c8b12,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+3625de5e0e651a90a5f6f9c775b8477d24b88b8e,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+383ff0101c4c048f4d68f87e162797d14e10201c,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+3a040ae233578c9c9254a35136b95646f2b05fef,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+3a5837391a015b5c8ceb9c980fc5dfea746889cc,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+45289981b4926401948eec20b2a5ba9166752747,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+47604c99fa13b7a0ba970b76675389ae887bcfbb,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+49b70b2d4420a4962135ed04133294bbb45dbb5d,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4d14d1c44e091b9f35676aca2e4f3533babbe623,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+4f3580da53cd4a19d2ac774b75f983d1f0a312be,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+508ff0622da9f9208cbce330f676500c569d0717,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+51050975f20d65070a17a48d86faf1934fed5332,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+545903c27a1f914fe39b2a35f250bfe42d445b84,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+556b0df15bd5791b806b3c4351cc4a61bb07911f,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
+57a82a76c273987a1b2126f55bb8b90bd7a97892,filehash-sha1,Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration,baja,25,,,OTX,2026-09-10T09:00:32,0
