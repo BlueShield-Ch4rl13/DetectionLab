@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-12 05:33 UTC  
-**Listas generadas:** 2026-10-12T14:03:03Z  
+**Feed generado:** 2026-10-13 00:32 UTC  
+**Listas generadas:** 2026-10-13T13:16:50Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 210 | Caza programada, no alerta directa |
-| Dominio | 206 | Caza programada, no alerta directa |
-| URL | 337 | Caza programada, no alerta directa |
-| Hash | 146 | **Alerta directa**: un hash coincide o no |
+| IP | 216 | Caza programada, no alerta directa |
+| Dominio | 203 | Caza programada, no alerta directa |
+| URL | 462 | Caza programada, no alerta directa |
+| Hash | 64 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 11 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (250 de 1196)
+## Que se descarto del feed (477 de 1451)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 204 |
-| nivel bajo | 46 |
+| tipo no usado | 424 |
+| nivel bajo | 53 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Vidar | 233 |
-| malware_download | 98 |
-| Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration | 90 |
-| Unknown malware | 55 |
-| php.shin_webshell | 49 |
-| DanaBot | 41 |
-| Mirai | 31 |
-| ClearFake | 28 |
-| VShell | 26 |
-| Sliver | 25 |
+| Vidar | 323 |
+| malware_download | 100 |
+| DanaBot | 57 |
+| Unknown malware | 52 |
+| php.shin_webshell | 45 |
+| ClearFake | 29 |
+| Mirai | 27 |
+| Remcos | 27 |
+| IClickFix | 23 |
 | Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers | 23 |
-| AsyncRAT | 16 |
+| PureRAT | 17 |
+| Jackskid | 15 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 210 |
-| `wazuh/cti_dominio` | 206 |
-| `wazuh/cti_url` | 337 |
-| `wazuh/cti_hash` | 146 |
+| `wazuh/cti_ip` | 216 |
+| `wazuh/cti_dominio` | 203 |
+| `wazuh/cti_url` | 462 |
+| `wazuh/cti_hash` | 64 |
 | `wazuh/cti_cve_kev` | 11 |
-| `splunk/cti_ip.csv` | 210 |
-| `splunk/cti_dominio.csv` | 206 |
-| `splunk/cti_url.csv` | 337 |
-| `splunk/cti_hash.csv` | 146 |
+| `splunk/cti_ip.csv` | 216 |
+| `splunk/cti_dominio.csv` | 203 |
+| `splunk/cti_url.csv` | 462 |
+| `splunk/cti_hash.csv` | 64 |
 | `splunk/cti_cve_kev.csv` | 11 |
-| `sentinel/CTI_Ip.csv` | 210 |
-| `sentinel/CTI_Dominio.csv` | 206 |
-| `sentinel/CTI_Url.csv` | 337 |
-| `sentinel/CTI_Hash.csv` | 146 |
-| `elastic/cti_ip.ndjson` | 210 |
-| `elastic/cti_dominio.ndjson` | 206 |
-| `elastic/cti_url.ndjson` | 337 |
-| `elastic/cti_hash.ndjson` | 146 |
+| `sentinel/CTI_Ip.csv` | 216 |
+| `sentinel/CTI_Dominio.csv` | 203 |
+| `sentinel/CTI_Url.csv` | 462 |
+| `sentinel/CTI_Hash.csv` | 64 |
+| `elastic/cti_ip.ndjson` | 216 |
+| `elastic/cti_dominio.ndjson` | 203 |
+| `elastic/cti_url.ndjson` | 462 |
+| `elastic/cti_hash.ndjson` | 64 |
 
 ## Como se instala cada una
 
