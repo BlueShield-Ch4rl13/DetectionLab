@@ -1,65 +1,160 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto
-17d97e3ee3185d82812a4014444c36f3,filehash-md5,From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases,baja,25,,,OTX,2026-10-12T13:15:53
-327617e977eefd15708568f43140e595,filehash-md5,From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases,baja,25,,,OTX,2026-10-12T13:15:53
-3d802ceaf891ea57ecd7d1d786d96a0d,filehash-md5,From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases,baja,25,,,OTX,2026-10-12T13:15:53
-5be7578bfe633fb268ad97a520abb4e1,filehash-md5,From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases,baja,25,,,OTX,2026-10-12T13:15:53
-78c219a6bec5fc30f43b62e4934646eb,filehash-md5,From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases,baja,25,,,OTX,2026-10-12T13:15:53
-ae22ef2517b5c0fb47f78745b9cb5260acee0e751b89bcd354640ff8bc8d29ec,filehash-sha256,Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30),baja,25,,,OTX,2026-10-10T07:53:24
-79c65fa04541032e251fa4796b97800374b63c7982593dd1a2e0db605d429186,filehash-sha256,Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30),baja,25,,,OTX,2026-10-10T07:53:24
-1bd314b661396c7086f6367fbbb48025e03ca2de69c073d53a8b0a38aa5fbb7d,filehash-sha256,Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30),baja,25,,,OTX,2026-10-10T07:53:24
-7489a0f93c67fa5cdaeb4b921d90594d,filehash-md5,Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30),baja,25,,,OTX,2026-10-10T07:53:24
-141c35607dc0e8e400deb380126b3052bd0495b4d37c8dd979c6aa0204b142fc,filehash-sha256,Malicious Twitch Browser Extension Exposes 30 000 Users' OAuth Tokens to Russian Bot Service,baja,25,,,OTX,2026-09-11T18:06:37
-e17e1e671b597da19b89c5b2d0fa821e90e627860e756ae4947ed27c035330a8,filehash-sha256,Malicious Twitch Browser Extension Exposes 30 000 Users' OAuth Tokens to Russian Bot Service,baja,25,,,OTX,2026-09-11T18:06:37
-9d7cd4948a1fcbaeadc425752fce9a933bd6fc41eeede030dffd7b99b3bc51d5,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-cc76bc218627279ecb4d0ce74ad2651e9db9e3e843e35d6569576e056e3a9218,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-13382c16e2401b07451577b46e634b8031ec254d98b876e59692b5fa22abc1d4,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-6fbae3505ae0d638b820165c572d548ce92dda71e82dc47e8efe13f30617f35f,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-9d87e6615c810907443ebd5e915f3b35099c3b5c6b6c684637138a7f8ec9cebc,filehash-sha256,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-3bb6cd6fda610f65fd05741e20306f59,filehash-md5,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-92bd261aab30589e89ac0e77beeadddd,filehash-md5,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-9d754cdf176c21649645444b56cb0e0e,filehash-md5,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-2fa81859fc4ff50f43ff16f5cee544f6e84cf5af,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-7105b13258702a2d55c8a7a0f100bbe25891e54f,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-ddd07abb4c1077a6b6e54d61a8f6026360ac6379,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-77c6547ba3f5769222b0c91d035abd540f42bf01,filehash-sha1,KATARU: IoT Malware Adopts Public LPE Exploits,baja,25,,,OTX,2026-09-11T17:55:39
-ac6c52632fcf8b072be3b1c5bc076fdd,filehash-md5,Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016  CVE-2026-42018 & CVE-2026-82329,baja,25,,,OTX,2026-09-11T07:05:54
-513a907b69edffc3cb77a494da395178d21ef9bd,filehash-sha1,Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016  CVE-2026-42018 & CVE-2026-82329,baja,25,,,OTX,2026-09-11T07:05:54
-6639abda5778b31cc049e4af0a71da04750fafda97d44eec3dd202d32e3e2496,filehash-sha256,Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016  CVE-2026-42018 & CVE-2026-82329,baja,25,,,OTX,2026-09-11T07:05:54
-40637c70fd5cd899ca41d1252c267ccf,filehash-md5,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-71d3832587a1d009ca3c0947005b187f23e52008,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-b6df18f66cf4364be2946d6b981e69763aafde68,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-dbbcb279a1f1a258832174ce63c295c5080de249,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-0c1666b274ddb44dd5c7a11f03c8c041f6bccf0c7dae924626ef9d15b1cc41d5,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-129349a221e6efcc9a047efdfd81197f796fcf38877344f17f85651b21e33427,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-4400096e8b39cb2641abec17c6dddad845ed6415e79d60adc2af1dcbd2837c59,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-50daadd49b8df4f0190d0badfde89f8e6a6e61af664ef1444984028a005f40d8,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-6678216ace0ff224d6a5ae6bf1ca29e66fba9fceaa715e27440e85d5bfb06069,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-8255d5a423ce79c69e42685cbf8e708b4239650c01b2898a7efe856582bb3aaf,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-9d01724193d9570a6c75bbcbb171d29df290207007d004cf75d133dd9aa475f4,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-aa2fd252a6f5a09b8d8422fbd1037febefe2aa99317e3c3973889384a80e29b7,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-cbce7dc8649b37c5db411dfee3a74e8cace2b48fdc8350bfa5b4846c5d9ed2ae,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-dd081c130d7c3a3c18e06a26300dcfd65ee70e6b23b729edb54cb0f0a5829df9,filehash-sha256,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-c8e585c8a161b9b7a0e59bd65a3ec5492375d53c,filehash-sha1,Melofee: a look back at a Linux implant and its new variants,baja,25,,,OTX,2026-09-10T22:17:12
-4302586202234cdf1ca058fd3c62be0050c8155ed113f3f62337d756e6915044,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-47d321c1a232e5cdd1e39a06dadbd79114dc1a2f0f8eac289e6b653a5d126f95,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-51503ce1373c7fa72a1da5c5c4b30f88c8224686669ba4b64196591414fdc64c,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-5a76669ec410d0b3e21112a4a6fd3207976b299ee27c5fc3d42f2673170ab95e,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-62ef39ec29966d71c8254f68bd5e320cf24a042d76c12dbafdcc0766861827c5,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-6bb4372d0d02ec87b76409f69d445a93910964f8db457bafafb97a011da59e73,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-6e6bd2f7566ffa52d52fa9d5f048bbb9246d3d50110c6b0c248919ad796c6fd4,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-711c0aa8cde078aa349fb329e3e44e4272ea66a5e651ad8a64893c76a725c859,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-71dea06c2271a46fc2fd6092e2ba0c2f5a2cf5ca8f955ee3375e3ca66a5dc52b,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-7de637539159dc17ceedb0aae783930ee68639b6d8036ef8147027c5ebca3fc8,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-7e04e86c07213fed7bebccd9953818b102b1b25b78e5f3707e81bad5054cf4e8,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-92a1428e125f33de012c7f52fb0827be3d7e90e38a0e38083181f8c3312adc9c,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-995b1156562150c15970aa2d6b27f0b442d758594d820ec09d53d5e861fac457,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-99fcabf7c996d6ec077ccd745a158a3a395403d6a3df9d8da179f3cd5faf81b1,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-bd724bbb27f9a71fd44f1c334b003541761071655fa585b64eed3bd78fc28e01,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-be5a110ee72ebcf1b7d9e155308a8abc606bd446f8aec1a9f33cd06ca0f3c056,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-bf92a287a3d79afb73a3f2d38877ec37c22a9f4a7d6ac2e0385472298f384fc8,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-c521b3a189b0089a2558aa4e42bd9fb5558e1b17917e2e183a4bd9cbcb2ed77e,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-d04f68079ca90c65223a907f23fae5d068904a2145348b953b1d06e2eaf0bf2c,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-debe871710268e7bb770b72c6772f2e0b8bd40a22b2eabf4b6556eaba2d71057,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-ea8af591fe2d605c82bb7831d2ebdfb17cb2659880e1a8a7b0a2dd851dc5e7a3,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-f1aa14ebfd2da477edba94b34f09f775485688b5958d82fcb072a837e27e246b,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
-fc820eeb054c781693eca78fed1c418f12b27da2c7c7e73281eb07b25cc7d910,filehash-sha256,Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers,baja,25,,,OTX,2026-09-10T17:27:47
+297292d46d4f11fc801f5d6d01251735698a8419aa3196db7b3aa7bb8ea85cad,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+d398f11c236a59e44a9dff6f99af3aacefcb4a4bdf77bb7cf790cd0b13b0439a,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+7a6e1e578342864c1bb07c83b4e677e3,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+fa87911771a52e3c1ffb1c39da59540c,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+29c19cf3900d1b8e03a83b57e604ff79d8f43e3b,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+a8fbf9c78c1c1a3f34bf18bc6c2aedfa842fe15c,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+df74f2f8eb8d707411ffb8ee8f9c9fb1881fe1cc38978e8c743de393d4ce0b9d,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+05cec01db363488e6762097095d7b7fc,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+05e65662d55327febf5d4aaeca54f982,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+0919c2a84a1c76d6f5268dd5ffd7b5e7,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+0933fda33f46d2b31e023bf322a11d41,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+0a0fe8a557eff10b3b32528347b9d988,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+0ae92755dafc510efdc9f68e817b683a,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+0c89cc9118b863488f5ba240bfe396f6,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+14c8b93304700e27b479596024ef19cf,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+1f5416894b604ed6ef1f839414865eee,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+1f873bc5c6d5ff0ae0f228dbf26220ba,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+1f8ad760e1feee7cecfe1bfadde93d4e,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+2062dde8114d57b0108e92371e29b3ed,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+2364f22dfe4d2018619cfba2b510f290,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+24b12630d402e4ce40d05e0623e56933,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+26642b9800192440621a70383595dea2,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+28210832c13d806e87cb8f1449cf8c5f,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+28fb9e179c3aac449b7e4d760f6b8b7d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+2a100b8de6099b06449e3084b689c32d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+2e36880877f32eac56ae4502ad057b2e,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+2f407d8e3dee54e0c4f776e5db55ae86,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+324352a61a343969a93386466d232684,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+337edcca9ef27cfe1a76f4cffa676026,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+33cd80a0b3059c23eadcf263ddbb330f,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+348150ce9f3c49283c16d9b37e6dc354,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+353311ea9b82724aa862477cae44cd39,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+380d5a157077b7c8bdfe7c6d9628fe6d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+382bb72f7f42f27b04d1fedd6d633a82,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+3d3f6897f57f4a7b94f83278e795dc18,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+40b48810400a825858946aae9ff5b50d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+4f5694f61b4c244cc2269c3a5eb8a7c7,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+5282b7aa97f45feeff73ba87d0523e53,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+567a2aedd00fa97f03fc852b1d949596,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+57025a7f9d9d2ef4930dec189bdd0bd0,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+5a0923427b2fcb5070510753e4f0c0d0,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+5dd387acef74a14a63dbc883aadee854,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+5fa367e38148de7e19abe789451a7a38,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+620bc65bb86962f633a37586e17da9f3,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+6896f9c3f24f2fdc7966f753ad3ce723,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+76ed1e64d1c9ea3e4b91f7ed7b2f59f2,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+77b9a8309e9f80ca442c629396cc3f6e,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+78bf053eea23b86e42a658245d8de904,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+7e76b71247c995359a7642fe62f3b28f,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+7f1b4583fec9db44e85b458df4e55669,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+8445ffdacfed1fc9951e62ea054ee1c3,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+85fcd85d24e1b391cbf0c22b0c8a362a,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+896a859812f181286542a0041a549156,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+8d73beff15a0467b9bc2b74f6abed75d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+90449413823f31c89f2bd12b5a1ae5d5,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+93587de64c445e7fe20351f24c4a97d4,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+9b33a10f7637c7ce9e5e8aa1ed7303dd,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+9c2d0cace5c703afa9f3862d19073c6d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+9d3b0832e1759d29d2651f3a2d34d781,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+9f14d0c51795489bbb8d1853fb7e269d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+a0f8c686d57c746bcd97e21dc8fa2159,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+a49a2676174f1d7c5e8647e4fc7316de,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+a80dd39ce35e712fde43b51f6a5ac22a,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+a86861abef9de0148a560614a5830a19,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+ae2a710e1940b5a7c3d8c7da754a4bdc,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+ae2fb368e8f33de4b5382dc3296c7076,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+b52d4d43ddbd8a2b34808e45bd1d4504,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+b64e08e12d90ee33c4409204a1ea509b,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+b65049b275769947fce9d332de39ad58,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+b7db9fe60ce4a2372ee7d4665ae859ba,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+bc903979c2ef367f15424d651eb1730d,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+bf95687e8f040d9b656e2702eca30ff6,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+bfb0591fb5c58b5ef751c9994cb86fbd,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+c6017291b89dc20b4b333b6e5d1e92c2,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+ca3e297df21d63fabbcac343dd2740c9,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+d915752f0dfe5d2ca3388cc711840d31,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+d9ebfcce15a1a2c39c22aea092d6fb11,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+da44fa987f5a1967b8691254419d8e52,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+dc5a698e0f74b79da77592145a669f51,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+dcbb6683e1f5c826d0f65dc68999fe52,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+e5b1e7b3f3ab24239f2cd1cbce806228,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+ea02654da967a66ba0bda85f8578562a,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+eb9d0c1e252a2b08ddfdeb7dc458032a,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+ed02d851d07f38d9bb04a0d2e464cf10,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+f547cad15814b06c7876c63609da5b8f,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+f549fc826acf79521d6a0c8aa63095e0,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+f5f5da0dac34841451c5328871d0d77b,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+f6786ff62fdfdc46cfb84ff7cc2a580a,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+f6f00417b925bf42090a89f8668fb554,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+f85016e8cc6b509a9fba1ccd1dc88da1,filehash-md5,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+54857b0ce7c95a283dc7c0706d813aa6f0b67f26,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+637ec48c1b1f39975cdf7b57a99503f22b59fed0,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+6a2d9e66baf908d0a17ecbd84fa6d1fcf3d3ba35,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+c1eeefa9bcbefb76815344dd65b1fd829152b601,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+de923722a5ee51ec33ba0588407d34c45be0bff1,filehash-sha1,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+21b6e7c5fd2e68c9e9cdcf96498285daf0a3918bae297fc37f599a931adba7da,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+52fbc79e508fc90aa69a1c7cc05a4d7d48b4ef9f4bf47b8f877c2f95f92335cc,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+742dbd332aa008fffc4b662fc2699bd384166b64f33d619a62ecf29bb69f7b4a,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+9e54a2129e43baac4b8a5cf157f3b1d17427388b4a149be926c63b381b1e8e2a,filehash-sha256,Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy,baja,25,,,OTX,2026-10-13T13:53:57
+a8847b68428fde206b6dff8001051f92,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+05ae89e761a890fa24f80f4be7263651,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+1da42505f1c83959c7f901f5139a158e,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+a147cd8f72aadfcf78f7723db6813e86,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+f456f0c6b89bd3d5124699d43971d094,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+2c77653b889dfccd649b82446f8c0d1b,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+5d29e9b24708c3ec36d1d59036124838,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+998e9010e5dfc4e4645f5572cbbe5b53,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+b3a4405d1b8d43545d07b10581008d32,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+0377ca97ac0ca35f9134052fede67a81,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+0b0d8e995e6ff24d4e9d00417446c25e,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+1414d4ef2d1191080abc59a407dcb6c5,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+345057421c7d9ac2b671c47449f35030,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+36deebfcda4012d18706cd170c1edf1f,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+37f18a20b9cf32e6f07450e903eaad7c,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+4507363415e7dc6d2cab14eeed137f6c,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+512a6db4a22244272826f39da020fb44,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+5b3a49938f455d1197736971c4c07228,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+6aca76699ec0bb8e51372d5c68c8359b,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+815b910f1efc95f38ba0c5b12c4f2129,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+c75ec7f3bcbc879aae9a21ad544d3232,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+d9fc6b2cd5eaa3929207f1029663d947,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+e51c11442a529dcd06dc7c8e45974ec2,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+e9b91e1d94bb3ff9a1c00b1c13eb7960,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+be22c91b4578ac2357a16133615df335,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+d5d88214170875386ab855172f881e51,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+dce5b0dc0e7d7059b5ab8384a7c24ec4,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+61aac6a98abd6dcff0dc41bb88159786,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+2b784622422f4280e0b3e38b30dd87bc,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+2b7f1a7d5f5515c05d0c8e3857155ae2,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+3d3358b1057b1bfbd7e60577d8a31e0c,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+7400c34f7c6f866499029f5e759f58bd,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+d4ceb05682ecd60f4ebb4e76e02fcf7d,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+60bc23d3d453f258e2c4ca421cd086a9,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+b862681953e945439167a736ba4cd41b,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+ed1a6bed83899952b464c27aef9752cc,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+0903d7fd3e1d4a599a7eb3c5d356779b,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+a57a1ba15364dfb35d334f644d7049e8,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+cde0490e11db8ad54737c1df59ec658b,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+08d231c6a5303e543eb60d4181f6a4ea,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+7f7747575980098bdc98e7b7aa362697,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+d3faec4f013c4a1e84a1d681448312c0,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+e75e183027bf897eda6447366c7acd01,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+20108557cacd24263e7e611afc327801,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+aac942aaf6ec0773cbac87fde4a6b284,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+cf20de9d9ddc952bb2265002d26a916f,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+f602230f54507cbddf5ef3014737d768,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+079298a7a506b376def4f4ff9a250672,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+20cefb2c667f945d482daded7e698eea,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+254bc5f6f81de1f3c47534e6febaf023,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+31b3280f1c0836c39c470932cf6c3e6f,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+3b35d3c5667136134b20a8411803c97d,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+3bc159537c909fa86bcc55eda127b5aa,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+42a9f64e75911c167ec7a163e8b24920,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+4a171f62d1bab01827b06ae73d4caafa,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+66c6512b9a73425aba40c8bfa95d23a0,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+6df909898f5f1394e78508d1152fab38,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+6ee2be3e5558085b532dacc8db61f3e9,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+6eea0568d5cc776ae03e09149cec3cd8,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41
+765d3ce85a6393d05973c4cfa7738116,filehash-md5,The phone was compromised before the user turned it on: the rise of Midnight Mimosa,baja,25,,,OTX,2026-10-12T11:01:41

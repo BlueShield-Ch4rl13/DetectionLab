@@ -1,3 +1,5 @@
+CVE-2026-104935:Ivanti Connect Secure
+CVE-2026-96951:Microsoft Windows
 CVE-2015-5477:ISC BIND
 CVE-2016-3081:Apache Struts
 CVE-2023-22894:Strapi Strapi
@@ -8,4 +10,3 @@ CVE-2026-102490:Zammad GmbH Zammad
 CVE-2026-102489:Zammad GmbH Zammad
 CVE-2026-104286:Fortinet FortiMail
 CVE-2026-76504:Cisco Catalyst SD-WAN Manager
-CVE-2026-86950:Apple Multiple Products

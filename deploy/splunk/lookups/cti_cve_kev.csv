@@ -1,4 +1,6 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-104935,Ivanti,Connect Secure,Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability,2026-10-13,Unknown
+CVE-2026-96951,Microsoft,Windows,Microsoft Windows Command Injection Vulnerability,2026-10-13,Unknown
 CVE-2015-5477,ISC,BIND, ISC BIND Data Processing Errors Vulnerability,2026-10-08,Unknown
 CVE-2016-3081,Apache,Struts,Apache Struts Command Injection Vulnerability,2026-10-08,Unknown
 CVE-2023-22894,Strapi,Strapi,Strapi Cleartext Storage of Sensitive Information Vulnerability,2026-10-08,Unknown
@@ -9,4 +11,3 @@ CVE-2026-102490,Zammad GmbH,Zammad,Zammad GmbH Zammad Improper Privilege Managem
 CVE-2026-102489,Zammad GmbH,Zammad,Zammad GmbH Zammad Session Fixation Vulnerability,2026-10-02,Unknown
 CVE-2026-104286,Fortinet,FortiMail,Fortinet FortiMail Path Traversal Vulnerability,2026-10-01,Unknown
 CVE-2026-76504,Cisco,Catalyst SD-WAN Manager,Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability,2026-09-30,Unknown
-CVE-2026-86950,Apple,Multiple Products,Apple Multiple Products Out-of-Bounds Write Vulnerability,2026-09-29,Unknown
