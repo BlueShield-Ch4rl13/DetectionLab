@@ -1,3 +1,7 @@
+CVE-2026-105134:Ahsay AhsayCBS
+CVE-2026-76519:Cisco Secure Email Gateway
+CVE-2026-105133:Ahsay AhsayCBS
+CVE-2026-0322:Palo Alto Networks PAN-OS
 CVE-2026-104935:Ivanti Connect Secure
 CVE-2026-96951:Microsoft Windows
 CVE-2015-5477:ISC BIND
@@ -9,4 +13,3 @@ CVE-2026-88779:Citrix NetScaler
 CVE-2026-102490:Zammad GmbH Zammad
 CVE-2026-102489:Zammad GmbH Zammad
 CVE-2026-104286:Fortinet FortiMail
-CVE-2026-76504:Cisco Catalyst SD-WAN Manager

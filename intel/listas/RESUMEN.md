@@ -3,19 +3,19 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-14 04:33 UTC  
-**Listas generadas:** 2026-10-14T10:56:49Z  
+**Feed generado:** 2026-10-15 04:15 UTC  
+**Listas generadas:** 2026-10-15T10:38:34Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 138 | Caza programada, no alerta directa |
-| Dominio | 592 | Caza programada, no alerta directa |
-| URL | 1220 | Caza programada, no alerta directa |
-| Hash | 159 | **Alerta directa**: un hash coincide o no |
-| CVE en KEV | 12 | Priorizacion de parcheo y caza de explotacion |
+| IP | 174 | Caza programada, no alerta directa |
+| Dominio | 291 | Caza programada, no alerta directa |
+| URL | 1142 | Caza programada, no alerta directa |
+| Hash | 120 | **Alerta directa**: un hash coincide o no |
+| CVE en KEV | 15 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
 
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (456 de 2594)
+## Que se descarto del feed (367 de 2140)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 415 |
-| nivel bajo | 41 |
+| tipo no usado | 338 |
+| nivel bajo | 29 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Vidar | 1006 |
-| Unknown Loader | 282 |
-| malware_download | 100 |
-| ClearFake | 99 |
-| Kimsuky attacks targeting Ukrainian experts in diplomacy  security  and international policy | 99 |
+| Vidar | 993 |
+| malware_download | 99 |
 | Coruna | 97 |
-| The phone was compromised before the user turned it on: the rise of Midnight Mimosa | 60 |
-| Unknown Stealer | 57 |
-| Unknown malware | 47 |
-| php.shin_webshell | 40 |
-| Remcos | 25 |
-| WARDENStealer | 24 |
+| ClingSTUN Turns Vulnerable Edge Devices Into Attacker Infrastructure | 57 |
+| php.shin_webshell | 52 |
+| ClearFake | 43 |
+| Unknown malware | 41 |
+| Remcos | 33 |
+| Unknown Loader | 29 |
+| WARDENStealer | 28 |
+| GHOSTBLADE | 18 |
+| 2026 Q3 Linux SSH Server Targeted Malware Statistics Report | 15 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 138 |
-| `wazuh/cti_dominio` | 592 |
-| `wazuh/cti_url` | 1220 |
-| `wazuh/cti_hash` | 159 |
-| `wazuh/cti_cve_kev` | 12 |
-| `splunk/cti_ip.csv` | 138 |
-| `splunk/cti_dominio.csv` | 592 |
-| `splunk/cti_url.csv` | 1220 |
-| `splunk/cti_hash.csv` | 159 |
-| `splunk/cti_cve_kev.csv` | 12 |
-| `sentinel/CTI_Ip.csv` | 138 |
-| `sentinel/CTI_Dominio.csv` | 592 |
-| `sentinel/CTI_Url.csv` | 1220 |
-| `sentinel/CTI_Hash.csv` | 159 |
-| `elastic/cti_ip.ndjson` | 138 |
-| `elastic/cti_dominio.ndjson` | 592 |
-| `elastic/cti_url.ndjson` | 1220 |
-| `elastic/cti_hash.ndjson` | 159 |
+| `wazuh/cti_ip` | 174 |
+| `wazuh/cti_dominio` | 291 |
+| `wazuh/cti_url` | 1142 |
+| `wazuh/cti_hash` | 120 |
+| `wazuh/cti_cve_kev` | 15 |
+| `splunk/cti_ip.csv` | 174 |
+| `splunk/cti_dominio.csv` | 291 |
+| `splunk/cti_url.csv` | 1142 |
+| `splunk/cti_hash.csv` | 120 |
+| `splunk/cti_cve_kev.csv` | 15 |
+| `sentinel/CTI_Ip.csv` | 174 |
+| `sentinel/CTI_Dominio.csv` | 291 |
+| `sentinel/CTI_Url.csv` | 1142 |
+| `sentinel/CTI_Hash.csv` | 120 |
+| `elastic/cti_ip.ndjson` | 174 |
+| `elastic/cti_dominio.ndjson` | 291 |
+| `elastic/cti_url.ndjson` | 1142 |
+| `elastic/cti_hash.ndjson` | 120 |
 
 ## Como se instala cada una
 
