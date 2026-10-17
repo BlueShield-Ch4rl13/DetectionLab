@@ -1,3 +1,5 @@
+CVE-2026-102764:BeyondTrust Remote Support
+CVE-2025-61624:Fortinet Multiple Products
 CVE-2026-21589:Atlassian Multiple Products
 CVE-2026-105134:Ahsay AhsayCBS
 CVE-2026-76519:Cisco Secure Email Gateway
@@ -11,5 +13,3 @@ CVE-2023-22894:Strapi Strapi
 CVE-2021-3199:ONLYOFFICE Docs
 CVE-2015-3306:ProFTPD ProFTPD
 CVE-2026-88779:Citrix NetScaler
-CVE-2026-102490:Zammad GmbH Zammad
-CVE-2026-102489:Zammad GmbH Zammad

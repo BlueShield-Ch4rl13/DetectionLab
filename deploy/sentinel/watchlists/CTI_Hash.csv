@@ -1,45 +1,113 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto
-e10361a11f8a7f232ac3cb2125c1875a0a69a3e4,filehash-sha1,DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel,baja,25,,,OTX,2026-10-15T13:58:56
-9f1f11a708d393e0a4109ae189bc64f1f3e312653dcf317a2bd406f18ffcc507,filehash-sha256,DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel,baja,25,,,OTX,2026-10-15T13:58:56
-2915b3f8b703eb744fc54c81f4a9c67f,filehash-md5,DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel,baja,25,,,OTX,2026-10-15T13:58:56
-97b70e89b5313612a9e7a339ee82ab67,filehash-md5,DragonForce Ransomware Profile: From Affiliate Program to Cybercrime Cartel,baja,25,,,OTX,2026-10-15T13:58:56
-255869de85e2a171993fc5eb8a556d873a1b8966e040f6f55926f2fa2d595cc8,filehash-sha256,Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware,baja,25,,,OTX,2026-10-15T12:22:57
-63c2963a7abc1e4ee083275e5582a52f1101dba9905fd35498726359abf95a71,filehash-sha256,Exposing AdFection: How Discover-Tech Turned Targeted Ads Into a Pipeline for Zero-Click Mercenary Spyware,baja,25,,,OTX,2026-10-15T12:22:57
-bf037920d39b85572ec7e53b51f09c28198c2c0afbc7c7d6cf639b1f047caebf,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-752c8e64af60960b85cf00e4bd34eb459e24b7939464f718ec18494df43b4b69,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-0adc8e83b2416c275b1283916d70568faddeb6d718eb45f9addfb0938db245b3,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-6655b89b9885483d459c73f2a52e3cec121de5c5956172a8676a0f4c2de94999,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-780bbdbb119befd4eb16e0c2ec0c64e7bedc1b53ce4f85804aea091a6e3af519,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-2fb80e2221bd304e7cd5ac04169e71807ad92d19836f1aaf7885295cb90b2d94,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-73dbac0907e8a092cd978f2787ab1994946f5da1e08f2bdbd05ea52e80cdb896,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-07bc2e3a1d14743cc44f1dc4c78d15d0f2b458b39fb48422b13df40fc662ba21,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-c533570fd7cd7eaf5478317b03ea5750d03797aa4d11ebd96555b6cb708c63f2,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-6350dfee6975a9b159c5a57a3e97f757b0b02fd2dc708016fa6d7270e720c865,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-36af3acc78058023cdcf9307bc15be640be9425de97e574fdaf42d03d308725b,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-039240551f88b0064b2615dffdc1321b1e7c58e3f617ac138a65a6d59400b331,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-0e38bd3c30a4ca08641240ce95b5b6ba593e131213ca1b2a28da4e0385fcabc4,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-3b4547f0d7549274f366cd9568b3d302c1e80e1b89359da681beb47260ec7975,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-b590235493487c51f7050b341c9b2450e4f761ad6055207e4f6daf0cecae271c,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-e374f9ff5094f728528efa566c3de1b7fea7d95f497242a01fffa6c70b5eb768,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-f779314b1a5a0b297fd4e2a5f9c1e40d387b3e7c401d42324b556a70f813840e,filehash-sha256,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-6e63e3a84740395c886c86f5a62f09ba,filehash-md5,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-bcb060fa1c89e9b07334a12e7891619e,filehash-md5,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-98c6649cc256dfadf1af939da46f037b05c0f2e5,filehash-sha1,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-e3af6d9e3b35e5e04feda3cde96256dd3b099624,filehash-sha1,Aoki: Infostealer Targets AI Coding Assistant Credentials,baja,25,,,OTX,2026-10-15T12:11:48
-8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-b9fb0b27ddd59b58d3ae53c7227298a3e0de1e6f868b9429ae21533bb9cd1e70,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-829b1cd270b30565739a478441833f49f10a49bd06f0d18cc96c8ae4a0431f11,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-bd064244dad748cf2a44074bee56f5bfab4a2b18ee944b75d1b3febd4c1fe02a,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-9c4c4436ff5cdf0d6d68f5108031cbf3708a095cde4ef8c09316af7a7110437e,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-fc1b10c58057ef9f1f9a1e2a3d4a1c89f43b0ead451398c70ed7a6e0312b36ee,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-f84eea718526706afdf2d1a2774fab76ecb11c18fb61995a37be8249c5e379ab,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-b7ae166fd49a7ecfe6322a80b8aa56d6aa0825d8f5d106dab2e4fb7d14ce15a8,filehash-sha256,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-30fbcd20a44e913f2dfdaa813f8778c699a4b613,filehash-sha1,PEERSTITCH  a Stealthy FortiGate Implant,baja,25,,,OTX,2026-10-14T22:59:45
-3ccd2c02cf0661613816ca30032b4cdd,filehash-md5,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-3b14859a3a1219515f89ff453c7031f3dc8a95d7,filehash-sha1,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-0097a0406be20544e98e981075427f40789db40fe4a53b1b4523383a945328b7,filehash-sha256,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-2e45277acfde3fb704179476b08f428f66a03670bbdbf2e8ec79c0b0333c009b,filehash-sha256,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-425cd7072b5e9386ac94e97fe272980b6ef36240df6b5d77b371ab7378004c83,filehash-sha256,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-b2270c29b3d0a49a716730d6ef108cffec0b1a4b159dd02e93333fb85e492b99,filehash-sha256,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-d51f2bd7ffb49c224d8eaec2c8ca1c8ab9fce2fd5fdceea01eb54296c2f47b4d,filehash-sha256,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
-f796eb9ecf516e4f1fafcf89200d9f7d8ddd234f705e63f1bc8fc3ef583f0248,filehash-sha256,Hirudo: From Fake Updates to Patched Banking Apps,baja,25,,,OTX,2026-10-14T13:35:48
+9297d5fd21ef21b16f5880cd4faea2ad1fb9ee39,filehash-sha1,SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia,baja,25,,,OTX,2026-09-16T17:20:49
+27e072b92b5ac9e3e2a6770bef3e84bdf864b0611d3bc9caca12be2b1a63dae4,filehash-sha256,SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia,baja,25,,,OTX,2026-09-16T17:20:49
+e9d0e8b8a33858a7a5a46f78d7a78f9aa7f9b029348d9b618c6a6a1937a39382,filehash-sha256,SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia,baja,25,,,OTX,2026-09-16T17:20:49
+2ed675d3342f069b6ebb090ee8085f43,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+7899b3e9e899acc932c7839d37ef0c74,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+89706fa83374ddd3d52ac569d876ac6a,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+a3dc3ee464737dd74c20ec771deaac4d,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+a8619784bfe927e551e831d4adaf8ba5,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+05a873fcac5373d5c3b24b2541b7b861cc4c5c05,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+1a5f6531962a08b29c8b5f1572383b52434f1428,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+5a68ece20d05c755d20975b4e1794d0f531d2c19,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+69c3e85b5f1fc3b7787147b18e0158db32b0662c,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+dbded25e78aa62d963f676665020917da09d32e5,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+3ab56c9fb6b7c404c1e5b36788959c877ea819fb124c3847fa0498e9915ef9a7,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+7b82f08120e0d9b16cd5b9ec59d24fb68e35735c82311a233d370e7f264af650,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+8745e872ff8aa41b0e03737f76bf35b6c934106c987dff98afe34120e47caf91,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+b738c03fef5e3d26419e4aab1818a0a7ad206c67fb3eeedcdfb3ef1ee07eb620,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+b926cfcd3f4b07fe6001c39f46e40225ff8000411198d13782538d770c54ae5e,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+bba58f99e14e3512c04a5a74a079d7851abf935dd258cff4c80874ce7cfc82e3,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+bff3583d04f0d5603ced9831eb7c45c1923bd90e2f7d5e5d2b32942d38cf6dc5,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+c708d413720848f8788f43a4f47ddce016fca9af10c9ba4113f47bf2c9244dc5,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+d8f15ba122cd6da01f83fe05294df80a6eadbce0f66dac7c2bcc0904f066e0de,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+ddbd636f6dfd475dc0c75bf9f6f873fa35b9062dee9d37b3377ae7b9acdcd0c9,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+dede8bfb55c2e6479d89b1e73e0712791cf16a7179325804fc4bc13f708d08ae,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+e2db5db12564d2a9da7ef3a57aa23d95782f5eaddc8bd35eb7c35ae6b844a0f0,filehash-sha256,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+1d73a2c6c715051cdc5afd51248e96af,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+55748a44b217853f7eda25080045612b,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+92fccba38f921c45917e56db6cf12810,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+adb441372f365dcb1e59bcfc37a4ade8,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+d1cda5a35a2751fc5d7595917c992d65,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+19cec1db30a349e1fa2884f864153fd21a6733c8,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+2269b2690349a57203d6ab9a84828a7ff53b496c,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+798e0fc22b1646783fa65f1cc692fde635c0e5a8,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+7c049c51338b6485abb8368e32b0b09041d3e1d2,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+bcdcde73a38da486a24ebd93a6bdace8579563be,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+2e1b94d5e5d6f71cbc26c25184048729,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+88f548ea59edd3b934a671bd4a09a783,filehash-md5,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+9a822848a04915873deac85705d7375900755ae5,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+adcb507c3c3239fdbd62112168fcba3d72fcecfb,filehash-sha1,VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch,baja,25,,,OTX,2026-09-16T17:03:01
+6bd5c6af884d46638ebc60434cfd35b37c1d3dd4,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+40cab74bfacd7ba8fa46c8dcbdf7cae3,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+33641bfbbdd5a9cd2320c61f65fe446a2226d8a48e3bd3c29e8f916f0592575f,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+51aed28d3468de5e75addc467ba14389356afe896098e4e478efcd7bf79a65b9,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+7b63ddaf3b217f9e7b08575ee6f80fff1d2d9e12522d862ccc192ef3d08a0dd3,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+7aa50ba59b38494cc524dbd31519bd3a218133aed64d9037eef02d697b8e99d0,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+df603ed55cbf6f9d74068b956ab966a7b785eb102e1045f343d96255eb2cdc24,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+f1a04ffaa889c11b99b33610e4a87dec,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+199af4936e44ed894ea45b84500a84268792dca3,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+4f4d405d32d76a170ca2899c70b48ef6ffaaef792e024b6f8aab98d4ae55eae4,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+93b19bc56952ae1e82f1f41db49f455316736e2b8d161e64b115a150d8dcf204,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+0e8553970999b60c3a0a2637e0c282ca52b33d3e3ae88c99b6fa426bddc0075d,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+6aa982f7c6167752e8f58083dc5f1c11ff0aa63b3c3d2e192009cce2cef84ee0,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+3fc95667b98c637ba785b67dff1bd15ff7a21f082d25894c3a78ec1b6206fcd7,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+e17f76e0b4c47a5f54ca51b105be0dd29df50c7c,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+eff8675fac22c49107a2a42d3c735f10,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+8d9fa801432654ebfe456974bb355bd2,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+875108112d2fdfbdb04d75bbbe993b1ce8aea140,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+974e94efa9515e53d57b16f538c37bb9a81a39ee,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+3166ae39b46472d2ee53a880eb8248e0,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+69e8a73e215114989a0d9c5c9c666587057e2bcf1c29b1fb7d45e1cb38a715de,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+abf83c4d6bbf508504398ac56031c566ed662c3cc7e7b490494d9ee72eece870,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+a7632f145e45c8d932f6f1a8ccbbf65e7ae97b0d339c45dfb548e29186db1144,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+3c230061e5a16cc559b0a7f025f08250,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+4013ae1d401d214ccc6a391f48c65518,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+f2e641d14aaff8fa4872a157d9d1be82,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+3a05ce5e3eea58d50deb3d12d9f004486cd41efb,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+d6b243db1dbca54dace22f067d2e52938460410b,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+fd4bf20350133d8f8c12ed6047853571d89209df,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+c40eac770e2bc5081175b782c4455d977ccff123571a73c3ab8c8c882db38b85,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+ba2ff4a8b689fab54670cf87b4008528,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+dd0012a6ba2ffda25354d1a998178b9dce62a482,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+ca114fe4812a708cd1d36320703beccc6fb927e2,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+668dcf124501c1767d4ebc19f29cb44d6474cbff28947d63a695628f467b6345,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+7436b37fae21f04841e667cae15d8b6b7d67e7e5,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+f070ad0d01de3696b7452420a8fdd254,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+832e5ff3482cd9e4fba4e2fe22799cd8,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+ebda1aecbe1a9cf37f2b0f1cf2adf827e0d0189d,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+f25237d11c4d0aa0224d20b7a4f7815dc4971102d2584e991195d1dbc7b8d82d,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+63af61806ff5060c77a526375f843c29,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+1a6dcfa8d4a429f5511ba3cf83addabd,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+d3cb5381f5743b539630b4094214b44f623c650a,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+bd113d6b2cfba5ab2780c313c01d87896c64f91376903efc62ba01a242f59327,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+5b11b38bf0eb3f0952f306ad5be9d5eb,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+99fbd400260206d8480d97d2a1f1b0de9c0bb44b,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+26f33ae36ad05582393a6d6ec6cb3273,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+313ebf27b9e1a2f1a3b6457d2418b5a60f8525d7,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+1aa9416b733743f534abea90982dcd16,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+5f283f5a5eb22bfeb153756a81728bf5d5c6ee71,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+4a607e36da0a287135c1e5e0dae3827674d6ef42a8cd473f8c848d1b578a2bd9,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+bb80bf8f63f1673488b1e9cf14e2e979,filehash-md5,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+8f8f8a6b6e460ed64d53052334659fe4c558c999,filehash-sha1,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+91dfe3049b9de072378178064f2a248efa13dcdc23e0b51e578a5f4378e2b827,filehash-sha256,Noodle RAT: A Recipe for Cross Platform Espionage,baja,25,,,OTX,2026-09-16T17:03:01
+00ea1da4192a2030f9ae023de3b3143ed647bbab,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+2a3ff8f8ea94d4052fe2a7314c4098aa,filehash-md5,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+4bc008f4b8da0dd90d282f50030ac78e,filehash-md5,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+11306e7cc9aa68fddb63c766d2606d46181af38c,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+1c5454be00f4c3c5aed4a8a54bf81c83e84953a3,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+1df5de857b627b171586b4b0ac800e285faa0c44,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+2ae7494b60277582bd380bc4195964128341f314,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+532511730d540422157dc4284f400b5cc83edeb5,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+6bfef63fd12701f125e49b7d17388e6502b6c090,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+6f7e7a6d99270b2ff330dd0c9707b3b772301104,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+728601a30d22a2ad8514f366cc9cc9d829e9f10a,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+754bf10bc98df84cf6d7ffbf19138805642b1979,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+b9c5941aab2889700377dc9d52130d2dcf407146,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+c332e3b49bb9d68e6fc7e9df933c5ba144cce3f8,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+c61bab62a306d5fdb51a991a017fa351186b664b,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+fbc6a7525ae1e80342ecf0539026f2375b97b03d,filehash-sha1,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+12a2974fe4af869fefb66886b4a2a6f34d358a54038c3424635fee5e5fae111e,filehash-sha256,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+598764b174f35ca76586bd0036a3caf87538aec52a1f95cf1c4ce25e027cf71f,filehash-sha256,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+62e0383b93de31204574ab52d136c58469e710ce38d2d7f061438ab5abbd76f7,filehash-sha256,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35
+1440e142dcf7f00c6385de1ca910210f,filehash-md5,The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions,baja,25,,,OTX,2026-09-16T10:28:35

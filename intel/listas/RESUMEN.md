@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-16 04:11 UTC  
-**Listas generadas:** 2026-10-16T10:25:25Z  
+**Feed generado:** 2026-10-17 04:02 UTC  
+**Listas generadas:** 2026-10-17T09:57:03Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 190 | Caza programada, no alerta directa |
-| Dominio | 444 | Caza programada, no alerta directa |
-| URL | 1117 | Caza programada, no alerta directa |
-| Hash | 44 | **Alerta directa**: un hash coincide o no |
+| IP | 177 | Caza programada, no alerta directa |
+| Dominio | 162 | Caza programada, no alerta directa |
+| URL | 711 | Caza programada, no alerta directa |
+| Hash | 112 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 15 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (725 de 2561)
+## Que se descarto del feed (1077 de 2292)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 590 |
-| nivel bajo | 135 |
+| tipo no usado | 990 |
+| nivel bajo | 87 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Vidar | 989 |
-| IClickFix | 159 |
+| Vidar | 495 |
+| Unknown malware | 115 |
 | malware_download | 100 |
-| Unknown Loader | 90 |
-| vSkimmer | 63 |
-| Remus | 50 |
-| VShell | 48 |
-| php.shin_webshell | 45 |
-| Remcos | 31 |
-| Unknown malware | 27 |
-| ClearFake | 26 |
-| Aoki: Infostealer Targets AI Coding Assistant Credentials | 21 |
+| Noodle RAT: A Recipe for Cross Platform Espionage | 53 |
+| php.shin_webshell | 40 |
+| VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch | 37 |
+| VShell | 35 |
+| Unknown Loader | 29 |
+| Remcos | 24 |
+| ClearFake | 24 |
+| IClickFix | 23 |
+| The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions | 20 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 190 |
-| `wazuh/cti_dominio` | 444 |
-| `wazuh/cti_url` | 1117 |
-| `wazuh/cti_hash` | 44 |
+| `wazuh/cti_ip` | 177 |
+| `wazuh/cti_dominio` | 162 |
+| `wazuh/cti_url` | 711 |
+| `wazuh/cti_hash` | 112 |
 | `wazuh/cti_cve_kev` | 15 |
-| `splunk/cti_ip.csv` | 190 |
-| `splunk/cti_dominio.csv` | 444 |
-| `splunk/cti_url.csv` | 1117 |
-| `splunk/cti_hash.csv` | 44 |
+| `splunk/cti_ip.csv` | 177 |
+| `splunk/cti_dominio.csv` | 162 |
+| `splunk/cti_url.csv` | 711 |
+| `splunk/cti_hash.csv` | 112 |
 | `splunk/cti_cve_kev.csv` | 15 |
-| `sentinel/CTI_Ip.csv` | 190 |
-| `sentinel/CTI_Dominio.csv` | 444 |
-| `sentinel/CTI_Url.csv` | 1117 |
-| `sentinel/CTI_Hash.csv` | 44 |
-| `elastic/cti_ip.ndjson` | 190 |
-| `elastic/cti_dominio.ndjson` | 444 |
-| `elastic/cti_url.ndjson` | 1117 |
-| `elastic/cti_hash.ndjson` | 44 |
+| `sentinel/CTI_Ip.csv` | 177 |
+| `sentinel/CTI_Dominio.csv` | 162 |
+| `sentinel/CTI_Url.csv` | 711 |
+| `sentinel/CTI_Hash.csv` | 112 |
+| `elastic/cti_ip.ndjson` | 177 |
+| `elastic/cti_dominio.ndjson` | 162 |
+| `elastic/cti_url.ndjson` | 711 |
+| `elastic/cti_hash.ndjson` | 112 |
 
 ## Como se instala cada una
 
