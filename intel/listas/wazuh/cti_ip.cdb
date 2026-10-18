@@ -1,177 +1,104 @@
-72.167.43.61:Mirai|alta
-103.18.14.157:Mirai|alta
-220.74.36.3:Mirai|alta
-142.93.140.36:Mirai|alta
-143.110.153.215:Mirai|alta
 54.215.31.113:Remus|alta
-92.232.113.29:Mirai|alta
+130.12.180.32:Unknown malware|alta
+38.43.93.61:Mirai|alta
+85.215.45.36:Unknown malware|alta
 130.12.180.42:Unknown malware|alta
-45.153.34.235:Mirai|alta
-91.92.43.221:Mirai|alta
-216.9.225.228:Unknown malware|alta
-174.138.41.23:Jackskid|media
-107.172.22.3:Sliver|media
-64.227.97.214:Sliver|media
-104.248.206.134:Drifter|media
-153.218.25.149:Mirai|media
-46.101.249.247:Drifter|media
-85.215.45.36:Mirai|media
-138.68.134.9:Drifter|media
-185.228.72.128:Unknown malware|media
-38.60.227.210:VShell|media
-185.165.171.21:Unknown malware|media
-45.92.16.135:Remcos|media
-204.194.54.209:VShell|media
-170.39.218.67:Mirai|media
-129.212.235.74:Aisuru|media
-134.209.156.186:Drifter|media
-157.230.122.72:Drifter|media
-157.245.241.230:Jackskid|media
-45.124.76.156:VShell|media
-152.42.135.240:Drifter|media
-178.128.245.68:Drifter|media
-47.236.130.154:Cobalt Strike|media
-159.203.38.220:Aisuru|media
+157.230.108.74:Aisuru|media
+74.208.19.244:Unknown malware|media
+102.220.161.63:CECbot|media
+185.228.72.128:Mirai|media
 43.161.252.125:Unknown malware|media
-159.223.89.103:Drifter|media
-188.166.152.179:Drifter|media
-152.42.212.170:Jackskid|media
-157.230.241.185:Jackskid|media
-178.128.8.22:Jackskid|media
-192.169.69.25:Nanocore RAT|media
-84.201.25.64:Remcos|media
-47.76.205.190:ValleyRAT|media
-178.16.53.76:Aisuru|media
-8.162.0.192:NjRAT|media
-118.195.204.153:VShell|media
-74.152.32.55:Quasar RAT|media
-159.223.238.117:Sliver|media
-172.161.52.140:Sliver|media
-189.249.195.244:Sliver|media
-212.127.78.198:Sliver|media
-115.190.230.156:VShell|media
-18.179.34.241:Unknown malware|media
+45.130.147.87:Cobalt Strike|media
+39.105.111.104:VShell|media
+172.94.58.29:Remcos|media
+77.90.185.105:Remcos|media
+95.214.181.145:VShell|media
+15.207.73.20:Unknown malware|media
+156.238.224.156:VShell|media
+47.113.227.139:VShell|media
 162.14.122.146:Cobalt Strike|media
-45.79.198.116:Havoc|media
-206.123.137.130:Remcos|media
-36.138.222.185:VShell|media
-38.147.164.81:VShell|media
-38.207.177.34:VShell|media
-38.55.199.242:VShell|media
-43.247.135.106:VShell|media
-43.255.157.92:VShell|media
-45.136.14.91:VShell|media
-45.221.115.76:VShell|media
-45.77.26.165:VShell|media
-45.77.28.40:VShell|media
-104.194.88.185:VShell|media
-107.173.13.251:VShell|media
-108.160.138.37:VShell|media
-122.51.247.79:VShell|media
-146.235.216.7:VShell|media
-149.28.30.98:VShell|media
-159.100.9.55:VShell|media
-160.202.230.186:VShell|media
-166.1.62.74:VShell|media
-185.230.143.99:VShell|media
-206.206.127.221:VShell|media
-207.148.72.117:VShell|media
-207.148.77.74:VShell|media
-207.57.128.50:VShell|media
-23.95.201.248:VShell|media
-103.75.190.47:VShell|media
-103.82.53.214:ValleyRAT|media
-175.124.145.102:Cobalt Strike|media
-94.154.40.109:Remcos|media
-195.26.86.171:Coinminer|media
-172.94.125.196:Remcos|media
+31.76.100.248:Hermes|media
+45.95.99.195:Hermes|media
+45.131.214.148:Hermes|media
+45.142.182.137:Hermes|media
+91.92.243.7:Hermes|media
+107.149.8.243:Hermes|media
+109.238.87.241:Hermes|media
+158.94.211.124:Hermes|media
+163.5.210.203:Hermes|media
+172.245.25.133:Hermes|media
+192.109.139.89:Hermes|media
+192.109.139.94:Hermes|media
+194.59.31.200:Hermes|media
+194.102.104.223:Hermes|media
+216.158.95.183:Hermes|media
+217.217.97.60:Hermes|media
+104.237.154.191:Sliver|media
+106.55.34.199:Sliver|media
+145.223.68.204:Sliver|media
+43.155.215.231:Sliver|media
+64.227.35.8:Havoc|media
 178.16.53.68:Aisuru|media
-155.103.70.232:Remcos|media
-102.117.161.162:Unknown malware|media
+185.99.135.110:Remcos|media
 100.53.215.212:Havoc|media
-206.123.152.67:Remcos|media
-102.134.35.205:Cobalt Strike|media
-45.87.53.10:Cobalt Strike|media
-45.87.53.9:Cobalt Strike|media
-45.87.53.8:Cobalt Strike|media
-45.87.53.7:Cobalt Strike|media
-155.103.71.194:Remcos|media
-83.229.120.73:VShell|media
-144.202.10.28:VShell|media
-111.238.48.218:VShell|media
-106.54.240.229:VShell|media
-104.248.87.24:Drifter|media
-178.128.197.163:Drifter|media
-46.101.198.130:Drifter|media
-173.249.24.135:Sliver|media
-193.25.217.103:Cobalt Strike|media
-104.248.154.184:Aisuru|media
-206.123.152.207:Remcos|media
-63.186.47.151:Unknown malware|media
-31.56.19.141:Potassium|media
-31.56.19.142:Potassium|media
-31.56.19.143:Potassium|media
-31.56.19.144:Potassium|media
-31.56.19.146:Potassium|media
-31.56.19.147:Potassium|media
-31.56.19.149:Potassium|media
-46.249.101.141:Remus|media
-152.32.133.192:Unknown malware|media
-129.121.62.230:Sliver|media
-188.190.9.250:Sliver|media
-45.207.219.249:Sliver|media
-44.214.239.245:Cobalt Strike|media
-192.227.171.206:Cobalt Strike|media
-134.122.183.131:ValleyRAT|media
-185.113.10.26:GRIDTIDE|media
+89.167.123.84:Vidar|media
+139.162.142.13:Vidar|media
+139.162.142.16:Vidar|media
+139.162.142.22:Vidar|media
+172.233.54.153:Vidar|media
+172.237.117.11:Vidar|media
+217.60.103.223:Vidar|media
+45.140.13.203:Vidar|media
+31.6.11.228:AsyncRAT|media
+51.255.5.121:Unknown malware|media
+103.115.57.95:VShell|media
+203.91.78.218:VShell|media
+43.247.135.185:Unknown malware|media
+47.236.70.111:Unknown malware|media
+106.14.56.196:VShell|media
+192.169.69.25:Nanocore RAT|media
+15.235.65.221:Remcos|media
 117.72.220.70:Cobalt Strike|media
-64.188.115.190:AdaptixC2|media
-38.60.229.167:AdaptixC2|media
-38.127.61.130:PureRAT|media
-31.57.38.147:PureRAT|media
-31.56.209.55:PureRAT|media
-217.60.10.235:Unknown malware|media
-20.65.146.38:AdaptixC2|media
-193.222.99.152:PureRAT|media
-192.229.106.30:PureRAT|media
-192.229.106.32:PureRAT|media
-185.93.221.10:Evilginx|media
-185.101.104.85:PureRAT|media
-167.148.41.45:PureRAT|media
-144.172.84.23:Unknown malware|media
-140.228.29.131:PureRAT|media
-13.140.145.60:PureRAT|media
-124.223.188.23:Cobalt Strike|media
-1.117.74.144:Cobalt Strike|media
-209.54.102.133:XWorm|media
+154.8.209.118:VShell|media
+3.110.189.136:VShell|media
+176.65.139.168:Unknown malware|media
+46.246.12.11:AsyncRAT|media
+91.92.243.15:AsyncRAT|media
+194.59.31.123:PureRAT|media
+181.235.13.54:AsyncRAT|media
+92.242.33.17:AdaptixC2|media
+185.213.19.130:AdaptixC2|media
 94.154.32.27:PureRAT|media
-69.167.28.74:DCRat|media
-64.95.12.113:AdaptixC2|media
-54.38.94.225:Eye Pyramid|media
-46.246.12.13:AsyncRAT|media
-45.139.104.29:PureRAT|media
-34.187.60.230:Unknown malware|media
-23.171.177.41:PureRAT|media
-216.9.225.201:AsyncRAT|media
-194.238.79.231:PureRAT|media
-166.0.22.206:Evilginx|media
-104.219.236.166:PureRAT|media
-102.220.161.195:Remcos|media
-192.163.168.80:Unknown malware|media
-111.90.143.39:Unknown Loader|media
+50.114.184.21:PureRAT|media
+45.192.211.99:PureRAT|media
+192.253.229.236:PureRAT|media
+69.165.75.89:AdaptixC2|media
+45.77.180.52:AdaptixC2|media
+38.247.162.89:PureRAT|media
+194.238.29.124:Mirai|media
+161.35.63.251:AdaptixC2|media
+46.30.191.204:Tsundere|media
+207.189.17.124:PureRAT|media
+202.146.222.115:PureRAT|media
+169.58.166.187:Unknown malware|media
+160.250.180.191:PureRAT|media
+103.179.142.155:Unknown Loader|media
+37.72.168.199:PureRAT|media
+194.59.30.241:PureRAT|media
+173.214.166.123:AsyncRAT|media
+172.93.110.43:PureRAT|media
+172.236.139.203:Unknown malware|media
+149.60.22.4:Unknown malware|media
+147.124.214.23:PureRAT|media
+128.90.167.106:AsyncRAT|media
+102.117.162.249:Unknown malware|media
+155.103.71.171:Remcos|media
+190.32.99.7:Mirai|media
+155.103.71.190:Remcos|media
+179.61.223.178:Antidot|media
+50.114.167.183:Sliver|media
+193.200.229.35:Antidot|media
+111.248.195.160:Mirai|media
+171.4.187.134:Mirai|media
 167.233.240.6:Unknown RAT|media
 178.104.232.30:Unknown RAT|media
-109.122.18.50:SpyNote|media
-114.55.26.57:Unknown malware|media
-4.207.192.164:Unknown malware|media
-47.97.206.32:Cobalt Strike|media
-106.55.253.229:Cobalt Strike|media
-106.12.61.28:Cobalt Strike|media
-169.58.53.135:Sliver|media
-41.232.4.27:NjRAT|media
-54.199.35.147:Brute Ratel C4|media
-20.111.19.203:AdaptixC2|media
-47.237.253.174:AdaptixC2|media
-8.137.187.63:Unknown malware|media
-195.72.189.19:Unknown malware|media
-178.16.54.148:VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch|media
