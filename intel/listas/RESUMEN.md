@@ -3,19 +3,19 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-20 04:30 UTC  
-**Listas generadas:** 2026-10-20T10:44:47Z  
+**Feed generado:** 2026-10-21 04:20 UTC  
+**Listas generadas:** 2026-10-21T10:56:37Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 131 | Caza programada, no alerta directa |
-| Dominio | 185 | Caza programada, no alerta directa |
-| URL | 488 | Caza programada, no alerta directa |
-| Hash | 101 | **Alerta directa**: un hash coincide o no |
-| CVE en KEV | 14 | Priorizacion de parcheo y caza de explotacion |
+| IP | 128 | Caza programada, no alerta directa |
+| Dominio | 279 | Caza programada, no alerta directa |
+| URL | 727 | Caza programada, no alerta directa |
+| Hash | 79 | **Alerta directa**: un hash coincide o no |
+| CVE en KEV | 20 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
 
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (572 de 1536)
+## Que se descarto del feed (1011 de 2244)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 488 |
-| nivel bajo | 84 |
+| tipo no usado | 956 |
+| nivel bajo | 55 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Vidar | 327 |
+| Vidar | 382 |
+| Remus | 175 |
 | malware_download | 100 |
-| Unknown malware | 88 |
-| BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure | 69 |
-| ClearFake | 41 |
-| php.shin_webshell | 32 |
-| Remcos | 21 |
-| SMSspy | 20 |
-| Unknown Loader | 16 |
-| VShell | 15 |
-| Sliver | 10 |
-| Hermes | 10 |
+| Unknown malware | 99 |
+| IClickFix | 79 |
+| VShell | 46 |
+| php.shin_webshell | 40 |
+| ClearFake | 36 |
+| Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries | 34 |
+| Unknown Loader | 33 |
+| MacSync | 29 |
+| Remcos | 19 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 131 |
-| `wazuh/cti_dominio` | 185 |
-| `wazuh/cti_url` | 488 |
-| `wazuh/cti_hash` | 101 |
-| `wazuh/cti_cve_kev` | 14 |
-| `splunk/cti_ip.csv` | 131 |
-| `splunk/cti_dominio.csv` | 185 |
-| `splunk/cti_url.csv` | 488 |
-| `splunk/cti_hash.csv` | 101 |
-| `splunk/cti_cve_kev.csv` | 14 |
-| `sentinel/CTI_Ip.csv` | 131 |
-| `sentinel/CTI_Dominio.csv` | 185 |
-| `sentinel/CTI_Url.csv` | 488 |
-| `sentinel/CTI_Hash.csv` | 101 |
-| `elastic/cti_ip.ndjson` | 131 |
-| `elastic/cti_dominio.ndjson` | 185 |
-| `elastic/cti_url.ndjson` | 488 |
-| `elastic/cti_hash.ndjson` | 101 |
+| `wazuh/cti_ip` | 128 |
+| `wazuh/cti_dominio` | 279 |
+| `wazuh/cti_url` | 727 |
+| `wazuh/cti_hash` | 79 |
+| `wazuh/cti_cve_kev` | 20 |
+| `splunk/cti_ip.csv` | 128 |
+| `splunk/cti_dominio.csv` | 279 |
+| `splunk/cti_url.csv` | 727 |
+| `splunk/cti_hash.csv` | 79 |
+| `splunk/cti_cve_kev.csv` | 20 |
+| `sentinel/CTI_Ip.csv` | 128 |
+| `sentinel/CTI_Dominio.csv` | 279 |
+| `sentinel/CTI_Url.csv` | 727 |
+| `sentinel/CTI_Hash.csv` | 79 |
+| `elastic/cti_ip.ndjson` | 128 |
+| `elastic/cti_dominio.ndjson` | 279 |
+| `elastic/cti_url.ndjson` | 727 |
+| `elastic/cti_hash.ndjson` | 79 |
 
 ## Como se instala cada una
 

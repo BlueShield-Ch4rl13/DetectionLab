@@ -1,4 +1,10 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-106931,EG Secure Solutions,SiteGuard Server Edition,EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability,2026-10-20,Unknown
+CVE-2026-96656,Plex,Media Server,Plex Media Server External Control of File Name or Path Vulnerability,2026-10-20,Unknown
+CVE-2026-96655,Plex,Media Server,Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability,2026-10-20,Unknown
+CVE-2026-96654,Plex,Media Server,Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability,2026-10-20,Unknown
+CVE-2026-96652,Plex,Media Server,Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability,2026-10-20,Unknown
+CVE-2026-110936,Siemens,Software Center,Siemens Software Center Uncontrolled Search Path Element Vulnerability,2026-10-20,Unknown
 CVE-2026-102764,BeyondTrust,Remote Support,BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability,2026-10-16,Unknown
 CVE-2025-61624,Fortinet,Multiple Products,Fortinet Multiple Products Path Traversal Vulnerability,2026-10-16,Unknown
 CVE-2026-21589,Atlassian,Multiple Products,Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability,2026-10-15,Unknown
