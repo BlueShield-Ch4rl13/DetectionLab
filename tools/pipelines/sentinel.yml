@@ -35,9 +35,16 @@ priority: 5
 #            resource = tostring(e.objectRef.resource),
 #            subresource = tostring(e.objectRef.subresource),
 #            apiGroup = tostring(e.objectRef.apiGroup),
-#            privileged = tostring(e.responseObject.spec.containers[0].securityContext.privileged),
-#            capabilities = tostring(e.requestObject.spec.containers[0].securityContext.capabilities.add),
-#            hostPath = tostring(e.requestObject.spec.volumes[0].hostPath.path)
+#   // Una fila por contenedor (tambien initContainers) y por volumen: con
+#   // containers[0] un segundo contenedor privilegiado pasaba sin alerta.
+#   | extend contenedores = array_concat(
+#         iff(isnull(e.requestObject.spec.containers), dynamic([{}]), e.requestObject.spec.containers),
+#         iff(isnull(e.requestObject.spec.initContainers), dynamic([]), e.requestObject.spec.initContainers)),
+#            volumenes = iff(isnull(e.requestObject.spec.volumes), dynamic([{}]), e.requestObject.spec.volumes)
+#   | mv-expand c = contenedores, v = volumenes
+#   | extend privileged = tostring(c.securityContext.privileged),
+#            capabilities = tostring(c.securityContext.capabilities.add),
+#            hostPath = tostring(v.hostPath.path)
 #
 # Con una tabla propia alimentada por Fluent Bit las columnas ya vienen planas y
 # no hace falta el extend.

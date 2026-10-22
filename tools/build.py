@@ -132,6 +132,27 @@ def leer(fichero: Path) -> dict:
     return {}
 
 
+# Campo por el que Splunk agrupa la supresion de cada busqueda. Sin
+# alert.suppress.fields, la supresion de 60 min es GLOBAL: la primera alerta
+# silencia la misma deteccion en todos los demas equipos o usuarios.
+CAMPO_SUPRESION = {
+    "windows": "host", "linux": "host", "macos": "host",
+    "kubernetes": "user.username", "azure": "userPrincipalName", "m365": "UserId",
+    "proofpoint": "recipient", "netskope": "user",
+    "proxy": "c-ip", "webserver": "c-ip", "dns": "src_ip", "firewall": "src_ip",
+}
+
+
+def campos_supresion(fichero: Path, doc: dict) -> str:
+    """Las claves de la supresion: las de la correlacion si la regla la tiene
+    (son las entidades que cuenta), si no, la entidad tipica de su fuente."""
+    for d in yaml.safe_load_all(fichero.read_text(encoding="utf-8")):
+        if d and isinstance(d.get("correlation"), dict) and d["correlation"].get("group-by"):
+            return ",".join(d["correlation"]["group-by"])
+    ls = doc.get("logsource") or {}
+    return CAMPO_SUPRESION.get(ls.get("product")) or CAMPO_SUPRESION.get(ls.get("category")) or "host"
+
+
 def tecnicas(doc: dict) -> list[str]:
     out = []
     for t in doc.get("tags", []) or []:
@@ -206,8 +227,9 @@ enableSched = 1
 alert.severity = {sev}
 alert.track = 1
 alert.suppress = 1
+alert.suppress.fields = {campos_supresion(f, doc)}
 alert.suppress.period = 60m
-alert.digest_mode = 1
+alert.digest_mode = 0
 counttype = number of events
 relation = greater than
 quantity = 0
@@ -238,6 +260,15 @@ def generar_kql(reglas, resultados, fallos) -> dict[str, str]:
             "//            resource = tostring(e.objectRef.resource),\n"
             "//            subresource = tostring(e.objectRef.subresource),\n"
             "//            apiGroup = tostring(e.objectRef.apiGroup)\n"
+            "//   // una fila por contenedor (e initContainer) y por volumen, no solo el primero\n"
+            "//   | extend contenedores = array_concat(\n"
+            "//         iff(isnull(e.requestObject.spec.containers), dynamic([{}]), e.requestObject.spec.containers),\n"
+            "//         iff(isnull(e.requestObject.spec.initContainers), dynamic([]), e.requestObject.spec.initContainers)),\n"
+            "//            volumenes = iff(isnull(e.requestObject.spec.volumes), dynamic([{}]), e.requestObject.spec.volumes)\n"
+            "//   | mv-expand c = contenedores, v = volumenes\n"
+            "//   | extend privileged = tostring(c.securityContext.privileged),\n"
+            "//            capabilities = tostring(c.securityContext.capabilities.add),\n"
+            "//            hostPath = tostring(v.hostPath.path)\n"
         ),
         "windows": (
             "// Las consultas sobre DeviceEvents (process_access, pipe_created,\n"
@@ -351,13 +382,40 @@ def telemetria_de(doc) -> str:
     return " / ".join(x for x in (cat, prod, ls.get("service")) if x) or "-"
 
 
+RESULTADOS_PURPLE = RAIZ / "purple" / "resultados.csv"
+
+
+def leer_resultados_purple() -> list[dict]:
+    """Las ejecuciones reales de Atomic Red Team que se han registrado.
+
+    Es la unica fuente de "validada": que una regla tenga una tecnica con
+    prueba en Atomic solo dice que se PUEDE emular, no que se haya hecho.
+    """
+    import csv
+    if not RESULTADOS_PURPLE.exists():
+        return []
+    with RESULTADOS_PURPLE.open(encoding="utf-8", newline="") as fh:
+        return [fila for fila in csv.DictReader(fh) if (fila.get("regla") or "").strip()]
+
+
 def generar_atomic_map(resultados_por_regla) -> str:
     """Construye purple/atomic-map.md desde las reglas: tecnica -> reglas que
-    la cubren -> prueba de Atomic Red Team -> telemetria donde se ve."""
+    la cubren -> prueba de Atomic Red Team -> telemetria donde se ve, y el
+    estado de validacion de cada regla segun purple/resultados.csv."""
     por_tecnica: dict[str, list] = defaultdict(list)
+    sin_tecnica = []
     for f, doc in resultados_por_regla:
-        for t in tecnicas(doc):
+        ts = tecnicas(doc)
+        if not ts:
+            sin_tecnica.append(f)
+        for t in ts:
             por_tecnica[t].append((f, doc))
+    registros = leer_resultados_purple()
+    detectadas = {r["regla"].strip() for r in registros if (r.get("detecto") or "").strip().lower() in ("si", "sí")}
+    probadas = {r["regla"].strip() for r in registros}
+    total = len(resultados_por_regla)
+    con_atomic = {f.stem for t, lista in por_tecnica.items()
+                  if t not in SIN_ATOMIC and t.split(".")[0] not in SIN_ATOMIC for f, _ in lista}
 
     partes = [
         "# 🟣 Mapeo Purple Team — Atomic Red Team ↔ Detecciones",
@@ -375,6 +433,18 @@ def generar_atomic_map(resultados_por_regla) -> str:
         "> Ejecuta las pruebas **solo en el laboratorio aislado**. Limpia siempre con",
         "> `-Cleanup`.",
         "",
+        "## Estado",
+        "",
+        "| | Reglas |",
+        "|---|---|",
+        f"| En el repositorio | {total} |",
+        f"| Con una técnica ATT&CK que se puede emular con Atomic Red Team | {len(con_atomic)} |",
+        f"| Probadas con Atomic y resultado registrado en `purple/resultados.csv` | {len(probadas)} |",
+        f"| De ellas, detectadas | {len(detectadas)} |",
+        "",
+        "Tener técnica a emular no es estar validada: solo cuenta como validada una",
+        "regla con una ejecución real registrada en `resultados.csv`.",
+        "",
         "```powershell",
         "Install-Module -Name Invoke-AtomicRedTeam -Scope CurrentUser",
         "Import-Module Invoke-AtomicRedTeam",
@@ -384,17 +454,33 @@ def generar_atomic_map(resultados_por_regla) -> str:
         "",
     ]
 
-    ORDEN = ["windows", "linux", "macos", "contenedores", "cloud", "correo", "red", "zta"]
+    ORDEN = ["windows", "linux", "macos", "contenedores", "cloud", "correo", "red", "web",
+             "exfiltracion", "xdr", "zta"]
     TITULOS = {
         "windows": "Windows — Sysmon y canal Security",
-        "linux": "Linux — auditd / Falco",
+        "linux": "Linux — Sysmon for Linux",
         "macos": "macOS — Endpoint Security Framework",
         "contenedores": "Contenedores — auditoría de Kubernetes y runtime",
         "cloud": "Nube e identidad — Entra ID, M365, CASB",
         "correo": "Correo — Proofpoint TAP y Exchange Online",
-        "red": "Red — proxy, DNS y servidor web",
+        "red": "Red — proxy y DNS",
+        "web": "Aplicaciones web — registro del servidor web",
+        "exfiltracion": "Exfiltración",
+        "xdr": "XDR — manipulación de la telemetría",
         "zta": "Arquitectura Zero Trust",
     }
+    # Cualquier carpeta de rules/ que no este arriba sale igual, al final: antes
+    # web/, exfiltracion/ y xdr/ no aparecian y sus reglas faltaban del mapa.
+    for dom in sorted({dominio(f) for f, _ in resultados_por_regla} - set(ORDEN)):
+        ORDEN.append(dom)
+        TITULOS[dom] = dom.capitalize()
+
+    def estado(stem: str) -> str:
+        if stem in detectadas:
+            return "✅"
+        if stem in probadas:
+            return "❌"
+        return "⬜"
 
     for dom in ORDEN:
         filas = []
@@ -402,9 +488,7 @@ def generar_atomic_map(resultados_por_regla) -> str:
             enDom = [(f, d) for f, d in por_tecnica[tec] if dominio(f) == dom]
             if not enDom:
                 continue
-            reglas = " · ".join(f"`{f.stem}`" for f, _ in enDom[:3])
-            if len(enDom) > 3:
-                reglas += f" · y {len(enDom) - 3} mas"
+            reglas = "<br>".join(f"{estado(f.stem)} `{f.stem}`" for f, _ in enDom)
             base = tec.split(".")[0]
             if tec in SIN_ATOMIC or base in SIN_ATOMIC:
                 prueba = "— " + SIN_ATOMIC.get(tec, SIN_ATOMIC.get(base, ""))
@@ -413,25 +497,30 @@ def generar_atomic_map(resultados_por_regla) -> str:
             filas.append(f"| {tec} | {prueba} | {reglas} | {telemetria_de(enDom[0][1])} |")
         if filas:
             partes += [f"## {TITULOS[dom]}", "",
-                       "| Técnica ATT&CK | Atomic Red Team | Regla(s) Sigma | Telemetría |",
+                       "| Técnica ATT&CK | Atomic Red Team | Regla(s) Sigma (✅ detectada · ❌ no detectó · ⬜ sin probar) | Telemetría |",
                        "|---|---|---|---|", *filas, ""]
+    if sin_tecnica:
+        partes += ["## Reglas sin técnica ATT&CK", "",
+                   *[f"- `{f.stem}`" for f in sorted(sin_tecnica)], ""]
 
+    filas_registro = [
+        f"| {r.get('fecha', '')} | {r.get('tecnica', '')} | {r.get('detecto', '')} | `{r.get('regla', '')}` "
+        f"| {r.get('siem', '')} | {r.get('notas', '')} |" for r in registros
+    ] or ["| — | — | — | — | — | Todavía no hay ninguna ejecución registrada |"]
     partes += [
         "## Registro de resultados",
         "",
-        "Rellena una fila por ronda de validación. Es lo que convierte la cobertura",
-        "declarada en cobertura comprobada: una regla sin probar no es cobertura, es",
-        "una hipótesis.",
+        "Sale de `purple/resultados.csv` (columnas `fecha,tecnica,regla,detecto,siem,notas`).",
+        "Una fila por prueba ejecutada de verdad en el laboratorio. Es lo que convierte",
+        "la cobertura declarada en cobertura comprobada: una regla sin probar no es",
+        "cobertura, es una hipótesis.",
         "",
-        "| Fecha | Técnica | ¿Detectó? | Regla | Notas |",
-        "|---|---|---|---|---|",
-        "|  |  | ⬜ |  |  |",
-        "|  |  | ⬜ |  |  |",
-        "|  |  | ⬜ |  |  |",
+        "| Fecha | Técnica | ¿Detectó? | Regla | SIEM | Notas |",
+        "|---|---|---|---|---|---|",
+        *filas_registro,
         "",
-        "Tras cada ronda: actualiza el registro, ajusta las reglas con falsos",
-        "positivos y vuelve a correr `python tools/validate.py` para regenerar el",
-        "mapa de cobertura.",
+        "Tras cada ronda: añade las filas al CSV, ajusta las reglas que no saltaron",
+        "y vuelve a correr `python tools/build.py` para regenerar este mapa.",
         "",
     ]
     return "\n".join(partes)

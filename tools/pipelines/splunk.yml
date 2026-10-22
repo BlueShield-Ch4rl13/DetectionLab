@@ -103,19 +103,24 @@ transformations:
         category: webserver
 
   # --- Endpoint Linux -------------------------------------------------
-  - id: linux_proceso
+  # Sysmon for Linux (Splunk Add-on for Sysmon for Linux, sourcetype
+  # sysmon:linux): tiene CommandLine, Image, ParentImage y User con los mismos
+  # nombres que las reglas Sigma de Linux. auditd (linux:audit) NO tiene
+  # CommandLine: con el se generaban consultas que no podian casar nunca.
+  - id: linux_sysmon
     type: add_condition
     conditions:
       index: endpoint
-      sourcetype: 'linux:audit'
+      sourcetype: 'sysmon:linux'
     rule_conditions:
       - type: logsource
-        category: process_creation
         product: linux
 
   # --- Endpoint macOS -------------------------------------------------
-  # ESF (Endpoint Security Framework) reenviado por el agente. Si la
-  # telemetria llega por osquery, cambia el sourcetype a 'osquery:results'.
+  # ESF (Endpoint Security Framework) reenviado por un EDR o por eslogger,
+  # normalizado a los nombres de Sysmon (Image, CommandLine, TargetFilename).
+  # AJUSTAR: el sourcetype y los nombres dependen de tu EDR. Si la telemetria
+  # llega por osquery, cambia el sourcetype a 'osquery:results'.
   - id: macos_proceso
     type: add_condition
     conditions:
@@ -142,6 +147,25 @@ transformations:
     conditions:
       index: k8s
       sourcetype: 'kube:apiserver:audit'
+    rule_conditions:
+      - type: logsource
+        product: kubernetes
+        service: audit
+
+  # El JSON de auditoria del API server anida los campos. Las listas
+  # (containers{}, volumes{}) se buscan en todos los elementos, no solo en el
+  # primero: con spath, un campo multivalor casa si casa cualquiera.
+  - id: k8s_campos
+    type: field_name_mapping
+    mapping:
+      username: user.username
+      namespace: objectRef.namespace
+      resource: objectRef.resource
+      subresource: objectRef.subresource
+      apiGroup: objectRef.apiGroup
+      privileged: 'requestObject.spec.containers{}.securityContext.privileged'
+      capabilities: 'requestObject.spec.containers{}.securityContext.capabilities.add{}'
+      hostPath: 'requestObject.spec.volumes{}.hostPath.path'
     rule_conditions:
       - type: logsource
         product: kubernetes
