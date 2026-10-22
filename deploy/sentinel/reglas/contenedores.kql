@@ -11,6 +11,15 @@
 //            resource = tostring(e.objectRef.resource),
 //            subresource = tostring(e.objectRef.subresource),
 //            apiGroup = tostring(e.objectRef.apiGroup)
+//   // una fila por contenedor (e initContainer) y por volumen, no solo el primero
+//   | extend contenedores = array_concat(
+//         iff(isnull(e.requestObject.spec.containers), dynamic([{}]), e.requestObject.spec.containers),
+//         iff(isnull(e.requestObject.spec.initContainers), dynamic([]), e.requestObject.spec.initContainers)),
+//            volumenes = iff(isnull(e.requestObject.spec.volumes), dynamic([{}]), e.requestObject.spec.volumes)
+//   | mv-expand c = contenedores, v = volumenes
+//   | extend privileged = tostring(c.securityContext.privileged),
+//            capabilities = tostring(c.securityContext.capabilities.add),
+//            hostPath = tostring(v.hostPath.path)
 
 
 // ─────────────────────────────────────────────────────────

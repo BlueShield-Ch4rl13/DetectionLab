@@ -20,7 +20,7 @@ imProcessCreate
 // Severidad: medium  ·  ATT&CK: T1053.003
 // Origen: rules/linux/lin_cron_persistence.yml
 imProcessCreate
-| where TargetProcessCommandLine contains "crontab -" or TargetProcessCommandLine contains "/etc/cron.d/" or TargetProcessCommandLine contains "/etc/crontab" or TargetProcessCommandLine contains "/var/spool/cron"
+| where (TargetProcessCommandLine endswith "crontab -" or (TargetProcessCommandLine contains "crontab - " or TargetProcessCommandLine contains "crontab -e")) or ((TargetProcessCommandLine contains "/etc/cron.d/" or TargetProcessCommandLine contains "/etc/crontab" or TargetProcessCommandLine contains "/var/spool/cron") and (not((TargetProcessCommandLine startswith "cat " or TargetProcessCommandLine startswith "less " or TargetProcessCommandLine startswith "more " or TargetProcessCommandLine startswith "head " or TargetProcessCommandLine startswith "tail " or TargetProcessCommandLine startswith "grep " or TargetProcessCommandLine startswith "ls " or TargetProcessCommandLine startswith "crontab -l"))))
 
 // ─────────────────────────────────────────────────────────
 // Deshabilitar historial de shell (anti-forense)
@@ -55,7 +55,7 @@ imProcessCreate
 // Severidad: high  ·  ATT&CK: T1059.004
 // Origen: rules/linux/lin_reverse_shell.yml
 imProcessCreate
-| where TargetProcessCommandLine contains "/dev/tcp/" or TargetProcessCommandLine contains "/dev/udp/" or TargetProcessCommandLine contains "bash -i" or TargetProcessCommandLine contains "sh -i"
+| where (TargetProcessCommandLine contains "/dev/tcp/" or TargetProcessCommandLine contains "/dev/udp/") or ((TargetProcessCommandLine startswith "sh -i" or TargetProcessCommandLine startswith "bash -i") or (TargetProcessCommandLine contains " sh -i" or TargetProcessCommandLine contains "/sh -i" or TargetProcessCommandLine contains ";sh -i" or TargetProcessCommandLine contains "|sh -i" or TargetProcessCommandLine contains " bash -i" or TargetProcessCommandLine contains "/bash -i" or TargetProcessCommandLine contains ";bash -i" or TargetProcessCommandLine contains "|bash -i"))
 
 // ─────────────────────────────────────────────────────────
 // Adicion de clave SSH (authorized_keys)

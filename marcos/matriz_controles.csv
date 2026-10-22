@@ -1,5 +1,5 @@
 regla,dominio,titulo,severidad,mitre,nist_800_53,iso_27001_2022,justificacion
-soc_cld_001_consentimiento_oauth,cloud,Consentimiento concedido a una aplicacion no verificada,high,T1550,"AC-3,IA-2",A.8.5,T1550: uso de material de autenticacion alternativo
+soc_cld_001_consentimiento_oauth,cloud,Consentimiento concedido a una aplicacion no verificada,high,T1528,"AC-3,AC-6,IA-2","A.5.18,A.8.5",T1528: robo de token de aplicacion (consentimiento OAuth)
 soc_cld_002_metodo_mfa_registrado,cloud,Metodo MFA registrado tras un inicio de sesion de riesgo,medium,T1098,"AC-2,AC-6","A.5.16,A.5.18",T1098: manipulacion de cuenta
 soc_cld_003_password_spraying,cloud,Fallo de autenticacion en Entra ID por credencial invalida,informational,T1110,"AC-7,IA-2",A.8.5,T1110: intentos fallidos de autenticacion
 soc_cld_004_token_robado,cloud,Inicio de sesion correcto en Entra ID,informational,T1539,"IA-2,SC-23",A.8.5,T1539: robo de sesion
@@ -32,7 +32,7 @@ exf_004_protocolo_alternativo,exfiltracion,Exfiltracion por protocolo alternativ
 exf_005_reenvio_correo_personal,exfiltracion,Reenvio automatico de correo a dominio personal,critical,"T1020,T1114","AC-3,AC-4","A.8.12,A.8.3",T1020: exfiltracion automatizada | T1114: recoleccion de correo
 exf_006_repositorio_publico_codigo,exfiltracion,Subida de codigo o secretos a repositorio publico,high,T1567,"AC-4,SC-7","A.8.12,A.8.23",T1567: exfiltracion por servicio web
 exf_007_volcado_base_datos,exfiltracion,Volcado de base de datos a ruta de usuario,high,"T1005,T1074","AC-3,AC-4","A.8.12,A.8.3",T1005: recoleccion de datos del sistema local | T1074: preparacion de datos para la salida
-exf_008_impresion_captura_masiva,exfiltracion,Impresion o captura masiva de documentos,medium,"T1052,T1113","AC-19,AC-3,MP-7","A.7.10,A.8.12,A.8.3",T1052: exfiltracion por medio fisico | T1113: captura de pantalla
+exf_008_impresion_captura_masiva,exfiltracion,Impresion o captura masiva de documentos,medium,"T1005,T1113",AC-3,"A.8.12,A.8.3",T1005: recoleccion de datos del sistema local | T1113: captura de pantalla
 lin_base64_decode_exec,linux,Ejecucion de payload codificado en base64,high,"T1059,T1140","CM-7,SI-3",A.8.7,T1059: interprete de comandos | T1140: desofuscacion de carga util
 lin_chmod_tmp_exec,linux,Permisos de ejecucion en /tmp o /dev/shm,medium,T1222,AC-3,A.8.3,T1222: modificacion de permisos
 lin_cron_persistence,linux,Persistencia por cron,medium,T1053,"CM-5,CM-7",A.8.9,T1053: tarea programada
@@ -51,7 +51,7 @@ mac_persistencia_launchagent,macos,Persistencia por LaunchAgent o LaunchDaemon,m
 mac_tcc_manipulacion,macos,Manipulacion de la base de datos TCC,high,T1548,AC-6,A.8.2,T1548: elusion del mecanismo de elevacion
 mac_usuario_oculto_creado,macos,Creacion de usuario local u oculto en macOS,high,T1136,AC-2,A.5.16,T1136: alta de cuenta
 mac_volcado_llavero,macos,Acceso o volcado del llavero de macOS,critical,T1555,IA-5,"A.5.17,A.8.5",T1555: credenciales almacenadas
-soc_net_001_beaconing,red,Patron de beaconing hacia un destino externo,medium,T1071,"SC-7,SI-4","A.8.20,A.8.23",T1071: canal de mando y control
+soc_net_001_beaconing,red,Peticion a un destino sin categoria o recien registrado,informational,T1071,"SC-7,SI-4","A.8.20,A.8.23",T1071: canal de mando y control
 soc_net_002_c2_servicio_legitimo,red,Canal de mando sobre un servicio legitimo,high,T1102,SC-7,A.8.23,T1102: servicio web como canal
 soc_net_003_dns_tunel,red,Tunelizacion o exfiltracion por DNS,high,T1071,"SC-7,SI-4","A.8.20,A.8.23",T1071: canal de mando y control
 soc_net_005_webshell,red,Interaccion con webshell,critical,T1505,"CM-5,SI-7",A.8.9,T1505: componente de software del servidor
@@ -121,7 +121,7 @@ xdr_006_arranque_modo_seguro,xdr,Arranque en modo seguro forzado por bcdedit,cri
 zta_dev_001_almacenamiento_extraible,zta,Montaje de almacenamiento extraible,medium,"T1052,T1091","AC-19,MP-7","A.7.10,A.8.12",T1052: exfiltracion por medio fisico | T1091: propagacion por medio extraible
 zta_id_001_autenticacion_heredada,zta,Uso de protocolo de autenticacion heredado,high,"T1078,T1556","AC-2,AC-6,IA-2","A.5.15,A.8.2,A.8.5",T1078: uso de cuenta valida | T1556: modificacion del proceso de autenticacion
 zta_id_002_cuenta_servicio_interactiva,zta,Cuenta de servicio con inicio de sesion interactivo,high,T1078,"AC-2,AC-6","A.5.15,A.8.2",T1078: uso de cuenta valida
-zta_net_001_protocolo_en_claro,zta,Protocolo en claro hacia un recurso que exige cifrado,medium,T1040,SC-8,"A.8.20,A.8.24",T1040: trafico sin cifrar
+zta_net_001_protocolo_en_claro,zta,Protocolo en claro hacia un recurso que exige cifrado,medium,T1021,"AC-17,SC-7","A.6.7,A.8.20",T1021: servicio remoto
 zta_sup_001_libreria_ruta_no_estandar,zta,Carga de libreria desde una ruta no estandar,high,T1574,"CM-5,SI-7",A.8.9,T1574: secuestro del flujo de ejecucion
 zta_sup_002_paquete_repositorio_no_aprobado,zta,Instalacion de paquete desde un repositorio no aprobado,medium,T1195,"CM-14,SR-11,SR-3","A.5.19,A.8.30",T1195: compromiso de la cadena de suministro
 zta_sup_003_fichero_dependencias_modificado,zta,Modificacion de un fichero de dependencias o lockfile,medium,T1195,"CM-14,SR-11,SR-3","A.5.19,A.8.30",T1195: compromiso de la cadena de suministro

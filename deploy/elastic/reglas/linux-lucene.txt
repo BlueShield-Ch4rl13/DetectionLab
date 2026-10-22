@@ -8,7 +8,7 @@
 (CommandLine:*chmod* AND (CommandLine:(*\/tmp\/* OR *\/dev\/shm\/* OR *\/var\/tmp\/*))) AND (CommandLine:(*\+x* OR *0755* OR *777*))
 
 # Persistencia por cron  [medium]
-CommandLine:(*crontab\ \-* OR *\/etc\/cron.d\/* OR *\/etc\/crontab* OR *\/var\/spool\/cron*)
+(CommandLine:*crontab\ \- OR (CommandLine:(*crontab\ \-\ * OR *crontab\ \-e*))) OR ((CommandLine:(*\/etc\/cron.d\/* OR *\/etc\/crontab* OR *\/var\/spool\/cron*)) AND (NOT (CommandLine:(cat\ * OR less\ * OR more\ * OR head\ * OR tail\ * OR grep\ * OR ls\ * OR crontab\ \-l*))))
 
 # Deshabilitar historial de shell (anti-forense)  [medium]
 CommandLine:(*unset\ HISTFILE* OR *HISTFILE\=\/dev\/null* OR *HISTSIZE\=0* OR *export\ HISTSIZE\=0*)
@@ -23,7 +23,7 @@ CommandLine:*\/etc\/ld.so.preload*
 CommandLine:*\/etc\/shadow*
 
 # Shell inversa (bash /dev/tcp)  [high]
-CommandLine:(*\/dev\/tcp\/* OR *\/dev\/udp\/* OR *bash\ \-i* OR *sh\ \-i*)
+(CommandLine:(*\/dev\/tcp\/* OR *\/dev\/udp\/*)) OR ((CommandLine:(sh\ \-i* OR bash\ \-i*)) OR (CommandLine:(*\ sh\ \-i* OR *\/sh\ \-i* OR *;sh\ \-i* OR *\|sh\ \-i* OR *\ bash\ \-i* OR *\/bash\ \-i* OR *;bash\ \-i* OR *\|bash\ \-i*)))
 
 # Adicion de clave SSH (authorized_keys)  [high]
 CommandLine:*authorized_keys* AND (CommandLine:(*echo* OR *tee* OR *\>\>* OR *\>* OR *cat*))

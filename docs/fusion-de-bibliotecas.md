@@ -405,7 +405,7 @@ El illicit consent grant no roba la contrasena: convence al usuario de dar permi
 
 **Lo que hay que descartar primero:** Aplicaciones corporativas aprobadas, que deben estar en el inventario de aplicaciones empresariales
 
-**Origen:** `azure / auditlogs` · **ATT&CK:** [T1550.001](https://attack.mitre.org/techniques/T1550/001/) · **NIST:** AC-3, IA-2 · **ISO 27001:** A.8.5
+**Origen:** `azure / auditlogs` · **ATT&CK:** [T1528](https://attack.mitre.org/techniques/T1528/) · **NIST:** AC-3, AC-6, IA-2 · **ISO 27001:** A.5.18, A.8.5
 
 ### 🟡 Metodo MFA registrado tras un inicio de sesion de riesgo
 
@@ -1227,15 +1227,15 @@ Un contenedor con privileged true comparte los dispositivos y capacidades del no
 
 Lo que se ve del trafico cuando el endpoint no dice nada.
 
-### 🟡 Patron de beaconing hacia un destino externo
+### ⚪ Peticion a un destino sin categoria o recien registrado
 
-`soc_net_001_beaconing.yml`
+`soc_net_001_beaconing.yml` · correlacion Sigma
 
-Un beacon de C2 se delata por la regularidad: intervalos casi constantes y tamano de respuesta parecido, sostenido durante horas. La regla Sigma marca el flujo saliente candidato; el calculo de desviacion tipica del intervalo lo hace la busqueda del SIEM, porque Sigma no expresa agregacion temporal de ese tipo.
+Regla base del beaconing. Marca las peticiones de proxy a destinos que el proxy no sabe clasificar o que acaban de aparecer, que es donde viven la mayoria de los servidores de C2. Por si sola no alerta: la senal esta en la correlacion, que cuenta peticiones sostenidas del mismo equipo al mismo destino.
 
-**Lo que hay que descartar primero:** Telemetria de producto y comprobaciones periodicas de actualizacion, que tambien son regulares
+**Lo que hay que descartar primero:** Cualquier destino nuevo; por eso esta regla base no alerta
 
-**Origen:** `proxy` · **ATT&CK:** [T1071.001](https://attack.mitre.org/techniques/T1071/001/) · **NIST:** SC-7, SI-4 · **ISO 27001:** A.8.20, A.8.23
+**Origen:** `proxy` · **ATT&CK:** [T1071.001](https://attack.mitre.org/techniques/T1071/001/)
 
 ### 🟠 Canal de mando sobre un servicio legitimo
 
@@ -1363,7 +1363,7 @@ Salida analogica de datos: lo que se imprime o se fotografia de la pantalla no l
 
 **Lo que hay que descartar primero:** Impresion normal de oficina desde la linea de comandos en aplicaciones de gestion que lanzan print.exe por lote, que hay que excluir por proceso padre o por equipo
 
-**Origen:** `process_creation / windows` · **ATT&CK:** [T1052](https://attack.mitre.org/techniques/T1052/), [T1113](https://attack.mitre.org/techniques/T1113/) · **NIST:** AC-19, AC-3, MP-7 · **ISO 27001:** A.7.10, A.8.12, A.8.3
+**Origen:** `process_creation / windows` · **ATT&CK:** [T1005](https://attack.mitre.org/techniques/T1005/), [T1113](https://attack.mitre.org/techniques/T1113/) · **NIST:** AC-3 · **ISO 27001:** A.8.12, A.8.3
 
 ---
 
@@ -1475,11 +1475,11 @@ Pilar de identidad. Una cuenta de servicio existe para que la use un proceso, no
 
 `zta_net_001_protocolo_en_claro.yml`
 
-Pilar de redes. El cifrado extremo a extremo es uno de los siete principios de NIST SP 800-207: la red interna no se considera de confianza, asi que el trafico interno tambien va cifrado. Telnet, FTP, LDAP simple o HTTP hacia un servicio de negocio son a la vez una desviacion de la arquitectura y una oportunidad de captura de credenciales.
+Pilar de redes. El cifrado extremo a extremo es uno de los siete principios de NIST SP 800-207: la red interna no se considera de confianza, asi que el trafico interno tambien va cifrado. Telnet, FTP, LDAP simple o HTTP hacia un servicio de negocio son a la vez una desviacion de la arquitectura y una oportunidad de captura de credenciales. Se mapea a T1021 (uso de servicios remotos) y no a T1040: la regla ve a quien USA el protocolo, no a quien escucha la red; T1040 es lo que ese uso facilita.
 
 **Lo que hay que descartar primero:** Equipamiento heredado sin alternativa cifrada, que debe estar inventariado y segmentado
 
-**Origen:** `network_connection` · **ATT&CK:** [T1040](https://attack.mitre.org/techniques/T1040/) · **NIST:** SC-8 · **ISO 27001:** A.8.20, A.8.24
+**Origen:** `network_connection` · **ATT&CK:** [T1021](https://attack.mitre.org/techniques/T1021/) · **NIST:** AC-17, SC-7 · **ISO 27001:** A.6.7, A.8.20
 
 ### 🟠 Carga de libreria desde una ruta no estandar
 
@@ -1517,7 +1517,7 @@ Pilar de cadena de suministro software. El lockfile es lo que garantiza que lo q
 
 Capacidad transversal de visibilidad y analitica del modelo CISA. Sin registro no hay deteccion, y por eso su manipulacion es uno de los primeros movimientos tras conseguir privilegios. Cubre el borrado del canal, la desactivacion de categorias de auditoria y la reduccion del tamano de retencion, que es la version silenciosa del borrado.
 
-**Lo que hay que descartar primero:** Apagado ordenado del equipo, que genera 1100 de forma legitima y se distingue por ir seguido del arranque
+**Lo que hay que descartar primero:** Un administrador que vacia el registro de Seguridad a mano en un equipo de pruebas, que debe ir en la lista de excepciones por equipo
 
 **Origen:** `windows / security` · **ATT&CK:** [T1070.001](https://attack.mitre.org/techniques/T1070/001/), [T1562.002](https://attack.mitre.org/techniques/T1562/002/) · **NIST:** AU-11, AU-9, CM-7, SI-3 · **ISO 27001:** A.8.15, A.8.7
 

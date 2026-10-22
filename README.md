@@ -36,21 +36,24 @@ convierte. Los índices, sourcetypes y tablas no están escritos en las reglas:
 están en `tools/pipelines/`. Cambiar de entorno es editar un fichero y
 regenerar, no reescribir 127 reglas.
 
-**Lo que un backend no soporta se dice, no se disimula.** Tres reglas son
+**Lo que un backend no soporta se dice, no se disimula.** Cuatro reglas son
 correlaciones Sigma que cuentan cardinalidad en una ventana. El backend de Kusto
 no las convierte y Wazuh no puede expresarlas. En vez de convertir sólo la regla
 base y llamarlo cobertura —esa regla base tiene nivel `informational` a
 propósito, por sí sola no es una señal— hay KQL escrito a mano en
 `deploy/sentinel/consultas/correlaciones.kql`, y el validador comprueba que sus
-umbrales sigan cuadrando con los de Sigma. Los cinco casos que Wazuh no puede
-expresar salen como avisos con su motivo.
+umbrales sigan cuadrando con los de Sigma. Lo que Wazuh no puede expresar
+(correlaciones, comparaciones numéricas y las reglas de macOS, porque el agente
+no recoge procesos en macOS) sale como aviso con su motivo.
 
 **Reglas nativas de Wazuh, no consultas Lucene.** Una consulta Lucene sirve para
 buscar en el indexador *después*; no alerta. `tools/sigma_to_wazuh.py` genera
 reglas XML reales: como Wazuh combina con AND todas las condiciones de una
 regla, el conversor pasa la condición Sigma a forma normal disyuntiva aplicando
-De Morgan y emite una regla por cada término. 127 reglas Sigma → **260 reglas de
-Wazuh**, más 80 escritas a mano.
+De Morgan y emite una regla por cada término. 127 reglas Sigma → **247 reglas de
+Wazuh**, más 80 escritas a mano. Cada fuente tiene su mapeo de campos: Windows
+(`win.eventdata.*`), Linux (Sysmon for Linux, con su decodificador en
+`deploy/wazuh/decodificadores/`) y Kubernetes (el JSON de auditoría).
 
 **La inteligencia alerta donde tiene sentido y caza donde no.** Sólo los hashes
 se despliegan como alerta directa: un hash coincide o no coincide. Las IP y los
@@ -84,7 +87,7 @@ quedan viejas, y lo que está desplegado deja de ser lo que dice el repositorio.
 | `rules/windows/` | 43 | Sysmon, canal Security, Defender XDR |
 | `rules/web/` | 13 | Servidor web y WAF: OWASP y explotación |
 | `rules/cloud/` | 10 | Entra ID (SigninLogs, AuditLogs), M365, Netskope |
-| `rules/linux/` | 10 | auditd, Falco |
+| `rules/linux/` | 10 | Sysmon for Linux |
 | `rules/contenedores/` | 8 | Auditoría de Kubernetes, runtime |
 | `rules/correo/` | 8 | Proofpoint TAP, Exchange Online |
 | `rules/exfiltracion/` | 8 | Nube personal, USB, correo, repositorios, BD |
@@ -94,7 +97,7 @@ quedan viejas, y lo que está desplegado deja de ser lo que dice el repositorio.
 | `rules/red/` | 5 | Proxy, DNS, NetFlow |
 
 **71 técnicas ATT&CK base** (124 contando subtécnicas) en **13 tácticas**.
-31 críticas · 65 altas · 28 medias · 3 informativas (bases de correlación).
+31 críticas · 65 altas · 27 medias · 4 informativas (bases de correlación).
 
 Por familia de ataque: 19 de **Active Directory**, 10 de **volcado de
 credenciales**, 13 de **ataques web**, 8 de **exfiltración**, 6 de **evasión de
@@ -108,9 +111,9 @@ Cada SIEM tiene todo lo suyo junto, y su propia guía de instalación:
 
 ```
 deploy/
-├── wazuh/      reglas/ (340 XML)  listas/ (CDB)      consultas/  INSTALAR.md
+├── wazuh/      reglas/ (327 XML)  decodificadores/   listas/ (CDB)  consultas/  INSTALAR.md
 ├── splunk/     reglas/ (127)      lookups/ (CSV)     consultas/  INSTALAR.md
-├── sentinel/   reglas/ (124 KQL)  watchlists/ (CSV)  consultas/  INSTALAR.md
+├── sentinel/   reglas/ (122 KQL)  watchlists/ (CSV)  consultas/  INSTALAR.md
 └── elastic/    reglas/ (Lucene+ES|QL)  indicadores/ (NDJSON)  consultas/  INSTALAR.md
 ```
 
@@ -252,7 +255,9 @@ Después, la guía del SIEM que toque: `deploy/<siem>/INSTALAR.md`.
 | `tools/generar_enrutador.py` | Playbooks → nodo de Shuffle |
 | `tools/sigma_to_wazuh.py` | Backend propio Sigma → XML de Wazuh (DNF + De Morgan) |
 | `tools/pipelines/` | Índices, sourcetypes y tablas. **El único sitio donde tocar el entorno** |
-| `purple/atomic-map.md` | Técnica ↔ Atomic Red Team ↔ regla ↔ telemetría (generado) |
+| `purple/atomic-map.md` | Técnica ↔ Atomic Red Team ↔ regla ↔ telemetría, con el estado de validación de cada regla (generado) |
+| `purple/resultados.csv` | Las ejecuciones reales de Atomic Red Team y si la regla saltó |
+| `tools/probar_reglas_wazuh.py` | Eventos de muestra contra las reglas de Wazuh de Linux y Kubernetes |
 | `docs/` | Fusión de bibliotecas, marcos, inteligencia |
 | `LAB.md` | Cómo montar el bucle purple team sobre tu Wazuh |
 
@@ -324,6 +329,26 @@ News CTI          Detection-lab              Infra-SocAnalyst           ftriage
 - **[Fusión de bibliotecas](docs/fusion-de-bibliotecas.md)** — qué reglas se retiraron al unir catálogos y por qué, incluidas las pérdidas de cobertura asumidas.
 - **[LAB.md](LAB.md)** — montar el bucle purple team sobre Wazuh.
 - **[APLICAR.md](APLICAR.md)** — cómo llevar esto a tu repositorio.
+
+---
+
+## 🧾 Cómo está probado
+
+Lo que se ejecuta en cada commit (`.github/workflows/validate.yml`):
+
+| Qué | Cómo |
+|---|---|
+| Sintaxis y estilo de las 127 reglas | Validador de pySigma (`sigma check`) |
+| Conversión a los cuatro SIEM | `tools/build.py`; el CI falla si lo generado no coincide con lo commiteado |
+| Reglas de Wazuh de Linux y Kubernetes | `tools/probar_reglas_wazuh.py`: eventos de muestra que deben saltar y que no deben (p. ej. `ssh -i` no es una shell inversa) |
+| Correlaciones escritas a mano en KQL | `tools/validate.py` compara umbral y ventana con la regla Sigma |
+| Capa de respuesta y nodo de Shuffle | `tools/validar_respuesta.py` y `tools/generar_enrutador.py` |
+
+Lo que **no** está probado todavía: la ejecución de Atomic Red Team contra un
+SIEM real. Las reglas tienen técnica ATT&CK y prueba de Atomic asignada, pero
+ninguna tiene aún un resultado registrado en
+[`purple/resultados.csv`](purple/resultados.csv); el estado de cada una está en
+[`purple/atomic-map.md`](purple/atomic-map.md).
 
 ---
 

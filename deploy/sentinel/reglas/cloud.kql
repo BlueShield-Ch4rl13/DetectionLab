@@ -8,7 +8,7 @@
 
 // ─────────────────────────────────────────────────────────
 // Consentimiento concedido a una aplicacion no verificada
-// Severidad: high  ·  ATT&CK: T1550.001
+// Severidad: high  ·  ATT&CK: T1528
 // Origen: rules/cloud/soc_cld_001_consentimiento_oauth.yml
 AuditLogs
 | where (OperationName in~ ("Consent to application", "Add delegated permission grant", "Add app role assignment grant to user")) and (TargetResources contains "Mail.Read" or TargetResources contains "Mail.ReadWrite" or TargetResources contains "Mail.Send" or TargetResources contains "Files.ReadWrite.All" or TargetResources contains "Directory.ReadWrite.All" or TargetResources contains "User.ReadWrite.All" or TargetResources contains "offline_access")

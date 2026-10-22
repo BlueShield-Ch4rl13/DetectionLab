@@ -67,9 +67,9 @@
     },
     {
       "techniqueID": "T1005",
-      "score": 2,
+      "score": 3,
       "color": "",
-      "comment": "2 regla(s): Copia masiva de documentos a unidad extraible; Volcado de base de datos a ruta de usuario",
+      "comment": "3 regla(s): Copia masiva de documentos a unidad extraible; Volcado de base de datos a ruta de usuario; Impresion o captura masiva de documentos",
       "enabled": true
     },
     {
@@ -77,6 +77,13 @@
       "score": 1,
       "color": "",
       "comment": "1 regla(s): Reenvio automatico de correo a dominio personal",
+      "enabled": true
+    },
+    {
+      "techniqueID": "T1021",
+      "score": 1,
+      "color": "",
+      "comment": "1 regla(s): Protocolo en claro hacia un recurso que exige cifrado",
       "enabled": true
     },
     {
@@ -101,13 +108,6 @@
       "enabled": true
     },
     {
-      "techniqueID": "T1040",
-      "score": 1,
-      "color": "",
-      "comment": "1 regla(s): Protocolo en claro hacia un recurso que exige cifrado",
-      "enabled": true
-    },
-    {
       "techniqueID": "T1047",
       "score": 2,
       "color": "",
@@ -126,13 +126,6 @@
       "score": 1,
       "color": "",
       "comment": "1 regla(s): Exfiltracion por protocolo alternativo",
-      "enabled": true
-    },
-    {
-      "techniqueID": "T1052",
-      "score": 1,
-      "color": "",
-      "comment": "1 regla(s): Impresion o captura masiva de documentos",
       "enabled": true
     },
     {
@@ -244,7 +237,7 @@
       "techniqueID": "T1071.001",
       "score": 2,
       "color": "",
-      "comment": "2 regla(s): Patron de beaconing hacia un destino externo; Proceso del sistema con conexion saliente inusual",
+      "comment": "2 regla(s): Peticion a un destino sin categoria o recien registrado; Proceso del sistema con conexion saliente inusual",
       "enabled": true
     },
     {
@@ -542,6 +535,13 @@
       "enabled": true
     },
     {
+      "techniqueID": "T1528",
+      "score": 1,
+      "color": "",
+      "comment": "1 regla(s): Consentimiento concedido a una aplicacion no verificada",
+      "enabled": true
+    },
+    {
       "techniqueID": "T1534",
       "score": 2,
       "color": "",
@@ -592,9 +592,9 @@
     },
     {
       "techniqueID": "T1550.001",
-      "score": 2,
+      "score": 1,
       "color": "",
-      "comment": "2 regla(s): Consentimiento concedido a una aplicacion no verificada; Abuso de token JWT con algoritmo nulo o cabecera manipulada",
+      "comment": "1 regla(s): Abuso de token JWT con algoritmo nulo o cabecera manipulada",
       "enabled": true
     },
     {

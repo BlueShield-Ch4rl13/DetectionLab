@@ -56,7 +56,7 @@ imProcessCreate
 // Severidad: high  ·  ATT&CK: T1187, T1557.001
 // Origen: rules/windows/ad_019_coercion_ntlm.yml
 SecurityEvent
-| where ((EventID == 5145 and ShareName endswith "IPC$" and (RelativeTargetName contains "efsrpc" or RelativeTargetName contains "netdfs" or RelativeTargetName contains "spoolss" or RelativeTargetName contains "fssagentrpc")) or (EventID == 5145 and ShareName endswith "IPC$" and (RelativeTargetName contains "lsarpc" or RelativeTargetName contains "samr" or RelativeTargetName contains "netlogon" or RelativeTargetName contains "lsass") and SubjectUserName =~ "ANONYMOUS LOGON") or (EventID == 4624 and LogonType == 3 and AuthenticationPackageName =~ "NTLM" and TargetUserName endswith "$")) and (not(TargetUserName =~ "ANONYMOUS LOGON"))
+| where ((EventID == 5145 and ShareName endswith "IPC$" and (RelativeTargetName contains "efsrpc" or RelativeTargetName contains "netdfs" or RelativeTargetName contains "spoolss" or RelativeTargetName contains "fssagentrpc")) or (EventID == 5145 and ShareName endswith "IPC$" and (RelativeTargetName contains "lsarpc" or RelativeTargetName contains "samr" or RelativeTargetName contains "netlogon" or RelativeTargetName contains "lsass") and SubjectUserName =~ "ANONYMOUS LOGON") or (EventID == 4624 and LogonType == 3 and AuthenticationPackageName =~ "NTLM" and LmPackageName =~ "NTLM V1" and TargetUserName endswith "$")) and (not(TargetUserName =~ "ANONYMOUS LOGON"))
 
 // ─────────────────────────────────────────────────────────
 // Volcado de las colmenas SAM, SYSTEM y SECURITY
@@ -238,7 +238,7 @@ imProcessCreate
 // Severidad: high  ·  ATT&CK: T1003.001
 // Origen: rules/windows/soc_edr_002_acceso_lsass_sysmon.yml
 DeviceEvents
-| where ActionType =~ "OpenProcessApiCall" and ((FolderPath endswith "\\lsass.exe" and (GrantedAccess in~ ("0x1010", "0x1410", "0x1438", "0x143a", "0x1fffff"))) and (not((InitiatingProcessFolderPath startswith "C:\\Windows\\System32\\" or InitiatingProcessFolderPath startswith "C:\\Windows\\SysWOW64\\" or InitiatingProcessFolderPath startswith "C:\\Program Files\\Windows Defender\\"))))
+| where ActionType =~ "OpenProcessApiCall" and ((FolderPath endswith "\\lsass.exe" and (GrantedAccess in~ ("0x1010", "0x1410", "0x1438", "0x143a", "0x1fffff"))) and (not(((InitiatingProcessFolderPath in~ ("C:\\Windows\\System32\\wininit.exe", "C:\\Windows\\System32\\csrss.exe", "C:\\Windows\\System32\\services.exe", "C:\\Windows\\System32\\lsm.exe", "C:\\Windows\\System32\\svchost.exe", "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe", "C:\\Windows\\System32\\MRT.exe")) or (InitiatingProcessFolderPath startswith "C:\\Program Files\\Windows Defender\\" or InitiatingProcessFolderPath startswith "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\")))))
 
 // ─────────────────────────────────────────────────────────
 // Destruccion de copias de seguridad y puntos de restauracion

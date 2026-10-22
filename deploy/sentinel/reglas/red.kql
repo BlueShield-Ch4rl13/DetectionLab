@@ -2,13 +2,6 @@
 // Dominio: red  ·  pipeline: tools/pipelines/sentinel.yml + sentinel_asim
 
 // ─────────────────────────────────────────────────────────
-// Patron de beaconing hacia un destino externo
-// Severidad: medium  ·  ATT&CK: T1071.001
-// Origen: rules/red/soc_net_001_beaconing.yml
-imWebSession
-| where Url contains "/" and (not((UrlCategory in~ ("Business", "Search Engines", "Software Updates"))))
-
-// ─────────────────────────────────────────────────────────
 // Canal de mando sobre un servicio legitimo
 // Severidad: high  ·  ATT&CK: T1102
 // Origen: rules/red/soc_net_002_c2_servicio_legitimo.yml
@@ -20,7 +13,7 @@ imWebSession
 // Severidad: high  ·  ATT&CK: T1071.004
 // Origen: rules/red/soc_net_003_dns_tunel.yml
 imDns
-| where (DnsQueryTypeName in~ ("TXT", "NULL")) or DnsQuery matches regex "^[A-Za-z0-9+/=_-]{45,}\\..*"
+| where DnsQueryTypeName =~ "NULL" or DnsQuery matches regex "^[A-Za-z0-9+/=_-]{45,}\\..*"
 
 // ─────────────────────────────────────────────────────────
 // Interaccion con webshell
@@ -29,9 +22,7 @@ imDns
 imWebSession
 | where (Url contains ".php" or Url contains ".jsp" or Url contains ".jspx" or Url contains ".aspx" or Url contains ".ashx") and (Url contains "cmd=" or Url contains "exec=" or Url contains "shell=" or Url contains "passthru(" or Url contains "system(" or Url contains "whoami" or Url contains "net user" or Url contains "powershell" or Url contains "/bin/bash" or Url contains "eval(")
 
-// ─────────────────────────────────────────────────────────
-// Volumen de subida anomalo hacia el exterior
-// Severidad: medium  ·  ATT&CK: T1048
-// Origen: rules/red/soc_net_006_exfiltracion_volumen.yml
-imWebSession
-| where (HttpRequestMethod in~ ("POST", "PUT")) and (not((Url contains "sharepoint.com" or Url contains "onedrive.live.com" or Url contains ".midominio.local")))
+// ── Sin conversion automatica a KQL ──
+//   soc_net_001_beaconing.yml: Backend does not support correlation rules.
+//   soc_net_006_exfiltracion_volumen.yml: Invalid SigmaDetectionItem field name encountered: cs-bytes. Please use valid fields for the imWebSession table, or the following fields that have fieldmappings in this pipeline: Computer, DeviceHostname, DeviceName, Dvc
+// Ver deploy/sentinel/consultas/correlaciones.kql
