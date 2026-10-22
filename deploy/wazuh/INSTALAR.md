@@ -112,7 +112,30 @@ auditpol /set /subcategory:"File Share" /success:enable
 auditpol /set /subcategory:"Removable Storage" /success:enable
 ```
 
-**Linux** — auditd o Falco. **macOS** — ESF vía el agente.
+**Linux — Sysmon for Linux.** Las reglas Sigma de Linux miran la línea de
+comandos entera (`CommandLine`), y auditd no la tiene: su registro EXECVE parte
+los argumentos en `a0`, `a1`... y los pasa a hexadecimal si llevan espacios.
+Por eso las reglas generadas usan Sysmon for Linux con el decodificador de
+`decodificadores/`:
+
+```bash
+# En cada equipo: Sysmon for Linux escribe en syslog (programa "sysmon")
+sudo sysmon -accepteula -i config-sysmon-linux.xml
+# En el manager:
+sudo cp deploy/wazuh/decodificadores/0975-sysmon_linux.xml /var/ossec/etc/decoders/
+sudo systemctl restart wazuh-manager
+```
+
+`python tools/probar_reglas_wazuh.py` pasa eventos de muestra de Sysmon for
+Linux y de auditoría de Kubernetes por el decodificador y las reglas. No
+sustituye a `wazuh-logtest` con un evento real de tu `/var/log/syslog`.
+
+**Kubernetes** — el registro de auditoría del API server en JSON, leído con
+`<log_format>json</log_format>`. Los campos dentro de listas (contenedores,
+volúmenes) se buscan en todo el evento, en cualquier contenedor.
+
+**macOS** — el agente de Wazuh no recoge la creación de procesos ni de
+ficheros, así que las reglas de macOS no se generan para Wazuh (ver abajo).
 
 ## 4. Comprobar que funciona
 
@@ -130,7 +153,7 @@ sudo /var/ossec/bin/wazuh-logtest
 
 ## Lo que Wazuh no puede hacer, y no se disimula
 
-Cinco reglas de la biblioteca no tienen equivalente aquí. `tools/build.py` lo
+Estas reglas de la biblioteca no tienen equivalente aquí. `tools/build.py` lo
 avisa en cada ejecución:
 
 | Regla | Motivo |
@@ -140,5 +163,8 @@ avisa en cada ejecución:
 | Envío masivo desde cuenta interna | Igual |
 | Dispositivo no conforme | Compara contra `null`, que Wazuh no comprueba sobre un campo decodificado |
 | Correo desde dominio recién registrado | Usa el modificador `\|lt`, comparación numérica que Wazuh no expresa |
+| Volumen de subida anómalo | Usa `\|gte` sobre los bytes enviados |
+| Patrón de beaconing | Correlación `event_count` agrupada por origen y destino |
+| Las 8 reglas de macOS | El agente de Wazuh no recoge procesos ni ficheros en macOS: necesitan la telemetría de un EDR en Splunk, Sentinel o Elastic |
 
 Las tres correlaciones están en Splunk y en `deploy/sentinel/consultas/correlaciones.kql`.

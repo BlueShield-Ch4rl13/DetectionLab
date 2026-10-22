@@ -1,0 +1,102 @@
+<!--
+  Decodificador de Sysmon for Linux para las reglas generadas de Linux
+  (0970-detection_lab_sigma.xml, decoded_as sysmon-linux).
+
+  Sysmon for Linux escribe en syslog (programa "sysmon") el mismo XML que
+  Sysmon en Windows. Este decodificador saca los campos que usan las reglas
+  Sigma de Linux con los nombres sysmon.*:
+
+    sysmon.eventID           1 = creacion de proceso, 3 = red, 11 = fichero
+    sysmon.image             /usr/bin/curl
+    sysmon.commandLine       curl -s http://... (con & < > " escapados como en el XML)
+    sysmon.parentImage, sysmon.parentCommandLine, sysmon.user, sysmon.parentUser,
+    sysmon.currentDirectory, sysmon.targetFilename,
+    sysmon.destinationIp, sysmon.destinationPort, sysmon.destinationHostname
+
+  Por que no auditd: el registro EXECVE de auditd parte los argumentos en
+  a0, a1, a2... (y los codifica en hexadecimal si llevan espacios), asi que no
+  hay ningun campo con la linea de comandos entera que una regla pueda mirar.
+
+  Instalacion: copiar a /var/ossec/etc/decoders/ y reiniciar el manager.
+  Comprobar con /var/ossec/bin/wazuh-logtest pegando un evento real de
+  /var/log/syslog antes de dar por buenas las reglas.
+
+  Los <regex> usan PCRE2 y \x3c en lugar de "<" para no romper el XML.
+-->
+
+<decoder name="sysmon-linux">
+  <program_name>^sysmon$</program_name>
+  <prematch type="pcre2">Linux-Sysmon</prematch>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">EventID>(\d+)\x3c/EventID</regex>
+  <order>sysmon.eventID</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="Image">([^\x3c]*)\x3c</regex>
+  <order>sysmon.image</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="CommandLine">([^\x3c]*)\x3c</regex>
+  <order>sysmon.commandLine</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="CurrentDirectory">([^\x3c]*)\x3c</regex>
+  <order>sysmon.currentDirectory</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="User">([^\x3c]*)\x3c</regex>
+  <order>sysmon.user</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="ParentImage">([^\x3c]*)\x3c</regex>
+  <order>sysmon.parentImage</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="ParentCommandLine">([^\x3c]*)\x3c</regex>
+  <order>sysmon.parentCommandLine</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="ParentUser">([^\x3c]*)\x3c</regex>
+  <order>sysmon.parentUser</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="TargetFilename">([^\x3c]*)\x3c</regex>
+  <order>sysmon.targetFilename</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="DestinationIp">([^\x3c]*)\x3c</regex>
+  <order>sysmon.destinationIp</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="DestinationPort">([^\x3c]*)\x3c</regex>
+  <order>sysmon.destinationPort</order>
+</decoder>
+
+<decoder name="sysmon-linux-campo">
+  <parent>sysmon-linux</parent>
+  <regex type="pcre2">Name="DestinationHostname">([^\x3c]*)\x3c</regex>
+  <order>sysmon.destinationHostname</order>
+</decoder>
