@@ -62,7 +62,9 @@ from pathlib import Path
 
 # Ventana y tope del limitador. Una deteccion en bucle (un proceso que
 # rearranca cada segundo) genera cientos de alertas identicas; sin esto,
-# todas irian al LLM.
+# todas irian al LLM. El limitador SOLO quita el LLM: la alerta sigue
+# llegando al SOAR (caso, contencion, aviso). Descartarla, como hacia antes,
+# podia dejar sin contener justo el ataque que se repite.
 VENTANA_S = 300
 TOPE_POR_CLAVE = 5
 ESTADO = Path("/var/ossec/var/run/detectionlab_rate.json")
@@ -157,10 +159,10 @@ def construir(alerta: dict) -> dict | None:
 
     # El limitador agrupa por regla y agente: la misma deteccion en dos equipos
     # distintos son dos incidentes, no una repeticion.
-    if limitado(f"{regla.get('id')}::{agente}"):
-        return None
+    repetida = limitado(f"{regla.get('id')}::{agente}")
 
     return {
+        "limitada": repetida,          # el ENRUTADOR no la manda al LLM
         "origen": "detection-lab",
         "clase_automatizacion": clase,
         "playbook": playbook,
@@ -195,7 +197,7 @@ def main(argv) -> int:
 
     carga = construir(alerta)
     if carga is None:
-        return 0          # no es nuestra, o es auto_cierre, o esta limitada
+        return 0          # no es nuestra, o es auto_cierre
 
     hook = argv[3]
     cuerpo = json.dumps(carga).encode("utf-8")

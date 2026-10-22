@@ -826,7 +826,7 @@
       },
       {
         "accion": "Aislar el endpoint en la red, unicamente para el borrado del registro de auditoria",
-        "radio": "objeto",
+        "radio": "equipo",
         "aprobacion": "no",
         "reversible": "si"
       }
