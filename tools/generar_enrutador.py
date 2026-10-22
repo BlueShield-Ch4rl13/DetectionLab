@@ -49,7 +49,10 @@ PLANTILLA = '''# ============================================================
 #     NO usar return ni exit(json.dumps(...)).
 #   - El nombre del nodo debe ser exactamente "ENRUTADOR"
 #     para que aguas abajo resuelva como $enrutador.*
-#   - Leer el cuerpo como string entre triples comillas.
+#   - Leer el cuerpo como string RAW entre triples comillas (r"..."):
+#     sin la r, las barras dobles de una ruta de Windows del JSON se
+#     quedan en una sola al compilar el nodo, json.loads falla y la
+#     alerta sale sin contencion.
 #
 #  Entrada:  la salida de custom-detectionlab.py
 #  Salida:   decision estructurada para el resto del flujo
@@ -57,7 +60,7 @@ PLANTILLA = '''# ============================================================
 import json
 
 
-raw = """$exec"""
+raw = r"""$exec"""
 
 try:
     a = json.loads(raw)
@@ -74,7 +77,9 @@ pb = TABLA.get(familia, TABLA.get("_generico", {{}}))
 # ¿Va al LLM? Solo las clases que lo justifican. Ollama es CPU-bound y el
 # README del SOC ya avisa de que se satura; mandarle todo lo convierte en el
 # cuello de botella del pipeline.
-usar_llm = clase in ("auto_analisis", "auto_contener")
+# Una alerta repetida (limitada por custom-detectionlab) no va al LLM, pero
+# si sigue al caso y a la contencion.
+usar_llm = clase in ("auto_analisis", "auto_contener") and not a.get("limitada")
 
 # Contencion autorizada sin persona: la que el playbook marca sin aprobacion.
 # El resto se PREPARA y se deja en el caso para que alguien decida.
