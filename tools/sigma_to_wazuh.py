@@ -153,7 +153,7 @@ CATEGORIA_EVENTID = {
     "dns_query": ["22"],
 }
 
-# Fuentes no Windows: se ingieren como JSON, así que los campos van bajo data.
+# Fuentes no Windows que se ingieren como JSON (decodificador json de Wazuh).
 FUENTES_JSON = {
     ("azure", "signinlogs"): "entra_signin",
     ("azure", "auditlogs"): "entra_audit",
@@ -428,7 +428,11 @@ def mapeador(logsource):
     es_json = (producto, servicio) in FUENTES_JSON or categoria in CATEGORIAS_JSON
 
     if es_json:
-        return lambda c: "data." + c.replace(".", "_"), True
+        # Sin "data.": en una regla de Wazuh los campos del decodificador json
+        # se nombran tal cual (los objetos anidados, con puntos). "data." es
+        # solo como aparecen dentro de la alerta; con el prefijo, la regla no
+        # casaba nunca.
+        return lambda c: c, True
 
     def mapear_windows(c: str) -> str:
         if c in ("EventID", "Provider_Name", "Channel", "Computer"):

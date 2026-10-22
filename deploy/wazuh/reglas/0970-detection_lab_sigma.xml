@@ -18,8 +18,8 @@
 
   <rule id="101000" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.properties_message" type="pcre2">(?i)^(Consent\ to\ application|Add\ delegated\ permission\ grant|Add\ app\ role\ assignment\ grant\ to\ user)$</field>
-    <field name="data.TargetResources" type="pcre2">(?i)(Mail\.Read|Mail\.ReadWrite|Mail\.Send|Files\.ReadWrite\.All|Directory\.ReadWrite\.All|User\.ReadWrite\.All|offline_access)</field>
+    <field name="properties.message" type="pcre2">(?i)^(Consent\ to\ application|Add\ delegated\ permission\ grant|Add\ app\ role\ assignment\ grant\ to\ user)$</field>
+    <field name="TargetResources" type="pcre2">(?i)(Mail\.Read|Mail\.ReadWrite|Mail\.Send|Files\.ReadWrite\.All|Directory\.ReadWrite\.All|User\.ReadWrite\.All|offline_access)</field>
     <description>SOC-CLD-001: Consentimiento concedido a una aplicacion no verificada</description>
     <mitre>
       <id>T1528</id>
@@ -30,7 +30,7 @@
 
   <rule id="101001" level="8">
     <decoded_as>json</decoded_as>
-    <field name="data.properties_message" type="pcre2">(?i)^(User\ registered\ security\ info|Admin\ registered\ security\ info|User\ registered\ all\ required\ security\ info|User\ changed\ default\ security\ info)$</field>
+    <field name="properties.message" type="pcre2">(?i)^(User\ registered\ security\ info|Admin\ registered\ security\ info|User\ registered\ all\ required\ security\ info|User\ changed\ default\ security\ info)$</field>
     <description>SOC-CLD-002: Metodo MFA registrado tras un inicio de sesion de riesgo</description>
     <mitre>
       <id>T1098.005</id>
@@ -41,7 +41,7 @@
 
   <rule id="101002" level="0">
     <decoded_as>json</decoded_as>
-    <field name="data.ResultType" type="pcre2">(?i)^(50126|50053|50055)$</field>
+    <field name="ResultType" type="pcre2">(?i)^(50126|50053|50055)$</field>
     <description>SOC-CLD-003: Fallo de autenticacion en Entra ID por credencial invalida</description>
     <mitre>
       <id>T1110.003</id>
@@ -52,7 +52,7 @@
 
   <rule id="101003" level="0">
     <decoded_as>json</decoded_as>
-    <field name="data.ResultType" type="pcre2">(?i)^0$</field>
+    <field name="ResultType" type="pcre2">(?i)^0$</field>
     <description>SOC-CLD-004: Inicio de sesion correcto en Entra ID</description>
     <mitre>
       <id>T1539</id>
@@ -63,8 +63,8 @@
 
   <rule id="101004" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.properties_message" type="pcre2">(?i)^(Add\ member\ to\ role|Add\ eligible\ member\ to\ role|Add\ member\ to\ role\ outside\ of\ PIM)$</field>
-    <field name="data.TargetResources" type="pcre2">(?i)(Global\ Administrator|Privileged\ Role\ Administrator|Security\ Administrator|Exchange\ Administrator|Application\ Administrator|Cloud\ Application\ Administrator|User\ Administrator)</field>
+    <field name="properties.message" type="pcre2">(?i)^(Add\ member\ to\ role|Add\ eligible\ member\ to\ role|Add\ member\ to\ role\ outside\ of\ PIM)$</field>
+    <field name="TargetResources" type="pcre2">(?i)(Global\ Administrator|Privileged\ Role\ Administrator|Security\ Administrator|Exchange\ Administrator|Application\ Administrator|Cloud\ Application\ Administrator|User\ Administrator)</field>
     <description>SOC-CLD-005: Alta en un rol privilegiado de Entra ID</description>
     <mitre>
       <id>T1098.003</id>
@@ -75,7 +75,7 @@
 
   <rule id="101005" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.properties_message" type="pcre2">(?i)^(Update\ conditional\ access\ policy|Delete\ conditional\ access\ policy|Update\ policy|Disable\ Strong\ Authentication)$</field>
+    <field name="properties.message" type="pcre2">(?i)^(Update\ conditional\ access\ policy|Delete\ conditional\ access\ policy|Update\ policy|Disable\ Strong\ Authentication)$</field>
     <description>SOC-CLD-006: Politica de acceso condicional modificada o deshabilitada</description>
     <mitre>
       <id>T1556.009</id>
@@ -86,8 +86,8 @@
 
   <rule id="101006" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.properties_message" type="pcre2">(?i)^(Add\ service\ principal\ credentials|Update\ application\ \-\ Certificates\ and\ secrets\ management|Update\ application)$</field>
-    <field name="data.TargetResources" type="pcre2">(?i)(KeyDescription|PasswordCredentials|KeyCredentials)</field>
+    <field name="properties.message" type="pcre2">(?i)^(Add\ service\ principal\ credentials|Update\ application\ \-\ Certificates\ and\ secrets\ management|Update\ application)$</field>
+    <field name="TargetResources" type="pcre2">(?i)(KeyDescription|PasswordCredentials|KeyCredentials)</field>
     <description>SOC-CLD-007: Credencial anadida a una aplicacion o service principal</description>
     <mitre>
       <id>T1098.001</id>
@@ -98,8 +98,8 @@
 
   <rule id="101007" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.ResultType" type="pcre2">(?i)^0$</field>
-    <field name="data.RiskEventTypes" type="pcre2">(?i)(anonymizedIPAddress|maliciousIPAddress|unfamiliarFeatures|adminConfirmedUserCompromised)</field>
+    <field name="ResultType" type="pcre2">(?i)^0$</field>
+    <field name="RiskEventTypes" type="pcre2">(?i)(anonymizedIPAddress|maliciousIPAddress|unfamiliarFeatures|adminConfirmedUserCompromised)</field>
     <description>SOC-CLD-008: Inicio de sesion desde una red de anonimizacion</description>
     <mitre>
       <id>T1090.003</id>
@@ -110,9 +110,9 @@
 
   <rule id="101008" level="8">
     <decoded_as>json</decoded_as>
-    <field name="data.activity" type="pcre2">(?i)^(Upload|Share|Post)$</field>
-    <field name="data.app_category" type="pcre2">(?i)^(Cloud\ Storage|File\ Sharing|Webmail)$</field>
-    <field name="data.ccl" type="pcre2">(?i)^(poor|low)$</field>
+    <field name="activity" type="pcre2">(?i)^(Upload|Share|Post)$</field>
+    <field name="app_category" type="pcre2">(?i)^(Cloud\ Storage|File\ Sharing|Webmail)$</field>
+    <field name="ccl" type="pcre2">(?i)^(poor|low)$</field>
     <description>SOC-CLD-010: Subida de datos a un servicio SaaS no aprobado</description>
     <mitre>
       <id>T1567.002</id>
@@ -290,9 +290,9 @@
 
   <rule id="101021" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.headerFrom" type="pcre2">(?i)(Director\ General|Direccion\ Financiera|CEO|CFO)</field>
-    <field name="data.senderIsInternal" type="pcre2">(?i)^False$</field>
-    <field name="data.sender" negate="yes" type="pcre2">(?i)@midominio\.local$</field>
+    <field name="headerFrom" type="pcre2">(?i)(Director\ General|Direccion\ Financiera|CEO|CFO)</field>
+    <field name="senderIsInternal" type="pcre2">(?i)^False$</field>
+    <field name="sender" negate="yes" type="pcre2">(?i)@midominio\.local$</field>
     <description>SOC-MAIL-002: Suplantacion de directivo en el nombre para mostrar</description>
     <mitre>
       <id>T1534</id>
@@ -303,9 +303,9 @@
 
   <rule id="101022" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.senderDomain" type="pcre2">(?i)midominio\.local$</field>
-    <field name="data.dmarcResult" type="pcre2">(?i)^fail$</field>
-    <field name="data.spfResult" type="pcre2">(?i)^fail$</field>
+    <field name="senderDomain" type="pcre2">(?i)midominio\.local$</field>
+    <field name="dmarcResult" type="pcre2">(?i)^fail$</field>
+    <field name="spfResult" type="pcre2">(?i)^fail$</field>
     <description>SOC-MAIL-003: Fallo de autenticacion de correo en el dominio propio [1/2]</description>
     <mitre>
       <id>T1566.002</id>
@@ -316,9 +316,9 @@
 
   <rule id="101023" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.senderDomain" type="pcre2">(?i)midominio\.local$</field>
-    <field name="data.dmarcResult" type="pcre2">(?i)^fail$</field>
-    <field name="data.dkimResult" type="pcre2">(?i)^fail$</field>
+    <field name="senderDomain" type="pcre2">(?i)midominio\.local$</field>
+    <field name="dmarcResult" type="pcre2">(?i)^fail$</field>
+    <field name="dkimResult" type="pcre2">(?i)^fail$</field>
     <description>SOC-MAIL-003: Fallo de autenticacion de correo en el dominio propio [2/2]</description>
     <mitre>
       <id>T1566.002</id>
@@ -329,7 +329,7 @@
 
   <rule id="101024" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.attachmentName" type="pcre2">(?i)(\.iso|\.img|\.vhd|\.vhdx|\.one|\.lnk|\.chm|\.hta)$</field>
+    <field name="attachmentName" type="pcre2">(?i)(\.iso|\.img|\.vhd|\.vhdx|\.one|\.lnk|\.chm|\.hta)$</field>
     <description>SOC-MAIL-004: Adjunto con formato usado para entrega de malware [1/3]</description>
     <mitre>
       <id>T1566.001</id>
@@ -340,7 +340,7 @@
 
   <rule id="101025" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.attachmentName" type="pcre2">(?i).*\.(pdf|doc|docx|xls|xlsx|jpg|png)\s*\.(exe|scr|js|vbs|bat|cmd|ps1)$</field>
+    <field name="attachmentName" type="pcre2">(?i).*\.(pdf|doc|docx|xls|xlsx|jpg|png)\s*\.(exe|scr|js|vbs|bat|cmd|ps1)$</field>
     <description>SOC-MAIL-004: Adjunto con formato usado para entrega de malware [2/3]</description>
     <mitre>
       <id>T1566.001</id>
@@ -351,7 +351,7 @@
 
   <rule id="101026" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.attachmentName" type="pcre2">(?i)(\.docm|\.xlsm|\.pptm|\.xlam)$</field>
+    <field name="attachmentName" type="pcre2">(?i)(\.docm|\.xlsm|\.pptm|\.xlam)$</field>
     <description>SOC-MAIL-004: Adjunto con formato usado para entrega de malware [3/3]</description>
     <mitre>
       <id>T1566.001</id>
@@ -362,8 +362,8 @@
 
   <rule id="101027" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.eventType" type="pcre2">(?i)^(click_permitted|click_blocked)$</field>
-    <field name="data.threatStatus" type="pcre2">(?i)^(active|falsePositive)$</field>
+    <field name="eventType" type="pcre2">(?i)^(click_permitted|click_blocked)$</field>
+    <field name="threatStatus" type="pcre2">(?i)^(active|falsePositive)$</field>
     <description>SOC-MAIL-005: Usuario pulsa una URL de phishing bloqueada o permitida</description>
     <mitre>
       <id>T1566.002</id>
@@ -374,8 +374,8 @@
 
   <rule id="101028" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.Operation" type="pcre2">(?i)^(New\-InboxRule|Set\-InboxRule|Set\-Mailbox|UpdateInboxRules)$</field>
-    <field name="data.Parameters" type="pcre2">(?i)(ForwardTo|ForwardAsAttachmentTo|RedirectTo|ForwardingSmtpAddress|DeleteMessage|MoveToFolder)</field>
+    <field name="Operation" type="pcre2">(?i)^(New\-InboxRule|Set\-InboxRule|Set\-Mailbox|UpdateInboxRules)$</field>
+    <field name="Parameters" type="pcre2">(?i)(ForwardTo|ForwardAsAttachmentTo|RedirectTo|ForwardingSmtpAddress|DeleteMessage|MoveToFolder)</field>
     <description>SOC-MAIL-006: Regla de buzon con reenvio externo creada</description>
     <mitre>
       <id>T1114.003</id>
@@ -387,8 +387,8 @@
 
   <rule id="101029" level="0">
     <decoded_as>json</decoded_as>
-    <field name="data.senderIsInternal" type="pcre2">(?i)^True$</field>
-    <field name="data.eventType" type="pcre2">(?i)^message_delivered$</field>
+    <field name="senderIsInternal" type="pcre2">(?i)^True$</field>
+    <field name="eventType" type="pcre2">(?i)^message_delivered$</field>
     <description>SOC-MAIL-007: Correo entregado desde una cuenta interna</description>
     <mitre>
       <id>T1534</id>
@@ -399,8 +399,8 @@
 
   <rule id="101030" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.attachmentName" type="pcre2">(?i)(\.html|\.htm|\.svg)$</field>
-    <field name="data.attachmentContent" type="pcre2">(?i)(msSaveOrOpenBlob|new\ Blob\(|application/octet\-stream|download=|atob\(|base64,)</field>
+    <field name="attachmentName" type="pcre2">(?i)(\.html|\.htm|\.svg)$</field>
+    <field name="attachmentContent" type="pcre2">(?i)(msSaveOrOpenBlob|new\ Blob\(|application/octet\-stream|download=|atob\(|base64,)</field>
     <description>SOC-MAIL-008: HTML smuggling en adjunto</description>
     <mitre>
       <id>T1027.006</id>
@@ -467,9 +467,9 @@
 
   <rule id="101035" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.cs-method" type="pcre2">(?i)^(POST|PUT)$</field>
-    <field name="data.c-uri" type="pcre2">(?i)(content\.dropboxapi\.com|api\.dropboxapi\.com/2/files/upload|dropbox\.com/upload|mega\.nz|mega\.io|api\.mega\.co\.nz|wetransfer\.com|we\.tl/|anonfiles\.com|gofile\.io|pcloud\.com|pcloud\.link|filebin\.net|catbox\.moe|file\.io|uguu\.se|bashupload\.com|temp\.sh)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.midominio\.local|\-my\.sharepoint\.com)</field>
+    <field name="cs-method" type="pcre2">(?i)^(POST|PUT)$</field>
+    <field name="c-uri" type="pcre2">(?i)(content\.dropboxapi\.com|api\.dropboxapi\.com/2/files/upload|dropbox\.com/upload|mega\.nz|mega\.io|api\.mega\.co\.nz|wetransfer\.com|we\.tl/|anonfiles\.com|gofile\.io|pcloud\.com|pcloud\.link|filebin\.net|catbox\.moe|file\.io|uguu\.se|bashupload\.com|temp\.sh)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.midominio\.local|\-my\.sharepoint\.com)</field>
     <description>EXF-002-SUBIDA: Subida a almacenamiento personal en la nube</description>
     <mitre>
       <id>T1567.002</id>
@@ -537,9 +537,9 @@
 
   <rule id="101040" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.Operation" type="pcre2">(?i)^(New\-InboxRule|Set\-InboxRule|UpdateInboxRules|Set\-Mailbox|New\-TransportRule|Set\-TransportRule)$</field>
-    <field name="data.Parameters" type="pcre2">(?i)(ForwardTo|RedirectTo|ForwardAsAttachmentTo|ForwardingSmtpAddress|ForwardingAddress|DeliverToMailboxAndForward)</field>
-    <field name="data.Parameters" type="pcre2">(?i)(@gmail\.com|@googlemail\.com|@outlook\.com|@hotmail\.com|@live\.com|@yahoo\.com|@yahoo\.es|@proton\.me|@protonmail\.com|@icloud\.com|@gmx\.|@mail\.ru|@yandex\.|@tutanota\.com)</field>
+    <field name="Operation" type="pcre2">(?i)^(New\-InboxRule|Set\-InboxRule|UpdateInboxRules|Set\-Mailbox|New\-TransportRule|Set\-TransportRule)$</field>
+    <field name="Parameters" type="pcre2">(?i)(ForwardTo|RedirectTo|ForwardAsAttachmentTo|ForwardingSmtpAddress|ForwardingAddress|DeliverToMailboxAndForward)</field>
+    <field name="Parameters" type="pcre2">(?i)(@gmail\.com|@googlemail\.com|@outlook\.com|@hotmail\.com|@live\.com|@yahoo\.com|@yahoo\.es|@proton\.me|@protonmail\.com|@icloud\.com|@gmx\.|@mail\.ru|@yandex\.|@tutanota\.com)</field>
     <description>EXF-005-REENVIO: Reenvio automatico de correo a dominio personal</description>
     <mitre>
       <id>T1020</id>
@@ -857,7 +857,7 @@
 
   <rule id="101064" level="0">
     <decoded_as>json</decoded_as>
-    <field name="data.cs-categories" type="pcre2">(?i)^(Uncategorized|Unknown|Newly\ Registered\ Websites|Newly\ Observed\ Domains|Dynamic\ DNS)$</field>
+    <field name="cs-categories" type="pcre2">(?i)^(Uncategorized|Unknown|Newly\ Registered\ Websites|Newly\ Observed\ Domains|Dynamic\ DNS)$</field>
     <description>SOC-NET-001: Peticion a un destino sin categoria o recien registrado</description>
     <mitre>
       <id>T1071.001</id>
@@ -868,7 +868,7 @@
 
   <rule id="101065" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(discord\.com/api/webhooks|discordapp\.com/api/webhooks|hooks\.slack\.com/services|api\.telegram\.org/bot)</field>
+    <field name="c-uri" type="pcre2">(?i)(discord\.com/api/webhooks|discordapp\.com/api/webhooks|hooks\.slack\.com/services|api\.telegram\.org/bot)</field>
     <description>SOC-NET-002: Canal de mando sobre un servicio legitimo [1/3]</description>
     <mitre>
       <id>T1102</id>
@@ -879,7 +879,7 @@
 
   <rule id="101066" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(pastebin\.com/raw|hastebin\.com/raw|ghostbin\.co/paste|transfer\.sh/|anonfiles\.com/|gofile\.io/uploadFile)</field>
+    <field name="c-uri" type="pcre2">(?i)(pastebin\.com/raw|hastebin\.com/raw|ghostbin\.co/paste|transfer\.sh/|anonfiles\.com/|gofile\.io/uploadFile)</field>
     <description>SOC-NET-002: Canal de mando sobre un servicio legitimo [2/3]</description>
     <mitre>
       <id>T1102</id>
@@ -890,7 +890,7 @@
 
   <rule id="101067" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(\.ngrok\.io|\.ngrok\-free\.app|\.trycloudflare\.com|\.loca\.lt|\.serveo\.net)</field>
+    <field name="c-uri" type="pcre2">(?i)(\.ngrok\.io|\.ngrok\-free\.app|\.trycloudflare\.com|\.loca\.lt|\.serveo\.net)</field>
     <description>SOC-NET-002: Canal de mando sobre un servicio legitimo [3/3]</description>
     <mitre>
       <id>T1102</id>
@@ -901,7 +901,7 @@
 
   <rule id="101068" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.query_type" type="pcre2">(?i)^NULL$</field>
+    <field name="query_type" type="pcre2">(?i)^NULL$</field>
     <description>SOC-NET-003: Tunelizacion o exfiltracion por DNS [1/2]</description>
     <mitre>
       <id>T1071.004</id>
@@ -912,7 +912,7 @@
 
   <rule id="101069" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.query" type="pcre2">(?i)^[A-Za-z0-9+/=_-]{45,}\..*</field>
+    <field name="query" type="pcre2">(?i)^[A-Za-z0-9+/=_-]{45,}\..*</field>
     <description>SOC-NET-003: Tunelizacion o exfiltracion por DNS [2/2]</description>
     <mitre>
       <id>T1071.004</id>
@@ -923,8 +923,8 @@
 
   <rule id="101070" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(\.php|\.jsp|\.jspx|\.aspx|\.ashx)</field>
-    <field name="data.c-uri" type="pcre2">(?i)(cmd=|exec=|shell=|passthru\(|system\(|whoami|net\ user|powershell|/bin/bash|eval\()</field>
+    <field name="c-uri" type="pcre2">(?i)(\.php|\.jsp|\.jspx|\.aspx|\.ashx)</field>
+    <field name="c-uri" type="pcre2">(?i)(cmd=|exec=|shell=|passthru\(|system\(|whoami|net\ user|powershell|/bin/bash|eval\()</field>
     <description>SOC-NET-005: Interaccion con webshell</description>
     <mitre>
       <id>T1505.003</id>
@@ -935,9 +935,9 @@
 
   <rule id="101071" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(union\ select|union\+select|union%20select|union\ all\ select|union%0aselect|union%23%0aselect|union%09select)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(union\ select|union\+select|union%20select|union\ all\ select|union%0aselect|union%23%0aselect|union%09select)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
     <description>WEB-001-INYECCION: Inyeccion SQL en parametros de la peticion HTTP [1/4]</description>
     <mitre>
       <id>T1190</id>
@@ -948,9 +948,9 @@
 
   <rule id="101072" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)('\ or\ 1=1|'\ or\ '1'='1|'\)\ or\ \('1'='1|'\ or\ 'a'='a|'\ and\ 1=2|admin'\-\-|%27%20or%201%3d1|%27\+or\+%271%27%3d%271)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)('\ or\ 1=1|'\ or\ '1'='1|'\)\ or\ \('1'='1|'\ or\ 'a'='a|'\ and\ 1=2|admin'\-\-|%27%20or%201%3d1|%27\+or\+%271%27%3d%271)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
     <description>WEB-001-INYECCION: Inyeccion SQL en parametros de la peticion HTTP [2/4]</description>
     <mitre>
       <id>T1190</id>
@@ -961,9 +961,9 @@
 
   <rule id="101073" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(sleep\(5\)|sleep\(10\)|pg_sleep\(|waitfor\ delay|benchmark\(10000|dbms_pipe\.receive_message)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(sleep\(5\)|sleep\(10\)|pg_sleep\(|waitfor\ delay|benchmark\(10000|dbms_pipe\.receive_message)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
     <description>WEB-001-INYECCION: Inyeccion SQL en parametros de la peticion HTTP [3/4]</description>
     <mitre>
       <id>T1190</id>
@@ -974,9 +974,9 @@
 
   <rule id="101074" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(information_schema\.tables|information_schema\.columns|sys\.databases|@@version|group_concat\(|extractvalue\(|updatexml\(|load_file\(|into\ outfile)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(information_schema\.tables|information_schema\.columns|sys\.databases|@@version|group_concat\(|extractvalue\(|updatexml\(|load_file\(|into\ outfile)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/phpmyadmin/|/adminer\.php|/pgadmin4/|/_sql/)</field>
     <description>WEB-001-INYECCION: Inyeccion SQL en parametros de la peticion HTTP [4/4]</description>
     <mitre>
       <id>T1190</id>
@@ -987,10 +987,10 @@
 
   <rule id="101075" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.sc-status" type="pcre2">(?i)^200$</field>
-    <field name="data.cs-method" type="pcre2">(?i)^(GET|POST)$</field>
-    <field name="data.c-uri" type="pcre2">(?i)(&lt;script&gt;alert\(|%3Cscript%3Ealert|"&gt;&lt;script|%22%3E%3Cscript|&lt;svg/onload=|&lt;svg%2Fonload|onerror=alert|onerror%3Dalert|javascript:alert\(|document\.location=document\.cookie)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/wp\-admin/post\.php|/ckeditor/|/tinymce/|/admin/content/edit)</field>
+    <field name="sc-status" type="pcre2">(?i)^200$</field>
+    <field name="cs-method" type="pcre2">(?i)^(GET|POST)$</field>
+    <field name="c-uri" type="pcre2">(?i)(&lt;script&gt;alert\(|%3Cscript%3Ealert|"&gt;&lt;script|%22%3E%3Cscript|&lt;svg/onload=|&lt;svg%2Fonload|onerror=alert|onerror%3Dalert|javascript:alert\(|document\.location=document\.cookie)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/wp\-admin/post\.php|/ckeditor/|/tinymce/|/admin/content/edit)</field>
     <description>WEB-002-XSS: Cross-site scripting reflejado en la peticion [1/2]</description>
     <mitre>
       <id>T1059.007</id>
@@ -1002,11 +1002,11 @@
 
   <rule id="101076" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.sc-status" type="pcre2">(?i)^200$</field>
-    <field name="data.cs-method" type="pcre2">(?i)^(GET|POST)$</field>
-    <field name="data.c-uri" type="pcre2">(?i)(&lt;script|%3Cscript|&lt;img|%3Cimg|&lt;svg|%3Csvg|&lt;iframe|%3Ciframe|&lt;body|&lt;details)</field>
-    <field name="data.c-uri" type="pcre2">(?i)(onerror=|onload=|onmouseover=|onfocus=|ontoggle=|onanimationstart=|javascript:|document\.cookie|string\.fromcharcode|eval\(|fetch\()</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/wp\-admin/post\.php|/ckeditor/|/tinymce/|/admin/content/edit)</field>
+    <field name="sc-status" type="pcre2">(?i)^200$</field>
+    <field name="cs-method" type="pcre2">(?i)^(GET|POST)$</field>
+    <field name="c-uri" type="pcre2">(?i)(&lt;script|%3Cscript|&lt;img|%3Cimg|&lt;svg|%3Csvg|&lt;iframe|%3Ciframe|&lt;body|&lt;details)</field>
+    <field name="c-uri" type="pcre2">(?i)(onerror=|onload=|onmouseover=|onfocus=|ontoggle=|onanimationstart=|javascript:|document\.cookie|string\.fromcharcode|eval\(|fetch\()</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/wp\-admin/post\.php|/ckeditor/|/tinymce/|/admin/content/edit)</field>
     <description>WEB-002-XSS: Cross-site scripting reflejado en la peticion [2/2]</description>
     <mitre>
       <id>T1059.007</id>
@@ -1018,8 +1018,8 @@
 
   <rule id="101077" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(\.\./\.\./|\.\.%2f\.\.%2f|%2e%2e%2f%2e%2e%2f|\.\.%5c\.\.%5c|%2e%2e%5c|\.\.\.\.//|\.\.;/|%c0%ae%c0%ae|\.\.%c0%af|\.\.%ef%bc%8f)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.map|\.css|\.mjs)$</field>
+    <field name="c-uri" type="pcre2">(?i)(\.\./\.\./|\.\.%2f\.\.%2f|%2e%2e%2f%2e%2e%2f|\.\.%5c\.\.%5c|%2e%2e%5c|\.\.\.\.//|\.\.;/|%c0%ae%c0%ae|\.\.%c0%af|\.\.%ef%bc%8f)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.map|\.css|\.mjs)$</field>
     <description>WEB-003-SALTO: Salto de directorio hacia ficheros fuera de la raiz web [1/3]</description>
     <mitre>
       <id>T1083</id>
@@ -1031,8 +1031,8 @@
 
   <rule id="101078" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(\.\.%252f|%252e%252e%252f|\.\.%255c|%25252e%25252e|%%32%65%%32%65)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.map|\.css|\.mjs)$</field>
+    <field name="c-uri" type="pcre2">(?i)(\.\.%252f|%252e%252e%252f|\.\.%255c|%25252e%25252e|%%32%65%%32%65)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.map|\.css|\.mjs)$</field>
     <description>WEB-003-SALTO: Salto de directorio hacia ficheros fuera de la raiz web [2/3]</description>
     <mitre>
       <id>T1083</id>
@@ -1044,8 +1044,8 @@
 
   <rule id="101079" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(/etc/passwd|/etc/shadow|/proc/self/environ|/proc/self/cmdline|/var/log/auth\.log|/root/\.ssh/id_rsa|/\.aws/credentials|/wp\-config\.php|/web\.config|\\windows\\win\.ini|/windows/system32/drivers/etc/hosts)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.map|\.css|\.mjs)$</field>
+    <field name="c-uri" type="pcre2">(?i)(/etc/passwd|/etc/shadow|/proc/self/environ|/proc/self/cmdline|/var/log/auth\.log|/root/\.ssh/id_rsa|/\.aws/credentials|/wp\-config\.php|/web\.config|\\windows\\win\.ini|/windows/system32/drivers/etc/hosts)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.map|\.css|\.mjs)$</field>
     <description>WEB-003-SALTO: Salto de directorio hacia ficheros fuera de la raiz web [3/3]</description>
     <mitre>
       <id>T1083</id>
@@ -1057,7 +1057,7 @@
 
   <rule id="101080" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(169\.254\.169\.254|metadata\.google\.internal|169\.254\.170\.2|100\.100\.100\.200|fd00:ec2::254|metadata\.tencentyun\.com)</field>
+    <field name="c-uri" type="pcre2">(?i)(169\.254\.169\.254|metadata\.google\.internal|169\.254\.170\.2|100\.100\.100\.200|fd00:ec2::254|metadata\.tencentyun\.com)</field>
     <description>WEB-004-SSRF: Peticion falsificada desde el servidor hacia metadatos de nube [1/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1069,7 +1069,7 @@
 
   <rule id="101081" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(2852039166|0xa9fea9fe|0251\.0376\.0251\.0376|169\.254\.169\.254\.nip\.io|::ffff:169\.254\.169\.254|%31%36%39%2e%32%35%34%2e%31%36%39%2e%32%35%34)</field>
+    <field name="c-uri" type="pcre2">(?i)(2852039166|0xa9fea9fe|0251\.0376\.0251\.0376|169\.254\.169\.254\.nip\.io|::ffff:169\.254\.169\.254|%31%36%39%2e%32%35%34%2e%31%36%39%2e%32%35%34)</field>
     <description>WEB-004-SSRF: Peticion falsificada desde el servidor hacia metadatos de nube [2/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1081,8 +1081,8 @@
 
   <rule id="101082" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(latest/meta\-data/iam/security\-credentials|latest/api/token|latest/user\-data|computemetadata/v1/instance/service\-accounts|metadata/identity/oauth2/token|/metadata/instance|/metadata/v1/)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(latest/meta\-data/iam/security\-credentials|latest/api/token|latest/user\-data|computemetadata/v1/instance/service\-accounts|metadata/identity/oauth2/token|/metadata/instance|/metadata/v1/)</field>
     <description>WEB-004-SSRF: Peticion falsificada desde el servidor hacia metadatos de nube [3/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1094,8 +1094,8 @@
 
   <rule id="101083" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(=file:///|=gopher://|=dict://|=http://127\.0\.0\.1|=http://localhost|=http://\[::1\]|=http://0\.0\.0\.0)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(=file:///|=gopher://|=dict://|=http://127\.0\.0\.1|=http://localhost|=http://\[::1\]|=http://0\.0\.0\.0)</field>
     <description>WEB-004-SSRF: Peticion falsificada desde el servidor hacia metadatos de nube [4/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1107,7 +1107,7 @@
 
   <rule id="101084" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(rO0AB|aced0005|%ac%ed%00%05|rO0ABXNyA|javax\.management\.BadAttributeValueExpException)</field>
+    <field name="c-uri" type="pcre2">(?i)(rO0AB|aced0005|%ac%ed%00%05|rO0ABXNyA|javax\.management\.BadAttributeValueExpException)</field>
     <description>WEB-005-DESERIALIZACION: Deserializacion insegura de datos controlados por el cliente [1/6]</description>
     <mitre>
       <id>T1190</id>
@@ -1118,7 +1118,7 @@
 
   <rule id="101085" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(AAEAAAD/////|AAEAAAD%2F%2F%2F%2F%2F|ObjectDataProvider|System\.Configuration\.Install\.AssemblyInstaller|TypeConfuseDelegate|\$type":"System\.)</field>
+    <field name="c-uri" type="pcre2">(?i)(AAEAAAD/////|AAEAAAD%2F%2F%2F%2F%2F|ObjectDataProvider|System\.Configuration\.Install\.AssemblyInstaller|TypeConfuseDelegate|\$type":"System\.)</field>
     <description>WEB-005-DESERIALIZACION: Deserializacion insegura de datos controlados por el cliente [2/6]</description>
     <mitre>
       <id>T1190</id>
@@ -1129,7 +1129,7 @@
 
   <rule id="101086" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(_\$\$ND_FUNC\$\$_|!ruby/object:|!!python/object/apply|!!javax\.script\.ScriptEngineManager|!!com\.sun\.rowset\.JdbcRowSetImpl|c__builtin__|csubprocess)</field>
+    <field name="c-uri" type="pcre2">(?i)(_\$\$ND_FUNC\$\$_|!ruby/object:|!!python/object/apply|!!javax\.script\.ScriptEngineManager|!!com\.sun\.rowset\.JdbcRowSetImpl|c__builtin__|csubprocess)</field>
     <description>WEB-005-DESERIALIZACION: Deserializacion insegura de datos controlados por el cliente [3/6]</description>
     <mitre>
       <id>T1190</id>
@@ -1140,7 +1140,7 @@
 
   <rule id="101087" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(__proto__|%5f%5fproto%5f%5f|constructor\[prototype\]|constructor%5bprototype%5d)</field>
+    <field name="c-uri" type="pcre2">(?i)(__proto__|%5f%5fproto%5f%5f|constructor\[prototype\]|constructor%5bprototype%5d)</field>
     <description>WEB-005-DESERIALIZACION: Deserializacion insegura de datos controlados por el cliente [4/6]</description>
     <mitre>
       <id>T1190</id>
@@ -1151,8 +1151,8 @@
 
   <rule id="101088" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)O:[0-9]{1,3}:"</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)O:[0-9]{1,3}:"</field>
     <description>WEB-005-DESERIALIZACION: Deserializacion insegura de datos controlados por el cliente [5/6]</description>
     <mitre>
       <id>T1190</id>
@@ -1163,8 +1163,8 @@
 
   <rule id="101089" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(__destruct|__wakeup|phar://|a:2:\{i:0;|O%3A8%3A%22)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(__destruct|__wakeup|phar://|a:2:\{i:0;|O%3A8%3A%22)</field>
     <description>WEB-005-DESERIALIZACION: Deserializacion insegura de datos controlados por el cliente [6/6]</description>
     <mitre>
       <id>T1190</id>
@@ -1175,9 +1175,9 @@
 
   <rule id="101090" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.sc-status" type="pcre2">(?i)^(200|201|204)$</field>
-    <field name="data.cs-method" type="pcre2">(?i)^(PUT|MOVE|COPY|MKCOL)$</field>
-    <field name="data.c-uri" type="pcre2">(?i)(\.php|\.php3|\.php4|\.php5|\.php7|\.phtml|\.phar|\.jsp|\.jspx|\.jspf|\.asp|\.aspx|\.ashx|\.asmx|\.cshtml|\.cgi|\.pl|\.py|\.sh)$</field>
+    <field name="sc-status" type="pcre2">(?i)^(200|201|204)$</field>
+    <field name="cs-method" type="pcre2">(?i)^(PUT|MOVE|COPY|MKCOL)$</field>
+    <field name="c-uri" type="pcre2">(?i)(\.php|\.php3|\.php4|\.php5|\.php7|\.phtml|\.phar|\.jsp|\.jspx|\.jspf|\.asp|\.aspx|\.ashx|\.asmx|\.cshtml|\.cgi|\.pl|\.py|\.sh)$</field>
     <description>WEB-006-SUBIDA: Subida de fichero con extension ejecutable al directorio publicado [1/3]</description>
     <mitre>
       <id>T1190</id>
@@ -1189,10 +1189,10 @@
 
   <rule id="101091" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.sc-status" type="pcre2">(?i)^(200|201|204)$</field>
-    <field name="data.cs-method" type="pcre2">(?i)^POST$</field>
-    <field name="data.c-uri" type="pcre2">(?i)(/uploads/|/upload/|/wp\-content/uploads/|/files/|/adjuntos/|/media/|/avatars/|/tmp/|/images/)</field>
-    <field name="data.c-uri" type="pcre2">(?i)(\.php|\.php3|\.php4|\.php5|\.php7|\.phtml|\.phar|\.jsp|\.jspx|\.jspf|\.asp|\.aspx|\.ashx|\.asmx|\.cshtml|\.cgi|\.pl|\.py|\.sh)$</field>
+    <field name="sc-status" type="pcre2">(?i)^(200|201|204)$</field>
+    <field name="cs-method" type="pcre2">(?i)^POST$</field>
+    <field name="c-uri" type="pcre2">(?i)(/uploads/|/upload/|/wp\-content/uploads/|/files/|/adjuntos/|/media/|/avatars/|/tmp/|/images/)</field>
+    <field name="c-uri" type="pcre2">(?i)(\.php|\.php3|\.php4|\.php5|\.php7|\.phtml|\.phar|\.jsp|\.jspx|\.jspf|\.asp|\.aspx|\.ashx|\.asmx|\.cshtml|\.cgi|\.pl|\.py|\.sh)$</field>
     <description>WEB-006-SUBIDA: Subida de fichero con extension ejecutable al directorio publicado [2/3]</description>
     <mitre>
       <id>T1190</id>
@@ -1204,8 +1204,8 @@
 
   <rule id="101092" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.sc-status" type="pcre2">(?i)^(200|201|204)$</field>
-    <field name="data.c-uri" type="pcre2">(?i)(\.php\.|\.php%00|\.php;|\.phtml\.|\.jsp\.|\.jsp%00|\.asp;|\.aspx;|\.asp%00|\.php%20)</field>
+    <field name="sc-status" type="pcre2">(?i)^(200|201|204)$</field>
+    <field name="c-uri" type="pcre2">(?i)(\.php\.|\.php%00|\.php;|\.phtml\.|\.jsp\.|\.jsp%00|\.asp;|\.aspx;|\.asp%00|\.php%20)</field>
     <description>WEB-006-SUBIDA: Subida de fichero con extension ejecutable al directorio publicado [3/3]</description>
     <mitre>
       <id>T1190</id>
@@ -1217,10 +1217,10 @@
 
   <rule id="101093" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(;|%3b|\||%7c|\&amp;\&amp;|%26%26|\$\(|%24%28|%60|%0a|%0d%0a|%0asleep)</field>
-    <field name="data.c-uri" type="pcre2">(?i)(whoami|uname\ \-a|uname%20\-a|cat\ /etc/passwd|cat%20/etc/passwd|/bin/sh|/bin/bash|bash\ \-c|bash%20\-c|wget\ |wget%20|curl\ \-|curl%20\-|nc\ \-e|nc%20\-e|ping\ \-c|ping%20\-c|nslookup\ |certutil|powershell|base64\ \-d|base64%20\-d|chmod\ \+x|chmod%20%2bx)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/admin/tools/ping|/diagnostics/traceroute|/nagios/cgi\-bin/)</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(;|%3b|\||%7c|\&amp;\&amp;|%26%26|\$\(|%24%28|%60|%0a|%0d%0a|%0asleep)</field>
+    <field name="c-uri" type="pcre2">(?i)(whoami|uname\ \-a|uname%20\-a|cat\ /etc/passwd|cat%20/etc/passwd|/bin/sh|/bin/bash|bash\ \-c|bash%20\-c|wget\ |wget%20|curl\ \-|curl%20\-|nc\ \-e|nc%20\-e|ping\ \-c|ping%20\-c|nslookup\ |certutil|powershell|base64\ \-d|base64%20\-d|chmod\ \+x|chmod%20%2bx)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/admin/tools/ping|/diagnostics/traceroute|/nagios/cgi\-bin/)</field>
     <description>WEB-007-INYECCION: Inyeccion de comandos del sistema operativo en un parametro</description>
     <mitre>
       <id>T1059.004</id>
@@ -1232,7 +1232,7 @@
 
   <rule id="101094" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(\$\{jndi:|%24%7bjndi|%2524%257bjndi|jndi%3aldap|%6a%6e%64%69%3a|\$\{lower:j\}|\$\{upper:j\}|\$\{::\-j\}|\$\{\$\{)</field>
+    <field name="c-uri" type="pcre2">(?i)(\$\{jndi:|%24%7bjndi|%2524%257bjndi|jndi%3aldap|%6a%6e%64%69%3a|\$\{lower:j\}|\$\{upper:j\}|\$\{::\-j\}|\$\{\$\{)</field>
     <description>WEB-008-INYECCION: Inyeccion JNDI en peticion HTTP tipo Log4Shell [1/3]</description>
     <mitre>
       <id>T1059</id>
@@ -1244,7 +1244,7 @@
 
   <rule id="101095" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-useragent" type="pcre2">(?i)(\$\{jndi:|%24%7bjndi|jndi%3aldap|%6a%6e%64%69%3a|\$\{lower:j\}|\$\{upper:j\}|\$\{::\-j\}|\$\{\$\{)</field>
+    <field name="c-useragent" type="pcre2">(?i)(\$\{jndi:|%24%7bjndi|jndi%3aldap|%6a%6e%64%69%3a|\$\{lower:j\}|\$\{upper:j\}|\$\{::\-j\}|\$\{\$\{)</field>
     <description>WEB-008-INYECCION: Inyeccion JNDI en peticion HTTP tipo Log4Shell [2/3]</description>
     <mitre>
       <id>T1059</id>
@@ -1256,7 +1256,7 @@
 
   <rule id="101096" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.cs-Referrer" type="pcre2">(?i)(\$\{jndi:|%24%7bjndi|jndi%3aldap|\$\{lower:j\}|\$\{::\-j\}|\$\{\$\{)</field>
+    <field name="cs-Referrer" type="pcre2">(?i)(\$\{jndi:|%24%7bjndi|jndi%3aldap|\$\{lower:j\}|\$\{::\-j\}|\$\{\$\{)</field>
     <description>WEB-008-INYECCION: Inyeccion JNDI en peticion HTTP tipo Log4Shell [3/3]</description>
     <mitre>
       <id>T1059</id>
@@ -1268,7 +1268,7 @@
 
   <rule id="101097" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(content\-length:|transfer\-encoding:|content\-length%3a|transfer\-encoding%3a|transfer\-encoding%20%3a|te:%20chunked|chunked%0d%0a)</field>
+    <field name="c-uri" type="pcre2">(?i)(content\-length:|transfer\-encoding:|content\-length%3a|transfer\-encoding%3a|transfer\-encoding%20%3a|te:%20chunked|chunked%0d%0a)</field>
     <description>WEB-009-CONTRABANDO: Contrabando de peticiones HTTP entre proxy y servidor final [1/3]</description>
     <mitre>
       <id>T1190</id>
@@ -1279,7 +1279,7 @@
 
   <rule id="101098" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(%0d%0a|%0a%0d|%250d%250a|%00%0d%0a|%e5%98%8a%e5%98%8d)</field>
+    <field name="c-uri" type="pcre2">(?i)(%0d%0a|%0a%0d|%250d%250a|%00%0d%0a|%e5%98%8a%e5%98%8d)</field>
     <description>WEB-009-CONTRABANDO: Contrabando de peticiones HTTP entre proxy y servidor final [2/3]</description>
     <mitre>
       <id>T1190</id>
@@ -1290,8 +1290,8 @@
 
   <rule id="101099" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.sc-status" type="pcre2">(?i)^(400|408|501)$</field>
-    <field name="data.cs-method" negate="yes" type="pcre2">(?i)^(GET|POST|HEAD|PUT|DELETE|OPTIONS|PATCH|CONNECT|TRACE|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK)$</field>
+    <field name="sc-status" type="pcre2">(?i)^(400|408|501)$</field>
+    <field name="cs-method" negate="yes" type="pcre2">(?i)^(GET|POST|HEAD|PUT|DELETE|OPTIONS|PATCH|CONNECT|TRACE|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK)$</field>
     <description>WEB-009-CONTRABANDO: Contrabando de peticiones HTTP entre proxy y servidor final [3/3]</description>
     <mitre>
       <id>T1190</id>
@@ -1302,8 +1302,8 @@
 
   <rule id="101100" level="8">
     <decoded_as>json</decoded_as>
-    <field name="data.c-useragent" type="pcre2">(?i)(sqlmap/|nikto|nuclei|feroxbuster|gobuster|dirbuster|dirsearch|wfuzz|ffuf|wpscan|acunetix|nessus|openvas|zgrab|masscan|nmap\ scripting\ engine|zaproxy|arachni|whatweb|commix)</field>
-    <field name="data.c-useragent" negate="yes" type="pcre2">(?i)(googlebot|bingbot|applebot|duckduckbot|uptimerobot|pingdom|statuscake|ahrefsbot)</field>
+    <field name="c-useragent" type="pcre2">(?i)(sqlmap/|nikto|nuclei|feroxbuster|gobuster|dirbuster|dirsearch|wfuzz|ffuf|wpscan|acunetix|nessus|openvas|zgrab|masscan|nmap\ scripting\ engine|zaproxy|arachni|whatweb|commix)</field>
+    <field name="c-useragent" negate="yes" type="pcre2">(?i)(googlebot|bingbot|applebot|duckduckbot|uptimerobot|pingdom|statuscake|ahrefsbot)</field>
     <description>WEB-010-ESCANEO: Escaneo automatizado del servidor web por herramienta conocida [1/2]</description>
     <mitre>
       <id>T1595.002</id>
@@ -1315,9 +1315,9 @@
 
   <rule id="101101" level="8">
     <decoded_as>json</decoded_as>
-    <field name="data.c-useragent" type="pcre2">(?i)^(\-|)$</field>
-    <field name="data.sc-status" type="pcre2">(?i)^404$</field>
-    <field name="data.c-useragent" negate="yes" type="pcre2">(?i)(googlebot|bingbot|applebot|duckduckbot|uptimerobot|pingdom|statuscake|ahrefsbot)</field>
+    <field name="c-useragent" type="pcre2">(?i)^(\-|)$</field>
+    <field name="sc-status" type="pcre2">(?i)^404$</field>
+    <field name="c-useragent" negate="yes" type="pcre2">(?i)(googlebot|bingbot|applebot|duckduckbot|uptimerobot|pingdom|statuscake|ahrefsbot)</field>
     <description>WEB-010-ESCANEO: Escaneo automatizado del servidor web por herramienta conocida [2/2]</description>
     <mitre>
       <id>T1595.002</id>
@@ -1329,8 +1329,8 @@
 
   <rule id="101102" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(eyJhbGciOiJub25l|eyJhbGciOiJOb25l|eyJhbGciOiJOT05F|eyJhbGciOiJuT25F|eyJ0eXAiOiJKV1QiLCJhbGciOiJub25l)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
+    <field name="c-uri" type="pcre2">(?i)(eyJhbGciOiJub25l|eyJhbGciOiJOb25l|eyJhbGciOiJOT05F|eyJhbGciOiJuT25F|eyJ0eXAiOiJKV1QiLCJhbGciOiJub25l)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
     <description>WEB-011-ABUSO: Abuso de token JWT con algoritmo nulo o cabecera manipulada [1/4]</description>
     <mitre>
       <id>T1550.001</id>
@@ -1342,8 +1342,8 @@
 
   <rule id="101103" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(eyJhbGciOiJIUzI1NiIsImtpZCI6Ii4u|eyJhbGciOiJSUzI1NiIsImprdSI6Imh0|eyJhbGciOiJSUzI1NiIsIng1dSI6Imh0)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
+    <field name="c-uri" type="pcre2">(?i)(eyJhbGciOiJIUzI1NiIsImtpZCI6Ii4u|eyJhbGciOiJSUzI1NiIsImprdSI6Imh0|eyJhbGciOiJSUzI1NiIsIng1dSI6Imh0)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
     <description>WEB-011-ABUSO: Abuso de token JWT con algoritmo nulo o cabecera manipulada [2/4]</description>
     <mitre>
       <id>T1550.001</id>
@@ -1355,8 +1355,8 @@
 
   <rule id="101104" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)("alg":"none"|%22alg%22%3a%22none%22|alg=none|algorithm=none)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
+    <field name="c-uri" type="pcre2">(?i)("alg":"none"|%22alg%22%3a%22none%22|alg=none|algorithm=none)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
     <description>WEB-011-ABUSO: Abuso de token JWT con algoritmo nulo o cabecera manipulada [3/4]</description>
     <mitre>
       <id>T1550.001</id>
@@ -1368,9 +1368,9 @@
 
   <rule id="101105" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)(eyJ|token=|jwt=|access_token=|id_token=)</field>
-    <field name="data.c-uri" type="pcre2">(?i)(kid=\.\./|kid=\.\.%2f|kid=/dev/null|kid=/etc/passwd|jku=http|x5u=http)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
+    <field name="c-uri" type="pcre2">(?i)(eyJ|token=|jwt=|access_token=|id_token=)</field>
+    <field name="c-uri" type="pcre2">(?i)(kid=\.\./|kid=\.\.%2f|kid=/dev/null|kid=/etc/passwd|jku=http|x5u=http)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(/\.well\-known/jwks\.json|/swagger\-ui|/api\-docs)</field>
     <description>WEB-011-ABUSO: Abuso de token JWT con algoritmo nulo o cabecera manipulada [4/4]</description>
     <mitre>
       <id>T1550.001</id>
@@ -1432,9 +1432,9 @@
 
   <rule id="101109" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(\{\{7.*7\}\}|\{\{7.*'7'\}\}|%7b%7b7.*7%7d%7d|\$\{7.*7\}|\#\{7.*7\}|&lt;%=\ 7.*7|@\(7.*7\))</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(\{\{7.*7\}\}|\{\{7.*'7'\}\}|%7b%7b7.*7%7d%7d|\$\{7.*7\}|\#\{7.*7\}|&lt;%=\ 7.*7|@\(7.*7\))</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
     <description>WEB-013-INYECCION: Inyeccion en plantillas del lado servidor [1/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1445,9 +1445,9 @@
 
   <rule id="101110" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(T\(java\.lang\.Runtime\)|java\.lang\.Runtime\.getRuntime|freemarker\.template\.utility\.Execute|class\.getClassLoader|\$class\.inspect|org\.apache\.commons\.collections)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(T\(java\.lang\.Runtime\)|java\.lang\.Runtime\.getRuntime|freemarker\.template\.utility\.Execute|class\.getClassLoader|\$class\.inspect|org\.apache\.commons\.collections)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
     <description>WEB-013-INYECCION: Inyeccion en plantillas del lado servidor [2/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1458,9 +1458,9 @@
 
   <rule id="101111" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(__globals__|__subclasses__|__builtins__|__mro__|self\._TemplateReference|cycler\.__init__|lipsum\.__globals__)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(__globals__|__subclasses__|__builtins__|__mro__|self\._TemplateReference|cycler\.__init__|lipsum\.__globals__)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
     <description>WEB-013-INYECCION: Inyeccion en plantillas del lado servidor [3/4]</description>
     <mitre>
       <id>T1190</id>
@@ -1471,9 +1471,9 @@
 
   <rule id="101112" level="14">
     <decoded_as>json</decoded_as>
-    <field name="data.c-uri" type="pcre2">(?i)=</field>
-    <field name="data.c-uri" type="pcre2">(?i)(_self\.env\.registerUndefinedFilterCallback|system\('id'\)|\{php\}|&lt;%=\ `)</field>
-    <field name="data.c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
+    <field name="c-uri" type="pcre2">(?i)=</field>
+    <field name="c-uri" type="pcre2">(?i)(_self\.env\.registerUndefinedFilterCallback|system\('id'\)|\{php\}|&lt;%=\ `)</field>
+    <field name="c-uri" negate="yes" type="pcre2">(?i)(\.js|\.map|\.vue|\.hbs|\.mustache|\.html)$</field>
     <description>WEB-013-INYECCION: Inyeccion en plantillas del lado servidor [4/4]</description>
     <mitre>
       <id>T1190</id>
@@ -3124,8 +3124,8 @@
 
   <rule id="101235" level="12">
     <decoded_as>json</decoded_as>
-    <field name="data.ResultType" type="pcre2">(?i)^0$</field>
-    <field name="data.ClientAppUsed" type="pcre2">(?i)^(IMAP4|POP3|SMTP|MAPI\ Over\ HTTP|Exchange\ ActiveSync|Other\ clients|Authenticated\ SMTP|Exchange\ Web\ Services)$</field>
+    <field name="ResultType" type="pcre2">(?i)^0$</field>
+    <field name="ClientAppUsed" type="pcre2">(?i)^(IMAP4|POP3|SMTP|MAPI\ Over\ HTTP|Exchange\ ActiveSync|Other\ clients|Authenticated\ SMTP|Exchange\ Web\ Services)$</field>
     <description>ZTA-ID-001: Uso de protocolo de autenticacion heredado</description>
     <mitre>
       <id>T1078.004</id>

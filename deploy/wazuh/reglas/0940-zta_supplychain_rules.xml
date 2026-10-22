@@ -134,9 +134,9 @@
        ================================================================ -->
   <rule id="100508" level="12">
     <if_group>vulnerability-detector</if_group>
-    <field name="data.vulnerability.severity">^Critical$|^High$</field>
-    <field name="data.vulnerability.package.name" type="pcre2">(?i)(log4j|openssl|struts|spring|jackson|commons-|libxml|glibc|zlib|curl|node|python3|openssh)</field>
-    <description>ZTA-SUP-004: Componente de terceros vulnerable en $(hostname): $(data.vulnerability.package.name) - $(data.vulnerability.cve)</description>
+    <field name="vulnerability.severity">^Critical$|^High$</field>
+    <field name="vulnerability.package.name" type="pcre2">(?i)(log4j|openssl|struts|spring|jackson|commons-|libxml|glibc|zlib|curl|node|python3|openssh)</field>
+    <description>ZTA-SUP-004: Componente de terceros vulnerable en $(hostname): $(vulnerability.package.name) - $(vulnerability.cve)</description>
     <mitre>
       <id>T1195</id>
     </mitre>
@@ -180,10 +180,10 @@
        ================================================================ -->
   <rule id="100511" level="10">
     <if_group>docker</if_group>
-    <field name="data.Type">^image$</field>
-    <field name="data.Action">^pull$</field>
-    <list field="data.Actor.ID" lookup="not_match_key">etc/lists/zta_allowed_registries</list>
-    <description>ZTA-SUP-006: Descarga de la imagen $(data.Actor.ID) desde un registro no aprobado.</description>
+    <field name="Type">^image$</field>
+    <field name="Action">^pull$</field>
+    <list field="Actor.ID" lookup="not_match_key">etc/lists/zta_allowed_registries</list>
+    <description>ZTA-SUP-006: Descarga de la imagen $(Actor.ID) desde un registro no aprobado.</description>
     <mitre>
       <id>T1610</id>
     </mitre>
