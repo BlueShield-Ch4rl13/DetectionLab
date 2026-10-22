@@ -63,6 +63,12 @@ jobs:
           fi
           echo "El contenido generado esta sincronizado con rules/"
 
+      # Eventos de muestra (purple/muestras_wazuh.json) contra las reglas
+      # generadas de Linux y Kubernetes: atrapa reglas que no pueden saltar
+      # nunca (campos de Windows en eventos de Linux) y las que saltan de mas.
+      - name: Probar las reglas de Wazuh con eventos de muestra
+        run: python tools/probar_reglas_wazuh.py
+
       - name: Comprobar que el mapeo a NIST e ISO esta al dia
         run: |
           python tools/mapear_marcos.py

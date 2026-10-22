@@ -30,6 +30,14 @@ LIMITACIONES CONOCIDAS, y son importantes
 3. La regla generada es una traducción mecánica: hay que revisarla con
    wazuh-logtest antes de darla por buena, sobre todo el nombre de los campos
    decodificados, que dependen del decoder que uses.
+4. Cada producto tiene su propio mapeo de campos (CAMPOS_POR_FUENTE). Antes
+   todo lo que no era JSON acababa en win.eventdata.*, así que las reglas de
+   Linux y Kubernetes se generaban pero no podían saltar nunca.
+   - Linux: Sysmon for Linux, con el decodificador que va en
+     deploy/wazuh/decodificadores/ (auditd no tiene CommandLine).
+   - Kubernetes: el JSON de auditoría del API server tal cual.
+   - macOS: el agente de Wazuh no recoge la creación de procesos; esas reglas
+     no se convierten y se quedan en los SIEM que reciben la telemetría de un EDR.
 
 Uso:
     python3 scripts/sigma_to_wazuh.py            # genera el XML
@@ -40,6 +48,7 @@ from __future__ import annotations
 import argparse
 import html
 import re
+from xml.sax.saxutils import escape as escapar_xml
 import sys
 from pathlib import Path
 
@@ -154,6 +163,38 @@ FUENTES_JSON = {
 }
 CATEGORIAS_JSON = {"proxy", "dns", "webserver", "firewall"}
 
+# Linux: Sysmon for Linux. Escribe en syslog el mismo XML que Sysmon en Windows,
+# con los mismos nombres de campo que usan las reglas Sigma de Linux. Lo
+# decodifica deploy/wazuh/decodificadores/0975-sysmon_linux.xml.
+DECODER_SYSMON_LINUX = "sysmon-linux"
+CAMPOS_SYSMON_LINUX = {
+    "Image": "sysmon.image", "CommandLine": "sysmon.commandLine", "CurrentDirectory": "sysmon.currentDirectory",
+    "User": "sysmon.user", "ParentImage": "sysmon.parentImage", "ParentCommandLine": "sysmon.parentCommandLine",
+    "ParentUser": "sysmon.parentUser", "TargetFilename": "sysmon.targetFilename",
+    "DestinationIp": "sysmon.destinationIp", "DestinationPort": "sysmon.destinationPort",
+    "DestinationHostname": "sysmon.destinationHostname",
+}
+EVENTOS_SYSMON_LINUX = {"process_creation": "1", "network_connection": "3", "file_event": "11"}
+
+# Kubernetes: el JSON de auditoria del API server. Wazuh lo decodifica con el
+# decodificador json y aplana los objetos con puntos (objectRef.resource).
+CAMPOS_K8S = {
+    "verb": "verb", "username": "user.username", "namespace": "objectRef.namespace",
+    "resource": "objectRef.resource", "subresource": "objectRef.subresource", "apiGroup": "objectRef.apiGroup",
+}
+# Estos van dentro de listas (spec.containers[], spec.volumes[]), que el
+# decodificador json de Wazuh no aplana: se buscan en el evento completo, en
+# cualquier contenedor o volumen (no solo el primero).
+PATRONES_K8S_LISTAS = {
+    "privileged": lambda v: r'"privileged"\s*:\s*' + v,
+    "capabilities": lambda v: r'"add"\s*:\s*\[[^\]]*"' + v + '"',
+    "hostPath": lambda v: r'"hostPath"\s*:\s*\{[^}]*"path"\s*:\s*"' + v + '"',
+}
+
+# Campo especial: el evento completo (keywords de Sigma, listas de k8s). Va a
+# un unico <regex type="pcre2"> por regla, no a un <field>.
+LOG_COMPLETO = "full_log"
+
 
 # ─────────────────────────────────────────────────────────────────────
 # Parser de la condición Sigma
@@ -216,12 +257,18 @@ def parsear(tokens: list[str]):
 # ─────────────────────────────────────────────────────────────────────
 # Traducción de un campo Sigma a un literal (campo, regex)
 # ─────────────────────────────────────────────────────────────────────
-def valor_a_regex(valor, modificadores: list[str]) -> str:
-    """Convierte un valor Sigma y sus modificadores en un fragmento PCRE2."""
+def valor_a_regex(valor, modificadores: list[str], xml: bool = False) -> str:
+    """Convierte un valor Sigma y sus modificadores en un fragmento PCRE2.
+
+    xml=True: el campo llega tal cual esta en un evento XML (Sysmon for Linux),
+    con & < > " escapados. "bash -i >& /dev/tcp" esta en el log como
+    "bash -i &gt;&amp; /dev/tcp", y la regla tiene que buscar eso.
+    """
     if "re" in modificadores:
         return str(valor)
 
-    v = re.escape(str(valor))
+    texto = escapar_xml(str(valor), {'"': "&quot;"}) if xml else str(valor)
+    v = re.escape(texto)
     # Sigma usa * y ? como comodines; re.escape los ha neutralizado
     v = v.replace(r"\*", ".*").replace(r"\?", ".")
 
@@ -253,15 +300,39 @@ def literal(campo_spec: str, valor, mapear) -> tuple[str, str] | None:
             f"forma directa de comprobar la ausencia de un campo decodificado"
         )
 
+    destino = mapear(campo)
+    if destino is None:
+        raise ValueError(f"el campo '{campo}' no tiene equivalente en la fuente de Wazuh de esta regla")
+    if isinstance(destino, tuple) and destino[0] == "lista_k8s":
+        # Campo dentro de una lista del JSON de k8s: patron sobre el evento completo
+        constructor = PATRONES_K8S_LISTAS[campo]
+        alternativas = []
+        for v in valores:
+            r = re.escape(str(v)).replace(r"\*", "[^\"]*")
+            if "contains" in modificadores:
+                r = '[^"]*' + r + '[^"]*'
+            elif "startswith" in modificadores:
+                r = r + '[^"]*'
+            elif "endswith" in modificadores:
+                r = '[^"]*' + r
+            alternativas.append(r)
+        cuerpo = alternativas[0] if len(alternativas) == 1 else "(?:" + "|".join(alternativas) + ")"
+        if campo == "privileged":                  # booleano JSON, sin comillas
+            cuerpo = cuerpo.strip('"')
+        return LOG_COMPLETO, "(?i)" + constructor(cuerpo)
+    xml = isinstance(destino, tuple) and destino[0] == "xml"
+    if isinstance(destino, tuple):
+        destino = destino[1]
+
     if "all" in modificadores:
         # AND sobre el mismo campo: se resuelve con lookaheads de PCRE2
         mods = [m for m in modificadores if m != "all"]
-        partes_re = [valor_a_regex(v, mods).lstrip("^").rstrip("$") for v in valores]
-        return mapear(campo), "(?i)" + "".join(f"(?=.*{p})" for p in partes_re)
+        partes_re = [valor_a_regex(v, mods, xml).lstrip("^").rstrip("$") for v in valores]
+        return destino, "(?i)" + "".join(f"(?=.*{p})" for p in partes_re)
 
-    alternativas = [valor_a_regex(v, modificadores) for v in valores]
+    alternativas = [valor_a_regex(v, modificadores, xml) for v in valores]
     if len(alternativas) == 1:
-        return mapear(campo), "(?i)" + alternativas[0]
+        return destino, "(?i)" + alternativas[0]
     # Alternancia: al negarla, Wazuh excluye todas a la vez, que es lo que quieren
     # los bloques filter de Sigma
     limpias = [a.lstrip("^").rstrip("$") for a in alternativas]
@@ -271,7 +342,7 @@ def literal(campo_spec: str, valor, mapear) -> tuple[str, str] | None:
         patron = "^" + patron
     if anclas[1]:
         patron = patron + "$"
-    return mapear(campo), "(?i)" + patron
+    return destino, "(?i)" + patron
 
 
 def bloque_a_ast(bloque, mapear):
@@ -282,7 +353,7 @@ def bloque_a_ast(bloque, mapear):
             if isinstance(sub, dict):
                 hijos.append(bloque_a_ast(sub, mapear))
             else:  # keyword suelto: busqueda en el log completo
-                hijos.append(("lit", ("full_log", "(?i)" + re.escape(str(sub)))))
+                hijos.append(("lit", (LOG_COMPLETO, "(?i)" + re.escape(str(sub)))))
         return ("or", hijos)
 
     literales = []
@@ -335,9 +406,24 @@ def a_dnf(nodo) -> list[list[tuple]]:
 # Generación del XML
 # ─────────────────────────────────────────────────────────────────────
 def mapeador(logsource):
+    """Funcion campo Sigma -> campo de Wazuh para la fuente de la regla.
+
+    Devuelve un nombre de campo, ("xml", campo) si el valor llega escapado como
+    XML, ("lista_k8s", campo) si va dentro de una lista del JSON de k8s, o None
+    si la fuente no tiene ese campo.
+    """
     producto = logsource.get("product")
     servicio = logsource.get("service")
     categoria = logsource.get("category")
+
+    if producto == "linux":
+        return (lambda c: ("xml", CAMPOS_SYSMON_LINUX[c]) if c in CAMPOS_SYSMON_LINUX else None), False
+    if producto == "kubernetes":
+        def mapear_k8s(c: str):
+            if c in PATRONES_K8S_LISTAS:
+                return ("lista_k8s", c)
+            return CAMPOS_K8S.get(c)
+        return mapear_k8s, True
 
     es_json = (producto, servicio) in FUENTES_JSON or categoria in CATEGORIAS_JSON
 
@@ -353,6 +439,17 @@ def mapeador(logsource):
     return mapear_windows, False
 
 
+def no_convertible(logsource) -> str:
+    """Motivo por el que una fuente no se puede llevar a Wazuh, o ""."""
+    producto, categoria = logsource.get("product"), logsource.get("category")
+    if producto == "macos":
+        return ("el agente de Wazuh no recoge la creacion de procesos ni de ficheros en macOS; "
+                "la regla se queda en los SIEM que reciben la telemetria de un EDR")
+    if producto == "linux" and categoria not in EVENTOS_SYSMON_LINUX:
+        return f"Sysmon for Linux no tiene la categoria '{categoria}'"
+    return ""
+
+
 def condiciones_base(logsource) -> tuple[list[str], list[tuple[str, str, bool]]]:
     """Devuelve (elementos XML previos, literales extra a añadir a cada término)."""
     producto = logsource.get("product")
@@ -360,7 +457,13 @@ def condiciones_base(logsource) -> tuple[list[str], list[tuple[str, str, bool]]]
     categoria = logsource.get("category")
     previos, extra = [], []
 
-    if categoria in CATEGORIA_EVENTID and producto == "windows":
+    if producto == "linux":
+        previos.append(f"<decoded_as>{DECODER_SYSMON_LINUX}</decoded_as>")
+        extra.append(("sysmon.eventID", "^" + EVENTOS_SYSMON_LINUX[categoria] + "$", False))
+    elif producto == "kubernetes":
+        previos.append("<decoded_as>json</decoded_as>")
+        extra.append(("apiVersion", r"^audit\.k8s\.io/", False))
+    elif categoria in CATEGORIA_EVENTID and producto == "windows":
         previos.append("<if_group>windows</if_group>")
         eids = CATEGORIA_EVENTID[categoria]
         extra.append(("win.system.eventID", "^(" + "|".join(eids) + ")$", False))
@@ -372,6 +475,16 @@ def condiciones_base(logsource) -> tuple[list[str], list[tuple[str, str, bool]]]
         previos.append("<decoded_as>json</decoded_as>")
 
     return previos, extra
+
+
+def regex_log_completo(literales: list[tuple[str, str, bool]]) -> str:
+    """Varios literales sobre el log completo en un solo PCRE2 (Wazuh admite un
+    <regex> por regla): cada uno es un lookahead, negado si hace falta."""
+    partes = []
+    for _, patron, negado in literales:
+        cuerpo = patron[4:] if patron.startswith("(?i)") else patron
+        partes.append(("(?!" if negado else "(?=") + r"[\s\S]*?" + cuerpo + ")")
+    return "(?i)^" + "".join(partes)
 
 
 def escapar(t: str) -> str:
@@ -397,6 +510,10 @@ def convertir(ruta: Path, ident: int) -> tuple[list[str], int, list[str]]:
             continue
 
         logsource = doc.get("logsource", {})
+        motivo = no_convertible(logsource)
+        if motivo:
+            avisos.append(f"{ruta.name}: '{titulo}' no convertible: {motivo}")
+            continue
         mapear, _ = mapeador(logsource)
         deteccion = dict(doc["detection"])
         condicion = deteccion.pop("condition")
@@ -450,11 +567,16 @@ def convertir(ruta: Path, ident: int) -> tuple[list[str], int, list[str]]:
             partes = [f'  <rule id="{ident}" level="{nivel}">']
             for p in previos:
                 partes.append(f"    {p}")
+            completos = [lit for lit in extra + termino if lit[0] == LOG_COMPLETO]
             for campo, patron, negado in extra + termino:
+                if campo == LOG_COMPLETO:
+                    continue
                 neg = ' negate="yes"' if negado else ""
                 partes.append(
                     f'    <field name="{campo}"{neg} type="pcre2">{escapar(patron)}</field>'
                 )
+            if completos:
+                partes.append(f'    <regex type="pcre2">{escapar(regex_log_completo(completos))}</regex>')
             partes.append(f"    <description>{escapar(soc_id)}: {escapar(titulo)}{sufijo}</description>")
             if tecnicas:
                 partes.append("    <mitre>")

