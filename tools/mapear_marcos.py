@@ -90,6 +90,8 @@ POR_TECNICA: dict[str, tuple[list[str], str]] = {
               "uso de material de autenticacion alternativo"),
     "T1539": (["nist.ia-2", "nist.sc-23", "iso27001-2022.a-8-5"],
               "robo de sesion"),
+    "T1528": (["nist.ia-2", "nist.ac-3", "nist.ac-6", "iso27001-2022.a-8-5", "iso27001-2022.a-5-18"],
+              "robo de token de aplicacion (consentimiento OAuth)"),
     "T1110": (["nist.ac-7", "nist.ia-2", "iso27001-2022.a-8-5"],
               "intentos fallidos de autenticacion"),
     "T1187": (["nist.ia-2", "nist.sc-8", "iso27001-2022.a-8-5"],

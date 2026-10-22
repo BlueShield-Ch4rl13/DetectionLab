@@ -21,10 +21,11 @@ tags:
 logsource:
     category: dns
 detection:
-    selection_tipo:
-        query_type:
-            - 'TXT'
-            - 'NULL'
+    # TXT por si solo es trafico normal (SPF, DKIM, DMARC, verificaciones de
+    # dominio): saltaba con todo. El tunel se ve en la etiqueta larga
+    # codificada, sea cual sea el tipo, o en NULL, que casi nadie usa.
+    selection_null:
+        query_type: 'NULL'
     selection_longitud:
         query|re: '^[A-Za-z0-9+/=_-]{45,}\..*'
     condition: 1 of selection_*

@@ -16,13 +16,30 @@ logsource:
   category: process_creation
   product: linux
 detection:
-  selection:
+  # "crontab -" casaba con "crontab -l" (listar, que es lectura). Lo que
+  # instala tareas es "crontab -" (desde stdin), "crontab -e" o escribir en
+  # los ficheros de cron.
+  selection_crontab:
+  - CommandLine|endswith: crontab -
+  - CommandLine|contains:
+    - 'crontab - '
+    - crontab -e
+  selection_ficheros:
     CommandLine|contains:
-    - crontab -
     - /etc/cron.d/
     - /etc/crontab
     - /var/spool/cron
-  condition: selection
+  filtro_lectura:
+    CommandLine|startswith:
+    - 'cat '
+    - 'less '
+    - 'more '
+    - 'head '
+    - 'tail '
+    - 'grep '
+    - 'ls '
+    - crontab -l
+  condition: selection_crontab or (selection_ficheros and not filtro_lectura)
 falsepositives:
 - Tareas programadas legitimas
 level: medium

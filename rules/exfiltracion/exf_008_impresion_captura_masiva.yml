@@ -10,20 +10,16 @@ description: |
     que reconstruyen el documento sin abrirlo.
 references:
     - https://attack.mitre.org/techniques/T1113/
-    - https://attack.mitre.org/techniques/T1052/
+    - https://attack.mitre.org/techniques/T1005/
 author: BlueShield-Ch4rl13
 date: 2026-08-31
 tags:
     - attack.collection
-    - attack.exfiltration
     - attack.t1113
-    - attack.t1052
-    - iso27001-2022.a-7-10
+    - attack.t1005
     - iso27001-2022.a-8-12
     - iso27001-2022.a-8-3
-    - nist.ac-19
     - nist.ac-3
-    - nist.mp-7
 logsource:
     category: process_creation
     product: windows

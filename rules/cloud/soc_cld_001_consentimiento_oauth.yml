@@ -7,15 +7,16 @@ description: |
     ficheros sin necesitar credenciales ni MFA. Sobrevive a un cambio de contrasena, lo
     que lo hace especialmente incomodo en respuesta a incidentes.
 references:
-    - https://attack.mitre.org/techniques/T1550/001/
+    - https://attack.mitre.org/techniques/T1528/
 author: SOC Detection Pack
 date: 2026/08/27
 tags:
-    - attack.persistence
     - attack.credential-access
-    - attack.t1550.001
+    - attack.t1528
+    - iso27001-2022.a-5-18
     - iso27001-2022.a-8-5
     - nist.ac-3
+    - nist.ac-6
     - nist.ia-2
 logsource:
     product: azure

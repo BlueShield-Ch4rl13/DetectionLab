@@ -1,0 +1,19 @@
+// ═══════════════════════════════════════════════════════════════════════════
+// Volumen de subida anomalo hacia el exterior — escrita a mano
+// Origen : rules/red/soc_net_006_exfiltracion_volumen.yml
+// Sigma  : POST/PUT con cs-bytes >= 52428800 (50 MB) fuera del dominio corporativo
+// ATT&CK : T1048            Severidad: medium
+//
+// El pipeline sentinel_asim de pySigma no reconoce un campo de bytes enviados
+// en imWebSession, asi que tools/build.py no la convierte (lo dice en
+// reglas/red.kql). La consulta usa SrcBytes del esquema ASIM de sesiones;
+// si tu parser no lo rellena, cambia la tabla por CommonSecurityLog y el campo
+// por SentBytes.
+// ═══════════════════════════════════════════════════════════════════════════
+let umbral_bytes = 52428800;
+imWebSession
+| where HttpRequestMethod in ("POST", "PUT")
+| where SrcBytes >= umbral_bytes
+| where not(Url has_any ("sharepoint.com", "onedrive.live.com", ".midominio.local"))
+| project TimeGenerated, SrcIpAddr, SrcUsername, Url, HttpRequestMethod, SrcBytes
+| order by SrcBytes desc

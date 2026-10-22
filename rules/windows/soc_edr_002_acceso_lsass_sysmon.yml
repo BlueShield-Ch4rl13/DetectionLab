@@ -29,12 +29,23 @@ detection:
             - '0x1438'
             - '0x143a'
             - '0x1fffff'
+    # Se excluyen binarios concretos, no carpetas: con todo System32 fuera,
+    # "rundll32.exe comsvcs.dll, MiniDump" (el volcado de LSASS mas comun)
+    # pasaba sin alerta, porque rundll32 vive en System32.
     filter_sistema:
+        SourceImage:
+            - 'C:\Windows\System32\wininit.exe'
+            - 'C:\Windows\System32\csrss.exe'
+            - 'C:\Windows\System32\services.exe'
+            - 'C:\Windows\System32\lsm.exe'
+            - 'C:\Windows\System32\svchost.exe'
+            - 'C:\Windows\System32\wbem\WmiPrvSE.exe'
+            - 'C:\Windows\System32\MRT.exe'
+    filter_defender:
         SourceImage|startswith:
-            - 'C:\Windows\System32\'
-            - 'C:\Windows\SysWOW64\'
             - 'C:\Program Files\Windows Defender\'
-    condition: selection and not filter_sistema
+            - 'C:\ProgramData\Microsoft\Windows Defender\Platform\'
+    condition: selection and not 1 of filter_*
 falsepositives:
     - Agentes de EDR y de inventario que inspeccionan procesos, que deben ir a la lista de excepciones por ruta firmada
 level: high

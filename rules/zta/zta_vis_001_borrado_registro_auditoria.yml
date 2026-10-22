@@ -26,13 +26,21 @@ logsource:
     product: windows
     service: security
 detection:
+    # 1100 (servicio de registro detenido) se quito: lo genera cada apagado y
+    # la regla es critica, asi que aislaba equipos solos al apagarlos.
     selection_borrado:
-        EventID:
-            - 1102   # registro de auditoria borrado
-            - 1100   # servicio de registro de eventos detenido
+        EventID: 1102   # registro de auditoria borrado
+    # 4719 sale en cada refresco de GPO (lo aplica SYSTEM) y al ANADIR
+    # auditoria. Solo interesa una cuenta que no es SYSTEM QUITANDO auditoria:
+    # %%8448 = exito retirado, %%8450 = fallo retirado.
     selection_politica:
-        EventID: 4719   # cambio en la politica de auditoria del sistema
-    condition: 1 of selection_*
+        EventID: 4719
+        AuditPolicyChanges|contains:
+            - '%%8448'
+            - '%%8450'
+    filtro_gpo:
+        SubjectUserSid: 'S-1-5-18'
+    condition: selection_borrado or (selection_politica and not filtro_gpo)
 falsepositives:
-    - Apagado ordenado del equipo, que genera 1100 de forma legitima y se distingue por ir seguido del arranque
+    - Un administrador que vacia el registro de Seguridad a mano en un equipo de pruebas, que debe ir en la lista de excepciones por equipo
 level: critical
