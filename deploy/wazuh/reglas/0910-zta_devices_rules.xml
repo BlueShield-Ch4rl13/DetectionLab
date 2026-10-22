@@ -100,8 +100,8 @@
        ================================================================ -->
   <rule id="100206" level="12">
     <if_group>vulnerability-detector</if_group>
-    <field name="data.vulnerability.severity">^Critical$</field>
-    <description>ZTA-DEV-005: Vulnerabilidad critica $(data.vulnerability.cve) en $(hostname). La postura del equipo deja de cumplir la politica de acceso.</description>
+    <field name="vulnerability.severity">^Critical$</field>
+    <description>ZTA-DEV-005: Vulnerabilidad critica $(vulnerability.cve) en $(hostname). La postura del equipo deja de cumplir la politica de acceso.</description>
     <mitre>
       <id>T1190</id>
     </mitre>

@@ -174,10 +174,10 @@
        ================================================================ -->
   <rule id="100763" level="12">
     <if_group>suricata</if_group>
-    <list field="data.src_ip" lookup="address_match_key">etc/lists/cmp_sistemas_datos_personales</list>
-    <field name="data.dest_ip" negate="yes">^10\.|^172\.(1[6-9]|2[0-9]|3[01])\.|^192\.168\.</field>
-    <field name="data.flow.bytes_toserver" type="pcre2">^[0-9]{7,}$</field>
-    <description>CMP-RGP-002: Transferencia saliente relevante desde un sistema con datos personales ($(data.src_ip)) hacia $(data.dest_ip). Verificar base juridica de la transferencia internacional.</description>
+    <list field="src_ip" lookup="address_match_key">etc/lists/cmp_sistemas_datos_personales</list>
+    <field name="dest_ip" negate="yes">^10\.|^172\.(1[6-9]|2[0-9]|3[01])\.|^192\.168\.</field>
+    <field name="flow.bytes_toserver" type="pcre2">^[0-9]{7,}$</field>
+    <description>CMP-RGP-002: Transferencia saliente relevante desde un sistema con datos personales ($(src_ip)) hacia $(dest_ip). Verificar base juridica de la transferencia internacional.</description>
     <gdpr>V_44,V_45,V_46</gdpr>
     <nist_800_53>AC.4,SC.7</nist_800_53>
     <group>detectionlab,auto_analisis,cmp_datos_personales,cmp_RGP-002,rgpd_art44,rgpd_art45,</group>

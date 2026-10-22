@@ -33,8 +33,8 @@
        ================================================================ -->
   <rule id="100401" level="12">
     <if_group>suricata</if_group>
-    <field name="data.alert.category">Web Application Attack|Attempted Administrator Privilege Gain|Attempted User Privilege Gain</field>
-    <description>ZTA-APP-002: Intento de explotacion web contra $(data.dest_ip): $(data.alert.signature)</description>
+    <field name="alert.category">Web Application Attack|Attempted Administrator Privilege Gain|Attempted User Privilege Gain</field>
+    <description>ZTA-APP-002: Intento de explotacion web contra $(dest_ip): $(alert.signature)</description>
     <mitre>
       <id>T1190</id>
     </mitre>
@@ -79,7 +79,7 @@
        ================================================================ -->
   <rule id="100404" level="12">
     <if_group>docker</if_group>
-    <field name="data.Actor.Attributes.privileged">^true$</field>
+    <field name="Actor.Attributes.privileged">^true$</field>
     <description>ZTA-APP-004: Contenedor lanzado en modo privilegiado. Rompe el aislamiento de la carga de trabajo.</description>
     <mitre>
       <id>T1610</id>
@@ -133,10 +133,10 @@
        ================================================================ -->
   <rule id="100452" level="12">
     <if_group>suricata</if_group>
-    <field name="data.event_type">^flow$</field>
-    <field name="data.flow.bytes_toserver" type="pcre2">^[0-9]{9,}$</field>
-    <field name="data.dest_ip" negate="yes">^10\.|^172\.(1[6-9]|2[0-9]|3[01])\.|^192\.168\.</field>
-    <description>ZTA-DAT-002: Transferencia saliente superior a 100 MB desde $(data.src_ip) hacia $(data.dest_ip). Posible exfiltracion.</description>
+    <field name="event_type">^flow$</field>
+    <field name="flow.bytes_toserver" type="pcre2">^[0-9]{9,}$</field>
+    <field name="dest_ip" negate="yes">^10\.|^172\.(1[6-9]|2[0-9]|3[01])\.|^192\.168\.</field>
+    <description>ZTA-DAT-002: Transferencia saliente superior a 100 MB desde $(src_ip) hacia $(dest_ip). Posible exfiltracion.</description>
     <mitre>
       <id>T1567</id>
     </mitre>
