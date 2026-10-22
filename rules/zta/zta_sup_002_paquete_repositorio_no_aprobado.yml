@@ -24,16 +24,25 @@ logsource:
     category: process_creation
     product: linux
 detection:
+    # pip, npm, yarn, gem y composer son scripts: en la creacion de proceso
+    # Image es python, node, ruby o php, y el gestor solo aparece en la linea
+    # de comandos. Con Image|endswith '/npm' la regla no saltaba nunca.
     selection_gestor:
-        Image|endswith:
-            - '/pip'
-            - '/pip3'
-            - '/npm'
-            - '/yarn'
-            - '/gem'
+        - Image|endswith:
             - '/go'
             - '/cargo'
-            - '/composer'
+        - CommandLine|contains:
+            - 'pip install'
+            - 'pip3 install'
+            - '-m pip install'
+            - 'npm install'
+            - 'npm i '
+            - 'yarn add'
+            - 'gem install'
+            - 'composer require'
+            - 'go install'
+            - 'go get '
+            - 'cargo install'
     selection_url_directa:
         CommandLine|contains:
             - 'install git+'

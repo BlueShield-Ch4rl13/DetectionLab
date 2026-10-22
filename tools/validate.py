@@ -14,7 +14,7 @@ Comprobaciones, en orden:
   6. Si existe deploy/, cada regla tiene su consulta generada, y las consultas
      de SecurityEvent y Event conservan su EventID (el porque, en
      tools/pipelines/sentinel-post.yml).
-  7. Las tres correlaciones escritas a mano en KQL siguen sincronizadas con los
+  7. Las cuatro correlaciones escritas a mano en KQL siguen sincronizadas con los
      umbrales de su regla Sigma de origen.
 
 Ademas genera la capa de cobertura para ATT&CK Navigator y un informe por
@@ -86,6 +86,10 @@ CORRELACIONES_MANUALES = {
     "soc_mail_007_envio_masivo_interno.yml": (
         re.compile(r"umbral_destinatarios\s*=\s*(\d+)"),
         re.compile(r"let ventana_correo\s*=\s*(\S+?);"),
+    ),
+    "soc_net_001_beaconing.yml": (
+        re.compile(r"umbral_peticiones\s*=\s*(\d+)"),
+        re.compile(r"let ventana_beacon\s*=\s*(\S+?);"),
     ),
 }
 RE_SIGMA_GTE = re.compile(r"^\s*gte:\s*(\d+)", re.M)

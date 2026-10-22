@@ -6,19 +6,22 @@ description: |
     NIST SP 800-207: la red interna no se considera de confianza, asi que el trafico
     interno tambien va cifrado. Telnet, FTP, LDAP simple o HTTP hacia un servicio de
     negocio son a la vez una desviacion de la arquitectura y una oportunidad de
-    captura de credenciales.
+    captura de credenciales. Se mapea a T1021 (uso de servicios remotos) y no a
+    T1040: la regla ve a quien USA el protocolo, no a quien escucha la red; T1040
+    es lo que ese uso facilita.
 references:
     - https://csrc.nist.gov/pubs/sp/800/207/final
+    - https://attack.mitre.org/techniques/T1021/
     - https://attack.mitre.org/techniques/T1040/
 author: BlueShield-Ch4rl13
 date: 2026-08-31
 tags:
-    - attack.credential-access
-    - attack.collection
-    - attack.t1040
+    - attack.lateral-movement
+    - attack.t1021
+    - iso27001-2022.a-6-7
     - iso27001-2022.a-8-20
-    - iso27001-2022.a-8-24
-    - nist.sc-8
+    - nist.ac-17
+    - nist.sc-7
 logsource:
     category: network_connection
 detection:

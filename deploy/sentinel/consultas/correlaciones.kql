@@ -9,7 +9,7 @@
 //   toma un campo dentro de una ventana temporal; eso en KQL es un summarize
 //   con dcount, y el backend no lo emite.
 //
-// Las tres reglas de abajo son las unicas de la biblioteca que lo necesitan.
+// Las cuatro reglas de abajo son las unicas de la biblioteca que lo necesitan.
 // La alternativa habria sido convertir solo la regla base y llamarlo detectado,
 // pero la regla base tiene nivel informational a proposito: por si sola no es
 // una senal, solo cuenta fallos de autenticacion o correos salientes. Publicar
@@ -17,7 +17,7 @@
 //
 // Cada consulta reproduce exactamente los parametros del fichero Sigma de
 // origen: si cambias el umbral o la ventana alli, cambialos aqui tambien.
-// tools/validate.py comprueba que los tres pares sigan sincronizados.
+// tools/validate.py comprueba que los cuatro pares sigan sincronizados.
 // ═══════════════════════════════════════════════════════════════════════════
 
 
@@ -128,3 +128,37 @@ ProofpointTAPMessagesDelivered_CL
 | order by DestinatariosDistintos desc
 // Excluir aqui buzones de notificaciones, facturacion y listas:
 // | where sender_s !in ("noreply@midominio.local", "facturacion@midominio.local")
+
+
+// ───────────────────────────────────────────────────────────────────────────
+// Patron de beaconing hacia un destino externo
+// Origen : rules/red/soc_net_001_beaconing.yml
+// Sigma  : event_count · group-by c-ip, cs-host · timespan 1h · count >= 30
+// ATT&CK : T1071.001        Severidad: medium
+//
+// Muchas peticiones del mismo equipo a un destino que el proxy no sabe
+// clasificar o que acaba de aparecer. La consulta anade lo que Sigma no puede
+// expresar: la desviacion tipica del intervalo entre peticiones. Un beacon
+// tiene intervalos casi iguales (desviacion baja); una persona navegando, no.
+//
+// AJUSTAR LA TABLA: aqui esta escrita contra CommonSecurityLog (proxy por CEF).
+// ───────────────────────────────────────────────────────────────────────────
+let ventana_beacon = 1h;
+let umbral_peticiones = 30;
+CommonSecurityLog
+| where TimeGenerated > ago(ventana_beacon)
+| where RequestContext in ("Uncategorized", "Unknown", "Newly Registered Websites", "Newly Observed Domains", "Dynamic DNS")
+| extend Destino = coalesce(DestinationHostName, tostring(parse_url(RequestURL).Host))
+| summarize Marcas = make_list(TimeGenerated, 1000), Peticiones = count() by SourceIP, Destino
+| where Peticiones >= umbral_peticiones
+| mv-apply Marca = Marcas to typeof(datetime) on (
+    order by Marca asc
+    | extend Intervalo = datetime_diff('second', Marca, prev(Marca))
+    | where isnotnull(Intervalo)
+    | summarize IntervaloMedio = avg(Intervalo), Desviacion = stdev(Intervalo))
+// Desviacion pequena frente al intervalo medio = periodico. 0,2 es un punto de
+// partida: los beacons con jitter alto (30-50 %) necesitan un umbral mayor.
+| extend Regularidad = round(Desviacion / IntervaloMedio, 2)
+| where Regularidad < 0.2
+| project SourceIP, Destino, Peticiones, IntervaloMedio, Regularidad
+| order by Regularidad asc

@@ -18,10 +18,13 @@ tags:
 logsource:
     category: proxy
 detection:
+    # Antes bastaba cualquier POST (cada formulario y cada API). La regla mira
+    # lo que dice su titulo: volumen. 50 MB en una sola peticion de subida.
     selection:
         cs-method:
             - 'POST'
             - 'PUT'
+        cs-bytes|gte: 52428800
     filter_corporativo:
         c-uri|contains:
             - 'sharepoint.com'

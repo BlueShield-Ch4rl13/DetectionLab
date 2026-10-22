@@ -16,13 +16,27 @@ logsource:
   category: process_creation
   product: linux
 detection:
-  selection:
+  selection_dev:
     CommandLine|contains:
     - /dev/tcp/
     - /dev/udp/
-    - bash -i
+  # "sh -i" a secas casaba con "ssh -i clave.pem" (cualquier administrador
+  # conectandose por SSH). La shell tiene que ir precedida de inicio, espacio,
+  # barra o separador de comandos.
+  selection_shell_interactiva:
+  - CommandLine|startswith:
     - sh -i
-  condition: selection
+    - bash -i
+  - CommandLine|contains:
+    - ' sh -i'
+    - /sh -i
+    - ;sh -i
+    - '|sh -i'
+    - ' bash -i'
+    - /bash -i
+    - ;bash -i
+    - '|bash -i'
+  condition: 1 of selection_*
 falsepositives:
 - Diagnostico de red muy puntual
 level: high

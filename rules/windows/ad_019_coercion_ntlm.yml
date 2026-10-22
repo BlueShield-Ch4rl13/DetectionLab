@@ -42,10 +42,15 @@ detection:
             - 'netlogon'
             - 'lsass'
         SubjectUserName: 'ANONYMOUS LOGON'
+    # Un logon NTLM de una cuenta de equipo pasa todo el dia en cualquier
+    # dominio. Lo que delata la coercion seguida de relay es que llegue en
+    # NTLMv1: los ataques (PetitPotam, PrinterBug) fuerzan la version debil
+    # para poder romperla o reenviarla.
     selection_relay_ntlm:
         EventID: 4624
         LogonType: 3
         AuthenticationPackageName: 'NTLM'
+        LmPackageName: 'NTLM V1'
         TargetUserName|endswith: '$'
     filter_anonimo_red:
         TargetUserName: 'ANONYMOUS LOGON'

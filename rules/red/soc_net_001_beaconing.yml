@@ -1,11 +1,45 @@
+title: Peticion a un destino sin categoria o recien registrado
+id: 18d675ca-7c83-5f5c-9c83-da1efbf8fa5c
+name: soc_net_001_destino_sin_categoria
+status: experimental
+description: |
+    Regla base del beaconing. Marca las peticiones de proxy a destinos que el
+    proxy no sabe clasificar o que acaban de aparecer, que es donde viven la
+    mayoria de los servidores de C2. Por si sola no alerta: la senal esta en
+    la correlacion, que cuenta peticiones sostenidas del mismo equipo al mismo
+    destino.
+references:
+    - https://attack.mitre.org/techniques/T1071/001/
+author: SOC Detection Pack
+date: 2026/08/27
+tags:
+    - attack.command-and-control
+    - attack.t1071.001
+logsource:
+    category: proxy
+detection:
+    selection:
+        cs-categories:
+            - 'Uncategorized'
+            - 'Unknown'
+            - 'Newly Registered Websites'
+            - 'Newly Observed Domains'
+            - 'Dynamic DNS'
+    condition: selection
+falsepositives:
+    - Cualquier destino nuevo; por eso esta regla base no alerta
+level: informational
+---
 title: Patron de beaconing hacia un destino externo
 id: 8c852761-72ca-5d2e-80f2-27713e6f14cd
 status: experimental
 description: |
-    Un beacon de C2 se delata por la regularidad: intervalos casi constantes y tamano de
-    respuesta parecido, sostenido durante horas. La regla Sigma marca el flujo saliente
-    candidato; el calculo de desviacion tipica del intervalo lo hace la busqueda del
-    SIEM, porque Sigma no expresa agregacion temporal de ese tipo.
+    Un beacon de C2 se delata por la regularidad: muchas peticiones del mismo equipo
+    al mismo destino, sostenidas en el tiempo. Esta regla cuenta 30 o mas peticiones
+    en una hora de un equipo a un destino sin categoria o recien registrado (una cada
+    dos minutos o menos). Sigma no expresa la desviacion tipica del intervalo, asi que
+    la regularidad se comprueba en la investigacion; antes la regla base era
+    "cualquier URI con /", que saltaba con todo el trafico web.
 references:
     - https://attack.mitre.org/techniques/T1071/001/
 author: SOC Detection Pack
@@ -17,17 +51,16 @@ tags:
     - iso27001-2022.a-8-23
     - nist.sc-7
     - nist.si-4
-logsource:
-    category: proxy
-detection:
-    selection:
-        c-uri|contains: '/'
-    filter_categorias:
-        cs-categories:
-            - 'Business'
-            - 'Search Engines'
-            - 'Software Updates'
-    condition: selection and not filter_categorias
+correlation:
+    type: event_count
+    rules:
+        - soc_net_001_destino_sin_categoria
+    group-by:
+        - c-ip
+        - cs-host
+    timespan: 1h
+    condition:
+        gte: 30
 falsepositives:
-    - Telemetria de producto y comprobaciones periodicas de actualizacion, que tambien son regulares
+    - Telemetria de producto y comprobaciones periodicas de actualizacion hacia dominios que el proxy aun no ha clasificado
 level: medium
