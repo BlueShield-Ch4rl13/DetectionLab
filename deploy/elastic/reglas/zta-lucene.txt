@@ -17,10 +17,10 @@ winlog.channel:Security AND ((event.code:4624 AND (winlog.event_data.LogonType:(
 (file.path:(*\\AppData\\Local\\Temp\\* OR *\\AppData\\Roaming\\* OR *\\Users\\Public\\* OR *\\ProgramData\\* OR *\\Windows\\Temp\\* OR *\\$Recycle.Bin\\*)) AND file.path:*.dll AND (NOT ((file.code_signature.signed:true AND file.code_signature.status:Valid) OR (process.executable.caseless:(*\\msiexec.exe OR *\\TrustedInstaller.exe OR *\\setup.exe))))
 
 # Instalacion de paquete desde un repositorio no aprobado  [medium]
-(Image:(*\/pip OR *\/pip3 OR *\/npm OR *\/yarn OR *\/gem OR *\/go OR *\/cargo OR *\/composer)) AND ((CommandLine:(*install\ git\+* OR *install\ http\:\/\/* OR *install\ https\:\/\/* OR *\-\-index\-url* OR *\-\-extra\-index\-url* OR *\-\-registry* OR *install\ github.com\/*)) OR (CommandLine:*curl* AND CommandLine:*install*)) AND (NOT (CommandLine:(*repo.midominio.local* OR *nexus.midominio.local* OR *artifactory.midominio.local*)))
+((Image:(*\/go OR *\/cargo)) OR (CommandLine:(*pip\ install* OR *pip3\ install* OR *\-m\ pip\ install* OR *npm\ install* OR *npm\ i\ * OR *yarn\ add* OR *gem\ install* OR *composer\ require* OR *go\ install* OR *go\ get\ * OR *cargo\ install*))) AND ((CommandLine:(*install\ git\+* OR *install\ http\:\/\/* OR *install\ https\:\/\/* OR *\-\-index\-url* OR *\-\-extra\-index\-url* OR *\-\-registry* OR *install\ github.com\/*)) OR (CommandLine:*curl* AND CommandLine:*install*)) AND (NOT (CommandLine:(*repo.midominio.local* OR *nexus.midominio.local* OR *artifactory.midominio.local*)))
 
 # Modificacion de un fichero de dependencias o lockfile  [medium]
 (TargetFilename:(*\/package\-lock.json OR *\/yarn.lock OR *\/pnpm\-lock.yaml OR *\/poetry.lock OR *\/Pipfile.lock OR *\/requirements.txt OR *\/go.sum OR *\/Cargo.lock OR *\/composer.lock OR *\/Gemfile.lock)) AND (NOT (Image:(*\/git OR *\/npm OR *\/yarn OR *\/pnpm OR *\/poetry OR *\/pip OR *\/pip3 OR *\/go OR *\/cargo OR *\/composer OR *\/bundle)))
 
 # Borrado o reduccion del registro de auditoria  [critical]
-winlog.channel:Security AND ((event.code:(1102 OR 1100)) OR event.code:4719)
+winlog.channel:Security AND (event.code:1102 OR ((event.code:4719 AND (winlog.event_data.AuditPolicyChanges:(*%%8448* OR *%%8450*))) AND (NOT user.id:S\-1\-5\-18)))

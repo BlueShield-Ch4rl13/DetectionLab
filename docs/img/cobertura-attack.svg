@@ -2,7 +2,7 @@
 <rect width="1894" height="1495" fill="#070d14"/>
 <rect width="1894" height="2" fill="#2ee6f0"/>
 <text x="24" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#eaf4fa" font-weight="700" letter-spacing="2">COBERTURA MITRE ATT&amp;CK</text>
-<text x="24" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#6f8698">219 pares tecnica-tactica  ·  124 tecnicas unicas  ·  13 tacticas  ·  color = dominio de la regla</text>
+<text x="24" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#6f8698">215 pares tecnica-tactica  ·  124 tecnicas unicas  ·  13 tacticas  ·  color = dominio de la regla</text>
 <rect x="24" y="84" width="9" height="9" fill="#2ee6f0" rx="2"/>
 <text x="38" y="92.5" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#8ea6bb">windows</text>
 <rect x="89.4" y="84" width="9" height="9" fill="#f0a72e" rx="2"/>
@@ -158,7 +158,7 @@
 <text x="319" y="672" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1609</text>
 <rect x="450" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="458" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Persistencia</text>
-<text x="574" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">28</text>
+<text x="574" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">27</text>
 <rect x="450" y="128" width="132" height="26" fill="#0d1a22" stroke="#4fd6c4" stroke-opacity="0.5" rx="2"/>
 <rect x="450" y="128" width="3" height="26" fill="#4fd6c4"/>
 <text x="461" y="145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1053.003</text>
@@ -228,24 +228,21 @@
 <rect x="450" y="779" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
 <rect x="450" y="779" width="3" height="26" fill="#2ee6f0"/>
 <text x="461" y="796" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1547.001</text>
-<rect x="450" y="810" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
-<rect x="450" y="810" width="3" height="26" fill="#f0a72e"/>
-<text x="461" y="827" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.001</text>
-<rect x="450" y="841" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="450" y="841" width="3" height="26" fill="#2ee6f0"/>
-<text x="461" y="858" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.003</text>
-<rect x="450" y="872" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
-<rect x="450" y="872" width="3" height="26" fill="#f0a72e"/>
-<text x="461" y="889" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1556.009</text>
+<rect x="450" y="810" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="450" y="810" width="3" height="26" fill="#2ee6f0"/>
+<text x="461" y="827" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.003</text>
+<rect x="450" y="841" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
+<rect x="450" y="841" width="3" height="26" fill="#f0a72e"/>
+<text x="461" y="858" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1556.009</text>
+<rect x="450" y="872" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
+<rect x="450" y="872" width="3" height="26" fill="#fbbf24"/>
+<text x="461" y="889" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1574.001</text>
 <rect x="450" y="903" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
 <rect x="450" y="903" width="3" height="26" fill="#fbbf24"/>
-<text x="461" y="920" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1574.001</text>
-<rect x="450" y="934" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
-<rect x="450" y="934" width="3" height="26" fill="#fbbf24"/>
-<text x="461" y="951" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1574.002</text>
-<rect x="450" y="965" width="132" height="26" fill="#0d1a22" stroke="#4fd6c4" stroke-opacity="0.5" rx="2"/>
-<rect x="450" y="965" width="3" height="26" fill="#4fd6c4"/>
-<text x="461" y="982" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1574.006</text>
+<text x="461" y="920" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1574.002</text>
+<rect x="450" y="934" width="132" height="26" fill="#0d1a22" stroke="#4fd6c4" stroke-opacity="0.5" rx="2"/>
+<rect x="450" y="934" width="3" height="26" fill="#4fd6c4"/>
+<text x="461" y="951" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1574.006</text>
 <rect x="592" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="600" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Escalada priv.</text>
 <text x="716" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">21</text>
@@ -472,35 +469,34 @@
 <rect x="876" y="345" width="132" height="26" fill="#0d1a22" stroke="#4fd6c4" stroke-opacity="0.5" rx="2"/>
 <rect x="876" y="345" width="3" height="26" fill="#4fd6c4"/>
 <text x="887" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1003.008</text>
-<rect x="876" y="376" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
-<rect x="876" y="376" width="3" height="26" fill="#fbbf24"/>
-<text x="887" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1040</text>
+<rect x="876" y="376" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="876" y="376" width="3" height="26" fill="#2ee6f0"/>
+<text x="887" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1087.002</text>
 <rect x="876" y="407" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
 <rect x="876" y="407" width="3" height="26" fill="#2ee6f0"/>
-<text x="887" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1087.002</text>
-<rect x="876" y="438" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="876" y="438" width="3" height="26" fill="#2ee6f0"/>
-<text x="887" y="455" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1098</text>
-<rect x="876" y="469" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
-<rect x="876" y="469" width="3" height="26" fill="#f0a72e"/>
-<text x="887" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1110.003</text>
+<text x="887" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1098</text>
+<rect x="876" y="438" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
+<rect x="876" y="438" width="3" height="26" fill="#f0a72e"/>
+<text x="887" y="455" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1110.003</text>
+<rect x="876" y="469" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="876" y="469" width="3" height="26" fill="#2ee6f0"/>
+<text x="887" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1112</text>
 <rect x="876" y="500" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
 <rect x="876" y="500" width="3" height="26" fill="#2ee6f0"/>
-<text x="887" y="517" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1112</text>
-<rect x="876" y="531" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="876" y="531" width="3" height="26" fill="#2ee6f0"/>
-<text x="887" y="548" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1187</text>
-<rect x="876" y="562" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
-<rect x="876" y="562" width="3" height="26" fill="#fb7185"/>
-<text x="887" y="579" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1190</text>
+<text x="887" y="517" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1187</text>
+<rect x="876" y="531" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
+<rect x="876" y="531" width="3" height="26" fill="#fb7185"/>
+<text x="887" y="548" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1190</text>
+<rect x="876" y="562" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
+<rect x="876" y="562" width="3" height="26" fill="#f0a72e"/>
+<text x="887" y="579" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1528</text>
 <rect x="876" y="593" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
 <rect x="876" y="593" width="3" height="26" fill="#f0a72e"/>
 <text x="887" y="610" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1539</text>
 <circle cx="999" cy="606" r="2.6" fill="#2ee6f0"/>
-<rect x="876" y="624" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
-<rect x="876" y="624" width="3" height="26" fill="#f0a72e"/>
+<rect x="876" y="624" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
+<rect x="876" y="624" width="3" height="26" fill="#fb7185"/>
 <text x="887" y="641" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.001</text>
-<circle cx="999" cy="637" r="2.6" fill="#fb7185"/>
 <rect x="876" y="655" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
 <rect x="876" y="655" width="3" height="26" fill="#2ee6f0"/>
 <text x="887" y="672" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.003</text>
@@ -572,71 +568,68 @@
 <text x="1029" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1555</text>
 <rect x="1160" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="1168" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Mov. lateral</text>
-<text x="1284" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">8</text>
-<rect x="1160" y="128" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="1160" y="128" width="3" height="26" fill="#2ee6f0"/>
-<text x="1171" y="145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1021.006</text>
+<text x="1284" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">9</text>
+<rect x="1160" y="128" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="128" width="3" height="26" fill="#fbbf24"/>
+<text x="1171" y="145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1021</text>
 <rect x="1160" y="159" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
 <rect x="1160" y="159" width="3" height="26" fill="#2ee6f0"/>
-<text x="1171" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1047</text>
-<rect x="1160" y="190" width="132" height="26" fill="#0d1a22" stroke="#60a5fa" stroke-opacity="0.5" rx="2"/>
-<rect x="1160" y="190" width="3" height="26" fill="#60a5fa"/>
-<text x="1171" y="207" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1534</text>
-<rect x="1160" y="221" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
-<rect x="1160" y="221" width="3" height="26" fill="#fb7185"/>
-<text x="1171" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.001</text>
-<rect x="1160" y="252" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="1160" y="252" width="3" height="26" fill="#2ee6f0"/>
-<text x="1171" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.002</text>
+<text x="1171" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1021.006</text>
+<rect x="1160" y="190" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="190" width="3" height="26" fill="#2ee6f0"/>
+<text x="1171" y="207" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1047</text>
+<rect x="1160" y="221" width="132" height="26" fill="#0d1a22" stroke="#60a5fa" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="221" width="3" height="26" fill="#60a5fa"/>
+<text x="1171" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1534</text>
+<rect x="1160" y="252" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="252" width="3" height="26" fill="#fb7185"/>
+<text x="1171" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.001</text>
 <rect x="1160" y="283" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
 <rect x="1160" y="283" width="3" height="26" fill="#2ee6f0"/>
-<text x="1171" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1569.002</text>
-<rect x="1160" y="314" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
-<rect x="1160" y="314" width="3" height="26" fill="#fb7185"/>
-<text x="1171" y="331" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1606</text>
-<rect x="1160" y="345" width="132" height="26" fill="#0d1a22" stroke="#f472b6" stroke-opacity="0.5" rx="2"/>
-<rect x="1160" y="345" width="3" height="26" fill="#f472b6"/>
-<text x="1171" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1609</text>
+<text x="1171" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1550.002</text>
+<rect x="1160" y="314" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="314" width="3" height="26" fill="#2ee6f0"/>
+<text x="1171" y="331" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1569.002</text>
+<rect x="1160" y="345" width="132" height="26" fill="#0d1a22" stroke="#fb7185" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="345" width="3" height="26" fill="#fb7185"/>
+<text x="1171" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1606</text>
+<rect x="1160" y="376" width="132" height="26" fill="#0d1a22" stroke="#f472b6" stroke-opacity="0.5" rx="2"/>
+<rect x="1160" y="376" width="3" height="26" fill="#f472b6"/>
+<text x="1171" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1609</text>
 <rect x="1302" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="1310" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Recoleccion</text>
-<text x="1426" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">12</text>
+<text x="1426" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">10</text>
 <rect x="1302" y="128" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1302" y="128" width="3" height="26" fill="#38bdf8"/>
 <text x="1313" y="145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1005</text>
 <rect x="1302" y="159" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1302" y="159" width="3" height="26" fill="#38bdf8"/>
 <text x="1313" y="176" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1020</text>
-<rect x="1302" y="190" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="190" width="3" height="26" fill="#fbbf24"/>
-<text x="1313" y="207" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1040</text>
+<rect x="1302" y="190" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
+<rect x="1302" y="190" width="3" height="26" fill="#38bdf8"/>
+<text x="1313" y="207" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1052.001</text>
 <rect x="1302" y="221" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1302" y="221" width="3" height="26" fill="#38bdf8"/>
-<text x="1313" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1052</text>
+<text x="1313" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1074.001</text>
 <rect x="1302" y="252" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1302" y="252" width="3" height="26" fill="#38bdf8"/>
-<text x="1313" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1052.001</text>
-<rect x="1302" y="283" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="283" width="3" height="26" fill="#38bdf8"/>
-<text x="1313" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1074.001</text>
-<rect x="1302" y="314" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="314" width="3" height="26" fill="#38bdf8"/>
-<text x="1313" y="331" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1113</text>
-<rect x="1302" y="345" width="132" height="26" fill="#0d1a22" stroke="#60a5fa" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="345" width="3" height="26" fill="#60a5fa"/>
-<text x="1313" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1114.003</text>
-<circle cx="1425" cy="358" r="2.6" fill="#38bdf8"/>
-<rect x="1302" y="376" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="376" width="3" height="26" fill="#2ee6f0"/>
-<text x="1313" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1187</text>
-<rect x="1302" y="407" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="407" width="3" height="26" fill="#2ee6f0"/>
-<text x="1313" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1557.001</text>
-<rect x="1302" y="438" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="438" width="3" height="26" fill="#38bdf8"/>
-<text x="1313" y="455" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1560.001</text>
-<rect x="1302" y="469" width="132" height="26" fill="#0d1a22" stroke="#60a5fa" stroke-opacity="0.5" rx="2"/>
-<rect x="1302" y="469" width="3" height="26" fill="#60a5fa"/>
-<text x="1313" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1564.008</text>
+<text x="1313" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1113</text>
+<rect x="1302" y="283" width="132" height="26" fill="#0d1a22" stroke="#60a5fa" stroke-opacity="0.5" rx="2"/>
+<rect x="1302" y="283" width="3" height="26" fill="#60a5fa"/>
+<text x="1313" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1114.003</text>
+<circle cx="1425" cy="296" r="2.6" fill="#38bdf8"/>
+<rect x="1302" y="314" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="1302" y="314" width="3" height="26" fill="#2ee6f0"/>
+<text x="1313" y="331" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1187</text>
+<rect x="1302" y="345" width="132" height="26" fill="#0d1a22" stroke="#2ee6f0" stroke-opacity="0.5" rx="2"/>
+<rect x="1302" y="345" width="3" height="26" fill="#2ee6f0"/>
+<text x="1313" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1557.001</text>
+<rect x="1302" y="376" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
+<rect x="1302" y="376" width="3" height="26" fill="#38bdf8"/>
+<text x="1313" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1560.001</text>
+<rect x="1302" y="407" width="132" height="26" fill="#0d1a22" stroke="#60a5fa" stroke-opacity="0.5" rx="2"/>
+<rect x="1302" y="407" width="3" height="26" fill="#60a5fa"/>
+<text x="1313" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1564.008</text>
 <rect x="1444" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="1452" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Mando/control</text>
 <text x="1568" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">12</text>
@@ -682,7 +675,7 @@
 <text x="1455" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1218.010</text>
 <rect x="1586" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="1594" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Exfiltracion</text>
-<text x="1710" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">15</text>
+<text x="1710" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">13</text>
 <rect x="1586" y="128" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1586" y="128" width="3" height="26" fill="#38bdf8"/>
 <text x="1597" y="145" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1005</text>
@@ -698,39 +691,33 @@
 <text x="1597" y="238" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1048.003</text>
 <rect x="1586" y="252" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1586" y="252" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1052</text>
-<rect x="1586" y="283" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="283" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1052.001</text>
-<circle cx="1709" cy="296" r="2.6" fill="#fbbf24"/>
-<rect x="1586" y="314" width="132" height="26" fill="#0d1a22" stroke="#34d399" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="314" width="3" height="26" fill="#34d399"/>
-<text x="1597" y="331" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1071.004</text>
-<rect x="1586" y="345" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="345" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1074.001</text>
-<rect x="1586" y="376" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="376" width="3" height="26" fill="#fbbf24"/>
-<text x="1597" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1091</text>
-<rect x="1586" y="407" width="132" height="26" fill="#0d1a22" stroke="#34d399" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="407" width="3" height="26" fill="#34d399"/>
-<text x="1597" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1102</text>
+<text x="1597" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1052.001</text>
+<circle cx="1709" cy="265" r="2.6" fill="#fbbf24"/>
+<rect x="1586" y="283" width="132" height="26" fill="#0d1a22" stroke="#34d399" stroke-opacity="0.5" rx="2"/>
+<rect x="1586" y="283" width="3" height="26" fill="#34d399"/>
+<text x="1597" y="300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1071.004</text>
+<rect x="1586" y="314" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
+<rect x="1586" y="314" width="3" height="26" fill="#38bdf8"/>
+<text x="1597" y="331" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1074.001</text>
+<rect x="1586" y="345" width="132" height="26" fill="#0d1a22" stroke="#fbbf24" stroke-opacity="0.5" rx="2"/>
+<rect x="1586" y="345" width="3" height="26" fill="#fbbf24"/>
+<text x="1597" y="362" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1091</text>
+<rect x="1586" y="376" width="132" height="26" fill="#0d1a22" stroke="#34d399" stroke-opacity="0.5" rx="2"/>
+<rect x="1586" y="376" width="3" height="26" fill="#34d399"/>
+<text x="1597" y="393" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1102</text>
+<rect x="1586" y="407" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
+<rect x="1586" y="407" width="3" height="26" fill="#38bdf8"/>
+<text x="1597" y="424" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1114.003</text>
 <rect x="1586" y="438" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1586" y="438" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="455" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1113</text>
+<text x="1597" y="455" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1560.001</text>
 <rect x="1586" y="469" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
 <rect x="1586" y="469" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1114.003</text>
-<rect x="1586" y="500" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="500" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="517" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1560.001</text>
-<rect x="1586" y="531" width="132" height="26" fill="#0d1a22" stroke="#38bdf8" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="531" width="3" height="26" fill="#38bdf8"/>
-<text x="1597" y="548" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1567.001</text>
-<rect x="1586" y="562" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
-<rect x="1586" y="562" width="3" height="26" fill="#f0a72e"/>
-<text x="1597" y="579" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1567.002</text>
-<circle cx="1709" cy="575" r="2.6" fill="#38bdf8"/>
+<text x="1597" y="486" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1567.001</text>
+<rect x="1586" y="500" width="132" height="26" fill="#0d1a22" stroke="#f0a72e" stroke-opacity="0.5" rx="2"/>
+<rect x="1586" y="500" width="3" height="26" fill="#f0a72e"/>
+<text x="1597" y="517" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#d3e2ee">T1567.002</text>
+<circle cx="1709" cy="513" r="2.6" fill="#38bdf8"/>
 <rect x="1728" y="94" width="132" height="26" fill="#0b141c" stroke="#1c2b38"/>
 <text x="1736" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#2ee6f0">Impacto</text>
 <text x="1852" y="112" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#4a6275">4</text>

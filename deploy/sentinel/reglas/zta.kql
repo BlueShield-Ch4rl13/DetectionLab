@@ -24,7 +24,7 @@ SecurityEvent
 
 // ─────────────────────────────────────────────────────────
 // Protocolo en claro hacia un recurso que exige cifrado
-// Severidad: medium  ·  ATT&CK: T1040
+// Severidad: medium  ·  ATT&CK: T1021
 // Origen: rules/zta/zta_net_001_protocolo_en_claro.yml
 imNetworkSession
 | where (DstPortNumber in~ ("21", "23", "69", "110", "143", "389", "512", "513", "514")) and NetworkDirection =~ "true"
@@ -41,7 +41,7 @@ DeviceImageLoadEvents
 // Severidad: medium  ·  ATT&CK: T1195.001, T1195.002
 // Origen: rules/zta/zta_sup_002_paquete_repositorio_no_aprobado.yml
 imProcessCreate
-| where (TargetProcessName endswith "/pip" or TargetProcessName endswith "/pip3" or TargetProcessName endswith "/npm" or TargetProcessName endswith "/yarn" or TargetProcessName endswith "/gem" or TargetProcessName endswith "/go" or TargetProcessName endswith "/cargo" or TargetProcessName endswith "/composer") and ((TargetProcessCommandLine contains "install git+" or TargetProcessCommandLine contains "install http://" or TargetProcessCommandLine contains "install https://" or TargetProcessCommandLine contains "--index-url" or TargetProcessCommandLine contains "--extra-index-url" or TargetProcessCommandLine contains "--registry" or TargetProcessCommandLine contains "install github.com/") or (TargetProcessCommandLine contains "curl" and TargetProcessCommandLine contains "install")) and (not((TargetProcessCommandLine contains "repo.midominio.local" or TargetProcessCommandLine contains "nexus.midominio.local" or TargetProcessCommandLine contains "artifactory.midominio.local")))
+| where ((TargetProcessName endswith "/go" or TargetProcessName endswith "/cargo") or (TargetProcessCommandLine contains "pip install" or TargetProcessCommandLine contains "pip3 install" or TargetProcessCommandLine contains "-m pip install" or TargetProcessCommandLine contains "npm install" or TargetProcessCommandLine contains "npm i " or TargetProcessCommandLine contains "yarn add" or TargetProcessCommandLine contains "gem install" or TargetProcessCommandLine contains "composer require" or TargetProcessCommandLine contains "go install" or TargetProcessCommandLine contains "go get " or TargetProcessCommandLine contains "cargo install")) and ((TargetProcessCommandLine contains "install git+" or TargetProcessCommandLine contains "install http://" or TargetProcessCommandLine contains "install https://" or TargetProcessCommandLine contains "--index-url" or TargetProcessCommandLine contains "--extra-index-url" or TargetProcessCommandLine contains "--registry" or TargetProcessCommandLine contains "install github.com/") or (TargetProcessCommandLine contains "curl" and TargetProcessCommandLine contains "install")) and (not((TargetProcessCommandLine contains "repo.midominio.local" or TargetProcessCommandLine contains "nexus.midominio.local" or TargetProcessCommandLine contains "artifactory.midominio.local")))
 
 // ─────────────────────────────────────────────────────────
 // Modificacion de un fichero de dependencias o lockfile
@@ -55,4 +55,4 @@ imFileEvent
 // Severidad: critical  ·  ATT&CK: T1070.001, T1562.002
 // Origen: rules/zta/zta_vis_001_borrado_registro_auditoria.yml
 SecurityEvent
-| where (EventID in~ ("1102", "1100")) or EventID == 4719
+| where EventID == 1102 or ((EventID == 4719 and (AuditPolicyChanges contains "%%8448" or AuditPolicyChanges contains "%%8450")) and (not(SubjectUserSid =~ "S-1-5-18")))
