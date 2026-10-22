@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-10-21 04:20 UTC  
-**Listas generadas:** 2026-10-21T10:56:37Z  
+**Feed generado:** 2026-10-22 04:20 UTC  
+**Listas generadas:** 2026-10-22T10:55:57Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 128 | Caza programada, no alerta directa |
-| Dominio | 279 | Caza programada, no alerta directa |
-| URL | 727 | Caza programada, no alerta directa |
-| Hash | 79 | **Alerta directa**: un hash coincide o no |
+| IP | 243 | Caza programada, no alerta directa |
+| Dominio | 1151 | Caza programada, no alerta directa |
+| URL | 564 | Caza programada, no alerta directa |
+| Hash | 143 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 20 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,52 +29,52 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (1011 de 2244)
+## Que se descarto del feed (613 de 2737)
 
 | Motivo | Descartados |
 |---|---:|
-| tipo no usado | 956 |
-| nivel bajo | 55 |
+| tipo no usado | 577 |
+| nivel bajo | 36 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Vidar | 382 |
-| Remus | 175 |
-| malware_download | 100 |
-| Unknown malware | 99 |
-| IClickFix | 79 |
-| VShell | 46 |
-| php.shin_webshell | 40 |
-| ClearFake | 36 |
-| Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries | 34 |
-| Unknown Loader | 33 |
-| MacSync | 29 |
-| Remcos | 19 |
+| IClickFix | 591 |
+| Vidar | 351 |
+| Unknown Loader | 336 |
+| Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain | 120 |
+| VShell | 105 |
+| ClearFake | 100 |
+| malware_download | 98 |
+| StrelaStealer | 73 |
+| Unknown malware | 38 |
+| php.shin_webshell | 36 |
+| Remus | 32 |
+| Remcos | 25 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 128 |
-| `wazuh/cti_dominio` | 279 |
-| `wazuh/cti_url` | 727 |
-| `wazuh/cti_hash` | 79 |
+| `wazuh/cti_ip` | 243 |
+| `wazuh/cti_dominio` | 1151 |
+| `wazuh/cti_url` | 564 |
+| `wazuh/cti_hash` | 143 |
 | `wazuh/cti_cve_kev` | 20 |
-| `splunk/cti_ip.csv` | 128 |
-| `splunk/cti_dominio.csv` | 279 |
-| `splunk/cti_url.csv` | 727 |
-| `splunk/cti_hash.csv` | 79 |
+| `splunk/cti_ip.csv` | 243 |
+| `splunk/cti_dominio.csv` | 1151 |
+| `splunk/cti_url.csv` | 564 |
+| `splunk/cti_hash.csv` | 143 |
 | `splunk/cti_cve_kev.csv` | 20 |
-| `sentinel/CTI_Ip.csv` | 128 |
-| `sentinel/CTI_Dominio.csv` | 279 |
-| `sentinel/CTI_Url.csv` | 727 |
-| `sentinel/CTI_Hash.csv` | 79 |
-| `elastic/cti_ip.ndjson` | 128 |
-| `elastic/cti_dominio.ndjson` | 279 |
-| `elastic/cti_url.ndjson` | 727 |
-| `elastic/cti_hash.ndjson` | 79 |
+| `sentinel/CTI_Ip.csv` | 243 |
+| `sentinel/CTI_Dominio.csv` | 1151 |
+| `sentinel/CTI_Url.csv` | 564 |
+| `sentinel/CTI_Hash.csv` | 143 |
+| `elastic/cti_ip.ndjson` | 243 |
+| `elastic/cti_dominio.ndjson` | 1151 |
+| `elastic/cti_url.ndjson` | 564 |
+| `elastic/cti_hash.ndjson` | 143 |
 
 ## Como se instala cada una
 

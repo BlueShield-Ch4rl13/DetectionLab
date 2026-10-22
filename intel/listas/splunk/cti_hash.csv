@@ -1,80 +1,144 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-3fdcc7d7d049a89711fb31fb236940a1c5a09d899143ffd20c3c41fb1f2cf491,filehash-sha256,Active Exploitation of CVE-2026-110936 in Siemens Software Center,baja,25,,,OTX,2026-10-20T14:43:58,0
-f4d7c5321bb0d1bda439304a753bcf9b467b98ca53c7e9493b9c2c3451092e4a,filehash-sha256,Active Exploitation of CVE-2026-110936 in Siemens Software Center,baja,25,,,OTX,2026-10-20T14:43:58,0
-a92413d4951a28822ec85e5c0d1948d4160b91388c5f3d86504611fc286a4d13,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-39cc6af95d0425f160571032a6719ad3,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-fdeb005810c3230ee1b1e0204a2fd05f,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-512920c5e31d08d65940877bdb29d0a17738ce37,filehash-sha1,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-c52f2c9d9a1aceb30fedd940e93e6f1557fdd05e,filehash-sha1,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-1bff55104206d3f55cd72ca58ffecd2fa620a428c5a3c6987d3c4cc68285d335,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-49e276498fc4e7d65ebf9fa2acf64ec2a0c25e75ac621cd6a203d64fb75aa495,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-e068794cf43e381b26c82d746cca107b9f84327a2a8308d5b87ea5529963c4c8,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-e94402a9886d4433ccad0ced0cd4f22d055d1f0f7e4155dbec992433eb94e00c,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-c2c9187033d22d7944ea9298461a0ac693ef2774b4ce08b0955d2aba3646fb44,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-459601b69a1e47442fe1482abfb99667,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-90a95b747b7334073f7c5e8c705896c0006cbcd0,filehash-sha1,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-4a43aacffc2d8d76f7abac729238779b6c99b10ee09f54c2cea1654a91561303,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-e8be50171436550e1edd8b4946d2adc0870e97465f67526ea252bff0815abcbe,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-60ef547ebd2f4252e286db762980481b0da23dcd2c84465509735544c0a9c2b3,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-1bb1b27e1695c726c7c1d3d4935f9318afc6f5fd9015d7cf3890f0eb7bf8d47e,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-a3b44405112e6364447e5d96630edfabcf81e5ad37d690c3ebc73770d62aeabd,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-6678049918dda2d5859de0a95e0573fec9496c62bbe72967ae0d3deeb5bda68f,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-ea525336b787c2fd3dbc4b3e9a3a78f71004e1bd43e2e1ed953edad51118cb72,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-5709e5e1496410d4b9ac5a3bd8be3ec4595f881b4865ebf6e490784b56105645,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-39d21c1b8ab2f08c75a1cb7d18433a8b207c71ec1d266bb049b54b7eaf01d67b,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-2fceca3460a35eea2b21c47d73c27c27edae95d2ae29ffb4ec2222d1a223b4bd,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-68613e232d0893e61ad29906daee2312bd4c4e940f4d0c9e702e7c35a256d0f7,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-063930af6a4aad06d8f8aab43226bf6dcddd2c79aa505894ee95876cf9254543,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-d74c65e6d35d3b2a80686f059590f919316ecaf4ed539192e904d675ba5c7a40,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-aafbc096e20f259df9166f837d0baf7333f177e6f383ca7cb9215936ecbe7f5e,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-f1cc91e7427a22027f65d31bbee19c54b602d08d7d93e4745b9cea59fa8132ff,filehash-sha256,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-1e6a79be5202601c8079ab61e0cec37a,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-567e4bc7ccce9fd5ccecf90e1f4454f9,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-6ee31f08d0ebac20f7925122c52bf0e8,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-de063cf3f2e2a83e7b1a277c052a340e,filehash-md5,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-9209093ce7d9aa84a1debaf8eab0f3e3b8a1f3d0,filehash-sha1,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-cdcfe080fbd8a9492f2df5e61d0ebd9abe41e0d4,filehash-sha1,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-d9c66516d297a7b200c3d89fb4f261fc5e90f137,filehash-sha1,Swallowtail: Russian Espionage Group Targets Defense Firms in Two NATO Countries,baja,25,,,OTX,2026-10-20T11:23:32,0
-1f19b9a27d79c11bda00a1e8faf74a7fdd683d38ccef1b60df2fd0307e3aa462,filehash-sha256,CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild,baja,25,,,OTX,2026-10-20T07:45:23,0
-dc14e215269a93fdbc4c1a80b984c23faf7af0911c6dbb85309796a6f2ae95fb,filehash-sha256,CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild,baja,25,,,OTX,2026-10-20T07:45:23,0
-b0871d353743fb2736f3b5ecf178788a,filehash-md5,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-b215276fe51063cf2e4d38bbffddb112,filehash-md5,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-30b71217b1e8d5b13394d4ffe3b11029d14adfa4,filehash-sha1,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-c6e443496337f0fab189bbbdfe91a102f1d56678,filehash-sha1,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-56a892d80096a9db4ca473a9c3109729c60a5ba901d6ba65948bdb1f4a6fb186,filehash-sha256,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-6774bfed99da38cec82e721de4bd64a67db7840efadcc71e7df02eb6f0a03c44,filehash-sha256,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-8e8b9532ce40eacfe1b4cf2b11241878b70b910aabd90b453b1460df19b51a4d,filehash-sha256,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-a0ba4e1ad622d9c3d950b4156d4430812d05bee216ab22c3804a9f7a80535556,filehash-sha256,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-eaf0086237879bbaac00a5874c0e2ff84deede1ba10e6b706e2288fd3a31cdde,filehash-sha256,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-ffe052fc50271e7739d458b155df790438776032bfd125b974735e1dd9c0b138,filehash-sha256,NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779,baja,25,,,OTX,2026-10-20T07:42:47,0
-7f1db334fd3302cf98dd4afddf6f90e98e2a496fe7e86bf1832b89d02f3d73c3,filehash-sha256,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-d62d4b7811e37ce789b40ff9343e3458,filehash-md5,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-3b00f51e00d8e10bf513414a13a4da96c4abfc32,filehash-sha1,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-25ea334b75beede8dcab4c4460313c3013c35e55c16cd066231d80ecfe4c0653,filehash-sha256,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-64f98d8c4adbd1baa96c754c56474938,filehash-md5,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-66cd7c21dea2279463d0111b40bc1055,filehash-md5,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-8b1459466a9e277178b2db663fcf3e5802e16d67,filehash-sha1,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-af642ea85cb37a51ff317fba37daba29bbb5fa87,filehash-sha1,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,1
-74aaa6b54133bbb2e77b2ae874e9900a907c269058f798a0a1197288ba1f7124,filehash-sha256,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-19T10:26:32,2
-b20f39fc00d242e706b6c30367ad811c676e0575050a4ec2f30104b696944b49,filehash-sha256,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-e4593f7938e76dfb40a3fe5358dfae231ef539a02ef3fda35bbccd6d2b7cdc22,filehash-sha256,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,4
-343427f5c7d42fe23a2b8e31e37168c2,filehash-md5,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-e1b3e738928012a07dfce8659b3ff31d,filehash-md5,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-b6bbb136374f076cca722dd846fa467585fbc2c7,filehash-sha1,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-c9bb4fc8eadaad35e50de087e3bbd5969cb2df2f,filehash-sha1,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-2d3c618b21a7e2f8bcd735da188e44a7609ff3f204832dd0781cd09e4388c9db,filehash-sha256,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-5712ef510481f15fe8b18fdd10b73026d57cb3d9d151878a692358b99a464441,filehash-sha256,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-68938fb428f2bcfef4ede62f7b29cd0f15f37ed59e94462c099f2ca64e36baa7,filehash-sha256,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-e546b10aee5edc754da4f9b0baace00392257121911f630145078eafad1e6bd9,filehash-sha256,Plex vulnerabilities being exploited in the wild to drop a cryptominer,baja,25,,,OTX,2026-10-19T06:03:54,1
-73cbe8e3730cacfdd208f22eab468bb5495a78c0eb2cb37eff5af0cafe321387,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-af92f7d616564dabffb0679a1a38fb24d6a6c4e4a90114c6eb0834c57dd456c9,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-675d083b63e2169e8fd0ac0cfd27904005b5e2be00f6e3489f6e47fc4c57a4d1,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-4280a408a7f0490d9d2eaa3f536f339b,filehash-md5,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-12480408006dece2fa756b3572766eecb6fb2144a1226f4e21c4cb7d54383105,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-2fe7803a60175e27d8a2934c020e6413,filehash-md5,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-5f682a13639b6234bc5dbee43c24085140b4ccacd558884c1460352072d3157f,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-d96056e9f00bb82c621be36f6a7c5c1f47cce61d11be141ee976c0092c8693b1,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-5e4d1980f76e571dd0300b9fa356818f874528fc0517d0d0e0afb7e561904764,filehash-sha256,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-b94b2608c3b296f521000550c1267bf9,filehash-md5,YuanKong RAT: the Android remote-control service that stamps its operators' names into every build,baja,25,,,OTX,2026-10-16T15:25:13,1
-069fd1e710b341fbe92337116779e6b50a40408f55f6547252cd2c05fe9c0527,filehash-sha256,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-16T13:04:13,1
-d287a970294d54db5ab3ac5f7e9525c303b9aceac7117b165385c5655717333b,filehash-sha256,QuartzLine: A working PDF viewer with a backdoor inside,baja,25,,,OTX,2026-10-16T13:04:13,1
+a147cd8f72aadfcf78f7723db6813e86,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+f456f0c6b89bd3d5124699d43971d094,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+5d29e9b24708c3ec36d1d59036124838,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+1414d4ef2d1191080abc59a407dcb6c5,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+345057421c7d9ac2b671c47449f35030,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+36deebfcda4012d18706cd170c1edf1f,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+37f18a20b9cf32e6f07450e903eaad7c,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+5b3a49938f455d1197736971c4c07228,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+815b910f1efc95f38ba0c5b12c4f2129,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+dce5b0dc0e7d7059b5ab8384a7c24ec4,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+61aac6a98abd6dcff0dc41bb88159786,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+2b784622422f4280e0b3e38b30dd87bc,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+2b7f1a7d5f5515c05d0c8e3857155ae2,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+3d3358b1057b1bfbd7e60577d8a31e0c,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+7400c34f7c6f866499029f5e759f58bd,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+d4ceb05682ecd60f4ebb4e76e02fcf7d,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+60bc23d3d453f258e2c4ca421cd086a9,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+4a171f62d1bab01827b06ae73d4caafa,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+66c6512b9a73425aba40c8bfa95d23a0,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+6eea0568d5cc776ae03e09149cec3cd8,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+9e7b34e63d8d38e37667f88a945ae69a,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e6650dc6721aaa27f8a289ff92e613ff,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+2de346602433cdd1668f36b2e9db0be1,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+af16072864ae0f9d755f8cf00fded359,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e974cf4cc5d55cddc04f026dd3ea72b8,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+250205ee4b8de59e60c745856f439608,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+33b2d3ec9a35cfb0b5a5d7b24ce4140e,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+9a3d04aa36654b5c4b21edd22e46f92d,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+cdfcc848e16660d607aba6ecf24567f4,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+36f9e8cf47a28f9803fba427cf02a25c,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+6739fe083cfa8dec9b4f989ccba0e99e,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+ca7e2d265fc35aede432c4636a2cf4cb,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+fcb9f38cc687fc8a4637e0acdf91ab66,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+c55c9d7e12cc273b812ceffca8f62d4b,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+b974ef4106af6b932df352563a9b8b3c,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+92f2fd8bcccc8ec4ffa64c7f6b3b9b8d,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e39bddf592016ad6d0784770df3e2ffe,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+cf4f24fdd283f80313565b08fea9d06d,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+387f7af167530486adcf3d8546063462,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+ee4e778e53ce4d4339d7c7888d06384d,filehash-md5,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+09f3d06d95615f9cfef7da62e324e046c286db33,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+09fc7707e786949ddec99b48ea42452e75ead2df,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+0cc48e4ce6bf1f3d7fbf4228f3e43e2ac33934b5,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+11eda40901ac8bf98415b2f5f4390d777fd54a1e,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+13947fcc695dffefe38725a45a7bc832107b67f1,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+22c4013af4192eaeb3e2c787d40d7d40c221f31f,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+2c00a721f16726365266c0de6b21ac691f880886,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+31427b3fc74c692db1ed26328d4ad36ffb659c36,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+37ecc10fb057f830e380930482d2e893c395f417,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+383de49be8a3343ce8de9e551a4c3dcab34c3ea9,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+3d5b948a824eceedf988adaa964d915d03ee092f,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+41a00d30e26645c267e3cb106fcd5177591e5c48,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+4c919146e2ba12dfdce30752fc92b2859dc07338,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+50226ba8496cd194b52d7da4bab57eb9559eb3af,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+5a3242d3153b1e770a0cd4381b828b24dea2e125,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+5e88e5e36201bf4353227b64ec72250a7dcc2ec5,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+69445cedeb5df3c9f6bc8467447a0e813a8a0562,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+6d152dcb11345dfae0986b8e97769f49db76de24,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+6d4f1cac9b03a2ab10a58e99955dafd708f1c875,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+7c8364823b0a2e96ab1fc7d1f36500a160880c97,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+88fc97e541efe39400f3327a7bb08e6ecb80b7d9,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+8bf8cd98670aaf64ebb0867335cb2f2def99afe0,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+9313952f12f0941fa7550702e463b61458875a15,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+97467bb9076d0b184304c6ecdd630371799de450,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+9da6831bbcdc6898b8bee2d1a9447f6d22ef00f4,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+9eb4487957e2b4f824f283ee17c0d4b877818739,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+a04851cd613e2d2ef7257c2a3aefb2a68efb324b,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+a3b4d7fe17b884369f314fdf50fb9b743606d2d4,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+a5d7c847a5209673ca74ffb053e8a68102c86965,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+a7cf6a0a4089a6da299055b270d2db4561aa748b,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+b2dc16de8d90128238f4198f360a67e2e02eaa88,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+b7225ddd1f30da5167a93d28fe63723f245ba256,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+bb4f4de1ab57e035c3d77df3385a0d6c443d5266,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+bc829547f5603dc078e7466419ecce47036a5c0f,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+c844fa262a61059cac50e3662518a558b4c229e6,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+dd88edbc7e17b9c6f5eed5a0a93598fa901cbd4a,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e57344d92eabbe3483eba57444f24d26246a12a2,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e75192992cbe907a263000b9f3a94a05776b0d13,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+f0823115b42208952c3db8fbb03ca27475380b45,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+f8d650d4ea1f0a161b13501491feb04af25a244e,filehash-sha1,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+1b423665896a40d31bc7feec8b0fa78d7f27552fd25f4a72917519feed3e59f5,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+1ba97892f9631d0609116325eace408a4d2b28ff8f0639a4303b5cff2fb6b4f9,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+1fce280388341989856991b09d0a82b8872061b739641241bc30e57241a27dcb,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+1fe24e80eed64eb28ea1d31e949445eaa85095e33a03e6bc835d688b81f40875,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+207758bad044c25f89fabf78892aa0f845a9b44a73b7aa16fd1fab1139c2297a,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+21d8ff68344b589d05626dce48a3b29573ee6c2e2a1ce81c392d69afd758c124,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+245b0b9b3583d37ae9eedac2665b09f656bd67f3985df0cdc0af9c7cd95bceed,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+32b0dcb8429f6b049424ef08be58f641e2ba3b8292d38d0f7ebfdcd495b697df,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+3351728f6fba0c65d1c1c678e80c36ed7bdc8be1ea6bf85e826c27e689c3db07,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+3398bdb7180bc9d3c6755e6cd3ddb351c751e64c3bf346a1857cb2c1c7406483,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+3b8519d6412546c4c1c622e842e0d9b34a540169c974325d053ff227407133ad,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+4657191f26927e22018495a9e8da9044f76d0644d56eab0a553d57cc9735c63d,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+468d2d12ededba0733acc32b4a0da776fac592cdc5fdf49015728f4586322b79,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+4b3080c1cd2c669dff3144f332013dd6db0aaf1115e6b04efcb4e25fea884fd2,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+502090cf297cd5fbffe6caf57fed196e737c07075895cd26d93662c16c95c4fe,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+53e1d7dc079dc2ffcff9fea9dccd23d9d206ffaede2274a2e6d8259c26b1a4a2,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+543922608fa97dca7e13e70a8538ef60722d32069542551f218eafcee99e80fb,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+55605320099d8b351e9c0fbbe0b9806058ba644de9c1f384914b4f1445a028e9,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+58b95add72b23acce491516c4d0eaa4291ff902199b806446587ed147dfd1a1e,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+5cd66605c1a299ac58a0686c2d52547d43d3eb60fcf7a2fc9474f5752ebb8105,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+63d2417f93b4e434d231f00cb9ba16e6636792a96e21acf1be76f411dd1c5ed5,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+6cb1b929dc98d6b1725fb4566a1b58bd3211c5da31697c962099ef585b1e7853,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+70baca89bb6b76f26076c01c35cf531018064fe5ab3d6332312500e7c1def9e1,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+731634848622ba0b32b03d03766d01990c1ce63c85b5a701e15dd2a96bd5f47e,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+771744786d0da8a530cbfe921408a3ddb11af797dff3ad9716d9b57ef7ab48b5,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+819f87c7c310c4491192cd87bc1a3e65297c2133819b2b4f672204787693f87b,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+880c7c369497fbc515b96eaea63c01d879895e1efc4b1ed71d58dd8e5aaf0284,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+88ee3c961ccd8dbad9c5e8f02da118caf1ead51fef0fcd4cebb311be3fd622a1,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+8f35a3844b3bc3f5d44b278568bae8933e36cddb4e9074ad1b29a64e7c197e26,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+97d37c33b2332072da7ca16d99ab047b64939745c82dab3b17e6b69f14ad8ada,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+980ee11f141ca4983c2e5457d48a994a61aa5a537c60d89a0999ce8a69996e0f,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+a12844e4e1007ec143200d8192589593c22b6cf143ac51b320eabf08260ab2d4,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+a427a8e3bfeaa66f017535669905763d7af1cf2c394d8ba80ebe3f489e2bb54f,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+bcad5575a549137af0e44463b3cdda315848ed93c2ca6acf486dbc20c4f57f0c,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+c38714cd8f77fca773d97b86c9a3122ef5e4991a6e70f901c64672cff8bf3956,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+d434d6cb954d404789f652040d761b07e12aaae0129dc6c25ec1732afc5d92f3,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e1b600dc014eed0e59e4345021ec0e9e210edf364fffdb655baeb4dc6c058822,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e33624c0d69bc71c68ce5b84757efcd27943757c24f14d2abbff1c564587c104,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+e66d62bba82a5452fd9cb99a2b304c32f461cbc7f411a0fd555ae9db6ce34eec,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+f67f5a4415ca63037f6a543a900ca622d13b169fced6064d91e7082e8557b53c,filehash-sha256,Midnight Mimosa Malware Campaign Exploits Android Firmware Supply Chain,baja,25,,,OTX,2026-10-20T16:09:55,0
+40103a4ae0abbef8f35a7adce7f50a9f536198a850b6eeb9761d6470d1fffa9e,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+6dde072a64933967456a57610dce8978dab195f9f9de66a0ecd1b1c7bfacacae,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+70af26f3fd65472877ba5a3676a60d4a7ea7bbcceddc8e363ca795f36bb96ac4,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+7e43fe3888ac282b04074916fc4c5e33697a9f254403537e552f11b7cbd4ac4b,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+ab8c39638608738349fddb02f73a0bb5712809b22cd2863f57829e8d6f35c24d,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+d2753dc8bb3ffc5b6aeea02a6bd2faa9d83c4d6f4c9e8ae207767fe6614609e3,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+f1f5f46f5e5e3d111779310cf3b57461a18f12f903a88290a035993dc72d6a14,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,25,,,OTX,2026-10-20T16:04:22,0
+b8810eae6ead0ec3a606300c5e3fe9c7af23f836719596e9519f73b4e1e7ad01,filehash-sha256,North Korea's Hangro Revisited,baja,25,,,OTX,2026-09-21T16:40:48,0
+5a2f81451d6c921a7ab845b1856f67d71c76196cc34ace5ef7c7e8e471c3214b,filehash-sha256,North Korea's Hangro Revisited,baja,25,,,OTX,2026-09-21T16:40:48,0
+0108656a3e1ade6ca4f21b084f5e1208,filehash-md5,PAYLOAD ransomware attacks through Active Directory GPO,baja,25,,,OTX,2026-09-21T11:54:11,0
+bea5e267f24d7da59f6821bffdbff293,filehash-md5,PAYLOAD ransomware attacks through Active Directory GPO,baja,25,,,OTX,2026-09-21T11:54:11,0
+77b4fd46994992f0e57302cfe76ed23c0d90101381d2b89fc2ddf5c4536e77ca,filehash-sha256,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-21T08:41:00,0
+c43f594fac7544e5485cbbe441e470bf,filehash-md5,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-21T08:41:00,0
+f3404ef308098202246f2f3c38c8c3166e9a8e7843ec69c1b11ac0ce9cb4038e,filehash-sha256,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-21T08:41:00,0
+c491d477dbe0ae04e9aed9dbe237144c03f73ec4,filehash-sha1,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-21T08:38:26,0
+02df07a173ab03b82a4fb6a08973fff8b1467f28,filehash-sha1,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-21T08:38:26,0
+5728b11d30586bbfc1d8bd12df1c722a06e767a2,filehash-sha1,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-21T08:38:26,0
+d95dede4387ff516f4c23351c450427d,filehash-md5,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-19T08:44:16,0
+4b2d3e8ccce8920a6d01e7d02b84236545a20e5f754b3eec253f8b416b731daa,filehash-sha256,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-19T08:44:16,0
+4ad92bf92ee614b05c340ce17bef7b6ef5a25e82,filehash-sha1,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-19T08:44:16,0
+1cd6d13ff15adbf7a42025d10ec99b4a,filehash-md5,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-19T08:44:16,0
+19af09ebe8b7ad03419677dda515507dd099bc39,filehash-sha1,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-19T08:44:16,0
+930e5be6d34511bedbfb0d762bd08fffe64e9630,filehash-sha1,Don't Call Us  We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties,baja,25,,,OTX,2026-09-19T08:44:16,0
