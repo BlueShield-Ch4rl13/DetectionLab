@@ -46,6 +46,7 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import json
 import html
 import re
 from xml.sax.saxutils import escape as escapar_xml
@@ -71,7 +72,16 @@ SIGMA = RAIZ / "rules"
 SALIDA = RAIZ / "deploy" / "wazuh" / "reglas" / "0970-detection_lab_sigma.xml"
 
 ID_BASE = 101000          # rango reservado a las reglas generadas
-ID_TOPE = 101999
+ID_TOPE = 101299          # 101300-101399 son las reglas de inteligencia de News CTI
+
+# Registro de IDs: cada regla de Wazuh generada conserva su ID para siempre.
+# Antes se numeraban en orden de fichero, asi que quitar o anadir una regla
+# desplazaba todas las siguientes: el ID 101206 pasaba de "volcado de LSASS" a
+# "descarga con LOLBins" y el active response, ResponseLab y cualquier panel
+# filtrado por ID se quedaban apuntando a otra deteccion sin avisar.
+# Clave: "<id Sigma>/<n>" (n = parte, cuando un OR produce varias reglas).
+# Un ID retirado no se reutiliza: se queda en el registro.
+REGISTRO = RAIZ / "deploy" / "wazuh" / "ids.json"
 
 # ---------------------------------------------------------------------------
 # Nivel de automatizacion (contrato con Infra-SocAnalyst)
@@ -495,12 +505,61 @@ def escapar(t: str) -> str:
     return html.escape(t, quote=False)
 
 
-def convertir(ruta: Path, ident: int) -> tuple[list[str], int, list[str]]:
-    """Devuelve (bloques XML, siguiente id libre, avisos)."""
+class Registro:
+    """IDs de Wazuh asignados, persistidos en deploy/wazuh/ids.json."""
+
+    def __init__(self, ruta: Path = REGISTRO):
+        self.ruta = ruta
+        datos = json.loads(ruta.read_text(encoding="utf-8")) if ruta.exists() else {}
+        self.ids: dict[str, dict] = datos.get("ids", {})
+        vistos: dict[int, str] = {}
+        for clave, entrada in self.ids.items():
+            if entrada["wazuh"] in vistos:
+                raise SystemExit(f"{ruta.name}: el ID {entrada['wazuh']} esta asignado a dos reglas "
+                                 f"({vistos[entrada['wazuh']]} y {clave}); un ID es de una sola regla")
+            vistos[entrada["wazuh"]] = clave
+        self.nuevos: list[str] = []
+        self.usadas: set[str] = set()
+
+    def siguiente_libre(self) -> int:
+        ocupados = [e["wazuh"] for e in self.ids.values()]
+        return max(ocupados, default=ID_BASE - 1) + 1
+
+    def asignar(self, clave: str, origen: str, titulo: str) -> int:
+        self.usadas.add(clave)
+        if clave in self.ids:
+            entrada = self.ids[clave]
+            entrada["origen"], entrada["titulo"] = origen, titulo
+            entrada.pop("retirada", None)
+            return entrada["wazuh"]
+        ident = self.siguiente_libre()
+        self.ids[clave] = {"wazuh": ident, "origen": origen, "titulo": titulo}
+        self.nuevos.append(clave)
+        return ident
+
+    def contenido(self) -> str:
+        for clave, entrada in self.ids.items():
+            if clave not in self.usadas:
+                entrada["retirada"] = True     # el ID queda reservado, no se reutiliza
+        orden = dict(sorted(self.ids.items(), key=lambda kv: kv[1]["wazuh"]))
+        return json.dumps({
+            "nota": "Generado y mantenido por tools/sigma_to_wazuh.py. Cada regla de Wazuh "
+                    "conserva su ID; los retirados no se reutilizan. No editar a mano.",
+            "ids": orden,
+        }, ensure_ascii=False, indent=2) + "\n"
+
+
+def clave_regla(ruta: Path, doc: dict, indice: int, parte: int) -> str:
+    base = doc.get("id") or f"{ruta.stem}:{indice}"
+    return f"{base}/{parte}"
+
+
+def convertir(ruta: Path, registro: "Registro") -> tuple[list[str], list[str]]:
+    """Devuelve (bloques XML, avisos)."""
     docs = [d for d in yaml.safe_load_all(ruta.read_text(encoding="utf-8")) if d]
     xml, avisos = [], []
 
-    for doc in docs:
+    for indice, doc in enumerate(docs):
         titulo = doc.get("title", "sin titulo")
 
         if "correlation" in doc:
@@ -563,9 +622,10 @@ def convertir(ruta: Path, ident: int) -> tuple[list[str], int, list[str]]:
                     if t.startswith("attack.t")]
 
         for n, termino in enumerate(terminos, 1):
+            ident = registro.asignar(clave_regla(ruta, doc, indice, n), ruta.name, titulo)
             if ident > ID_TOPE:
-                avisos.append("se ha agotado el rango de IDs reservado (101000-101999)")
-                return xml, ident, avisos
+                avisos.append("se ha agotado el rango de IDs reservado (101000-101299): el siguiente pisaria las reglas de inteligencia")
+                return xml, avisos
 
             sufijo = f" [{n}/{len(terminos)}]" if len(terminos) > 1 else ""
             partes = [f'  <rule id="{ident}" level="{nivel}">']
@@ -604,9 +664,8 @@ def convertir(ruta: Path, ident: int) -> tuple[list[str], int, list[str]]:
                           f'origen={ruta.name}</info>')
             partes.append("  </rule>")
             xml.append("\n".join(partes))
-            ident += 1
 
-    return xml, ident, avisos
+    return xml, avisos
 
 
 def main() -> int:
@@ -619,11 +678,13 @@ def main() -> int:
         print("No hay reglas Sigma en sigma/")
         return 1
 
-    bloques, avisos, ident = [], [], ID_BASE
+    registro = Registro()
+    bloques, avisos = [], []
     for f in ficheros:
-        x, ident, a = convertir(f, ident)
+        x, a = convertir(f, registro)
         bloques.extend(x)
         avisos.extend(a)
+    ids_usados = sorted(registro.ids[c]["wazuh"] for c in registro.usadas)
 
     cabecera = f"""<!--
   Reglas de Wazuh GENERADAS AUTOMATICAMENTE desde las reglas Sigma de sigma/.
@@ -632,7 +693,8 @@ def main() -> int:
       python3 scripts/sigma_to_wazuh.py
   Para cambiar una deteccion, edita su fichero .yml en sigma/ y regenera.
 
-  Rango de IDs: {ID_BASE}-{ID_TOPE}. Las reglas escritas a mano ocupan
+  Rango de IDs: {ID_BASE}-{ID_TOPE}, asignados en deploy/wazuh/ids.json: cada
+  regla conserva su ID aunque se anadan o quiten otras. Las reglas escritas a mano ocupan
   100100-100799, asi que no hay colision posible entre ambos conjuntos.
 
   Una regla Sigma puede producir varias reglas de Wazuh: Wazuh conjuga con AND
@@ -649,9 +711,15 @@ def main() -> int:
     if not args.check:
         SALIDA.parent.mkdir(parents=True, exist_ok=True)
         SALIDA.write_text(contenido, encoding="utf-8")
+        REGISTRO.write_text(registro.contenido(), encoding="utf-8")
 
-    print(f"{len(ficheros)} ficheros Sigma -> {len(bloques)} reglas de Wazuh "
-          f"(ids {ID_BASE}-{ident - 1})")
+    rango = f"ids {ids_usados[0]}-{ids_usados[-1]}" if ids_usados else "sin reglas"
+    print(f"{len(ficheros)} ficheros Sigma -> {len(bloques)} reglas de Wazuh ({rango})")
+    if registro.nuevos:
+        print(f"{len(registro.nuevos)} regla(s) nueva(s) con ID asignado en "
+              f"{REGISTRO.relative_to(RAIZ)}")
+        if args.check:
+            print("  (con --check no se guarda: ejecuta sin --check y commitea ids.json)")
     if not args.check:
         print(f"escrito en {SALIDA.relative_to(RAIZ)}")
     if avisos:

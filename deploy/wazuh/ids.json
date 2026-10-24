@@ -1,0 +1,1354 @@
+{
+  "nota": "Generado y mantenido por tools/sigma_to_wazuh.py. Cada regla de Wazuh conserva su ID; los retirados no se reutilizan. No editar a mano.",
+  "ids": {
+    "95f7a7fa-56a0-5b5e-9dca-02cbde4b8404/1": {
+      "wazuh": 101000,
+      "origen": "soc_cld_001_consentimiento_oauth.yml",
+      "titulo": "Consentimiento concedido a una aplicacion no verificada"
+    },
+    "6bd3a056-bb2a-5da6-9e88-2ed2cfbc375f/1": {
+      "wazuh": 101001,
+      "origen": "soc_cld_002_metodo_mfa_registrado.yml",
+      "titulo": "Metodo MFA registrado tras un inicio de sesion de riesgo"
+    },
+    "1038900a-3eda-5fbb-941a-33346dcab9e4/1": {
+      "wazuh": 101002,
+      "origen": "soc_cld_003_password_spraying.yml",
+      "titulo": "Fallo de autenticacion en Entra ID por credencial invalida"
+    },
+    "2c7e95e6-4501-534f-9f9e-159eb7cfb365/1": {
+      "wazuh": 101003,
+      "origen": "soc_cld_004_token_robado.yml",
+      "titulo": "Inicio de sesion correcto en Entra ID"
+    },
+    "908dd089-7e8f-5b57-a6dc-6a877ac8b66b/1": {
+      "wazuh": 101004,
+      "origen": "soc_cld_005_rol_privilegiado.yml",
+      "titulo": "Alta en un rol privilegiado de Entra ID"
+    },
+    "b8b523ce-0a01-508a-be5d-7b83fe72c728/1": {
+      "wazuh": 101005,
+      "origen": "soc_cld_006_acceso_condicional.yml",
+      "titulo": "Politica de acceso condicional modificada o deshabilitada"
+    },
+    "da193677-3359-5252-bcd8-9f6063c42b91/1": {
+      "wazuh": 101006,
+      "origen": "soc_cld_007_credencial_service_principal.yml",
+      "titulo": "Credencial anadida a una aplicacion o service principal"
+    },
+    "91c66a9f-76c5-5135-80b8-0c98c3d7518c/1": {
+      "wazuh": 101007,
+      "origen": "soc_cld_008_origen_anonimizado.yml",
+      "titulo": "Inicio de sesion desde una red de anonimizacion"
+    },
+    "8a846cef-b630-5bf6-b72b-345b927c6188/1": {
+      "wazuh": 101008,
+      "origen": "soc_cld_010_saas_no_aprobado.yml",
+      "titulo": "Subida de datos a un servicio SaaS no aprobado"
+    },
+    "d4e7c487-eb0b-5457-99f7-c59ad3143ecd/1": {
+      "wazuh": 101009,
+      "origen": "cont_escape_a_namespaces_host.yml",
+      "titulo": "Escape de contenedor hacia los namespaces del host"
+    },
+    "d4e7c487-eb0b-5457-99f7-c59ad3143ecd/2": {
+      "wazuh": 101010,
+      "origen": "cont_escape_a_namespaces_host.yml",
+      "titulo": "Escape de contenedor hacia los namespaces del host"
+    },
+    "d4e7c487-eb0b-5457-99f7-c59ad3143ecd/3": {
+      "wazuh": 101011,
+      "origen": "cont_escape_a_namespaces_host.yml",
+      "titulo": "Escape de contenedor hacia los namespaces del host"
+    },
+    "d4e7c487-eb0b-5457-99f7-c59ad3143ecd/4": {
+      "wazuh": 101012,
+      "origen": "cont_escape_a_namespaces_host.yml",
+      "titulo": "Escape de contenedor hacia los namespaces del host"
+    },
+    "7d0e6088-9338-5a96-999a-8337650284ac/1": {
+      "wazuh": 101013,
+      "origen": "cont_socket_runtime_accedido.yml",
+      "titulo": "Acceso al socket del runtime de contenedores"
+    },
+    "7ae90226-7659-5c85-89d4-05be5a0656f6/1": {
+      "wazuh": 101014,
+      "origen": "k8s_capacidades_peligrosas.yml",
+      "titulo": "Contenedor con capacidades de kernel peligrosas"
+    },
+    "34f6c415-b810-5fbb-ac9a-836216b887f6/1": {
+      "wazuh": 101015,
+      "origen": "k8s_escalada_por_rolebinding.yml",
+      "titulo": "Enlace a un rol con privilegios de administrador del cluster"
+    },
+    "3f755e60-8d98-5bf4-8dea-10ad9f0effa5/1": {
+      "wazuh": 101016,
+      "origen": "k8s_exec_en_pod.yml",
+      "titulo": "Ejecucion interactiva dentro de un pod"
+    },
+    "1ac2a767-fb50-5649-b181-1b7d7c12090d/1": {
+      "wazuh": 101017,
+      "origen": "k8s_lectura_masiva_secretos.yml",
+      "titulo": "Lectura de secretos de Kubernetes"
+    },
+    "766ec1dc-ed98-5480-abc2-0c34824f7d56/1": {
+      "wazuh": 101018,
+      "origen": "k8s_montaje_hostpath.yml",
+      "titulo": "Pod que monta una ruta sensible del nodo"
+    },
+    "766ec1dc-ed98-5480-abc2-0c34824f7d56/2": {
+      "wazuh": 101019,
+      "origen": "k8s_montaje_hostpath.yml",
+      "titulo": "Pod que monta una ruta sensible del nodo"
+    },
+    "7b09c90e-e326-5a96-9a89-79a7fe78e3e7/1": {
+      "wazuh": 101020,
+      "origen": "k8s_pod_privilegiado.yml",
+      "titulo": "Creacion de pod privilegiado"
+    },
+    "e4883bfb-93b7-5cbb-9183-205ac29f5754/1": {
+      "wazuh": 101021,
+      "origen": "soc_mail_002_suplantacion_directivo.yml",
+      "titulo": "Suplantacion de directivo en el nombre para mostrar"
+    },
+    "d34e302f-f3c2-58f3-9339-166a0ce20690/1": {
+      "wazuh": 101022,
+      "origen": "soc_mail_003_fallo_dmarc.yml",
+      "titulo": "Fallo de autenticacion de correo en el dominio propio"
+    },
+    "d34e302f-f3c2-58f3-9339-166a0ce20690/2": {
+      "wazuh": 101023,
+      "origen": "soc_mail_003_fallo_dmarc.yml",
+      "titulo": "Fallo de autenticacion de correo en el dominio propio"
+    },
+    "b8df3c83-f6c3-55a1-89cb-9123ffd68050/1": {
+      "wazuh": 101024,
+      "origen": "soc_mail_004_adjunto_sospechoso.yml",
+      "titulo": "Adjunto con formato usado para entrega de malware"
+    },
+    "b8df3c83-f6c3-55a1-89cb-9123ffd68050/2": {
+      "wazuh": 101025,
+      "origen": "soc_mail_004_adjunto_sospechoso.yml",
+      "titulo": "Adjunto con formato usado para entrega de malware"
+    },
+    "b8df3c83-f6c3-55a1-89cb-9123ffd68050/3": {
+      "wazuh": 101026,
+      "origen": "soc_mail_004_adjunto_sospechoso.yml",
+      "titulo": "Adjunto con formato usado para entrega de malware"
+    },
+    "25261569-4979-5ff2-aa56-17fedcd41634/1": {
+      "wazuh": 101027,
+      "origen": "soc_mail_005_url_pulsada.yml",
+      "titulo": "Usuario pulsa una URL de phishing bloqueada o permitida"
+    },
+    "bcf30b1b-b97c-5250-87b0-37f674d7971d/1": {
+      "wazuh": 101028,
+      "origen": "soc_mail_006_regla_buzon_externa.yml",
+      "titulo": "Regla de buzon con reenvio externo creada"
+    },
+    "523d3fe6-1690-5f45-b9f5-7147c720bbfb/1": {
+      "wazuh": 101029,
+      "origen": "soc_mail_007_envio_masivo_interno.yml",
+      "titulo": "Correo entregado desde una cuenta interna"
+    },
+    "79ece427-9b7c-548f-a10e-679cd569fcae/1": {
+      "wazuh": 101030,
+      "origen": "soc_mail_008_html_smuggling.yml",
+      "titulo": "HTML smuggling en adjunto"
+    },
+    "7cb435fe-faee-5668-9a71-cca1d1caeccc/1": {
+      "wazuh": 101031,
+      "origen": "exf_001_archivado_previo_exfiltracion.yml",
+      "titulo": "Archivado masivo previo a la exfiltracion"
+    },
+    "7cb435fe-faee-5668-9a71-cca1d1caeccc/2": {
+      "wazuh": 101032,
+      "origen": "exf_001_archivado_previo_exfiltracion.yml",
+      "titulo": "Archivado masivo previo a la exfiltracion"
+    },
+    "7cb435fe-faee-5668-9a71-cca1d1caeccc/3": {
+      "wazuh": 101033,
+      "origen": "exf_001_archivado_previo_exfiltracion.yml",
+      "titulo": "Archivado masivo previo a la exfiltracion"
+    },
+    "7cb435fe-faee-5668-9a71-cca1d1caeccc/4": {
+      "wazuh": 101034,
+      "origen": "exf_001_archivado_previo_exfiltracion.yml",
+      "titulo": "Archivado masivo previo a la exfiltracion"
+    },
+    "86ac3970-5716-5339-b2d3-651daf876a27/1": {
+      "wazuh": 101035,
+      "origen": "exf_002_subida_nube_personal.yml",
+      "titulo": "Subida a almacenamiento personal en la nube"
+    },
+    "9c354515-fc16-58cf-8197-a2b2ec4798b1/1": {
+      "wazuh": 101036,
+      "origen": "exf_003_copia_masiva_extraible.yml",
+      "titulo": "Copia masiva de documentos a unidad extraible"
+    },
+    "d7d8f746-4313-5fa0-9046-e3ac00a56827/1": {
+      "wazuh": 101037,
+      "origen": "exf_004_protocolo_alternativo.yml",
+      "titulo": "Exfiltracion por protocolo alternativo"
+    },
+    "d7d8f746-4313-5fa0-9046-e3ac00a56827/2": {
+      "wazuh": 101038,
+      "origen": "exf_004_protocolo_alternativo.yml",
+      "titulo": "Exfiltracion por protocolo alternativo"
+    },
+    "d7d8f746-4313-5fa0-9046-e3ac00a56827/3": {
+      "wazuh": 101039,
+      "origen": "exf_004_protocolo_alternativo.yml",
+      "titulo": "Exfiltracion por protocolo alternativo"
+    },
+    "41402951-6235-5e8c-af8c-4253f01fab6b/1": {
+      "wazuh": 101040,
+      "origen": "exf_005_reenvio_correo_personal.yml",
+      "titulo": "Reenvio automatico de correo a dominio personal"
+    },
+    "27880277-c1d6-5d19-abcd-fced9180a797/1": {
+      "wazuh": 101041,
+      "origen": "exf_006_repositorio_publico_codigo.yml",
+      "titulo": "Subida de codigo o secretos a repositorio publico"
+    },
+    "27880277-c1d6-5d19-abcd-fced9180a797/2": {
+      "wazuh": 101042,
+      "origen": "exf_006_repositorio_publico_codigo.yml",
+      "titulo": "Subida de codigo o secretos a repositorio publico"
+    },
+    "509613e3-9423-5cd4-9a5c-e24c82dcdb94/1": {
+      "wazuh": 101043,
+      "origen": "exf_007_volcado_base_datos.yml",
+      "titulo": "Volcado de base de datos a ruta de usuario"
+    },
+    "509613e3-9423-5cd4-9a5c-e24c82dcdb94/2": {
+      "wazuh": 101044,
+      "origen": "exf_007_volcado_base_datos.yml",
+      "titulo": "Volcado de base de datos a ruta de usuario"
+    },
+    "615a5461-b233-5af9-8142-3107cbf4ad2f/1": {
+      "wazuh": 101045,
+      "origen": "exf_008_impresion_captura_masiva.yml",
+      "titulo": "Impresion o captura masiva de documentos"
+    },
+    "615a5461-b233-5af9-8142-3107cbf4ad2f/2": {
+      "wazuh": 101046,
+      "origen": "exf_008_impresion_captura_masiva.yml",
+      "titulo": "Impresion o captura masiva de documentos"
+    },
+    "615a5461-b233-5af9-8142-3107cbf4ad2f/3": {
+      "wazuh": 101047,
+      "origen": "exf_008_impresion_captura_masiva.yml",
+      "titulo": "Impresion o captura masiva de documentos"
+    },
+    "615a5461-b233-5af9-8142-3107cbf4ad2f/4": {
+      "wazuh": 101048,
+      "origen": "exf_008_impresion_captura_masiva.yml",
+      "titulo": "Impresion o captura masiva de documentos"
+    },
+    "615a5461-b233-5af9-8142-3107cbf4ad2f/5": {
+      "wazuh": 101049,
+      "origen": "exf_008_impresion_captura_masiva.yml",
+      "titulo": "Impresion o captura masiva de documentos"
+    },
+    "200e7a04-2cc7-5824-8fa7-b103e2a599ca/1": {
+      "wazuh": 101050,
+      "origen": "lin_base64_decode_exec.yml",
+      "titulo": "Ejecucion de payload codificado en base64"
+    },
+    "9f7e0bd9-6dc3-507a-bc3d-ccd37de8defc/1": {
+      "wazuh": 101051,
+      "origen": "lin_chmod_tmp_exec.yml",
+      "titulo": "Permisos de ejecucion en /tmp o /dev/shm"
+    },
+    "9f783794-6644-5a53-8f89-77dca1717c53/1": {
+      "wazuh": 101052,
+      "origen": "lin_cron_persistence.yml",
+      "titulo": "Persistencia por cron"
+    },
+    "08fecbad-072d-5720-af42-a5fc54a420a7/1": {
+      "wazuh": 101053,
+      "origen": "lin_disable_history.yml",
+      "titulo": "Deshabilitar historial de shell (anti-forense)"
+    },
+    "1ff0c388-d765-5870-8c84-3ecc40a1881c/1": {
+      "wazuh": 101054,
+      "origen": "lin_download_pipe_shell.yml",
+      "titulo": "Descarga tuberia a shell (curl|bash)"
+    },
+    "dad88192-8cd4-5e0e-84e1-cfd83f7db605/1": {
+      "wazuh": 101055,
+      "origen": "lin_ld_preload.yml",
+      "titulo": "Modificacion de ld.so.preload (rootkit)"
+    },
+    "8fd4716f-0df1-5142-8a42-2d80006a2218/1": {
+      "wazuh": 101056,
+      "origen": "lin_read_shadow.yml",
+      "titulo": "Lectura de /etc/shadow"
+    },
+    "4a71dfc8-7e6a-5a63-8946-c8a844833cbe/1": {
+      "wazuh": 101057,
+      "origen": "lin_reverse_shell.yml",
+      "titulo": "Shell inversa (bash /dev/tcp)"
+    },
+    "91efd863-d033-552f-9f65-782761f7ccbc/1": {
+      "wazuh": 101058,
+      "origen": "lin_ssh_authorized_keys.yml",
+      "titulo": "Adicion de clave SSH (authorized_keys)"
+    },
+    "94df057c-ecd2-521c-8166-3ca59630c868/1": {
+      "wazuh": 101059,
+      "origen": "lin_useradd.yml",
+      "titulo": "Creacion o modificacion de cuenta"
+    },
+    "48094831-81d9-5cb0-910c-8e544f883835/1": {
+      "wazuh": 101060,
+      "origen": "mac_borrado_de_registros.yml",
+      "titulo": "Borrado de registros del sistema en macOS",
+      "retirada": true
+    },
+    "48094831-81d9-5cb0-910c-8e544f883835/2": {
+      "wazuh": 101061,
+      "origen": "mac_borrado_de_registros.yml",
+      "titulo": "Borrado de registros del sistema en macOS",
+      "retirada": true
+    },
+    "48094831-81d9-5cb0-910c-8e544f883835/3": {
+      "wazuh": 101062,
+      "origen": "mac_borrado_de_registros.yml",
+      "titulo": "Borrado de registros del sistema en macOS",
+      "retirada": true
+    },
+    "b37e6c5e-7e87-5523-a3d3-dcad9c9356ce/1": {
+      "wazuh": 101063,
+      "origen": "mac_descarga_y_ejecucion.yml",
+      "titulo": "Descarga y ejecucion directa en macOS",
+      "retirada": true
+    },
+    "ebc36b57-e804-575d-a354-1abd9e11abe7/1": {
+      "wazuh": 101064,
+      "origen": "mac_gatekeeper_deshabilitado.yml",
+      "titulo": "Gatekeeper deshabilitado o cuarentena eliminada",
+      "retirada": true
+    },
+    "ebc36b57-e804-575d-a354-1abd9e11abe7/2": {
+      "wazuh": 101065,
+      "origen": "mac_gatekeeper_deshabilitado.yml",
+      "titulo": "Gatekeeper deshabilitado o cuarentena eliminada",
+      "retirada": true
+    },
+    "ebc36b57-e804-575d-a354-1abd9e11abe7/3": {
+      "wazuh": 101066,
+      "origen": "mac_gatekeeper_deshabilitado.yml",
+      "titulo": "Gatekeeper deshabilitado o cuarentena eliminada",
+      "retirada": true
+    },
+    "451d4f04-a5f2-508c-ae41-a1f9b5216882/1": {
+      "wazuh": 101067,
+      "origen": "mac_osascript_sospechoso.yml",
+      "titulo": "AppleScript ejecutando shell o descargando codigo",
+      "retirada": true
+    },
+    "451d4f04-a5f2-508c-ae41-a1f9b5216882/2": {
+      "wazuh": 101068,
+      "origen": "mac_osascript_sospechoso.yml",
+      "titulo": "AppleScript ejecutando shell o descargando codigo",
+      "retirada": true
+    },
+    "451d4f04-a5f2-508c-ae41-a1f9b5216882/3": {
+      "wazuh": 101069,
+      "origen": "mac_osascript_sospechoso.yml",
+      "titulo": "AppleScript ejecutando shell o descargando codigo",
+      "retirada": true
+    },
+    "85b54d2d-a1e6-56d4-bc85-eb76d07aad0c/1": {
+      "wazuh": 101070,
+      "origen": "mac_persistencia_launchagent.yml",
+      "titulo": "Persistencia por LaunchAgent o LaunchDaemon",
+      "retirada": true
+    },
+    "3c2aab49-bcdd-5915-a33d-32919fc5e81c/1": {
+      "wazuh": 101071,
+      "origen": "mac_tcc_manipulacion.yml",
+      "titulo": "Manipulacion de la base de datos TCC",
+      "retirada": true
+    },
+    "3c2aab49-bcdd-5915-a33d-32919fc5e81c/2": {
+      "wazuh": 101072,
+      "origen": "mac_tcc_manipulacion.yml",
+      "titulo": "Manipulacion de la base de datos TCC",
+      "retirada": true
+    },
+    "c36ece79-7e24-5e5a-8da1-7b8b37b1cd92/1": {
+      "wazuh": 101073,
+      "origen": "mac_usuario_oculto_creado.yml",
+      "titulo": "Creacion de usuario local u oculto en macOS",
+      "retirada": true
+    },
+    "c36ece79-7e24-5e5a-8da1-7b8b37b1cd92/2": {
+      "wazuh": 101074,
+      "origen": "mac_usuario_oculto_creado.yml",
+      "titulo": "Creacion de usuario local u oculto en macOS",
+      "retirada": true
+    },
+    "c36ece79-7e24-5e5a-8da1-7b8b37b1cd92/3": {
+      "wazuh": 101075,
+      "origen": "mac_usuario_oculto_creado.yml",
+      "titulo": "Creacion de usuario local u oculto en macOS",
+      "retirada": true
+    },
+    "652db084-3fca-583c-8d62-745dfe04ef45/1": {
+      "wazuh": 101076,
+      "origen": "mac_volcado_llavero.yml",
+      "titulo": "Acceso o volcado del llavero de macOS",
+      "retirada": true
+    },
+    "652db084-3fca-583c-8d62-745dfe04ef45/2": {
+      "wazuh": 101077,
+      "origen": "mac_volcado_llavero.yml",
+      "titulo": "Acceso o volcado del llavero de macOS",
+      "retirada": true
+    },
+    "18d675ca-7c83-5f5c-9c83-da1efbf8fa5c/1": {
+      "wazuh": 101078,
+      "origen": "soc_net_001_beaconing.yml",
+      "titulo": "Peticion a un destino sin categoria o recien registrado"
+    },
+    "30f00c05-fe4f-53a9-8499-9b822d50df2e/1": {
+      "wazuh": 101079,
+      "origen": "soc_net_002_c2_servicio_legitimo.yml",
+      "titulo": "Canal de mando sobre un servicio legitimo"
+    },
+    "30f00c05-fe4f-53a9-8499-9b822d50df2e/2": {
+      "wazuh": 101080,
+      "origen": "soc_net_002_c2_servicio_legitimo.yml",
+      "titulo": "Canal de mando sobre un servicio legitimo"
+    },
+    "30f00c05-fe4f-53a9-8499-9b822d50df2e/3": {
+      "wazuh": 101081,
+      "origen": "soc_net_002_c2_servicio_legitimo.yml",
+      "titulo": "Canal de mando sobre un servicio legitimo"
+    },
+    "ec15f78d-b087-5e4d-9e01-b72d72fa253d/1": {
+      "wazuh": 101082,
+      "origen": "soc_net_003_dns_tunel.yml",
+      "titulo": "Tunelizacion o exfiltracion por DNS"
+    },
+    "ec15f78d-b087-5e4d-9e01-b72d72fa253d/2": {
+      "wazuh": 101083,
+      "origen": "soc_net_003_dns_tunel.yml",
+      "titulo": "Tunelizacion o exfiltracion por DNS"
+    },
+    "0cf72396-00b9-5ea5-8256-25a49ba58ad2/1": {
+      "wazuh": 101084,
+      "origen": "soc_net_005_webshell.yml",
+      "titulo": "Interaccion con webshell"
+    },
+    "db9eabc7-c1f0-5049-a439-c27e7eb985ab/1": {
+      "wazuh": 101085,
+      "origen": "soc_net_006_exfiltracion_volumen.yml",
+      "titulo": "Volumen de subida anomalo hacia el exterior",
+      "retirada": true
+    },
+    "5b946d0c-6486-51b6-86ac-a04257362d97/1": {
+      "wazuh": 101086,
+      "origen": "web_001_inyeccion_sql.yml",
+      "titulo": "Inyeccion SQL en parametros de la peticion HTTP"
+    },
+    "5b946d0c-6486-51b6-86ac-a04257362d97/2": {
+      "wazuh": 101087,
+      "origen": "web_001_inyeccion_sql.yml",
+      "titulo": "Inyeccion SQL en parametros de la peticion HTTP"
+    },
+    "5b946d0c-6486-51b6-86ac-a04257362d97/3": {
+      "wazuh": 101088,
+      "origen": "web_001_inyeccion_sql.yml",
+      "titulo": "Inyeccion SQL en parametros de la peticion HTTP"
+    },
+    "5b946d0c-6486-51b6-86ac-a04257362d97/4": {
+      "wazuh": 101089,
+      "origen": "web_001_inyeccion_sql.yml",
+      "titulo": "Inyeccion SQL en parametros de la peticion HTTP"
+    },
+    "26c0385f-f87b-5461-95a6-ce33ef181491/1": {
+      "wazuh": 101090,
+      "origen": "web_002_xss_reflejado.yml",
+      "titulo": "Cross-site scripting reflejado en la peticion"
+    },
+    "26c0385f-f87b-5461-95a6-ce33ef181491/2": {
+      "wazuh": 101091,
+      "origen": "web_002_xss_reflejado.yml",
+      "titulo": "Cross-site scripting reflejado en la peticion"
+    },
+    "55e75c84-7f45-56b8-8072-a0d1c6724aae/1": {
+      "wazuh": 101092,
+      "origen": "web_003_salto_de_directorio.yml",
+      "titulo": "Salto de directorio hacia ficheros fuera de la raiz web"
+    },
+    "55e75c84-7f45-56b8-8072-a0d1c6724aae/2": {
+      "wazuh": 101093,
+      "origen": "web_003_salto_de_directorio.yml",
+      "titulo": "Salto de directorio hacia ficheros fuera de la raiz web"
+    },
+    "55e75c84-7f45-56b8-8072-a0d1c6724aae/3": {
+      "wazuh": 101094,
+      "origen": "web_003_salto_de_directorio.yml",
+      "titulo": "Salto de directorio hacia ficheros fuera de la raiz web"
+    },
+    "14f67b94-16ff-58af-93ce-db950441a7e8/1": {
+      "wazuh": 101095,
+      "origen": "web_004_ssrf_metadatos_nube.yml",
+      "titulo": "Peticion falsificada desde el servidor hacia metadatos de nube"
+    },
+    "14f67b94-16ff-58af-93ce-db950441a7e8/2": {
+      "wazuh": 101096,
+      "origen": "web_004_ssrf_metadatos_nube.yml",
+      "titulo": "Peticion falsificada desde el servidor hacia metadatos de nube"
+    },
+    "14f67b94-16ff-58af-93ce-db950441a7e8/3": {
+      "wazuh": 101097,
+      "origen": "web_004_ssrf_metadatos_nube.yml",
+      "titulo": "Peticion falsificada desde el servidor hacia metadatos de nube"
+    },
+    "14f67b94-16ff-58af-93ce-db950441a7e8/4": {
+      "wazuh": 101098,
+      "origen": "web_004_ssrf_metadatos_nube.yml",
+      "titulo": "Peticion falsificada desde el servidor hacia metadatos de nube"
+    },
+    "181d03b7-775f-5078-8b13-1d374ecf7bf7/1": {
+      "wazuh": 101099,
+      "origen": "web_005_deserializacion_insegura.yml",
+      "titulo": "Deserializacion insegura de datos controlados por el cliente"
+    },
+    "181d03b7-775f-5078-8b13-1d374ecf7bf7/2": {
+      "wazuh": 101100,
+      "origen": "web_005_deserializacion_insegura.yml",
+      "titulo": "Deserializacion insegura de datos controlados por el cliente"
+    },
+    "181d03b7-775f-5078-8b13-1d374ecf7bf7/3": {
+      "wazuh": 101101,
+      "origen": "web_005_deserializacion_insegura.yml",
+      "titulo": "Deserializacion insegura de datos controlados por el cliente"
+    },
+    "181d03b7-775f-5078-8b13-1d374ecf7bf7/4": {
+      "wazuh": 101102,
+      "origen": "web_005_deserializacion_insegura.yml",
+      "titulo": "Deserializacion insegura de datos controlados por el cliente"
+    },
+    "181d03b7-775f-5078-8b13-1d374ecf7bf7/5": {
+      "wazuh": 101103,
+      "origen": "web_005_deserializacion_insegura.yml",
+      "titulo": "Deserializacion insegura de datos controlados por el cliente"
+    },
+    "181d03b7-775f-5078-8b13-1d374ecf7bf7/6": {
+      "wazuh": 101104,
+      "origen": "web_005_deserializacion_insegura.yml",
+      "titulo": "Deserializacion insegura de datos controlados por el cliente"
+    },
+    "6aa670b8-fbb8-5a7a-bef6-7786f81b33e8/1": {
+      "wazuh": 101105,
+      "origen": "web_006_subida_fichero_ejecutable.yml",
+      "titulo": "Subida de fichero con extension ejecutable al directorio publicado"
+    },
+    "6aa670b8-fbb8-5a7a-bef6-7786f81b33e8/2": {
+      "wazuh": 101106,
+      "origen": "web_006_subida_fichero_ejecutable.yml",
+      "titulo": "Subida de fichero con extension ejecutable al directorio publicado"
+    },
+    "6aa670b8-fbb8-5a7a-bef6-7786f81b33e8/3": {
+      "wazuh": 101107,
+      "origen": "web_006_subida_fichero_ejecutable.yml",
+      "titulo": "Subida de fichero con extension ejecutable al directorio publicado"
+    },
+    "b727143e-e54b-5f68-b0f1-3eaedab083a4/1": {
+      "wazuh": 101108,
+      "origen": "web_007_inyeccion_de_comandos.yml",
+      "titulo": "Inyeccion de comandos del sistema operativo en un parametro"
+    },
+    "05f15af6-525d-5749-b494-4e52e9eea166/1": {
+      "wazuh": 101109,
+      "origen": "web_008_inyeccion_jndi_log4shell.yml",
+      "titulo": "Inyeccion JNDI en peticion HTTP tipo Log4Shell"
+    },
+    "05f15af6-525d-5749-b494-4e52e9eea166/2": {
+      "wazuh": 101110,
+      "origen": "web_008_inyeccion_jndi_log4shell.yml",
+      "titulo": "Inyeccion JNDI en peticion HTTP tipo Log4Shell"
+    },
+    "05f15af6-525d-5749-b494-4e52e9eea166/3": {
+      "wazuh": 101111,
+      "origen": "web_008_inyeccion_jndi_log4shell.yml",
+      "titulo": "Inyeccion JNDI en peticion HTTP tipo Log4Shell"
+    },
+    "de82f1ac-3617-5ae8-89c8-36ac8513f35c/1": {
+      "wazuh": 101112,
+      "origen": "web_009_contrabando_peticiones.yml",
+      "titulo": "Contrabando de peticiones HTTP entre proxy y servidor final"
+    },
+    "de82f1ac-3617-5ae8-89c8-36ac8513f35c/2": {
+      "wazuh": 101113,
+      "origen": "web_009_contrabando_peticiones.yml",
+      "titulo": "Contrabando de peticiones HTTP entre proxy y servidor final"
+    },
+    "de82f1ac-3617-5ae8-89c8-36ac8513f35c/3": {
+      "wazuh": 101114,
+      "origen": "web_009_contrabando_peticiones.yml",
+      "titulo": "Contrabando de peticiones HTTP entre proxy y servidor final"
+    },
+    "78f6cdf2-999e-5685-ba49-7dbd83b1b127/1": {
+      "wazuh": 101115,
+      "origen": "web_010_escaneo_automatizado.yml",
+      "titulo": "Escaneo automatizado del servidor web por herramienta conocida"
+    },
+    "78f6cdf2-999e-5685-ba49-7dbd83b1b127/2": {
+      "wazuh": 101116,
+      "origen": "web_010_escaneo_automatizado.yml",
+      "titulo": "Escaneo automatizado del servidor web por herramienta conocida"
+    },
+    "38ee5d40-5490-515d-970a-41e86baeee8b/1": {
+      "wazuh": 101117,
+      "origen": "web_011_abuso_de_token_jwt.yml",
+      "titulo": "Abuso de token JWT con algoritmo nulo o cabecera manipulada"
+    },
+    "38ee5d40-5490-515d-970a-41e86baeee8b/2": {
+      "wazuh": 101118,
+      "origen": "web_011_abuso_de_token_jwt.yml",
+      "titulo": "Abuso de token JWT con algoritmo nulo o cabecera manipulada"
+    },
+    "38ee5d40-5490-515d-970a-41e86baeee8b/3": {
+      "wazuh": 101119,
+      "origen": "web_011_abuso_de_token_jwt.yml",
+      "titulo": "Abuso de token JWT con algoritmo nulo o cabecera manipulada"
+    },
+    "38ee5d40-5490-515d-970a-41e86baeee8b/4": {
+      "wazuh": 101120,
+      "origen": "web_011_abuso_de_token_jwt.yml",
+      "titulo": "Abuso de token JWT con algoritmo nulo o cabecera manipulada"
+    },
+    "27b637ca-3100-593b-966f-e3a57d366e3b/1": {
+      "wazuh": 101121,
+      "origen": "web_012_shell_tras_explotacion.yml",
+      "titulo": "Shell lanzada por el proceso del servidor web tras explotacion"
+    },
+    "27b637ca-3100-593b-966f-e3a57d366e3b/2": {
+      "wazuh": 101122,
+      "origen": "web_012_shell_tras_explotacion.yml",
+      "titulo": "Shell lanzada por el proceso del servidor web tras explotacion"
+    },
+    "27b637ca-3100-593b-966f-e3a57d366e3b/3": {
+      "wazuh": 101123,
+      "origen": "web_012_shell_tras_explotacion.yml",
+      "titulo": "Shell lanzada por el proceso del servidor web tras explotacion"
+    },
+    "f3fa9ef7-36af-5959-a8c6-1ea48f8ab0bb/1": {
+      "wazuh": 101124,
+      "origen": "web_013_inyeccion_plantillas_ssti.yml",
+      "titulo": "Inyeccion en plantillas del lado servidor"
+    },
+    "f3fa9ef7-36af-5959-a8c6-1ea48f8ab0bb/2": {
+      "wazuh": 101125,
+      "origen": "web_013_inyeccion_plantillas_ssti.yml",
+      "titulo": "Inyeccion en plantillas del lado servidor"
+    },
+    "f3fa9ef7-36af-5959-a8c6-1ea48f8ab0bb/3": {
+      "wazuh": 101126,
+      "origen": "web_013_inyeccion_plantillas_ssti.yml",
+      "titulo": "Inyeccion en plantillas del lado servidor"
+    },
+    "f3fa9ef7-36af-5959-a8c6-1ea48f8ab0bb/4": {
+      "wazuh": 101127,
+      "origen": "web_013_inyeccion_plantillas_ssti.yml",
+      "titulo": "Inyeccion en plantillas del lado servidor"
+    },
+    "af56165d-0e7e-5470-ae70-f1cff304abd7/1": {
+      "wazuh": 101128,
+      "origen": "ad_013_dcshadow.yml",
+      "titulo": "DCShadow - registro de un controlador de dominio falso"
+    },
+    "af56165d-0e7e-5470-ae70-f1cff304abd7/2": {
+      "wazuh": 101129,
+      "origen": "ad_013_dcshadow.yml",
+      "titulo": "DCShadow - registro de un controlador de dominio falso"
+    },
+    "ae90efaf-7f20-5cb6-8465-984176acf7c5/1": {
+      "wazuh": 101130,
+      "origen": "ad_014_sid_history.yml",
+      "titulo": "Inyeccion de SID history en una cuenta del dominio"
+    },
+    "ae90efaf-7f20-5cb6-8465-984176acf7c5/2": {
+      "wazuh": 101131,
+      "origen": "ad_014_sid_history.yml",
+      "titulo": "Inyeccion de SID history en una cuenta del dominio"
+    },
+    "43e8419e-0986-5162-a5ef-2808128e015d/1": {
+      "wazuh": 101132,
+      "origen": "ad_015_delegacion_kerberos.yml",
+      "titulo": "Abuso de delegacion Kerberos - constrained, unconstrained y RBCD"
+    },
+    "43e8419e-0986-5162-a5ef-2808128e015d/2": {
+      "wazuh": 101133,
+      "origen": "ad_015_delegacion_kerberos.yml",
+      "titulo": "Abuso de delegacion Kerberos - constrained, unconstrained y RBCD"
+    },
+    "43e8419e-0986-5162-a5ef-2808128e015d/3": {
+      "wazuh": 101134,
+      "origen": "ad_015_delegacion_kerberos.yml",
+      "titulo": "Abuso de delegacion Kerberos - constrained, unconstrained y RBCD"
+    },
+    "9c473f28-93ea-568b-a4f5-44110135c933/1": {
+      "wazuh": 101135,
+      "origen": "ad_016_adminsdholder.yml",
+      "titulo": "Modificacion de AdminSDHolder o del descriptor de seguridad de un objeto de directorio"
+    },
+    "9c473f28-93ea-568b-a4f5-44110135c933/2": {
+      "wazuh": 101136,
+      "origen": "ad_016_adminsdholder.yml",
+      "titulo": "Modificacion de AdminSDHolder o del descriptor de seguridad de un objeto de directorio"
+    },
+    "08b46422-a962-571d-8170-ebebb45e7ecb/1": {
+      "wazuh": 101137,
+      "origen": "ad_017_lectura_laps.yml",
+      "titulo": "Lectura de contrasenas de administrador local gestionadas por LAPS"
+    },
+    "08b46422-a962-571d-8170-ebebb45e7ecb/2": {
+      "wazuh": 101138,
+      "origen": "ad_017_lectura_laps.yml",
+      "titulo": "Lectura de contrasenas de administrador local gestionadas por LAPS"
+    },
+    "08b46422-a962-571d-8170-ebebb45e7ecb/3": {
+      "wazuh": 101139,
+      "origen": "ad_017_lectura_laps.yml",
+      "titulo": "Lectura de contrasenas de administrador local gestionadas por LAPS"
+    },
+    "08b46422-a962-571d-8170-ebebb45e7ecb/4": {
+      "wazuh": 101140,
+      "origen": "ad_017_lectura_laps.yml",
+      "titulo": "Lectura de contrasenas de administrador local gestionadas por LAPS"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/1": {
+      "wazuh": 101141,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/2": {
+      "wazuh": 101142,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/3": {
+      "wazuh": 101143,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/4": {
+      "wazuh": 101144,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/5": {
+      "wazuh": 101145,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/6": {
+      "wazuh": 101146,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/7": {
+      "wazuh": 101147,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "893b0192-dee4-5f8b-baee-a9ee65e8d60d/8": {
+      "wazuh": 101148,
+      "origen": "ad_018_extraccion_ntds.yml",
+      "titulo": "Extraccion de la base de datos ntds.dit del controlador de dominio"
+    },
+    "f9da33dd-eac7-5670-9bc1-fe7ff7bed9b2/1": {
+      "wazuh": 101149,
+      "origen": "ad_019_coercion_ntlm.yml",
+      "titulo": "Coercion de autenticacion y relay NTLM contra el controlador de dominio"
+    },
+    "f9da33dd-eac7-5670-9bc1-fe7ff7bed9b2/2": {
+      "wazuh": 101150,
+      "origen": "ad_019_coercion_ntlm.yml",
+      "titulo": "Coercion de autenticacion y relay NTLM contra el controlador de dominio"
+    },
+    "f9da33dd-eac7-5670-9bc1-fe7ff7bed9b2/3": {
+      "wazuh": 101151,
+      "origen": "ad_019_coercion_ntlm.yml",
+      "titulo": "Coercion de autenticacion y relay NTLM contra el controlador de dominio"
+    },
+    "cc11096b-a05e-58b6-8523-384d00fb0dac/1": {
+      "wazuh": 101152,
+      "origen": "cred_001_volcado_colmenas_registro.yml",
+      "titulo": "Volcado de las colmenas SAM, SYSTEM y SECURITY"
+    },
+    "cc11096b-a05e-58b6-8523-384d00fb0dac/2": {
+      "wazuh": 101153,
+      "origen": "cred_001_volcado_colmenas_registro.yml",
+      "titulo": "Volcado de las colmenas SAM, SYSTEM y SECURITY"
+    },
+    "cc11096b-a05e-58b6-8523-384d00fb0dac/3": {
+      "wazuh": 101154,
+      "origen": "cred_001_volcado_colmenas_registro.yml",
+      "titulo": "Volcado de las colmenas SAM, SYSTEM y SECURITY"
+    },
+    "cc11096b-a05e-58b6-8523-384d00fb0dac/4": {
+      "wazuh": 101155,
+      "origen": "cred_001_volcado_colmenas_registro.yml",
+      "titulo": "Volcado de las colmenas SAM, SYSTEM y SECURITY"
+    },
+    "cc11096b-a05e-58b6-8523-384d00fb0dac/5": {
+      "wazuh": 101156,
+      "origen": "cred_001_volcado_colmenas_registro.yml",
+      "titulo": "Volcado de las colmenas SAM, SYSTEM y SECURITY"
+    },
+    "cc11096b-a05e-58b6-8523-384d00fb0dac/6": {
+      "wazuh": 101157,
+      "origen": "cred_001_volcado_colmenas_registro.yml",
+      "titulo": "Volcado de las colmenas SAM, SYSTEM y SECURITY"
+    },
+    "8661fc4c-c194-5b18-8992-957d866887cb/1": {
+      "wazuh": 101158,
+      "origen": "cred_002_credenciales_navegador.yml",
+      "titulo": "Acceso a los almacenes de credenciales del navegador"
+    },
+    "8661fc4c-c194-5b18-8992-957d866887cb/2": {
+      "wazuh": 101159,
+      "origen": "cred_002_credenciales_navegador.yml",
+      "titulo": "Acceso a los almacenes de credenciales del navegador"
+    },
+    "8661fc4c-c194-5b18-8992-957d866887cb/3": {
+      "wazuh": 101160,
+      "origen": "cred_002_credenciales_navegador.yml",
+      "titulo": "Acceso a los almacenes de credenciales del navegador"
+    },
+    "440e4a0c-5483-5e6a-aa57-e341c56268af/1": {
+      "wazuh": 101161,
+      "origen": "cred_003_abuso_dpapi.yml",
+      "titulo": "Abuso de DPAPI - masterkeys y clave de respaldo del dominio"
+    },
+    "440e4a0c-5483-5e6a-aa57-e341c56268af/2": {
+      "wazuh": 101162,
+      "origen": "cred_003_abuso_dpapi.yml",
+      "titulo": "Abuso de DPAPI - masterkeys y clave de respaldo del dominio"
+    },
+    "440e4a0c-5483-5e6a-aa57-e341c56268af/3": {
+      "wazuh": 101163,
+      "origen": "cred_003_abuso_dpapi.yml",
+      "titulo": "Abuso de DPAPI - masterkeys y clave de respaldo del dominio"
+    },
+    "440e4a0c-5483-5e6a-aa57-e341c56268af/4": {
+      "wazuh": 101164,
+      "origen": "cred_003_abuso_dpapi.yml",
+      "titulo": "Abuso de DPAPI - masterkeys y clave de respaldo del dominio"
+    },
+    "74fe15a7-3458-5317-9767-cca3e3939904/1": {
+      "wazuh": 101165,
+      "origen": "cred_004_descenso_wdigest.yml",
+      "titulo": "Descenso de version a WDigest para cachear credenciales en claro"
+    },
+    "74fe15a7-3458-5317-9767-cca3e3939904/2": {
+      "wazuh": 101166,
+      "origen": "cred_004_descenso_wdigest.yml",
+      "titulo": "Descenso de version a WDigest para cachear credenciales en claro"
+    },
+    "74fe15a7-3458-5317-9767-cca3e3939904/3": {
+      "wazuh": 101167,
+      "origen": "cred_004_descenso_wdigest.yml",
+      "titulo": "Descenso de version a WDigest para cachear credenciales en claro"
+    },
+    "c79d5ef3-0b6d-5226-9b40-1a0cd438111b/1": {
+      "wazuh": 101168,
+      "origen": "cred_005_credenciales_nube_ssh.yml",
+      "titulo": "Robo de ficheros de credenciales de nube y de SSH"
+    },
+    "c79d5ef3-0b6d-5226-9b40-1a0cd438111b/2": {
+      "wazuh": 101169,
+      "origen": "cred_005_credenciales_nube_ssh.yml",
+      "titulo": "Robo de ficheros de credenciales de nube y de SSH"
+    },
+    "404beb95-b0b8-5224-a7fd-7cf271361022/1": {
+      "wazuh": 101170,
+      "origen": "cred_006_gestores_contrasenas.yml",
+      "titulo": "Acceso a bases de datos de gestores de contrasenas"
+    },
+    "404beb95-b0b8-5224-a7fd-7cf271361022/2": {
+      "wazuh": 101171,
+      "origen": "cred_006_gestores_contrasenas.yml",
+      "titulo": "Acceso a bases de datos de gestores de contrasenas"
+    },
+    "404beb95-b0b8-5224-a7fd-7cf271361022/3": {
+      "wazuh": 101172,
+      "origen": "cred_006_gestores_contrasenas.yml",
+      "titulo": "Acceso a bases de datos de gestores de contrasenas"
+    },
+    "11908a4b-0218-5368-8d81-0f5ce554c8dc/1": {
+      "wazuh": 101173,
+      "origen": "cred_007_credenciales_cacheadas_vault.yml",
+      "titulo": "Volcado de credenciales cacheadas y del Administrador de credenciales de Windows"
+    },
+    "11908a4b-0218-5368-8d81-0f5ce554c8dc/2": {
+      "wazuh": 101174,
+      "origen": "cred_007_credenciales_cacheadas_vault.yml",
+      "titulo": "Volcado de credenciales cacheadas y del Administrador de credenciales de Windows"
+    },
+    "11908a4b-0218-5368-8d81-0f5ce554c8dc/3": {
+      "wazuh": 101175,
+      "origen": "cred_007_credenciales_cacheadas_vault.yml",
+      "titulo": "Volcado de credenciales cacheadas y del Administrador de credenciales de Windows"
+    },
+    "11908a4b-0218-5368-8d81-0f5ce554c8dc/4": {
+      "wazuh": 101176,
+      "origen": "cred_007_credenciales_cacheadas_vault.yml",
+      "titulo": "Volcado de credenciales cacheadas y del Administrador de credenciales de Windows"
+    },
+    "11908a4b-0218-5368-8d81-0f5ce554c8dc/5": {
+      "wazuh": 101177,
+      "origen": "cred_007_credenciales_cacheadas_vault.yml",
+      "titulo": "Volcado de credenciales cacheadas y del Administrador de credenciales de Windows"
+    },
+    "11908a4b-0218-5368-8d81-0f5ce554c8dc/6": {
+      "wazuh": 101178,
+      "origen": "cred_007_credenciales_cacheadas_vault.yml",
+      "titulo": "Volcado de credenciales cacheadas y del Administrador de credenciales de Windows"
+    },
+    "a35beb16-5027-58c8-b7bc-4763c8837610/1": {
+      "wazuh": 101179,
+      "origen": "net_rare_process_external_conn.yml",
+      "titulo": "Proceso del sistema con conexion saliente inusual"
+    },
+    "067a60fd-e20d-53ed-83d6-c1101487e1e3/1": {
+      "wazuh": 101180,
+      "origen": "proc_net_user_add.yml",
+      "titulo": "Creacion de cuenta local"
+    },
+    "86a9cd62-a27b-55eb-892c-223a8f532cad/1": {
+      "wazuh": 101181,
+      "origen": "proc_office_spawning_shell.yml",
+      "titulo": "Documento de Office lanzando shell"
+    },
+    "8097a5f5-4800-546d-a736-d3e5dae18db9/1": {
+      "wazuh": 101182,
+      "origen": "proc_service_create_scexe.yml",
+      "titulo": "Creacion de servicio via sc.exe"
+    },
+    "1181c65d-755c-5ccd-a27e-57b726385aa6/1": {
+      "wazuh": 101183,
+      "origen": "proc_wmic_process_call_create.yml",
+      "titulo": "Ejecucion via WMIC process call create"
+    },
+    "54b36280-b579-5b0d-af3a-3ff82ad085f2/1": {
+      "wazuh": 101184,
+      "origen": "soc_ad_001_kerberoasting.yml",
+      "titulo": "Kerberoasting - solicitud masiva de tickets de servicio con RC4"
+    },
+    "05ce8c8f-92c0-5450-9da3-3d957a21566f/1": {
+      "wazuh": 101185,
+      "origen": "soc_ad_002_asrep_roasting.yml",
+      "titulo": "AS-REP Roasting - peticion sin preautenticacion Kerberos"
+    },
+    "c99d10d7-e44d-5516-b637-3ec1ccf42c9e/1": {
+      "wazuh": 101186,
+      "origen": "soc_ad_003_dcsync.yml",
+      "titulo": "DCSync - replicacion de directorio desde un equipo que no es DC"
+    },
+    "da924d29-69e6-5216-aa30-7765e1e2ebb7/1": {
+      "wazuh": 101187,
+      "origen": "soc_ad_004_golden_ticket.yml",
+      "titulo": "Indicio de Golden Ticket - TGS de krbtgt con cifrado degradado"
+    },
+    "8326ba13-ff5b-50a8-a31b-acdc642cb6b6/1": {
+      "wazuh": 101188,
+      "origen": "soc_ad_005_herramientas_kerberos.yml",
+      "titulo": "Herramienta de abuso de Kerberos ejecutada"
+    },
+    "8326ba13-ff5b-50a8-a31b-acdc642cb6b6/2": {
+      "wazuh": 101189,
+      "origen": "soc_ad_005_herramientas_kerberos.yml",
+      "titulo": "Herramienta de abuso de Kerberos ejecutada"
+    },
+    "8326ba13-ff5b-50a8-a31b-acdc642cb6b6/3": {
+      "wazuh": 101190,
+      "origen": "soc_ad_005_herramientas_kerberos.yml",
+      "titulo": "Herramienta de abuso de Kerberos ejecutada"
+    },
+    "01c2fb48-329b-5375-b16a-812b91423779/1": {
+      "wazuh": 101191,
+      "origen": "soc_ad_006_pass_the_hash.yml",
+      "titulo": "Pass-the-Hash y Overpass-the-Hash"
+    },
+    "d73db06b-35ac-5211-9dc2-20ace855c116/1": {
+      "wazuh": 101192,
+      "origen": "soc_ad_007_enumeracion_dominio.yml",
+      "titulo": "Enumeracion de Active Directory - BloodHound y comandos de reconocimiento"
+    },
+    "d73db06b-35ac-5211-9dc2-20ace855c116/2": {
+      "wazuh": 101193,
+      "origen": "soc_ad_007_enumeracion_dominio.yml",
+      "titulo": "Enumeracion de Active Directory - BloodHound y comandos de reconocimiento"
+    },
+    "d73db06b-35ac-5211-9dc2-20ace855c116/3": {
+      "wazuh": 101194,
+      "origen": "soc_ad_007_enumeracion_dominio.yml",
+      "titulo": "Enumeracion de Active Directory - BloodHound y comandos de reconocimiento"
+    },
+    "d73db06b-35ac-5211-9dc2-20ace855c116/4": {
+      "wazuh": 101195,
+      "origen": "soc_ad_007_enumeracion_dominio.yml",
+      "titulo": "Enumeracion de Active Directory - BloodHound y comandos de reconocimiento"
+    },
+    "115a874a-4941-5c4c-89fc-5c02eb47b43a/1": {
+      "wazuh": 101196,
+      "origen": "soc_ad_008_psexec_remoto.yml",
+      "titulo": "Ejecucion remota tipo PsExec"
+    },
+    "115a874a-4941-5c4c-89fc-5c02eb47b43a/2": {
+      "wazuh": 101197,
+      "origen": "soc_ad_008_psexec_remoto.yml",
+      "titulo": "Ejecucion remota tipo PsExec"
+    },
+    "d100a784-f138-5e0b-a961-f39fcf91a366/1": {
+      "wazuh": 101198,
+      "origen": "soc_ad_009_wmi_winrm_remoto.yml",
+      "titulo": "Ejecucion remota por WMI o WinRM"
+    },
+    "b79d32d8-b72a-5ae0-ad98-f6e745e568db/1": {
+      "wazuh": 101199,
+      "origen": "soc_ad_010_abuso_gpo.yml",
+      "titulo": "Modificacion sospechosa de directiva de grupo"
+    },
+    "b79d32d8-b72a-5ae0-ad98-f6e745e568db/2": {
+      "wazuh": 101200,
+      "origen": "soc_ad_010_abuso_gpo.yml",
+      "titulo": "Modificacion sospechosa de directiva de grupo"
+    },
+    "b79d32d8-b72a-5ae0-ad98-f6e745e568db/3": {
+      "wazuh": 101201,
+      "origen": "soc_ad_010_abuso_gpo.yml",
+      "titulo": "Modificacion sospechosa de directiva de grupo"
+    },
+    "6d07e08b-7e4c-5a6f-8d27-3717e0ea2338/1": {
+      "wazuh": 101202,
+      "origen": "soc_ad_011_cuenta_equipo_creada.yml",
+      "titulo": "Cuenta de equipo creada por un usuario no administrador"
+    },
+    "6197f868-992a-5ff7-a3bb-9fd7b94eaf75/1": {
+      "wazuh": 101203,
+      "origen": "soc_ad_012_abuso_adcs.yml",
+      "titulo": "Abuso de servicios de certificados de Active Directory"
+    },
+    "6197f868-992a-5ff7-a3bb-9fd7b94eaf75/2": {
+      "wazuh": 101204,
+      "origen": "soc_ad_012_abuso_adcs.yml",
+      "titulo": "Abuso de servicios de certificados de Active Directory"
+    },
+    "6197f868-992a-5ff7-a3bb-9fd7b94eaf75/3": {
+      "wazuh": 101205,
+      "origen": "soc_ad_012_abuso_adcs.yml",
+      "titulo": "Abuso de servicios de certificados de Active Directory"
+    },
+    "84045599-ca95-50f1-86c8-66d8351fc0e8/1": {
+      "wazuh": 101206,
+      "origen": "soc_edr_001_volcado_lsass.yml",
+      "titulo": "Volcado de memoria de LSASS"
+    },
+    "84045599-ca95-50f1-86c8-66d8351fc0e8/2": {
+      "wazuh": 101207,
+      "origen": "soc_edr_001_volcado_lsass.yml",
+      "titulo": "Volcado de memoria de LSASS"
+    },
+    "84045599-ca95-50f1-86c8-66d8351fc0e8/3": {
+      "wazuh": 101208,
+      "origen": "soc_edr_001_volcado_lsass.yml",
+      "titulo": "Volcado de memoria de LSASS"
+    },
+    "84045599-ca95-50f1-86c8-66d8351fc0e8/4": {
+      "wazuh": 101209,
+      "origen": "soc_edr_001_volcado_lsass.yml",
+      "titulo": "Volcado de memoria de LSASS"
+    },
+    "9b92970e-32f3-52ad-8234-2649fd2a6d8b/1": {
+      "wazuh": 101210,
+      "origen": "soc_edr_002_acceso_lsass_sysmon.yml",
+      "titulo": "Acceso a memoria de LSASS con permisos de lectura"
+    },
+    "02750359-dfb4-57e1-864c-b80ef788407f/1": {
+      "wazuh": 101211,
+      "origen": "soc_edr_003_borrado_copias_sombra.yml",
+      "titulo": "Destruccion de copias de seguridad y puntos de restauracion"
+    },
+    "02750359-dfb4-57e1-864c-b80ef788407f/2": {
+      "wazuh": 101212,
+      "origen": "soc_edr_003_borrado_copias_sombra.yml",
+      "titulo": "Destruccion de copias de seguridad y puntos de restauracion"
+    },
+    "02750359-dfb4-57e1-864c-b80ef788407f/3": {
+      "wazuh": 101213,
+      "origen": "soc_edr_003_borrado_copias_sombra.yml",
+      "titulo": "Destruccion de copias de seguridad y puntos de restauracion"
+    },
+    "02750359-dfb4-57e1-864c-b80ef788407f/4": {
+      "wazuh": 101214,
+      "origen": "soc_edr_003_borrado_copias_sombra.yml",
+      "titulo": "Destruccion de copias de seguridad y puntos de restauracion"
+    },
+    "02750359-dfb4-57e1-864c-b80ef788407f/5": {
+      "wazuh": 101215,
+      "origen": "soc_edr_003_borrado_copias_sombra.yml",
+      "titulo": "Destruccion de copias de seguridad y puntos de restauracion"
+    },
+    "36eabb0c-817b-5472-83fe-29bf4b6c4fa0/1": {
+      "wazuh": 101216,
+      "origen": "soc_edr_004_defensas_deshabilitadas.yml",
+      "titulo": "Defensas de seguridad deshabilitadas"
+    },
+    "36eabb0c-817b-5472-83fe-29bf4b6c4fa0/2": {
+      "wazuh": 101217,
+      "origen": "soc_edr_004_defensas_deshabilitadas.yml",
+      "titulo": "Defensas de seguridad deshabilitadas"
+    },
+    "36eabb0c-817b-5472-83fe-29bf4b6c4fa0/3": {
+      "wazuh": 101218,
+      "origen": "soc_edr_004_defensas_deshabilitadas.yml",
+      "titulo": "Defensas de seguridad deshabilitadas"
+    },
+    "36eabb0c-817b-5472-83fe-29bf4b6c4fa0/4": {
+      "wazuh": 101219,
+      "origen": "soc_edr_004_defensas_deshabilitadas.yml",
+      "titulo": "Defensas de seguridad deshabilitadas"
+    },
+    "2614c89b-16c3-5096-8ec8-dad99e3669f7/1": {
+      "wazuh": 101220,
+      "origen": "soc_edr_005_lolbins_descarga.yml",
+      "titulo": "LOLBin usado para descargar y ejecutar"
+    },
+    "2614c89b-16c3-5096-8ec8-dad99e3669f7/2": {
+      "wazuh": 101221,
+      "origen": "soc_edr_005_lolbins_descarga.yml",
+      "titulo": "LOLBin usado para descargar y ejecutar"
+    },
+    "2614c89b-16c3-5096-8ec8-dad99e3669f7/3": {
+      "wazuh": 101222,
+      "origen": "soc_edr_005_lolbins_descarga.yml",
+      "titulo": "LOLBin usado para descargar y ejecutar"
+    },
+    "2614c89b-16c3-5096-8ec8-dad99e3669f7/4": {
+      "wazuh": 101223,
+      "origen": "soc_edr_005_lolbins_descarga.yml",
+      "titulo": "LOLBin usado para descargar y ejecutar"
+    },
+    "2614c89b-16c3-5096-8ec8-dad99e3669f7/5": {
+      "wazuh": 101224,
+      "origen": "soc_edr_005_lolbins_descarga.yml",
+      "titulo": "LOLBin usado para descargar y ejecutar"
+    },
+    "42d67036-72b0-52b3-a8be-d59d6f24fcd8/1": {
+      "wazuh": 101225,
+      "origen": "soc_edr_006_powershell_ofuscado.yml",
+      "titulo": "PowerShell codificado u ofuscado"
+    },
+    "2423a95e-56a2-53e3-8db6-b6326db26eeb/1": {
+      "wazuh": 101226,
+      "origen": "soc_edr_007_cifrado_masivo.yml",
+      "titulo": "Cifrado masivo de ficheros por ransomware"
+    },
+    "2423a95e-56a2-53e3-8db6-b6326db26eeb/2": {
+      "wazuh": 101227,
+      "origen": "soc_edr_007_cifrado_masivo.yml",
+      "titulo": "Cifrado masivo de ficheros por ransomware"
+    },
+    "099c1cf5-2990-5ab5-ba59-7ebbb0aaf70b/1": {
+      "wazuh": 101228,
+      "origen": "soc_edr_008_persistencia_tarea.yml",
+      "titulo": "Tarea programada sospechosa"
+    },
+    "099c1cf5-2990-5ab5-ba59-7ebbb0aaf70b/2": {
+      "wazuh": 101229,
+      "origen": "soc_edr_008_persistencia_tarea.yml",
+      "titulo": "Tarea programada sospechosa"
+    },
+    "399fddea-b0d4-5580-9016-a906e2a5f1e2/1": {
+      "wazuh": 101230,
+      "origen": "soc_edr_009_persistencia_registro.yml",
+      "titulo": "Persistencia por claves de arranque del registro"
+    },
+    "21ae1a6a-2bbf-5c18-a201-da9a767e785a/1": {
+      "wazuh": 101231,
+      "origen": "soc_edr_010_inyeccion_procesos.yml",
+      "titulo": "Inyeccion de codigo en proceso remoto"
+    },
+    "21ae1a6a-2bbf-5c18-a201-da9a767e785a/2": {
+      "wazuh": 101232,
+      "origen": "soc_edr_010_inyeccion_procesos.yml",
+      "titulo": "Inyeccion de codigo en proceso remoto"
+    },
+    "df529c1f-f89b-5dc9-bd86-97f23cf045d6/1": {
+      "wazuh": 101233,
+      "origen": "soc_edr_011_pipe_c2.yml",
+      "titulo": "Named pipe caracteristico de framework de C2"
+    },
+    "53189db7-b253-5519-ab36-0d8698ea9110/1": {
+      "wazuh": 101234,
+      "origen": "soc_edr_012_ejecucion_desde_temp.yml",
+      "titulo": "Ejecucion de binario desde una ruta de escritura de usuario"
+    },
+    "ecfb6cc4-b994-572b-938e-786bba873895/1": {
+      "wazuh": 101235,
+      "origen": "xdr_001_desinstalacion_sensor_edr.yml",
+      "titulo": "Desinstalacion o parada del sensor EDR"
+    },
+    "f2911a10-3ceb-586b-ac05-7f270c3b4561/1": {
+      "wazuh": 101236,
+      "origen": "xdr_002_exclusiones_antivirus.yml",
+      "titulo": "Exclusion anadida al antivirus"
+    },
+    "dd15d35d-deb4-58ee-89a9-da35a6b7c576/1": {
+      "wazuh": 101237,
+      "origen": "xdr_003_reglas_asr_desactivadas.yml",
+      "titulo": "Reglas ASR desactivadas o puestas en auditoria"
+    },
+    "dd15d35d-deb4-58ee-89a9-da35a6b7c576/2": {
+      "wazuh": 101238,
+      "origen": "xdr_003_reglas_asr_desactivadas.yml",
+      "titulo": "Reglas ASR desactivadas o puestas en auditoria"
+    },
+    "dd15d35d-deb4-58ee-89a9-da35a6b7c576/3": {
+      "wazuh": 101239,
+      "origen": "xdr_003_reglas_asr_desactivadas.yml",
+      "titulo": "Reglas ASR desactivadas o puestas en auditoria"
+    },
+    "aff7e57c-74cd-5ce2-a1ee-a5329b52a838/1": {
+      "wazuh": 101240,
+      "origen": "xdr_004_driver_vulnerable_byovd.yml",
+      "titulo": "Carga de driver vulnerable conocido"
+    },
+    "aff7e57c-74cd-5ce2-a1ee-a5329b52a838/2": {
+      "wazuh": 101241,
+      "origen": "xdr_004_driver_vulnerable_byovd.yml",
+      "titulo": "Carga de driver vulnerable conocido"
+    },
+    "df839973-dc16-57d5-a385-a791c31c0cdd/1": {
+      "wazuh": 101242,
+      "origen": "xdr_005_telemetria_etw_manipulada.yml",
+      "titulo": "Manipulacion del canal de telemetria ETW"
+    },
+    "df839973-dc16-57d5-a385-a791c31c0cdd/2": {
+      "wazuh": 101243,
+      "origen": "xdr_005_telemetria_etw_manipulada.yml",
+      "titulo": "Manipulacion del canal de telemetria ETW"
+    },
+    "df839973-dc16-57d5-a385-a791c31c0cdd/3": {
+      "wazuh": 101244,
+      "origen": "xdr_005_telemetria_etw_manipulada.yml",
+      "titulo": "Manipulacion del canal de telemetria ETW"
+    },
+    "df839973-dc16-57d5-a385-a791c31c0cdd/4": {
+      "wazuh": 101245,
+      "origen": "xdr_005_telemetria_etw_manipulada.yml",
+      "titulo": "Manipulacion del canal de telemetria ETW"
+    },
+    "df839973-dc16-57d5-a385-a791c31c0cdd/5": {
+      "wazuh": 101246,
+      "origen": "xdr_005_telemetria_etw_manipulada.yml",
+      "titulo": "Manipulacion del canal de telemetria ETW"
+    },
+    "7e1ef1be-ea1d-528d-b861-c463a02f6d1f/1": {
+      "wazuh": 101247,
+      "origen": "xdr_006_arranque_modo_seguro.yml",
+      "titulo": "Arranque en modo seguro forzado por bcdedit"
+    },
+    "7e1ef1be-ea1d-528d-b861-c463a02f6d1f/2": {
+      "wazuh": 101248,
+      "origen": "xdr_006_arranque_modo_seguro.yml",
+      "titulo": "Arranque en modo seguro forzado por bcdedit"
+    },
+    "7cbc6380-a117-572b-830c-b754c0f78f4a/1": {
+      "wazuh": 101249,
+      "origen": "zta_dev_001_almacenamiento_extraible.yml",
+      "titulo": "Montaje de almacenamiento extraible"
+    },
+    "89d197a1-f243-587e-a32e-3326790b3d26/1": {
+      "wazuh": 101250,
+      "origen": "zta_id_001_autenticacion_heredada.yml",
+      "titulo": "Uso de protocolo de autenticacion heredado"
+    },
+    "6fb6acc5-8ef5-526a-a9b9-2988898935b1/1": {
+      "wazuh": 101251,
+      "origen": "zta_id_002_cuenta_servicio_interactiva.yml",
+      "titulo": "Cuenta de servicio con inicio de sesion interactivo"
+    },
+    "047df04a-271b-59d0-af0b-69f1039cf53a/1": {
+      "wazuh": 101252,
+      "origen": "zta_net_001_protocolo_en_claro.yml",
+      "titulo": "Protocolo en claro hacia un recurso que exige cifrado"
+    },
+    "e82ffea5-13cf-5426-80a7-c5e7f25c2e1c/1": {
+      "wazuh": 101253,
+      "origen": "zta_sup_001_libreria_ruta_no_estandar.yml",
+      "titulo": "Carga de libreria desde una ruta no estandar"
+    },
+    "e82ffea5-13cf-5426-80a7-c5e7f25c2e1c/2": {
+      "wazuh": 101254,
+      "origen": "zta_sup_001_libreria_ruta_no_estandar.yml",
+      "titulo": "Carga de libreria desde una ruta no estandar"
+    },
+    "5dd0df5c-e15a-59df-9bff-b236a7a0d6b0/1": {
+      "wazuh": 101255,
+      "origen": "zta_sup_002_paquete_repositorio_no_aprobado.yml",
+      "titulo": "Instalacion de paquete desde un repositorio no aprobado"
+    },
+    "5dd0df5c-e15a-59df-9bff-b236a7a0d6b0/2": {
+      "wazuh": 101256,
+      "origen": "zta_sup_002_paquete_repositorio_no_aprobado.yml",
+      "titulo": "Instalacion de paquete desde un repositorio no aprobado"
+    },
+    "933f7737-80c7-5bdb-8ce2-e857119ac34d/1": {
+      "wazuh": 101257,
+      "origen": "zta_sup_003_fichero_dependencias_modificado.yml",
+      "titulo": "Modificacion de un fichero de dependencias o lockfile"
+    },
+    "15af3283-6349-580f-980f-519cc737d589/1": {
+      "wazuh": 101258,
+      "origen": "zta_vis_001_borrado_registro_auditoria.yml",
+      "titulo": "Borrado o reduccion del registro de auditoria"
+    },
+    "15af3283-6349-580f-980f-519cc737d589/2": {
+      "wazuh": 101259,
+      "origen": "zta_vis_001_borrado_registro_auditoria.yml",
+      "titulo": "Borrado o reduccion del registro de auditoria"
+    },
+    "9f783794-6644-5a53-8f89-77dca1717c53/2": {
+      "wazuh": 101260,
+      "origen": "lin_cron_persistence.yml",
+      "titulo": "Persistencia por cron"
+    },
+    "9f783794-6644-5a53-8f89-77dca1717c53/3": {
+      "wazuh": 101261,
+      "origen": "lin_cron_persistence.yml",
+      "titulo": "Persistencia por cron"
+    },
+    "4a71dfc8-7e6a-5a63-8946-c8a844833cbe/2": {
+      "wazuh": 101262,
+      "origen": "lin_reverse_shell.yml",
+      "titulo": "Shell inversa (bash /dev/tcp)"
+    },
+    "4a71dfc8-7e6a-5a63-8946-c8a844833cbe/3": {
+      "wazuh": 101263,
+      "origen": "lin_reverse_shell.yml",
+      "titulo": "Shell inversa (bash /dev/tcp)"
+    },
+    "5dd0df5c-e15a-59df-9bff-b236a7a0d6b0/3": {
+      "wazuh": 101264,
+      "origen": "zta_sup_002_paquete_repositorio_no_aprobado.yml",
+      "titulo": "Instalacion de paquete desde un repositorio no aprobado"
+    },
+    "5dd0df5c-e15a-59df-9bff-b236a7a0d6b0/4": {
+      "wazuh": 101265,
+      "origen": "zta_sup_002_paquete_repositorio_no_aprobado.yml",
+      "titulo": "Instalacion de paquete desde un repositorio no aprobado"
+    }
+  }
+}
