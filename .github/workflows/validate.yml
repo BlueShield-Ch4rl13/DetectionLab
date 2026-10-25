@@ -18,6 +18,10 @@ on:
       - 'requirements.txt'
   workflow_dispatch:
 
+# Solo lee el repositorio y sube artefactos: el token no necesita escribir nada
+permissions:
+  contents: read
+
 jobs:
   validar:
     name: Reglas Sigma y contenido multi-SIEM
