@@ -1,247 +1,472 @@
-http://213.232.114.14/ntpd:Bashlite|media
-http://213.232.114.14/sshd:Bashlite|media
-http://213.232.114.14/systemd:Bashlite|media
-http://213.232.114.14/telnet:Bashlite|media
-http://213.232.114.14/watchdogd:Bashlite|media
-http://213.232.114.14/telnetd:Bashlite|media
-http://213.232.114.14/nokillbins/bash:Bashlite|media
-http://213.232.114.14/nokillbins/ext4:Bashlite|media
-http://213.232.114.14/nokillbins/getty:Bashlite|media
-http://213.232.114.14/nokillbins/gnome:Bashlite|media
-http://213.232.114.14/nokillbins/kernal:Bashlite|media
-http://213.232.114.14/nokillbins/kworker:Bashlite|media
-http://213.232.114.14/nokillbins/ntp:Bashlite|media
-http://213.232.114.14/nokillbins/ntpd:Bashlite|media
-http://213.232.114.14/nokillbins/sshd:Bashlite|media
-https://jtf.adilawa99.org/:Vidar|media
-https://id-verfied.boats:Unknown malware|media
-https://1wkljo.life/?rAb=1wgvek%3BB%3B1wkljo.life&cda_id=326:IClickFix|media
-https://chant98.com/curl/ep5z0u6c13/rlobwbmk92r8mbrg9.txt:AMOS|media
-https://chant98.com/f/zh2s2xptaamrnzpdyiq0ng/vj1ury4s:AMOS|media
-http://45.9.2.239:24381/bins/adb/akuma.i586:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.i486:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.mpsl:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.mips:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.mps64:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.riscv64:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.riscv32:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.ppc:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.sh4:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.spc:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.m68k:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.arc:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.arm7:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.arm6:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.arm5:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.arm:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.x64:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.i686:Mirai|media
-http://45.9.2.239:24381/bins/adb/akuma.arm64:Mirai|media
-https://c.adilawa99.org/:Vidar|media
-http://129.121.115.43:9163/llx.apk:Unknown malware|media
+https://fastly.jsdelivr.net/gh/608-b8d3-712fc1654e/2368-45ea-b165-51af95b6d744/80ee-a90292743e36:ClearFake|media
+https://h5.adwgamestore.org/:Vidar|media
+https://m.aot88.com/:Vidar|media
+https://chant66.com/f/nt5ax1_btyoxzizb9whm9q/nuyar9lb:AMOS|media
+https://chant66.com/curl/4c0rmvw61d6/q1sfb31ar08qqofqjduay.dat:AMOS|media
+https://z.amo98.org/:Vidar|media
+https://ww.adilawa99.org/:Vidar|media
+https://tx.abad777.org/r/:Vidar|media
+https://i.amo98.org/f/:Vidar|media
+https://i.amo98.org/l/:Vidar|media
+https://vitsmare.pages.dev:Unknown Stealer|media
+https://zen.ayxandevgang.workers.dev/m/license-20260928125936-24d9:Unknown Stealer|media
+https://u6.adilawa99.org/:Vidar|media
+https://nest-52.com/f/zh2s2xptaamrnzpdyiq0ng/vj1ury4s:AMOS|media
+https://nest-52.com/curl/qwafbxxe971/re5qltb29l0wle432.txt:AMOS|media
+https://v.amo98.org/x/:Vidar|media
+https://dku.adilawa99.org/:Vidar|media
+https://nfk.agen180.org/k1k/gate:Vidar|media
+https://n7.agan62.org/jn/gate:Vidar|media
+https://w.auto7.org/:Vidar|media
+https://w.agendaratogel.org/ps1/gate:Vidar|media
+https://u.aw328.org/:Vidar|media
+http://ggg-cl.biz/check.php:CCleaner Backdoor|media
+http://ggg-cl.biz/stats/save.php:CCleaner Backdoor|media
+https://im.adilawa99.org/:Vidar|media
+https://c.amo98.org/:Vidar|media
+https://m.amo98.org/h/:Vidar|media
+https://we.adilawa99.org/:Vidar|media
 http://176.65.139.201/nyx_bot_linux_amd64_hkdf:Unknown malware|media
-http://196.251.107.186/8jdjZhdf7/index.php:Amadey|media
-https://rf.adilawa99.org/:Vidar|media
-https://bzf168.com/loader.ps1:Lumma Stealer|media
-https://orienttaxtile.com/tues/crypted.ps1:Lumma Stealer|media
-https://pixxarting21.life/t.js?site=8877e14b1cd4aa573aea550c2ae9c73d:IClickFix|media
-https://mesa-zaimmuen.life/t.js?site=22bb70d66057a56d34dc29c5b847ae83:IClickFix|media
 https://indigo-finch-misgoaen.life/t.js?site=07c3730c3a7e0cdc33104bbd16e756a9:IClickFix|media
-https://vivid-roam-cove-gleon.life/t.js?site=7f469927630a01245c8e1125bfe9f9cc:IClickFix|media
-https://becheglokevevetoglo.beiksk.my.id/win/index.php?vq=p3XT5sNwHLY0JhBAxOGqE2dNbXFDMGZsWERNelRTWTh6V1BFUXlINTZQWnpqb2lHVGFIZ0wyTlB0bGlCSUFyOE9RdGxkbmpFTHc1U3A3dFZMUzN0MUdJZkhFWDY1c3U0YjU4cDdRKytsc2U0dC84eCtDb0tseTdqcGhML3lYQ0haZDF3ZVhMNXdBU1RUWmIyR3E3WUtYTCtHUFVDS0RsaGFtOFI1bjVIV2ZVbk9zN045WVhhdlF4WjIrQldHdVEwbjFCdDU4bHdHcVFEQUgvSw==:StrelaStealer|media
-https://petal2380.pages.dev/win/index.php?vq=dC9lIgV5hOV093/k8lLF6jRCWG1OQ25vaDlCbU9vSmVlaDlBN3JYWXowek8wMENYZ0JMN3UzaVJVdWdqNFpMalJtRU5WalE1RVV4QnBDMEE4R29Da1oyamtQa21xQ01ZdCtaTGIybjhzQlN3T2tLT28rMy9pU1FDSGxWcWxkam9lVUtHY1JSa3NKdm0vTzZQVkF4L0FscDNFOHdkalZ6Smg2Y1lYZzBWM045dDlQMVJJOWNjVFJRU3VsU2Uwd2RxeGRjWkdLNTBsZjh4RnJ2TA==:StrelaStealer|media
+https://mesa-zaimmuen.life/t.js?site=22bb70d66057a56d34dc29c5b847ae83:IClickFix|media
 https://satin-burst19.pages.dev/win/index.php?vq=nxsYfEh3AmI4Wjjxn7UwD1FtbWJnMGE1WkFoODN4d1ZaTy9LSlVSMXE0L25QQTR5TnR3Q3lqcVdLY201ZUtEMVNPNXpKcjRrSE4zeEZLUzQvT3R3QXQ2aWFWVXZ1bzJISWRscVhuVXg5eG9nL2w4TmNpckpneCtrRzZONTFiaFVrb0FxNzF0dSswbjFydEw0V3QwTENwZkk5VW02ZlVLcktZeUlWRmZLOENja2JlYVphK2NJblBhZmFPQStNK2ZLYndvNGl0ZXd3N0V0Q3ZpUQ==:StrelaStealer|media
-http://91.92.43.221/iranbot-ultimate.armv4l:Mirai|media
-http://91.92.43.221/iranbot-ultimate.mips:Mirai|media
-http://91.92.43.221/iranbot-ultimate.x86_32:Mirai|media
-http://91.92.43.221/iranbot-ultimate.mipsel:Mirai|media
-http://160.119.66.206/bins/net.arc:Mirai|media
-http://160.119.66.206/bins/net.arm:Mirai|media
-http://160.119.66.206/bins/net.arm5:Mirai|media
-http://160.119.66.206/bins/net.arm6:Mirai|media
-http://160.119.66.206/bins/net.arm7:Mirai|media
-http://160.119.66.206/bins/net.i486:Mirai|media
-http://160.119.66.206/bins/net.i686:Mirai|media
-http://160.119.66.206/bins/net.m68k:Mirai|media
-http://91.92.43.221/iranbot-ultimate.aarch64:Mirai|media
-http://31.56.209.86/x86_64:Unknown malware|media
-http://160.119.66.206/bins/net.mips:Mirai|media
-http://160.119.66.206/bins/net.mpsl:Mirai|media
-http://160.119.66.206/bins/net.ppc:Mirai|media
-http://160.119.66.206/bins/net.sh4:Mirai|media
-http://160.119.66.206/bins/net.x86:Mirai|media
-http://160.119.66.206/bins/net.x86_64:Mirai|media
-http://213.232.114.14/bash:Bashlite|media
-http://213.232.114.14/ext4:Bashlite|media
-http://213.232.114.14/getty:Bashlite|media
-http://213.232.114.14/gnome:Bashlite|media
-http://213.232.114.14/kernal:Bashlite|media
-http://213.232.114.14/kworker:Bashlite|media
-http://213.232.114.14/ntp:Bashlite|media
-http://213.232.114.14/nokillbins/systemd:Bashlite|media
-http://213.232.114.14/nokillbins/telnet:Bashlite|media
-http://213.232.114.14/nokillbins/telnetd:Bashlite|media
-http://213.232.114.14/nokillbins/watchdogd:Bashlite|media
-https://iy.acunbet89.org/:Vidar|media
-https://u7.ajo7.org/:Vidar|media
-https://n.acunbet89.org/:Vidar|media
-https://5.75.221.125:Vidar|media
-https://vmi3666256.contaboserver.net/:Grandoreiro|media
-https://vmi3666264.contaboserver.net/gSzenEEAgP03Z.php:Grandoreiro|media
-https://download-latest-ai-application.pages.dev/downloads/ChatGPT.exe:Stealc|media
-https://claude-ai-fuliapi.pages.dev/downloads/latest.exe:Stealc|media
-https://at.ajo7.org/:Vidar|media
-https://mt.acunbet89.org/:Vidar|media
-https://fastly.jsdelivr.net/gh/608-b8d3-712fc1654e/849-b650-bc87849c3/9e2f-5dc6c2ff5908:ClearFake|media
-https://gmealshub.com/:Unknown malware|media
-https://www.medecin-esthetique-visage.com/:Unknown malware|media
-https://556990.xyz/:Unknown malware|media
-https://administrationvisa.com/:Unknown malware|media
-https://milliondollaradjuster.com/:Unknown malware|media
-https://fruit-overall.com/4qX0LB:ClearFake|media
-https://decoyanswer.com/4qX0LB:ClearFake|media
-https://egg-crusade.com/4qX0LB:ClearFake|media
-https://invitationfilecard.com/InfiAQ:Unknown RAT|media
-http://aircargowebsites.com:4437:Remus|media
-https://test.hagaseca.com/ws:Unknown Loader|media
-http://42.235.89.83:57331/Mozi.m:Mozi|media
-https://del.sou.pp.ua/install_tm.sh:Unknown malware|media
-https://del.sou.pp.ua/install.sh:Unknown malware|media
-https://del.sou.pp.ua/ip_ranges.txt:Unknown malware|media
+https://orienttaxtile.com/tues/crypted.ps1:Lumma Stealer|media
+https://vivid-roam-cove-gleon.life/t.js?site=7f469927630a01245c8e1125bfe9f9cc:IClickFix|media
+https://bzf168.com/loader.ps1:Lumma Stealer|media
+https://pixxarting21.life/t.js?site=8877e14b1cd4aa573aea550c2ae9c73d:IClickFix|media
+https://petal2380.pages.dev/win/index.php?vq=dC9lIgV5hOV093/k8lLF6jRCWG1OQ25vaDlCbU9vSmVlaDlBN3JYWXowek8wMENYZ0JMN3UzaVJVdWdqNFpMalJtRU5WalE1RVV4QnBDMEE4R29Da1oyamtQa21xQ01ZdCtaTGIybjhzQlN3T2tLT28rMy9pU1FDSGxWcWxkam9lVUtHY1JSa3NKdm0vTzZQVkF4L0FscDNFOHdkalZ6Smg2Y1lYZzBWM045dDlQMVJJOWNjVFJRU3VsU2Uwd2RxeGRjWkdLNTBsZjh4RnJ2TA==:StrelaStealer|media
+https://becheglokevevetoglo.beiksk.my.id/win/index.php?vq=p3XT5sNwHLY0JhBAxOGqE2dNbXFDMGZsWERNelRTWTh6V1BFUXlINTZQWnpqb2lHVGFIZ0wyTlB0bGlCSUFyOE9RdGxkbmpFTHc1U3A3dFZMUzN0MUdJZkhFWDY1c3U0YjU4cDdRKytsc2U0dC84eCtDb0tseTdqcGhML3lYQ0haZDF3ZVhMNXdBU1RUWmIyR3E3WUtYTCtHUFVDS0RsaGFtOFI1bjVIV2ZVbk9zN045WVhhdlF4WjIrQldHdVEwbjFCdDU4bHdHcVFEQUgvSw==:StrelaStealer|media
+http://129.121.115.43:9163/llx.apk:Unknown malware|media
+http://45.9.2.239:24381/bins/adb/akuma.arm64:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.arm6:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.arm7:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.arm5:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.x64:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.arm:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.i586:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.i686:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.mips:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.mpsl:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.i486:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.riscv64:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.mps64:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.ppc:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.riscv32:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.m68k:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.spc:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.sh4:Mirai|media
+http://45.9.2.239:24381/bins/adb/akuma.arc:Mirai|media
+https://1wkljo.life/?rAb=1wgvek%3BB%3B1wkljo.life&cda_id=326:IClickFix|media
+https://id-verfied.boats:Unknown malware|media
+http://94.154.43.7:8952/item.xml:Unknown malware|media
+http://94.154.43.7:8952/a7443820956a/item.xml:Unknown malware|media
+http://94.154.43.7:8952/477617d055ce/item.xml:Unknown malware|media
+http://94.154.43.7:8952/24f46c5316be/item.xml:Unknown malware|media
+http://85.11.167.7:12103/item.xml:Unknown malware|media
+http://94.154.43.7:8952/e2d4354829dd/item.xml:Unknown malware|media
+http://85.11.167.7:13013/item.xml:Unknown malware|media
+http://85.11.167.7:12898/item.xml:Unknown malware|media
+http://64.89.163.22:39977/item_835.xml:Unknown malware|media
+http://91-92-40-202.sslip.io:44519/item.xml:Unknown malware|media
+http://64.89.163.22:39977/carrier_835.mp4:Unknown malware|media
+https://mahkotasikat.quest/:Unknown malware|media
+https://maxwinquhnih.quest/:Unknown malware|media
+https://maxwinqqz.quest/:Unknown malware|media
+https://maxwin379max.online/:Unknown malware|media
+https://maxwin333wow.cyou/:Unknown malware|media
+https://mahkotamusini.cyou/:Unknown malware|media
+https://mahkotabruh10k.cyou/:Unknown malware|media
+https://mahkotampan.cyou/:Unknown malware|media
+https://maxwin110jt.site/:Unknown malware|media
+https://mahjongwuw100.cyou/:Unknown malware|media
+https://mahjong112gac0r.site/:Unknown malware|media
+https://mahkotabosku.cyou/:Unknown malware|media
+https://mahkotabeh.quest/:Unknown malware|media
+https://mahjongdpo700.site/:Unknown malware|media
+https://mahjong333pnn.site/:Unknown malware|media
+https://judithelu.cyou/:Unknown malware|media
+https://mahjong333pms.site/:Unknown malware|media
+https://mahjong333puu.site/:Unknown malware|media
+https://mahjong333pmi.site/:Unknown malware|media
+https://judislotgac0rs.site/:Unknown malware|media
+https://judikaks.quest/:Unknown malware|media
+https://joker123jpe.site/:Unknown malware|media
+https://judithe1k.cyou/:Unknown malware|media
+https://jackpotsiumantap.quest/:Unknown malware|media
+https://jackpotopmantaps.quest/:Unknown malware|media
+https://jackpotmu1milyar.cyou/:Unknown malware|media
+https://jackpotanaja.cyou/:Unknown malware|media
+https://jackpot388mex.online/:Unknown malware|media
+https://gopay1jpsayang.site/:Unknown malware|media
+https://jackpotmasku1m.quest/:Unknown malware|media
+https://gopay379max.online/:Unknown malware|media
+https://jackpot110jt.site/:Unknown malware|media
+https://mahjong338wow.site/:Unknown malware|media
+https://maxwinzqi.quest/:Unknown malware|media
+https://jackpot399max.online/:Unknown malware|media
+https://evostogel99top.online/:Unknown malware|media
+https://evostotosly2nd.cyou/:Unknown malware|media
+https://gopay309max.online/:Unknown malware|media
+https://macshub.org/:Unknown malware|media
+https://yatco-yatch.xyz/:Unknown malware|media
+https://sourcedelivery.xyz/:Unknown malware|media
+https://yolyardimgebze.com/:Unknown malware|media
+https://sudutinfo.biz.id/?i=1:Unknown malware|media
+https://zenoolandbase.com/:Unknown malware|media
+https://wemasolutions.com/cgi-sys/defaultwebpage.cgi:Unknown malware|media
+https://vocalmedia.in/:Unknown malware|media
+https://toonova.site/:Unknown malware|media
+https://slot888gacors.online/:Unknown malware|media
+https://slot777pastigac0r.space/:Unknown malware|media
+https://slot777pastijpe.space/:Unknown malware|media
+https://slot888maxwin1.space/:Unknown malware|media
+https://shaheenfoundation.co.in/:Unknown malware|media
+https://slot888gac0rwin.online/:Unknown malware|media
+https://ufaxs.life/:Unknown malware|media
+https://gopay777gac0r.space/:Unknown malware|media
+https://mufasatoto.site/:Unknown malware|media
+https://mt.qaed.pk/cgi-sys/defaultwebpage.cgi:Unknown malware|media
+https://paycc.in/:Unknown malware|media
+https://nairdagroup.com/cgi-sys/defaultwebpage.cgi:Unknown malware|media
+https://otomotifmagz.com/:Unknown malware|media
+https://lupacaraseo.id/:Unknown malware|media
+https://kasuwa.africa/:Unknown malware|media
+https://rupalagency.com/:Unknown malware|media
+https://kjpnasdom.rs/:Unknown malware|media
+https://kcde-ks.org/:Unknown malware|media
+https://jpslot770.site/:Unknown malware|media
+https://leleurch.org/:Unknown malware|media
+https://www.j4investment.com/:Unknown malware|media
+https://hanumangroups.in/:Unknown malware|media
+https://eratraders.in/:Unknown malware|media
+https://dosnap.com/:Unknown malware|media
+https://compleit.us/:Unknown malware|media
+https://celetalkies.com/:Unknown malware|media
+https://bonanza333gac0r.space/:Unknown malware|media
+https://bitfinance.live/cgi-sys/defaultwebpage.cgi:Unknown malware|media
+https://catita.shop/:Unknown malware|media
+https://bookpublishingventure.com/:Unknown malware|media
+https://arabianlibas.com/:Unknown malware|media
+https://www.bestproduk.my.id/:Unknown malware|media
+https://bharatlivestock.farm/:Unknown malware|media
+https://bran.lol/:Unknown malware|media
+https://t3am.in/:Unknown malware|media
+https://www.vinte3comunicacao.com.br/:Unknown malware|media
+https://www.vjrservizi.it/:Unknown malware|media
+https://vsecllc.com/:Unknown malware|media
+https://kubibfoodandspices.com/:Unknown malware|media
+https://kclaundryservice.com/:Unknown malware|media
+https://isd.adv.br/:Unknown malware|media
+https://mirasehonar.com/:Unknown malware|media
+https://mtstahfidhhimutt.sch.id/:Unknown malware|media
+https://nigerianuniwomen.org/:Unknown malware|media
+https://www.nestortavora.adv.br/:Unknown malware|media
+https://guardianresponsealert.com/:Unknown malware|media
+https://fwartspace.com/:Unknown malware|media
+http://144.31.108.193:SmartLoader|media
+https://imperiamovies.com/:Unknown malware|media
+https://121drivingschool.co.uk/:Unknown malware|media
+https://www.37aveautorepair.com/:Unknown malware|media
+https://www.affaribuijo.com/:Unknown malware|media
+https://ali-darvish-nouri.com/:Unknown malware|media
+https://stockedacademy.com/:Unknown malware|media
+https://teras-itech.com/:Unknown malware|media
+https://www.linkmaker.com/:Unknown malware|media
+https://yvettesimpson.com/:Unknown malware|media
+https://zeus125pmi.cyou/:Unknown malware|media
+https://zeus138.io/:Unknown malware|media
+https://sujianmo.icu/:Unknown malware|media
+https://web889.com/:Unknown malware|media
+https://wolf-protection-kw.com/:Unknown malware|media
+https://totoles.org/:Unknown malware|media
+https://turquoipay.com/:Unknown malware|media
+https://urbancompass.org/:Unknown malware|media
+https://tandatanya.biz.id/?i=1:Unknown malware|media
+https://superliga168gelora.com/:Unknown malware|media
+https://raw.githubusercontent.com/mekong20252026/24-09-2026/refs/heads/main/bachkhoahn/ads.txt:NjRAT|media
+https://24-09-2026.edgeone.dev/bachkhoahn/ads.txt:NjRAT|media
+https://24-09-2026.pages.dev/bachkhoahn/ads.txt:NjRAT|media
+https://24-09-2026.clan.su/bachkhoahn/ads.txt:NjRAT|media
+https://bachkhoahn1111.blogspot.com/ads.txt:NjRAT|media
+https://24-09-2026.neocities.org/bachkhoahn/ads.txt:NjRAT|media
+http://proxycheap.for.ru/uploads/28916/13237/bachkhoahn/ads.txt:NjRAT|media
+https://gitlab.com/24-09-2026-group1/24-09-2026/-/raw/main/bachkhoahn/ads.txt:NjRAT|media
+https://talgwu.or.tz/:Unknown malware|media
+https://superliga168gelora.com/?s=221:Unknown malware|media
+https://tandatanya.biz.id/?i=5:Unknown malware|media
+http://45.135.193.209/x86:Mirai|media
+http://45.135.193.209/arm8:Mirai|media
+http://45.135.193.209/arm7:Mirai|media
+http://45.135.193.209/mpsl:Mirai|media
+http://45.135.193.209/mips:Mirai|media
+http://27.215.44.220:42289/Mozi.m:Mozi|media
+http://223.123.43.241:48906/Mozi.m:Mozi|media
+http://60.18.50.245:57134/Mozi.a:Mozi|media
+http://103.244.172.129:44063/Mozi.m:Mozi|media
+http://94.154.43.195/wget.sh:Unknown malware|media
+http://94.154.43.195/w.sh:Unknown malware|media
+http://94.154.43.195/c.sh:Unknown malware|media
+https://kerytz.cc/:WARDENStealer|media
+http://36.255.97.197:8000/payload:Unknown malware|media
+http://31.56.209.86/armv7l:Mirai|media
+http://91.92.43.221/hiddenbin/space.x86_64:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.x86:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.sparc:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.sh4:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.ppc:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.mpsl:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.mips64:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.mips:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.m68k:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.i686:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.arm7:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.arm6:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.arm5:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.arm:Unknown malware|media
+http://91.92.43.221/hiddenbin/space.arc:Unknown malware|media
+http://91.92.43.221/1.sh:Unknown malware|media
+http://66.212.187.214:49707/mozi.m:Mozi|media
+http://45.156.87.243/armv7l:Unknown malware|media
+http://103.170.217.170/x64:Unknown malware|media
+http://103.170.217.170/mipsle:Unknown malware|media
+http://103.170.217.170/mips64:Unknown malware|media
+http://103.170.217.170/armv5:Unknown malware|media
+http://103.170.217.170/arm64:Unknown malware|media
+http://103.170.217.170/x86:Unknown malware|media
+http://103.170.217.170/mipsel:Unknown malware|media
+http://103.170.217.170/mips:Unknown malware|media
+http://103.170.217.170/bins/sora.x86:Unknown malware|media
+http://103.170.217.170/bins/sora.sh4:Unknown malware|media
+http://103.170.217.170/bins/sora.ppc:Unknown malware|media
+http://103.170.217.170/bins/sora.mpsel:Unknown malware|media
+http://103.170.217.170/bins/sora.mips:Unknown malware|media
+http://103.170.217.170/bins/sora.m68k:Unknown malware|media
+http://103.170.217.170/bins/sora.arm7:Unknown malware|media
+http://103.170.217.170/bins/sora.arm6:Unknown malware|media
+http://103.170.217.170/bins/sora.arm5:Unknown malware|media
+http://103.170.217.170/bins/sora.arm4:Unknown malware|media
+http://103.170.217.170/armv7l:Unknown malware|media
+http://103.170.217.170/armv5l:Unknown malware|media
+http://103.170.217.170/sora.sh:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.x86:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.mips64:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm7+-o+.k:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm7:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm64:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm6:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm5:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm+-o+.k:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.arm:Unknown malware|media
+http://175.42.54.216:51431/mozi.m:Mozi|media
+http://42.224.83.188:35709/mozi.m:Unknown malware|media
+http://109.123.243.121/iran.$binary:Unknown malware|media
+http://109.123.243.121/payload.sh:Unknown malware|media
+http://103.169.130.150:8080:Mirai|media
+http://103.166.33.88:8088:Mirai|media
+http://103.166.185.54:3128:Mirai|media
+http://103.166.0.30:1111:Mirai|media
+http://103.165.126.65:8080:Mirai|media
+http://103.162.16.69:8080:Mirai|media
+http://103.160.205.51:8080:Mirai|media
+http://103.159.195.7:7777:Mirai|media
+http://103.159.194.129:3125:Mirai|media
+http://103.158.210.25:8080:Mirai|media
+http://103.156.114.46:8080:Mirai|media
+http://103.155.71.88:8080:Mirai|media
+http://103.155.196.160:8181:Mirai|media
+http://103.146.170.252:83:Mirai|media
+http://103.145.149.226:80:Mirai|media
+http://103.137.218.113:83:Mirai|media
+http://103.124.139.140:8080:Mirai|media
+http://103.122.64.156:8080:Mirai|media
+http://103.119.19.218:3128:Mirai|media
+http://103.119.101.59:8080:Mirai|media
+http://102.213.179.66:8080:Mirai|media
+http://102.0.25.184:8080:Mirai|media
+http://102.0.21.148:8080:Mirai|media
+http://101.47.74.252:8888:Mirai|media
+http://101.32.65.42:8888:Mirai|media
+http://101.255.209.93:8090:Mirai|media
+http://101.255.166.134:1111:Mirai|media
+http://101.255.107.121:1111:Mirai|media
+http://101.108.112.210:8080:Mirai|media
+http://1.231.81.166:3128:Mirai|media
+http://217.60.195.187/armv7l:Mirai|media
+http://123.129.32.65:44603/mozi.m+-o+/tmp/netgear:Mozi|media
+http://151.243.24.225/0upx86:Unknown malware|media
+http://151.243.24.225/0upx64:Unknown malware|media
+http://151.243.24.225/0upspc:Unknown malware|media
+http://151.243.24.225/0upsh4:Unknown malware|media
+http://151.243.24.225/0upppc:Unknown malware|media
+http://151.243.24.225/0upmpsl:Unknown malware|media
+http://151.243.24.225/0upmips:Unknown malware|media
+http://151.243.24.225/0upm68k:Unknown malware|media
+http://151.243.24.225/0uparm7:Unknown malware|media
+http://151.243.24.225/0uparm6:Unknown malware|media
+http://151.243.24.225/0uparm5:Unknown malware|media
+http://151.243.24.225/0uparm:Unknown malware|media
+http://151.243.24.225/n:Unknown malware|media
+http://176.65.139.36/eclipse.$(uname:Unknown malware|media
+http://176.65.139.36/eclipse.sh:Unknown malware|media
+http://116.207.221.240:59439/mozi.m:Mozi|media
+http://182.119.88.87:59201/mozi.m:Mozi|media
+https://217.60.102.5/$1:Unknown malware|media
+http://45.207.157.28/backdoor.sh:Unknown malware|media
+http://176.65.139.227/bins/$arch:Hajime|media
+http://176.65.139.227/bins/kla.sh:Hajime|media
+http://202.110.70.60:800/adb.sh:Unknown malware|media
+http://213.232.114.14/nokillbins/login:Unknown malware|media
+http://213.232.114.14/nokillbins/kde:Unknown malware|media
+http://213.232.114.14/nokillbins/dbus:Unknown malware|media
+http://213.232.114.14/nokillbins/crypto:Unknown malware|media
+http://213.232.114.14/nokillbins/handshakebins.sh:Unknown malware|media
+http://120.33.246.140:50457/mozi.m+-o+-:Mozi|media
+http://120.28.194.204:44059/mozi.m:Mozi|media
+http://213.232.114.14/login:Unknown malware|media
+http://213.232.114.14/kde:Unknown malware|media
+http://137.59.230.21:33513/Mozi.7:Mozi|media
+http://223.123.70.98:55410/Mozi.m:Mozi|media
+http://27.156.176.249:46074/mozi.m:Mozi|media
+http://kabarberita.eu.cc/wowiloveyou/runningaway.arm:Unknown malware|media
+http://160.119.66.206/bins/net.spc:Unknown malware|media
+http://196.251.121.142/a3f8d2/kaizen.x86_64:Unknown malware|media
+http://176.65.134.121:8080/stub.arm:Unknown malware|media
+https://217.60.103.56/$1:Unknown malware|media
+http://176.65.139.201:80/nyx_bot_linux_amd64_hkdf:Unknown malware|media
+http://217.60.102.5/sh:Unknown malware|media
+http://47.236.231.119/p2d7smlikf:Unknown malware|media
+http://43.98.196.29/v6gc10t1i:Unknown malware|media
+https://r3lzu9.fernthema.shop/clear-cache.sh:ClearFake|media
+https://dashboard.surfizing.xyz/v3/Rivet.html:ClearFake|media
+http://coxnext.click:7242/attachments:Remus|media
+http://202.47.46.183:35680/Mozi.m:Mozi|media
+http://72.255.33.75:44980/Mozi.a:Mozi|media
+http://123.14.23.139:52606/Mozi.m:Mozi|media
+http://187.121.141.133:58881/Mozi.m:Mozi|media
 https://del.sou.pp.ua/del.txt:Unknown malware|media
-http://27.204.193.8:33514/Mozi.m:Mozi|media
-http://45.198.224.89/gamebin/d3d11:Mirai|media
-http://152.42.195.115:80/main_arm7:Mirai|media
-http://124.29.194.78:51626/Mozi.m:Mozi|media
-http://152.42.195.115:80/main_mpsl:Mirai|media
-http://152.42.195.115:80/main_mips:Mirai|media
-http://excitingmusic.com:5789:Remus|media
-https://veltrixobsidian.website/:WARDENStealer|media
-https://ilya-sabelin.club/:WARDENStealer|media
-https://ilya-shabalin.club/:WARDENStealer|media
-https://fancy-bears.club/:WARDENStealer|media
-https://dtapi.cc/:WARDENStealer|media
-https://x1zsp.cc/:WARDENStealer|media
-https://cfmlapi.cc/:WARDENStealer|media
-http://103.208.230.144:43754/Mozi.m:Mozi|media
-http://153.117.34.152:47534/Mozi.m:Mozi|media
-http://190.196.253.109:11263/Mozi.m:Mozi|media
-https://zen.ayxandevgang.workers.dev/m/:MicroStealer|media
-http://45.205.1.167:24381/bins/adb/akuma.sh4:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.spc:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.arc:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.arm:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.arm5:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.arm6:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.arm64:Mirai|media
+https://del.sou.pp.ua/ip_ranges.txt:Unknown malware|media
+https://del.sou.pp.ua/install.sh:Unknown malware|media
+https://del.sou.pp.ua/install_tm.sh:Unknown malware|media
+https://test.hagaseca.com/ws:Unknown Loader|media
+http://91.188.254.62/systemd:Mirai|media
+http://202.47.46.59:58351/Mozi.m:Mozi|media
+http://119.73.8.101:51833/Mozi.m:Mozi|media
+http://152.42.195.115/sysupdate.apk:Mirai|media
 http://45.205.1.167:24381/bins/adb/akuma.arm7:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.i486:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.arm64:Mirai|media
 http://45.205.1.167:24381/bins/adb/akuma.i586:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.i686:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.m68k:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.i486:Mirai|media
 http://45.205.1.167:24381/bins/adb/akuma.mips:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.mps64:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.mpsl:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.m68k:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.i686:Mirai|media
 http://45.205.1.167:24381/bins/adb/akuma.ppc:Mirai|media
-http://45.205.1.167:24381/bins/adb/akuma.riscv32:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.mpsl:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.mps64:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.spc:Mirai|media
 http://45.205.1.167:24381/bins/adb/akuma.riscv64:Mirai|media
-http://125.47.87.148:34082/i:malware_download|media
-http://61.53.239.55:41715/i:malware_download|media
-http://222.141.43.85:37822/i:malware_download|media
-http://115.58.170.204:57793/bin.sh:malware_download|media
-http://42.233.162.3:50153/i:malware_download|media
-http://223.122.120.36:54297/i:malware_download|media
-http://123.188.71.181:33810/bin.sh:malware_download|media
-http://125.47.35.120:39280/bin.sh:malware_download|media
-http://223.122.120.36:54297/bin.sh:malware_download|media
-http://27.36.198.19:35831/i:malware_download|media
-http://103.140.87.105:43114/i:malware_download|media
-http://182.113.192.68:33452/i:malware_download|media
-http://182.116.116.187:38150/i:malware_download|media
-http://117.235.42.184:60112/i:malware_download|media
-http://123.11.75.164:52742/i:malware_download|media
-http://182.113.192.68:33452/bin.sh:malware_download|media
-http://36.88.136.194:41441/i:malware_download|media
-http://27.36.198.19:35831/bin.sh:malware_download|media
-http://120.84.212.143:49005/i:malware_download|media
-http://124.95.25.57:58743/i:malware_download|media
-http://124.95.25.57:58743/bin.sh:malware_download|media
-http://103.160.130.109:48939/bin.sh:malware_download|media
-http://39.90.148.91:35656/i:malware_download|media
-http://42.7.243.158:44665/i:malware_download|media
-http://115.58.36.95:34173/i:malware_download|media
-http://113.237.66.77:47577/bin.sh:malware_download|media
-http://42.7.243.158:44665/bin.sh:malware_download|media
-http://115.63.167.38:36919/bin.sh:malware_download|media
-http://42.226.90.209:59492/i:malware_download|media
-http://210.208.106.68:39319/i:malware_download|media
-http://39.90.148.91:35656/bin.sh:malware_download|media
-http://115.50.100.127:55962/bin.sh:malware_download|media
-http://125.45.64.243:57769/i:malware_download|media
-http://182.126.84.136:36256/i:malware_download|media
-http://223.100.248.64:44218/i:malware_download|media
-http://123.189.137.219:56858/i:malware_download|media
-http://175.165.83.158:49476/i:malware_download|media
-http://123.14.220.129:38374/i:malware_download|media
-http://182.126.84.136:36256/bin.sh:malware_download|media
-http://39.90.149.5:44509/i:malware_download|media
-http://223.100.248.64:44218/bin.sh:malware_download|media
-http://115.57.249.178:43988/i:malware_download|media
-http://123.5.134.202:48947/bin.sh:malware_download|media
-http://222.138.79.151:43565/i:malware_download|media
-http://123.189.137.219:56858/bin.sh:malware_download|media
-http://125.45.64.243:57769/bin.sh:malware_download|media
-http://123.14.220.129:38374/bin.sh:malware_download|media
-http://218.61.127.244:41036/i:malware_download|media
-http://218.61.127.244:41036/bin.sh:malware_download|media
-http://39.90.149.5:44509/bin.sh:malware_download|media
-http://42.234.142.209:35537/i:malware_download|media
-http://123.7.221.177:56455/bin.sh:malware_download|media
-http://221.14.37.28:50733/i:malware_download|media
-http://125.43.127.152:37164/i:malware_download|media
-http://123.129.132.216:37255/i:malware_download|media
-http://42.234.142.209:35537/bin.sh:malware_download|media
-http://222.136.81.183:38905/i:malware_download|media
-http://125.43.127.152:37164/bin.sh:malware_download|media
-http://222.136.81.183:38905/bin.sh:malware_download|media
-http://112.248.136.96:44155/i:malware_download|media
-http://115.52.238.189:57607/i:malware_download|media
-http://112.247.82.85:50287/i:malware_download|media
-http://115.56.169.239:35325/i:malware_download|media
-http://125.45.17.250:35580/i:malware_download|media
-http://115.52.238.189:57607/bin.sh:malware_download|media
-http://221.14.37.28:50733/bin.sh:malware_download|media
-http://123.129.132.216:37255/bin.sh:malware_download|media
-http://112.247.82.85:50287/bin.sh:malware_download|media
-http://175.146.200.13:47308/i:malware_download|media
-http://115.49.198.149:45080/i:malware_download|media
-http://27.24.40.95:45585/i:malware_download|media
-http://222.138.206.214:47059/i:malware_download|media
-http://115.58.170.204:57793/i:malware_download|media
-http://125.40.158.185:49062/i:malware_download|media
-http://210.208.116.107:38629/bin.sh:malware_download|media
-http://112.248.187.178:52753/i:malware_download|media
-http://125.40.158.185:49062/bin.sh:malware_download|media
-http://175.146.200.13:47308/bin.sh:malware_download|media
-http://113.233.75.165:47536/i:malware_download|media
-http://115.57.45.77:58355/bin.sh:malware_download|media
-http://115.48.151.108:48138/i:malware_download|media
-http://182.120.15.154:42567/bin.sh:malware_download|media
-http://113.233.75.165:47536/bin.sh:malware_download|media
-http://115.55.51.189:47141/bin.sh:malware_download|media
-http://37.52.151.137:53229/i:malware_download|media
-http://27.221.244.193:38578/i:malware_download|media
-http://27.215.45.69:57751/i:malware_download|media
-http://182.121.22.117:44219/i:malware_download|media
-http://182.126.249.127:43850/i:malware_download|media
-http://109.236.44.241:39331/bin.sh:malware_download|media
-http://27.221.244.193:38578/bin.sh:malware_download|media
-http://210.208.116.107:38629/i:malware_download|media
-http://219.155.80.139:35992/bin.sh:malware_download|media
-http://41.141.14.129:38951/i:malware_download|media
-http://115.57.71.3:39956/bin.sh:malware_download|media
-http://182.126.249.127:43850/bin.sh:malware_download|media
-http://115.49.11.8:51631/i:malware_download|media
-http://178.141.179.108:37010/i:malware_download|media
-http://37.52.151.137:53229/bin.sh:malware_download|media
-http://123.7.221.177:56455/i:malware_download|media
+http://45.205.1.167:24381/bins/adb/akuma.riscv32:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.sh4:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.arm6:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.arm5:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.arm:Mirai|media
+http://45.205.1.167:24381/bins/adb/akuma.arc:Mirai|media
+http://222.140.156.162:49986/i:malware_download|media
+http://123.5.153.31:53142/bin.sh:malware_download|media
+http://42.55.16.112:53324/i:malware_download|media
+http://42.224.5.186:40773/bin.sh:malware_download|media
+http://42.224.5.186:40773/i:malware_download|media
+http://222.140.156.162:49986/bin.sh:malware_download|media
+http://182.112.30.75:59760/i:malware_download|media
+http://42.230.46.2:43484/bin.sh:malware_download|media
+http://216.126.86.45:51941/bin.sh:malware_download|media
+http://182.114.194.78:33888/i:malware_download|media
+http://36.88.136.194:39949/i:malware_download|media
+http://221.13.151.171:53188/i:malware_download|media
+http://36.48.58.72:53574/i:malware_download|media
+http://222.137.182.33:54842/i:malware_download|media
+http://36.48.58.72:53574/bin.sh:malware_download|media
+http://221.225.51.137:48672/bin.sh:malware_download|media
+http://123.4.196.160:56023/i:malware_download|media
+http://103.243.4.165:45214/i:malware_download|media
+http://59.97.252.182:53108/i:malware_download|media
+http://27.37.100.118:53772/i:malware_download|media
+http://221.13.151.171:53188/bin.sh:malware_download|media
+http://27.44.146.53:35060/i:malware_download|media
+http://36.64.184.26:45075/i:malware_download|media
+http://196.191.233.24:46518/i:malware_download|media
+http://123.13.79.26:33158/bin.sh:malware_download|media
+http://107.175.39.140/bins/sora.x86:malware_download|media
+http://111.88.7.48:39379/i:malware_download|media
+http://182.117.15.42:49672/i:malware_download|media
+http://123.4.235.154:43881/i:malware_download|media
+http://196.191.233.24:46518/bin.sh:malware_download|media
+http://115.49.91.250:37931/i:malware_download|media
+http://125.44.29.208:32884/bin.sh:malware_download|media
+http://182.119.71.246:39230/bin.sh:malware_download|media
+http://111.88.7.48:39379/bin.sh:malware_download|media
+http://104.238.149.90:8888/bins2/Hilix.mips:malware_download|media
+http://115.49.91.250:37931/bin.sh:malware_download|media
+http://123.4.235.154:43881/bin.sh:malware_download|media
+http://182.126.103.91:35316/i:malware_download|media
+http://222.137.86.186:39218/i:malware_download|media
+http://221.0.215.173:36673/bin.sh:malware_download|media
+http://123.12.228.97:37334/bin.sh:malware_download|media
+http://125.44.213.127:43340/i:malware_download|media
+http://182.125.18.87:36667/i:malware_download|media
+http://211.141.32.89:2258/i:malware_download|media
+http://104.238.149.90/bins/Hilix.mips:malware_download|media
+http://182.126.103.91:35316/bin.sh:malware_download|media
+http://115.61.16.184:53638/i:malware_download|media
+http://119.116.37.124:59849/i:malware_download|media
+http://42.224.100.76:40278/i:malware_download|media
+http://221.0.215.173:36673/i:malware_download|media
+http://182.125.18.87:36667/bin.sh:malware_download|media
+http://125.41.228.179:44524/i:malware_download|media
+http://115.62.155.134:45263/i:malware_download|media
+http://182.116.116.63:37467/i:malware_download|media
+http://182.113.200.237:50794/i:malware_download|media
+http://222.141.129.76:53800/bin.sh:malware_download|media
+http://221.15.95.248:38013/bin.sh:malware_download|media
+http://216.126.86.45:51941/i:malware_download|media
+http://210.97.100.192:54041/i:malware_download|media
+http://182.116.55.165:41425/i:malware_download|media
+http://59.96.143.67:51349/i:malware_download|media
+http://42.7.239.161:37810/i:malware_download|media
+http://182.113.222.146:40195/i:malware_download|media
+http://124.132.132.125:35397/bin.sh:malware_download|media
+http://182.113.222.146:40195/bin.sh:malware_download|media
+http://218.87.74.225:56425/i:malware_download|media
+http://182.112.12.205:45563/bin.sh:malware_download|media
+http://219.156.103.108:60457/i:malware_download|media
+http://27.213.56.116:55793/i:malware_download|media
+http://42.225.59.65:37229/i:malware_download|media
+http://182.117.48.95:46557/i:malware_download|media
+http://221.2.185.236:18056/bin.sh:malware_download|media
+http://45.8.118.17:48830/bin.sh:malware_download|media
+http://42.231.237.80:41060/bin.sh:malware_download|media
+http://112.248.186.35:41072/i:malware_download|media
+http://27.213.56.116:55793/bin.sh:malware_download|media
+http://210.97.100.192:54041/bin.sh:malware_download|media
+http://218.87.74.225:56425/bin.sh:malware_download|media
+http://210.208.110.147:57164/i:malware_download|media
+http://183.35.50.51:38590/i:malware_download|media
+http://115.55.237.197:51383/i:malware_download|media
+http://219.156.103.108:60457/bin.sh:malware_download|media
+http://115.55.237.197:51383/bin.sh:malware_download|media
+http://183.35.50.235:40190/i:malware_download|media
+http://210.208.110.147:57164/bin.sh:malware_download|media
+http://106.56.113.183:60859/bin.sh:malware_download|media
+http://219.155.202.32:33157/i:malware_download|media
+http://112.248.186.35:41072/bin.sh:malware_download|media
+http://115.56.98.215:33188/i:malware_download|media
+http://183.35.50.51:38590/bin.sh:malware_download|media
+http://210.208.111.100:48659/i:malware_download|media
+http://219.155.202.32:33157/bin.sh:malware_download|media
+http://115.48.149.0:48859/i:malware_download|media
+http://221.2.185.236:18056/i:malware_download|media
+http://182.114.51.214:40799/i:malware_download|media
+http://163.142.103.253:52541/i:malware_download|media
+http://115.50.24.185:56703/bin.sh:malware_download|media
+http://123.11.76.61:58286/i:malware_download|media
+http://60.219.162.29:36889/bin.sh:malware_download|media
+http://119.179.215.194:60971/i:malware_download|media
