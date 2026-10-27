@@ -1,4 +1,6 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-109618,PHP Group,PHP,PHP Memory Corruption Vulnerability,2026-10-26,Unknown
+CVE-2026-109619,PHP Group,PHP,PHP Stale Internal Request-State Vulnerability,2026-10-26,Unknown
 CVE-2026-114625,Arista,VeloCloud Orchestrator,Arista VeloCloud Orchestrator SQL Injection Vulnerability,2026-10-23,Unknown
 CVE-2026-110447,Collabora,Collabora Online – Built-in CODE Server,Collabora Online – Built-in CODE Server OS Command Injection Vulnerability,2026-10-23,Unknown
 CVE-2026-106931,EG Secure Solutions,SiteGuard Server Edition,EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability,2026-10-20,Unknown
