@@ -4,6 +4,24 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    # La cadena de conversion se actualiza de una vez: un PR por cada paquete
+    # de Sigma deja combinaciones que pip no puede instalar.
+    groups:
+      sigma:
+        patterns:
+          - "pysigma*"
+          - "sigma-cli"
+    ignore:
+      # pySigma 2 (con sigma-cli 4 y el backend de Splunk 3) aun no se puede
+      # instalar: los backends de Kusto (Sentinel/Defender) y Elastic y los
+      # pipelines de Sysmon y Windows siguen pidiendo pysigma<2. Quitar este
+      # bloque cuando publiquen versiones compatibles.
+      - dependency-name: "pysigma"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "sigma-cli"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "pysigma-backend-splunk"
+        update-types: ["version-update:semver-major"]
 
   - package-ecosystem: "github-actions"
     directory: "/"
