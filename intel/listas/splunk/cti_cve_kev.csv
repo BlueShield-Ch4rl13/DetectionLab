@@ -1,4 +1,6 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-48356,Adobe,Commerce and Magento,Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability,2026-10-27,Unknown
+CVE-2026-111497,Google,Brotli,Google Brotli Unchecked Return Value Vulnerability,2026-10-27,Unknown
 CVE-2026-109618,PHP Group,PHP,PHP Memory Corruption Vulnerability,2026-10-26,Unknown
 CVE-2026-109619,PHP Group,PHP,PHP Stale Internal Request-State Vulnerability,2026-10-26,Unknown
 CVE-2026-114625,Arista,VeloCloud Orchestrator,Arista VeloCloud Orchestrator SQL Injection Vulnerability,2026-10-23,Unknown
@@ -16,5 +18,3 @@ CVE-2026-105134,Ahsay,AhsayCBS,Ahsay AhsayCBS Command Injection Vulnerability,20
 CVE-2026-76519,Cisco,Secure Email Gateway,Cisco Secure Email Gateway Relative Path Traversal Vulnerability,2026-10-14,Unknown
 CVE-2026-105133,Ahsay,AhsayCBS,Ahsay AhsayCBS Improper Authentication Vulnerability,2026-10-14,Unknown
 CVE-2026-0322,Palo Alto Networks,PAN-OS,Palo Alto Networks PAN-OS Code Injection Vulnerability,2026-10-14,Unknown
-CVE-2026-104935,Ivanti,Connect Secure,Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability,2026-10-13,Unknown
-CVE-2026-96951,Microsoft,Windows,Microsoft Windows Command Injection Vulnerability,2026-10-13,Unknown

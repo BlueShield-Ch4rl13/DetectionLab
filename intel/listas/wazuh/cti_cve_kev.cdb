@@ -1,3 +1,5 @@
+CVE-2026-48356:Adobe Commerce and Magento
+CVE-2026-111497:Google Brotli
 CVE-2026-109618:PHP Group PHP
 CVE-2026-109619:PHP Group PHP
 CVE-2026-114625:Arista VeloCloud Orchestrator
@@ -15,5 +17,3 @@ CVE-2026-105134:Ahsay AhsayCBS
 CVE-2026-76519:Cisco Secure Email Gateway
 CVE-2026-105133:Ahsay AhsayCBS
 CVE-2026-0322:Palo Alto Networks PAN-OS
-CVE-2026-104935:Ivanti Connect Secure
-CVE-2026-96951:Microsoft Windows
