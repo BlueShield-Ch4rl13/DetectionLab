@@ -1,3 +1,5 @@
+CVE-2026-41709:Broadcom VMware ESX
+CVE-2026-46300:Linux Kernel
 CVE-2026-48356:Adobe Commerce and Magento
 CVE-2026-111497:Google Brotli
 CVE-2026-109618:PHP Group PHP
@@ -13,7 +15,3 @@ CVE-2026-110936:Siemens Software Center
 CVE-2026-102764:BeyondTrust Remote Support
 CVE-2025-61624:Fortinet Multiple Products
 CVE-2026-21589:Atlassian Multiple Products
-CVE-2026-105134:Ahsay AhsayCBS
-CVE-2026-76519:Cisco Secure Email Gateway
-CVE-2026-105133:Ahsay AhsayCBS
-CVE-2026-0322:Palo Alto Networks PAN-OS

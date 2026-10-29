@@ -1,4 +1,6 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-41709,Broadcom,VMware ESX,Broadcom VMWare ESX Insufficient Logging Vulnerability,2026-10-28,Unknown
+CVE-2026-46300,Linux,Kernel,Linux Kernel Missing Initialization of a Variable Vulnerability,2026-10-28,Unknown
 CVE-2026-48356,Adobe,Commerce and Magento,Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability,2026-10-27,Unknown
 CVE-2026-111497,Google,Brotli,Google Brotli Unchecked Return Value Vulnerability,2026-10-27,Unknown
 CVE-2026-109618,PHP Group,PHP,PHP Memory Corruption Vulnerability,2026-10-26,Unknown
@@ -14,7 +16,3 @@ CVE-2026-110936,Siemens,Software Center,Siemens Software Center Uncontrolled Sea
 CVE-2026-102764,BeyondTrust,Remote Support,BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability,2026-10-16,Unknown
 CVE-2025-61624,Fortinet,Multiple Products,Fortinet Multiple Products Path Traversal Vulnerability,2026-10-16,Unknown
 CVE-2026-21589,Atlassian,Multiple Products,Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability,2026-10-15,Unknown
-CVE-2026-105134,Ahsay,AhsayCBS,Ahsay AhsayCBS Command Injection Vulnerability,2026-10-14,Unknown
-CVE-2026-76519,Cisco,Secure Email Gateway,Cisco Secure Email Gateway Relative Path Traversal Vulnerability,2026-10-14,Unknown
-CVE-2026-105133,Ahsay,AhsayCBS,Ahsay AhsayCBS Improper Authentication Vulnerability,2026-10-14,Unknown
-CVE-2026-0322,Palo Alto Networks,PAN-OS,Palo Alto Networks PAN-OS Code Injection Vulnerability,2026-10-14,Unknown
