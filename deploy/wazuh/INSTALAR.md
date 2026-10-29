@@ -19,6 +19,11 @@ No se solapan, así que las tres vías conviven en el mismo manager:
 | 101000 – 101299 | Generadas desde `rules/` por `tools/sigma_to_wazuh.py` |
 | 101300 – 101399 | Inteligencia de News CTI |
 
+Los IDs de las reglas generadas son fijos: `deploy/wazuh/ids.json` guarda el de
+cada una, así que añadir o quitar reglas no renumera las demás, y un ID retirado
+no se reutiliza. Lo que filtres por ID (active response, paneles, ResponseLab)
+sigue apuntando a la misma detección después de cada regeneración.
+
 Si ya tienes reglas propias, comprueba antes que no pisan estos rangos:
 
 ```bash
