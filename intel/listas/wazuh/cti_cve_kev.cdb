@@ -1,3 +1,5 @@
+CVE-2026-97229:GitLab Community Edition and Enterprise Edition
+CVE-2026-76418:Cisco Secure Firewall ASA Software and Cisco Secure FTD Software
 CVE-2026-41709:Broadcom VMware ESX
 CVE-2026-46300:Linux Kernel
 CVE-2026-48356:Adobe Commerce and Magento
@@ -14,4 +16,3 @@ CVE-2026-96652:Plex Media Server
 CVE-2026-110936:Siemens Software Center
 CVE-2026-102764:BeyondTrust Remote Support
 CVE-2025-61624:Fortinet Multiple Products
-CVE-2026-21589:Atlassian Multiple Products

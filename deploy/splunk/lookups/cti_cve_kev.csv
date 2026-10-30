@@ -1,4 +1,6 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-97229,GitLab,Community Edition and Enterprise Edition,GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability,2026-10-29,Unknown
+CVE-2026-76418,Cisco,Secure Firewall ASA Software and Cisco Secure FTD Software,Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability,2026-10-29,Unknown
 CVE-2026-41709,Broadcom,VMware ESX,Broadcom VMWare ESX Insufficient Logging Vulnerability,2026-10-28,Unknown
 CVE-2026-46300,Linux,Kernel,Linux Kernel Missing Initialization of a Variable Vulnerability,2026-10-28,Unknown
 CVE-2026-48356,Adobe,Commerce and Magento,Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability,2026-10-27,Unknown
@@ -15,4 +17,3 @@ CVE-2026-96652,Plex,Media Server,Plex Media Server Server-Side Request Forgery (
 CVE-2026-110936,Siemens,Software Center,Siemens Software Center Uncontrolled Search Path Element Vulnerability,2026-10-20,Unknown
 CVE-2026-102764,BeyondTrust,Remote Support,BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability,2026-10-16,Unknown
 CVE-2025-61624,Fortinet,Multiple Products,Fortinet Multiple Products Path Traversal Vulnerability,2026-10-16,Unknown
-CVE-2026-21589,Atlassian,Multiple Products,Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability,2026-10-15,Unknown
