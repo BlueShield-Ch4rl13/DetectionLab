@@ -9,7 +9,7 @@
       /var/ossec/bin/wazuh-logtest
       curl -k -u user:pass -X GET "https://<manager>:55000/rules?group=zta"
 
-  Listas CDB necesarias (ver docs/03-despliegue-wazuh.md):
+  Listas CDB necesarias (ver deploy/wazuh/INSTALAR.md, "Listas de contexto"):
       etc/lists/zta_privileged_accounts
       etc/lists/zta_service_accounts
       etc/lists/zta_admin_jumphosts

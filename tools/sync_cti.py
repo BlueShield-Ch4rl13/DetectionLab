@@ -40,6 +40,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -167,10 +168,29 @@ def seleccionar(datos: dict, min_nivel: str, max_dias: int):
 # ---------------------------------------------------------------------------
 # Una salida por SIEM
 # ---------------------------------------------------------------------------
+def _cdb_texto(t) -> str:
+    """Sin saltos de linea ni comillas: un indicador con '\n' partia la linea en
+    dos entradas, y con '"' rompia el entrecomillado de la clave."""
+    return re.sub(r'[\r\n"]', "", str(t or "")).strip()
+
+
+def cdb_linea(clave, valor) -> str:
+    """Una linea de lista CDB de Wazuh: 'clave:valor'.
+
+    Wazuh separa la clave del valor en el primer ':'. Una clave que lleva ':'
+    (una URL, una IPv6) tiene que ir entre comillas; sin ellas, los cientos de
+    URLs de cti_url se quedaban en dos claves, 'http' y 'https', y la regla de
+    URL no coincidia con ninguna URL real."""
+    k, v = _cdb_texto(clave), _cdb_texto(valor)
+    if ":" in k:
+        k = f'"{k}"'
+    return f"{k}:{v}"
+
+
 def escribir_wazuh(por_grupo, kev, sello):
     """Listas CDB: 'clave:valor' por linea, una lista por tipo de indicador.
 
-    Wazuh compila estos ficheros con ossec-makelists y los consulta con
+    El manager de Wazuh compila estos ficheros al arrancar y los consulta con
     <list field="..." lookup="match_key">. El valor de la derecha sale en la
     alerta, asi que ahi va la amenaza: el analista ve 'Mirai' sin abrir nada.
     """
@@ -181,14 +201,14 @@ def escribir_wazuh(por_grupo, kev, sello):
     escritos = {}
     for grupo, nombre in nombres.items():
         filas = por_grupo.get(grupo, [])
-        # Sin cabecera de comentario: ossec-makelists trata cada linea como
+        # Sin cabecera de comentario: Wazuh trata cada linea como
         # entrada y una linea de comentario se convertiria en un indicador.
-        cuerpo = "\n".join(f"{x['valor']}:{x['amenaza']}|{x['nivel']}" for x in filas)
+        cuerpo = "\n".join(cdb_linea(x["valor"], f"{x['amenaza']}|{x['nivel']}") for x in filas)
         (d / f"{nombre}.cdb").write_text(cuerpo + ("\n" if cuerpo else ""), encoding="utf-8")
         escritos[nombre] = len(filas)
     (d / "cti_cve_kev.cdb").write_text(
-        "\n".join(f"{v['cve']}:{v.get('vendor','')} {v.get('product','')}".strip()
-                  for v in kev) + "\n", encoding="utf-8")
+        "\n".join(cdb_linea(v["cve"], f"{v.get('vendor', '')} {v.get('product', '')}") for v in kev)
+        + "\n", encoding="utf-8")
     escritos["cti_cve_kev"] = len(kev)
     return escritos
 
@@ -345,9 +365,11 @@ def escribir_resumen(por_grupo, kev, datos, descartes, sello, args, escrituras):
         "Ver `deploy/<siem>/INSTALAR.md`. En resumen:",
         "",
         "```bash",
-        "# Wazuh: copiar, declarar en ossec.conf y compilar",
-        "sudo cp intel/listas/wazuh/*.cdb /var/ossec/etc/lists/",
-        "sudo /var/ossec/bin/ossec-makelists",
+        "# Wazuh: copiar SIN la extension, declarar en ossec.conf y reiniciar",
+        "for f in intel/listas/wazuh/*.cdb; do",
+        "  sudo install -o root -g wazuh -m 660 \"$f\" \"/var/ossec/etc/lists/$(basename \"$f\" .cdb)\"",
+        "done",
+        "sudo systemctl restart wazuh-manager",
         "",
         "# Splunk: como lookups de la app",
         "cp intel/listas/splunk/*.csv $SPLUNK_HOME/etc/apps/TA-detection-lab/lookups/",

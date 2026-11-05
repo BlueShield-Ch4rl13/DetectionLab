@@ -6,6 +6,7 @@
 |---|---|---|
 | `reglas/` | 260 reglas XML generadas desde Sigma + 73 de marco + 8 de inteligencia | Sí, con `tools/build.py` |
 | `listas/` | Listas CDB de indicadores de News CTI | Sí, con `tools/sync_cti.py` |
+| `listas/contexto/` | Las 14 listas de contexto que usan las reglas Zero Trust y de cumplimiento (vacías: las rellenas tú) | No |
 | `consultas/` | Caza sobre el indexador (Discover / API) | No, escritas a mano |
 
 ## Series de identificadores
@@ -50,10 +51,17 @@ sudo tail -f /var/ossec/logs/ossec.log
 
 ## 2. Listas de inteligencia
 
+En el manager, una lista se declara por su ruta **sin extensión**
+(`etc/lists/cti_url`) y el fichero de texto se llama igual: el manager compila
+él solo el `.cdb` al arrancar. Por eso se copian quitando el `.cdb` del nombre;
+copiado tal cual, `cti_url.cdb` no es la lista `etc/lists/cti_url` y las reglas
+que la usan no ven nada.
+
 ```bash
 python3 tools/sync_cti.py                       # refresca desde News CTI
-sudo cp intel/listas/wazuh/*.cdb /var/ossec/etc/lists/
-sudo chown root:wazuh /var/ossec/etc/lists/cti_*.cdb
+for f in intel/listas/wazuh/*.cdb; do
+  sudo install -o root -g wazuh -m 660 "$f" "/var/ossec/etc/lists/$(basename "$f" .cdb)"
+done
 ```
 
 Declara cada lista en `/var/ossec/etc/ossec.conf`, dentro de `<ruleset>`:
@@ -64,31 +72,67 @@ Declara cada lista en `/var/ossec/etc/ossec.conf`, dentro de `<ruleset>`:
   <list>etc/lists/cti_ip</list>
   <list>etc/lists/cti_dominio</list>
   <list>etc/lists/cti_url</list>
+  <list>etc/lists/cti_cve_kev</list>
 </ruleset>
 ```
 
-Compila y reinicia:
+Valida y reinicia (al arrancar, el manager compila las listas; `ossec-makelists`
+ya no hace falta):
 
 ```bash
-sudo /var/ossec/bin/ossec-makelists
+sudo /var/ossec/bin/wazuh-logtest -t
 sudo systemctl restart wazuh-manager
 ```
 
-**Ojo con el formato CDB.** `ossec-makelists` trata cada línea como una entrada,
-comentarios incluidos. Por eso los `.cdb` que genera `sync_cti.py` no llevan
-cabecera: una línea de comentario se convertiría en un indicador.
+**Ojo con el formato CDB.** Cada línea es una entrada, comentarios incluidos:
+por eso los `.cdb` no llevan cabecera. Y la clave se separa del valor en el
+primer `:`, así que una clave que lleva `:` (una URL, una IPv6) va entre
+comillas: `"http://x.example/a":Mirai|alta`. `sync_cti.py` las escribe así y
+`tools/validate.py` falla si alguna no lo está.
 
 ### Refresco periódico
 
 Los indicadores caducan. Una IP de mando y control de hace un mes es hoy, con
-frecuencia, un servidor legítimo reasignado. Programa el refresco:
+frecuencia, un servidor legítimo reasignado. Programa el refresco (en el
+`crontab` de root):
 
 ```cron
-0 6 * * * cd /opt/detection-lab && python3 tools/sync_cti.py --max-dias 30 \
-          && cp intel/listas/wazuh/*.cdb /var/ossec/etc/lists/ \
-          && /var/ossec/bin/ossec-makelists \
-          && systemctl reload wazuh-manager
+0 6 * * * cd /opt/detection-lab && python3 tools/sync_cti.py --max-dias 30 && for f in intel/listas/wazuh/*.cdb; do install -o root -g wazuh -m 660 "$f" "/var/ossec/etc/lists/$(basename "$f" .cdb)"; done && systemctl restart wazuh-manager
 ```
+
+### Listas de contexto (Zero Trust y cumplimiento)
+
+Las reglas 0900–0960 comparan con listas que describen **tu** organización.
+Vienen vacías en `listas/contexto/`: sin ellas, el manager no puede cargar las
+reglas que las usan. Instálalas igual que las de inteligencia y declara cada
+una en `<ruleset>`:
+
+```bash
+for f in deploy/wazuh/listas/contexto/*.cdb; do
+  sudo install -o root -g wazuh -m 660 "$f" "/var/ossec/etc/lists/$(basename "$f" .cdb)"
+done
+```
+
+| Lista | Una línea por | Formato de la clave | Reglas | Si se queda vacía |
+|---|---|---|---|---|
+| `zta_privileged_accounts` | cuenta privilegiada | `usuario:` | ZTA-ID | no salta |
+| `zta_service_accounts` | cuenta de servicio | `usuario:` | ZTA-ID | no salta |
+| `zta_admin_jumphosts` | bastión de administración | IP o prefijo (`10.0.99.`) | ZTA-ID-002 | salta con cada acceso privilegiado |
+| `zta_asset_inventory` | equipo inventariado | `hostname:` | ZTA-DEV-002 | salta con cada equipo |
+| `zta_crown_jewels` | segmento protegido | IP o prefijo | ZTA-NET-001, 004 | no salta |
+| `zta_approved_proxies` | proxy de salida | IP o prefijo | ZTA-NET | salta con cada salida directa |
+| `zta_threat_intel` | IP de C2 (MISP) | IP | ZTA-NET-006 | no salta (o copia ahí `cti_ip`) |
+| `zta_pep_sources` | proxy ZTNA / PEP | IP o prefijo | ZTA-APP-001 | salta con cada acceso |
+| `zta_data_classification` | ruta clasificada | ruta completa | ZTA-APP | no salta |
+| `zta_allowed_registries` | registro de imágenes aprobado | `registro/imagen` | ZTA-SUP-006 | salta con cada `docker pull` |
+| `cmp_datos_personales` | fichero con datos personales | ruta completa | CMP-RGP | no salta |
+| `cmp_sistemas_datos_personales` | sistema que trata datos personales | IP o prefijo | CMP-RGP-002 | no salta |
+| `cmp_proveedores` | cuenta de proveedor | `usuario:` | CMP-TER-001 | no salta |
+| `cmp_paises_adecuados` | país con decisión de adecuación | código ISO (`ES:`) | reservada (aún ninguna regla) | — |
+
+Una clave con `:` (una ruta de Windows `C:\...`, una IPv6) va entre comillas.
+Las que "saltan con cada…" son de lista blanca (`not_*_match_key`): rellénalas
+antes de poner esas reglas en producción.
 
 ## 3. Telemetría que hace falta
 
@@ -148,8 +192,8 @@ ficheros, así que las reglas de macOS no se generan para Wazuh (ver abajo).
 # ¿Cargaron las reglas?
 sudo /var/ossec/bin/wazuh-logtest -t 2>&1 | grep -c "rules"
 
-# ¿Se compilaron las listas?
-ls -la /var/ossec/etc/lists/cti_*.cdb
+# ¿Se compilaron las listas? (el manager deja un .cdb junto a cada una)
+ls -la /var/ossec/etc/lists/cti_* /var/ossec/etc/lists/zta_* /var/ossec/etc/lists/cmp_*
 
 # Probar una regla concreta con un evento de ejemplo
 sudo /var/ossec/bin/wazuh-logtest

@@ -5,7 +5,8 @@
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk%20%C2%B7%20Sentinel%20%C2%B7%20Wazuh%20%C2%B7%20Elastic-2ee6f0)
 ![Marcos](https://img.shields.io/badge/marcos-NIST%20800--53%20%C2%B7%20ISO%2027001%3A2022-a78bfa)
 ![SOAR](https://img.shields.io/badge/respuesta-15%20playbooks%20%C2%B7%2055%20acciones-34d399)
-![CI](https://github.com/BlueShield-Ch4rl13/Detection-lab/actions/workflows/validate.yml/badge.svg)
+[![CI](https://github.com/BlueShield-Ch4rl13/DetectionLab/actions/workflows/validate.yml/badge.svg)](https://github.com/BlueShield-Ch4rl13/DetectionLab/actions/workflows/validate.yml)
+[![CodeQL](https://github.com/BlueShield-Ch4rl13/DetectionLab/actions/workflows/codeql.yml/badge.svg)](https://github.com/BlueShield-Ch4rl13/DetectionLab/actions/workflows/codeql.yml)
 ![License](https://img.shields.io/badge/licencia-MIT-blue)
 
 **Una regla se escribe una vez y se despliega en cuatro SIEM.** 127 reglas Sigma
@@ -343,6 +344,7 @@ Lo que se ejecuta en cada commit (`.github/workflows/validate.yml`):
 | Reglas de Wazuh de Linux y Kubernetes | `tools/probar_reglas_wazuh.py`: eventos de muestra que deben saltar y que no deben (p. ej. `ssh -i` no es una shell inversa) |
 | Correlaciones escritas a mano en KQL | `tools/validate.py` compara umbral y ventana con la regla Sigma |
 | Capa de respuesta y nodo de Shuffle | `tools/validar_respuesta.py` y `tools/generar_enrutador.py` |
+| Seguridad del código | **CodeQL** (`.github/workflows/codeql.yml`): las herramientas en Python y los workflows, en cada PR y una vez por semana |
 
 Lo que **no** está probado todavía: la ejecución de Atomic Red Team contra un
 SIEM real. Las reglas tienen técnica ATT&CK y prueba de Atomic asignada, pero
