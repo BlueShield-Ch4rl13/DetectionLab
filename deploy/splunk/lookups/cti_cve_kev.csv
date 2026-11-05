@@ -1,4 +1,5 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2024-27834,Apple,Multiple Products,Apple Multiple Products Improper Authentication Vulnerability,2026-11-04,Unknown
 CVE-2026-119977,WordPress,WordPress Core,WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability,2026-11-03,Unknown
 CVE-2026-118527,Ivanti,Connect Secure,Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability,2026-10-30,Unknown
 CVE-2026-111357,Ivanti,Connect Secure,Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability,2026-10-30,Unknown
