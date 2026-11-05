@@ -219,6 +219,46 @@ def tacticas(tags):
 
 
 # ---------------------------------------------------------------------------
+RE_LISTA_WAZUH = re.compile(r"<list\b[^>]*>\s*etc/lists/([A-Za-z0-9_./-]+)\s*</list>")
+
+
+def revisar_listas_wazuh(base: Path) -> list[str]:
+    """Las listas CDB de Wazuh: que exista cada una que use una regla, y que
+    ninguna clave con ':' vaya sin comillas.
+
+    Antes las reglas Zero Trust y de cumplimiento usaban 14 listas que no venian
+    en el repositorio, y cti_url tenia las URLs sin comillas: el manager las
+    partia en el primer ':' y la lista entera eran dos claves, 'http' y 'https'.
+    """
+    problemas: list[str] = []
+    listas = base / "listas"
+    if not listas.is_dir():
+        return [f"falta {listas.relative_to(RAIZ)}"]
+    hay = {f.stem for f in listas.rglob("*.cdb")}
+    for xml in sorted((base / "reglas").glob("*.xml")):
+        for nombre in sorted(set(RE_LISTA_WAZUH.findall(xml.read_text(encoding="utf-8")))):
+            if nombre not in hay:
+                problemas.append(f"{xml.relative_to(RAIZ)} usa etc/lists/{nombre}, que no esta en "
+                                 f"{listas.relative_to(RAIZ)}/ (ni en contexto/)")
+    for cdb in sorted(list(listas.rglob("*.cdb")) + list((RAIZ / "intel" / "listas" / "wazuh").glob("*.cdb"))):
+        for n, linea in enumerate(cdb.read_text(encoding="utf-8").splitlines(), 1):
+            if not linea.strip():
+                continue
+            if linea.startswith('"'):
+                cierre = linea.find('"', 1)
+                if cierre < 0 or linea[cierre + 1:cierre + 2] != ":":
+                    problemas.append(f"{cdb.relative_to(RAIZ)}:{n}: clave entre comillas mal cerrada")
+                continue
+            clave = linea.split(":", 1)[0]
+            ipv6 = linea.count(":") >= 2 and re.fullmatch(r"[0-9A-Fa-f]{0,4}", clave)
+            if ":" not in linea or clave.lower() in ("http", "https", "ftp", "hxxp", "hxxps") \
+                    or "/" in clave or ipv6:
+                problemas.append(f"{cdb.relative_to(RAIZ)}:{n}: clave con ':' sin comillas o sin valor "
+                                 f"({linea[:60]!r}); escribela \"clave\":valor")
+                break
+    return problemas
+
+
 def revisar_deploy(reglas) -> list[str]:
     """Comprueba la coherencia de lo generado en deploy/."""
     problemas: list[str] = []
@@ -291,6 +331,8 @@ def revisar_deploy(reglas) -> list[str]:
             problemas.append(f"falta deploy/{siem}/INSTALAR.md")
         if not (base / "consultas").is_dir() or not any((base / "consultas").iterdir()):
             problemas.append(f"deploy/{siem}/consultas/ vacia o inexistente")
+
+    problemas += revisar_listas_wazuh(deploy / "wazuh")
 
     # La capa de respuesta: que exista, y que el nodo compilado lleve la misma
     # tabla que los playbooks.

@@ -79,9 +79,11 @@ va como alerta y ademas sin caducidad.
 Ver `deploy/<siem>/INSTALAR.md`. En resumen:
 
 ```bash
-# Wazuh: copiar, declarar en ossec.conf y compilar
-sudo cp intel/listas/wazuh/*.cdb /var/ossec/etc/lists/
-sudo /var/ossec/bin/ossec-makelists
+# Wazuh: copiar SIN la extension, declarar en ossec.conf y reiniciar
+for f in intel/listas/wazuh/*.cdb; do
+  sudo install -o root -g wazuh -m 660 "$f" "/var/ossec/etc/lists/$(basename "$f" .cdb)"
+done
+sudo systemctl restart wazuh-manager
 
 # Splunk: como lookups de la app
 cp intel/listas/splunk/*.csv $SPLUNK_HOME/etc/apps/TA-detection-lab/lookups/

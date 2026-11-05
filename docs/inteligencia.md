@@ -74,21 +74,26 @@ viejo.
 
 | SIEM | Formato | Cómo se consume |
 |---|---|---|
-| **Wazuh** | `.cdb` — `clave:valor` por línea | `<list field="..." lookup="match_key">` tras `ossec-makelists` |
+| **Wazuh** | `.cdb` — `clave:valor` por línea | `<list field="..." lookup="match_key">`; se copia sin la extensión y el manager la compila al arrancar |
 | **Splunk** | `.csv` | `\| lookup cti_hash valor OUTPUT amenaza nivel` |
 | **Sentinel** | `.csv` | Watchlist importada, `_GetWatchlist('Hash')` |
 | **Elastic** | `.ndjson` con esquema ECS de amenazas | Índice de indicadores + regla *Indicator Match* |
 
 ### Detalle del formato CDB
 
-`ossec-makelists` trata **cada línea como una entrada**, comentarios incluidos.
-Por eso los `.cdb` generados no llevan cabecera: una línea de comentario se
-convertiría en un indicador con clave `#`. El valor de la derecha sale en la
-alerta, así que ahí va la amenaza y el nivel:
+Wazuh trata **cada línea como una entrada**, comentarios incluidos. Por eso
+los `.cdb` generados no llevan cabecera: una línea de comentario se convertiría
+en un indicador con clave `#`. El valor de la derecha sale en la alerta, así que
+ahí va la amenaza y el nivel:
 
 ```
 176.65.139.206:Mirai|alta
+"http://176.65.139.135/bot.arm7":Unknown Loader|media
 ```
+
+La clave termina en el primer `:`. Una URL lleva `:` (`http:`), así que va entre
+comillas: sin ellas, todas las URLs de `cti_url` se quedaban en dos claves,
+`http` y `https`, y la regla de URL no coincidía con ninguna URL real.
 
 El analista ve «Mirai» en la alerta sin abrir nada. Ese es el punto.
 
@@ -122,13 +127,10 @@ commit sólo si algo cambió. No toca reglas ni consultas: sólo `intel/listas/`
 las copias en `deploy/*/`.
 
 Para el refresco en el SIEM, cada `INSTALAR.md` lleva su línea de cron. El de
-Wazuh es el único que necesita recompilar:
+Wazuh es el único que necesita reiniciar el manager (que recompila las listas):
 
 ```cron
-0 6 * * * cd /opt/detection-lab && python3 tools/sync_cti.py --max-dias 30 \
-          && cp intel/listas/wazuh/*.cdb /var/ossec/etc/lists/ \
-          && /var/ossec/bin/ossec-makelists \
-          && systemctl reload wazuh-manager
+0 6 * * * cd /opt/detection-lab && python3 tools/sync_cti.py --max-dias 30 && for f in intel/listas/wazuh/*.cdb; do install -o root -g wazuh -m 660 "$f" "/var/ossec/etc/lists/$(basename "$f" .cdb)"; done && systemctl restart wazuh-manager
 ```
 
 ---
