@@ -1,4 +1,5 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-19868,SonicWall,SonicOS SSLVPN,SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability,2026-11-06,Unknown
 CVE-2024-27834,Apple,Multiple Products,Apple Multiple Products Improper Authentication Vulnerability,2026-11-04,Unknown
 CVE-2026-119977,WordPress,WordPress Core,WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability,2026-11-03,Unknown
 CVE-2026-118527,Ivanti,Connect Secure,Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability,2026-10-30,Unknown
@@ -11,5 +12,3 @@ CVE-2026-48356,Adobe,Commerce and Magento,Adobe Commerce and Magento Unrestricte
 CVE-2026-111497,Google,Brotli,Google Brotli Unchecked Return Value Vulnerability,2026-10-27,Unknown
 CVE-2026-109618,PHP Group,PHP,PHP Memory Corruption Vulnerability,2026-10-26,Unknown
 CVE-2026-109619,PHP Group,PHP,PHP Stale Internal Request-State Vulnerability,2026-10-26,Unknown
-CVE-2026-114625,Arista,VeloCloud Orchestrator,Arista VeloCloud Orchestrator SQL Injection Vulnerability,2026-10-23,Unknown
-CVE-2026-110447,Collabora,Collabora Online – Built-in CODE Server,Collabora Online – Built-in CODE Server OS Command Injection Vulnerability,2026-10-23,Unknown

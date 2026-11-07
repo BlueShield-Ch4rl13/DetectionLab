@@ -3,19 +3,19 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-11-06 10:27 UTC  
-**Listas generadas:** 2026-11-06T13:31:44Z  
+**Feed generado:** 2026-11-07 09:42 UTC  
+**Listas generadas:** 2026-11-07T12:12:39Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 205 | Caza programada, no alerta directa |
-| Dominio | 239 | Caza programada, no alerta directa |
-| URL | 172 | Caza programada, no alerta directa |
-| Hash | 1001 | **Alerta directa**: un hash coincide o no |
-| CVE en KEV | 14 | Priorizacion de parcheo y caza de explotacion |
+| IP | 157 | Caza programada, no alerta directa |
+| Dominio | 130 | Caza programada, no alerta directa |
+| URL | 162 | Caza programada, no alerta directa |
+| Hash | 1167 | **Alerta directa**: un hash coincide o no |
+| CVE en KEV | 13 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
 
@@ -29,51 +29,51 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (42 de 1659)
+## Que se descarto del feed (71 de 1687)
 
 | Motivo | Descartados |
 |---|---:|
-| nivel bajo | 42 |
+| nivel bajo | 71 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Unknown Loader | 351 |
-| AMOS | 333 |
-| malware_download | 97 |
-| Vidar | 71 |
-| ValleyRAT | 70 |
-| Quasar RAT | 61 |
-| SalatStealer | 45 |
-| IClickFix | 45 |
-| ClearFake | 45 |
-| New Lindnor Backdoor and Glut of Security Killers Used in Ransomware Attack on U.S. Org | 42 |
-| VShell | 38 |
-| Mirai | 25 |
+| Unknown Loader | 344 |
+| AMOS | 310 |
+| ZStealer | 153 |
+| Mirai | 132 |
+| malware_download | 100 |
+| VShell | 53 |
+| Vidar | 49 |
+| ClearFake | 40 |
+| Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto | 31 |
+| Sliver | 28 |
+| Unknown malware | 27 |
+| WARDENStealer | 26 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 205 |
-| `wazuh/cti_dominio` | 239 |
-| `wazuh/cti_url` | 172 |
-| `wazuh/cti_hash` | 1001 |
-| `wazuh/cti_cve_kev` | 14 |
-| `splunk/cti_ip.csv` | 205 |
-| `splunk/cti_dominio.csv` | 239 |
-| `splunk/cti_url.csv` | 172 |
-| `splunk/cti_hash.csv` | 1001 |
-| `splunk/cti_cve_kev.csv` | 14 |
-| `sentinel/CTI_Ip.csv` | 205 |
-| `sentinel/CTI_Dominio.csv` | 239 |
-| `sentinel/CTI_Url.csv` | 172 |
-| `sentinel/CTI_Hash.csv` | 1001 |
-| `elastic/cti_ip.ndjson` | 205 |
-| `elastic/cti_dominio.ndjson` | 239 |
-| `elastic/cti_url.ndjson` | 172 |
-| `elastic/cti_hash.ndjson` | 1001 |
+| `wazuh/cti_ip` | 157 |
+| `wazuh/cti_dominio` | 130 |
+| `wazuh/cti_url` | 162 |
+| `wazuh/cti_hash` | 1167 |
+| `wazuh/cti_cve_kev` | 13 |
+| `splunk/cti_ip.csv` | 157 |
+| `splunk/cti_dominio.csv` | 130 |
+| `splunk/cti_url.csv` | 162 |
+| `splunk/cti_hash.csv` | 1167 |
+| `splunk/cti_cve_kev.csv` | 13 |
+| `sentinel/CTI_Ip.csv` | 157 |
+| `sentinel/CTI_Dominio.csv` | 130 |
+| `sentinel/CTI_Url.csv` | 162 |
+| `sentinel/CTI_Hash.csv` | 1167 |
+| `elastic/cti_ip.ndjson` | 157 |
+| `elastic/cti_dominio.ndjson` | 130 |
+| `elastic/cti_url.ndjson` | 162 |
+| `elastic/cti_hash.ndjson` | 1167 |
 
 ## Como se instala cada una
 
