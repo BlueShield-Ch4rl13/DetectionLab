@@ -1,3 +1,7 @@
+CVE-2026-102895:GPUStack GPUStack
+CVE-2026-123158:OpenBSD OpenSSH
+CVE-2026-116779:SignalWire FreeSwitch
+CVE-2026-123218:IBM Aspera Faspex
 CVE-2026-19868:SonicWall SonicOS SSLVPN
 CVE-2024-27834:Apple Multiple Products
 CVE-2026-119977:WordPress WordPress Core
@@ -9,5 +13,3 @@ CVE-2026-41709:Broadcom VMware ESX
 CVE-2026-46300:Linux Kernel
 CVE-2026-48356:Adobe Commerce and Magento
 CVE-2026-111497:Google Brotli
-CVE-2026-109618:PHP Group PHP
-CVE-2026-109619:PHP Group PHP
