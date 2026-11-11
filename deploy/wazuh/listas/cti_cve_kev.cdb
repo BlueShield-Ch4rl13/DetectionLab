@@ -1,3 +1,9 @@
+CVE-2026-124194:Microsoft Office
+CVE-2026-111793:Openwave Messaging Limited Webtop Media Transcoder
+CVE-2026-20320:Cisco BroadWorks
+CVE-2026-111560:Barracuda Networks Multiple Products
+CVE-2026-116606:Barracuda Networks Barracuda Email Security Gateway (ESG)
+CVE-2026-125350:Google Chromium
 CVE-2026-102895:GPUStack GPUStack
 CVE-2026-123158:OpenBSD OpenSSH
 CVE-2026-116779:SignalWire FreeSwitch
@@ -11,5 +17,3 @@ CVE-2026-97229:GitLab Community Edition and Enterprise Edition
 CVE-2026-76418:Cisco Secure Firewall ASA Software and Cisco Secure FTD Software
 CVE-2026-41709:Broadcom VMware ESX
 CVE-2026-46300:Linux Kernel
-CVE-2026-48356:Adobe Commerce and Magento
-CVE-2026-111497:Google Brotli

@@ -3,19 +3,19 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-11-10 05:46 UTC  
-**Listas generadas:** 2026-11-10T14:02:13Z  
+**Feed generado:** 2026-11-11 04:21 UTC  
+**Listas generadas:** 2026-11-11T13:20:06Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 112 | Caza programada, no alerta directa |
-| Dominio | 232 | Caza programada, no alerta directa |
-| URL | 206 | Caza programada, no alerta directa |
-| Hash | 622 | **Alerta directa**: un hash coincide o no |
-| CVE en KEV | 15 | Priorizacion de parcheo y caza de explotacion |
+| IP | 137 | Caza programada, no alerta directa |
+| Dominio | 341 | Caza programada, no alerta directa |
+| URL | 175 | Caza programada, no alerta directa |
+| Hash | 561 | **Alerta directa**: un hash coincide o no |
+| CVE en KEV | 19 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
 
@@ -29,51 +29,51 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (53 de 1225)
+## Que se descarto del feed (89 de 1303)
 
 | Motivo | Descartados |
 |---|---:|
-| nivel bajo | 53 |
+| nivel bajo | 89 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Mirai | 255 |
+| Unknown Loader | 117 |
+| ClearFake | 114 |
+| Mirai | 113 |
 | malware_download | 100 |
-| Unknown Loader | 85 |
-| SNOWLIGHT | 79 |
-| Unknown malware | 62 |
-| ClearFake | 58 |
-| Vidar | 53 |
-| IClickFix | 52 |
-| SalatStealer | 44 |
-| Prometei | 42 |
+| Unknown malware | 60 |
+| Vidar | 50 |
+| SalatStealer | 47 |
+| IClickFix | 47 |
+| Inside an AhsayCBS Intrusion: Hidden Webshells  a CryptoMiner  and a C2 Implant | 42 |
+| XWorm | 33 |
 | php.shin_webshell | 33 |
-| XWorm | 29 |
+| PureRAT | 28 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 112 |
-| `wazuh/cti_dominio` | 232 |
-| `wazuh/cti_url` | 206 |
-| `wazuh/cti_hash` | 622 |
-| `wazuh/cti_cve_kev` | 15 |
-| `splunk/cti_ip.csv` | 112 |
-| `splunk/cti_dominio.csv` | 232 |
-| `splunk/cti_url.csv` | 206 |
-| `splunk/cti_hash.csv` | 622 |
-| `splunk/cti_cve_kev.csv` | 15 |
-| `sentinel/CTI_Ip.csv` | 112 |
-| `sentinel/CTI_Dominio.csv` | 232 |
-| `sentinel/CTI_Url.csv` | 206 |
-| `sentinel/CTI_Hash.csv` | 622 |
-| `elastic/cti_ip.ndjson` | 112 |
-| `elastic/cti_dominio.ndjson` | 232 |
-| `elastic/cti_url.ndjson` | 206 |
-| `elastic/cti_hash.ndjson` | 622 |
+| `wazuh/cti_ip` | 137 |
+| `wazuh/cti_dominio` | 341 |
+| `wazuh/cti_url` | 175 |
+| `wazuh/cti_hash` | 561 |
+| `wazuh/cti_cve_kev` | 19 |
+| `splunk/cti_ip.csv` | 137 |
+| `splunk/cti_dominio.csv` | 341 |
+| `splunk/cti_url.csv` | 175 |
+| `splunk/cti_hash.csv` | 561 |
+| `splunk/cti_cve_kev.csv` | 19 |
+| `sentinel/CTI_Ip.csv` | 137 |
+| `sentinel/CTI_Dominio.csv` | 341 |
+| `sentinel/CTI_Url.csv` | 175 |
+| `sentinel/CTI_Hash.csv` | 561 |
+| `elastic/cti_ip.ndjson` | 137 |
+| `elastic/cti_dominio.ndjson` | 341 |
+| `elastic/cti_url.ndjson` | 175 |
+| `elastic/cti_hash.ndjson` | 561 |
 
 ## Como se instala cada una
 
