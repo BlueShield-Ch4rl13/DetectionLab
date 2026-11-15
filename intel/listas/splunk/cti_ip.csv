@@ -1,129 +1,103 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-196.251.121.237,ip:port,DCRat,alta,72,75,UA,ThreatFox,2026-11-13 19:44:06 UTC,0
-120.193.9.169,ip:port,SSHDoor,alta,72,80,CN,ThreatFox,2026-11-13 08:14:32 UTC,1
-43.157.55.140,ip:port,ValleyRAT,alta,71,75,DE,ThreatFox,2026-11-14 00:15:18 UTC,0
-34.77.153.177,ipv4,php.shin_webshell,media,68,50,BE,ThreatFox,2026-11-14 00:11:02 UTC,0
-34.62.122.185,ipv4,php.shin_webshell,media,68,50,BE,ThreatFox,2026-11-14 00:04:54 UTC,0
-35.200.1.115,ipv4,php.shin_webshell,media,68,50,JP,ThreatFox,2026-11-13 21:17:20 UTC,0
-34.153.164.88,ipv4,php.shin_webshell,media,68,50,GB,ThreatFox,2026-11-13 13:18:33 UTC,0
-207.175.202.245,ipv4,php.shin_webshell,media,68,50,BE,ThreatFox,2026-11-13 11:41:18 UTC,1
-85.155.15.16,ip:port,XWorm,media,64,75,DE,ThreatFox,2026-11-13 13:51:53 UTC,0
-51.89.166.173,ip:port,Quasar RAT,media,59,100,GB,ThreatFox,2026-11-13 20:20:02 UTC,0
-45.157.112.131,ip:port,LxBase RAT,media,58,75,FR,ThreatFox,2026-11-13 07:44:13 UTC,1
-111.170.148.132,ip:port,Unknown malware,media,57,100,CN,ThreatFox,2026-11-14 03:05:05 UTC,0
-206.189.58.244,ip:port,Aisuru,media,57,100,DE,ThreatFox,2026-11-14 02:09:52 UTC,0
-92.118.232.18,ip:port,Unknown Stealer,media,56,100,NL,ThreatFox,2026-11-13 21:44:53 UTC,0
-129.211.183.201,ip:port,Unknown malware,media,56,100,CN,ThreatFox,2026-11-13 20:05:06 UTC,0
-185.224.132.148,ip:port,Unknown malware,media,56,100,PL,ThreatFox,2026-11-13 13:13:09 UTC,0
-138.197.215.50,ip:port,Aisuru,media,55,100,US,ThreatFox,2026-11-14 04:16:27 UTC,0
-139.59.99.46,ip:port,Aisuru,media,55,100,SG,ThreatFox,2026-11-14 04:16:27 UTC,0
-69.67.173.150,ip:port,Aisuru,media,55,100,RO,ThreatFox,2026-11-14 04:16:27 UTC,0
-31.57.216.180,ip:port,CECbot,media,55,100,SI,ThreatFox,2026-11-14 04:12:53 UTC,0
-111.170.33.226,ip:port,VShell,media,55,100,CN,ThreatFox,2026-11-14 03:05:06 UTC,0
-104.251.181.64,ip:port,AdaptixC2,media,55,100,CH,ThreatFox,2026-11-14 02:05:07 UTC,0
-45.192.213.153,ip:port,VShell,media,55,100,HK,ThreatFox,2026-11-14 02:05:07 UTC,0
-49.234.39.80,ip:port,Cobalt Strike,media,55,100,CN,ThreatFox,2026-11-14 01:05:08 UTC,0
-85.189.45.191,ip:port,AdaptixC2,media,55,100,GB,ThreatFox,2026-11-13 22:05:05 UTC,0
-54.232.140.167,ip:port,Unknown RAT,media,55,100,BR,ThreatFox,2026-11-13 21:49:25 UTC,0
-130.12.181.125,ip:port,CECbot,media,55,100,DE,ThreatFox,2026-11-13 19:26:21 UTC,0
-103.112.172.143,ip:port,Unknown malware,media,55,100,JP,ThreatFox,2026-11-13 19:05:06 UTC,0
-45.207.208.51,ip:port,Cobalt Strike,media,55,100,HK,ThreatFox,2026-11-13 19:05:05 UTC,0
-82.21.200.57,ip:port,Jackskid,media,55,100,FR,ThreatFox,2026-11-13 18:39:22 UTC,0
-82.21.200.56,ip:port,Jackskid,media,55,100,FR,ThreatFox,2026-11-13 18:32:28 UTC,0
-45.91.202.58,ip:port,NetSupportManager RAT,media,55,100,NL,ThreatFox,2026-11-13 13:54:19 UTC,0
-145.63.138.67,ip:port,Unknown malware,media,55,100,NL,ThreatFox,2026-11-13 13:13:08 UTC,0
-110.40.129.156,ip:port,VShell,media,55,100,CN,ThreatFox,2026-11-13 13:05:05 UTC,0
-1.15.82.253,ip:port,Cobalt Strike,media,55,100,CN,ThreatFox,2026-11-13 12:05:08 UTC,1
-209.151.108.73,ip:port,AsyncRAT,media,55,100,NL,ThreatFox,2026-11-13 10:05:06 UTC,1
-130.94.67.43,ip:port,Cobalt Strike,media,55,100,JP,ThreatFox,2026-11-13 09:05:04 UTC,1
-101.132.188.89,ip:port,VShell,media,55,100,CN,ThreatFox,2026-11-13 08:05:04 UTC,1
-124.222.63.111,ip:port,VShell,media,55,100,CN,ThreatFox,2026-11-13 07:05:05 UTC,1
-139.180.158.193,ip:port,Havoc,media,55,100,SG,ThreatFox,2026-11-13 05:05:07 UTC,1
-128.90.106.61,ip:port,DCRat,media,54,75,AR,ThreatFox,2026-11-13 19:43:18 UTC,0
-108.186.112.183,ip:port,Unknown RAT,media,54,90,US,ThreatFox,2026-11-13 08:14:39 UTC,1
-170.39.213.151,ip:port,Unknown RAT,media,54,90,US,ThreatFox,2026-11-13 08:14:37 UTC,1
-188.253.107.199,ip:port,Unknown RAT,media,54,90,US,ThreatFox,2026-11-13 08:14:37 UTC,1
-196.251.121.111,ip:port,PureRAT,media,54,50,UA,ThreatFox,2026-11-13 05:12:09 UTC,1
-157.20.182.100,ip:port,PureRAT,media,53,75,IN,ThreatFox,2026-11-13 19:43:38 UTC,0
-107.175.246.27,ip:port,AsyncRAT,media,53,75,US,ThreatFox,2026-11-13 19:43:13 UTC,0
-45.83.182.68,ip:port,Loki (Mythic),media,53,75,EE,ThreatFox,2026-11-13 08:14:28 UTC,1
-89.127.235.142,ip:port,Loki (Mythic),media,53,75,IS,ThreatFox,2026-11-13 08:14:26 UTC,1
-82.156.197.147,ip:port,Cobalt Strike,media,52,75,CN,ThreatFox,2026-11-14 03:45:47 UTC,0
-46.183.221.117,ip:port,AsyncRAT,media,52,75,LV,ThreatFox,2026-11-13 19:45:08 UTC,0
-89.163.135.20,ip:port,Unknown RAT,media,52,75,DE,ThreatFox,2026-11-13 09:00:12 UTC,1
-51.161.83.58,ip:port,Unknown malware,media,52,75,CA,ThreatFox,2026-11-13 08:14:31 UTC,1
-154.12.94.78,ip:port,Loki (Mythic),media,52,75,US,ThreatFox,2026-11-13 08:14:25 UTC,1
-193.24.211.237,ip:port,Loki (Mythic),media,52,75,HK,ThreatFox,2026-11-13 08:14:24 UTC,1
-150.241.69.22,ip:port,Loki (Mythic),media,52,75,DE,ThreatFox,2026-11-13 08:14:23 UTC,1
-2.31.47.224,ip:port,Loki (Mythic),media,52,75,DE,ThreatFox,2026-11-13 08:14:23 UTC,1
-45.207.222.145,ip:port,Cobalt Strike,media,51,75,HK,ThreatFox,2026-11-14 03:45:43 UTC,0
-185.198.56.60,ip:port,Unknown malware,media,51,75,RO,ThreatFox,2026-11-14 01:56:40 UTC,0
-45.79.33.42,ip:port,Unknown malware,media,51,75,US,ThreatFox,2026-11-14 01:56:40 UTC,0
-212.102.48.58,ip:port,Unknown malware,media,51,75,ES,ThreatFox,2026-11-14 01:56:40 UTC,0
-45.58.135.130,ip:port,Unknown malware,media,51,75,NL,ThreatFox,2026-11-14 01:56:40 UTC,0
-154.9.235.100,ip:port,AdaptixC2,media,51,75,US,ThreatFox,2026-11-13 22:45:19 UTC,0
-62.171.172.71,ip:port,PureRAT,media,51,75,DE,ThreatFox,2026-11-13 19:45:17 UTC,0
-52.128.230.19,ip:port,PureRAT,media,51,75,HK,ThreatFox,2026-11-13 19:45:15 UTC,0
-36.138.100.216,ip:port,VShell,media,51,75,CN,ThreatFox,2026-11-13 19:44:48 UTC,0
-207.189.11.101,ip:port,AsyncRAT,media,51,75,DE,ThreatFox,2026-11-13 19:44:13 UTC,0
-206.189.166.14,ip:port,Unknown malware,media,51,75,US,ThreatFox,2026-11-13 19:44:12 UTC,0
-192.248.190.87,ip:port,AdaptixC2,media,51,75,DE,ThreatFox,2026-11-13 19:44:01 UTC,0
-167.99.175.19,ip:port,Unknown malware,media,51,75,US,ThreatFox,2026-11-13 19:43:45 UTC,0
-138.68.63.70,ip:port,Unknown malware,media,51,75,US,ThreatFox,2026-11-13 19:43:24 UTC,0
-128.90.105.235,ip:port,AsyncRAT,media,51,75,PA,ThreatFox,2026-11-13 19:43:17 UTC,0
-31.76.64.74,ip:port,Unknown malware,media,51,75,DE,ThreatFox,2026-11-13 13:47:39 UTC,0
-155.103.71.120,ip:port,XWorm,media,51,75,TR,ThreatFox,2026-11-13 13:45:17 UTC,0
-154.12.93.116,ip:port,VShell,media,51,75,US,ThreatFox,2026-11-13 09:43:37 UTC,1
-147.45.39.37,ip:port,PureRAT,media,51,75,DE,ThreatFox,2026-11-13 09:43:32 UTC,1
-31.77.57.236,ip:port,Unknown malware,media,51,75,DE,ThreatFox,2026-11-13 09:04:12 UTC,1
-31.57.216.102,ip:port,Remcos,media,51,75,SI,ThreatFox,2026-11-13 08:55:09 UTC,1
-5.252.165.189,ip:port,XWorm,media,51,75,NL,ThreatFox,2026-11-13 08:55:08 UTC,1
-31.57.216.232,ip:port,Remcos,media,51,75,SI,ThreatFox,2026-11-13 08:55:08 UTC,1
-217.69.174.72,ip:port,XWorm,media,51,75,DE,ThreatFox,2026-11-13 08:50:16 UTC,1
-103.216.153.140,ip:port,kkRAT,media,51,75,CN,ThreatFox,2026-11-13 08:17:38 UTC,1
-95.135.181.84,ip:port,Unknown Loader,media,51,75,FR,ThreatFox,2026-11-13 08:14:30 UTC,1
-115.190.241.51,ip:port,Loki (Mythic),media,51,75,CN,ThreatFox,2026-11-13 08:14:27 UTC,1
-172.93.211.237,ip:port,LxBase RAT,media,51,75,CA,ThreatFox,2026-11-13 07:34:56 UTC,1
-49.233.150.149,ip:port,Unknown malware,media,51,75,CN,ThreatFox,2026-11-13 07:33:53 UTC,1
-18.212.244.32,ip:port,Grandoreiro,media,51,75,US,ThreatFox,2026-11-13 07:26:26 UTC,1
-193.161.193.99,ip:port,PureRAT,media,50,50,RU,ThreatFox,2026-11-13 05:12:14 UTC,1
-37.60.226.15,ip:port,Sliver,media,48,50,DE,ThreatFox,2026-11-13 05:12:51 UTC,1
-61.155.145.182,ip:port,Sliver,media,48,50,CN,ThreatFox,2026-11-13 05:12:46 UTC,1
-45.141.21.115,ip:port,PureRAT,media,48,50,FR,ThreatFox,2026-11-13 05:12:44 UTC,1
-193.149.185.119,ip:port,Sliver,media,48,50,GB,ThreatFox,2026-11-13 05:12:44 UTC,1
-201.3.228.121,ip:port,Sliver,media,48,50,PL,ThreatFox,2026-11-13 05:12:40 UTC,1
-111.229.24.22,ip:port,Havoc,media,48,50,CN,ThreatFox,2026-11-13 05:12:40 UTC,1
-153.75.82.141,ip:port,Sliver,media,48,50,US,ThreatFox,2026-11-13 05:12:39 UTC,1
-161.97.143.56,ip:port,Sliver,media,48,50,GB,ThreatFox,2026-11-13 05:12:37 UTC,1
-192.238.238.8,ip:port,Unknown malware,media,48,50,US,ThreatFox,2026-11-13 05:12:09 UTC,1
-121.127.33.139,ip:port,Cobalt Strike,media,48,50,SE,ThreatFox,2026-11-13 05:11:18 UTC,1
-15.157.161.65,ip:port,Unknown malware,media,48,50,CA,ThreatFox,2026-11-13 05:11:10 UTC,1
-36.151.149.193,ip:port,Unknown malware,media,48,50,CN,ThreatFox,2026-11-13 05:10:57 UTC,1
-45.86.67.173,ip:port,PureRAT,media,48,50,CY,ThreatFox,2026-11-13 05:10:52 UTC,1
-155.138.134.46,ip:port,Cobalt Strike,media,48,50,CA,ThreatFox,2026-11-13 05:10:48 UTC,1
-64.177.92.230,ip:port,Unknown malware,media,48,50,MX,ThreatFox,2026-11-13 05:10:39 UTC,1
-156.240.3.99,ip:port,PureRAT,media,48,50,HK,ThreatFox,2026-11-13 05:10:30 UTC,1
-46.246.4.7,ip:port,DCRat,media,48,50,SE,ThreatFox,2026-11-13 05:10:23 UTC,1
-89.117.58.2,ip:port,Unknown RAT,media,48,50,US,ThreatFox,2026-11-13 05:10:22 UTC,1
-104.234.195.150,ip:port,PureRAT,media,48,50,US,ThreatFox,2026-11-13 05:09:58 UTC,1
-45.149.153.140,ip:port,PureRAT,media,48,50,BR,ThreatFox,2026-11-13 05:09:57 UTC,1
-45.149.153.8,ip:port,PureRAT,media,48,50,BR,ThreatFox,2026-11-13 05:09:53 UTC,1
-45.146.81.182,ip:port,PureRAT,media,48,50,BR,ThreatFox,2026-11-13 05:09:53 UTC,1
-45.146.81.141,ip:port,PureRAT,media,48,50,BR,ThreatFox,2026-11-13 05:09:53 UTC,1
-45.149.153.88,ip:port,PureRAT,media,48,50,BR,ThreatFox,2026-11-13 05:09:48 UTC,1
-156.240.50.200,ip:port,Unknown malware,media,48,50,HK,ThreatFox,2026-11-13 05:09:45 UTC,1
-45.144.212.161,ip:port,PureRAT,media,48,50,NL,ThreatFox,2026-11-13 05:09:31 UTC,1
-45.141.21.125,ip:port,PureRAT,media,48,50,FR,ThreatFox,2026-11-13 05:09:30 UTC,1
-156.240.50.201,ip:port,Unknown malware,media,48,50,HK,ThreatFox,2026-11-13 05:09:20 UTC,1
-65.108.52.169,ip:port,NetSupportManager RAT,media,48,50,FI,ThreatFox,2026-11-13 05:09:01 UTC,1
-209.99.186.17,ip:port,Cobalt Strike,media,48,50,US,ThreatFox,2026-11-13 05:08:48 UTC,1
-20.39.130.108,ip:port,Unknown malware,media,48,50,CA,ThreatFox,2026-11-13 05:08:22 UTC,1
-120.48.103.49,ip:port,Empire Downloader,media,48,50,CN,ThreatFox,2026-11-13 05:07:13 UTC,1
-85.189.71.158,ip:port,Unknown malware,media,48,50,GB,ThreatFox,2026-11-13 05:07:11 UTC,1
-92.224.132.154,ip:port,Unknown malware,media,48,50,DE,ThreatFox,2026-11-13 05:06:42 UTC,1
-39.106.194.2,ip:port,DeimosC2,media,48,50,CN,ThreatFox,2026-11-13 05:06:32 UTC,1
-136.244.119.65,ip:port,Unknown malware,media,48,50,FR,ThreatFox,2026-11-13 05:05:39 UTC,1
-85.93.202.11,ip:port,Unknown malware,media,48,50,LU,ThreatFox,2026-11-13 05:05:38 UTC,1
-151.242.97.168,ip:port,SeroRAT,media,48,50,US,ThreatFox,2026-11-13 05:05:24 UTC,1
-180.154.57.104,ip:port,Unknown malware,media,48,50,CN,ThreatFox,2026-11-13 05:05:13 UTC,1
-91.92.242.121,ipv4,ESXi ransomware: why it is dangerous and how to defend against it,media,45,,NL,OTX,2026-11-13T10:07:11,0
+77.239.124.141,ip:port,Mirai,alta,75,100,FR,ThreatFox,2026-11-15 06:56:02 UTC,0
+45.90.163.37,ip:port,Mirai,alta,75,100,FR,ThreatFox,2026-11-15 06:55:59 UTC,0
+45.9.148.86,ip:port,XMRIG,alta,71,80,NL,ThreatFox,2026-11-15 06:56:11 UTC,0
+196.251.121.237,ip:port,AsyncRAT,media,68,75,UA,ThreatFox,2026-11-15 05:07:24 UTC,0
+35.195.19.202,ipv4,php.shin_webshell,media,68,50,BE,ThreatFox,2026-11-15 02:52:17 UTC,0
+34.62.9.55,ipv4,php.shin_webshell,media,68,50,BE,ThreatFox,2026-11-15 02:12:30 UTC,0
+31.57.184.218,ip:port,CECbot,media,67,100,SI,ThreatFox,2026-11-15 01:22:58 UTC,0
+64.227.188.32,ip:port,Aisuru,media,64,100,IN,ThreatFox,2026-11-15 03:25:43 UTC,0
+89.116.210.28,ip:port,Cobalt Strike,media,62,100,US,ThreatFox,2026-11-15 10:05:04 UTC,0
+185.106.98.235,ip:port,XMRIG,media,61,80,FR,ThreatFox,2026-11-15 06:56:11 UTC,0
+85.11.167.150,ip:port,Mirai,media,58,100,NL,ThreatFox,2026-11-15 06:56:01 UTC,0
+204.141.236.157,ip:port,Unknown malware,media,58,100,US,ThreatFox,2026-11-15 06:56:01 UTC,0
+161.248.179.27,ip:port,Unknown malware,media,58,75,VN,ThreatFox,2026-11-14 12:40:21 UTC,1
+45.207.208.51,ip:port,Cobalt Strike,media,57,100,HK,ThreatFox,2026-11-14 19:05:06 UTC,0
+85.189.45.191,ip:port,AdaptixC2,media,56,100,GB,ThreatFox,2026-11-15 09:05:06 UTC,0
+210.56.48.188,ip:port,Unknown malware,media,56,100,HK,ThreatFox,2026-11-14 19:05:07 UTC,0
+23.227.196.115,ip:port,AdaptixC2,media,56,100,US,ThreatFox,2026-11-14 11:05:06 UTC,1
+45.192.213.147,ip:port,VShell,media,55,100,HK,ThreatFox,2026-11-15 07:05:07 UTC,0
+120.79.172.40,ip:port,Unknown malware,media,55,100,CN,ThreatFox,2026-11-15 07:05:06 UTC,0
+124.156.204.199,ip:port,Sliver,media,55,100,SG,ThreatFox,2026-11-15 06:56:15 UTC,0
+39.108.102.94,ip:port,Sliver,media,55,100,CN,ThreatFox,2026-11-15 06:56:15 UTC,0
+111.229.193.40,ip:port,Unknown malware,media,55,100,CN,ThreatFox,2026-11-15 05:05:06 UTC,0
+213.232.236.197,ip:port,Unknown malware,media,55,100,GB,ThreatFox,2026-11-15 05:05:05 UTC,0
+31.57.216.154,ip:port,CECbot,media,55,100,SI,ThreatFox,2026-11-15 03:58:40 UTC,0
+102.220.161.57,ip:port,CECbot,media,55,100,SI,ThreatFox,2026-11-15 03:35:49 UTC,0
+157.245.253.194,ip:port,Aisuru,media,55,100,US,ThreatFox,2026-11-15 03:25:43 UTC,0
+104.248.220.25,ip:port,Aisuru,media,55,100,US,ThreatFox,2026-11-15 02:51:25 UTC,0
+165.232.36.128,ip:port,Aisuru,media,55,100,GB,ThreatFox,2026-11-15 02:51:25 UTC,0
+201.79.52.69,ip:port,Aisuru,media,55,100,CA,ThreatFox,2026-11-15 02:51:25 UTC,0
+31.57.216.91,ip:port,CECbot,media,55,100,SI,ThreatFox,2026-11-15 02:02:50 UTC,0
+59.153.167.12,ip:port,VShell,media,55,100,CN,ThreatFox,2026-11-15 01:05:06 UTC,0
+18.239.18.119,ip:port,NjRAT,media,55,100,NL,ThreatFox,2026-11-14 23:50:19 UTC,0
+45.130.84.171,ip:port,NjRAT,media,55,100,GB,ThreatFox,2026-11-14 23:50:13 UTC,0
+99.86.91.25,ip:port,NjRAT,media,55,100,GB,ThreatFox,2026-11-14 23:50:12 UTC,0
+18.65.39.69,ip:port,NjRAT,media,55,100,IE,ThreatFox,2026-11-14 23:50:05 UTC,0
+45.198.224.73,ip:port,CECbot,media,55,100,SE,ThreatFox,2026-11-14 23:26:00 UTC,0
+31.56.19.143,ip:port,Potassium,media,55,100,SC,ThreatFox,2026-11-14 21:14:36 UTC,0
+130.94.11.208,ip:port,Jackskid,media,55,100,US,ThreatFox,2026-11-14 21:05:29 UTC,0
+45.116.78.205,ip:port,VShell,media,55,100,HK,ThreatFox,2026-11-14 20:05:04 UTC,0
+191.107.80.209,ip:port,Quasar RAT,media,55,100,CO,ThreatFox,2026-11-14 19:05:08 UTC,0
+107.149.96.10,ip:port,VShell,media,55,100,US,ThreatFox,2026-11-14 19:05:07 UTC,0
+62.85.91.36,ip:port,AsyncRAT,media,55,100,LV,ThreatFox,2026-11-14 19:05:05 UTC,0
+31.57.216.212,ip:port,CECbot,media,55,100,SI,ThreatFox,2026-11-14 18:53:04 UTC,0
+8.162.11.200,ip:port,NjRAT,media,55,100,CN,ThreatFox,2026-11-14 15:50:09 UTC,0
+197.206.148.126,ip:port,NjRAT,media,55,100,DZ,ThreatFox,2026-11-14 15:50:05 UTC,0
+38.60.205.67,ip:port,Jackskid,media,55,100,US,ThreatFox,2026-11-14 15:26:12 UTC,0
+38.60.206.178,ip:port,Jackskid,media,55,100,US,ThreatFox,2026-11-14 15:26:12 UTC,0
+130.94.10.21,ip:port,Jackskid,media,55,100,US,ThreatFox,2026-11-14 15:19:33 UTC,0
+130.94.13.23,ip:port,Jackskid,media,55,100,US,ThreatFox,2026-11-14 15:19:33 UTC,0
+5.188.86.227,ip:port,Unknown malware,media,55,100,NL,ThreatFox,2026-11-14 13:05:06 UTC,1
+129.211.183.201,ip:port,Unknown malware,media,55,100,CN,ThreatFox,2026-11-14 13:05:04 UTC,1
+47.238.116.190,ip:port,Unknown malware,media,55,100,HK,ThreatFox,2026-11-14 13:05:04 UTC,1
+16.170.157.239,ip:port,AsyncRAT,media,55,100,SE,ThreatFox,2026-11-14 11:05:05 UTC,1
+134.255.218.122,ip:port,PureRAT,media,53,75,DE,ThreatFox,2026-11-14 19:43:22 UTC,0
+153.75.250.83,ip:port,Evilginx,media,52,75,US,ThreatFox,2026-11-15 09:43:33 UTC,0
+103.155.92.49,ip:port,AdaptixC2,media,52,75,MY,ThreatFox,2026-11-15 09:43:08 UTC,0
+31.7.60.154,ip:port,Unknown malware,media,52,75,CH,ThreatFox,2026-11-15 06:56:18 UTC,0
+121.89.84.167,ip:port,Sliver,media,52,75,CN,ThreatFox,2026-11-15 06:56:17 UTC,0
+103.210.144.11,ip:port,Mirai,media,52,80,IN,ThreatFox,2026-11-15 06:56:14 UTC,0
+167.17.74.9,ip:port,PureRAT,media,52,75,US,ThreatFox,2026-11-14 19:43:43 UTC,0
+103.236.55.218,ip:port,Sliver,media,51,75,CN,ThreatFox,2026-11-15 06:56:15 UTC,0
+195.177.94.208,ip:port,Unknown RAT,media,51,75,FR,ThreatFox,2026-11-15 06:56:06 UTC,0
+185.162.233.6,ip:port,Stealc,media,51,75,NL,ThreatFox,2026-11-15 06:56:06 UTC,0
+186.169.91.36,ip:port,DCRat,media,51,75,CO,ThreatFox,2026-11-15 05:07:23 UTC,0
+149.104.166.188,ip:port,Cobalt Strike,media,51,75,HK,ThreatFox,2026-11-15 05:04:51 UTC,0
+149.104.166.190,ip:port,Cobalt Strike,media,51,75,HK,ThreatFox,2026-11-15 05:04:50 UTC,0
+149.104.166.189,ip:port,Cobalt Strike,media,51,75,HK,ThreatFox,2026-11-15 05:04:47 UTC,0
+95.133.229.17,ip:port,Evilginx,media,51,75,US,ThreatFox,2026-11-14 19:45:33 UTC,0
+82.148.239.8,ip:port,PureRAT,media,51,75,GB,ThreatFox,2026-11-14 19:45:24 UTC,0
+45.156.87.167,ip:port,PureRAT,media,51,75,NL,ThreatFox,2026-11-14 19:44:58 UTC,0
+45.141.21.125,ip:port,PureRAT,media,51,75,FR,ThreatFox,2026-11-14 19:44:56 UTC,0
+4.235.120.72,ip:port,Unknown malware,media,51,75,NO,ThreatFox,2026-11-14 19:44:52 UTC,0
+209.99.190.30,ip:port,AdaptixC2,media,51,75,US,ThreatFox,2026-11-14 19:44:15 UTC,0
+185.241.208.120,ip:port,PureRAT,media,51,75,PL,ThreatFox,2026-11-14 19:43:56 UTC,0
+18.136.4.30,ip:port,Havoc,media,51,75,SG,ThreatFox,2026-11-14 19:43:52 UTC,0
+173.195.100.55,ip:port,PureRAT,media,51,75,US,ThreatFox,2026-11-14 19:43:49 UTC,0
+169.58.38.91,ip:port,AsyncRAT,media,51,75,DE,ThreatFox,2026-11-14 19:43:44 UTC,0
+153.79.249.159,ip:port,Evilginx,media,51,75,US,ThreatFox,2026-11-14 19:43:33 UTC,0
+117.55.237.88,ip:port,AdaptixC2,media,51,75,US,ThreatFox,2026-11-14 19:43:15 UTC,0
+67.215.228.4,ip:port,Unknown malware,media,51,75,US,ThreatFox,2026-11-14 15:18:54 UTC,0
+184.75.208.50,ip:port,AsyncRAT,media,50,50,CA,ThreatFox,2026-11-15 05:09:57 UTC,0
+121.127.33.139,ip:port,Cobalt Strike,media,48,50,SE,ThreatFox,2026-11-15 05:30:10 UTC,0
+38.114.90.236,ip:port,Sliver,media,48,50,US,ThreatFox,2026-11-15 05:30:05 UTC,0
+185.233.166.127,ip:port,Empire Downloader,media,48,50,US,ThreatFox,2026-11-15 05:10:27 UTC,0
+89.82.48.41,ip:port,Sliver,media,48,50,FR,ThreatFox,2026-11-15 05:10:17 UTC,0
+167.114.129.165,ip:port,Unknown malware,media,48,50,US,ThreatFox,2026-11-15 05:09:59 UTC,0
+118.160.44.121,ip:port,Mirai,media,48,50,TW,ThreatFox,2026-11-15 05:09:51 UTC,0
+77.183.3.233,ip:port,Unknown malware,media,48,50,DE,ThreatFox,2026-11-15 05:09:40 UTC,0
+193.26.115.30,ip:port,AsyncRAT,media,48,50,RO,ThreatFox,2026-11-15 05:09:12 UTC,0
+38.127.61.211,ip:port,PureRAT,media,48,50,US,ThreatFox,2026-11-15 05:09:07 UTC,0
+44.237.3.225,ip:port,DeimosC2,media,48,50,US,ThreatFox,2026-11-15 05:08:58 UTC,0
+150.40.98.62,ip:port,Sliver,media,48,50,BG,ThreatFox,2026-11-15 05:08:42 UTC,0
+223.206.141.52,ip:port,Mirai,media,48,50,TH,ThreatFox,2026-11-15 05:08:27 UTC,0
+106.53.107.131,ip:port,AdaptixC2,media,48,50,CN,ThreatFox,2026-11-15 05:08:23 UTC,0
+201.103.69.81,ip:port,Mirai,media,48,50,MX,ThreatFox,2026-11-15 05:08:09 UTC,0
+172.245.81.227,ip:port,Unknown malware,media,48,50,US,ThreatFox,2026-11-15 05:08:02 UTC,0
+64.83.24.42,ip:port,Unknown malware,media,48,50,US,ThreatFox,2026-11-15 05:08:01 UTC,0
+120.48.103.49,ip:port,Empire Downloader,media,48,50,CN,ThreatFox,2026-11-15 05:07:33 UTC,0
+154.36.171.58,ip:port,Unknown malware,media,48,50,US,ThreatFox,2026-11-15 05:06:33 UTC,0
+40.160.37.87,ip:port,Unknown malware,media,48,50,US,ThreatFox,2026-11-15 05:05:44 UTC,0
+72.57.79.229,ip:port,NetSupportManager RAT,media,48,50,NL,ThreatFox,2026-11-15 05:04:24 UTC,0
+178.18.241.48,ip:port,Sliver,media,48,50,GB,ThreatFox,2026-11-15 05:04:11 UTC,0
