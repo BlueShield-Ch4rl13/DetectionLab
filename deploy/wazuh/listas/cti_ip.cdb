@@ -1,102 +1,127 @@
-77.239.124.141:Mirai|alta
-45.90.163.37:Mirai|alta
-45.9.148.86:XMRIG|alta
-196.251.121.237:AsyncRAT|media
-35.195.19.202:php.shin_webshell|media
-34.62.9.55:php.shin_webshell|media
-31.57.184.218:CECbot|media
-64.227.188.32:Aisuru|media
-89.116.210.28:Cobalt Strike|media
-185.106.98.235:XMRIG|media
-85.11.167.150:Mirai|media
-204.141.236.157:Unknown malware|media
-161.248.179.27:Unknown malware|media
-45.207.208.51:Cobalt Strike|media
-85.189.45.191:AdaptixC2|media
-210.56.48.188:Unknown malware|media
-23.227.196.115:AdaptixC2|media
-45.192.213.147:VShell|media
-120.79.172.40:Unknown malware|media
-124.156.204.199:Sliver|media
-39.108.102.94:Sliver|media
-111.229.193.40:Unknown malware|media
-213.232.236.197:Unknown malware|media
-31.57.216.154:CECbot|media
-102.220.161.57:CECbot|media
-157.245.253.194:Aisuru|media
-104.248.220.25:Aisuru|media
-165.232.36.128:Aisuru|media
-201.79.52.69:Aisuru|media
-31.57.216.91:CECbot|media
-59.153.167.12:VShell|media
-18.239.18.119:NjRAT|media
-45.130.84.171:NjRAT|media
-99.86.91.25:NjRAT|media
-18.65.39.69:NjRAT|media
-45.198.224.73:CECbot|media
-31.56.19.143:Potassium|media
-130.94.11.208:Jackskid|media
-45.116.78.205:VShell|media
-191.107.80.209:Quasar RAT|media
-107.149.96.10:VShell|media
-62.85.91.36:AsyncRAT|media
-31.57.216.212:CECbot|media
-8.162.11.200:NjRAT|media
-197.206.148.126:NjRAT|media
-38.60.205.67:Jackskid|media
-38.60.206.178:Jackskid|media
-130.94.10.21:Jackskid|media
-130.94.13.23:Jackskid|media
-5.188.86.227:Unknown malware|media
+102.220.161.178:CECbot|alta
+104.194.155.42:Evilginx|alta
+103.170.217.170:Unknown malware|alta
+35.203.42.158:php.shin_webshell|media
+206.189.91.57:Aisuru|media
+136.110.49.199:php.shin_webshell|media
+85.193.68.244:AMOS|media
+159.203.61.118:Aisuru|media
+102.220.163.65:Remcos|media
+192.162.199.218:Quasar RAT|media
+5.189.191.124:Cobalt Strike|media
+141.164.52.83:Unknown malware|media
+103.112.172.143:Unknown malware|media
+102.220.163.66:Remcos|media
+12.202.180.125:Unknown malware|media
+47.253.46.171:VShell|media
+45.77.32.201:VShell|media
+47.238.198.242:VShell|media
+192.30.240.25:Unknown Stealer|media
+8.141.125.215:Cobalt Strike|media
+218.237.58.53:Cobalt Strike|media
+179.237.77.202:Vidar|media
+83.228.228.12:Vidar|media
+37.156.44.136:Vidar|media
+83.228.231.84:Vidar|media
+31.57.216.121:CECbot|media
+102.220.161.172:CECbot|media
 129.211.183.201:Unknown malware|media
-47.238.116.190:Unknown malware|media
-16.170.157.239:AsyncRAT|media
-134.255.218.122:PureRAT|media
-153.75.250.83:Evilginx|media
-103.155.92.49:AdaptixC2|media
-31.7.60.154:Unknown malware|media
-121.89.84.167:Sliver|media
-103.210.144.11:Mirai|media
-167.17.74.9:PureRAT|media
-103.236.55.218:Sliver|media
-195.177.94.208:Unknown RAT|media
-185.162.233.6:Stealc|media
-186.169.91.36:DCRat|media
-149.104.166.188:Cobalt Strike|media
-149.104.166.190:Cobalt Strike|media
-149.104.166.189:Cobalt Strike|media
+130.94.118.208:AdaptixC2|media
+185.227.153.148:VShell|media
+38.207.176.218:VShell|media
+119.3.251.24:VShell|media
+104.248.21.36:Aisuru|media
+146.190.92.100:Aisuru|media
+159.203.23.254:Aisuru|media
+159.223.27.166:Aisuru|media
+102.220.161.177:CECbot|media
+8.136.12.29:VShell|media
+31.57.216.141:CECbot|media
+196.251.102.216:AsyncRAT|media
+31.56.19.158:AsyncRAT|media
+169.58.120.39:Unknown malware|media
+155.4.245.113:Nanocore RAT|media
+31.57.216.158:CECbot|media
+154.94.232.212:VShell|media
+45.251.240.174:Cobalt Strike|media
+120.79.172.40:Unknown malware|media
+176.44.68.157:Havoc|media
+149.33.32.158:Jackskid|media
+91.200.220.179:Jackskid|media
+178.83.188.141:Mirai|media
+47.85.171.251:Unknown RAT|media
+192.238.176.121:Unknown RAT|media
+2.24.128.29:Unknown Stealer|media
+89.116.210.28:Cobalt Strike|media
 95.133.229.17:Evilginx|media
-82.148.239.8:PureRAT|media
-45.156.87.167:PureRAT|media
+91.202.233.35:NightshadeC2|media
+167.172.167.65:Sliver|media
+180.93.116.146:Mirai|media
+172.210.234.110:Evilginx|media
+144.31.29.103:Evilginx|media
+31.77.219.202:LxBase RAT|media
+3.80.57.117:Grandoreiro|media
+104.168.145.245:Unknown RAT|media
+45.249.89.172:AdaptixC2|media
+172.94.53.164:Unknown malware|media
+103.45.68.176:Unknown malware|media
+38.207.181.194:Unknown malware|media
+45.153.219.218:Unknown Stealer|media
+93.190.247.190:Unknown Stealer|media
+45.76.57.220:GammaLoad|media
+64.94.84.137:GammaLoad|media
+192.162.199.167:MopsStealer|media
+154.94.225.217:Unknown malware|media
+87.182.43.4:AsyncRAT|media
+96.62.218.172:Unknown malware|media
+94.26.90.104:Unknown malware|media
+91.92.43.6:Unknown malware|media
+31.59.166.63:Unknown malware|media
+96.9.124.41:PureRAT|media
+83.141.68.173:Unknown malware|media
 45.141.21.125:PureRAT|media
-4.235.120.72:Unknown malware|media
-209.99.190.30:AdaptixC2|media
-185.241.208.120:PureRAT|media
-18.136.4.30:Havoc|media
-173.195.100.55:PureRAT|media
-169.58.38.91:AsyncRAT|media
-153.79.249.159:Evilginx|media
-117.55.237.88:AdaptixC2|media
-67.215.228.4:Unknown malware|media
-184.75.208.50:AsyncRAT|media
-121.127.33.139:Cobalt Strike|media
-38.114.90.236:Sliver|media
-185.233.166.127:Empire Downloader|media
-89.82.48.41:Sliver|media
-167.114.129.165:Unknown malware|media
-118.160.44.121:Mirai|media
-77.183.3.233:Unknown malware|media
-193.26.115.30:AsyncRAT|media
-38.127.61.211:PureRAT|media
-44.237.3.225:DeimosC2|media
-150.40.98.62:Sliver|media
-223.206.141.52:Mirai|media
-106.53.107.131:AdaptixC2|media
-201.103.69.81:Mirai|media
-172.245.81.227:Unknown malware|media
-64.83.24.42:Unknown malware|media
-120.48.103.49:Empire Downloader|media
-154.36.171.58:Unknown malware|media
-40.160.37.87:Unknown malware|media
-72.57.79.229:NetSupportManager RAT|media
-178.18.241.48:Sliver|media
+45.133.73.94:Unknown malware|media
+35.210.12.169:Unknown malware|media
+34.154.223.17:AdaptixC2|media
+31.45.252.40:DanaBot|media
+180.94.20.228:Havoc|media
+173.249.208.64:PureRAT|media
+172.86.85.90:Evilginx|media
+45.150.32.130:Unknown malware|media
+171.22.131.24:Unknown malware|media
+5.83.134.37:Unknown malware|media
+167.88.172.122:Cobalt Strike|media
+151.247.112.169:PureRAT|media
+43.251.224.222:Sliver|media
+45.116.78.205:Sliver|media
+39.109.115.62:Unknown malware|media
+38.76.223.213:Unknown malware|media
+104.143.215.123:Chaos|media
+185.233.166.127:Havoc|media
+85.209.48.159:Unknown malware|media
+46.149.73.160:Cobalt Strike|media
+45.63.60.57:AdaptixC2|media
+54.146.236.153:Unknown malware|media
+169.58.165.63:Nimplant|media
+20.206.160.57:Cobalt Strike|media
+186.105.10.174:Unknown malware|media
+3.13.123.140:Unknown malware|media
+62.85.91.36:AsyncRAT|media
+177.3.32.67:Unknown malware|media
+104.234.174.201:Unknown malware|media
+104.215.113.92:Unknown malware|media
+156.225.27.45:Unknown malware|media
+103.142.190.201:Unknown malware|media
+172.94.122.194:SeroRAT|media
+15.134.195.227:Unknown malware|media
+23.94.232.171:Venom RAT|media
+185.241.208.113:Empire Downloader|media
+78.54.39.137:Unknown malware|media
+129.80.55.100:Unknown malware|media
+38.175.198.6:Unknown malware|media
+58.38.0.35:Unknown malware|media
+186.105.3.30:Unknown malware|media
+143.198.89.51:Cobalt Strike|media
+149.210.72.71:Mirai|media
+35.247.155.197:Unknown malware|media
+23.168.152.35:Sliver|media
