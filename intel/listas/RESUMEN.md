@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-11-17 06:13 UTC  
-**Listas generadas:** 2026-11-17T15:18:10Z  
+**Feed generado:** 2026-11-18 11:11 UTC  
+**Listas generadas:** 2026-11-18T14:53:34Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 413 | Caza programada, no alerta directa |
-| Dominio | 686 | Caza programada, no alerta directa |
-| URL | 213 | Caza programada, no alerta directa |
-| Hash | 505 | **Alerta directa**: un hash coincide o no |
+| IP | 335 | Caza programada, no alerta directa |
+| Dominio | 436 | Caza programada, no alerta directa |
+| URL | 148 | Caza programada, no alerta directa |
+| Hash | 412 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 15 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,51 +29,51 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (79 de 1896)
+## Que se descarto del feed (52 de 1383)
 
 | Motivo | Descartados |
 |---|---:|
-| nivel bajo | 79 |
+| nivel bajo | 52 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Unknown malware | 405 |
-| ClearFake | 234 |
-| IClickFix | 188 |
-| Unknown Loader | 161 |
-| malware_download | 100 |
-| ZStealer | 87 |
-| Stealc | 55 |
-| Vidar | 54 |
-| Mirai | 53 |
-| SCKit abuses ScreenConnect to deploy remote access and target technician sessions | 44 |
-| WardenStealer Malware: Turning AI Access into an Underground Commodity | 36 |
-| SNOWLIGHT | 35 |
+| Unknown malware | 224 |
+| IClickFix | 146 |
+| Mirai | 137 |
+| ClearFake | 125 |
+| malware_download | 98 |
+| StrelaStealer | 55 |
+| Vidar | 51 |
+| Unknown Loader | 33 |
+| VShell | 27 |
+| stealler | 27 |
+| Agent Tesla | 27 |
+| Aisuru | 21 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 413 |
-| `wazuh/cti_dominio` | 686 |
-| `wazuh/cti_url` | 213 |
-| `wazuh/cti_hash` | 505 |
+| `wazuh/cti_ip` | 335 |
+| `wazuh/cti_dominio` | 436 |
+| `wazuh/cti_url` | 148 |
+| `wazuh/cti_hash` | 412 |
 | `wazuh/cti_cve_kev` | 15 |
-| `splunk/cti_ip.csv` | 413 |
-| `splunk/cti_dominio.csv` | 686 |
-| `splunk/cti_url.csv` | 213 |
-| `splunk/cti_hash.csv` | 505 |
+| `splunk/cti_ip.csv` | 335 |
+| `splunk/cti_dominio.csv` | 436 |
+| `splunk/cti_url.csv` | 148 |
+| `splunk/cti_hash.csv` | 412 |
 | `splunk/cti_cve_kev.csv` | 15 |
-| `sentinel/CTI_Ip.csv` | 413 |
-| `sentinel/CTI_Dominio.csv` | 686 |
-| `sentinel/CTI_Url.csv` | 213 |
-| `sentinel/CTI_Hash.csv` | 505 |
-| `elastic/cti_ip.ndjson` | 413 |
-| `elastic/cti_dominio.ndjson` | 686 |
-| `elastic/cti_url.ndjson` | 213 |
-| `elastic/cti_hash.ndjson` | 505 |
+| `sentinel/CTI_Ip.csv` | 335 |
+| `sentinel/CTI_Dominio.csv` | 436 |
+| `sentinel/CTI_Url.csv` | 148 |
+| `sentinel/CTI_Hash.csv` | 412 |
+| `elastic/cti_ip.ndjson` | 335 |
+| `elastic/cti_dominio.ndjson` | 436 |
+| `elastic/cti_url.ndjson` | 148 |
+| `elastic/cti_hash.ndjson` | 412 |
 
 ## Como se instala cada una
 
