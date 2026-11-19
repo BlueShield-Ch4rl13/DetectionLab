@@ -1,437 +1,213 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-webshell.lol,domain,Unknown Webinject,media,66,75,,"ThreatFox, OTX",2026-11-18 10:13:14 UTC,0
-1688360.cc,domain,Unknown malware,media,56,75,,ThreatFox,2026-11-18 10:13:14 UTC,0
-linkforge.cc,domain,Unknown Webinject,media,56,75,,ThreatFox,2026-11-18 10:13:13 UTC,0
-bocoi.store,domain,ClearFake,media,56,100,,ThreatFox,2026-11-18 09:59:20 UTC,0
-betbr.store,domain,ClearFake,media,56,100,,ThreatFox,2026-11-18 09:19:43 UTC,0
-winne.mynetav.net,domain,Remcos,media,56,100,,ThreatFox,2026-11-18 02:51:43 UTC,0
-mwgabtho.trun.store,domain,ClearFake,media,56,100,,ThreatFox,2026-11-18 02:19:54 UTC,0
-xk.go33.org,domain,Vidar,media,56,100,,ThreatFox,2026-11-18 02:05:34 UTC,0
-oc.arusmenang.org,domain,Vidar,media,56,100,,ThreatFox,2026-11-18 02:05:34 UTC,0
-hr.arusmenang.org,domain,Vidar,media,56,100,,ThreatFox,2026-11-18 01:05:34 UTC,0
-lhtfx0yq.tafti.store,domain,ClearFake,media,56,100,,ThreatFox,2026-11-17 17:12:52 UTC,0
-tafti.store,domain,ClearFake,media,56,100,,ThreatFox,2026-11-17 17:12:08 UTC,0
-y.gl111.org,domain,Vidar,media,56,100,,ThreatFox,2026-11-17 17:10:34 UTC,0
-e4.ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 10:05:34 UTC,0
-bu.ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 09:05:34 UTC,0
-ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 09:05:34 UTC,0
-main9.nodewest.work,domain,RevStealer,media,55,100,,ThreatFox,2026-11-18 08:22:10 UTC,0
-gate5.archpark.wiki,domain,RevStealer,media,55,100,,ThreatFox,2026-11-18 08:22:09 UTC,0
-asimo.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 08:19:22 UTC,0
-aqtis.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 08:09:16 UTC,0
-7e0pcdh8.taksim-fil.click,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 08:07:31 UTC,0
-mo.go33.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 08:05:34 UTC,0
-co.arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 08:05:34 UTC,0
-al10.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 08:05:24 UTC,0
-me.ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 07:05:34 UTC,0
-zh.arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 07:05:34 UTC,0
-he.arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 06:05:34 UTC,0
-franzlery.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-18 05:55:53 UTC,0
-ka.go33.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 05:10:34 UTC,0
-e7.arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 05:05:34 UTC,0
-ax.arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 04:05:34 UTC,0
-griffnoria.eating-organic.net,domain,Grandoreiro,media,55,100,,ThreatFox,2026-11-18 04:00:09 UTC,0
-svr.erc200.com,domain,Mirai,media,55,100,,ThreatFox,2026-11-18 03:45:08 UTC,0
-blws.linkpc.net,domain,Loda,media,55,100,,ThreatFox,2026-11-18 03:39:47 UTC,0
-adminnew.top,domain,Unknown malware,media,55,100,,ThreatFox,2026-11-18 03:30:43 UTC,0
-arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 03:05:35 UTC,0
-vp.ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 03:05:34 UTC,0
-ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 03:05:34 UTC,0
-dlz.arwanageming.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 03:05:34 UTC,0
-metamax1.thuylienthu20.workers.dev,domain,Unknown malware,media,55,100,,ThreatFox,2026-11-18 03:03:01 UTC,0
-rkbot.houtzkvaternik.workers.dev,domain,Unknown malware,media,55,100,,ThreatFox,2026-11-18 03:03:01 UTC,0
-spartensgame.pages.dev,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-18 02:56:32 UTC,0
-seraitsgame.pages.dev,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-18 02:56:32 UTC,0
-incypreaw.pages.dev,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-18 02:56:31 UTC,0
-policyuntaxed.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-riotradish.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-runwayunfreeze.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-spongemonstrous.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-staffchest.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-turretclothes.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-ultimateconsuming.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-unhiddenfilm.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:42 UTC,0
-armadilloundermost.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:41 UTC,0
-dollarabsence.cc,domain,ACR Stealer,media,55,100,,ThreatFox,2026-11-18 02:52:41 UTC,0
-www.hillstigertowing.com.au,domain,ClearFake,media,55,90,,ThreatFox,2026-11-18 02:16:00 UTC,0
-www.kickstartupbusiness.com,domain,ClearFake,media,55,90,,ThreatFox,2026-11-18 02:05:59 UTC,0
-claude-flare-verification.vercel.app,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:30:27 UTC,0
-script-tau-silk.vercel.app,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:30:27 UTC,0
-m5.arusmenang.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 00:05:34 UTC,0
-syedmucktadirnuri.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-tacosandco.fr,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-thavammusic.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-thekandishopp.net,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-uniqueeuphoria.net,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-vividfablab.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-webperfology.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-www.angelopaolotricase.it,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-www.avvocatomeraviglia.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:24 UTC,0
-amasina-restaurant.de,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-apep.com.co,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-bocadeli.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-choiceqlube.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-ctcobesa.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-elbahartrading.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-grupohensa.com.mx,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-hlogistics.us,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-hollandspecial.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-jrveventos.com.br,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-kafaatdev.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-kiac.ac.rw,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-netrapedia.online,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-nitmedia.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-olgatom.in.ua,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-pngpanda.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-pollerke.be,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-stevencribbs.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 00:02:23 UTC,0
-gghqg3fp.texbo.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 23:55:48 UTC,0
-oh.go33.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 23:15:34 UTC,0
-yw4.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 23:05:34 UTC,0
-fg.arusmenang.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 23:05:34 UTC,0
-stcacke.biz,domain,KongTuke,media,55,100,,ThreatFox,2026-11-17 22:49:24 UTC,0
-kurdiskainstitutet.se,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-lawyerlegalguide.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-lsm.com.ua,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-markint.in,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-millcontabilidade.com.br,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-nachu.in,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-nenadbjelic.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-regenciatransfert.fr,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-roastandlambs.cl,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-sdvfinconsulting.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-secretsdecleopatre.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-slabonstudio.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-techcontrol-lg.ru,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-www.natureorganicbeauty.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-zinmoto.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:35 UTC,0
-abumajid.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-accordionman.co.za,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-accupackindia.in,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-advokat-rb.by,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-airticket.cargolink.mn,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-alexanderandersen.se,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-alleswatbloeit.nl,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-alltherightmoversvancouver.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-americasnurse.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-ancientamerica.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-andesbtc.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-applewatchecg.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-arcpoint.solutions,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-arminehhelenohanian.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-auto-service1.ru,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-beaknwhiskers.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-beilulrestaurant.co.uk,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-biketribe.co.za,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-boegehaven5210.dk,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-bonnemaisonhotel.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-bullyfiendz.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-bvk32.ru,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-byronyen.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-clip360.ru,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-coatking.nl,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-coopdescommuns.fr,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-copypasteexception.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-cosdent.ro,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-coutocerimonial.com.br,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-cp-sourcing.dk,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-crystalclearcosmeticsus.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-dessideriadcaro.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-dienlanhkhaan.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-dj-vide.be,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-kapxapot.ru,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-kayumars.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-kilcona.ca,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-klangsteg.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 22:46:34 UTC,0
-broatslioum-willow.pro,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 22:13:32 UTC,0
-drexdeonfaiix.pro,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 22:13:32 UTC,0
-glizgiarkflaie.pro,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 22:13:32 UTC,0
-mellow-arc-willow-craeyn.pro,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 22:13:32 UTC,0
-ros.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 22:10:34 UTC,0
-rr.arusmenang.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 22:05:34 UTC,0
-c65wje4f.zere.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 22:02:43 UTC,0
-banqjhmk.vancez.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 21:55:47 UTC,0
-yumvista.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:31 UTC,0
-zetazsystems.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:31 UTC,0
-zonahidup.id,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:31 UTC,0
-origgen.org,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-pfsurfaces.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-reviewsrepro.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-riseupoverseas.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-sageandstagerentals.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-sarteanoliving.it,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-seapyramidfl.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-skyvanto.id,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-southshieldsgands.co.uk,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-stanfords.edu.pl,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-starvixos.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-stxavier.edu.rs,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-stylvions.click,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-supremetowingandstorage.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-suriludeshi.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-tabeertours.co.uk,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-taskent-haber.com.tr,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-techecy.co.uk,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-tesisatkacagitespiti.com.tr,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-tfp-architects.co.uk,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-theanalysis.in,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-thelearningnest.co,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-thepowersofconnection.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-toolsvibe.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-tose-sonkekids.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-unye-nakliyat.cyou,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-usher.co.za,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-vidaesport.co.za,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-visitcasinoss.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-winlixs.click,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-wonderlandcasinos.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-woodhousekitchenandcloset.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-yukjudibola.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:30 UTC,0
-666pgamex.com.pk,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-a1itsolutions.com.au,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-acts.edu.rs,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-avertieducation.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-casinocruisess.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-casinosportsbookss.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-club790businessdirectory.co.za,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-dinkumcalibration.com.au,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-firewerx.co.za,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-islamdjibouti.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-jaxturbotowing.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-judibolarupiahs.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-latinalotus.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-leticiacoelho.com.br,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-marutinandaneng.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-mgrow.com.au,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 21:32:29 UTC,0
-d.arusmenang.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 21:10:34 UTC,0
-arusmenang.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 21:10:34 UTC,0
-d3ufyw0m.tarax.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 20:37:36 UTC,0
-tarax.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 20:32:25 UTC,0
-b2.go33.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 20:05:34 UTC,0
-not.aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 20:05:34 UTC,0
-hyperbeamtw.com,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-17 19:40:37 UTC,0
-tom.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 19:05:34 UTC,0
-nlb.aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 19:05:34 UTC,0
-cardamomatrium.org,domain,SmartApeSG,media,55,100,,ThreatFox,2026-11-17 18:57:11 UTC,0
-yy.go33.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 18:35:34 UTC,0
-go33.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 18:35:34 UTC,0
-bd.aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 18:05:34 UTC,0
-q7alfk3i.ular.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 17:48:36 UTC,0
-17r3cd1e.zalfa.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 17:45:11 UTC,0
-dk.aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 17:05:34 UTC,0
-nv.aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 16:05:34 UTC,0
-qkp.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 15:05:34 UTC,0
-fq.aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 15:05:34 UTC,0
-aruskoki.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 15:05:34 UTC,0
-tdssecure.beer,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 14:39:06 UTC,1
-checkingrayid.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 14:39:05 UTC,1
-x.gl111.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 14:05:34 UTC,1
-vz.aromattoto.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 14:05:34 UTC,1
-giyxfaf2.sidar.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 13:59:08 UTC,1
-5qu3fpr4.yanok.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 13:35:12 UTC,1
-n1nrcs2e.udap.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-17 13:34:56 UTC,1
-h8.aromattoto.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 13:10:34 UTC,1
-tthcsslread21.cc,domain,IClickFix,media,55,100,,ThreatFox,2026-11-17 13:02:50 UTC,1
-aah.celikit.my,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-17 12:31:58 UTC,1
-op.aromattoto.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 12:05:34 UTC,1
-siruvise.ydns.eu,domain,XWorm,media,55,100,,ThreatFox,2026-11-17 11:36:31 UTC,1
-sweetspirit.ydns.eu,domain,Unknown RAT,media,55,100,,ThreatFox,2026-11-17 11:31:38 UTC,1
-q.gl111.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 11:15:34 UTC,1
-t.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 11:05:34 UTC,1
-izz.aromattoto.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-17 11:05:34 UTC,1
-usapdftool.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 05:56:16 UTC,0
-js-static.world,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:36 UTC,0
-js-static.website,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:36 UTC,0
-js-static.live,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:35 UTC,0
-js-static.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:34 UTC,0
-api-v1.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:30 UTC,0
-cf-relay.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:29 UTC,0
-api-c.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:29 UTC,0
-cf-com.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:28 UTC,0
-api-com.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:27 UTC,0
-www-cf.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:26 UTC,0
-ld-web.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:26 UTC,0
-webapi-cf.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:24 UTC,0
-cfapi.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:24 UTC,0
-webapi-cf.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:22 UTC,0
-www-web.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:22 UTC,0
-www-web-api.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:21 UTC,0
-cf-web-restapi.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:20 UTC,0
-api-point-cf.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:19 UTC,0
-cf-restapi-web.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:18 UTC,0
-web-cf-restapi.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:18 UTC,0
-web-restapi-cf.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:16 UTC,0
-web-api-cf.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:16 UTC,0
-web-restapi.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:15 UTC,0
-api-web-point.sbs,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:14 UTC,0
-com-web-restapi.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:14 UTC,0
-restapi-web.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:13 UTC,0
-api-web-point.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:13 UTC,0
-restapi-cf-web-com.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:12 UTC,0
-web-restapi.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:11 UTC,0
-restapi-cf-web.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:10 UTC,0
-api-point-cf.cfd,domain,IClickFix,media,54,90,,ThreatFox,2026-11-18 02:56:09 UTC,0
-triplinepk.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 02:16:01 UTC,0
-nuveenawellness.win,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 02:16:01 UTC,0
-theeventsmafia.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 02:16:00 UTC,0
-ke4asholdings.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 01:35:52 UTC,0
-greencaresindia.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 23:15:25 UTC,0
-evriresorts.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 23:15:25 UTC,0
-www.tose-sonkekids.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 22:15:02 UTC,0
-www.vidaesport.co.za,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 22:05:00 UTC,0
-situsjudibolaterbesars.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:30 UTC,0
-mabesagenjudibolaonline.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:30 UTC,0
-judibolaamans.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:30 UTC,0
-jeannekempton.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:30 UTC,0
-securitycompanymelbourne.com.au,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:30 UTC,0
-saayatransport.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:29 UTC,0
-quickliftowservice.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:29 UTC,0
-nexvantas.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:29 UTC,0
-sosyalsepet.com.tr,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:29 UTC,0
-openfieldss.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:28 UTC,0
-onlinejudicasino.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:28 UTC,0
-rumahjudibola.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:28 UTC,0
-situsjudibolaresmis.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:28 UTC,0
-sanantonioparkingspace.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:27 UTC,0
-mgreklamajans.com.tr,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:27 UTC,0
-officiel-tour-guide.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:27 UTC,0
-sancaktepetasimacilik.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:27 UTC,0
-ratujudibola.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:27 UTC,0
-movixyra.click,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:26 UTC,0
-monstersautorecovery.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:26 UTC,0
-sharpedgee.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:26 UTC,0
-matchlurse.click,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:25:26 UTC,0
-maenjudibola.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:23 UTC,0
-situsjudibolaindonesia.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:23 UTC,0
-osmaneli-haber.com.tr,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:23 UTC,0
-plantsathome.unaux.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:23 UTC,0
-kadikoytasimacilik.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:22 UTC,0
-kabatas-nakliyat.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:22 UTC,0
-slu.edu.pl,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:22 UTC,0
-kabaduz-nakliyat.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:22 UTC,0
-nodownloadcasinosonline.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 21:05:22 UTC,0
-www.dinkumcalibration.com.au,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:55:20 UTC,0
-www.club790businessdirectory.co.za,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:55:20 UTC,0
-imanebelatate.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:45:18 UTC,0
-www.firewerx.co.za,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:45:18 UTC,0
-www.avertieducation.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:45:18 UTC,0
-hartyelectronicsltd.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:16 UTC,0
-dressengineer.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:16 UTC,0
-barco-ci.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:16 UTC,0
-bluepulse.id,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:16 UTC,0
-decorbeam.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:15 UTC,0
-apostle-art.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:15 UTC,0
-ignyte44.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:15 UTC,0
-artmouse.com.br,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:15 UTC,0
-canakkalebelediyespor.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:14 UTC,0
-dagaglobal.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:35:14 UTC,0
-earlytraveler.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:29:43 UTC,0
-bayrampasatasimacilik.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:42 UTC,0
-ikizce-nakliyat.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:42 UTC,0
-hoodiehypemedia.online,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:42 UTC,0
-aoraxofficial.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:42 UTC,0
-eryonlabs.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:41 UTC,0
-dolez.com.tr,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:41 UTC,0
-datapressos.click,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:41 UTC,0
-dreamking-productions.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:36 UTC,0
-akhisarevdenevenakliyat.cyou,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:36 UTC,0
-blanktextonline.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:36 UTC,0
-dasoap.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:36 UTC,0
-driversexpressct.us,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:24:35 UTC,0
-eskisehirtvtamir.com.tr,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:34 UTC,0
-golcuk-web-tasarim.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:34 UTC,0
-g-bridgehouse.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:33 UTC,0
-engineeringleads.ai,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:33 UTC,0
-belgrade.edu.rs,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:29 UTC,0
-bet939app.live,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:29 UTC,0
-agenjudibolacbet.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:29 UTC,0
-deenationlogistics.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:28 UTC,0
-casamanomano.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:28 UTC,0
-arrivaltow.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:28 UTC,0
-gamelegend.id,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:28 UTC,0
-goalvixos.click,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:14:27 UTC,0
-goalvixos.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:26 UTC,0
-brightspott.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:26 UTC,0
-bondology.com.tr,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:25 UTC,0
-habitixo.click,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:25 UTC,0
-computervalue.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:25 UTC,0
-guildofsecurity.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:25 UTC,0
-bestworkss.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:25 UTC,0
-fatsa-nakliyat.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:24 UTC,0
-avcilartasimacilik.xyz,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:24 UTC,0
-caramenangjudibolas.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:24 UTC,0
-drlweddings.co.uk,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 20:04:24 UTC,0
-www.alchemybuild.ca,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 19:19:09 UTC,0
-www.hdhub4u.ai.in,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 19:09:08 UTC,0
-easylife.byethost7.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 18:59:06 UTC,0
-hexxion.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 18:59:06 UTC,0
-staging-everythingrhythmicgymnasticscom.kinsta.cloud,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 16:07:32 UTC,0
-intuit-office-login.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 15:57:31 UTC,0
-www.ourweddings.my.id,domain,Unknown malware,media,54,90,,ThreatFox,2026-11-17 15:37:28 UTC,0
-andunlockmobile.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 15:07:07 UTC,0
-goyardde.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 15:07:07 UTC,0
-buildinglooks.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 14:06:42 UTC,1
-talladega.edu.pl,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 13:01:04 UTC,1
-camionricambi.net,domain,ClearFake,media,54,90,,ThreatFox,2026-11-17 12:00:55 UTC,1
-object.policyuntaxed.cc,domain,Amatera,media,52,75,,ThreatFox,2026-11-18 02:51:51 UTC,0
-wuntred.com,domain,Unknown Loader,media,52,50,,ThreatFox,2026-11-17 19:40:46 UTC,0
-bairagarhliving.com,domain,Unknown Loader,media,52,75,,ThreatFox,2026-11-17 17:55:19 UTC,0
-jaystrading.in,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 06:51:37 UTC,0
-capkat.pro,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 06:51:36 UTC,0
-www.zycus.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 06:51:36 UTC,0
-www.rightwaytobegreen.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 06:51:35 UTC,0
-westlegendre.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 06:51:34 UTC,0
-designsbycraigveenker.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 06:51:34 UTC,0
-www.trendy-brandz.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:59 UTC,0
-www.rakusuikai.jp,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:59 UTC,0
-thedaydreamdiaries.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:58 UTC,0
-crosscreekvet.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:58 UTC,0
-www.projecthomelessconnect.org,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:57 UTC,0
-www.dinterni.com.cy,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:52 UTC,0
-www.cardockclassics.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:52 UTC,0
-www.yuceldds.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 02:51:51 UTC,0
-vandacreative.cyou,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:54 UTC,0
-yigilca-haber.cyou,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:54 UTC,0
-portacel.co.uk,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:53 UTC,0
-sezerlerambartasimaciligi.cyou,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:53 UTC,0
-tawvalleytelecoms.co.uk,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:53 UTC,0
-toolhub.space,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:53 UTC,0
-truthixa.com,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 21:36:53 UTC,0
-buydriedpoppypods.com,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 19:52:33 UTC,0
-icddungquat.com.vn,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 19:52:33 UTC,0
-aysegozdeonel.com,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 19:42:17 UTC,0
-hdhub4u.ai.in,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 19:42:17 UTC,0
-impairment-endowment.tun.ply.gg,domain,NjRAT,media,51,75,,ThreatFox,2026-11-17 19:40:36 UTC,0
-tricato.unaux.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:36 UTC,0
-www.aysegozdeonel.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:35 UTC,0
-assurena.fr,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:35 UTC,0
-9amchef.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:35 UTC,0
-shapepsychology.co.uk,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:34 UTC,0
-goldmedical.org,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:34 UTC,0
-nbar.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 19:40:34 UTC,0
-js-static.pro,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 15:27:27 UTC,0
-js-static.site,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 15:27:26 UTC,0
-js-static.online,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 15:27:26 UTC,0
-restapi-web-cf.cfd,domain,Unknown Loader,media,51,75,,ThreatFox,2026-11-17 15:27:26 UTC,0
-data.valley-rhythm.work,domain,RevStealer,media,51,75,,ThreatFox,2026-11-17 13:28:23 UTC,1
-techworldx.xyz,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-17 12:52:34 UTC,1
-keyportwarehousing.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 12:34:16 UTC,1
-milleycapital.co.uk,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 12:34:16 UTC,1
-himbalt.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 12:34:15 UTC,1
-newosler.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-17 12:34:15 UTC,1
-www.ikukuomaproject1.com,domain,Remcos,media,51,75,,ThreatFox,2026-11-17 11:05:18 UTC,1
-www.ikukuomaproject2.com,domain,Remcos,media,51,75,,ThreatFox,2026-11-17 11:05:18 UTC,1
-1x8gmjbdq3tepgr.icu,domain,Unknown Loader,media,50,50,,ThreatFox,2026-11-17 19:40:47 UTC,0
-6xicduvopkxpyev.icu,domain,Coruna,media,49,50,,ThreatFox,2026-11-17 16:52:01 UTC,0
-myfocale.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 09:13:23 UTC,0
-kywipeby.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 07:09:19 UTC,0
-luwunula.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 02:34:56 UTC,0
-vdno3fcw3x.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 00:32:11 UTC,0
-dcj50o5wtx.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-17 20:28:12 UTC,0
-gqulgsc5f87j8l7.icu,domain,Coruna,media,48,50,,ThreatFox,2026-11-17 19:40:48 UTC,0
-hhhgff.top,domain,Coruna,media,48,50,,ThreatFox,2026-11-17 19:40:46 UTC,0
-jyviviba.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-17 18:19:31 UTC,0
-id9cgqfhfefmi9s.icu,domain,Coruna,media,48,50,,ThreatFox,2026-11-17 17:14:23 UTC,0
-jgjol70616.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-17 16:13:07 UTC,0
-gybasyso.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-17 14:07:23 UTC,1
-vekehilu.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-17 12:01:40 UTC,1
+remoto.painelst.com,domain,Unknown RAT,media,60,100,,ThreatFox,2026-11-19 10:45:20 UTC,0
+nota-fical-online.lat,domain,Unknown RAT,media,57,100,,ThreatFox,2026-11-19 10:45:16 UTC,0
+tmf.asdlot.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 10:05:34 UTC,0
+weedstealer.icu,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-19 10:01:32 UTC,0
+weedstealer.pl,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-19 10:01:32 UTC,0
+src.img-codes-cloude.info,domain,IClickFix,media,55,100,,ThreatFox,2026-11-19 09:46:28 UTC,0
+img-codes-cloude.info,domain,IClickFix,media,55,100,,ThreatFox,2026-11-19 09:43:26 UTC,0
+j8.asdlot.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 09:05:34 UTC,0
+asdlot.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 09:05:34 UTC,0
+g.gp108.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 08:05:34 UTC,0
+cf.asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 08:05:34 UTC,0
+www.bytecraftid.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-19 07:42:26 UTC,0
+www.braddugdalejr.com,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-19 07:21:45 UTC,0
+lifeofarebel.com,domain,WARDENStealer,media,55,100,,ThreatFox,2026-11-19 07:08:07 UTC,0
+laperoter.rest,domain,WARDENStealer,media,55,100,,ThreatFox,2026-11-19 07:08:07 UTC,0
+xs.ankasanet4drtp.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 07:05:34 UTC,0
+ef.asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 07:05:34 UTC,0
+croftandruby.com,domain,IClickFix,media,55,100,,ThreatFox,2026-11-19 06:47:13 UTC,0
+emprdr4p7iwlhpky33tswt3k2qdeljyjcdpoysabudmmrz4z32laexad.onion,domain,Unknown malware,media,55,100,,ThreatFox,2026-11-19 06:47:08 UTC,0
+emprdrcfhpvym7uwqvxky6ympquibzxfxuor6qeexk7lz3sxz5t2ubqd.onion,domain,Unknown malware,media,55,100,,ThreatFox,2026-11-19 06:47:08 UTC,0
+c.asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 06:05:34 UTC,0
+agentinternational.org,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-19 05:19:34 UTC,0
+e.gp108.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 05:10:34 UTC,0
+l0.asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 05:05:34 UTC,0
+ti.asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 04:05:34 UTC,0
+asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 03:10:35 UTC,0
+kj.asastogel.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 03:10:34 UTC,0
+ak.ankasanet4drtp.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 03:05:34 UTC,0
+ankasanet4drtp.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 03:05:34 UTC,0
+szyby.oskar-info.pl,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-19 02:34:06 UTC,0
+t.gp108.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 02:05:34 UTC,0
+gp108.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 02:05:34 UTC,0
+n3.asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 02:05:34 UTC,0
+kok.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 01:50:34 UTC,0
+ky.asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 01:10:35 UTC,0
+x8.asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-19 00:05:34 UTC,0
+meadow-facet.com,domain,AMOS,media,55,100,,ThreatFox,2026-11-18 23:27:49 UTC,0
+q.goo55.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 23:10:35 UTC,0
+sk.ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 23:05:34 UTC,0
+eh.asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 23:05:34 UTC,0
+md.asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 22:05:34 UTC,0
+cq.asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 21:10:34 UTC,0
+asas777.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 21:10:34 UTC,0
+v.goo55.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 20:05:34 UTC,0
+c8.asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 20:05:34 UTC,0
+rebound.digasfertilizerth.com,domain,FAKEUPDATES,media,55,100,,ThreatFox,2026-11-18 19:23:56 UTC,0
+cacheapi.cacheapi.icu,domain,IClickFix,media,55,100,,ThreatFox,2026-11-18 19:23:55 UTC,0
+zh.ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 19:05:34 UTC,0
+qwp.asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 19:05:34 UTC,0
+cuminperistyle.net,domain,SmartApeSG,media,55,100,,ThreatFox,2026-11-18 18:16:17 UTC,0
+e3.asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 18:05:34 UTC,0
+l.goo55.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 17:10:34 UTC,0
+ba.asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 17:05:34 UTC,0
+spp.anka69.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 16:40:34 UTC,0
+ho7y2fbj.tpdistanbul.com,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 16:32:09 UTC,0
+af.asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 16:05:34 UTC,0
+mooner.icu,domain,Unknown Stealer,media,55,100,,ThreatFox,2026-11-18 15:42:47 UTC,0
+psychologue-nawel-hannachi.lu,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-18 15:41:16 UTC,0
+w2.ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 15:05:34 UTC,0
+lc.asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 15:05:34 UTC,0
+asah189.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 15:05:34 UTC,0
+flex0.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 14:58:52 UTC,1
+fadr.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 14:39:03 UTC,1
+etuq.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 14:19:06 UTC,1
+p.goo55.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 14:05:34 UTC,1
+e.ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 14:05:34 UTC,1
+daoy.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 13:59:00 UTC,1
+cytek.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 13:39:04 UTC,1
+herbomix.ir,domain,StrelaStealer,media,55,100,,ThreatFox,2026-11-18 13:20:51 UTC,1
+crnu.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 13:18:59 UTC,1
+sl.ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 13:05:34 UTC,1
+corcep.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 12:59:02 UTC,1
+yk7ypehn.taksims.click,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 12:24:44 UTC,1
+8mgpcoe4.adeac.com.mx,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 12:22:28 UTC,1
+cepot.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 12:19:07 UTC,1
+on.ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 12:05:34 UTC,1
+c4base.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 11:59:13 UTC,1
+bxvc.store,domain,ClearFake,media,55,100,,ThreatFox,2026-11-18 11:19:22 UTC,1
+x.goo55.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 11:10:34 UTC,1
+goo55.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 11:10:34 UTC,1
+nx.ankapaito.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 11:05:34 UTC,1
+q65.ary303.org,domain,Vidar,media,55,100,,ThreatFox,2026-11-18 11:05:34 UTC,1
+www.missnikkilane.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 04:10:41 UTC,0
+www.katiadavanzo.it,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 03:55:39 UTC,0
+www.5movierulc.in,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 03:08:33 UTC,0
+www.patrickmduggan.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 03:08:02 UTC,0
+www.peekabooslots.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 03:07:22 UTC,0
+dolcevitaadvisors.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 01:12:09 UTC,0
+creatum.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-19 00:17:01 UTC,0
+voltolse.com,domain,Remus,media,54,90,,ThreatFox,2026-11-18 19:23:55 UTC,0
+www.nauticaloscoglio.it,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 19:01:09 UTC,0
+unitedliquidationcanada.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 15:08:41 UTC,0
+pzlwarszawa.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 15:08:41 UTC,0
+acrrst.com,domain,ClearFake,media,54,90,,ThreatFox,2026-11-18 14:08:36 UTC,1
+a.async.6g.in,domain,Cobalt Strike,media,52,75,,ThreatFox,2026-11-18 19:45:33 UTC,0
+termos24.pl,domain,IClickFix,media,52,75,,ThreatFox,2026-11-18 19:23:54 UTC,0
+aroveafpl.com,domain,IClickFix,media,52,75,,ThreatFox,2026-11-18 19:23:53 UTC,0
+609315-shopneutroclimatcom-7005.site.tb-hosting.com,domain,IClickFix,media,52,75,,ThreatFox,2026-11-18 19:23:52 UTC,0
+aaswjobstaging.wpenginepowered.com,domain,IClickFix,media,52,75,,ThreatFox,2026-11-18 19:23:51 UTC,0
+projecthomelessconnect.org,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 10:45:20 UTC,0
+taguje.com.br,domain,Unknown RAT,media,51,75,,ThreatFox,2026-11-19 10:45:16 UTC,0
+solareeducahub.com.br,domain,IClickFix,media,51,75,,ThreatFox,2026-11-19 06:47:08 UTC,0
+lavlavlavlavlavlav.duckdns.org,domain,MopsStealer,media,51,75,,ThreatFox,2026-11-19 06:47:06 UTC,0
+every.trade4rex.com,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 06:47:04 UTC,0
+relay.papuzziskreen.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 06:47:03 UTC,0
+cm88.wales,domain,3CX Backdoor,media,51,75,,ThreatFox,2026-11-19 06:46:58 UTC,0
+www.tangentemotors.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-19 06:46:57 UTC,0
+rainiercompanies.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-19 06:46:56 UTC,0
+bot-vinted.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-19 06:46:56 UTC,0
+zevio.cc,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:37:05 UTC,0
+tuntian.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:37:03 UTC,0
+toysg.eu.cc,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:37:01 UTC,0
+tosall.us.cc,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:59 UTC,0
+suibian777.cc,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:57 UTC,0
+sdklxc.sbs,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:54 UTC,0
+qwfsaa.xyz,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:52 UTC,0
+pusbhyu.com,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:48 UTC,0
+pphdj.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:44 UTC,0
+panguanhaiwai168.com,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:41 UTC,0
+njlsd.us.cc,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:39 UTC,0
+mk999.icu,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:35 UTC,0
+kkridjbd38263djbd.com,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:32 UTC,0
+kkjituanhaiwai888.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:30 UTC,0
+kevin888.co,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:27 UTC,0
+hhlld.asia,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:25 UTC,0
+gigv.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:21 UTC,0
+ditkpmux.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:18 UTC,0
+dfjt6688.com,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:16 UTC,0
+devnodes.cc,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:12 UTC,0
+dapi323.lol,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:10 UTC,0
+cvc9918m.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:08 UTC,0
+cq788.me,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:05 UTC,0
+cmhe55.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:03 UTC,0
+bodak.fun,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:36:00 UTC,0
+acnub.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:35:57 UTC,0
+48gft6o2uwtpfoi.icu,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:35:51 UTC,0
+36996.xyz,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-19 05:35:44 UTC,0
+m.betlike374.com,domain,Quasar RAT,media,51,75,,ThreatFox,2026-11-19 01:40:14 UTC,0
+donniechu.cc,domain,AsyncRAT,media,51,75,,ThreatFox,2026-11-19 01:35:15 UTC,0
+cdn.livetv224.me,domain,AsyncRAT,media,51,75,,ThreatFox,2026-11-19 01:10:16 UTC,0
+jvkq.hmtvksxopr.xyz,domain,RevStealer,media,51,75,,ThreatFox,2026-11-19 01:00:54 UTC,0
+rosierclub.online,domain,Unknown Stealer,media,51,75,,ThreatFox,2026-11-18 19:23:58 UTC,0
+www.thenekocafe.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 19:23:54 UTC,0
+www.cbdpurereview.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 19:23:52 UTC,0
+eyeconsultants.ae,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 19:23:51 UTC,0
+klearly.eu,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 19:23:50 UTC,0
+eliteaviationacademy.com.au,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+essentialhealthplansnow.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+fullkitchen.cn,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+gpsprecisions.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+greenbeauty-shop.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+handhportland.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+hangchaxenang.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+haojindrc.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+hotelcostamar.net,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+hypevision.online,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+internationalformationrp.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+ironaddictlabs.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+jackrubinsons.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+lafx.asia,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+leadsstaffing.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+lilla-salongen.se,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+lonny.me,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+mathsciencedears.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+nutritionalmuscletesting.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+ocarina.co.uk,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+precisiontanksystems.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+reneesolomon.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+saastra.online,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+seeua-vip.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+smpublicschoolparanda.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+theblueprintofhow.org,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+thedraftman.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+tuigamer.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+velocity2media.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+visionhill.org,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:14 UTC,0
+19digital.co.za,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+ajoobanews.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+ario-tech.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+baliventur.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+basourcinghub.org,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+bc-aba.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+brainandbelief.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+btservicesprosllc.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+crewstore.uy,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+crocq.com.au,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+darefatwa.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+directenglish.com.sa,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+double-fix.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+dreamhouse.bd,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 18:03:13 UTC,0
+sindimotos-ce.org.br,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-18 13:22:49 UTC,1
+iconitinc.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 13:22:49 UTC,1
+app.siam88x.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 13:22:48 UTC,1
+trhal.co,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 13:22:40 UTC,1
+jimbaumerexperience.com,domain,IClickFix,media,51,75,,ThreatFox,2026-11-18 13:22:40 UTC,1
+pounddose.top,domain,Unknown malware,media,51,75,,ThreatFox,2026-11-18 13:10:35 UTC,1
+88ltmwh6m8.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-19 10:06:22 UTC,0
+gujyqylo.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-19 07:56:48 UTC,0
+5vi1zqn9.free.tryportwarp.cc,domain,XWorm,media,48,50,,ThreatFox,2026-11-19 07:01:36 UTC,0
+ftp.foodchopson.com,domain,Agent Tesla,media,48,50,,ThreatFox,2026-11-19 06:52:53 UTC,0
+ftp.verisimilitude.cam,domain,Agent Tesla,media,48,50,,ThreatFox,2026-11-19 06:52:53 UTC,0
+thetemplateslibrary.com,domain,Unknown malware,media,48,50,,ThreatFox,2026-11-19 06:47:01 UTC,0
+fhikk03209.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-19 03:47:50 UTC,0
+meroryfe.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-19 01:43:03 UTC,0
+cyanjustina.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 23:41:19 UTC,0
+ynkrjgbl1l.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 21:40:49 UTC,0
+95ux6wlidu.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 19:36:10 UTC,0
+wicefiru.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 17:29:57 UTC,0
+uyuef43236.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 15:22:35 UTC,0
+rorejije.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 13:17:25 UTC,1
+fetch-01.bot.pactmesh.net,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 12:18:37 UTC,1
+bajuqafy.workers.dev,domain,php.shin_webshell,media,48,50,,ThreatFox,2026-11-18 11:16:21 UTC,1

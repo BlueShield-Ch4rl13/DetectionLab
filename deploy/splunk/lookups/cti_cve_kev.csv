@@ -1,4 +1,8 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2024-10441,Synology,DiskStation Manager (DSM),Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability,2026-11-18,Unknown
+CVE-2026-40217,BerriAI,LiteLLM,BerriAI LiteLLM Unprotected Alternate Channel Vulnerability,2026-11-18,Unknown
+CVE-2026-90817,Vanderbilt University,Research Electronic Data Capture (REDCap),Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability,2026-11-18,Unknown
+CVE-2026-90436,Apache,Axis,Apache Axis Unsafe Reflection Vulnerability,2026-11-18,Unknown
 CVE-2026-115731,Perforce,Puppet Enterprise,Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability,2026-11-17,Unknown
 CVE-2026-114713,UnrealIRCd,UnrealIRCd,UnrealIRCd Improper Neutralization of Delimiters Vulnerability,2026-11-13,Unknown
 CVE-2026-123039,Check Point,Multiple Products,Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability,2026-11-13,Unknown
@@ -13,4 +17,3 @@ CVE-2026-123158,OpenBSD,OpenSSH,OpenBSD OpenSSH Unexpected Status Code or Return
 CVE-2026-116779,SignalWire,FreeSwitch,SignalWire FreeSwitch Code Injection Vulnerability,2026-11-09,Unknown
 CVE-2026-123218,IBM,Aspera Faspex,IBM Aspera Faspex Incorrect Authorization Vulnerability,2026-11-09,Unknown
 CVE-2026-19868,SonicWall,SonicOS SSLVPN,SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability,2026-11-06,Unknown
-CVE-2024-27834,Apple,Multiple Products,Apple Multiple Products Improper Authentication Vulnerability,2026-11-04,Unknown

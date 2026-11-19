@@ -1,3 +1,7 @@
+CVE-2024-10441:Synology DiskStation Manager (DSM)
+CVE-2026-40217:BerriAI LiteLLM
+CVE-2026-90817:Vanderbilt University Research Electronic Data Capture (REDCap)
+CVE-2026-90436:Apache Axis
 CVE-2026-115731:Perforce Puppet Enterprise
 CVE-2026-114713:UnrealIRCd UnrealIRCd
 CVE-2026-123039:Check Point Multiple Products
@@ -12,4 +16,3 @@ CVE-2026-123158:OpenBSD OpenSSH
 CVE-2026-116779:SignalWire FreeSwitch
 CVE-2026-123218:IBM Aspera Faspex
 CVE-2026-19868:SonicWall SonicOS SSLVPN
-CVE-2024-27834:Apple Multiple Products
