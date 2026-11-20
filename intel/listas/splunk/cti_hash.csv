@@ -1,534 +1,478 @@
 valor,tipo,amenaza,nivel,score,confianza,pais,fuente,visto,edad_dias
-7040370d8d09dc735d3ae9a77fe4b4c8e3f97c64efb60d4a962337fd6b16b114,filehash-sha256,Unknown RAT,alta,72,100,,ThreatFox,2026-11-19 10:45:14 UTC,0
-6a9ded132c050747ae5f233a91fc84c6bbee4e91950636f5fe077bf48acdca30,filehash-sha256,Unknown RAT,alta,72,100,,ThreatFox,2026-11-19 10:45:12 UTC,0
-dc60f22fc59a7c3cb51b97661ad69f42d3028538c0044b248fc9681487c0b433,filehash-sha256,Unknown RAT,media,67,100,,ThreatFox,2026-11-19 10:45:14 UTC,0
-d88135613cd2cd09dbb6646d9e4a18b968cfb39a3ac5769dca751af7687bff41,filehash-sha256,Unknown RAT,media,66,75,,ThreatFox,2026-11-19 10:45:10 UTC,0
-51db4b7057e827ddca21adb383a5d5b5634c9d3e0778a8e8975f52683692c6d7,filehash-sha256,Mirai,media,65,90,,ThreatFox,2026-11-19 01:59:47 UTC,0
-37c644eb5e36a0f16571cd934af0d1012bd7d0814c8dcd68282395a2bd6328d6,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 02:00:08 UTC,0
-790c05beee710ce0c1bf0b7a5724d2aa9afef5f16be46b1d7ba842f3194af671,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 02:00:06 UTC,0
-616f42a7af727d50d8a72da54f7eb73276892180f9917332e482fa4270ba4d12,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 02:00:04 UTC,0
-7f84f590870f377485f85a599bbce952cef222b19e340abc7d2838e49183786b,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 02:00:02 UTC,0
-855fec7dd63702f6e5d088d8ba3a5b122d9d9753f7043512c0a6385242c3c8b6,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 02:00:01 UTC,0
-31fc9e380085d91ca75db1f9a9999e75a76420a9ecd064c9061d2a6e801956ca,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:57 UTC,0
-87b5419807e9c617bc0093699486bf835b423ede88fb0935a35d53c3055e8996,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:55 UTC,0
-8fdf318044555f55664d85a3ec42876be0fcff11e5fcfacb76e876de8d313803,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:54 UTC,0
-c818699c7201e2e1136673cc840d2bbf43e101694dc6dbe181959c4a2b6b893f,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:53 UTC,0
-92b29be84aa99b28395b1439612260a8e92751b250e0c3f471aceb95efab0da8,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:52 UTC,0
-7b236efb8eea8165d507bce2600b6bdc9cb4c7903a56861e5344a6c8624b8a96,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:50 UTC,0
-bea5ff386c880daa140c54df8f5d279329ea7c1caeda155c97e7817a2fbc30c5,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:49 UTC,0
-9b0fe8dd4b64036f7ed87dca2feabd761747bf2fc1e6c2cfc9c15ef4c8150090,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:48 UTC,0
-4df9ff2e2b9b74e11a91b2dc077ec42ba48dd717939ca96a33f0beec04e4f5f1,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:45 UTC,0
-5338b050436b3b4ed144aa3f054a95256ff0c65da288788f6646a6454fd65ecf,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:44 UTC,0
-9e22e27de495125f6beb27c7c74f853d95deaf2c99ba20128b089561a56df359,filehash-sha256,Mirai,media,64,90,,ThreatFox,2026-11-19 01:59:43 UTC,0
-01af2f7049e1562023835ddcbffea76e265ed2906e140ba8a200eb41d37ebf8d,filehash-sha256,Unknown RAT,media,63,100,,ThreatFox,2026-11-19 10:45:12 UTC,0
-6745ca3a32d2f000110eea9d8957c9c19dc6d1fab9c4cf6ab322cfd0d9994a7f,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 02:00:15 UTC,0
-caa62387e85ebd80660df2993eaf962b35246e1968e4e157be89653a1a3558c6,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 02:00:14 UTC,0
-009ac5e41da0d664867e23a8877180a6c068a15291d63d4449c2dc4cd0b1a5db,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 02:00:11 UTC,0
-077ca38119c9d6a8a19eba9bef387af12156666b87c2bbdf6074be5c9d65d766,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 02:00:10 UTC,0
-f089f4bcc4215efcd07b3ad27d2ce0bf9e085708269cc28bc95cdd1f360a80a6,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 02:00:00 UTC,0
-fed6058adb93ff8a544ace0459bc40aa4a5ef87d3510639afd82462db71f58ff,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 01:59:59 UTC,0
-ac8e3850015c2482250908e056dc8bed060b8070b8d71716d68ebed8c0a66524,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 01:59:58 UTC,0
-932eab169a81de3c5657a832c31c1d60f3ebb1f476ec2a5ddc63cc363526955e,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 01:59:56 UTC,0
-62efadbebbdc8e44e847084223170975dd3950f4222d154a52f5e92cf6011a83,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 01:59:51 UTC,0
-a747db3869d3a7a361f04180b2356a4200da76f032f65b9c92fc72fd3d6c594f,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 01:59:46 UTC,0
-079ee2adc6d1623f7f442415c9766f627644d2690847bdbbaeb95310d45af2c3,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-19 01:59:42 UTC,0
-d78419bd5d050f60b1bfe7d55b2fe4599533cae462a2ca10dfa2c48aba74b92c,filehash-sha256,SNOWLIGHT,media,63,95,,ThreatFox,2026-11-19 01:59:36 UTC,0
-0483096fdaf43af168b243448dbb8cddfbea4529c3cd43e284d576b718311ef9,filehash-sha256,SNOWLIGHT,media,63,95,,ThreatFox,2026-11-19 01:59:35 UTC,0
-c424a715e3861bc18e0c8223f3dfd909dc4a77a82b9c5a5a135b8d49bac7e8c6,filehash-sha256,Unknown RAT,media,62,100,,ThreatFox,2026-11-19 10:45:11 UTC,0
-6e6d4084c6c2f3035c2fbda4daf4b705a06938d73bf91f402552b6d4ab522d9b,filehash-sha256,Unknown RAT,media,62,75,,ThreatFox,2026-11-19 10:45:10 UTC,0
-fbd1bff13dd19b16e3f89560476221827c8e7cecb2b98a1892190934bbd5ef88,filehash-sha256,Mirai,media,62,90,,ThreatFox,2026-11-19 02:00:13 UTC,0
-23f3382feb65ad4fed0516255e5b483e8f393d1765de1923407a0ce378d37edf,filehash-sha256,WARDENStealer,media,62,95,,ThreatFox,2026-11-19 01:59:40 UTC,0
-d0cba2efbac1a3202ddc473cf121553b96b6650d88339acb022d5671ef8251be,filehash-sha256,SNOWLIGHT,media,62,95,,ThreatFox,2026-11-19 01:59:39 UTC,0
-7f98ca8a126e12e1e8e49d7510dbc12da5c022aa3a5c6790fcbde054e75c56a9,filehash-sha256,SNOWLIGHT,media,62,95,,ThreatFox,2026-11-19 01:59:38 UTC,0
-e595d623a74c3b1bce8970481fd4785d68c3bf15424f853d8beaafab3b9c08f3,filehash-sha256,SNOWLIGHT,media,62,95,,ThreatFox,2026-11-19 01:59:37 UTC,0
-94545a95ed50d0630bef67d619375c344000ff793683403d12e886da55c7c0c1,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-19 02:00:09 UTC,0
-fd7cdd39be318780aff80621bc7588264f2da03552e4c08c4e1b18489df1d91a,filehash-sha256,SNOWLIGHT,media,61,95,,ThreatFox,2026-11-19 01:59:41 UTC,0
-8120a657cea224f41acef282b807713a09a7d02b3949f55d135236e19f8421bb,filehash-sha256,Mispadu,media,60,75,,ThreatFox,2026-11-19 10:44:57 UTC,0
-ad056314350dbee79296536aed7b4a222f0ba20da3497a81f20d57c0bc972637,filehash-sha256,Mispadu,media,56,75,,ThreatFox,2026-11-19 10:45:00 UTC,0
-2c48a9d4cc8738e62d5f8ddc03fdde7a9f52795bfe41b5edd0eb3f929e89c3c8,filehash-sha256,Mispadu,media,56,75,,ThreatFox,2026-11-19 10:44:59 UTC,0
-4ec6233282a649da27f383b738f45bb060f70385afbfb83495855ff390afb4b4,filehash-sha256,Mispadu,media,56,75,,ThreatFox,2026-11-19 10:44:57 UTC,0
-265d59ccdf251f33fc8e9da4fe7ebd9ddacdb7db5c453b66a179bda3350f0a6a,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 10:36:20 UTC,0
-28d9b034598bd901143a852a4ebb264a30a2aab3913a917c71a2c47c499262c8,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 10:36:19 UTC,0
-9846ecc91617da486d66ee7f0ccc81710f394f024666d80f742d21bda6db128e,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 10:36:19 UTC,0
-b5675e052fc269b8cb9b115dead48a7406e864286a609996cd41fd3f74f898f4,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 10:36:19 UTC,0
-47f34cad2033ddd1031602720745618c330554af9ca80eb99b1f5aa8023b7f81,filehash-sha256,Mirai,media,55,100,,ThreatFox,2026-11-19 02:59:30 UTC,0
-1ba5b25dff3606a16533cc98375a34e020372e2df0a6a06461076e621066d90a,filehash-sha256,Mirai,media,55,100,,ThreatFox,2026-11-19 00:59:35 UTC,0
-d955f934ead59181274b378c66b059ffa515feb885663e40ada693aae0f66a44,filehash-sha256,AMOS,media,55,100,,ThreatFox,2026-11-18 23:27:48 UTC,0
-c507fc24c8bad38e14184c486cfb3c4ace00778e74974158ed402323cf2d3289,filehash-sha256,AMOS,media,55,100,,ThreatFox,2026-11-18 23:27:48 UTC,0
-d01948e930848dd139915f646760e6dba61caf3eec222d5479518c19b5076ad2,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:25 UTC,0
-48df6ff05731bf735cb1914905191d01fcab59ffec5b002f73e235b2c021a267,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:24 UTC,0
-484e92ae0ceaa888459d2ad5260274923c58d8e8db5a5ff244cf7f9f90f3a1da,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:24 UTC,0
-84f161021452e58ce65dec9fee14dd77f4968fe54d284c4059c373388a31f594,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:23 UTC,0
-7befbc027e31c32437d82f70096cd9edd96ec98e88c6b3139e7fe640d02fec41,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:23 UTC,0
-4712fe539da6b81329dfe25d1b0e38a04539a68fac58bd8f6a537807b3f15cf5,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:22 UTC,0
-452776d0507e33e71982b0f2d7f928b1f2d60f852195b1d9aac6a5d71c019060,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:22 UTC,0
-c66a3a56f75ef8d9ce79c3cf012ad77c166be10e4d0264a56ed96e67e15b27c1,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:21 UTC,0
-c56e18a28fd7a3bf59891df955f6f03b009b85ed00c5ff8539b545250c004924,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:20 UTC,0
-d8d17dcc97bbcb9c40219fa157a77c50be1d4c0c80cbd57a8b3eda0fcc42d9a1,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:20 UTC,0
-d2a6102d7f94a44e9aa517e3b9c3656d790b31b74c399c78cd3a0305f987f968,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:19 UTC,0
-88b5ed6aa763acf5d11119d4cb53d9601533ab35371a4f5cb932991b19bfdef0,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:19 UTC,0
-b889846842a168773a5b6382143792acd3a2310f5802d61f48805e1d38e6575b,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-18 15:37:18 UTC,0
-229e1ac1790cfc795430640985d9c429aca3a5fb11061c2f53f04c05163dcbca,filehash-sha256,WARDENStealer,media,54,90,,ThreatFox,2026-11-19 09:59:34 UTC,0
-c2dfe3fcbaa936b49a91fa830f187e64c1a8179f7f152afd307e061954d53716,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 08:59:32 UTC,0
-7cf99107e71b500bf13f6795f0188af9e74aa8ac1a49de30ea4324c09db7ec25,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 07:59:33 UTC,0
-2b9ff957accb416c7e02242beec810c49e0374c665e8ff313d220551ca49803b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 07:59:32 UTC,0
-cae07077d58b6f810b5e4e711081b38dde12aa1438b4d4e26db975e96f100f29,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:41 UTC,0
-ed1647c515ff06dfb8fd08a292794cd327930a6d040c38e5d270240390e2dfc7,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:40 UTC,0
-ba7e96e1b87b45681a1967db43ec70db0debb24830fa8c60d115ef3ab3e483bb,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:39 UTC,0
-d35773c74a532d2d36a746eff6ac69cd69b69c4cd80829322bb12529b6fdf169,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:38 UTC,0
-a7b523609fe8cc5cecb3ccfeed3864d6865884c2407eff3e4c6ab39b52292b76,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:37 UTC,0
-fdd78118194450b9080a12d5def51f3e83e89fd40514e1d2a720764566d801e4,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:36 UTC,0
-ef8aef100bc59ae54ad24034132851fb6e0ba3e176156836b3378e0bad609e14,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:35 UTC,0
-c1ea954eb146a3647c8146da35ea0d5e0eb6725f23c25d1455365b17e635e1b4,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:34 UTC,0
-c22fbb6b05ee296a7546bfe5f1fcc682e54036dc1e2dc2d4905ab4dd58c4e922,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 06:59:33 UTC,0
-1d4e0de3eb18224d554409fc178ef68eabbbd0c6dbe31ab03b618be09952c574,filehash-sha256,Lumma Stealer,media,54,95,,ThreatFox,2026-11-19 06:59:32 UTC,0
-8de87f86e65ab5cd4e37d3db22f8a54c3706b68debaa5d1866acfc8dbefc7111,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 05:59:31 UTC,0
-7db98b3c2a74f72e1ac4366d786d6dec5b0651bed431639ec267357ea9fe80d4,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 03:59:32 UTC,0
-4405b90997e3425dac5d8b3acb6ed678105f478ccd6967b995ec9e2b723eee59,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 03:00:02 UTC,0
-0d6cbcf0173626d170c6b92f26d05489a5a76aa387c7cc03edd525e9d65cec8b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 03:00:00 UTC,0
-f516ef19bb58e3e5c7fb5c9216c5b40dfba0cb5da8a8af3521f3d1a790f9d666,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:59 UTC,0
-125380592cd37699dd638f147edba000aa99984a6644c8887b1d0e3845c31774,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:58 UTC,0
-e885ae4245ed2f5d63b3282d862edc7ec674340895e5513ca914f7ab4dfa02a0,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:57 UTC,0
-935aae3f6fdc62f48fbdcb8fa373b78482159730a2c4fe0dee0159a6e8f87036,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:56 UTC,0
-aede6493434a50e930fa641aaa87808dc9152824a2cf7b032c0aca712ba0b69a,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:55 UTC,0
-e4658bdc7a062872584de1226ef9770f17dcfe266cc51ad819cbe7d33242fbe6,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:54 UTC,0
-3275cf41298ec8b975784cc72c2c6d52921d5014ec1f1918e9ed6330c25cb7e0,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:53 UTC,0
-915eb45264ad1336387086c1f48ca21a4b9d96a829bd957d59f424ab00ae1489,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:52 UTC,0
-204f4ae15e9dfc01601fa6572aa5ef341f80a00ae98aa9d929525a0309f1435b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:51 UTC,0
-465e8c6db2c2706ececf79ce8e41f6566794195e2fbf2a4cffc6e1f0aab625c2,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:50 UTC,0
-ae58413b03855dc476b3ec61c9b1f27651ca25572bf1538919a15d18f0ec90ff,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:49 UTC,0
-2017577525fd7e373611c8e564105f7cbea69971f6238e7a883a5af21a466ea7,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:48 UTC,0
-746043d661540f6cf645acf7da0e49414a1e55ad2022a3931e153053c11c9b44,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:47 UTC,0
-a3b50e33db9284c5befd25994e1a025eb37175b2ef7cd7828b6946f0c6d6967f,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:46 UTC,0
-f72b0cc81e68a2a60f76aa841ec442d3df6ecbdb5e83d9711b23e777d0f7fbc2,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:45 UTC,0
-393f73cd6088f54f1d3f5826ba2a8f86431e61d841aa35b6a376810a8d2ad483,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:44 UTC,0
-ad89371c2c9f159d83120ae8d5e1e74cd63dbc3de62c4b58d30b5620e16f3b17,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:43 UTC,0
-b21e3517eab107a6c2d3ddf94d78df9727584dcd1f4aea66f551046d7268de84,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:42 UTC,0
-83eeeed79b74f7631a8ec4ae9b0341e89d9dabc92469b5dc142de1280198c242,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:40 UTC,0
-1cbebeaed8fe5bcb12e10349ea24de301c340d82e9c72925eb3ef8f769d96925,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:39 UTC,0
-1958d3d137b75e1d78f961828c22e41d2e9dd84b1cb5d5117d7b48e2c1b93eda,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:38 UTC,0
-a74c65db8b1cb5f2eed249a05daba751858aa0cfbe78a8a174a2c71608d77997,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:37 UTC,0
-918af49eb606dc4f483f7d031109d354c824a15e13e524385e33092d11885977,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:36 UTC,0
-33070ee3016eaba45e510102e9be7f0211ee97d6380708a342bc4dbab1b6ba69,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:35 UTC,0
-26cf3b60a8595aec5692ceb5ed914886f29d18ce6312a4cc29f4bca5363a63a8,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:34 UTC,0
-347c1c4acc16c6112c088845710bd9f92b2c77fb3e96da63b7e99f3192f024a9,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:33 UTC,0
-090d89cc2d32a51ebcbebe15233478e5a603927838bdf2069257385f5156a27e,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:32 UTC,0
-2e8c3a573ebfc25a09afadcccda48058cefa7df3b722870b3256e31cf1d0b597,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 02:59:31 UTC,0
-8fde2dcf1e2758bbea8a42b604aefb6e6de8245972084ad9ae7fd94e2071a965,filehash-sha256,SNOWLIGHT,media,54,95,,ThreatFox,2026-11-19 01:59:34 UTC,0
-037b1b5b7fb6a3ccc76f0dc6c23c0bbfd93edd03c3237922a6532e2f17f873bf,filehash-sha256,SNOWLIGHT,media,54,95,,ThreatFox,2026-11-19 01:59:33 UTC,0
-1504be43c17da2682cd43e9a201b149a8f6862037739ac5e34df4b3acb33306a,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-19 01:59:32 UTC,0
-817cccc82f116d1050197c8c89e208badeb26fae112e96894061f3b7b6017524,filehash-sha256,AsyncRAT,media,54,95,,ThreatFox,2026-11-19 01:59:31 UTC,0
-572db981cf481bb08238911632bd1c570bb8195ac73b30e7771821802ace8e7e,filehash-sha256,Quasar RAT,media,54,95,,ThreatFox,2026-11-19 01:59:30 UTC,0
-203221627be1f69acf325fdc1b266f582a23470ca1d32317c9c627d44144573b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:14 UTC,0
-817f571ea7a8ea13ffed47e4870bf6de02c2c818844dce4bd8d570d23cff0575,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:13 UTC,0
-0eb01c39fc777e58a5522d35a5b4c8f1eb1a0108b21d94abea1dc68839ee885b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:12 UTC,0
-2a637eb5495e69e99859f86d61b88be33b8b41628a229eb9620c0358b98365e9,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:11 UTC,0
-33cfc4c5dcb8af0959805c5949906a94c4d14d49d9366e005542d084f0c63e8b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:09 UTC,0
-9f13d74954c2a56eaa2dfad124d65a685d2dbe91521b7c3e784af747bea56a5b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:08 UTC,0
-2709b9b191f05207bec59e1df965a7d8b5b8fff0b7745ea929937d8e21c334a7,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:07 UTC,0
-c084eb19a83b543f5dd401e6d3c5d88d2d4240ffaf10b56052f664cd4ca4f674,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:06 UTC,0
-210b9fe5afcd3a73eb5c24c4f829b5ea4ad7b09e1c13212f18c3e6200dffdaa7,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:05 UTC,0
-fdd2188151f09afed7842026b15c2494709333eca5f2412fe3dd9c2f0899b1d7,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:03 UTC,0
-97fa57b27fc8ca54776475c407ecd1e16854a77f277a6e3aa03917a42163b24e,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:01 UTC,0
-b1f02ffaf06417ce8af76ea12212ab2c13af1c186cef8459b5c09069bce6cab8,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 01:00:00 UTC,0
-827f3fe726420e0db86e08e10385de0d2a0bd0062db6eb404507f0053e8cbcfc,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:59 UTC,0
-5eaf148f325d8b8c5c43090a53175bf2841ea84dd455525fcbb0a77ebbe26648,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:58 UTC,0
-d9b7505ddd8b7da2186be3b56fe6f5e52578f526fb7f702d29b58ac90f6bc276,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:57 UTC,0
-eb184aa663bce7b35e6a1019d9776708f2699e191f36ca46490e3caba28cad64,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:56 UTC,0
-a6c4e70c05e20cce6d15b9e07eb4608ae35333d67044a5acdb75f8a9b5f58555,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:55 UTC,0
-0759fc57eaf25a6a6b16f615cd5e9cd3d0ad1170e3a77e57b7a62af9058f0530,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:54 UTC,0
-5b448565d2239ae5294b02aff48061f8e4a18efc1d26a25e3aa34bc793d835a4,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:53 UTC,0
-7289c58345c392ddf54a52f0d70779dc1e241429e4364ca2017c0407355a0674,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:52 UTC,0
-186d8eb7705c4f0f91ce7380ae3ca9b4ce4081361d1c7d2f6a3279fb124b0779,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:50 UTC,0
-70772288a52719c1a4fc36f7deccc23bc9227f893190c9c2b59feeab0e195302,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:49 UTC,0
-9787a580f42a821191beb505c56bd6b2640c90272b7cafa4b045045896c991e0,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:48 UTC,0
-57e0ed53fbd721d8f80292dbd71bfdc1febf785065e5f373f6a9c371b379130e,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:47 UTC,0
-af3526d517aa1d10772b253da5587aecd71117e306ab0712d0d375a538efef5c,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:47 UTC,0
-1640e8d194138849ee1601709f9d11632e5a6abc9521f510c89de5ec464c10a9,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:46 UTC,0
-f66dc97a8538931cb65413488ef083e26ebdce259434ef681eade228a36b99a3,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:45 UTC,0
-3dca37f7b7aba023fa7878207325308f4771b634737f1c5eb7f207d1ea56459e,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:44 UTC,0
-c38499c8b0d4992940d1537633eb87322ca5414ff44ece0d78ada1b12b8256a8,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:43 UTC,0
-1894c1ab746574fca915fcf018fcd5e4e9f1ea752836a82a48c5bd0e1a468962,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:42 UTC,0
-48359b1a28853f2ab4f8f3a3ee48fa9c57cf01b417333816c2390aef6da6a95d,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:41 UTC,0
-5902ca20bfe9f584f1f564d4a4cd8002efe7bb07a802b3430e4e882e174b33d1,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:40 UTC,0
-9600c5b91841358478b81142645b9029263284d6eea4d3e0501242b887b7a882,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 00:59:39 UTC,0
-d4a998ff0fb220503354e1ac3ec213e6b5bb48316c9c0e4b7700d6c62af55e8f,filehash-sha256,WARDENStealer,media,54,95,,ThreatFox,2026-11-19 00:59:38 UTC,0
-91c3549675ff353d538113da95d0e7e4cc1c4b1dee4797155763bbe412c29479,filehash-sha256,WARDENStealer,media,54,95,,ThreatFox,2026-11-19 00:59:37 UTC,0
-a7423d9142f16ed96c8ade201a9c27d7bba198ac1d508df45268adb16993188e,filehash-sha256,WARDENStealer,media,54,95,,ThreatFox,2026-11-19 00:59:34 UTC,0
-2eef9e7d2a11d917c2d96600fcaa08533c8af152441b72baa1fe3db24fa80e6d,filehash-sha256,WARDENStealer,media,54,95,,ThreatFox,2026-11-19 00:59:33 UTC,0
-07dcb690a7273f008af73044ed8dc45a2aabf412500d4742877c88cc7e8f6711,filehash-sha256,SNOWLIGHT,media,54,95,,ThreatFox,2026-11-19 00:59:32 UTC,0
-3f625aef4bb4602b15e5674266184c6775ec593e522f14bb59b58c20e5772b71,filehash-sha256,WARDENStealer,media,54,95,,ThreatFox,2026-11-19 00:59:31 UTC,0
-92c6da6f9bb94790d24ef471baec6f050fb0304a741f94ef297306eaa3e850a8,filehash-sha256,Remcos,media,54,95,,ThreatFox,2026-11-19 00:59:30 UTC,0
-6ca8cb4d1c3b7c61178577e3176ee8b29c108fcf791449fd8eeaa53558c33795,filehash-sha256,AsyncRAT,media,54,95,,ThreatFox,2026-11-19 00:59:29 UTC,0
-2a756042ccd0d0b582edd6defa0091eae3c7df3db685eb635b97c390f2bd6a50,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 23:59:29 UTC,0
-9c883ac7e0bfa1c10480f8da05c6ec5760dc1ab16c806bd673857d1b9bd67690,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 20:59:28 UTC,0
-08f89526ec8c544440711218429db9a1734bfd38167b6e4f8aeb9221effa055b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 18:59:27 UTC,0
-298f151b3ec98f8e55154b4d51c5c4ab8150a00582fe7a484a9c3630d2da0a08,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 17:59:27 UTC,0
-54e83b62acba5dc73beb55160f4c7f4388bc8f01d03588e76c7a3b5e783e7c04,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 16:59:26 UTC,0
-478397a59db3b36385a34008f1ce6f7129f5acea129b6e7997665351fed97010,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 14:59:26 UTC,0
-d0e0afa502fea2beea301ab04bd7d78c,filehash-md5,DeerStealer,media,54,95,,ThreatFox,2026-11-18 14:34:04 UTC,1
-94010c0baec6e35adee86deac2f32b67,filehash-md5,PixStealer,media,54,95,,ThreatFox,2026-11-18 14:34:03 UTC,1
-a023f69f7522d547c6b1430fb79595f1b9cf0b9c7de8a54623b02f0ec0f4217e,filehash-sha256,DeerStealer,media,54,95,,ThreatFox,2026-11-18 14:34:03 UTC,1
-a06d9df103098d088c25d86138e26b71799adb3c,filehash-sha1,DeerStealer,media,54,95,,ThreatFox,2026-11-18 14:34:03 UTC,1
-c67549032816047444f5b1e5f2289ac711f893b3,filehash-sha1,Venus Stealer,media,54,95,,ThreatFox,2026-11-18 14:34:02 UTC,1
-dcfdf12055cc2094ac13da4b2e64b6dc,filehash-md5,Venus Stealer,media,54,95,,ThreatFox,2026-11-18 14:34:02 UTC,1
-a68a5c4d67f10df578c5609d50b1d819f2e75434d7f46a1f83e07a169b0da253,filehash-sha256,PixStealer,media,54,95,,ThreatFox,2026-11-18 14:34:02 UTC,1
-6239630402cc52689a494b9d735f236df75a088c,filehash-sha1,PixStealer,media,54,95,,ThreatFox,2026-11-18 14:34:02 UTC,1
-50d1194b89e035649976ef40d48e480daff1d186,filehash-sha1,OrcaRAT,media,54,95,,ThreatFox,2026-11-18 14:34:01 UTC,1
-01a0817b561a580d310cf4c5a37de1a3,filehash-md5,OrcaRAT,media,54,95,,ThreatFox,2026-11-18 14:34:01 UTC,1
-0c889d7901334c32a370057b97d9153752fb374f9d896d66c20ab6d711f47782,filehash-sha256,Venus Stealer,media,54,95,,ThreatFox,2026-11-18 14:34:01 UTC,1
-065e6b817f0bfa2a25d9e7c64a5ffb4adb64e774,filehash-sha1,HilalRAT,media,54,95,,ThreatFox,2026-11-18 14:34:00 UTC,1
-05b8df852766fb536e3aea673d071a8f,filehash-md5,HilalRAT,media,54,95,,ThreatFox,2026-11-18 14:34:00 UTC,1
-4e9fe38b5eed9b20de37d2f0a2cb2282b319f522fa878962aaa29ccf833346ef,filehash-sha256,OrcaRAT,media,54,95,,ThreatFox,2026-11-18 14:34:00 UTC,1
-ef24c4593e653b405a06821e7dd6526539f4ea7b,filehash-sha1,HilalRAT,media,54,95,,ThreatFox,2026-11-18 14:33:59 UTC,1
-ea0842f6af4232b159480cac9749a45f,filehash-md5,HilalRAT,media,54,95,,ThreatFox,2026-11-18 14:33:59 UTC,1
-499b4e0830526570faad69b981f9f40ff54b83c3b38903c679887415c2f06801,filehash-sha256,HilalRAT,media,54,95,,ThreatFox,2026-11-18 14:33:59 UTC,1
-16745f37f9a903bc0b932bfc57dc3b1ac2cefc8a207639c224f6a84c79dbb275,filehash-sha256,SuperBear RAT,media,54,95,,ThreatFox,2026-11-18 14:33:58 UTC,1
-0238abb17f45ceddc21b85492c0e834ac7b89b68,filehash-sha1,SuperBear RAT,media,54,95,,ThreatFox,2026-11-18 14:33:58 UTC,1
-ec23430db7bb555fcbfdcb7aa5a9064f,filehash-md5,SuperBear RAT,media,54,95,,ThreatFox,2026-11-18 14:33:58 UTC,1
-7cfc56583873e0656d002735b245e420664a6968c4d9c216abc32d266bdf9706,filehash-sha256,HilalRAT,media,54,95,,ThreatFox,2026-11-18 14:33:58 UTC,1
-06dd2ab43e1a0f41a2b1b62d4c585b7b,filehash-md5,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:57 UTC,1
-03b78f11acb60c7de3a1b42e4d2f87e9211e24ce2aea56d95079887ae8e86063,filehash-sha256,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:56 UTC,1
-02fbf2759801a4c5f2a5e020d6a09bd7d5c7f14e,filehash-sha1,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:56 UTC,1
-75b0141457f2ae16f496180b75251b95871501052e56d0c3fd3f0986c9f7b6e0,filehash-sha256,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:55 UTC,1
-828de34f32b2aa24a99de8e4e56bdd19ca747766,filehash-sha1,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:55 UTC,1
-6f65c2af8bb7c8720b99e17f6955c989,filehash-md5,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:55 UTC,1
-4d7101187d6ebd723509d6ec9de589c4ceea3b27ce1f43474c1d4db0def91349,filehash-sha256,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:54 UTC,1
-039ce1b16fab47785afdfe4d6185e3a66c9cb29a,filehash-sha1,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:54 UTC,1
-4408dae8d95afc582efc4769f657f886,filehash-md5,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:54 UTC,1
-6ed3f44c47426b99ea2ea124c716224a,filehash-md5,Kuiper,media,54,95,,ThreatFox,2026-11-18 14:33:53 UTC,1
-e4d186447fdf2420e19d2a8822edc97d1f98ac72ae97608e4abf4b724e23c567,filehash-sha256,WannaCryptor,media,54,95,,ThreatFox,2026-11-18 14:33:53 UTC,1
-fcdb0c4fdd67d36c40554eec3a29c7065ea3cee8,filehash-sha1,WannaCryptor,media,54,95,,ThreatFox,2026-11-18 14:33:53 UTC,1
-3c120bd99eade1de7bbadd9deeab380a,filehash-md5,WannaCryptor,media,54,95,,ThreatFox,2026-11-18 14:33:53 UTC,1
-ccbe6ddcc87193d4cf461ef5d4a59806a6cd5132,filehash-sha1,Kuiper,media,54,95,,ThreatFox,2026-11-18 14:33:52 UTC,1
-0f651f8d7636157902427a67753934e10e8251e9,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:51 UTC,1
-1d077c437a39d359a4e549f761ef2c37,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:51 UTC,1
-ab6c67af7ab7eee48a253957a5e098f74019e43da0a55ec2f44e3acb224a33e6,filehash-sha256,Kuiper,media,54,95,,ThreatFox,2026-11-18 14:33:51 UTC,1
-aedf5c166a55e847a0e272ab457e7d532e944255,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:50 UTC,1
-2b90909684056c5df36fe36548b74627,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:50 UTC,1
-50ac871a75ca17b6147ef3a99e1fdc00beb2c6ccbeec0c3a95c4ed59531df724,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:50 UTC,1
-f9fa038f817d4ee9dff412794d2b00728541d6833fb1fc331062af1d38628d46,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:49 UTC,1
-bf1136395893f8c69f7eed582ef6ae76c974166d,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:49 UTC,1
-f7f648e1add06596ddd5e1dfbff9632d,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:49 UTC,1
-8559f1330cd944cb733eda640933fe6c3870aa0b35210a3673761a652d3bfa83,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:49 UTC,1
-fac670b7b1021fc4d4b515ec5244b70ac1d939aaed399e6ae4acbe221f4c6a33,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-18 14:33:48 UTC,1
-71f5de97952727584f079a3fd17d106b6269e818,filehash-sha1,SalatStealer,media,54,95,,ThreatFox,2026-11-18 14:33:48 UTC,1
-860b1f4d348f880652f0469864e97b0c,filehash-md5,SalatStealer,media,54,95,,ThreatFox,2026-11-18 14:33:48 UTC,1
-6815b65f894493f175099caddde86422e0bead3309b398813324db11b761540b,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-18 14:33:47 UTC,1
-94060563eba8445e1eb52d6039bb14826e85d26c,filehash-sha1,SalatStealer,media,54,95,,ThreatFox,2026-11-18 14:33:47 UTC,1
-c7125cc57ec08e84e25d503095d340dc,filehash-md5,SalatStealer,media,54,95,,ThreatFox,2026-11-18 14:33:47 UTC,1
-05c7f57858d6993b8548cf224bf7d933,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:46 UTC,1
-2075bc1baa8fb95e5cdc559de8a7f1d400f74fe0a517b71833d5ad0eb506a39a,filehash-sha256,RN Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:46 UTC,1
-e7b22859950248f11bf3083a31faf4b7946c6918,filehash-sha1,RN Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:46 UTC,1
-baf7e87ccbf9f1085805c96793f24e90,filehash-md5,RN Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:46 UTC,1
-3e511f1964080153194041afd78aeeb4,filehash-md5,TinyMet,media,54,95,,ThreatFox,2026-11-18 14:33:45 UTC,1
-222566ec14004746626b1d3f8a5d8b52248c232f30754e6fc380c31ee186486b,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:45 UTC,1
-61e69403219f74b7e42dcacd30d0ba02e9e6977f,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:45 UTC,1
-77cea3095f0e9e58884e9b0419570dda,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:44 UTC,1
-9a9cc78702d4085e9f503105500d7d27fa3d1aba24d6109ae4b2da9ea6805be1,filehash-sha256,TinyMet,media,54,95,,ThreatFox,2026-11-18 14:33:44 UTC,1
-7afd460558134cd9af8f5c5a277fdef90ee6a381,filehash-sha1,TinyMet,media,54,95,,ThreatFox,2026-11-18 14:33:44 UTC,1
-c39767650ea6fad7bd8a1c597dd4d317c3c11fd1,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:43 UTC,1
-2991c596d991a53b68eeaf47ec199a14,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:43 UTC,1
-8a363699f7b2bd39542b5fb1a1907bfa8c5db8e26e5c742e532a61bd96383ebb,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:43 UTC,1
-27778efe5c39dc3c8540668916d6b5d76b807be3,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:43 UTC,1
-ee976c9e44e8a92af2c968cea4230dbe,filehash-md5,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:42 UTC,1
-24d1af3e157fa9af86f49603588ceb6e095ca9575bd323f6083086106089b0af,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:42 UTC,1
-da8632659a58dcd5323dd1d810149d8a,filehash-md5,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:41 UTC,1
-f3813e13ed683b1ed1f0cf9496d43f7fb4ad43349d9d211c0e6f79b6e228ed48,filehash-sha256,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:41 UTC,1
-456b7e45c777c5c478458c6b123d03c15533792e,filehash-sha1,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:41 UTC,1
-fe8bf98fbd4caf5b2f94cb88f21f4fca9d66cf62,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:40 UTC,1
-75ea3daa733943fa76bccbb5d3b066a4,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:40 UTC,1
-b5c57c808fe4258a8de52fdc315633c8f8cfb2d25be5d0252ceb942426dbe7fe,filehash-sha256,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:40 UTC,1
-11fbb8bad265d85fee7be0a48f902ac57171d5ed,filehash-sha1,ValleyRAT,media,54,95,,ThreatFox,2026-11-18 14:33:40 UTC,1
-1442d9fc006ecac4c390888459348904c5ca646c,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:39 UTC,1
-c8bdb5a8b5ad7250e9642c97618b17ec,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:39 UTC,1
-56af4268009504cede5f187dae78e48b3ed61a5b989ec28ced24e56432e80729,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:39 UTC,1
-44725381275f5984e040eece6ba8fa8d59cf45a9,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:38 UTC,1
-8e4d835dfcf21626cd1183a1ef7a093b,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:38 UTC,1
-b07f0fe4a14733513e3f33adc53d4addceb5756ac4395d13b77b237d4f318871,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:38 UTC,1
-2f239129613aaf2c3f41a7d19ad9ead792fd9a1dc821cc64e22704a33b075454,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:37 UTC,1
-e9f132b280e172a0a0f112c56f05d20e2b51c306,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:37 UTC,1
-49235027e6aae21636b1477914e893e2,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:37 UTC,1
-7c35aecebcff890f2d5ecfad0394399f8193bde0e577bd780b44ca96d4cd40a8,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:37 UTC,1
-10ed5cb0a5f527fc6aed7daa5c4de0efadab7bad,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:36 UTC,1
-b818156f317d0e37e47e6f3df553bb05,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:36 UTC,1
-a92c08995a59129c91b90edd82b6f844aa32bd5b,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:35 UTC,1
-ea432b2aa4fa3bf0cd4fe249efc7b0dc,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:35 UTC,1
-d93f000f4377afe336b8dbc3d595510c574f879d1ca8afe1e13a4cb2275af0d9,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:35 UTC,1
-dae470beeb3ceee211dd35d8116f9d2df411f549,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:34 UTC,1
-b1f665185427ca2be636df9eece31a45,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:34 UTC,1
-af9aa6a428e423981b0ecef66a858c062ec400eb2c0ca957054fc377fb5a82f3,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:34 UTC,1
-e8c55fd2f0d2a6fb498e74e5742de088b23dbea8,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:33 UTC,1
-9d163fb1e288790fcbb65a93f56c4101,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:33 UTC,1
-f79965d201e611dd79733c148bc711396784f8a3dfdd1d375a463743db1ef588,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:33 UTC,1
-6942c19d119a6d3567dda36e009a1cc376ca836a,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:32 UTC,1
-f1dab4b9e39808e43e6e2fe38224c5e1,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:32 UTC,1
-78a15dc4f8880c93216663652c338afd12f391557d936b1b8b02582921804939,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:32 UTC,1
-a991adb123ee1d675bd86ce6b5ed800aeed1f66e,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:31 UTC,1
-0b4d16a6678b04c826877a66293be66b,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:31 UTC,1
-bcfe124eab9d8c814e1b5808b514b8f5865d9fd9e51e4dffc670baa31929d4c6,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:31 UTC,1
-f217731bb879e61b462a8927b5eacf41e54ddaab,filehash-sha1,ACR Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:30 UTC,1
-78ec9bade8cdde43cbc5a3a2f27c199c,filehash-md5,ACR Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:30 UTC,1
-7487b2b9ae5b13b152dbb39df4583ba9d8d393d6c1d8f3e4f7762622be2d656b,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:30 UTC,1
-206fc6969ca8fb60de05beeb9caa637371e94622af7839def9788336a7d66ca8,filehash-sha256,ACR Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:29 UTC,1
-315c8395065b1df6661bb5a1f015896ef22e225e,filehash-sha1,ACR Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:29 UTC,1
-999ed86e032b7ee48d78664e4a77ee6d,filehash-md5,ACR Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:29 UTC,1
-875f4f7091850c5e47950f0c13f86f5e4194fc81d99b9ad14d6aa6ee85094fa7,filehash-sha256,ACR Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:29 UTC,1
-1a93cd4b2c7d6b0ec051be2e54aaeaf91d3bbdd4d0d27ebd3b473475fa54f36e,filehash-sha256,WannaCryptor,media,54,95,,ThreatFox,2026-11-18 14:33:28 UTC,1
-466cefebc3ca7f379323a5daad9d0eab63d950a3,filehash-sha1,WannaCryptor,media,54,95,,ThreatFox,2026-11-18 14:33:28 UTC,1
-6acce346618f896ad5405e915c1efa28,filehash-md5,WannaCryptor,media,54,95,,ThreatFox,2026-11-18 14:33:28 UTC,1
-006c2deca5117886a7dc9ce097cd27df59f696f00f1834e80b5c938e5354803c,filehash-sha256,Coinminer,media,54,95,,ThreatFox,2026-11-18 14:33:27 UTC,1
-d242085f1f2daa1388b5bf82c8d5d80fc00f20a7,filehash-sha1,Coinminer,media,54,95,,ThreatFox,2026-11-18 14:33:27 UTC,1
-b451510148ff474a0b778e15a5f14b64,filehash-md5,Coinminer,media,54,95,,ThreatFox,2026-11-18 14:33:27 UTC,1
-0fed4bc87910d1eacfa5bb11a27c3cc7,filehash-md5,NineRAT,media,54,95,,ThreatFox,2026-11-18 14:33:26 UTC,1
-007c2c34306aa2def929f721c4e47c11dba20e1fe6bdf7a4b035b5f7919e8071,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:26 UTC,1
-cd84e8134b04c6822ddc8bebd6dc671cff6d42d1,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:26 UTC,1
-8350f86d6c37a12f614856fcff5dea26,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:26 UTC,1
-8a5fc20c98dc4e2faa652ac3365b9702,filehash-md5,YiBackdoor,media,54,95,,ThreatFox,2026-11-18 14:33:25 UTC,1
-071f27d7d05bb600b0de3e4ab4dfc0ce2fec874a6e868b8cb8b8acecec6893be,filehash-sha256,NineRAT,media,54,95,,ThreatFox,2026-11-18 14:33:25 UTC,1
-d159b34d109b22ba0667b1f248ce61eb14f652c1,filehash-sha1,NineRAT,media,54,95,,ThreatFox,2026-11-18 14:33:25 UTC,1
-aba2b24306f686fd6d6a2413976a0f6f,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:24 UTC,1
-16e3e7f004c308f7e0511322721e4a53fea5d11c493e4f655529e35aec529622,filehash-sha256,YiBackdoor,media,54,95,,ThreatFox,2026-11-18 14:33:24 UTC,1
-6904b6b6a3e2cd4b2706c0cbbbe0285f2cda2c29,filehash-sha1,YiBackdoor,media,54,95,,ThreatFox,2026-11-18 14:33:24 UTC,1
-9e62e642f47ec41236634b2283ff05f169a906b4,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:23 UTC,1
-02c511dec7609ef1550cee5b01601379,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:23 UTC,1
-41da259ad510f0b804368c6928b3dc22c220714a59b3edad0996fcebebb739fe,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:23 UTC,1
-851a8d9530c27ed246a440ff8df9b00d79b75a6a,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:23 UTC,1
-31f7eb59929b8135cf054058b73483b5d520fdd89ebb8326792eb8e624edda00,filehash-sha256,Sliver,media,54,95,,ThreatFox,2026-11-18 14:33:22 UTC,1
-cbdd818e1481f7ac32b875924e8a10a2568da948,filehash-sha1,Sliver,media,54,95,,ThreatFox,2026-11-18 14:33:22 UTC,1
-92607ed1a04e3dd3f5a3c6eab8da4fdf,filehash-md5,Sliver,media,54,95,,ThreatFox,2026-11-18 14:33:22 UTC,1
-d560563d6912cb69714d05fe5addfc9ea0f096c3def67cc976d0b537f1378354,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-18 14:33:22 UTC,1
-0692bcfd2eb11a5ec2f5b1076e6cc4cd4c911adbc8ac34b7350c9797a25e432d,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:21 UTC,1
-ee9ef63711d8d1e4ce7b39e70d1251b59114ef78,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:21 UTC,1
-0466db73c8168afbb4329cf17cc4075f,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:21 UTC,1
-976e43f4cf66509ce676bf14c6f5cfe396835fcc,filehash-sha1,AsyncRAT,media,54,95,,ThreatFox,2026-11-18 14:33:20 UTC,1
-0767c7a4c0518e80dfc50148c82929f4,filehash-md5,AsyncRAT,media,54,95,,ThreatFox,2026-11-18 14:33:20 UTC,1
-aace49cc1dfa3d4a11c988d5dcd6d60e89376ab0,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:19 UTC,1
-1d8c69d30f0abebb9f67f9cd6f03118f,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:19 UTC,1
-9921c957833c07bf45c7f67f3a9f3d15555ad4da2be2b44021d6d211c1a8be67,filehash-sha256,AsyncRAT,media,54,95,,ThreatFox,2026-11-18 14:33:19 UTC,1
-1f0e7d7767c19247fe18c5c164e6d48f,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:18 UTC,1
-6b6d1feb22b89f7c188f7ec7fed0b3fb48299119228b516379b6f4bbc3fec336,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:18 UTC,1
-f1d71098c4cb7be839dbea22235a7aea93284254,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:17 UTC,1
-283a7a00cfc8ae313e2637cff09f8fc0,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:17 UTC,1
-e6ff71e8dcd5b81016287a4e601a6bed569e256e179c17e32182e08f4ce234d0,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:17 UTC,1
-d31376b38cf002be76af54c3f03a0185513139f9,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:17 UTC,1
-f6a4d0e73e2b449157157ff1b7348decfdb7b3fe,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:16 UTC,1
-32245e93897d2dffe35d1a487192bda3,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:16 UTC,1
-20370532a621f2611b51ad0369fb1f48c5208f49a971b56b44f1e2d321c41cb0,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:16 UTC,1
-e0b7b989cbb4cd9d875de88556e06f677fe77fa7,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:15 UTC,1
-63db93c47580b0066c4554fbfd453d16,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:15 UTC,1
-8fef53474f80898c6f6aefa627af7d7241484cfac19e8ae80c5a6c939b0a727e,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:15 UTC,1
-14b49ca70c341923d4f079c27c7485266f1a7633,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:14 UTC,1
-76bdba4bb9b80fd5e7d51950e5373bc4,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:14 UTC,1
-c50ced1116cae74556951a395ce9bb2f958a519105093b38025009b7046a9f07,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:14 UTC,1
-0c88759246530f189e87fa23a593084b7cc29a389b7a8df08f1413dc731f4ad0,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:13 UTC,1
-01538778c3a0ea9369aa3809e048711b21ce1d86,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:13 UTC,1
-84088a22dabaa7822192979b5cc075dc,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:13 UTC,1
-99e03781b4c52c5c5440082e54fff18857e59fe8161bf92184649ebcac7a6000,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:13 UTC,1
-c0cc2616b97756ed461236da3e812f47,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:12 UTC,1
-8f92be363039893c07a578bf0be3cffd5b22f6cc402c18269ba6e650db81a93f,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:12 UTC,1
-028122e283391939e31666c18e00ed144c6c8074,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:12 UTC,1
-aed6ea818e989a532d71f06dfa540658,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:12 UTC,1
-ec423b82461d6c5fd5e4ac553af7949a,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:11 UTC,1
-c4c84f595ae9260f703dadae2379d47591dd92d1b85802105798ab5de2aa1bf4,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:11 UTC,1
-ed188c2b78bbbb4a08e08b725c4442038d451570,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:11 UTC,1
-3798c4fdb62dee9ddec007e7c3d1c299,filehash-md5,POOLRAT,media,54,95,,ThreatFox,2026-11-18 14:33:10 UTC,1
-8b515b6ece08aaea6f84d5a094394acbababe209b10cccd945d0b46fd6acc6a0,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:10 UTC,1
-e1e653012332bab8aea54aa6cc5b0c4b5dbba3dd,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:33:10 UTC,1
-0c3f3473cabbbaa5f4083a89999c0145,filehash-md5,QuantLoader,media,54,95,,ThreatFox,2026-11-18 14:33:09 UTC,1
-fd17b84f0abdbcb6c734727a3fb9346d8dd2a2b5c87b088bef5b7e7e163adc98,filehash-sha256,POOLRAT,media,54,95,,ThreatFox,2026-11-18 14:33:09 UTC,1
-f6eabdf668c894e288c6033fb4a6fe096b176258,filehash-sha1,POOLRAT,media,54,95,,ThreatFox,2026-11-18 14:33:09 UTC,1
-12a01af30b218f3b19fe18e82b82fbbc,filehash-md5,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:08 UTC,1
-0346479977af1aefe22b3fdaf1d12737bfd7295c887838bc0070cc87d1d805b4,filehash-sha256,QuantLoader,media,54,95,,ThreatFox,2026-11-18 14:33:08 UTC,1
-3a3d33b68766a37efe2fab1f3a0648b82acdd007,filehash-sha1,QuantLoader,media,54,95,,ThreatFox,2026-11-18 14:33:08 UTC,1
-45569e40c66fcb59b206e2987ebd04bdd246f253,filehash-sha1,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:07 UTC,1
-15516e5ca3d5d07ff0d4182ef0f8e776,filehash-md5,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:07 UTC,1
-1d6d6c73432a701d0d3510aaeb7b8c0c2adc04dfd53c3e32d8b2731c6b25672c,filehash-sha256,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:07 UTC,1
-d83cc84ab00d3dde8526202103ac74a4f81b1e63,filehash-sha1,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:07 UTC,1
-52235fd977196594eff750bd348209f3af524ff2,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:06 UTC,1
-32da25d332fccfae3980e3f19411075d,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:06 UTC,1
-bede26c323c7b28307aca599b06f55a78c29b8bf7ee6636b561d6c9f5c0c377a,filehash-sha256,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:06 UTC,1
-7bfa0cc943a737f8ed3c1731ba0da5a7bf5167c92b777b661b2477c48af907e8,filehash-sha256,MASS Logger,media,54,95,,ThreatFox,2026-11-18 14:33:05 UTC,1
-57de0199b5a16aae41a08a8aed357356605a831a,filehash-sha1,MASS Logger,media,54,95,,ThreatFox,2026-11-18 14:33:05 UTC,1
-7db6d78d6396b68b99d109c356411ffd,filehash-md5,MASS Logger,media,54,95,,ThreatFox,2026-11-18 14:33:05 UTC,1
-d0978cec0e64b66891ab4d54d95f6989b7320046306b22e06e7b013292418253,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:05 UTC,1
-c672125c5dd95be07c4c45c958187c8cab5343f7,filehash-sha1,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:04 UTC,1
-81d68b26c038932d93a741e7b380b5ea,filehash-md5,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:04 UTC,1
-7ccda46d4ecb8eaedda2e1ef21fb4b2ff4e1d3a8,filehash-sha1,MASS Logger,media,54,95,,ThreatFox,2026-11-18 14:33:03 UTC,1
-ccabf0378afeda39c416e4df67683ff6,filehash-md5,MASS Logger,media,54,95,,ThreatFox,2026-11-18 14:33:03 UTC,1
-268ec511e2d7782050b9d93bb88a924acf7f67ceb94acc66e57721ad1dfb90da,filehash-sha256,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:03 UTC,1
-ce94308c6fb86c80634b55e36e57f15afcc31904,filehash-sha1,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:02 UTC,1
-cde6c39a1737d2a5a57b7ef5cf973066,filehash-md5,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:02 UTC,1
-20166d7c6094cd7a03229898a379a0b672cf5554e72f9a30d276df8c06e4fb1d,filehash-sha256,MASS Logger,media,54,95,,ThreatFox,2026-11-18 14:33:02 UTC,1
-f8af734395e2b9cfc714b25cf5a6246a25701274cba351535ab7d2f704376476,filehash-sha256,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:01 UTC,1
-c81aef20d1d80b5c94760925de47e4fec7d3abd6,filehash-sha1,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:01 UTC,1
-cf1a243511e36ab408bdded3cb8127a1,filehash-md5,Agent Tesla,media,54,95,,ThreatFox,2026-11-18 14:33:01 UTC,1
-cb0108febaba146bddd677db32774a54542952efd5c09a5eac15e1a1fc9c9bef,filehash-sha256,Formbook,media,54,95,,ThreatFox,2026-11-18 14:33:01 UTC,1
-4eae60dbf6fa784d2a48b28e7812c39ac779f6a28c8d14c9d28a762e8234c411,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:00 UTC,1
-ac1935bf42048a3f7cdf0a29de92091c6d7a3217,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:00 UTC,1
-5b53d1eaedcf70934b07c07f5393567e,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-18 14:33:00 UTC,1
-951c540ee6d575a5ca98f2302a38c996f99cf3318015fa302ca98a0ec65f50c9,filehash-sha256,Phantom Stealer,media,54,95,,ThreatFox,2026-11-18 14:32:59 UTC,1
-870ea44203d6e04b3685a7523b0a73537b1aed9d,filehash-sha1,Phantom Stealer,media,54,95,,ThreatFox,2026-11-18 14:32:59 UTC,1
-4cd8a449cc17f87507bf46289345b251,filehash-md5,Phantom Stealer,media,54,95,,ThreatFox,2026-11-18 14:32:59 UTC,1
-20246d701e2612a116b3467eb9d935e6,filehash-md5,Coinminer,media,54,95,,ThreatFox,2026-11-18 14:32:58 UTC,1
-1ec2b7f895523883339da07104dab84ba8b912399496a0b2f3b20ec1884ad8a7,filehash-sha256,XWorm,media,54,95,,ThreatFox,2026-11-18 14:32:58 UTC,1
-08a096b7f43f887154ce08d0e38aa962e611162c,filehash-sha1,XWorm,media,54,95,,ThreatFox,2026-11-18 14:32:58 UTC,1
-5c312e912449213d20c696057c18ef56,filehash-md5,XWorm,media,54,95,,ThreatFox,2026-11-18 14:32:58 UTC,1
-0576848de1f9bb618f3d724391c5d39fd7651f22,filehash-sha1,DarkTortilla,media,54,95,,ThreatFox,2026-11-18 14:32:57 UTC,1
-9dab2d5b03ba22b9329216fbcabae6ce,filehash-md5,DarkTortilla,media,54,95,,ThreatFox,2026-11-18 14:32:57 UTC,1
-791aaf60bd6ddcd7cd8d7d71dc230fd7fd5c191b,filehash-sha1,Coinminer,media,54,95,,ThreatFox,2026-11-18 14:32:57 UTC,1
-927328e62c8177034b869000373c5c38c4b2814db7301ba5d0555451b98a0167,filehash-sha256,DarkTortilla,media,54,95,,ThreatFox,2026-11-18 14:32:56 UTC,1
-52d07284941d7ab76b5a08bd111664070a17d73824b09dd80b3870cfd76c0e83,filehash-sha256,Coinminer,media,54,90,,ThreatFox,2026-11-18 13:59:26 UTC,1
-bb4f14d5cfa36ed89242b310eba3990d2b0cd772fc5afd86668f1fb831ffa5cf,filehash-sha256,XMRIG,media,54,90,,ThreatFox,2026-11-18 13:59:25 UTC,1
-efe6e5613e0cc059a6f237570299386586df27185e5583930008aadd59a2a944,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 12:59:25 UTC,1
-2159a1f3f052d536881558ebb95448e26bd30d819eff75819a6dfe2a43bec925,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 11:59:29 UTC,1
-641c73f07f42839ae364f07deac9c9a54f55ffc35f5e69838c3e8c8cd1d38057,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 11:59:28 UTC,1
-3963d08f543b3b4b9cf8c230746bab6bc597fba4ccb71f6da04edf0c16ab5fe7,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 11:59:27 UTC,1
-f9bc8847c6fca49b32704062817a88b64e991fbe0236b8fc9b5e5216d045068a,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 11:59:26 UTC,1
-98925f2d1761ffbf3f47d05365e9b6bd711477b032df684a353cab16c2893e30,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-18 11:59:25 UTC,1
-28ffc8bb9fd83a0b82f4d7980d5e1b47fc401b35dc2d96ca61301000b2f4871a,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 09:59:38 UTC,0
-138ab98ad36267170dfa9e50f0decc562c71087d18d82b19b317af46d7627fa6,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 09:59:37 UTC,0
-a73c9a918cdac476eb3bf2457bc33e10a6dc0375f15f10e1a5e590b09725894b,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 09:59:36 UTC,0
-20503d03da5868c8a576412c70e9ae1b0fc947a5917a3fb9765192cc6481003f,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 09:59:35 UTC,0
-8fed438ede5737818674b61f3b4459d78db56f9cd76c977d454d3b40f1312d7d,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 06:59:42 UTC,0
-6bbb15d332f70ef52772b0952b97d65c63a25781f6f59291f1c1be7a37b5750d,filehash-sha256,SmartLoader,media,53,85,,ThreatFox,2026-11-19 03:59:31 UTC,0
-95a29b2d29318afab23e6d73ba41102e10f1d56218cbf6773f08ebb854c7544f,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 03:00:05 UTC,0
-e9db176f351574e18a098e9bab934a138d81937f0fb03781a3697695f5dfb7f2,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 23:59:30 UTC,0
-59fe0e85f57abb3232e2f6107a31da6e732cb49797f76b1e69683b6b92e9a38b,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 17:59:32 UTC,0
-c702083e61e6994f23a948f97a38fffb3ed27d2a8323f0362a78780806feb504,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 17:59:31 UTC,0
-5bb86fd26e56cceb42f2eb8ceabd5fe318654781652ae3c48c6a2ca0bd4a8c32,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 17:59:30 UTC,0
-eaade0330c507c99102b2bdd14b30439cf9a13e46e7e0133ca7702489a381621,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 17:59:29 UTC,0
-96499c5abb0bb012becdc5a9c47b985490502eff68a02cdc97f82efe5db1714a,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 15:59:26 UTC,0
-87e8a66b48d9766195efab5a2ccb084bdbf834ad16abcd3857d7c9ffe4a03f37,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 14:59:27 UTC,0
-62b96fe79a7d19d95a89494df372e9d0e3adf0b5ac178c8e9f6dcaffa8ec3067,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 13:59:27 UTC,1
-4ab97ad29c6869eba7b6d13a47d75fd1e64695ed05851b8504b1239b490ac069,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 12:59:26 UTC,1
-51b32c91938a3eb21d63e6083af56f9c89a9165f8276d8d2d0819ca63cf34f90,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-18 11:59:30 UTC,1
-43409817d8f82d1457973d7f6b8abddcb7abc70465cd36a2c4bed35ce83396fa,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-19 06:59:44 UTC,0
-45731834d6dd54d3bb2a44acbe9a178efcc8261895f648a5ea54432522d368d4,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-19 06:59:43 UTC,0
-3dec8ea7364b2df6cb3e36f020457e0c8343978942d039aa2182599d98d0ae95,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-19 04:59:31 UTC,0
-bb6242ae69663e0fcd159caa43a4150578036c5584af800d8ae07ab532154b03,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-18 16:59:29 UTC,0
-9944d346274db4bf6ca5c56bbb6c991b2e776a2ee685a9bbb50cdd674820d59e,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-18 16:59:28 UTC,0
-8ea8b2a2cb4d94e5ec406733bba61e709de4bf62390fe588613e0418ca533aae,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-18 15:59:27 UTC,0
-fdec4fb5a1bea7b7aae3fc1c63416247885f37669fea5daab24df4b7dff63006,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-18 14:59:28 UTC,0
-cd89872ddb9f78746859eb0c2aa711d43e93d05f32240383d2bc932a958e964f,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-18 13:59:28 UTC,1
-d1ee38c18698117002a232be2055dca71475bb4fd4399a6ab50d25c4c363625d,filehash-sha256,Mirai,media,52,80,,ThreatFox,2026-11-18 12:19:38 UTC,1
-272614fd09723ffa75129af4e1a523b8d7ebf076d80a9403863b274f87258e06,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-18 11:59:31 UTC,1
-f0ea2863992bb27a64bbc6e415e6a04741942d38efff6f606fe2b8c44f1d296b,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:57 UTC,0
-4f216cd9a11ba553e49c1b9f35a1f84114625be991017ee91bb30cb352fb77ea,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:56 UTC,0
-ec1634363bb3a74af4522447d115c8df481eae9687d6800fd90731df7ff94da5,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:55 UTC,0
-6c167f706be34f1db11a3734ac964493e658f3a83b6718a3e7f3e6b60c339337,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:55 UTC,0
-3646a86664a4ba16411ec4e9d4e6c6ab3acc5416bb4e4fe5bfb48e7314a1b48e,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:55 UTC,0
-90de85f03e1865bcf722a1d6cbe8a39961b01e4ea8725d9983b9fd48bda1680e,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:53 UTC,0
-7a3e2b479cb4b07c4741524b500d06f2497ed707b1373371acaa82fdddca39e4,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:52 UTC,0
-d66e7a6208be796f431fa3fe82cdb066d6d81524b4f0d94800514bbc005b1e3c,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:52 UTC,0
-97223e1a5a27a2ce2337edd9645cfca4c83de8557e40730beeecf775a8fe14d8,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:52 UTC,0
-785e775013641976d5a919fc9ca584a0f8d7cb9a07068ced598d78bc22e28d6a,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:51 UTC,0
-2bad36922aa0e1dbd044d90d4dffe5490c023d9d393eb0d761f621248fe707d6,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:51 UTC,0
-965712b295fc7dd1d47703bda84ebdd7d296936de4c27b27a7180c5ee5c5bd28,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:50 UTC,0
-e4360249195aada04434842741eff6fec336a326989045b8b322bbe3668f922d,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:50 UTC,0
-bd03035edecdd6d3633351ebda022dbec9778c1385e8e9ddf876c3361a2315cc,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:49 UTC,0
-4fd2f9dff54603ac4a8f9e129d7f1165fd146a3b10760aaa32303cb361919dc3,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:49 UTC,0
-d375b927cde69bc09feae9044b39962c515f65bec11690162abdea784cf9552b,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:48 UTC,0
-16f93de46ee29d57f131d058815addc1b6bbcdd1ec6d7fcfeba74928ddebb3cb,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:48 UTC,0
-7f9dbb7291d73bb1ff09f9e44f479d00325827f25666ae6bf77ea58b9d821dd1,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:47 UTC,0
-a09ace0660ae71c91bd5c80d52de285b4e40749e2066cc2f1db1db106f39a390,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:46 UTC,0
-aaa761862ad41edda30d94ba30f8eb2202731476778c7f77114cc734fcbd4ea0,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:46 UTC,0
-5a071c79bad1e5396b47513aa13a2494cf8a09e262f9707528dad3cbb5ed39b4,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:46 UTC,0
-42af3604c87aba9b949d8252293b2edf863b1bda463822b936dbf7978c2b8ec3,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:45 UTC,0
-7648cdf34deed8e0880347d81014723583446e87084fc7de4ce21e52f14acb39,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:44 UTC,0
-f96b732960a3a077ea242fc83eaa68ecc35a3b210076811c6149ec888891f4da,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:44 UTC,0
-62782505e51cfe3cf783aacc98efe66c8dbcb4fd76ddcea9691209c17ee09ec1,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:43 UTC,0
-bf9a6784ab2dc67a64143b080b322fce8c3a178e0644d1886478868c09ec1353,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:42 UTC,0
-547449f1b36712984a1b0eea84bd5e9326d740722bdfb709e7f41830aaa84d0d,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:42 UTC,0
-437866be03f0a31b150f3f7886fd6fade1630bf8ae0565857f07f80258617548,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:42 UTC,0
-a6ed15c375b3474e55118a9b262e87fe3c4874239380fcb5a98a0eaa10f8e8fd,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:41 UTC,0
-3ee49a5632cb4b696891e8b6f3e0625e26e4f637a8fa49d3f0fe2fc69cc7db7a,filehash-sha256,Mispadu,media,51,75,,ThreatFox,2026-11-19 10:44:40 UTC,0
-2a0d32fa97dec912a50c9438789e99a2160ac9310ecf2cb98e97c1502b990d13,filehash-sha256,Unknown Loader,media,51,75,,ThreatFox,2026-11-19 07:59:34 UTC,0
-fa294a9c80d8e5b9815fccef7519bfa579afbb1de286fdd3a0ef045825d9e3ed,filehash-sha256,MopsStealer,media,51,75,,ThreatFox,2026-11-19 06:47:07 UTC,0
-bab95b197b992dd680fa567f1f0e70cc94260fb88ce7eca307095d2e28c6013a,filehash-sha256,MopsStealer,media,51,75,,ThreatFox,2026-11-19 06:47:07 UTC,0
-6855e86e1742060595ebb402af368258c1dfc69471c2d8aab6c65c3008f66c27,filehash-sha256,MopsStealer,media,51,75,,ThreatFox,2026-11-19 06:47:02 UTC,0
-746bc10bd67baa3f910c3a481f2cc2432d77e53e52138901fc7e82ae3d23db50,filehash-sha256,Remcos,media,51,75,,ThreatFox,2026-11-18 19:59:30 UTC,0
-fe9c9769f131067b526bf7c90b5cbbe74d9beb15d2f139a3768dd1f9369da1e2,filehash-sha256,Remcos,media,51,75,,ThreatFox,2026-11-18 19:59:29 UTC,0
-b8219fa87e29f0e66618cfd3265970bbbea67ca0ee120924eee6ad739ec2341b,filehash-sha256,Ave Maria,media,51,75,,ThreatFox,2026-11-18 19:59:28 UTC,0
-0457414c4504b70115798eee9c8384a8bf9e793461ffb2e0661a6dcc6ed4809f,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-3cd1484cc5bf10e22d79784beba58a75d7b126c46efb5e1a85d6aab884447621,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-6761aad48a3f987238994d92bca97e4b8550e0150607bd67b47b1b6366a371fc,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-91a22cf3154944897cbcaffc7d20d4596e972d280ee134197d41d8d8eefb0fe2,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-a27cafb84876a3374ef4aba1062345def6cd0b029eaf8e0dc44fa24fc943f3c6,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-b59a21a8d4c0c11a9ecbbdbe2a2938499c99c5ebb210c9c6db9683c7ad19f4c4,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-d3fda1e6cf886fd530bf62e2d16c39ad23ed12a2c933fc211f1f4876ceaa033e,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-06d5f06cd54c326750d1544290017174,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-52cf886b8b6c6dce461286e6c25c22d6,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-8553f1d01bfeffb9bc59e7a089e27854,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-8986af3c278b5384af6d0f1d954ed5fc,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-933d5f57f755190d6445b22a63b4a026,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-ad3b54af6f2b2a8202227796b8ad124d,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-29be3a370c0a4aa3447f0f0fd56a1815a719412a,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-61b4c712ee7d17cfaedb1c390c2fba9d8758e2f6,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-674dd3148b7f973669328feb6897bc55a1e4c1e0,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-819977052a538586bb8c85f6faa21f79d53d566a,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-8318f56c3029d71f0e4a3a7dc3d9d83a2b31c208,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-e779673c55e4dc5ad09924c3994eded0fc08c55c,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-917f2bc33faba15236be1bf6c5a121dbca3fdf38b56c03ad08e6c46b464509fe,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-40057580364087ec61e7b48719d3fbd3,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-ecb63717c3d858b46d672577757b1b8ec3d25779,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-f4d7c5321bb0d1bda439304a753bcf9b467b98ca53c7e9493b9c2c3451092e4a,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-f4647249fe4293818dda3c9ba2fd2e0d,filehash-md5,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-de3d53b264b0255e41d1bad4c1142d01f575c17d,filehash-sha1,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-9ac13a8ef7bab76c4d074385fd783e8c9542a8db7a166c3d3921a48add092455,filehash-sha256,ROMULUS Campaign: CNCMachineRMS RAT Analysis,baja,25,,,OTX,2026-11-19T02:40:02,0
-d27fa34414e6201d5e03e559ef634f020057554d7b3f4898dd5d7cd3e989e110,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-3d20a8bc91351a9a16b6db243b848ceca0206b7a8623b02d2af553a9c9f7e0a9,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-54d885b7d7161c9ed96489c66364c4bfbf635929166843bba10d97d46b5a2e1f,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-325e7e9f0ec94e41ad1a1b7a3f18a6b8b5bffece2e2b97b8d3369eb967452f93,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-39fa329f2a93f734b0bb8f5adb203ea3331d1ae479832a5015a54cb17aabd663,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-21f28e8517a10ffe431f8d68f5875c85eca4001ae6d118322b0a41873998eb5e,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-c275ccbe520ef3c0f02dc6a35389e427f9f1b4e0b12e140cd7bf7179ce143f02,filehash-sha256,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-0a013e4724c4437cf9b177def1d988113e167539,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,1
-423a5b4797bf3fd29e14b2aad6be18d1,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-548634ffe60848d466acbb9df0e47fb5,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-88b1ea3f6420b18391fe31c149f21f5d,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-9d4ccd936a223d7cab0b308e92454ceb,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-a1596c8f82e8fd6fdc2100852690d7a3,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-d4a70785f9351afc9fbada4e33edf891,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-dc16d2c976abf5a4d08db281fdc0d18b,filehash-md5,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-642b66b3b76fd8c7495ac821b9b20037f01dcc5d,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-780992d9b701d9cfcf032480e474538e73827611,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-7a1eaaec6b325f3cee0c8b328a1b5a285c2f1ad9,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-921ef8764d3f061184dd4d8de61771b07db11ce9,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-a800f3b31fb9e722baa781368258f1bd51db42ca,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-e2955eb2718ac8b81695cea89718ebeea525dd59,filehash-sha1,agent-framework 1.26.1 and 1.26.2: PyPI credential stealer,baja,25,,,OTX,2026-11-18T22:15:43,0
-36abd242ddaa27f0160c539377a0e92cf781c1695137850acc87e3892b436d36,filehash-sha256,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-6144d433f8a0316869877b5f834c801251bbb936e5f1577c5680878c7443c98b,filehash-sha256,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-3607de2597f8955f9a88f36ee43b64d3891b8ef536e99fa098e80169350f7b01,filehash-sha256,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-36fed3e2cc68e7c6c9763cb9b1aa715e,filehash-md5,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-50bc563e76995158fad99139ea78aa81be55f93f,filehash-sha1,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-0c16ee8a8c1f5b51b01bce924e173030f032912d5b66f1a564fd636a67ddbf5f,filehash-sha256,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-8795b5215dd06c5366a038a65b18b4dfefa5fd90244a567c3e0b58323103377c,filehash-sha256,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-42b59fdbe1b72895b2951412222ebf40,filehash-md5,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-87f21647803744b61937d563f8fb89e5b085648d,filehash-sha1,IronWorm eBPF Rootkit: How GhostMap Hides on Linux,baja,25,,,OTX,2026-11-18T22:06:03,0
-925a9d35a32e1a6a1ce1ae4b9ff09e289184d4d925d700752c99f15ab04296dd,filehash-sha256,Fake FMCSA  DAT  and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics,baja,25,,,OTX,2026-11-18T22:06:01,1
-f74a0fbddac01f282b070fc6b57811a6,filehash-md5,Fake FMCSA  DAT  and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics,baja,25,,,OTX,2026-11-18T22:06:01,1
-6a60d7fb542c4a603f982e8a6f0d6269188b2899,filehash-sha1,Fake FMCSA  DAT  and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics,baja,25,,,OTX,2026-11-18T22:06:01,1
-56970620ba88b24aa993099cebbe7d5e118447b52450e886f9f896abc88ceab0,filehash-sha256,Fake FMCSA  DAT  and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics,baja,25,,,OTX,2026-11-18T22:06:01,1
-80cf452f30aaf7d3f5373b3c7318ff9e,filehash-md5,Fake FMCSA  DAT  and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics,baja,25,,,OTX,2026-11-18T22:06:01,0
-70f920cf7bdc0fea7f3af8e2899e33ca80f8e3df,filehash-sha1,Fake FMCSA  DAT  and TIMOCOM Portals: 3 Cyberattacks Targeting US Logistics,baja,25,,,OTX,2026-11-18T22:06:01,0
-1ec4245b3b303304ea24a89b3b2351b0f0c085087050f517d23dcba9694c165a,filehash-sha256,Optimizely Supply Chain Attack Distributes Malware Across Global Brands,baja,25,,,OTX,2026-11-18T13:38:10,0
-04206431c83d1d81726e56fffb5166c0a7f138eb366e5aa918dee54af1ef22b5,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-12e716f48875befa978ff4a78a0b99a18b1809fc5bcc34c761158875da611aa8,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-1949894c26e03d6f15ed7f4393a89dbd52f8acc62959d3d5e4f695d6a19c6d9c,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-22b8f2776f1c941d8240ee4243da537147f8d2ee4d859a68038335da7b0d7688,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-2776cfcdd46264043b823adaf37e0c85d0efd3b46d5fdbb72219535061d44b86,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-3d73d5342a11dce35081e70a4ea75d39ad65bc6d480337bd33c1d2e0ba4090ee,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-5b2285f788eec4d17bf18d85795d457f40f7598bbab2697919f5810f54a9c3fe,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-76670eaadda9806c9aefa91c2ee4f2a33dcf8124574721a6ff072f19e7c03514,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-839300af16b7117adf05751e1847e1e026146d388cc328a179ba799eb1c9c229,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-899f072c505e56ed65b4ea5d64ab3bc0f98c39366b2c413c988551843e729451,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-8ee88ef957597fd4788ae9da4463dcbecec0f1969e6573204f4263f99f46b125,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-9abbcb4ac9a98690c666a2e843facf62af773d078db40570f08f052b0e42003f,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-b0d382443411a7986ce7eda473c3e8ed787de9083db71deb4ea0539ed74c0c25,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-bdea608430fbf6384ce518a542af3e0e69a685980ef826f7db3de20d4c835e26,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-c2454052f49e43226f69413ce58ba0bb3a2d89e7a52f32ef8adbf0961bb838c2,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-c3f6aa4dc9cdbcd2cfdacd18e59e0c1af0406d59d1f81cd962ac3cde60626ee8,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-cbd790d052a57d18f1cd58fe4c9887340eec5d38bfae105caf0d222f30a856d5,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-d4032e61aa9ef01a5a174a90beffa5a27dd21b36e653ce5304907787554b7d95,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
-d8ae46604dc4eab411977764bd923af686aea117fb33304520d928f1d382ef0e,filehash-sha256,Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools,baja,25,,,OTX,2026-11-18T13:38:10,0
+778c53804cfe3027f4556e866dc8a975845b1118c256c5df098b438a80726803,filehash-sha256,NonEuclid RAT,alta,71,90,,ThreatFox,2026-11-20 01:00:07 UTC,0
+44f08e83abd27fb12e0bc636835e04407ee06adbf292b26bab8f7b65424bfde3,filehash-sha256,WannaCryptor,media,69,75,,ThreatFox,2026-11-20 09:48:15 UTC,0
+61b39abcba45304694c81611e935bb4a1a196b46bc39bb9e5f77c36caebb19ae,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 01:00:16 UTC,0
+11a4913f1926c3142e9e3f591af30193bac8d7be2f43ebc0bc0758e5499820be,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 01:00:14 UTC,0
+99647ec802196c42f57b8f8518028592e68c832e081b504cdfad9de69c868fc6,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 01:00:12 UTC,0
+8b23adb9d7650c82386d68fd0264a70d986dda3f153b5057b9ec964ee9c5a46c,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 01:00:11 UTC,0
+da61814fb935652f0c7207f3c043162309eb88eb682108a3a3724da19255f7cb,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 01:00:05 UTC,0
+b83fbab2c10204040b9f9f8e50d42c2a477ed6fa51febf00f73c5ed8b94c10dd,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 01:00:02 UTC,0
+53f936f52e704f01ca5e611809c0a41d9354922114d2c256d95c6270152b7e59,filehash-sha256,Mirai,media,63,90,,ThreatFox,2026-11-20 00:59:59 UTC,0
+9ae0bfec6c4c501a05e942f45eb380f0dd2fde676743dd0004c82882c112635d,filehash-sha256,Mirai,media,62,90,,ThreatFox,2026-11-20 01:00:23 UTC,0
+76c95a53067cf99758e11d0b0c7daf566a23de9bc20911c680f0bc83ab01c31a,filehash-sha256,Mirai,media,62,90,,ThreatFox,2026-11-20 00:59:58 UTC,0
+3ddbb6e922afd643058f62e6bfc6cae728acf344fee8677bd5cf544f474b2f4d,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:27 UTC,0
+2c35267958bcb8aaeaf7c3794150b422a8229726247d0e2024951cbb3bfb4973,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:25 UTC,0
+95e666690fcdfecc1800c357bd5eb7a7f10311d5055ac994f136be311ab787a8,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:24 UTC,0
+41c282a8c13276e670939eaaaa572e45e2607bb62cf2a94bc875963008805909,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:22 UTC,0
+8a75ab59cf7efbeb980c04db8b87483ed1b8043a6d7f600ad5e0e31608c43d13,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:21 UTC,0
+9577941586c842c845d457313240e7997fd8ea8e2eec3ad5569a8feb208263e5,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:20 UTC,0
+993bb703534d027dfe36933822562a15500d943a4a98582d869a7d6261c2749f,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:19 UTC,0
+2c9c1762b78ce6fc6634277fe07ea16cffb6e8ba97b8574aa44fa74b7c4bb743,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:18 UTC,0
+3566e4ecfeeee68d884c602037d70c9570eb376846c2178f7594225267f8ecde,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:17 UTC,0
+77595ecb7d0b07d4fb335b8662ba2dd982d36c2a113eacdbc8229c2796bcd6ca,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:15 UTC,0
+485760b18f5ffc956eb21ec4fb83bf3c155aa34e7659a6e9a33811afee5ed7d7,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:13 UTC,0
+2783748943b7b9dc2218d27434692d8f3acbba532792275b645035adaafd92f6,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:10 UTC,0
+8a5bac2c5bfb07b3b2729bc100ac2b62e9bfb277644a1fa6d887d2de952c96c6,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:09 UTC,0
+fff5cc6c1015332b484df0576fa9808e91b2a8e9d6bdf758564f33a8dd753d42,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:08 UTC,0
+8d7be4abcb97d2edb6850501e2ae65dbedb792e77dccd6a14f49aadf9d684c41,filehash-sha256,Mirai,media,61,90,,ThreatFox,2026-11-20 01:00:04 UTC,0
+228fc86acbaa6626051fd189932cb1768254aec5a9539771cee8a567103bbec1,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:43:00 UTC,0
+3c2466d8a4572c26530e6f6bcef01fc1baefb98dbff2c65efaed5599622f51f3,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:57 UTC,0
+4de88220ff6a6dcb137b17d8d3f77ab4bacc39ea4e4d1147f687b021b7a82b8c,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:56 UTC,0
+6a70824fc1777f81c8e8289258ac951e6bac7636db5315b6d7e76c5a58b82b6b,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:56 UTC,0
+586459f1adf018de4586dcd61782839a3ee72d8469944e0f4dd45a6e20598869,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:55 UTC,0
+7284d45bdbb1e32e3fb1ca6041b448b165795c91a2748de715798238fc8b3bff,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:55 UTC,0
+7d90023d535096da99bffcb3370008355435d9f022232870f3c27d29be8be60c,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:53 UTC,0
+7eb2fd5e79e79c3f2a95023d617062908c9d8c5aff9fed8361a5a74dc0d1af75,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:53 UTC,0
+9c6f6c0d7127c95aa1360ad6fb0ba5679527a6ea2cc17eb0bc2162dd1e13cd09,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:52 UTC,0
+afc30b1a14f2f29572412ba883782eb3ad3a9e6bf9ff9c38aa48ff35a4ee73fa,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:52 UTC,0
+bd5950d4bd3de1c6d1609b8369b7332ada40c50070a9a3cd8e80ec89b19c48dc,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:52 UTC,0
+cd66fb941e63ad9a72687cafb050ed5b4d8b97b34461168581c4f150d6501523,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:50 UTC,0
+f483faa2b9c9815a0efb08023fe5d243b1b9f7e04b95127c506b6aae824c9d09,filehash-sha256,Gentlemen,media,61,75,,"ThreatFox, OTX",2026-11-19 14:42:49 UTC,0
+7bc6b89f89812fc713fe755bb119870035c216b883041a59a1d85e90ffc25491,filehash-sha256,Mirai,media,59,90,,ThreatFox,2026-11-20 01:00:26 UTC,0
+44b7dfcf55b0ea0f0b47fee7d242a7c47a6dc2c9f068500d9b531dd09a43fa3a,filehash-sha256,Mirai,media,58,90,,ThreatFox,2026-11-20 01:00:06 UTC,0
+9f8340b810bda1b293356892f8d19b0681066bf8965df0a5ac1b946b58a54068,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:37 UTC,1
+efc5879a29a01dd933ee379d931c0f21e103b93963be074c15fbea4506145306,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:37 UTC,1
+9e1408335d9f0f55bb22b6aa6a7d7c3d311f623d08fc8d9d96e1262a970ca4fe,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:37 UTC,1
+d41da1aadbf75cdb31d6c339a27e0d1abd89fccb4cc4d305f8de7c302b1bceb5,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:37 UTC,1
+fba0f51c1c16dccaf12ec6594383898383c38c19ae8fb96b1d648855b42296f0,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:37 UTC,1
+12cfe4c7eeeace709b3aaf60e33eb01b5b2e1bc963b89f9eb00d0d4ac9bad5d0,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+d56bfef904f65b115dff52687e7434924521cece63e744bb8af740c285b9da5a,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+4c44897105f6745f95e999a86a59d47fded5d4dfde58f90e269bdba561062baf,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+7ded673ac12f21e8ce9a4c17dba2c45e8d27f4b8a5f887ad51656929d4f42344,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+966b2899b0764d152f4a8123d6f13975089208857c03447c2defa2a65e2d1455,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+331f7052583b9879c62bf3341fbd9b618c908817b2bfb040bc8453dadd48ee34,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+7eca3b6cae6a6734f41a1d3c7b2369ad11c9bdb4fdd4a99d4fcca0f1b5168b3a,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+f87a8649d98ba229550ec264ef3bcfea07ec3c6760cb00acc37e6f099fc1359f,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+974c9912827f007148088d2ff09b58031c714bcbdd467f083b5bac60dd5772b8,filehash-sha256,Unknown malware,media,55,100,,ThreatFox,2026-11-19 11:06:36 UTC,1
+e730b5c87978f67e0b5aee81d867834b079f3bf5bc90991ea84df9d1a3088ba0,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 08:59:48 UTC,0
+dc06d62ee95062e714f2566c95b8edaabfd387023b1bf98a09078b84007d5268,filehash-sha256,LaZagne,media,54,90,,ThreatFox,2026-11-20 08:59:47 UTC,0
+898e912e9a9e076d52ebd08841ee7980b4fef9de2cc1fd843dbd0dfb367a5676,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 08:59:46 UTC,0
+281af3669e09b641a31ae5645295c568fb554f21a3d383f0af6bc1266c0f06b7,filehash-sha256,RevStealer,media,54,90,,ThreatFox,2026-11-20 08:52:51 UTC,0
+76c24a549d40435e09aae9ad5b053c5f6c5441ec91ef841b0d9c5d1352b8cbe7,filehash-sha256,RevStealer,media,54,90,,ThreatFox,2026-11-20 08:10:43 UTC,0
+8d0ea0037229d6b20a03931b5c083cfb41474c453e3037f5d8b358c60672b1b7,filehash-sha256,RevStealer,media,54,90,,ThreatFox,2026-11-20 08:10:43 UTC,0
+799cc837f33e43f73c5abc8b6abbae5a32f3f2e2752f5302ad45ae57ac401581,filehash-sha256,RevStealer,media,54,90,,ThreatFox,2026-11-20 08:10:42 UTC,0
+868aae1c652cb479842ccd6b18472328c7edf5d191ad6195c6d81770af89c4a6,filehash-sha256,RevStealer,media,54,90,,ThreatFox,2026-11-20 08:10:42 UTC,0
+080e3b5e8faeab3bf998ce31f52066b2dc6be53e8e034bfc8bfa11a47874ad8e,filehash-sha256,RevStealer,media,54,90,,ThreatFox,2026-11-20 08:10:41 UTC,0
+0e75cbd2825e00c21c83af0624a1107a7fee00fa66c79418f1651d819fb26602,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 08:00:03 UTC,0
+2cf73d6ed481e65eb92080adeea4897f3bf402cab63455bc3ac4fdb6b9b975ef,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 08:00:01 UTC,0
+66058a5061f9c34ab7c2887b69041e3d1967006dd10b3b7987af02fa947e68f1,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 08:00:00 UTC,0
+9062a77124083a58f19fb6e37e8005f2e07794913607510e7206d4f3fffb6423,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:59 UTC,0
+4d92504e0218b627ae662a2bbb9bcebff7e6f5f05b0ff6a0dda2826608882e85,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:57 UTC,0
+e7549b8ba65fa99a8df3a905a1d963e2de1fae688b7869a94f931335039e4e44,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:56 UTC,0
+d89574cdc0e16f2136ca73e42519666712bfb8f970b523985ca1d89aa125ee9a,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:55 UTC,0
+87c58d10b30ca81ee9a5b1fc504a9106dda6c2876661d739a2d8db3658a4c698,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:54 UTC,0
+06c9db8f18d7deeab189c2e5f0825761492c9640f1b65092418f1572b1ce813f,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:53 UTC,0
+24a9d2ff8b45f59fe61ae99c5fa7aba398234310603e9c754225a83c7985a16b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:52 UTC,0
+902c6941c017ecb9723ac8ab8ef0aff606ba4e1bfca0949f27f6d3a39f58398a,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:51 UTC,0
+c1775c990853c4631afa0d6e82ce864ccab084c94abcf0ccd304073b9c7f77de,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:50 UTC,0
+e708d2ae124ff86e4e4c8b8e9c5a0afc7dcdc94a1044bdc4ee7d4777109b1311,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 07:59:49 UTC,0
+916fe1e211d03231ce5588c408317ea110baf55a1cfb2940083e490b235de3bf,filehash-sha256,AdaptixC2,media,54,90,,ThreatFox,2026-11-20 07:59:48 UTC,0
+446205b6c0302ec738b18e027d9343bf454bee9fc2c11672c80fd9d999c423a5,filehash-sha256,IClickFix,media,54,90,,ThreatFox,2026-11-20 07:59:47 UTC,0
+10c8800cf0c8b774f30622ce8435e44deaa6c922794b80165e18fba7516ecaa8,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 07:59:46 UTC,0
+f8813823c64b6221268a2a8941523a9809172a926126136248c5d4bc726e7274,filehash-sha256,Unknown RAT,media,54,90,,ThreatFox,2026-11-20 07:28:23 UTC,0
+e8d1c85f0e6376806fe2190065f3dfab69c7d8e4c18d848f9e3d810942e1425c,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 05:59:47 UTC,0
+927cd1a20b55776b9a8bc5817a48608041d00df378da2abbeff76249722c882b,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 05:59:46 UTC,0
+608c4a0860edb73fc316dbfc7d2a81d5ffce173d124d8302023d6e6a2a3e8097,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 05:59:45 UTC,0
+ab850e17e379e477710707dc72a9f770e5e498999f6c6abecee133d42e38ed65,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 04:59:45 UTC,0
+441b5c662497749d74dd7d2cd9ca60bf82a85dc4ee9e39ae8178e6bfb4bc6785,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 04:59:44 UTC,0
+62c5b21d57e9d8f77abbdf5b4275d7073bd509ef55a6de3bc52ae0d003674853,filehash-sha256,Bashlite,media,54,90,,ThreatFox,2026-11-20 03:59:46 UTC,0
+492785aa9581f5842a6478b16b216af3aa7207aaf3772fb09c9545e1da5eb0de,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 03:59:45 UTC,0
+8852e0016df9f90868ee23d2dfea87e49a0fb89cb925d9e8d9bc0988df819cbb,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 03:59:44 UTC,0
+aeccad91bb2888ff379cb0ab114a5ebc07701660bf6c47927a2a1bae6eb89ee3,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 02:59:53 UTC,0
+7ba10a314348d6d7567a3b3697820d99fbb6d118dd5542a29d5ee97b7888a5fc,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 02:59:52 UTC,0
+3b47193ffb34de4f7dd3a78eab3bf328705e1148621b014d424104337a161c1d,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:51 UTC,0
+0abeb85a452add358af126dd87d1a38addd406e911905fbbe9a3856894c07bc8,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:49 UTC,0
+b248aa11697b6c978c8dfac8be9c441d6aec7f968af2a4c316780ccba96f584d,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:48 UTC,0
+5b6d5d07fa787140e9721228eb615e2773030690b2286c5bcd3b626607f18e93,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:47 UTC,0
+ffe6a805dd7dfb2ba4c5b4280c4971f258d047f11c9772f9eb015237f767bd4d,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:46 UTC,0
+dfa33d362a0ad5806ba23fe50d1864117b89ea5bb49a3334c12a6b0b082b6c68,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:45 UTC,0
+255c834be134ec714ec41b7b97d308019b31965e830eb3e66930ff1afca687d4,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:44 UTC,0
+39c7464e745fa846ddd0b386c6893c6ca34ba20a205856f61e055fcb6b0a825e,filehash-sha256,SalatStealer,media,54,95,,ThreatFox,2026-11-20 02:59:43 UTC,0
+43acd621c1c0db00833e754551656e9550d1a8cc8b13820abf60fe29d6203e7b,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:55 UTC,0
+1958d225a674b5f6085df0f50dad66c64efc9b356acf131f3971c5669ce60f64,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:54 UTC,0
+a1cdc11d48782ba51311889214e790ad86852f10649a53df0e22d02c696bb9ba,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:53 UTC,0
+f006aaa1017115b9d41f28b3187671fabfbdbde131c75732348c4276e2f09373,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:52 UTC,0
+60506893295413b2143b10066d30f9b8f3cb13eeb3f90e4702097c30c390bcf0,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:50 UTC,0
+e83eb1fc0c4d2e1d3062c0e452c317392914acec5d7d9f88a491f001dc2884c1,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:49 UTC,0
+387a5539480bad993b4d12314f81c4f70288b5e524f2a151c8fa09a6aa77472f,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:48 UTC,0
+14cceb54e80e04b16bc7aff71d5dac480a858ff372d83847f3d7a04289b131cb,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:48 UTC,0
+7061859151afce6026c564af8e6d06567b895912445ae7032c7de3a5fbfb45f4,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:47 UTC,0
+939bacb6e74b920b834f0e3564fcbe860aeabc48cb522d68f34607f656d41813,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:45 UTC,0
+10d880a0b91528bd791604f681bdae1dfa405aae7e7118084923e596f6afc4d4,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:59:44 UTC,0
+e11d5220137527a2553482437a120d44a1134b3ee80cda5f125543234ef59bfe,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 01:00:00 UTC,0
+936ef3da89e0adfdea5dfd61c6ffacd7ddb4e118a3bf95b1f1c96a4cd4fb813f,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:57 UTC,0
+0ab667fa2b604db9e29e86b6429c92a60633528442a2d70fce83a96d8e7ffef6,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:56 UTC,0
+9e99ea23c13fb1f880a9880f05b0e4d9318f631e5bc349c3b2ce306165e15c8c,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:55 UTC,0
+2863367bdbc55eae6605225f6cbb547c7da9ae8f70a0b76b060e03c577144607,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:54 UTC,0
+e26acaffb6aeab03932614900dc5203c766ecaf90d7d5c92da1b2325bffdad51,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:53 UTC,0
+104a1804751c1545e1ee563e05bed275359d2c2da9545089ab2fe9fd2d977390,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:51 UTC,0
+fe0a48bd4eae2d93f90c1173fccc0e82d4a0ac803f3dc3ea3a0f47b3c714cd66,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:51 UTC,0
+7d34d93be25012c5d66aa1b0613e08e0bbea9dd7eeba3b59990272f95610926c,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:49 UTC,0
+99df904a471b2db74f25e17709969e5465b2f04281a6da3e9636bba8d2410c17,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-20 00:59:48 UTC,0
+31ee1518da5c18060dbcf259b6e19fc4a2821a8ab011f10f5f623ca3f8606bf5,filehash-sha256,Mirai,media,54,95,,ThreatFox,2026-11-20 00:59:47 UTC,0
+50f92ee9546fc51acb4fcfb2131eb6632325b687b4e0adbe42b28eaa1fb89329,filehash-sha256,Mirai,media,54,95,,ThreatFox,2026-11-20 00:59:46 UTC,0
+765d78be9c09d393f6fa2d4360f709dd0d14b8f653f9afa48f0cfba63b9bc402,filehash-sha256,Bashlite,media,54,95,,ThreatFox,2026-11-20 00:59:45 UTC,0
+cacd3bcc5c397d82545b49c22f8f831aee6976893bd977d8a827a67e9781df9b,filehash-sha256,Vidar,media,54,95,,ThreatFox,2026-11-20 00:59:44 UTC,0
+2120cd6aae081063d7f2f3709feaaf9cfc594fb50d3c2cebd431f0b4a03212c4,filehash-sha256,AsyncRAT,media,54,95,,ThreatFox,2026-11-20 00:59:42 UTC,0
+a3d67ef808497bf48930be418667da0c2d815431213ff9ca4304be6669f26801,filehash-sha256,CloudEyE,media,54,90,,ThreatFox,2026-11-19 23:59:42 UTC,0
+58479001308c208550c828ec58114e208a6876e69010296f8ac8d05e64f6f6b3,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 21:59:40 UTC,0
+81cb70cc47fba5216f1a9119c1ec91bb0bc1f4c75cc795df909258d3dc1ddd02,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 20:59:39 UTC,0
+4b943d7b1abf6e24865cfaccc659ad44c952b2cfec0d15ea6317e8ebc6d3fa1a,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 18:59:39 UTC,0
+17626fae39d3f0dceea3800198d946dae46784cfe393deef4ea0035e53021cf3,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 15:59:36 UTC,0
+82d6ed15674fee74f5d2a4692d8f89f2ba896e42dbfc9aa538b1c4960f11f70d,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 14:59:37 UTC,0
+d2fcf28897ddc2137141d838b734664ff7592e03fcd467a433a51cb4976b4fb1,filehash-sha256,Coinminer,media,54,90,,ThreatFox,2026-11-19 14:59:36 UTC,0
+53d2484ae1ad6ff9547d90f5f5ccd6ae1dca8cb24e622a07dfc74c9593b2c3fa,filehash-sha256,Gentlemen,media,54,90,,ThreatFox,2026-11-19 14:43:02 UTC,0
+1f42d1a0491eff6f7ae1d1ef2bcd0868,filehash-md5,MetaStealer,media,54,95,,ThreatFox,2026-11-19 14:33:05 UTC,1
+a4a2a1d191a09b660ede1ed69a88f48df93519aacc5d89ddbb0c47b14765ee09,filehash-sha256,MetaStealer,media,54,95,,ThreatFox,2026-11-19 14:33:04 UTC,1
+8eed326608093682a484cdb56ff01f39ab00920e,filehash-sha1,MetaStealer,media,54,95,,ThreatFox,2026-11-19 14:33:04 UTC,1
+6d84af335ec57b66fd7832ab3d94e95d,filehash-md5,Agent Tesla,media,54,95,,ThreatFox,2026-11-19 14:33:03 UTC,1
+c042f2111ed7be909b57ad5413177dd9,filehash-md5,MetaStealer,media,54,95,,ThreatFox,2026-11-19 14:33:02 UTC,1
+1437dfd933a2f32e9ff6155db6f8bd68c2280fb6565d1de29d12637a9ccb0ce8,filehash-sha256,Agent Tesla,media,54,95,,ThreatFox,2026-11-19 14:33:02 UTC,1
+b50006f55f537d39bdb9fefb5670b8f6ae6bad2c,filehash-sha1,Agent Tesla,media,54,95,,ThreatFox,2026-11-19 14:33:02 UTC,1
+21c79ab2b6d0b898686490bc30d9077a,filehash-md5,DarkComet,media,54,95,,ThreatFox,2026-11-19 14:33:01 UTC,1
+4139351ef138bdeadd9d68ff07502f682c08070dd5394ad6b67e62ccbd8e8ebd,filehash-sha256,MetaStealer,media,54,95,,ThreatFox,2026-11-19 14:33:01 UTC,1
+15c52e8f498ea75ae984522ff4b1d376de1e545e,filehash-sha1,MetaStealer,media,54,95,,ThreatFox,2026-11-19 14:33:01 UTC,1
+e07d7778523c46af56e329fb799c0663c508954b,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:33:00 UTC,1
+b13bc5204118aef3ac097bec7d289a70,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:33:00 UTC,1
+1f4988915acacc354bdbcff62c35a9ae97f912e3f04558053a11bee501a5492b,filehash-sha256,DarkComet,media,54,95,,ThreatFox,2026-11-19 14:33:00 UTC,1
+31fa174bb236712af453668ff89b70e5613b07f5,filehash-sha1,DarkComet,media,54,95,,ThreatFox,2026-11-19 14:33:00 UTC,1
+6c8febc5bb57e83e63740fbda893b5072e982658,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:59 UTC,1
+5763adf11eb203de7b4591aa585e8338,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:59 UTC,1
+85e9ef7b56bee0e58d0dc6c757e530da1969003b5a67f5f059c985b76273e89e,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:59 UTC,1
+8837e8690e7bba3039c09d8d463cbe32df1a931b,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:58 UTC,1
+0a03ec5630a0fd2a192953500adc7ef0,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:58 UTC,1
+8a751bffd182afe3d27371bd9550ac94cd4c4ada5a79de124952c382090e8b5f,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:58 UTC,1
+96796ac3f9cd3b5fa7df570258a6010b7f5798b9,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:57 UTC,1
+0f89146bb744364737805a11f5d07412,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:57 UTC,1
+83d23a6e83d1165722d57bf35ee641dc5a63fe626d6b90975224f2a1463c1760,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:57 UTC,1
+921c8fde5253150f609da09d0dd2fb432eaa02e0,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:56 UTC,1
+702633163c0b595015c1edf4ba2e94da,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:56 UTC,1
+be2a7e6a0fcba13c12c24ef581901d5d67a584f550a79dc02b485f74076fc8b4,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:56 UTC,1
+55be7322c90334fe91303d972513a7142775e14f,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:55 UTC,1
+5d8e7952e0481bde14d3e6ef481380ea,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:55 UTC,1
+a05063b4ae13c8ff83f0d0d7316e564d66704b2d4ed088281eb76195b8723be3,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:55 UTC,1
+d7ad023731f9b05aff20b2b47b3985067dea70ac,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:54 UTC,1
+1f075fd2f2654851d52e23a2718527bf,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:54 UTC,1
+2a5a881591a1a758e266e82e38cfae72de9115f075d8ee0e1899ca597b16f215,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:54 UTC,1
+2b3c887bcbb0c0aba2b40d77a089603b25e2b44f,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:53 UTC,1
+5980c3b46b1d925ab121d927c1d65a68,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:53 UTC,1
+bf9a4216021c140b732b945b56f7e9bde748300df606f491fb71f438b27a19ac,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:53 UTC,1
+3c885335bff7c10bc41966745e613c03f9055dfd,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:52 UTC,1
+af94eb3628aad1722509e26ed971d6cc,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:52 UTC,1
+f893927ee6bea18fe0569bba1db95176c7002ce4206805dd48fdd2e97b74a596,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:52 UTC,1
+8b286f6f356fda7646eca93b3e1587849f081448,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:51 UTC,1
+bbe4d82b736a14545ab55f21a7fd7e81,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:51 UTC,1
+3a2a3b8c0d9fe1e145dc47d78e8820b485189ffdb1b08a3cb2fdccc9f8b2e58a,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:51 UTC,1
+deb1b17f249ce5cb4679f4db136822d5097ea037,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:50 UTC,1
+8a611b8a30c0d26584b59f59d89f5b42,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:50 UTC,1
+cf516315042b8e475efcea45fc03d2dae3ab2dd694a0efb7c340098582bda862,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:50 UTC,1
+67bd514dea3784229d3d4bfa0ba2d1e5,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:49 UTC,1
+b18726325a4e7d31191716ec73511394814b01a91b1b56b8698dc215ef92a01a,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:49 UTC,1
+6392d6f5726a7e853feb704c10d09149,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:48 UTC,1
+a3ac274f1736b5da2f6d9bedf4cac7b481664b3fe31a25c45c8386830cf78674,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:48 UTC,1
+d7bb45f91b60d16730f1cc911ec66ddfed2d1d7b,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:48 UTC,1
+e4af48fcfddbaa5b87111412e79771dba3a0f8bf,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:47 UTC,1
+5118dea1bc79c5d2eecd14810d9c3e60,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:47 UTC,1
+c387665c67e00001ca34a34944eb69c7c1c442480800e693c0d9bec74ec77cdf,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:47 UTC,1
+31dedd5be9f7deb2d671811187e0c02f67cc1859,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:47 UTC,1
+00b9c45be8dc4364295f6a363c611022,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:46 UTC,1
+440f2b98aed66a2c8896c7d176ce54237fe23679ac36f449b7b206a2acf82569,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:46 UTC,1
+597db48c64e56a4ccf7648592e3c9b3e,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:45 UTC,1
+4cf1359a7a798c7c666cc4a17ed0effa32821aa58495a594a6eae0e5606019e6,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:45 UTC,1
+29aaa4dc1723c17fde1f420f463e315d96b50b71,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:45 UTC,1
+49617a591c8449c3cf6717402035b407,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:44 UTC,1
+aa61eebc9056ca268bfcab7fa3efb2524ed10dd3ae358ccbeda2560fb12b5d30,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:44 UTC,1
+726387820120268094529f135668f3124a89e7b6,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:44 UTC,1
+11d9bc6406d5d865260ac522ffea61d91fb5fb5f1720db120ec653ee0041c058,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:43 UTC,1
+3a760ed2156cae3f628d5f59990fed928a407364,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:43 UTC,1
+092b141e26c9e2609c6355d39e1925c7,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:42 UTC,1
+367b20f8f34375e55a0a4e9cc547dd1f28b17606f3c76da19d458375f91c0f3b,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:42 UTC,1
+8d1586c20bb7ad4b8c95d1fcb3518b2796732ec1,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:42 UTC,1
+219d8f27e9046833f0ce34ab851b140e,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:42 UTC,1
+c7ee3dc20e08b6a3df486942e06e74acfd599a6e54740e4332a57cf5cb3ece18,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:41 UTC,1
+aee993681caa77729d689d1fab54cc96c7c330bb,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:41 UTC,1
+d1e83687357bdfd6059f2042f069ce319f0e43068a342b637c603cda76292e16,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:40 UTC,1
+f60273e4602efa40f95b7b59a1e2e12eb2e3b0f1,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:40 UTC,1
+0856118676b5dbd528922c8b02a4b3a0,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:40 UTC,1
+add7f18ddc6294ba977241134312ffbfeceb0700843b447d3540cf66c0d9a4ec,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:39 UTC,1
+b3b4cdcf31469f73e7fb97cb9030cdf3d6cd2043,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:39 UTC,1
+3c73e83150814c35778e66d24c5c25de,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:39 UTC,1
+4d18d5d96b308afad9c28340a407d156134404401e04af2455f29ba55c4c4867,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:38 UTC,1
+4d2ee7892b5ab60244b5de58f14b87af8de7d858,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:38 UTC,1
+0660850753bfc89f9f7d7f9e544a294d,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:38 UTC,1
+791e444dd72cefacb1e52377d21bf564beeb113ef352fc0aade13ce36367b025,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:37 UTC,1
+475e14662c625d90006e3ef0549bb31bd2c8a587,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:37 UTC,1
+4b6cd48104e9557b04d1cbeb00c1eddb,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:37 UTC,1
+30eba67c1dc2576c6c2bc0d298a513a3,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:36 UTC,1
+c6a769348886b85386cac65b9072893a046c593ef66fe49046aca872746fbf24,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:36 UTC,1
+c52fed25c04c0209bdbda1be00e1847cca62f72e,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:36 UTC,1
+36fc3cbc3c67b57120fd42203f85ec64,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:36 UTC,1
+5508c65691dd38f7ad80b27515e1ba5b,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:35 UTC,1
+5f91c1225d32af29db86150d1d8f92b18ab3de9215a4de1dae10768223d52dc1,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:35 UTC,1
+ac00c7e60dd621dc0873e8009a9f43c65e092a25,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:35 UTC,1
+dfc703e0a14e2ab2b3acfcee2e6a7c4a,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:34 UTC,1
+38be621a7280b124d24869a42952326a9f13db11d839928937c1643da4ea3659,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:34 UTC,1
+1c56ce455cc1b53e6a32cdd366584f928823774e,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:34 UTC,1
+df245487cf1089ea9c44d72a35d88171fe5e18f7,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:33 UTC,1
+e438b1ce1d89c1ce5c60b1f63246482c,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:33 UTC,1
+ca2ca454b3edf00b9183a65180034396ac771505005bce323daf455361f15090,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:33 UTC,1
+c5d74d52e03eafff31b4c2870d1c8d9155a7fb75,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:33 UTC,1
+794011a0929071c80803ef02b95e4c22d075d500,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:32 UTC,1
+8ed14adabce5abebfa5afc31466c9656,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:32 UTC,1
+72637a91fed62155b884e2428c0fa48ad731326b5b08c1edc84563c64e0553aa,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:32 UTC,1
+756fe2614ca8f30dd1c51b3e09b8aa8e4c9ca96b,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:31 UTC,1
+77fcca5e4ce861825755c62b9ca6d85a,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:31 UTC,1
+22047c3de769fe8881bd583470f58c932720f865cb797fa55bfb367e9117e362,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:31 UTC,1
+1780f87888a00f272d8c270232743186b087ec56,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:30 UTC,1
+9b491e7684ca6c3d361acbde6a9ad1ba,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:30 UTC,1
+69e2f90b5278c9bd68ca3d71322f8d30e08bbae7184a8ca574462ac914b7ee8b,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:30 UTC,1
+3d94d9c410c448b0aa858e6aa816ecc56c45e278,filehash-sha1,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:29 UTC,1
+a9552f178a8f93de7df829961de5423c,filehash-md5,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:29 UTC,1
+459513eacc97a7d5499b2ec315a547897d675a8a5583e0fdb6873c2f1556591c,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:29 UTC,1
+5d4c0d7cb9baf11850cb77174df60e9edf24deeaf031f21db1eba10a7e4f81a0,filehash-sha256,Epsilon Stealer,media,54,95,,ThreatFox,2026-11-19 14:32:28 UTC,1
+eac21761cc3a2ba7cde14067ba1fd2b7754f13e2,filehash-sha1,Epsilon Stealer,media,54,95,,ThreatFox,2026-11-19 14:32:28 UTC,1
+391ecaece2793c9829d4db2915e4f7f4,filehash-md5,Epsilon Stealer,media,54,95,,ThreatFox,2026-11-19 14:32:28 UTC,1
+958ed5669d3271317d19afd2a88c3cef01f45eefc37e0988310ce16800f70f20,filehash-sha256,ZStealer,media,54,95,,ThreatFox,2026-11-19 14:32:28 UTC,1
+153549acf79f3cad8658b470e95df932d1bd7d5a5cd54251d99fec63955cf2ff,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:27 UTC,1
+01438a887bc084593f37fb8c38793b7282dd39e6,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:27 UTC,1
+835919bc145fe12e4bdca8ab0fb71e22,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:27 UTC,1
+c221e2da575ced729ea0949a2d6817d3d22feea6eb802afb305866722813dcf1,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:26 UTC,1
+11e6a9b1ca605c417d1ba79fd81f5c8aa0c2f9ac,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:26 UTC,1
+b0c391a1c906a54a4e8963e4ac53d75c,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:26 UTC,1
+2c9b178b6590e492fe4a65dcfa88cd18,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:25 UTC,1
+7008be43b4d644f1a54f63840ab39893ec454467fb9cc574cf93f0944928f56c,filehash-sha256,AsyncRAT,media,54,95,,ThreatFox,2026-11-19 14:32:25 UTC,1
+0ccea8ff6206dd2e96159a6bd4d0021e7464fd7e,filehash-sha1,AsyncRAT,media,54,95,,ThreatFox,2026-11-19 14:32:25 UTC,1
+ccac67801b1f9e9274f7c727ef95037e,filehash-md5,AsyncRAT,media,54,95,,ThreatFox,2026-11-19 14:32:25 UTC,1
+2d375701e5333af997b6ac64a7acd72f,filehash-md5,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:24 UTC,1
+56e048a1f708bde497b3e01dcc218e8640b5903c8fc1989ee24dbe076c2070e3,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:24 UTC,1
+84fcc67a1ac146c0184d9bb149b0ec63241a8bb0,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:24 UTC,1
+d6037d35a5bf8f3baf4d4bffc53e316bfb425d60,filehash-sha1,WannaCryptor,media,54,95,,ThreatFox,2026-11-19 14:32:23 UTC,1
+b638445e62da6a8c11af2e90d4ac0cd4,filehash-md5,WannaCryptor,media,54,95,,ThreatFox,2026-11-19 14:32:23 UTC,1
+df3469af6b6fd6e425bec9e46d2835642be14ab5ecf1c56c6d5f5f4d760f1307,filehash-sha256,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:23 UTC,1
+8c6954dc9f7f66a6f081b5c60add392c92be92e9,filehash-sha1,NjRAT,media,54,95,,ThreatFox,2026-11-19 14:32:23 UTC,1
+220e8f26aefdc6318374a6eac68e8be52142895d,filehash-sha1,MASS Logger,media,54,95,,ThreatFox,2026-11-19 14:32:22 UTC,1
+196a772df3f63c7b049c30f370bdb157,filehash-md5,MASS Logger,media,54,95,,ThreatFox,2026-11-19 14:32:22 UTC,1
+2d5fb9397c6b3ba4ff4c083d5c756b53321ee5beb84b118ca919aa7088036812,filehash-sha256,WannaCryptor,media,54,95,,ThreatFox,2026-11-19 14:32:22 UTC,1
+9da3c405a1ad1832d49e2968bc89dc7177a78726,filehash-sha1,MASS Logger,media,54,95,,ThreatFox,2026-11-19 14:32:21 UTC,1
+abe02a457334fe339ff1ac79f891f777,filehash-md5,MASS Logger,media,54,95,,ThreatFox,2026-11-19 14:32:21 UTC,1
+80d3424dfbae39c5c9b8771789a7d43ff52f4f9cb2fc19926d159afab3e154a9,filehash-sha256,MASS Logger,media,54,95,,ThreatFox,2026-11-19 14:32:21 UTC,1
+c0dec1977846aa5acbcf0b8af50a7c31906caaa4b9be9e98c98ad874d8a2ceaa,filehash-sha256,WannaCryptor,media,54,95,,ThreatFox,2026-11-19 14:32:20 UTC,1
+dffa0a5e985357d3c33a01e3d0b34defb7d28b4b,filehash-sha1,WannaCryptor,media,54,95,,ThreatFox,2026-11-19 14:32:20 UTC,1
+5c4dffeb7692b3a51bedbf593813d30a,filehash-md5,WannaCryptor,media,54,95,,ThreatFox,2026-11-19 14:32:20 UTC,1
+8d56571dadc3c2270101338dec7a0a6be10e65a28a3a47f69be708437acef80f,filehash-sha256,MASS Logger,media,54,95,,ThreatFox,2026-11-19 14:32:20 UTC,1
+32979ae2ec2eee96d898bb599d02683e5f03e3dfdad5fdc8137b3aba385cb0ac,filehash-sha256,Prometei,media,54,95,,ThreatFox,2026-11-19 14:32:19 UTC,1
+01f74fbcc5bdf7ca9c7c23cda1254c63017654a0,filehash-sha1,Prometei,media,54,95,,ThreatFox,2026-11-19 14:32:19 UTC,1
+88e6108b1790df70563dff5b7549d1e8,filehash-md5,Prometei,media,54,95,,ThreatFox,2026-11-19 14:32:19 UTC,1
+cb89e7d7daeea09ddf921f4db5b59764433d004acd90fd5798e0ff8b3fca5fae,filehash-sha256,Prometei,media,54,95,,ThreatFox,2026-11-19 14:32:18 UTC,1
+651c87da8995a15de7ceee721ef6a2d7d285e3cb,filehash-sha1,Prometei,media,54,95,,ThreatFox,2026-11-19 14:32:18 UTC,1
+71eaa6f8f8492b12dc8f155ee9cecc83,filehash-md5,Prometei,media,54,95,,ThreatFox,2026-11-19 14:32:18 UTC,1
+4278827f081f297490d6d26d4d84cd0618ce7d7835cef867e3cee587e550f6cc,filehash-sha256,Raven Stealer,media,54,95,,ThreatFox,2026-11-19 14:32:17 UTC,1
+5bb13aab46d3aa2d2beb042141e8f783f8b6603e,filehash-sha1,Raven Stealer,media,54,95,,ThreatFox,2026-11-19 14:32:17 UTC,1
+46880546a102cab750520bded33f15b8,filehash-md5,Raven Stealer,media,54,95,,ThreatFox,2026-11-19 14:32:17 UTC,1
+f7891cdfbd60b1ecf2d4e2f8ef595716f147667a42f73246e6b73b8d3332d9de,filehash-sha256,Coinminer,media,54,90,,ThreatFox,2026-11-19 13:59:37 UTC,1
+4a08fda83246cc1c4ba7c3b20a719ac5c4f41cb12796f0237136af498f856d60,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 13:59:36 UTC,1
+fc553c354611467b5183782c336606b9bfb6255bb0a216e3392f86c1b8cbde39,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 13:59:35 UTC,1
+57cb5695f069dab1b1cf86706e3b3c5c6b4a2efca665f6dbefce8984090ff035,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 11:59:36 UTC,1
+8e1468ebfa525bc19b4d28a98296442e5e3c83ebac2a2f685f9ddb47761f9114,filehash-sha256,Mirai,media,54,90,,ThreatFox,2026-11-19 11:59:35 UTC,1
+753663572cfaad5b320de095c449f064f77d7c06bfddada9c6dd9cd59fd8324b,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-20 03:59:47 UTC,0
+d7f3d36239a7fa122a2fb49646a12faa16471391f74707407546e202efd1a869,filehash-sha256,SmartLoader,media,53,85,,ThreatFox,2026-11-20 02:59:54 UTC,0
+9f6718521add64726fc04d051fa8c7b9a00ea0e9bafcedecd767f2f71454a988,filehash-sha256,SmartLoader,media,53,85,,ThreatFox,2026-11-20 01:59:43 UTC,0
+a7be54b7ee5b7d69de059800e9eaff5e99f68172fbe9bfdc64d6a4e6db244190,filehash-sha256,SmartLoader,media,53,85,,ThreatFox,2026-11-20 01:59:42 UTC,0
+73f27d682eb9dbb3037d1a765450e69a4fbe1b44bbde3b1da54abe4ff47a0464,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 17:59:38 UTC,0
+0947c7d7a64a96ee6e125f1f9cb65d3deb416646932bf9ded3ede5b4bfdec78e,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 14:59:38 UTC,0
+348b109f2232a3280f1593ac0722b1f4feb44563c9d80a0543ac06972ad32e6c,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 13:59:38 UTC,1
+6c80bb36afc32fcb5558ff2942280fd812d9998a00e543ef3e34ffd129d3a5d5,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 12:59:36 UTC,1
+066ab138c6022b7c7b7c1e89eabf7cb6f052a3ac581f6e39db8c82f7387a2ef4,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 12:59:35 UTC,1
+caf5c1ac20c8088ae42b8e11d3f2e0c14a342ae5cf7cef76f8dab7085b929570,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 11:59:39 UTC,1
+c1ef1966d8557f51e39d1403d6ff2478c15af5a0d99cff5438bd747a48412f1d,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 11:59:38 UTC,1
+3fc727a3b0e7a071b27a1831511a6f0993eb40862c5e60bf45ec10301b13531b,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 11:59:37 UTC,1
+2e987f7ca6c3f481e7235d13d712c7ea5042d8f01df397d951870c59843cdea3,filehash-sha256,Unknown Loader,media,53,85,,ThreatFox,2026-11-19 11:59:37 UTC,1
+2c69bb222de99b52d72338a5026092d21c00f1c9afe1c670ba3e236747c7cf96,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-19 16:59:37 UTC,0
+341a382d6f9e54007b4254f88a169a1c6879ac6415cd8e55792afb11652d2767,filehash-sha256,Unknown Loader,media,52,80,,ThreatFox,2026-11-19 14:59:39 UTC,0
+9e5b93d3095f577136717e6aae8b51fea50d66ef9123eedccfc23b8faebf6d6c,filehash-sha256,Coinminer,media,51,75,,ThreatFox,2026-11-20 07:28:13 UTC,0
+6ef27a778205b49344615af4c6983ebe2ac8fe89738eb44c202fdefb0fb40cc9,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:28:12 UTC,0
+6e90179c02b4766ffdc7bab877419b05c9a7465e7f01dd1c6795a763522cfd79,filehash-sha256,Unknown Loader,media,51,75,,ThreatFox,2026-11-20 07:28:04 UTC,0
+f65b95003379ee8e8a6eaeef1405af5d5d7282ab93567b4622d917a5d9f1335d,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-20 07:28:03 UTC,0
+5c54ede33db8a4af5c7574eb1cde60444ff3f6c3c742222139abaea3dc6bd6b3,filehash-sha256,SNOWLIGHT,media,51,75,,ThreatFox,2026-11-20 07:27:56 UTC,0
+187c25e0604530f5f6a8ee79b0798f89ef0a132dbe69b55b6afb1f2583f84b2b,filehash-sha256,SNOWLIGHT,media,51,75,,ThreatFox,2026-11-20 07:27:56 UTC,0
+5fbd46e376797b75f5455775d0e62dcfdb30e81375c45fb20e0c31593a37da1b,filehash-sha256,SNOWLIGHT,media,51,75,,ThreatFox,2026-11-20 07:27:56 UTC,0
+407fb53e62d4ed0e2d043b60f0916ff77ef2b8fba3dc0f6594218a4877edb5aa,filehash-sha256,SNOWLIGHT,media,51,75,,ThreatFox,2026-11-20 07:27:55 UTC,0
+ce23335488686504739da1a00270b71a444ab4165b341fda116ff08d705bf914,filehash-sha256,SNOWLIGHT,media,51,75,,ThreatFox,2026-11-20 07:27:55 UTC,0
+c75e88a2e2c754165bcbc1a6edbd99ffbbb5edea85cc4a36ec9ed6a2b9c83f21,filehash-sha256,VShell,media,51,75,,ThreatFox,2026-11-20 07:27:54 UTC,0
+cf14e20a5221c18e7480bb14e95a522687f6dedd5eb68119fbfb1f2a7ce93e22,filehash-sha256,VShell,media,51,75,,ThreatFox,2026-11-20 07:27:54 UTC,0
+3a1d6c25cc101de57145b7fe8f6d98f211ac77490157dbee500b73a8adeb0838,filehash-sha256,VShell,media,51,75,,ThreatFox,2026-11-20 07:27:53 UTC,0
+4feed588acc1396e2deeb1fc04f145cfca464ba7617dc3c1c9fe7dcc545d2d1d,filehash-sha256,VShell,media,51,75,,ThreatFox,2026-11-20 07:27:52 UTC,0
+9f759c8747471600f506cece7acea88c750c8dc37da9777768f6bbe55fc34524,filehash-sha256,VShell,media,51,75,,ThreatFox,2026-11-20 07:27:49 UTC,0
+07ed89158c1dc6d95b6b47e69eeeff3ccbd3d8f81489b84e6cdbfdc226b50c1f,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:22 UTC,0
+0df18a4cc9dff53641f9308a90401198c53242c06ce430dbdee0d89e9d25c7f6,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:21 UTC,0
+32fdb3ed8e69c9ab0bd385decdc8d486db8b75df681e978d80c9ea5430ecbef5,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:21 UTC,0
+491a01d47c2ab2276705eac6b684c8c15d01071957c2875fb5e2282c934e443a,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:21 UTC,0
+4f8e1033ca98846714ad250081291cb0f9058dc4e237603a6a71501365bebf25,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:20 UTC,0
+55212fdfd4e9b5082338f3dd2c9194305fb34afcad3d2212b331e8419043791c,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:20 UTC,0
+6b97a797aca10540353c5b68c052d3f3807075ca0258442648fd369d00c0f4ea,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:20 UTC,0
+8762c66f47f5e562d974430e1548f9672deb7e1acbea010a6717313f4ea2c244,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:19 UTC,0
+8ba3a702f8eab1692fe3717ad8d547525761d7643000517d2b54ed2f797b9b4b,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:19 UTC,0
+a1d2220ef61333d321d60fde3eca6c51ea790987c57610b93f6d5be6bfacc856,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:18 UTC,0
+a7935d5ce2560714c06cce3b82ffb8356326d84028f28cbf1bb979cb233fc8ab,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:18 UTC,0
+a8d1f9666d0b2684e06aa7a19f3e15662fcda9ebdd68e014c6dde57f22cf905c,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:17 UTC,0
+cab6ab8f9e05daf027de1670e3e4c970e9bfae2c07b956d29d73d5d09f3a5ec8,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:17 UTC,0
+76ae6d577ba96b1c3a1de8b21c32a9faf6040f7e78d98269e0469d896c29dc64,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:05 UTC,0
+9665a120423fc3a866847375402fac4dcd7fa4efa051e5b6a702ac2497883ef2,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:27:05 UTC,0
+fc8eff6ebcd92a9dc5a5c72feeb649883c4e86b24c104024fc6e6706695b618e,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-20 07:25:04 UTC,0
+9c91546bb4612e0a728d7f336fd8e18c515982e19f7e886f38bc53808b9ce7d7,filehash-sha256,Prometei,media,51,75,,ThreatFox,2026-11-20 07:25:04 UTC,0
+0d07a653649aefcc92c3315925cde3085b02b9a50f60cddf50b571fde3763955,filehash-sha256,Gentlemen,media,51,75,,ThreatFox,2026-11-19 14:43:03 UTC,0
+1d7d51d51f0d12661db27b7d7c06320f8cc51eabfd2550c298141ebc24704451,filehash-sha256,Gentlemen,media,51,75,,ThreatFox,2026-11-19 14:43:00 UTC,0
+2da8816369c6163d84fb98790bc1a8511bea3eccd805ae9b4c995944ecf7a672,filehash-sha256,Gentlemen,media,51,75,,ThreatFox,2026-11-19 14:42:57 UTC,0
+daf2e4d0b5e859062953821663a332387f99a48e9405834f28f8f170c92bc05d,filehash-sha256,Gentlemen,media,51,75,,ThreatFox,2026-11-19 14:42:50 UTC,0
+6263a85611c02a0b78d5e5620f1f34a99eba3b74f614742e8b0cf29ca8ef4fa5,filehash-sha256,Gentlemen,media,51,75,,ThreatFox,2026-11-19 14:42:48 UTC,0
+992c951f4af57ca7cd8396f5ed69c2199fd6fd4ae5e93726da3e198e78bec0a5,filehash-sha256,SystemBC,media,51,75,,ThreatFox,2026-11-19 14:42:48 UTC,0
+d976deeb42a212838b5cb88aaf32ef10e1427225e530b5d87e9ff04827bcd25d,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 12:45:26 UTC,1
+ea27ea76ccb27c3241ad866b35ca28ced8f4eda4b67ae47b7409f9dd65015276,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:40 UTC,1
+ec690aedb4ff613d023585940f82a546cea7db498599fd0589fd77cbcb8a3d96,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:40 UTC,1
+f640bfbf81e6b9d7427608c24c00753a54318d46426d3b906f6d22dcc39e4be3,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:40 UTC,1
+f74b593e7ee6a0b3c1b184798f6af8c2f50f932703369e212a6654dac28a6564,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:40 UTC,1
+b0401efadfdb1e22282852c71c55d7b0e42b2adf8656e1ed5993d95da3610460,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+b16e15764b8bc06c5c3f9f19bc8b99fa48e7894aa5a6ccdad65da49bbf564793,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+b28233f84b6022af819adc47e0763ad76ec39d057e6b59dcc219a97e63f0cbd0,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+b6402726a357c13f865b8333b696ec2d42b6ffbf49bd151fe7fc563e067609e7,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+b9b17c4bfb3a6a9057922c57a60a991b968692dd5e62f097409f63b9e81f2531,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+bcea26be8db5a35953e510544705b00dc0be3abeb5a73de81131e3e18a862e4e,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+d06f4d5357a82aa87794436260e6059397ac3d5e42d916ea8d898d34a9944bab,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:39 UTC,1
+579cedb6cb022b820b494506bc6ea96aabeee0949693528bb8bf2c3c7beb2955,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+6fe3779ca5f37dde4f680dbb7fe5ae87af32a6b463d059ba89fa8426963772e1,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+72cc6bb50bd14fd3f321c490d114ae6b7590db19cb306945dc7f4ac945137ae2,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+77833e3d04029664b9a3a7c3ce5d83a9c9cb27b2f3df4880da751a834987ce4e,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+7c4bee39dc129a61005bece9712d1482e0ec83d498b4fd30782853d94efd875f,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+815999209a68b6b1841c51c112c62a99c13d9fffc4f3689ace19c192cacc0e1b,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+860b53ed6ea6a0cf602fae632cfcd28dbcf637f85a8bee28d2ee9c6cc9081669,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+8b28f3252d9bc7e04a16089ef87528cdba56e559544c3771465539f7263e2d78,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:38 UTC,1
+19830ad41eaf3edf27c3922373f03d457f49dbd2a60a229d5be23db0a069761c,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:37 UTC,1
+2a3de95c6bdd9032c05b22503c446320bacc3e45081827f3ce4c83f68ef907e1,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:37 UTC,1
+340c8464c2007ce3f80682e15dfafa4180b641d53c14201b929906b7b0284d87,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:37 UTC,1
+34b6f65293709f1f84a28764093d188eb36973005f1f884c537b48fd051817fa,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:37 UTC,1
+53373488fe4e66c04684624bc4f6aaaa59468f028dcfaab7417f429bad52c466,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:37 UTC,1
+fba55fd42a6cb14c417c3922d09fbcd105bdce13aff48ef908e6a201174a535d,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+053e647b84d9a21e8f4a0f2d36db8ed9c8f9bb70e35813ecd23593fc5fd724f7,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+06dc0eb2339de79477a0960edce19cd52c43fa318db3f563b4b14127dccc2e42,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+079d70b4efda9ce53732714261c0e57f059c4a0f7c1934059c63ad26aa635ff4,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+08d3a48cb6a31ab23e4d6e5d522bec146819a340a122807320a80dd0bb017e72,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+0941c13f2fdf48e4a247bc4ffcdb362ea5093f508a56b8fa6a66a5662b87b3d6,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+0dc0d9eca233d6fe079d1d53f82fa77ddee24d99e808711d2055ec697d62ca2d,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+0dc95fb4077cce0bff19aa1a77109d059dff6503bbf6c1b0dd2f41fc0a4c88e7,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+159ada78dbccab89cc9a0f5e991b377045f90c171ffb928e1253f98858b50354,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:36 UTC,1
+af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+b1966cbb3c555dd0ba43097fe27ddc1a448606df77f45df754b5ee7d98031b2b,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+c831067b55b82eaec9ebfbe8dff03b58455cfc615e11f4ce501643d278344c2e,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+cebd85b5ec3cf2c0218c7aff8b9252e0df60dc0067ee98357f4537a9d3bfaddd,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+ceec2ae80217882a47f718975f6cf5eb8bf8162fb381886a59835a6ec4916c30,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+d399ed1ba0049541cf631b7746753a585b45f8d41b1094528a0deccd27e91251,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+dbf08306ed3c5423dadff7e9daa2db0af8a759bc3d085d6b8a7e57ad4b628f4c,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+dc49139232d29bc5a7fdcd17192c692b7e0b3128dc669f69630360877b149379,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+f21b3a0cea46a7bcc99736921b0541267cf0d6c1e84e4b282cdcc707f4d6052e,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+f5c0fabbc05edbd7c3836c955b7935364a065c00eed5066473e707de068da092,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:35 UTC,1
+6574c6ad164e7ab79a33f214165f5710b07439460b85111db164d6df27967109,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+72e41fb52fcf27e053be026d389dc31a7834aa8a4cf339464b86be7e6ef9304e,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+7e2c72088834f0a0de6a06718bfcc24104efbc9cd9ed2e3d37af885cbfaa59a6,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+880d44bc4310c80017e14e1ffed543132168d7ec4bd2c8d9a76c82a9ac5368aa,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+93297673bc6cdff5c54f9d334f9721ba9639f39e33a99938d4ceaa0d25c28091,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+99a7e360b0568778137ad883a5f53d75bc962d2543d958a0aa9f18974d3d0bdb,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+99a8dbacf067afd530f4dc4da6be7a41542572219aaf831a55caf24640a18547,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+aeb8310fde464582c90b9061346e6243c210e53a7ac57948fac0f1f0cd6d94e7,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:34 UTC,1
+0098cfff9e6056e6cf9e1e34a798110a2b6b42fca27652eeabc5bbcbe11b6be2,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+00deea7003eef2f30f2c84d1497a42c1f375d802ddd17bde455d5fde2a63631f,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+17b7944a9b8a4e3edb1b1f2e743ae5d06dae0a8c3a9531e94970aa3261c2cab5,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+24d01104aaa11a1afc39e0bfc2054b114d4ba423905a3b3a5dc767b50003e374,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+3dee4ae99367e44593b6410defcaaf65b6ae5a8d4badd6d7bbcb50ed863ab955,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+47b268c21591069bfe4099833ad66b8138a53ab2dcb866e040d466aee1f8624c,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+4ab686e2cc774229d402ee8ebe5688c1650c3ef433f43fd87967c18885c8d01c,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+6206e0255c8f37c133b16b5bd5da1c3cd5675442f10272cf6d2052973013fa08,filehash-sha256,Unknown malware,media,51,75,,ThreatFox,2026-11-19 11:00:33 UTC,1
+fd59897621bf88ecbd0962268e79677d7f0d9e4b994f276361f1c8a9890b896b,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:31 UTC,1
+fe3a054c882d93d497456bed1b1935a692c766a0cc14cb245c27db4ebf0d9dda,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:31 UTC,1
+e4ac42673578f1971d87059be0c15de23647a091f01bc63478d7e5bdb164928f,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:30 UTC,1
+f009585013cc547ee1acb1329f1996ff257ac7feb197ea296003d66af78d3a76,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:30 UTC,1
+f57f18df7dd8fb087bec87204e601e120214f459f0e3e9c4a626675966186354,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:30 UTC,1
+d4f21be460c047321a2891796e5c93d02c823c31a7cecd5c56087d1eb7b65e83,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:29 UTC,1
+d6f0c3c3e1254ebe06bc0e84a82dbda3436cd93fc312b9db26be5d533ebccf77,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:29 UTC,1
+daf823f9178b952c906e87afa36481de8978fcdeb3caf58bd1f0b397b1b706d2,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:29 UTC,1
+a4d3959342805223b2ebb945d27b5cb3fa9e6cbd3a191e6cac71cf6ba115b6ed,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:28 UTC,1
+abd829169f5f29ab0978e87ff06939b9c817180e5e5bd623e5279c4cf67bc6a9,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:28 UTC,1
+86b0585a82995c6df240a822d19e6a08ed95e31307a4fc8aa896a8d4aa502b8a,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+89b69cdcb3e868f5b42ef39acec81db40c2de7502e163e00964984dfd8c52b5f,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+8eff337d7a7b239eab7c2d4dfeab2e924268515beb6757b671a8f0722d4f1050,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+8f6379d8b76b73334895d29e6a345c3c94b404dfde2a0a596f2171518c97a3a2,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+95c5124c6a422726b211b066011993d7d62df744bc023509731bf3d6acaa2318,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+964ad06953d28bff625b49a6f90a721d13eda1128f9098ad0e2586931da6274c,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+99f7529a4a868a16da7a0cbd0e29e2250c15caf4c739c7a7727e3d6b33a056e1,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+9b5cfdb8a10c3a1db7f9179afa60af697b7d10cce75acb989de3f7e465f2aa7d,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+9cc72457326f7662205688fd9e6276f65ee77e7cc2785234bd8200b88bed2b8c,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:27 UTC,1
+6ddead306e2d19b6c1a5ad81795046edcffc6442e4b5f442551465cc7360b16e,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+70a56d76a081ab15f7b67cfc654d73f40927c1c188f1bd72b1011a6e7b5899d0,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+72a77c71bf3fc29c82fde2f7514f9f1ef6d7705963ed9902b814b5a3054f7b12,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+755a3c0561b5386c436c840443b39fd06a61cfae96e05500ca80b6feaef8542e,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+77e57670562d923b0f86b9b1f4e802dab2b04f82766041be259244f98ceab6a9,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+7af588413a782f0e19954c4592e9266f195ba5762931ba142eb7092b744b0c4f,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+7d74e374cfb5101a2f6cd68b7b44b69e39dbf9a46e3a15bc4d7759968c093d16,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+7e9b5454e72923f97e7ba34e5b5bba0a7eae2414382e62a17f52e647bf04944c,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+7f471d9ddbe8fdba7ea6888acad61b444dbe44e1e47a732bda788ebee2b80ea6,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:26 UTC,1
+5224c4289cc2db8300d821c8a60212f3ae2e955d0a43607526caf4a37231381b,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:25 UTC,1
+613f8fdea40b6415bda54f817e6c56604fa1f4cc81ac86ea18a0f371689ed972,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:25 UTC,1
+67b0da26287a648fba6ff79e1f6293a7a3f4b2c5f6d8a10c3615e624441cb98f,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:25 UTC,1
+310f1256e421e196f3f3d663f535acfad675d1d2cb69d67246e65d33e53a793f,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:24 UTC,1
+32cb9000a59e39eb4492c6cd25a516c276bb4147bf9d717b4b7c15109830e89e,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:24 UTC,1
+32d42a770077dbf23b23f5648a59851c5308fb02a5d797fe0a6a3ff6940524e0,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:24 UTC,1
+393dbd05d65ffccd022af4344fe6dc56f3b06456cc6f94b59869cc71aced77d9,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:24 UTC,1
+3986542ca05af29d67d9f1fa9c40b0f794334549b22e34ebd341f9460b56b198,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:24 UTC,1
+0d042b25de61a70cf11145f1aa9ca19d2eac7f352894671331f1defa2b98bc5d,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:23 UTC,1
+185a78a83641d0abe00a04e69c45611f10e0095bb957618571cd172e75db93ae,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:23 UTC,1
+185df66ac1cc1127c70efbbd3f84b4141c69496140e3694d07f40096dd520018,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:23 UTC,1
+2923ea4ee6579db31e6fb4e28c12b39785ed25d8a5994a7c8f3de199f7933f9a,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:23 UTC,1
+2a832b21ea1879a9ae69270cc2ff339aab31ea17f12b6efc1986bb50c6295b26,filehash-sha256,Mirai,media,51,75,,ThreatFox,2026-11-19 11:00:23 UTC,1
+b87cbc10e331d2a9f1265d4d912f2df99d856df1f1a9c4cec2633e86d03476d1,filehash-sha256,VShell,media,48,50,,ThreatFox,2026-11-20 07:27:52 UTC,0
+8d38b11efa639134649b6819685a4e1ec5235de4ed09778ba11740faddc03b0a,filehash-sha256,VShell,media,48,50,,ThreatFox,2026-11-20 07:27:47 UTC,0
+213c441cc21925f0a241015cd0377313d8a3ebc8f1efa22071a8c63d8ed64227,filehash-sha256,VShell,media,48,50,,ThreatFox,2026-11-20 07:27:47 UTC,0
+5e19775fb8f806d39b76ff1429ce20b73375b58d8fd2ec61c04756af3836dd14,filehash-sha256,VShell,media,48,50,,ThreatFox,2026-11-20 07:27:47 UTC,0
+1ec4245b3b303304ea24a89b3b2351b0f0c085087050f517d23dcba9694c165a,filehash-sha256,Optimizely Supply Chain Attack Distributes Malware Across Global Brands,baja,25,,,OTX,2026-11-18T13:38:10,1
+b720a5e7c3a5b1760d15a8833a782f4fe7fc5c62b967fe57f607e72745ec0ccf,filehash-sha256,Autonomous LLMjacking: 'Skynet' Agent Hijacks Exposed AI Models to Run Attacks,baja,21,,,OTX,2026-10-21T10:40:14,0
+fcde1323acceb46fd88f2276c010bb98839dccce03dc512c56d9529428ceec68,filehash-sha256,Autonomous LLMjacking: 'Skynet' Agent Hijacks Exposed AI Models to Run Attacks,baja,21,,,OTX,2026-10-21T10:40:14,0
+1334f0189a8e6dbc48456fa4b482c5726ab7609f7fa652fcc4c1a96f2334436f,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+dce2e5cc00eff2493f8ced546dc51f9d5ef78c5ee56805906ec642dfa77a1c70,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+698ce57e5f0ecda7b41d2c6c1e7ca177,filehash-md5,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+736a6b312fe80efea9bc2e482629be06,filehash-md5,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+9887bc4eed59173d94f5340ef7c09e8ea68cd824,filehash-sha1,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+9e9cfecdae356761795f5c5f5655d1ec306e39d6,filehash-sha1,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+598b222fe1d12453639dc14b390b3fa9,filehash-md5,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+6440dff8fd8156ef54f6814207983d65,filehash-md5,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+926d26fae93d090519ac0f0e1155150e,filehash-md5,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+f3c6ca1ba97b7f94ab52584dc62ea691,filehash-md5,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+06c524df4947206f9d09181a187ead4128f8c0e9,filehash-sha1,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+6983544798d04f180427d1cb81c3a11ba227bfd4,filehash-sha1,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+9ef41c3f92003f73a9946f50ab5a20f6f5df56b7,filehash-sha1,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+a1894ecc337c34031986f5908c7300b2483074f6,filehash-sha1,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+143af42b492b0f36b296b0b593bd630248b5641c20b1ca1e5603e7e01b5b0676,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+363a435e517f344056c42f8d46ef73396220f79e780828ad35ec0a68e7525d02,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+403187f08c064f244e101bbc03f1fb5b82af8ebdf4b2be0ba1a70d59ac74b313,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+5206a05eb128ccdef497f7f234cb27678046f6c6b12aa7a072672f2a4694c2b9,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+a1500204822fb16556a274132d802ba18a7e8b95cf134bd17b473f915e8cda81,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+a974a9f097bc2e26f285560f1454c70710c88c30c0ae1edfa2977ad862c56716,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+dfdc8313921c0f594ee1cd41ff7ef73d973c667438c2dfe5c38cafdbba10defb,filehash-sha256,The Gentlemen: A closer look at a not-so-gentle ransomware-as-a-service operation,baja,21,,,OTX,2026-10-21T06:20:57,0
+40103a4ae0abbef8f35a7adce7f50a9f536198a850b6eeb9761d6470d1fffa9e,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+6dde072a64933967456a57610dce8978dab195f9f9de66a0ecd1b1c7bfacacae,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+70af26f3fd65472877ba5a3676a60d4a7ea7bbcceddc8e363ca795f36bb96ac4,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+7e43fe3888ac282b04074916fc4c5e33697a9f254403537e552f11b7cbd4ac4b,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+ab8c39638608738349fddb02f73a0bb5712809b22cd2863f57829e8d6f35c24d,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+d2753dc8bb3ffc5b6aeea02a6bd2faa9d83c4d6f4c9e8ae207767fe6614609e3,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+f1f5f46f5e5e3d111779310cf3b57461a18f12f903a88290a035993dc72d6a14,filehash-sha256,Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell,baja,21,,,OTX,2026-10-20T16:04:22,0
+3fdcc7d7d049a89711fb31fb236940a1c5a09d899143ffd20c3c41fb1f2cf491,filehash-sha256,Active Exploitation of CVE-2026-110936 in Siemens Software Center,baja,21,,,OTX,2026-10-20T14:43:58,0
+f4d7c5321bb0d1bda439304a753bcf9b467b98ca53c7e9493b9c2c3451092e4a,filehash-sha256,Active Exploitation of CVE-2026-110936 in Siemens Software Center,baja,21,,,OTX,2026-10-20T14:43:58,1
