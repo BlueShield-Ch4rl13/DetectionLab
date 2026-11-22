@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-11-21 10:46 UTC  
-**Listas generadas:** 2026-11-21T13:57:58Z  
+**Feed generado:** 2026-11-22 10:50 UTC  
+**Listas generadas:** 2026-11-22T13:51:50Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 222 | Caza programada, no alerta directa |
-| Dominio | 510 | Caza programada, no alerta directa |
-| URL | 187 | Caza programada, no alerta directa |
-| Hash | 778 | **Alerta directa**: un hash coincide o no |
+| IP | 0 | Caza programada, no alerta directa |
+| Dominio | 0 | Caza programada, no alerta directa |
+| URL | 100 | Caza programada, no alerta directa |
+| Hash | 125 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 21 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,51 +29,45 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (59 de 1756)
+## Que se descarto del feed (70 de 295)
 
 | Motivo | Descartados |
 |---|---:|
-| nivel bajo | 59 |
+| nivel bajo | 70 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
-| Skimer | 334 |
-| Unknown malware | 254 |
-| ZStealer | 156 |
-| Merdoor | 120 |
-| Mirai | 114 |
 | malware_download | 100 |
-| Unknown Stealer | 72 |
-| Raven Stealer | 69 |
-| ClearFake | 42 |
-| INC and The Gentlemen Ransomware: Exposed AI Infrastructure | 27 |
-| Stray Cat  Open Doors: How k0t Wanders Through the Network Edge | 21 |
-| Vidar | 21 |
+| Inside SiriusQT: A Seriously Skilled RAT | 80 |
+| SEO Poisoning Campaign Delivers New Armorsteal Malware | 21 |
+| MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration | 18 |
+| StealC Is Back  and This Time It's a RAT | 5 |
+| M365 Token Spray and Replay Campaign Compromises Business Email Accounts | 1 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 222 |
-| `wazuh/cti_dominio` | 510 |
-| `wazuh/cti_url` | 187 |
-| `wazuh/cti_hash` | 778 |
+| `wazuh/cti_ip` | 0 |
+| `wazuh/cti_dominio` | 0 |
+| `wazuh/cti_url` | 100 |
+| `wazuh/cti_hash` | 125 |
 | `wazuh/cti_cve_kev` | 21 |
-| `splunk/cti_ip.csv` | 222 |
-| `splunk/cti_dominio.csv` | 510 |
-| `splunk/cti_url.csv` | 187 |
-| `splunk/cti_hash.csv` | 778 |
+| `splunk/cti_ip.csv` | 0 |
+| `splunk/cti_dominio.csv` | 0 |
+| `splunk/cti_url.csv` | 100 |
+| `splunk/cti_hash.csv` | 125 |
 | `splunk/cti_cve_kev.csv` | 21 |
-| `sentinel/CTI_Ip.csv` | 222 |
-| `sentinel/CTI_Dominio.csv` | 510 |
-| `sentinel/CTI_Url.csv` | 187 |
-| `sentinel/CTI_Hash.csv` | 778 |
-| `elastic/cti_ip.ndjson` | 222 |
-| `elastic/cti_dominio.ndjson` | 510 |
-| `elastic/cti_url.ndjson` | 187 |
-| `elastic/cti_hash.ndjson` | 778 |
+| `sentinel/CTI_Ip.csv` | 0 |
+| `sentinel/CTI_Dominio.csv` | 0 |
+| `sentinel/CTI_Url.csv` | 100 |
+| `sentinel/CTI_Hash.csv` | 125 |
+| `elastic/cti_ip.ndjson` | 0 |
+| `elastic/cti_dominio.ndjson` | 0 |
+| `elastic/cti_url.ndjson` | 100 |
+| `elastic/cti_hash.ndjson` | 125 |
 
 ## Como se instala cada una
 
