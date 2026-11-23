@@ -3,18 +3,18 @@
 <!-- Generado por tools/sync_cti.py desde ScriptNewsCTI - no editar a mano -->
 
 **Origen:** [ScriptNewsCTI](https://github.com/BlueShield-Ch4rl13/ScriptNewsCTI)  
-**Feed generado:** 2026-11-22 10:50 UTC  
-**Listas generadas:** 2026-11-22T13:51:50Z  
+**Feed generado:** 2026-11-23 11:51 UTC  
+**Listas generadas:** 2026-11-23T16:59:00Z  
 **Filtro aplicado:** nivel minimo `media`, maximo `30` dias de antiguedad
 
 ## Que hay en cada lista
 
 | Indicador | Entradas | Uso previsto |
 |---|---:|---|
-| IP | 0 | Caza programada, no alerta directa |
-| Dominio | 0 | Caza programada, no alerta directa |
-| URL | 100 | Caza programada, no alerta directa |
-| Hash | 125 | **Alerta directa**: un hash coincide o no |
+| IP | 274 | Caza programada, no alerta directa |
+| Dominio | 1107 | Caza programada, no alerta directa |
+| URL | 126 | Caza programada, no alerta directa |
+| Hash | 839 | **Alerta directa**: un hash coincide o no |
 | CVE en KEV | 21 | Priorizacion de parcheo y caza de explotacion |
 
 ## Por que las IP y los dominios no alertan
@@ -29,45 +29,51 @@ mirar. Se despliegan como **consultas de caza programadas con umbral**, en
 El hash es distinto: no comparte infraestructura con nada legitimo, asi que
 va como alerta y ademas sin caducidad.
 
-## Que se descarto del feed (70 de 295)
+## Que se descarto del feed (97 de 2443)
 
 | Motivo | Descartados |
 |---|---:|
-| nivel bajo | 70 |
+| nivel bajo | 97 |
 
 ## Familias mas presentes
 
 | Amenaza | Indicadores |
 |---|---:|
+| Unknown Webinject | 876 |
+| Unknown malware | 479 |
+| Mirai | 158 |
+| Raven Stealer | 102 |
 | malware_download | 100 |
-| Inside SiriusQT: A Seriously Skilled RAT | 80 |
-| SEO Poisoning Campaign Delivers New Armorsteal Malware | 21 |
-| MythicRatatoskr: An Yggdrasil-enabled backdoor deployed in a UAC-0099-Sandworm collaboration | 18 |
-| StealC Is Back  and This Time It's a RAT | 5 |
-| M365 Token Spray and Replay Campaign Compromises Business Email Accounts | 1 |
+| Vidar | 87 |
+| Unknown Loader | 83 |
+| XWorm | 55 |
+| SNOWLIGHT | 41 |
+| ClearFake | 41 |
+| NjRAT | 38 |
+| Infostealer riding the AI Train | 37 |
 
 ## Ficheros generados
 
 | Fichero | Entradas |
 |---|---:|
-| `wazuh/cti_ip` | 0 |
-| `wazuh/cti_dominio` | 0 |
-| `wazuh/cti_url` | 100 |
-| `wazuh/cti_hash` | 125 |
+| `wazuh/cti_ip` | 274 |
+| `wazuh/cti_dominio` | 1107 |
+| `wazuh/cti_url` | 126 |
+| `wazuh/cti_hash` | 839 |
 | `wazuh/cti_cve_kev` | 21 |
-| `splunk/cti_ip.csv` | 0 |
-| `splunk/cti_dominio.csv` | 0 |
-| `splunk/cti_url.csv` | 100 |
-| `splunk/cti_hash.csv` | 125 |
+| `splunk/cti_ip.csv` | 274 |
+| `splunk/cti_dominio.csv` | 1107 |
+| `splunk/cti_url.csv` | 126 |
+| `splunk/cti_hash.csv` | 839 |
 | `splunk/cti_cve_kev.csv` | 21 |
-| `sentinel/CTI_Ip.csv` | 0 |
-| `sentinel/CTI_Dominio.csv` | 0 |
-| `sentinel/CTI_Url.csv` | 100 |
-| `sentinel/CTI_Hash.csv` | 125 |
-| `elastic/cti_ip.ndjson` | 0 |
-| `elastic/cti_dominio.ndjson` | 0 |
-| `elastic/cti_url.ndjson` | 100 |
-| `elastic/cti_hash.ndjson` | 125 |
+| `sentinel/CTI_Ip.csv` | 274 |
+| `sentinel/CTI_Dominio.csv` | 1107 |
+| `sentinel/CTI_Url.csv` | 126 |
+| `sentinel/CTI_Hash.csv` | 839 |
+| `elastic/cti_ip.ndjson` | 274 |
+| `elastic/cti_dominio.ndjson` | 1107 |
+| `elastic/cti_url.ndjson` | 126 |
+| `elastic/cti_hash.ndjson` | 839 |
 
 ## Como se instala cada una
 
