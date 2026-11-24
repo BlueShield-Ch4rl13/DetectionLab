@@ -1,9 +1,11 @@
 cve,vendor,product,name,date_added,ransomware
+CVE-2026-133968,Project MONAI,MONAI Label,Project MONAI MONAI Label Path Traversal Vulnerability,2026-11-23,Unknown
+CVE-2026-134624,N-able,MailAssure,N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability,2026-11-23,Unknown
 CVE-2026-129448,Apache,Roller,Apache Roller Deserialization of Untrusted Data Vulnerability,2026-11-20,Unknown
 CVE-2026-123890,Broadcom,VMware vCenter,VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability,2026-11-20,Unknown
 CVE-2025-42884,SAP,NetWeaver,SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability,2026-11-20,Unknown
 CVE-2026-76466,Cisco,Expressway Series,Cisco Expressway Series Use of Hard-coded Credentials Vulnerability,2026-11-20,Unknown
-CVE-2024-10441,Synology,DiskStation Manager (DSM),Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability,2026-11-18,Unknown
+CVE-2024-10441,Synology,DiskStation Manager (DSM),Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability,2026-11-18,Known
 CVE-2026-40217,BerriAI,LiteLLM,BerriAI LiteLLM Unprotected Alternate Channel Vulnerability,2026-11-18,Unknown
 CVE-2026-90817,Vanderbilt University,Research Electronic Data Capture (REDCap),Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability,2026-11-18,Unknown
 CVE-2026-90436,Apache,Axis,Apache Axis Unsafe Reflection Vulnerability,2026-11-18,Unknown
@@ -16,7 +18,3 @@ CVE-2026-20320,Cisco,BroadWorks,Cisco BroadWorks Improper Restriction of XML Ext
 CVE-2026-111560,Barracuda Networks,Multiple Products,Barracuda Networks Multiple Products OS Command Injection Vulnerability,2026-11-10,Unknown
 CVE-2026-116606,Barracuda Networks,Barracuda Email Security Gateway (ESG),Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability,2026-11-10,Unknown
 CVE-2026-125350,Google,Chromium,Google Chromium Use-After-Free Vulnerability,2026-11-10,Unknown
-CVE-2026-102895,GPUStack,GPUStack,GPUStack Improper Authentication Vulnerability,2026-11-09,Unknown
-CVE-2026-123158,OpenBSD,OpenSSH,OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability,2026-11-09,Unknown
-CVE-2026-116779,SignalWire,FreeSwitch,SignalWire FreeSwitch Code Injection Vulnerability,2026-11-09,Unknown
-CVE-2026-123218,IBM,Aspera Faspex,IBM Aspera Faspex Incorrect Authorization Vulnerability,2026-11-09,Unknown

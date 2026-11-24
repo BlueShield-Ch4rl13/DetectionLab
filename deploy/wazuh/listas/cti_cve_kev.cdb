@@ -1,3 +1,5 @@
+CVE-2026-133968:Project MONAI MONAI Label
+CVE-2026-134624:N-able MailAssure
 CVE-2026-129448:Apache Roller
 CVE-2026-123890:Broadcom VMware vCenter
 CVE-2025-42884:SAP NetWeaver
@@ -15,7 +17,3 @@ CVE-2026-20320:Cisco BroadWorks
 CVE-2026-111560:Barracuda Networks Multiple Products
 CVE-2026-116606:Barracuda Networks Barracuda Email Security Gateway (ESG)
 CVE-2026-125350:Google Chromium
-CVE-2026-102895:GPUStack GPUStack
-CVE-2026-123158:OpenBSD OpenSSH
-CVE-2026-116779:SignalWire FreeSwitch
-CVE-2026-123218:IBM Aspera Faspex
