@@ -1,3 +1,6 @@
+CVE-2026-132224:Optimizely Web Experimentation
+CVE-2026-131914:Idunno AntiCsrf
+CVE-2026-132165:Drupal Core
 CVE-2026-133968:Project MONAI MONAI Label
 CVE-2026-134624:N-able MailAssure
 CVE-2026-129448:Apache Roller
@@ -11,9 +14,3 @@ CVE-2026-90436:Apache Axis
 CVE-2026-115731:Perforce Puppet Enterprise
 CVE-2026-114713:UnrealIRCd UnrealIRCd
 CVE-2026-123039:Check Point Multiple Products
-CVE-2026-124194:Microsoft Office
-CVE-2026-111793:Openwave Messaging Limited Webtop Media Transcoder
-CVE-2026-20320:Cisco BroadWorks
-CVE-2026-111560:Barracuda Networks Multiple Products
-CVE-2026-116606:Barracuda Networks Barracuda Email Security Gateway (ESG)
-CVE-2026-125350:Google Chromium
