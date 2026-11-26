@@ -14,4 +14,4 @@ pysigma-backend-elasticsearch==2.1.1 # backend Elastic: Lucene y ES|QL
 pysigma-pipeline-sysmon==2.0.0       # mapeo de campos a Sysmon
 pysigma-pipeline-windows==2.0.1      # mapeo de logs de Windows
 
-pyyaml==6.0.3
+pyyaml==6.0.4
