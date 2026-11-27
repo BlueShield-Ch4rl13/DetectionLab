@@ -1,11 +1,19 @@
+"http://115.63.49.239:40666/bin.sh":Mirai|media
+"https://satdevinfo.org/qweopzui/CBE11A8A315A7951":Unknown malware|media
+"http://18.195.101.10:8080/payload/f47b9958e130/deskhlp.exe":Unknown malware|media
+"http://18.195.101.10:8080/payload/latest/bot.exe":Unknown malware|media
+"https://eset-blacklist.net:16443":Unknown malware|media
+"https://pplpp.microsfot.vip/register-ip":Unknown malware|media
+"http://18.195.101.10:8080/ws/agent?token=d439c841ba226a16defa9f23ef4bb84a1330f5801d333482":Unknown malware|media
+"http://45.198.224.75/xmrig-x64":Unknown malware|media
+"https://tribot.co.uk/gamefilesnew/RuneLite.jar":Unknown Stealer|media
+"https://26.dirtyshield-posting-airbeacon.space/v7/k3m-p9x":Unknown Stealer|media
+"https://norm.sushimoscow.online/v7/k3m-p9x":Unknown Stealer|media
+"https://rinselogic.date/v7/k3m-p9x":Unknown Stealer|media
 "https://help.windows64.men/webdav/tk1.cmd":ValleyRAT|media
 "https://help.windows64.men/webdav/tk2.txt":ValleyRAT|media
 "https://tk-1500200614.cos.ap-guangzhou.myqcloud.com/tk1.y":ValleyRAT|media
 "https://tk-1500200614.cos.ap-guangzhou.myqcloud.com/tk2.y":ValleyRAT|media
-"http://27.44.146.117:50750/bin.sh":Mirai|media
-"http://175.146.228.158:43200/bin.sh":Mirai|media
-"https://eset-blacklist.net:16443":Unknown malware|media
-"https://pplpp.microsfot.vip/register-ip":Unknown malware|media
 "https://metallurgify.com:16443":Unknown malware|media
 "http://smart-future-9.buzz/index51.php":Stealc|media
 "https://smartdev-tech.buzz":Stealc|media
@@ -14,13 +22,13 @@
 "http://64.89.161.83/yrjrs/baby.bba":Stealc|media
 "https://nixestray.com/nfront.php":Stealc|media
 "https://nixestray.com/nback.php":Stealc|media
-"https://guildofsecurity.co.uk/":Unknown malware|media
-"https://goalvixos.click/":Unknown malware|media
-"https://galenaperistyle.info/gateway/user-fetch.js":SmartApeSG|media
-"https://cupritepantheon.info/realm/api-pipeline.js":SmartApeSG|media
-"https://sphaleriteforum.info/logout/handler-header.js":SmartApeSG|media
-"https://185.102.175.207:27017/ws/device":Unknown RAT|media
-"http://85.193.68.206/korpov":Phorpiex|media
+"http://47.98.135.22/diretxx.bin":DCRat|media
+"http://47.98.135.22/directx.dll":DCRat|media
+"https://definiacapital.com/":Unknown malware|media
+"https://cms.abupi.or.id/id/beranda/":Unknown malware|media
+"https://www.yvonnelangelaan.nl/":Unknown malware|media
+"https://whatsapp.learnwithquantum.com/":Unknown malware|media
+"https://nautilusconstructionfiji.com/":Unknown malware|media
 "http://holtandberyl.com/prw":SmartApeSG|media
 "http://holtandberyl.com/crv":SmartApeSG|media
 "https://d8815f-0edc4e94-b0180ec9a046a1e0b.palegrove.cc/install.ps1":ACR Stealer|media
@@ -29,138 +37,9 @@
 "https://wordpress-plugin.tech/next-chain/rce_worker_18.6.js":Unknown malware|media
 "https://wordpress-plugin.tech/next-chain/boot.js":Unknown malware|media
 "https://wordpress-plugin.tech/next-chain/api.php?ep=/api/ds/chain-targets":Unknown malware|media
-"https://tefenni-haber.cyou/":Unknown malware|media
-"https://southshieldsgands.co.uk/":Unknown malware|media
-"https://sosyalsepet.xyz/":Unknown malware|media
-"https://uludere-haber.com.tr/":Unknown malware|media
-"https://tpkbilgisayar.com.tr/":Unknown malware|media
-"https://sancaktepetasimacilik.cyou/":Unknown malware|media
-"https://sileajans.cyou/":Unknown malware|media
-"https://playvions.click/":Unknown malware|media
-"https://pendiktasimacilik.cyou/":Unknown malware|media
-"https://sogut-haber.com.tr/":Unknown malware|media
-"https://nhyyazilim.com.tr/":Unknown malware|media
-"https://unye-nakliyat.cyou/":Unknown malware|media
-"https://uskudartasimacilik.cyou/":Unknown malware|media
-"https://websentez.com.tr/":Unknown malware|media
-"https://gregoryphillipslaw.com/":Unknown malware|media
-"https://wpmagazam.com.tr/":Unknown malware|media
-"https://uludere-haber.xyz/":Unknown malware|media
-"https://theme-design.co.uk/":Unknown malware|media
-"https://tuzlukcu-haber.cyou/":Unknown malware|media
-"https://tfp-architects.co.uk/":Unknown malware|media
-"https://tesisatkacagitespiti.com.tr/":Unknown malware|media
-"https://mash-b.co.uk/":Unknown malware|media
-"https://matchlurse.click/":Unknown malware|media
-"https://mersinescortbayanlar.cyou/":Unknown malware|media
-"https://maltepe-haber.com.tr/":Unknown malware|media
-"https://youhavefoundone.com/":Unknown malware|media
-"https://mercurymedical.xyz/":Unknown malware|media
-"https://yjwebdesigns.co.uk/":Unknown malware|media
-"https://mercurymedical.cyou/":Unknown malware|media
-"https://mgreklamajans.com.tr/":Unknown malware|media
-"https://twu.edu.pl/":Unknown malware|media
-"https://trueformm.xyz/":Unknown malware|media
-"https://vegasspinelite.com/":Unknown malware|media
-"https://turgutludahaliyikama.com/":Unknown malware|media
-"https://villatrecastelli.it/":Unknown malware|media
-"https://ulubey-nakliyat.com.tr/":Unknown malware|media
-"https://xphomenetworking.com/":Unknown malware|media
-"https://vintofficial.com/":Unknown malware|media
-"https://wasafihomestay.com/":Unknown malware|media
-"https://websihirbazi.cyou/":Unknown malware|media
-"https://z-engineeringusa.com/":Unknown malware|media
-"https://varvaracostruzioni.it/":Unknown malware|media
-"https://www.tvetclub.com/":Unknown malware|media
-"https://topicalbuzz.com/":Unknown malware|media
-"https://trainthougths.com/":Unknown malware|media
-"https://www.thecosmeticscompanybv.com/":Unknown malware|media
-"https://vapesnshakes.com/":Unknown malware|media
-"https://tinsoikeo.today/":Unknown malware|media
-"https://tricoloresfan.com/":Unknown malware|media
-"https://ti84calcs.com/":Unknown malware|media
-"https://nenedir.xyz/":Unknown malware|media
-"https://gurgentepe-nakliyat.com.tr/":Unknown malware|media
-"https://gaziosmanpasatasimacilik.cyou/":Unknown malware|media
-"https://golcukelektrikci.cyou/":Unknown malware|media
-"https://ispartaweb-tasarim.xyz/":Unknown malware|media
-"https://gamelyras.click/":Unknown malware|media
-"https://ilanvermesitesi.cyou/":Unknown malware|media
-"https://ikizce-nakliyat.com.tr/":Unknown malware|media
-"https://istanbulofismobilyasi.com.tr/":Unknown malware|media
-"https://internetdevi.com.tr/":Unknown malware|media
-"https://kabaduz-nakliyat.com.tr/":Unknown malware|media
-"https://diflex.co.uk/":Unknown malware|media
-"https://dailvion.click/":Unknown malware|media
-"https://fatsa-nakliyat.cyou/":Unknown malware|media
-"https://fatsa-nakliyat.xyz/":Unknown malware|media
-"https://eskisehirtvtamir.xyz/":Unknown malware|media
-"https://computervalue.co.uk/":Unknown malware|media
-"https://g-bridgehouse.co.uk/":Unknown malware|media
-"https://catalpinar-nakliyat.cyou/":Unknown malware|media
-"https://bilnetyazilim.com.tr/":Unknown malware|media
-"https://bondology.com.tr/":Unknown malware|media
-"https://avcilartasimacilik.xyz/":Unknown malware|media
-"https://boostsocials.com.tr/":Unknown malware|media
-"https://aybasti-nakliyat.xyz/":Unknown malware|media
-"https://balikesirevdennakliyateve.com.tr/":Unknown malware|media
-"https://besiktastasimacilik.cyou/":Unknown malware|media
-"https://bagcilartasimacilik.cyou/":Unknown malware|media
-"https://arvenbilisim.com.tr/":Unknown malware|media
-"https://ahmetlievdenevenakliye.com.tr/":Unknown malware|media
-"https://yigilca-haber.cyou/":Unknown malware|media
-"https://uludere-haber.cyou/":Unknown malware|media
-"https://yavuzeli-haber.com.tr/":Unknown malware|media
-"https://vandacreative.cyou/":Unknown malware|media
-"https://viaworks.com.tr/":Unknown malware|media
-"https://whiteroseformations.co.uk/":Unknown malware|media
-"https://tesisatkacagibulmak.cyou/":Unknown malware|media
-"https://turgutluevdenevenakliyat.com.tr/":Unknown malware|media
-"https://taskent-haber.xyz/":Unknown malware|media
-"https://sosyalsepet.com.tr/":Unknown malware|media
-"https://solopharma.com.tr/":Unknown malware|media
-"https://sondakikavan.com.tr/":Unknown malware|media
-"https://sogut-haber.cyou/":Unknown malware|media
-"https://scorezesa.click/":Unknown malware|media
-"https://reelvixo.click/":Unknown malware|media
-"https://samsunyilmaznakliyat.com.tr/":Unknown malware|media
-"https://sileajans.com.tr/":Unknown malware|media
-"https://simon-davis.co.uk/":Unknown malware|media
-"https://salihlievdenevenakliye.com.tr/":Unknown malware|media
-"https://meetmed-financenavigator.org/":Unknown malware|media
-"https://osmancik-haber.cyou/":Unknown malware|media
-"https://lockpressone.com.br/":Unknown malware|media
-"https://phpkaynak.com.tr/":Unknown malware|media
-"https://kusadasimedya.cyou/":Unknown malware|media
-"https://kumluca-haber.com.tr/":Unknown malware|media
-"https://uu.bais66993.com/":Unknown malware|media
-"https://mamitasgeniales.com/":Unknown malware|media
-"https://kargi-haber.xyz/":Unknown malware|media
-"https://koprubasievdenevenakliyat.com.tr/":Unknown malware|media
-"https://kecioren-haber.com.tr/":Unknown malware|media
-"https://kecioren-haber.cyou/":Unknown malware|media
-"https://livzeno.click/":Unknown malware|media
-"https://meteo-jours.com/":Unknown malware|media
-"https://mbts-mbtshoes.com/":Unknown malware|media
-"https://iusegroovefunnels.com/":Unknown malware|media
-"https://izmit-web-tasarim.com.tr/":Unknown malware|media
-"https://isparta-eticaret.xyz/":Unknown malware|media
-"https://ismailkarakaya.com.tr/":Unknown malware|media
-"https://jpwspeaker.co.uk/":Unknown malware|media
-"https://ispartaweb-tasarim.cyou/":Unknown malware|media
-"https://charlesgrayart.com/":Unknown malware|media
-"https://dusbazkitaplar.cyou/":Unknown malware|media
-"https://miexpo.smartdemowp.com/":Unknown malware|media
-"https://caybasi-nakliyat.cyou/":Unknown malware|media
-"https://binhotransportes.com.br/":Unknown malware|media
-"https://canakkaleweb-tasarim.cyou/":Unknown malware|media
-"https://camerondean.co.uk/":Unknown malware|media
-"https://beyoglutasimacilik.cyou/":Unknown malware|media
-"https://bihatun.com.tr/":Unknown malware|media
-"https://apostle-art.co.uk/":Unknown malware|media
-"https://basaksehirtasimaciliik.cyou/":Unknown malware|media
-"https://asinaturizm.com.tr/":Unknown malware|media
-"https://ajansvita.com.tr/":Unknown malware|media
+"http://k.vietnam852.com:88/look/xmrig.x":XMRIG|media
+"https://c211-miner-573816966241.s3.amazonaws.com/pm/peakminer-2.20.0-linux-x86_64":Unknown malware|media
+"http://103.79.78.162/upsupx3.txt":Unknown malware|media
 "https://tobpt.com/instagram.svg":Unknown malware|media
 "https://jadahadrives.com/instagram.svg":Unknown malware|media
 "https://loadmirapp.org/instagram.svg":Unknown malware|media
@@ -171,6 +50,32 @@
 "https://wpbuilder-plugin.tech/next-chain/api.php?ep=/beacon":Unknown malware|media
 "https://wordpress-plugin.tech/wp-content/plugins/wp-minify-cache-helper/0435d08805fe69b7.php":Unknown malware|media
 "https://wordpress-plugin.tech/api/ds/device/register":Unknown malware|media
+"https://vundervafel.com/":WARDENStealer|media
+"https://soi-space.mom/":WARDENStealer|media
+"https://22solvarento.website/":WARDENStealer|media
+"http://175.107.208.38:43982/Mozi.m":Mozi|media
+"http://103.18.14.104:59204/Mozi.m":Mozi|media
+"http://www.jts6831897.casa/jarc/":Formbook|media
+"https://heret.cc/":WARDENStealer|media
+"https://northeast-community-federal-cr-xhhq.w-qchza7.workers.dev/":Unknown malware|media
+"https://mfa-security-review-summary-jrskw.hmforrent3.workers.dev/":Unknown malware|media
+"https://school-of-the-epiphany-mome.w-poekuq.workers.dev/":Unknown malware|media
+"https://proposal-at-a-glance-rkoh.w-tq21bq.workers.dev/":Unknown malware|media
+"https://encrypted-document-loading-rkjr.w-bi65k4.workers.dev/":Unknown malware|media
+"https://secureonline-workspace-services-document-antb.w-1094xu.workers.dev/":Unknown malware|media
+"http://77.53.43.236:43689/Mozi.m":Mozi|media
+"http://27.44.144.196:32947/bin.sh":Mirai|media
+"http://110.186.230.172:42394/i":Mirai|media
+"http://114.217.251.140:40365/bin.sh":Mirai|media
+"http://39.34.167.63:34291/Mozi.m":Mozi|media
+"http://123.4.132.174:34716/bin.sh":Mirai|media
+"http://139.135.45.23:38075/Mozi.a":Mozi|media
+"http://42.239.238.250:51757/i":Mirai|media
+"http://123.4.132.174:34716/i":Mirai|media
+"http://123.11.78.89:53633/bin.sh":Mirai|media
+"http://123.11.78.89:53633/i":Mirai|media
+"http://223.123.72.48:33607/Mozi.m":Mozi|media
+"http://103.68.95.197:33529/i":Mirai|media
 "https://mekopuf.com/":WARDENStealer|media
 "http://221.0.122.160:38599/i":Mirai|media
 "http://106.40.242.86:36976/bin.sh":Mirai|media
@@ -183,185 +88,102 @@
 "http://210.208.110.147:52785/i":Mirai|media
 "http://115.50.66.161:50827/i":Mozi|media
 "http://106.40.242.86:36976/i":Mirai|media
-"http://112.230.123.31:39463/bin.sh":Mirai|media
-"http://153.117.40.238:50481/Mozi.m":Mozi|media
-"http://210.208.111.74:59592/i":Mirai|media
-"http://59.96.142.125:58313/bin.sh":Mozi|media
-"http://175.173.57.130:44444/i":Mirai|media
-"http://59.96.142.125:58313/i":Mozi|media
-"http://210.208.110.147:52785/bin.sh":Mirai|media
-"http://27.44.146.117:50750/i":Mirai|media
-"https://qemball.pics/":WARDENStealer|media
-"http://176.194.109.14:65177/bin.sh":Mirai|media
-"http://180.188.142.2:15357/bin.sh":Mirai|media
-"http://163.142.78.253:33992/i":Mirai|media
-"http://180.188.142.2:15357/i":Mirai|media
-"http://163.142.78.253:33992/bin.sh":Mirai|media
-"http://220.198.112.114:53273/bin.sh":Mirai|media
-"http://176.194.109.14:65177/i":Mirai|media
-"http://60.23.72.191:58315/i":Mirai|media
-"http://60.23.72.191:58315/bin.sh":Mirai|media
-"http://195.165.182.55:57789/i":Mirai|media
-"http://120.84.214.12:42447/i":Mirai|media
-"http://175.174.12.115:47264/bin.sh":Mirai|media
-"http://42.86.61.233:46840/i":Mirai|media
-"http://27.44.146.91:44234/bin.sh":Mirai|media
-"http://202.97.185.93:57081/i":Mirai|media
-"http://202.97.185.93:57081/bin.sh":Mirai|media
-"http://175.174.12.115:47264/i":Mirai|media
-"http://222.139.193.228:54687/i":Mirai|media
-"http://27.44.146.91:44234/i":Mirai|media
-"http://125.41.4.101:48611/bin.sh":Mozi|media
-"http://188.150.237.238:34099/i":Mirai|media
-"http://123.5.221.28:52437/i":Mozi|media
-"http://59.103.121.18:60539/i":Mozi|media
-"http://27.215.50.218:47438/i":Mozi|media
-"http://113.206.164.142:60003/bin.sh":Mirai|media
-"http://117.190.134.251:43413/bin.sh":Mirai|media
-"http://154.219.116.232:80/Mddos/Mddos.x86":Mirai|media
-"http://196.191.231.12:48151/bin.sh":Mirai|media
-"http://42.230.38.231:35880/i":Mozi|media
-"http://222.137.228.228:37129/i":Mirai|media
-"http://222.137.228.228:37129/bin.sh":Mirai|media
-"http://115.55.131.109:60209/i":Mozi|media
-"http://196.191.231.12:48151/i":Mirai|media
-"http://117.190.134.251:43413/i":Mirai|media
-"http://210.208.110.130:37911/i":Mirai|media
-"http://115.53.199.205:33495/bin.sh":Mozi|media
-"http://39.83.4.179:58231/bin.sh":Mozi|media
-"http://125.47.116.38:51780/i":Mozi|media
-"http://39.83.4.179:58231/i":Mozi|media
-"http://42.235.172.150:48957/i":Mozi|media
-"http://42.235.172.150:48957/bin.sh":Mozi|media
-"http://123.9.43.224:44640/i":Mozi|media
-"http://180.244.14.230:50476/i":Mirai|media
-"http://105.225.94.152:44633/bin.sh":Mirai|media
-"http://187.110.223.227:49186/i":Mirai|media
-"http://105.225.94.152:44633/i":Mirai|media
-"http://196.190.69.149:56241/i":Mirai|media
-"http://42.229.165.75:50821/i":Mozi|media
-"http://210.208.111.26:35067/bin.sh":Mirai|media
-"http://42.229.165.75:50821/bin.sh":Mozi|media
-"http://110.136.54.87:57128/bin.sh":Mirai|media
-"http://45.168.132.19:35824/i":Mirai|media
-"http://222.134.163.136:54580/i":Mozi|media
-"http://27.220.190.227:47651/bin.sh":Mozi|media
-"http://110.136.54.87:57128/i":Mirai|media
-"http://125.42.119.250:51780/bin.sh":Mozi|media
-"http://115.53.199.205:33495/i":Mozi|media
-"http://223.123.34.25:49534/Mozi.m":Mozi|media
-"http://153.117.40.93:40006/Mozi.m":Mozi|media
-"http://120.86.170.227:34213/i":Mirai|media
-"http://117.223.142.165:52458/i":Mozi|media
-"http://27.17.242.120:44735/bin.sh":Mirai|media
-"http://175.107.16.92:55581/bin.sh":Mozi|media
-"http://37.54.14.52:34150/i":Mozi|media
-"http://103.203.45.6:34960/Mozi.m":Mozi|media
-"http://182.114.240.63:58611/i":Mirai|media
-"http://125.41.4.101:48611/i":Mozi|media
-"http://175.107.16.92:55581/i":Mozi|media
-"http://182.117.155.67:50821/bin.sh":Mozi|media
-"http://222.139.193.228:54687/bin.sh":Mirai|media
-"http://113.206.164.142:60003/i":Mirai|media
-"http://210.208.110.20:40277/i":Mirai|media
-"http://210.208.111.26:35067/i":Mirai|media
-"http://125.42.119.250:51780/i":Mozi|media
-"http://210.208.110.51:41900/i":Mirai|media
-"http://182.117.155.67:50821/i":Mozi|media
-"http://115.55.230.233:51891/i":Mirai|media
-"http://27.220.190.227:47651/i":Mozi|media
-"https://rv.ayo887.net/w/gate":Vidar|media
-"https://uc5a2b904192ddb8908369c72db3.dl.dropboxusercontent.com/cd/0/get/DMrYEnGjXzoxfimDyO5Yg2XPWD19Du__mEIMtHaxl7yIo8EQfKgoAY1tXk9_hLW98Ks5IFkYBHhmssh4j2mzUE8Ewd3qoliLY_Q3tv8QySeZ0p6nZ-sC3BoFINQ4l-OChaz8Mp6qQRS1GaWfwqqFnP3N/file?dl=1":malware_download|media
-"http://101.108.99.149:50036/bin.sh":malware_download|media
-"https://github.com/dev-transcript/trading-expansion/releases/download/Assets3/Fidelity_trading_requirements_transcriptfile.zip":malware_download|media
-"http://41.120.3.77:37923/bin.sh":malware_download|media
-"http://2.249.168.187:33821/i":malware_download|media
-"http://175.30.68.87:58341/bin.sh":malware_download|media
-"http://112.248.185.166:33735/bin.sh":malware_download|media
-"http://112.248.185.166:33735/i":malware_download|media
-"http://171.14.139.39:44295/i":malware_download|media
-"http://182.235.148.10:47710/bin.sh":malware_download|media
-"http://27.215.210.104:43596/i":malware_download|media
-"http://220.198.113.64:53273/bin.sh":malware_download|media
-"http://31.173.199.131:33455/bin.sh":malware_download|media
-"http://112.109.204.122:54567/i":malware_download|media
-"http://182.116.48.157:50684/i":malware_download|media
-"http://219.157.216.144:37391/i":malware_download|media
-"http://27.31.132.66:42011/bin.sh":malware_download|media
-"http://185.147.42.149:33033/i":malware_download|media
-"http://27.215.183.208:39811/i":malware_download|media
-"http://123.10.70.28:54367/bin.sh":malware_download|media
-"http://101.58.115.203:38800/i":malware_download|media
-"http://113.239.120.93:42804/bin.sh":malware_download|media
-"http://158.255.83.182:36685/i":malware_download|media
-"http://163.142.84.84:56944/i":malware_download|media
-"http://219.156.101.89:36042/i":malware_download|media
-"http://182.126.117.40:47169/i":malware_download|media
-"http://27.44.145.31:34039/i":malware_download|media
-"http://27.44.146.96:35060/i":malware_download|media
-"http://175.101.31.92:37874/i":malware_download|media
-"http://27.44.146.96:35060/bin.sh":malware_download|media
-"http://113.229.213.207:34682/i":malware_download|media
-"http://115.49.1.195:47781/i":malware_download|media
-"http://176.193.149.215:56352/i":malware_download|media
-"http://113.229.213.207:34682/bin.sh":malware_download|media
-"http://113.239.120.93:42804/i":malware_download|media
-"http://115.59.156.9:50636/i":malware_download|media
-"http://123.235.221.199:56677/i":malware_download|media
-"http://27.205.153.147:44313/i":malware_download|media
-"http://163.47.99.53:58744/i":malware_download|media
-"http://27.205.153.147:44313/bin.sh":malware_download|media
-"http://120.84.212.92:47094/bin.sh":malware_download|media
-"http://112.25.235.194:59721/i":malware_download|media
-"http://222.173.239.186:39071/i":malware_download|media
-"http://182.121.62.56:46987/i":malware_download|media
-"http://182.119.254.208:47139/bin.sh":malware_download|media
-"http://115.55.230.233:51891/bin.sh":malware_download|media
-"http://27.37.101.108:50864/bin.sh":malware_download|media
-"http://115.49.8.39:50635/bin.sh":malware_download|media
-"http://123.159.131.249:41028/bin.sh":malware_download|media
-"http://115.99.237.100:39320/bin.sh":malware_download|media
-"http://123.252.20.207:39495/bin.sh":malware_download|media
-"http://203.160.9.182:56919/i":malware_download|media
-"http://220.170.216.80:39478/bin.sh":malware_download|media
-"http://203.177.28.149:56654/bin.sh":malware_download|media
-"http://115.63.185.171:49062/bin.sh":malware_download|media
-"http://210.208.110.130:37911/bin.sh":malware_download|media
-"http://210.208.110.21:49590/i":malware_download|media
-"http://219.157.50.121:42790/i":malware_download|media
-"http://210.208.110.20:40277/bin.sh":malware_download|media
-"http://210.208.110.172:54854/bin.sh":malware_download|media
-"http://27.44.145.210:56881/bin.sh":malware_download|media
-"http://124.135.173.114:58159/i":malware_download|media
-"http://219.156.140.51:56822/i":malware_download|media
-"http://188.150.237.238:34099/bin.sh":malware_download|media
-"http://37.48.147.132:47348/i":malware_download|media
-"http://105.157.135.170:51769/i":malware_download|media
-"http://42.226.66.178:59700/i":malware_download|media
-"http://42.226.66.178:59700/bin.sh":malware_download|media
-"http://27.207.242.71:49043/bin.sh":malware_download|media
-"https://arclabio.com/erp.jpg":malware_download|media
-"https://arclabio.com/xnn.doc":malware_download|media
-"http://196.188.141.17:52413/i":malware_download|media
-"http://116.140.133.129:44639/i":malware_download|media
-"http://125.44.254.242:40384/i":malware_download|media
-"http://200.115.102.246:38532/i":malware_download|media
-"http://200.115.102.246:38532/bin.sh":malware_download|media
-"http://182.234.145.4:47194/i":malware_download|media
-"https://drive.google.com/uc?export=download&id=1I-uzB-CbUzRiL8FduWvGgKqLLuYjeXVm":malware_download|media
-"http://77.239.124.193/probe-amd64":malware_download|media
-"https://koreanuniversal.com/tsk/secured_stub.ps1":malware_download|media
-"http://77.239.124.193/probe-csky":malware_download|media
-"https://files.catbox.moe/f5qlh0.js":malware_download|media
-"http://183.35.50.101:32772/bin.sh":malware_download|media
-"http://102.210.149.166:8891/s/bz":malware_download|media
-"http://161.118.210.55:8443/deploy.sh":malware_download|media
-"https://hp.duxlip.icu/Hyper.zip":malware_download|media
-"http://125.44.254.242:40384/bin.sh":malware_download|media
-"http://219.157.50.12:49370/i":malware_download|media
-"http://222.210.114.50:32770/i":malware_download|media
-"http://222.210.114.50:32770/bin.sh":malware_download|media
-"http://45.172.218.85:59346/i":malware_download|media
-"http://115.51.103.248:54629/i":malware_download|media
-"http://219.157.50.12:49370/bin.sh":malware_download|media
-"http://46.252.38.41:49213/i":malware_download|media
+"http://115.57.212.218:48527/i":malware_download|media
+"http://60.22.183.237:40129/i":malware_download|media
+"http://115.63.247.181:41562/i":malware_download|media
+"http://45.183.184.74:45952/i":malware_download|media
+"http://159.255.22.35:54622/bin.sh":malware_download|media
+"http://125.25.188.237:35865/i":malware_download|media
+"http://123.10.70.28:54367/i":malware_download|media
+"http://39.74.201.99:48871/i":malware_download|media
+"http://183.35.50.80:32772/bin.sh":malware_download|media
+"http://219.157.185.159:51054/i":malware_download|media
+"http://125.25.188.237:35865/bin.sh":malware_download|media
+"http://42.7.213.186:45827/bin.sh":malware_download|media
+"http://123.7.227.90:60439/bin.sh":malware_download|media
+"http://42.5.129.10:56888/i":malware_download|media
+"http://123.4.199.164:54149/i":malware_download|media
+"http://59.96.139.13:48944/bin.sh":malware_download|media
+"http://27.221.226.80:36994/bin.sh":malware_download|media
+"http://42.5.129.10:56888/bin.sh":malware_download|media
+"http://59.97.248.171:42172/i":malware_download|media
+"http://119.179.254.194:46765/bin.sh":malware_download|media
+"http://123.14.144.198:48420/i":malware_download|media
+"http://112.237.166.198:35087/i":malware_download|media
+"http://182.116.38.232:54790/i":malware_download|media
+"http://223.212.33.58:38049/i":malware_download|media
+"http://79.106.231.174:57322/bin.sh":malware_download|media
+"http://196.190.105.170:32835/i":malware_download|media
+"http://89.189.188.39:59106/bin.sh":malware_download|media
+"http://196.189.3.1:64442/i":malware_download|media
+"http://59.96.136.42:42521/i":malware_download|media
+"http://115.50.104.132:56434/i":malware_download|media
+"http://61.52.133.55:39897/i":malware_download|media
+"http://115.50.104.132:56434/bin.sh":malware_download|media
+"http://163.142.93.132:33792/bin.sh":malware_download|media
+"http://221.194.101.254:45123/i":malware_download|media
+"http://42.7.213.186:45827/i":malware_download|media
+"http://105.186.175.17:59023/i":malware_download|media
+"http://221.194.101.254:45123/bin.sh":malware_download|media
+"http://105.186.175.17:59023/bin.sh":malware_download|media
+"http://123.14.217.155:33523/i":malware_download|media
+"http://14.20.205.76:37413/i":malware_download|media
+"http://39.89.45.59:54245/bin.sh":malware_download|media
+"http://61.77.101.38:35197/i":malware_download|media
+"http://123.14.217.155:33523/bin.sh":malware_download|media
+"http://119.119.164.241:39547/i":malware_download|media
+"http://59.96.137.18:57466/i":malware_download|media
+"http://113.99.201.25:51687/i":malware_download|media
+"http://115.53.218.98:42479/i":malware_download|media
+"http://182.121.146.131:51908/i":malware_download|media
+"http://46.252.38.41:49213/bin.sh":malware_download|media
+"http://123.9.246.143:37588/i":malware_download|media
+"http://117.223.143.1:36734/i":malware_download|media
+"http://115.53.218.98:42479/bin.sh":malware_download|media
+"http://182.121.146.131:51908/bin.sh":malware_download|media
+"http://14.20.205.76:37413/bin.sh":malware_download|media
+"http://27.207.36.249:49356/i":malware_download|media
+"https://github.com/kojoyeboah1/zapret-discord/releases/download/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Zapret/zapret-discord.zip":malware_download|media
+"http://222.141.130.202:36010/i":malware_download|media
+"http://219.157.232.50:44060/i":malware_download|media
+"http://81.137.218.250:28091/.i":malware_download|media
+"http://112.242.81.106:37843/i":malware_download|media
+"http://182.119.248.215:34313/bin.sh":malware_download|media
+"https://uc0be4bfd0b65731ccbdc736c791.dl.dropboxusercontent.com/zip_download_get/CwHC-dNXDC_n7zmL-vCi8QMe6369QYoTMPI_q2AHEC_CK9CBMb6WvBEOPXRvsp38rhFAiz8jT865OMPY-jG7zHx0bPM5JDVPbLKxh5WWZZPQ3g":malware_download|media
+"https://ucbd1ef3d7be5e3d76ee90cfd8bf.dl.dropboxusercontent.com/cd/0/get/DMrt1tUEGJwbecL6uwurNf58NGTSfhzeBeCMrfAJt-8R4xTVtvrl1axUd8VkBrJCq3CSF7E0GnMKPq9hLJdGbFM09sCWNlldsL9Zh7hui6OAr8VLQDkHeZ1Bazw_Yf43_Dm0kfWFqOoZdivAb9pbR3ZS/file?dl=1":malware_download|media
+"http://219.157.232.50:44060/bin.sh":malware_download|media
+"https://uc7bed4fa02edee3fb4174764466.dl.dropboxusercontent.com/cd/0/get/DMp-CSaXHf_ltabyzDSSyQ-nx7c6YOFn5xQ6XGprF9hmj0cluheT3i5HS6MT4tUXegccWM9biAtg78orj9bZwJhXLSEMdb4znjNq29oI8jCGDXJR2SFvc-bAGhsWpYZiBQXguGOlyn84jR4XH5hvq9bQ/file?dl=1":malware_download|media
+"http://115.50.151.228:49064/i":malware_download|media
+"http://115.57.212.218:48527/bin.sh":malware_download|media
+"http://39.89.45.59:54245/i":malware_download|media
+"https://release-assets.githubusercontent.com/github-production-release-asset/1443393207/d4524881-6f46-4ae4-badc-cac0bcf79e75?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-26T16%3A00%3A39Z&rscd=attachment%3B+filename%3DOurBeam.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-26T15%3A00%3A06Z&ske=2026-11-26T16%3A00%3A39Z&sks=b&skv=2018-11-09&sig=trGqc%2FW2lbZuqJl9ztHXHkEQeC28oMAXfV%2FQPCSnTkw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NTcwOTc4OSwibmJmIjoxNzk1NzA2MTg5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rdcauIYTBq8jy-OnUVoXTG49qrUm5HKnwOaxkK5WbA4&response-content-disposition=attachment%3B%20filename%3DOurBeam.exe&response-content-type=application%2Foctet-stream":malware_download|media
+"https://example.com/":malware_download|media
+"http://38.226.161.94:46225/i":malware_download|media
+"http://200.81.161.26:49974/bin.sh":malware_download|media
+"http://182.123.188.210:46964/i":malware_download|media
+"http://163.142.95.243:34472/bin.sh":malware_download|media
+"http://38.226.161.94:46225/bin.sh":malware_download|media
+"http://64.89.163.112/mips":malware_download|media
+"http://31.56.53.117/gz067.arm5":malware_download|media
+"https://i4-mi.cn/generated_pages/moban40/static/download/i4Tools.zip":malware_download|media
+"https://bucketobs.oss-cn-hongkong.aliyuncs.com/i4Toolls_v9.12.012_Setuip_x64.zip":malware_download|media
+"https://software-download-hk.oss-cn-hongkong.aliyuncs.com/aisizhushou-4.5.0.zip":malware_download|media
+"https://001-ascjkasckj-acshkask-xnzjsknka.oss-ap-southeast-1.aliyuncs.com/i4Tools_Setup_x6420260921_222527.zip":malware_download|media
+"https://hpp.duxlip.icu/Hyper.zip":malware_download|media
+"http://checkinidadd.com/token":malware_download|media
+"https://amcchina.com/download/win-Bundle%20x643014.zip":malware_download|media
+"https://pub-8c944cde37db4a589e86137d049091b0.r2.dev/Aliyrne-s3/Lmynrewb/Aisizhushou-i4-win6.80.8.zip":malware_download|media
+"https://pub-a224f807124742f6bd3e49da8fe762a5.r2.dev/typeeasy.22063.12012.0.zip":malware_download|media
+"https://edge2.speedstest.org/files/msedgeupdate.exe":malware_download|media
+"https://runeliteplus.net/downloads/RuneLite.exe":malware_download|media
+"http://123.233.80.134:46597/Mozi.m":malware_download|media
+"http://31.56.53.117/gz067.arm7":malware_download|media
+"http://31.56.53.117/gz067":malware_download|media
+"http://200.81.161.26:49974/i":malware_download|media
+"https://pub-9f713b44098e49fc88246a955a24dd58.r2.dev/agent-linux-x86":malware_download|media
+"http://182.117.68.67:43347/i":malware_download|media
+"https://edge2.speedstest.org/files/msedgeupdate.dll":malware_download|media
+"https://pub-9f713b44098e49fc88246a955a24dd58.r2.dev/agent-linux-arm64":malware_download|media
+"http://72.56.52.9/pid.arm7":malware_download|media
+"https://123872.xyz/Q1fc8a9OCb7AsC6f/dl/50919e9a-9a60-4703-9059-6cb069788450?a=armv7":malware_download|media
+"https://123872.xyz/Q1fc8a9OCb7AsC6f/dl/50919e9a-9a60-4703-9059-6cb069788450?a=armv6":malware_download|media
